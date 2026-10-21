@@ -1,5 +1,5 @@
 /* ============================================================
-   Türkçe Akademi — script commun
+   Türkçe Akademi : script commun
    Navigation, thème, TTS turc, progression (localStorage), toasts
    ============================================================ */
 

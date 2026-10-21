@@ -1,4 +1,4 @@
-/* Türkçe Akademi — page des cours */
+/* Türkçe Akademi : page des cours */
 
 let currentModule = 0;
 let currentTab = "lecon";
@@ -84,7 +84,7 @@ function renderModule() {
 
   el("#btn-done").addEventListener("click", () => {
     const nowDone = Progress.toggleModuleDone(m.id);
-    toast(nowDone ? "Module terminé — tebrikler !" : "Module remis en cours");
+    toast(nowDone ? "Module terminé : tebrikler !" : "Module remis en cours");
     renderSidebar();
     renderModule();
   });
@@ -124,7 +124,7 @@ function renderTab() {
       <div class="blocks">${renderBlocks(m.blocks)}</div>`;
   } else if (currentTab === "dialogue") {
     c.innerHTML = `
-      <h4 class="blk-h">Dialogue — ${m.dialogue.title}</h4>
+      <h4 class="blk-h">Dialogue : ${m.dialogue.title}</h4>
       <p class="muted mb-2">Joue-le à voix haute : chaque réplique s'écoute. Les noms alternent les côtés comme dans une vraie conversation.</p>
       <div class="dialogue">
         ${m.dialogue.lines.map((l, i) => `
@@ -188,7 +188,7 @@ function renderModuleQuiz(m, container) {
           else if (b === btn) b.classList.add("wrong");
         });
         if (i === q.a) score++;
-        el("#quiz-exp", container).innerHTML = `<b style="color:${i === q.a ? "var(--green)" : "var(--red)"}">${i === q.a ? "Doğru ! " : "Non — "}</b>${esc(q.exp)}`;
+        el("#quiz-exp", container).innerHTML = `<b style="color:${i === q.a ? "var(--green)" : "var(--red)"}">${i === q.a ? "Doğru ! " : "Non : "}</b>${esc(q.exp)}`;
         setTimeout(() => {
           answered = false;
           qi++;
@@ -207,7 +207,7 @@ function renderModuleQuiz(m, container) {
       <div class="quiz-box">
         <div class="quiz-result">
           <div class="score"><b>${score}</b>/${questions.length}</div>
-          <p>${pct === 100 ? "Parfait ! Kusursuz !" : pct >= 60 ? "Bien joué — un petit tour de flashcards et c'est validé." : "Reprends la leçon, puis retente : c'est comme ça qu'on apprend."}</p>
+          <p>${pct === 100 ? "Parfait ! Kusursuz !" : pct >= 60 ? "Bien joué : un petit tour de flashcards et c'est validé." : "Reprends la leçon, puis retente : c'est comme ça qu'on apprend."}</p>
           <span class="xp-burst">+${xp} XP</span><br><br>
           <button class="btn btn-primary" id="quiz-retry">Refaire le quiz</button>
           ${currentModule < COURSE.length - 1 ? '<button class="btn btn-ghost" id="quiz-next">Module suivant →</button>' : ""}

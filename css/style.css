@@ -197,10 +197,9 @@ html[data-theme="dark"] .nav-links a.active { background: var(--red); color: #ff
   box-shadow: var(--shadow-lg);
   padding: 26px;
   position: relative;
-  transform: rotate(1.5deg);
   animation: float 7s ease-in-out infinite;
 }
-@keyframes float { 0%,100% { transform: rotate(1.5deg) translateY(0); } 50% { transform: rotate(1.5deg) translateY(-10px); } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 .hero-card .flag {
   width: 100%; height: 8px; border-radius: 99px;
   background: linear-gradient(90deg, #E30A17 0 34%, #fff 34% 100%);
@@ -476,6 +475,30 @@ table.tbl td:first-child { font-weight: 600; color: var(--ink); }
 .btn-dont:hover { background: var(--amber); color: #fff; }
 
 .theme-chips { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 28px; }
+.vocab-shortcuts { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; margin-bottom: 16px; }
+.vocab-shortcuts .theme-chip { padding: 6px 12px; }
+.verb-guide {
+  margin: 0 0 22px; padding: 16px 18px; border: 1px solid var(--border);
+  border-radius: var(--radius); background: var(--surface);
+}
+.verb-guide summary { font-weight: 700; cursor: pointer; }
+.verb-guide-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 16px 0; }
+.verb-guide-grid > div {
+  display: grid; gap: 3px; padding: 12px; border-radius: var(--radius-sm);
+  background: var(--bg-soft);
+}
+.verb-guide-grid .tr { font-family: var(--font-head); font-weight: 700; }
+.verb-guide-grid small { color: var(--muted); }
+.verb-guide > p { font-size: .9rem; }
+.vocab-filter-label { font-size: .84rem; font-weight: 600; color: var(--ink-2); }
+.vocab-filter {
+  min-height: 38px; padding: 6px 30px 6px 12px; border-radius: 999px;
+  border: 1px solid var(--border-2); background: var(--surface); color: var(--ink);
+  font: inherit; font-size: .84rem;
+}
+.vocab-filter:focus-visible, .verb-guide summary:focus-visible {
+  outline: 3px solid var(--blue); outline-offset: 2px;
+}
 .theme-chip {
   padding: 8px 15px; border-radius: 999px; border: 1px solid var(--border);
   background: var(--surface); font-size: .83rem; font-weight: 600; color: var(--ink-2);
@@ -621,6 +644,56 @@ html[data-theme="dark"] .toast { background: var(--red); color: #fff; }
 }
 .divider { height: 1px; background: var(--border); margin: 30px 0; }
 
+/* ---------------- Planning d'études ---------------- */
+.schedule-page { padding-top: 56px; }
+.schedule-heading { max-width: 760px; margin: 0 auto 30px; text-align: center; }
+.schedule-heading h1 { font-family: var(--font-head); font-size: clamp(2rem, 4vw, 3.1rem); line-height: 1.15; letter-spacing: -.03em; margin: 12px 0; }
+.schedule-heading p { max-width: 66ch; margin: 0 auto; color: var(--ink-2); }
+.schedule-summary {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 12px;
+  margin: 24px 0 32px;
+}
+.schedule-summary span {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 999px;
+  padding: 8px 14px; font-size: .88rem; font-weight: 600;
+}
+.schedule-alert {
+  max-width: 920px; margin: 0 auto 38px; padding: 18px 20px;
+  background: var(--amber-soft); border: 1px solid var(--border); border-radius: var(--radius);
+  color: var(--ink-2);
+}
+.schedule-alert strong { color: var(--ink); }
+.schedule-section { max-width: 920px; margin: 0 auto 42px; }
+.schedule-section h2 { font-family: var(--font-head); font-size: 1.45rem; margin-bottom: 8px; }
+.schedule-section > p { color: var(--muted); margin-bottom: 16px; }
+.schedule-list { list-style: none; display: grid; gap: 10px; }
+.schedule-item {
+  display: grid; grid-template-columns: 145px 1fr; gap: 18px; align-items: start;
+  padding: 16px 18px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow-sm);
+}
+.schedule-time { font-family: var(--font-head); font-weight: 700; color: var(--red); white-space: nowrap; }
+.schedule-item h3 { font-size: 1rem; margin: 0 0 3px; }
+.schedule-item p { color: var(--muted); font-size: .91rem; margin: 0; }
+.schedule-tag { display: inline-block; margin-left: 7px; color: var(--green); font-size: .74rem; font-weight: 700; }
+.schedule-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.schedule-card {
+  padding: 22px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+}
+.schedule-card h3 { font-family: var(--font-head); margin-bottom: 8px; }
+.schedule-card p, .schedule-card li { color: var(--ink-2); font-size: .92rem; }
+.schedule-card ul { padding-left: 20px; margin-top: 10px; }
+.focus-timer {
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  padding: 22px 24px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+}
+.focus-timer > div:first-child { display: grid; gap: 4px; }
+.focus-clock { font-family: var(--font-head); font-size: clamp(2.4rem, 7vw, 3.5rem); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.focus-controls { display: flex; flex-wrap: wrap; gap: 10px; }
+.schedule-note { max-width: 920px; margin: 0 auto; color: var(--muted); font-size: .92rem; }
+
 kbd {
   font-family: var(--font-body); font-size: .78rem; font-weight: 600;
   background: var(--bg-soft); border: 1px solid var(--border-2); border-bottom-width: 2px;
@@ -658,4 +731,9 @@ kbd {
   .flashcard { height: 300px; }
   .hero-stats { gap: 22px; }
   .alpha-grid { grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); }
+  .schedule-page { padding-top: 40px; }
+  .schedule-item { grid-template-columns: 1fr; gap: 4px; }
+  .schedule-cards { grid-template-columns: 1fr; }
+  .focus-timer { align-items: flex-start; flex-direction: column; }
+  .verb-guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

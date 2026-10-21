@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon planning d'études | Türkçe Akademi</title>
+  <meta name="description" content="Un emploi du temps d'études équilibré autour des cours de 9 h à 15 h 45, avec des séances concentrées, des pauses et un vrai temps de sommeil.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="planning">
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Türkçe Akademi, accueil">
+        <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="11" fill="var(--red)"/>
+          <circle cx="16.5" cy="20" r="11" fill="#fff"/>
+          <circle cx="20.5" cy="20" r="9" fill="var(--red)"/>
+          <polygon points="27,15.6 28.1,18.5 31.2,18.6 28.7,20.6 29.6,23.6 27,21.8 24.4,23.6 25.3,20.6 22.8,18.6 25.9,18.5" fill="#fff"/>
+        </svg>
+        <div>Türkçe Akademi<small>Apprendre le turc</small></div>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="cours.html" data-nav="cours">Cours</a>
+        <a href="vocabulaire.html" data-nav="vocab">Vocabulaire</a>
+        <a href="grammaire.html" data-nav="grammar">Grammaire</a>
+        <a href="exercices.html" data-nav="quiz">Exercices</a>
+        <a href="prononciation.html" data-nav="alpha">Prononciation</a>
+        <a href="emploi-du-temps.html" data-nav="planning">Planning</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" title="Basculer clair / sombre" aria-label="Changer le thème"></button>
+        <button class="icon-btn burger" id="burger" title="Menu" aria-label="Ouvrir le menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section schedule-page">
+    <div class="container">
+      <div class="schedule-heading">
+        <span class="overline">Du lundi au vendredi · cours de 9 h à 15 h 45</span>
+        <h1>Un planning ambitieux, qui te laisse récupérer</h1>
+        <p>Des séances courtes et régulières pour avancer chaque jour, sans transformer tes nuits en heures de cours supplémentaires.</p>
+      </div>
+
+      <div class="schedule-summary" aria-label="Repères du planning">
+        <span>3 h 05 d'étude ciblée par jour</span>
+        <span>5 à 10 min de pause entre les blocs</span>
+        <span>21 h à 6 h 05 : 9 h au lit</span>
+      </div>
+
+      <aside class="schedule-alert">
+        <strong>Pourquoi ne pas commencer à 3 h ?</strong>
+        Si tu te couches à 19 h puis te réveilles pour dîner, ton sommeil est coupé. Pour un élève adolescent, le repère général est de dormir 8 à 10 heures par nuit. Ce planning place le coucher vers 21 h et le réveil à 6 h 05, ce qui laisse neuf heures au lit sans révision tardive le soir.
+      </aside>
+
+      <section class="schedule-section" aria-labelledby="focus-title">
+        <h2 id="focus-title">Un minuteur pour rester concentré</h2>
+        <p>Choisis une seule tâche, travaille 25 minutes, puis prends une pause de 5 minutes. Après quatre cycles, éloigne-toi du bureau pour une pause plus longue.</p>
+        <div class="focus-timer" aria-label="Minuteur de concentration">
+          <div>
+            <span class="overline" id="focus-mode">Séance de travail</span>
+            <strong class="focus-clock" id="focus-clock" role="timer" aria-live="off">25:00</strong>
+            <span class="muted" id="focus-status" aria-live="polite">Prêt quand tu l'es.</span>
+          </div>
+          <div class="focus-controls">
+            <button class="btn btn-primary" id="focus-toggle" type="button">Démarrer</button>
+            <button class="btn btn-ghost" id="focus-reset" type="button">Recommencer</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="schedule-section" aria-labelledby="school-day">
+        <h2 id="school-day">Journée d'école</h2>
+        <p>Les horaires de trajet sont des marges à adapter à ton école. Si ton retour est plus long, décale les blocs du soir sans réduire ton temps de sommeil.</p>
+        <ol class="schedule-list">
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="06:05">6 h 05 à 7 h</time>
+            <div><h3>Rappel du matin <span class="schedule-tag">55 min</span></h3><p>Sans regarder tes notes au début : récite une leçon, refais quelques questions ou révise les mots difficiles d'hier.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="07:00">7 h à 8 h</time>
+            <div><h3>Petit-déjeuner et préparation</h3><p>Petit-déjeuner à 7 h, toilette et sac prêt. Garde tes affaires de cours préparées la veille pour éviter de courir.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="08:00">8 h à 9 h</time>
+            <div><h3>Trajet et arrivée à l'école</h3><p>Marge indicative d'une heure, à raccourcir ou déplacer selon ton trajet réel.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="09:00">9 h à 15 h 45</time>
+            <div><h3>Cours</h3><p>Note les devoirs et les points flous au fur et à mesure ; profite des pauses et de la pause déjeuner pour manger et souffler.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="15:45">15 h 45 à 16 h 30</time>
+            <div><h3>Retour, goûter et décompression</h3><p>Le trajet est estimé à 45 minutes. Prends un goûter et fais une vraie transition avant de reprendre le travail.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="16:30">16 h 30 à 17 h 20</time>
+            <div><h3>Bloc 1 : devoirs prioritaires <span class="schedule-tag">50 min</span></h3><p>Commence par le devoir le plus urgent ou la matière qui te demande le plus de concentration.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="17:20">17 h 20 à 17 h 30</time>
+            <div><h3>Pause courte <span class="schedule-tag">10 min</span></h3><p>Lève-toi, bois de l'eau et éloigne-toi de l'écran si possible.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="17:30">17 h 30 à 18 h 20</time>
+            <div><h3>Bloc 2 : exercices et compréhension <span class="schedule-tag">50 min</span></h3><p>Fais des exercices, corrige-les, puis note précisément ce qu'il faudra revoir.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="18:20">18 h 20 à 18 h 30</time>
+            <div><h3>Pause courte <span class="schedule-tag">10 min</span></h3><p>Fais quelques pas, bois un verre d'eau et prépare les affaires pour le dernier bloc.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="18:30">18 h 30 à 19 h</time>
+            <div><h3>Bloc 3 : révision active <span class="schedule-tag">30 min</span></h3><p>Revois les cours du jour de mémoire, utilise des flashcards ou prépare un contrôle. Arrête-toi à 19 h pour passer à table.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="19:00">19 h à 19 h 30</time>
+            <div><h3>Dîner</h3><p>Un vrai temps de repas, sans révision en même temps.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="19:30">19 h 30 à 20 h 15</time>
+            <div><h3>Repos et temps libre</h3><p>Détends-toi, parle avec tes proches ou prends l'air. Tu as terminé le travail scolaire pour la journée.</p></div>
+          </li>
+          <li class="schedule-item">
+            <time class="schedule-time" datetime="20:15">20 h 15 à 21 h</time>
+            <div><h3>Préparer demain et ralentir</h3><p>Prépare ton sac, coupe les écrans à 20 h 30 et choisis une activité calme avant de te coucher vers 21 h.</p></div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="schedule-section" aria-labelledby="weekend">
+        <h2 id="weekend">Week-end : consolider sans s'épuiser</h2>
+        <div class="schedule-cards">
+          <article class="schedule-card">
+            <h3>Samedi : approfondir</h3>
+            <p>Garde une matinée de travail, puis libère l'après-midi autant que possible.</p>
+            <ul>
+              <li>9 h à 9 h 45 : matière la plus difficile</li>
+              <li>9 h 55 à 10 h 40 : exercices et corrections</li>
+              <li>10 h 50 à 11 h 30 : langues, lecture ou rattrapage</li>
+            </ul>
+          </article>
+          <article class="schedule-card">
+            <h3>Dimanche : revoir et anticiper</h3>
+            <p>Une courte séance suffit à repartir avec des idées claires.</p>
+            <ul>
+              <li>9 h 30 à 10 h 15 : test de mémoire sur les notions de la semaine</li>
+              <li>10 h 25 à 11 h : vérifier les devoirs et planifier les priorités</li>
+              <li>Garde le reste de la journée pour récupérer et préparer la semaine</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="schedule-section" aria-labelledby="spacing">
+        <h2 id="spacing">Revoir au bon moment toute la semaine</h2>
+        <p>Une courte révision bien espacée aide davantage qu'une longue séance de dernière minute. Essaie cette boucle et adapte-la à tes cours.</p>
+        <ol class="schedule-list">
+          <li class="schedule-item"><span class="schedule-time">Le jour du cours</span><div><h3>Comprendre et noter les questions</h3><p>Après l'école, reformule l'idée principale en quelques phrases et note ce qui reste flou.</p></div></li>
+          <li class="schedule-item"><span class="schedule-time">Le lendemain</span><div><h3>Répondre sans regarder</h3><p>Ferme le cahier, écris ou récite ce dont tu te souviens, puis vérifie et corrige.</p></div></li>
+          <li class="schedule-item"><span class="schedule-time">Trois jours après</span><div><h3>Faire un exercice différent</h3><p>Applique la même notion dans un nouveau problème, une phrase ou un exemple.</p></div></li>
+          <li class="schedule-item"><span class="schedule-time">Le week-end</span><div><h3>Mélanger les matières</h3><p>Teste-toi sur les notions importantes de plusieurs jours et choisis les points à reprendre la semaine suivante.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="schedule-section" aria-labelledby="study-method">
+        <h2 id="study-method">Pour que chaque heure compte</h2>
+        <div class="schedule-cards">
+          <article class="schedule-card">
+            <h3>Étudie activement</h3>
+            <p>Ferme le cahier et essaie de restituer la leçon. Réponds à des questions, puis vérifie et corrige. La relecture seule donne une impression de maîtrise sans vérifier ce que tu sais vraiment.</p>
+          </article>
+          <article class="schedule-card">
+            <h3>Espace les rappels</h3>
+            <p>Revois une notion le jour même, puis quelques jours plus tard et à nouveau la semaine suivante. Si tu te trompes, révise ce point plus tôt ; si tu le connais bien, espace davantage le prochain rappel.</p>
+          </article>
+          <article class="schedule-card">
+            <h3>Corrige chaque erreur</h3>
+            <p>Ne te contente pas de lire la bonne réponse. Explique pourquoi tu t'es trompé, refais l'exercice sans aide et note une question courte pour le prochain rappel.</p>
+          </article>
+          <article class="schedule-card">
+            <h3>Choisis une priorité par séance</h3>
+            <p>Écris un résultat précis avant de commencer, par exemple « résoudre trois exercices sur les fractions ». Garde le téléphone hors de portée pendant le bloc.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="schedule-section" aria-labelledby="low-energy">
+        <h2 id="low-energy">Les jours où tu es fatigué</h2>
+        <div class="schedule-alert">
+          <strong>Fais la version courte, puis arrête-toi.</strong>
+          Choisis un exercice ou une leçon à revoir pendant 20 minutes, prépare ton sac et couche-toi à l'heure prévue. Si tu es régulièrement épuisé, parle-en à un adulte de confiance et allège le planning au lieu d'ajouter des heures de travail.
+        </div>
+      </section>
+      <p class="schedule-note">Les temps de trajet et les heures de lever sont des estimations. Adapte-les à ta réalité et protège ton sommeil plutôt que de remplir chaque minute.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding-top:0">
+        <span>© <span id="year">2026</span> Türkçe Akademi, by TAM, pour les francophones</span>
+        <span><a href="cours.html">Reprendre les cours</a> · <a href="index.html">Accueil</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast-root"></div>
+
+  <script src="js/app.js"></script>
+  <script src="js/focus.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-/* Türkçe Akademi — page prononciation / alphabet interactif */
+/* Türkçe Akademi : page prononciation / alphabet interactif */
 
 const ALPHABET = [
   { l: "A", type: "vowel", sound: "comme « a » français", words: [{ tr: "anne", fr: "mère" }, { tr: "araba", fr: "voiture" }] },
@@ -33,10 +33,10 @@ const ALPHABET = [
 ];
 
 const MINIMAL_PAIRS = [
-  { a: "kedi", aFr: "chat (i = « i »)", b: "kıdı", bFr: "— (ı = « eu ») : compare avec kız (fille)" },
+  { a: "kedi", aFr: "chat (i = « i »)", b: "kıdı", bFr: "écoute la voyelle ı, comme dans kız (fille)" },
   { a: "gül", aFr: "rose (ü = « u »)", b: "göl", bFr: "lac (ö = « eu »)" },
-  { a: "çay", aFr: "thé (ç = « tch »)", b: "cay", bFr: "— (c = « dj ») : compare avec can (verre)" },
-  { a: "hava", aFr: "air (h soufflé)", b: "ava", bFr: "— écoute le h dans hayır (non)" },
+  { a: "çay", aFr: "thé (ç = « tch »)", b: "cay", bFr: "écoute c, prononcé dj, comme dans can (verre)" },
+  { a: "hava", aFr: "air (h soufflé)", b: "ava", bFr: "écoute le h soufflé dans hayır (non)" },
   { a: "bel", aFr: "taille (e bref)", b: "belki", bFr: "peut-être" }
 ];
 
@@ -45,7 +45,7 @@ const speakSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" str
 document.addEventListener("DOMContentLoaded", () => {
   el("#alpha-grid").innerHTML = ALPHABET.map((a, i) => `
     <button class="alpha-card ${a.type === "vowel" ? "vowel" : a.type === "special" ? "special" : ""}" data-i="${i}"
-      title="${a.l} — ${esc(a.sound)}" aria-label="Lettre ${a.l}">
+      title="${a.l} : ${esc(a.sound)}" aria-label="Lettre ${a.l}">
       <span class="ltr">${a.l.toLowerCase()}</span>
       <span class="snd">${a.l.toLowerCase() === a.l ? "" : ""}${a.type === "vowel" ? "voyelle" : a.type === "special" ? "turc" : ""}</span>
     </button>`).join("");
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <button class="speak-btn" data-speak="${esc(p.a)}" title="Écouter ${esc(p.a)}" aria-label="Écouter">${speakSVG}</button>
       <span class="tr">${p.a} <span class="muted" style="font-weight:400">(${p.aFr})</span></span>
       <button class="speak-btn" data-speak="${esc(p.b)}" title="Écouter ${esc(p.b)}" aria-label="Écouter">${speakSVG}</button>
-      <span class="fr">${p.b} — ${p.bFr}</span>
+      <span class="fr">${p.b} : ${p.bFr}</span>
     </div>`).join("");
 
   els(".alpha-card").forEach(c => c.addEventListener("click", () => selectLetter(+c.dataset.i)));

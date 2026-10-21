@@ -1,6 +1,6 @@
 /* ============================================================
-   Türkçe Akademi — Base de vocabulaire
-   25 thèmes, 472 mots avec exemple et traduction
+   Türkçe Akademi : Base de vocabulaire
+   26 thèmes, 498 mots avec exemple et traduction
    ============================================================ */
 
 const VOCAB = [
@@ -544,6 +544,38 @@ const VOCAB = [
       { tr: "kullanmak", fr: "utiliser", ex: "Bu kelimeyi nasıl kullanırım?", exFr: "Comment utiliser ce mot ?" },
       { tr: "seçmek", fr: "choisir", ex: "Rengi sen seç.", exFr: "Choisis la couleur toi-même." },
       { tr: "denemek", fr: "essayer", ex: "Bir kez daha denedim.", exFr: "J'ai essayé une fois de plus." }
+    ]
+  },
+  {
+    id: "verbes3",
+    name: "Verbes utiles (3)",
+    words: [
+      { tr: "başarmak", fr: "réussir, accomplir", ex: "Bu işi birlikte başardık.", exFr: "Nous avons réussi ce travail ensemble." },
+      { tr: "anlatmak", fr: "raconter, expliquer", ex: "Bana bu hikâyeyi anlat.", exFr: "Raconte-moi cette histoire." },
+      { tr: "anlaşmak", fr: "s'entendre, se mettre d'accord", ex: "Arkadaşımla iyi anlaşıyorum.", exFr: "Je m'entends bien avec mon ami." },
+      { tr: "çözmek", fr: "résoudre", ex: "Bu problemi çözdüm.", exFr: "J'ai résolu ce problème." },
+      { tr: "uyumak", fr: "dormir", ex: "Erken uyumak istiyorum.", exFr: "Je veux dormir tôt." },
+      { tr: "uyanmak", fr: "se réveiller", ex: "Saat altıda uyanıyorum.", exFr: "Je me réveille à six heures." },
+      { tr: "kalkmak", fr: "se lever, se mettre debout", ex: "Her sabah erken kalkarım.", exFr: "Je me lève tôt chaque matin." },
+      { tr: "oturmak", fr: "s'asseoir, habiter", ex: "Buraya oturabilir miyim?", exFr: "Puis-je m'asseoir ici ?" },
+      { tr: "yürümek", fr: "marcher", ex: "Okula yürüyorum.", exFr: "Je vais à l'école à pied." },
+      { tr: "koşmak", fr: "courir", ex: "Parkta koşuyoruz.", exFr: "Nous courons dans le parc." },
+      { tr: "yüzmek", fr: "nager", ex: "Yazın denizde yüzüyorum.", exFr: "Je nage dans la mer en été." },
+      { tr: "inanmak", fr: "croire", ex: "Sana inanıyorum.", exFr: "Je te crois." },
+      { tr: "paylaşmak", fr: "partager", ex: "Yemeğimi arkadaşımla paylaştım.", exFr: "J'ai partagé mon repas avec mon ami." },
+      { tr: "kaçmak", fr: "s'enfuir, s'échapper", ex: "Kedi bahçeye kaçtı.", exFr: "Le chat s'est enfui dans le jardin." },
+      { tr: "getirmek", fr: "apporter, amener", ex: "Bir bardak su getirir misin?", exFr: "Peux-tu apporter un verre d'eau ?" },
+      { tr: "götürmek", fr: "emmener, emporter", ex: "Çantamı okula götürüyorum.", exFr: "J'emporte mon sac à l'école." },
+      { tr: "sevinmek", fr: "se réjouir, être content", ex: "Seni gördüğüme sevindim.", exFr: "Je suis content de t'avoir vu." },
+      { tr: "hazırlamak", fr: "préparer", ex: "Akşam yemeğini hazırlıyorum.", exFr: "Je prépare le dîner." },
+      { tr: "yıkamak", fr: "laver", ex: "Ellerimi yıkıyorum.", exFr: "Je me lave les mains." },
+      { tr: "giymek", fr: "porter, mettre un vêtement", ex: "Bugün mavi bir gömlek giyiyorum.", exFr: "Je porte une chemise bleue aujourd'hui." },
+      { tr: "çıkarmak", fr: "enlever, retirer", ex: "Ayakkabılarını çıkar.", exFr: "Enlève tes chaussures." },
+      { tr: "değiştirmek", fr: "changer, modifier", ex: "Planımı değiştirdim.", exFr: "J'ai changé mon programme." },
+      { tr: "buluşmak", fr: "se retrouver, se rencontrer", ex: "Saat beşte buluşalım.", exFr: "Retrouvons-nous à cinq heures." },
+      { tr: "düşünmek", fr: "penser, réfléchir", ex: "Bu soru hakkında düşünüyorum.", exFr: "Je réfléchis à cette question." },
+      { tr: "tanımak", fr: "connaître, reconnaître", ex: "Onu okuldan tanıyorum.", exFr: "Je le connais de l'école." },
+      { tr: "karar vermek", fr: "décider", ex: "Bugün karar vermem gerekiyor.", exFr: "Je dois décider aujourd'hui." }
     ]
   },
   {

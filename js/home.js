@@ -1,4 +1,4 @@
-/* Türkçe Akademi — page d'accueil */
+/* Türkçe Akademi : page d'accueil */
 
 document.addEventListener("DOMContentLoaded", () => {
   // Statistiques
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const wod = WORD_OF_DAY[Math.floor(Date.now() / 86400000) % WORD_OF_DAY.length];
   el("#wod-tr").textContent = wod.tr;
   el("#wod-fr").textContent = wod.fr;
-  el("#wod-ex").innerHTML = `<b>${wod.ex}</b> — ${wod.exFr}`;
+  el("#wod-ex").innerHTML = `<b>${wod.ex}</b> : ${wod.exFr}`;
 
   // Tableau de bord
   const d = Progress.data;
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const descs = {
     A1: "Les fondations : alphabet, premiers mots, nombres et la règle d'or de l'harmonie vocalique.",
     A2: "Tu construis : pluriel, possession, var/yok, présent, négation et questions.",
-    B1: "Tu t'exprimes : les cas, le passé, le futur — et de vraies conversations."
+    B1: "Tu t'exprimes avec les cas, le passé, le futur et de vraies conversations."
   };
 
   el("#tracks").innerHTML = ["A1", "A2", "B1"].map(lvl => `
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="track-head">
         <span class="track-badge" style="background:${colors[lvl]}">${lvl}</span>
         <div class="info">
-          <h3>${lvl === "A1" ? "Découverte" : lvl === "A2" ? "Construction" : "Expression"} — ${groups[lvl].length} modules</h3>
+          <h3>${lvl === "A1" ? "Découverte" : lvl === "A2" ? "Construction" : "Expression"} : ${groups[lvl].length} modules</h3>
           <p>${descs[lvl]}</p>
         </div>
       </div>

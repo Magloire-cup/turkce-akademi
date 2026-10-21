@@ -1,4 +1,4 @@
-/* Türkçe Akademi — page grammaire */
+/* Türkçe Akademi : page grammaire */
 
 let currentArticle = 0;
 

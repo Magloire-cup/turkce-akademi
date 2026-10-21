@@ -1,4 +1,4 @@
-/* Türkçe Akademi — page exercices / quiz */
+/* Türkçe Akademi : page exercices / quiz */
 
 const QUIZ_TYPES = [
   {
@@ -64,14 +64,14 @@ function pickVocabQuestion(kind) {
       html: `<span class="big-tr">${w.tr}</span><br><span style="font-size:.85rem;color:var(--muted)">Que signifie ce mot ?</span>`,
       speak: w.tr,
       opts: shuffle([w, ...others].map(x => ({ label: x.fr, correct: x === w }))),
-      exp: `« ${w.tr} » = ${w.fr}${w.ex ? ` — ex. : ${w.ex}` : ""}`
+      exp: `« ${w.tr} » = ${w.fr}${w.ex ? ` : ex. : ${w.ex}` : ""}`
     };
   }
   if (kind === "fr-tr") {
     return {
       html: `<span style="font-size:.9rem;color:var(--muted)">Comment dit-on en turc :</span><br><span class="big-tr">${w.fr}</span>`,
       opts: shuffle([w, ...others].map(x => ({ label: x.tr, correct: x === w, speak: x.tr }))),
-      exp: `« ${w.fr} » se dit « ${w.tr} »${w.ex ? ` — ex. : ${w.ex}` : ""}`
+      exp: `« ${w.fr} » se dit « ${w.tr} »${w.ex ? ` : ex. : ${w.ex}` : ""}`
     };
   }
   // listen
@@ -83,7 +83,7 @@ function pickVocabQuestion(kind) {
     speak: w.tr,
     opts: shuffle([{ fr: w.fr, tr: w.tr }, ...frOthers.map(x => ({ fr: x.fr, tr: x.tr }))])
       .map(x => ({ label: x.fr, correct: x.tr === w.tr })),
-    exp: `Tu as entendu « ${w.tr} » = ${w.fr}${w.ex ? ` — ex. : ${w.ex}` : ""}`
+    exp: `Tu as entendu « ${w.tr} » = ${w.fr}${w.ex ? ` : ex. : ${w.ex}` : ""}`
   };
 }
 
@@ -160,7 +160,7 @@ function renderQuestion() {
         else if (b === btn) b.classList.add("wrong");
       });
       if (chosen.correct) run.score++;
-      el("#quiz-exp").innerHTML = `<b style="color:${chosen.correct ? "var(--green)" : "var(--red)"}">${chosen.correct ? "Doğru ! " : "Non — "}</b>${esc(q.exp)}`;
+      el("#quiz-exp").innerHTML = `<b style="color:${chosen.correct ? "var(--green)" : "var(--red)"}">${chosen.correct ? "Doğru ! " : "Non : "}</b>${esc(q.exp)}`;
       setTimeout(() => {
         run.answered = false;
         run.qi++;
@@ -179,7 +179,7 @@ function finishQuiz() {
   const isRecord = Progress.setQuizBest(run.type, s);
   const grade = s === run.questions.length ? "Kusursuz ! Sans faute."
     : s >= 8 ? "Très beau score."
-    : s >= 5 ? "Correct — continue sur cette lancée."
+    : s >= 5 ? "Correct : continue sur cette lancée."
     : "Ça viendra : relis la leçon ou fais un tour de flashcards.";
 
   el("#quiz-run").innerHTML = `
