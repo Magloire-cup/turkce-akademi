@@ -1,6 +1,6 @@
 /* ============================================================
    Türkçe Akademi : Base de vocabulaire
-   26 thèmes, 498 mots avec exemple et traduction
+   28 thèmes, 548 mots avec exemple et traduction
    ============================================================ */
 
 const VOCAB = [
@@ -48,6 +48,36 @@ const VOCAB = [
       { tr: "geçmiş olsun", fr: "bon rétablissement", ex: "Geçmiş olsun, çabuk iyileş.", exFr: "Bon rétablissement, guéris vite." },
       { tr: "afiyet olsun", fr: "bon appétit", ex: "Buyurun, afiyet olsun.", exFr: "Voilà, bon appétit." },
       { tr: "kolay gelsin", fr: "bon courage (dans ton travail)", ex: "Kolay gelsin, iyi çalışmalar.", exFr: "Bon courage, bon travail." }
+    ]
+  },
+  {
+    id: "expressions",
+    name: "Expressions du quotidien",
+    words: [
+      { tr: "Ne haber?", fr: "Quoi de neuf ?", ex: "Selam, ne haber?", exFr: "Salut, quoi de neuf ?" },
+      { tr: "Her şey yolunda mı?", fr: "Tout va bien ?", ex: "Her şey yolunda mı, iyi misin?", exFr: "Tout va bien, tu vas bien ?" },
+      { tr: "Bir dakika, lütfen.", fr: "Une minute, s'il vous plaît.", ex: "Bir dakika, lütfen. Hemen geliyorum.", exFr: "Une minute, s'il vous plaît. J'arrive tout de suite." },
+      { tr: "Tekrar eder misiniz?", fr: "Pouvez-vous répéter ?", ex: "Affedersiniz, tekrar eder misiniz?", exFr: "Excusez-moi, pouvez-vous répéter ?" },
+      { tr: "Anlamadım.", fr: "Je n'ai pas compris.", ex: "Anlamadım, daha yavaş konuşur musunuz?", exFr: "Je n'ai pas compris, pouvez-vous parler plus lentement ?" },
+      { tr: "Daha yavaş konuşur musunuz?", fr: "Pouvez-vous parler plus lentement ?", ex: "Lütfen daha yavaş konuşur musunuz?", exFr: "Pouvez-vous parler plus lentement, s'il vous plaît ?" },
+      { tr: "Türkçe öğreniyorum.", fr: "J'apprends le turc.", ex: "Türkçe öğreniyorum, biraz sabırlı olun.", exFr: "J'apprends le turc, soyez un peu patient." },
+      { tr: "Biraz Türkçe konuşuyorum.", fr: "Je parle un peu turc.", ex: "Biraz Türkçe konuşuyorum ama hâlâ öğreniyorum.", exFr: "Je parle un peu turc, mais j'apprends encore." },
+      { tr: "Yardımınıza ihtiyacım var.", fr: "J'ai besoin de votre aide.", ex: "Affedersiniz, yardımınıza ihtiyacım var.", exFr: "Excusez-moi, j'ai besoin de votre aide." },
+      { tr: "Buraya nasıl gidebilirim?", fr: "Comment puis-je aller là-bas ?", ex: "Buraya nasıl gidebilirim, biliyor musunuz?", exFr: "Savez-vous comment je peux aller là-bas ?" },
+      { tr: "Ne kadar?", fr: "Combien ça coûte ?", ex: "Bu ne kadar?", exFr: "Combien coûte ceci ?" },
+      { tr: "Kartla ödeyebilir miyim?", fr: "Puis-je payer par carte ?", ex: "Kartla ödeyebilir miyim, yoksa nakit mi lazım?", exFr: "Puis-je payer par carte ou faut-il de l'argent liquide ?" },
+      { tr: "Hesabı alabilir miyim?", fr: "Puis-je avoir l'addition ?", ex: "Hesabı alabilir miyim, lütfen?", exFr: "Puis-je avoir l'addition, s'il vous plaît ?" },
+      { tr: "Rezervasyonum var.", fr: "J'ai une réservation.", ex: "Saat yedi için rezervasyonum var.", exFr: "J'ai une réservation pour sept heures." },
+      { tr: "Boş yer var mı?", fr: "Y a-t-il une place libre ?", ex: "İki kişi için boş yer var mı?", exFr: "Y a-t-il une place libre pour deux personnes ?" },
+      { tr: "Afedersiniz, geçebilir miyim?", fr: "Excusez-moi, puis-je passer ?", ex: "Afedersiniz, geçebilir miyim? Otobüse yetişmem gerekiyor.", exFr: "Excusez-moi, puis-je passer ? Je dois attraper le bus." },
+      { tr: "Sorun yok.", fr: "Pas de problème.", ex: "Sorun yok, bekleyebilirim.", exFr: "Pas de problème, je peux attendre." },
+      { tr: "Ben de öyle düşünüyorum.", fr: "Je le pense aussi.", ex: "Ben de öyle düşünüyorum, çok güzel bir fikir.", exFr: "Je le pense aussi, c'est une très bonne idée." },
+      { tr: "Fark etmez.", fr: "Peu importe, ça m'est égal.", ex: "Çay mı kahve mi? Fark etmez.", exFr: "Thé ou café ? Peu importe." },
+      { tr: "Henüz bilmiyorum.", fr: "Je ne sais pas encore.", ex: "Yarın gelip gelmeyeceğimi henüz bilmiyorum.", exFr: "Je ne sais pas encore si je viendrai demain." },
+      { tr: "Bir şey değil.", fr: "De rien, ce n'est rien.", ex: "Yardımın için teşekkürler. Bir şey değil.", exFr: "Merci pour ton aide. De rien." },
+      { tr: "Elinize sağlık.", fr: "Bravo, c'était délicieux (formule après un repas).", ex: "Yemek çok güzeldi, elinize sağlık.", exFr: "Le repas était délicieux, bravo." },
+      { tr: "Tekrar görüşmek üzere.", fr: "À une prochaine fois.", ex: "Şimdilik hoşça kal, tekrar görüşmek üzere.", exFr: "Au revoir pour l'instant, à une prochaine fois." },
+      { tr: "İyi şanslar!", fr: "Bonne chance !", ex: "Sınavında iyi şanslar!", exFr: "Bonne chance pour ton examen !" }
     ]
   },
   {
@@ -576,6 +606,38 @@ const VOCAB = [
       { tr: "düşünmek", fr: "penser, réfléchir", ex: "Bu soru hakkında düşünüyorum.", exFr: "Je réfléchis à cette question." },
       { tr: "tanımak", fr: "connaître, reconnaître", ex: "Onu okuldan tanıyorum.", exFr: "Je le connais de l'école." },
       { tr: "karar vermek", fr: "décider", ex: "Bugün karar vermem gerekiyor.", exFr: "Je dois décider aujourd'hui." }
+    ]
+  },
+  {
+    id: "verbes4",
+    name: "Verbes utiles (4)",
+    words: [
+      { tr: "korumak", fr: "protéger, garder", ex: "Doğayı korumalıyız.", exFr: "Nous devons protéger la nature." },
+      { tr: "büyümek", fr: "grandir", ex: "Çocuklar çok hızlı büyüyor.", exFr: "Les enfants grandissent très vite." },
+      { tr: "düşmek", fr: "tomber", ex: "Dün merdivenden düştüm.", exFr: "Je suis tombé dans l'escalier hier." },
+      { tr: "artmak", fr: "augmenter", ex: "Son günlerde fiyatlar arttı.", exFr: "Les prix ont augmenté ces derniers jours." },
+      { tr: "azalmak", fr: "diminuer", ex: "Yağmur akşama doğru azalacak.", exFr: "La pluie diminuera vers le soir." },
+      { tr: "taşınmak", fr: "déménager", ex: "Gelecek ay yeni bir eve taşınıyoruz.", exFr: "Nous déménageons dans une nouvelle maison le mois prochain." },
+      { tr: "karşılaşmak", fr: "rencontrer, tomber sur", ex: "Yolda eski bir arkadaşımla karşılaştım.", exFr: "J'ai croisé un vieil ami en chemin." },
+      { tr: "katılmak", fr: "participer, se joindre à", ex: "Toplantıya katılacağım.", exFr: "Je participerai à la réunion." },
+      { tr: "vazgeçmek", fr: "renoncer, abandonner", ex: "Hayalimden vazgeçmedim.", exFr: "Je n'ai pas renoncé à mon rêve." },
+      { tr: "saklamak", fr: "cacher, conserver", ex: "Bu mektubu saklamak istiyorum.", exFr: "Je veux garder cette lettre." },
+      { tr: "silmek", fr: "effacer, essuyer", ex: "Tahtadaki yazıyı sildi.", exFr: "Il a effacé ce qui était écrit au tableau." },
+      { tr: "kırmak", fr: "casser, briser", ex: "Bardağı yanlışlıkla kırdım.", exFr: "J'ai cassé le verre par accident." },
+      { tr: "başvurmak", fr: "postuler, faire une demande", ex: "Bu işe başvurmak istiyorum.", exFr: "Je veux postuler à cet emploi." },
+      { tr: "kabul etmek", fr: "accepter", ex: "Davetini memnuniyetle kabul ettim.", exFr: "J'ai accepté son invitation avec plaisir." },
+      { tr: "reddetmek", fr: "refuser, rejeter", ex: "Teklifi nazikçe reddetti.", exFr: "Il a refusé l'offre poliment." },
+      { tr: "düzenlemek", fr: "organiser, arranger", ex: "Yarın küçük bir gezi düzenliyoruz.", exFr: "Nous organisons une petite excursion demain." },
+      { tr: "araştırmak", fr: "faire des recherches, enquêter", ex: "Bu konuyu dikkatlice araştırdım.", exFr: "J'ai étudié ce sujet attentivement." },
+      { tr: "gelişmek", fr: "se développer, progresser", ex: "Türkçem her gün gelişiyor.", exFr: "Mon turc progresse chaque jour." },
+      { tr: "fark etmek", fr: "remarquer, se rendre compte", ex: "Hatasını hemen fark etti.", exFr: "Il a tout de suite remarqué son erreur." },
+      { tr: "kaçırmak", fr: "manquer, rater", ex: "Sabah otobüsünü kaçırdım.", exFr: "J'ai raté le bus du matin." },
+      { tr: "yetişmek", fr: "arriver à temps, rattraper", ex: "Derse yetişmek için erken çıktım.", exFr: "Je suis parti tôt pour arriver à temps en cours." },
+      { tr: "dinlenmek", fr: "se reposer", ex: "Biraz dinlenmeye ihtiyacım var.", exFr: "J'ai besoin de me reposer un peu." },
+      { tr: "pişirmek", fr: "cuire, faire cuire", ex: "Akşam yemeği için balık pişirdim.", exFr: "J'ai fait cuire du poisson pour le dîner." },
+      { tr: "toplamak", fr: "ramasser, rassembler", ex: "Bahçedeki yaprakları topladık.", exFr: "Nous avons ramassé les feuilles du jardin." },
+      { tr: "yakalamak", fr: "attraper", ex: "Treni yakalamak için koştum.", exFr: "J'ai couru pour attraper le train." },
+      { tr: "kaydetmek", fr: "enregistrer, sauvegarder", ex: "Yeni numarayı telefonuma kaydettim.", exFr: "J'ai enregistré le nouveau numéro dans mon téléphone." }
     ]
   },
   {

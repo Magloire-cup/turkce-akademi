@@ -7,7 +7,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 ## Contenu
 
 - **12 modules de cours** (A1 → B1) : leçon complète, dialogue joué, vocabulaire clé et quiz de validation pour chaque module.
-- **Près de 500 mots de vocabulaire** répartis en 26 thèmes, avec phrases d'exemple et prononciation, dont trois thèmes de verbes.
+- **548 mots et expressions** répartis en 28 thèmes, avec phrases d'exemple et prononciation, dont quatre thèmes de verbes et des expressions du quotidien.
 - **Flashcards à révision espacée** : cinq niveaux de maîtrise, filtres par niveau, entraînement dans les deux sens et priorité aux mots les moins connus.
 - **16 fiches de grammaire** de référence (harmonie vocalique, les 6 cas, passés -di/-miş, futur -ecek…).
 - **Quiz interactifs** : turc→français, français→turc, compréhension orale, grammaire et grand mix. Chaque réponse est expliquée.
