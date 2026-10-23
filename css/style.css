@@ -197,10 +197,7 @@ html[data-theme="dark"] .nav-links a.active { background: var(--red); color: #ff
   box-shadow: var(--shadow-lg);
   padding: 26px;
   position: relative;
-  transform: rotate(1.5deg);
-  animation: float 7s ease-in-out infinite;
 }
-@keyframes float { 0%,100% { transform: rotate(1.5deg) translateY(0); } 50% { transform: rotate(1.5deg) translateY(-10px); } }
 .hero-card .flag {
   width: 100%; height: 8px; border-radius: 99px;
   background: linear-gradient(90deg, #E30A17 0 34%, #fff 34% 100%);
@@ -476,6 +473,30 @@ table.tbl td:first-child { font-weight: 600; color: var(--ink); }
 .btn-dont:hover { background: var(--amber); color: #fff; }
 
 .theme-chips { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 28px; }
+.vocab-shortcuts { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; margin-bottom: 16px; }
+.vocab-shortcuts .theme-chip { padding: 6px 12px; }
+.verb-guide {
+  margin: 0 0 22px; padding: 16px 18px; border: 1px solid var(--border);
+  border-radius: var(--radius); background: var(--surface);
+}
+.verb-guide summary { font-weight: 700; cursor: pointer; }
+.verb-guide-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 16px 0; }
+.verb-guide-grid > div {
+  display: grid; gap: 3px; padding: 12px; border-radius: var(--radius-sm);
+  background: var(--bg-soft);
+}
+.verb-guide-grid .tr { font-family: var(--font-head); font-weight: 700; }
+.verb-guide-grid small { color: var(--muted); }
+.verb-guide > p { font-size: .9rem; }
+.vocab-filter-label { font-size: .84rem; font-weight: 600; color: var(--ink-2); }
+.vocab-filter {
+  min-height: 38px; padding: 6px 30px 6px 12px; border-radius: 999px;
+  border: 1px solid var(--border-2); background: var(--surface); color: var(--ink);
+  font: inherit; font-size: .84rem;
+}
+.vocab-filter:focus-visible, .verb-guide summary:focus-visible {
+  outline: 3px solid var(--blue); outline-offset: 2px;
+}
 .theme-chip {
   padding: 8px 15px; border-radius: 999px; border: 1px solid var(--border);
   background: var(--surface); font-size: .83rem; font-weight: 600; color: var(--ink-2);
@@ -731,4 +752,5 @@ kbd {
   .flashcard { height: 300px; }
   .hero-stats { gap: 22px; }
   .alpha-grid { grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); }
+  .verb-guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

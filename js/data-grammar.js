@@ -1,5 +1,5 @@
 /* ============================================================
-   Türkçe Akademi — Référence de grammaire
+   Türkçe Akademi : Référence de grammaire
    16 fiches classées par niveau
    ============================================================ */
 
@@ -46,7 +46,7 @@ const GRAMMAR = [
       { t: "table", caption: "Exemples avec l'accusatif -i", head: ["Dernière voyelle", "Suffixe", "Exemple"],
         rows: [
           ["e, i", "-i", "<tur>evi</tur> (la maison)"],
-          ["a, ı", "-ı", "<tur>masayı</tur> (la table — avec y)"],
+          ["a, ı", "-ı", "<tur>masayı</tur> (la table : avec y)"],
           ["ö, ü", "-ü", "<tur>gözü</tur> (l'œil)"],
           ["o, u", "-u", "<tur>okulu</tur> (l'école)"]
         ] },
@@ -114,7 +114,7 @@ const GRAMMAR = [
           ["<tur>ne, kim, nerede</tur>", "quoi, qui, où"]
         ] },
       { t: "p", text: "Les pronoms sont souvent <b>implicites</b> : la terminaison du verbe indique déjà la personne. <tur>Geliyorum</tur> suffit pour « je viens »." },
-      { t: "p", text: "Le vouvoiement (siz) est de rigueur avec les inconnus, les aînés, en boutique — mais les Turcs passent vite au tutoiement chaleureux, surtout entre jeunes." }
+      { t: "p", text: "Le vouvoiement (siz) est de rigueur avec les inconnus, les aînés, en boutique : mais les Turcs passent vite au tutoiement chaleureux, surtout entre jeunes." }
     ]
   },
   {
@@ -224,7 +224,7 @@ const GRAMMAR = [
           ["ö, ü", "mü", "<tur>Türk müsün?</tur>"],
           ["o, u", "mu", "<tur>yoruldu mu?</tur>"]
         ] },
-      { t: "p", text: "Les mots interrogatifs (ne, kim, nerede, nasıl, kaç, hangi…) ne demandent PAS mi : <tur>Adın ne?</tur> — jamais « Adın ne mi ? »." }
+      { t: "p", text: "Les mots interrogatifs (ne, kim, nerede, nasıl, kaç, hangi…) ne demandent PAS mi : <tur>Adın ne?</tur> : jamais « Adın ne mi ? »." }
     ]
   },
   {
@@ -252,11 +252,11 @@ const GRAMMAR = [
           ["siz", "<tur>geldiniz</tur>", "vous êtes venus"],
           ["onlar", "<tur>geldiler</tur>", "ils/elles sont venus"]
         ] },
-      { t: "p", text: "Le passé rapporté <b>-miş</b> suit le même schéma (gelmişim, gelmişsin…) et encode la <b>source de l'information</b> : tu n'as pas été témoin, on te l'a raconté — ou tu découvres avec surprise." },
+      { t: "p", text: "Le passé rapporté <b>-miş</b> suit le même schéma (gelmişim, gelmişsin…) et encode la <b>source de l'information</b> : tu n'as pas été témoin, on te l'a raconté : ou tu découvres avec surprise." },
       { t: "ex", items: [
         { tr: "Dün Ankara'ya gittim.", fr: "Hier je suis allé à Ankara. (je le sais, j'y étais)" },
         { tr: "Dün Ankara'ya gitmiş.", fr: "Il serait allé à Ankara hier. (on me l'a dit)" },
-        { tr: "Ayşe evlenmiş!", fr: "Ayşe s'est mariée — qui l'eût cru !" }
+        { tr: "Ayşe evlenmiş!", fr: "Ayşe s'est mariée : qui l'eût cru !" }
       ] },
       { t: "note", kind: "info", tag: "Plus-que-parfait", text: "En combinant les deux : <tur>gelmışti</tur> = il était venu (miş + di). Le turc empile les temps comme des briques." }
     ]
@@ -292,7 +292,7 @@ const GRAMMAR = [
           ["<tur>çünkü</tur>", "parce que", "<tur>yorgunum, çünkü…</tur>", "je suis fatigué parce que…"],
           ["<tur>ama / fakat</tur>", "mais", "<tur>ama</tur>", "mais"]
         ] },
-      { t: "note", kind: "tip", tag: "Ordre des mots", text: "Phrase type : Sujet-Complément-Verbe, le verbe ferme presque toujours la phrase : <tur>Ben yarın okula gideceğim.</tur> Mais l'ordre reste flexible — c'est les suffixes qui portent la grammaire, pas la position." }
+      { t: "note", kind: "tip", tag: "Ordre des mots", text: "Phrase type : Sujet-Complément-Verbe, le verbe ferme presque toujours la phrase : <tur>Ben yarın okula gideceğim.</tur> Mais l'ordre reste flexible : c'est les suffixes qui portent la grammaire, pas la position." }
     ]
   }
 ];

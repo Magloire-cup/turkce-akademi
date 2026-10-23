@@ -1,5 +1,5 @@
 /* ============================================================
-   Türkçe Akademi — Programme de cours
+   Türkçe Akademi : Programme de cours
    12 modules : A1 (1-4), A2 (5-9), B1 (10-12)
    Chaque module : objectifs, leçon (blocs), dialogue, vocabulaire, quiz
    ============================================================ */
@@ -17,14 +17,14 @@ const COURSE = [
       "Saluer et remercier"
     ],
     blocks: [
-      { t: "p", text: "Bonne nouvelle : le turc est une langue <b>phonétique</b>. Chaque lettre se prononce toujours de la même façon, sans exception. Une fois l'alphabet maîtrisé, tu peux lire n'importe quel mot — même sans le comprendre. L'alphabet latin est utilisé depuis 1928, suite à la grande réforme des lettres voulue par <b>Atatürk</b>." },
+      { t: "p", text: "Bonne nouvelle : le turc est une langue <b>phonétique</b>. Chaque lettre se prononce toujours de la même façon, sans exception. Une fois l'alphabet maîtrisé, tu peux lire n'importe quel mot : même sans le comprendre. L'alphabet latin est utilisé depuis 1928, suite à la grande réforme des lettres voulue par <b>Atatürk</b>." },
       { t: "h", text: "Les 8 voyelles" },
       { t: "p", text: "Le turc a 8 voyelles. Quatre te sont familières (a, e, i comme en espagnol, o), quatre demandent un petit effort." },
       { t: "table", caption: "Les voyelles turques", head: ["Lettre", "Prononciation (approx. française)", "Exemple"],
         rows: [
           ["a / e / i / o", "a, é, i (bref et net), o", "<tur>elma</tur> (pomme)"],
           ["u", "ou", "<tur>okul</tur> (école)"],
-          ["ı (i sans point)", "« eu » bref, non arrondi — comme dans « le »", "<tur>ışık</tur> (lumière)"],
+          ["ı (i sans point)", "« eu » bref, non arrondi : comme dans « le »", "<tur>ışık</tur> (lumière)"],
           ["ü", "u français (comme « rue »)", "<tur>gül</tur> (rose)"],
           ["ö", "eu français (comme « peu »)", "<tur>göz</tur> (œil)"]
         ] },
@@ -32,11 +32,11 @@ const COURSE = [
       { t: "h", text: "Les consonnes qui changent tout" },
       { t: "table", caption: "Consonnes spécifiques", head: ["Lettre", "Se prononce", "Exemple"],
         rows: [
-          ["ç", "« tch »", "<tur>çay</tur> (thé) — tchaï"],
-          ["ş", "« ch » français", "<tur>şehir</tur> (ville) — chéhir"],
-          ["c", "« dj »", "<tur>cam</tur> (verre) — djam"],
+          ["ç", "« tch »", "<tur>çay</tur> (thé) : tchaï"],
+          ["ş", "« ch » français", "<tur>şehir</tur> (ville) : chéhir"],
+          ["c", "« dj »", "<tur>cam</tur> (verre) : djam"],
           ["j", "« j » français (rare)", "<tur>jilet</tur> (rasoir)"],
-          ["ğ", "se prononce à peine : il allonge la voyelle précédente", "<tur>dağ</tur> (montagne) — « daa »"],
+          ["ğ", "se prononce à peine : il allonge la voyelle précédente", "<tur>dağ</tur> (montagne) : « daa »"],
           ["h", "toujours aspiré, comme en anglais", "<tur>hava</tur> (air, temps)"]
         ] },
       { t: "p", text: "Les autres lettres se prononcent comme en français, à deux détails près : le <b>r</b> est roulé, et le <b>v</b> est parfois plus doux, entre « v » et « w ». Le <b>y</b> vaut « y » comme dans « yaourt »." },
@@ -49,7 +49,7 @@ const COURSE = [
         { tr: "çok güzel", fr: "Très beau / très bien" },
         { tr: "hoş geldiniz", fr: "Bienvenue" }
       ] },
-      { t: "note", kind: "tip", tag: "Méthode", text: "Écoute chaque mot avec le bouton haut-parleur, puis répète à voix haute en imitant le rythme. Le turc est une langue à accent final : l'accent tonique tombe presque toujours sur la <b>dernière syllabe</b> — merhaba (merha-<b>BA</b>), güzel (gu-<b>ZEL</b>), teşekkür (te-şek-<b>KÜR</b>)." }
+      { t: "note", kind: "tip", tag: "Méthode", text: "Écoute chaque mot avec le bouton haut-parleur, puis répète à voix haute en imitant le rythme. Le turc est une langue à accent final : l'accent tonique tombe presque toujours sur la <b>dernière syllabe</b> : merhaba (merha-<b>BA</b>), güzel (gu-<b>ZEL</b>), teşekkür (te-şek-<b>KÜR</b>)." }
     ],
     dialogue: {
       title: "Première rencontre",
@@ -88,14 +88,14 @@ const COURSE = [
   {
     id: "m2", num: 2, level: "A1",
     title: "Se présenter : je suis…",
-    subtitle: "Le verbe être n'existe pas — il se colle à la fin du mot",
+    subtitle: "Le verbe être n'existe pas : il se colle à la fin du mot",
     objectifs: [
       "Dire ton nom, ta nationalité, ton métier",
       "Comprendre la logique des suffixes personnels",
       "Demander « et toi ? »"
     ],
     blocks: [
-      { t: "p", text: "Surprise : en turc, <b>il n'y a pas de verbe « être » au présent</b>. Pour dire « je suis étudiant », on accroche un petit suffixe à la fin du nom : <tur>öğrenci</tur> + <b>-im</b> → <tur>öğrenciyim</tur>. Le pronom (ben, sen…) est facultatif — le suffixe dit déjà qui parle." },
+      { t: "p", text: "Surprise : en turc, <b>il n'y a pas de verbe « être » au présent</b>. Pour dire « je suis étudiant », on accroche un petit suffixe à la fin du nom : <tur>öğrenci</tur> + <b>-im</b> → <tur>öğrenciyim</tur>. Le pronom (ben, sen…) est facultatif : le suffixe dit déjà qui parle." },
       { t: "h", text: "La conjugaison de l'être" },
       { t: "table", caption: "Suffixes personnels de l'être", head: ["Pronom", "Suffixe", "Exemple", "Traduction"],
         rows: [
@@ -108,7 +108,7 @@ const COURSE = [
         ] },
       { t: "note", kind: "info", tag: "Pourquoi 4 formes ?", text: "-im, -ım, -üm, -um… le suffixe s'adapte à la dernière voyelle du mot. C'est <b>l'harmonie vocalique</b>, au programme du module 4. Pour l'instant, apprends chaque mot comme un bloc." },
       { t: "h", text: "Ton prénom" },
-      { t: "p", text: "Deux façons de dire ton nom : <tur>Benim adım Elif</tur> (mon nom est Elif — littéralement « ad-ım ») ou plus simplement <tur>Ben Elif</tur> (moi [c'est] Elif). Pour demander : <tur>Adın ne?</tur> (tu) / <tur>Adınız ne?</tur> (vous)." },
+      { t: "p", text: "Deux façons de dire ton nom : <tur>Benim adım Elif</tur> (mon nom est Elif : littéralement « ad-ım ») ou plus simplement <tur>Ben Elif</tur> (moi [c'est] Elif). Pour demander : <tur>Adın ne?</tur> (tu) / <tur>Adınız ne?</tur> (vous)." },
       { t: "h", text: "Nationalités & métiers" },
       { t: "ex", items: [
         { tr: "Ben Magloire. Fransızım.", fr: "Je m'appelle Magloire. Je suis français." },
@@ -188,7 +188,7 @@ const COURSE = [
           ["2 h 50", "<tur>Saat üçe on var.</tur>", "« à trois, dix il reste » : var = moins"],
           ["11 h 15", "<tur>Saat on bir çeyrek geçiyor.</tur>", "et quart"]
         ] },
-      { t: "note", kind: "tip", tag: "Logique turque", text: "Pour « 5 h 10 », le turc met le nombre à un cas spécial (beş<b>i</b>, üç<b>e</b>) — tu comprendras pourquoi au module 10. Pour l'instant, retiens les blocs tout faits." },
+      { t: "note", kind: "tip", tag: "Logique turque", text: "Pour « 5 h 10 », le turc met le nombre à un cas spécial (beş<b>i</b>, üç<b>e</b>) : tu comprendras pourquoi au module 10. Pour l'instant, retiens les blocs tout faits." },
       { t: "ex", items: [
         { tr: "Affedersiniz, saat kaç?", fr: "Excusez-moi, quelle heure est-il ?" },
         { tr: "Saat dokuz buçuk.", fr: "Il est neuf heures et demie." },
@@ -240,7 +240,7 @@ const COURSE = [
       "Appliquer la règle automatiquement"
     ],
     blocks: [
-      { t: "p", text: "Voici le concept le plus rentable de tout le turc. Les voyelles se répartissent en <b>deux familles</b> : celles dites « de l'arrière » et celles « de l'avant ». Règle : <b>les suffixes copient la famille de la dernière voyelle du mot</b>. C'est l'harmonie vocalique (<tur>ünlü uyumu</tur>) — la langue « chante » en restant cohérente d'un bout à l'autre." },
+      { t: "p", text: "Voici le concept le plus rentable de tout le turc. Les voyelles se répartissent en <b>deux familles</b> : celles dites « de l'arrière » et celles « de l'avant ». Règle : <b>les suffixes copient la famille de la dernière voyelle du mot</b>. C'est l'harmonie vocalique (<tur>ünlü uyumu</tur>) : la langue « chante » en restant cohérente d'un bout à l'autre." },
       { t: "table", caption: "Les deux familles de voyelles", head: ["Famille ARRIÈRE", "Famille AVANT"],
         rows: [
           ["a, ı, o, u", "e, i, ö, ü"],
@@ -261,7 +261,7 @@ const COURSE = [
       { t: "table", caption: "Le suffixe -im (je suis…)", head: ["Dernière voyelle du mot", "Suffixe", "Exemple"],
         rows: [
           ["e ou i", "-im", "<tur>öğretmenim</tur> (je suis enseignant)"],
-          ["a ou ı", "-ım", "<tur>hastayım</tur> (je suis malade — avec tampon y)"],
+          ["a ou ı", "-ım", "<tur>hastayım</tur> (je suis malade : avec tampon y)"],
           ["ö ou ü", "-üm", "<tur>Türküm</tur> (je suis turc)"],
           ["o ou u", "-um", "<tur>varım</tur> (j'existe)"]
         ] },
@@ -278,7 +278,7 @@ const COURSE = [
         { tr: "kadın + lar → kadınlar", fr: "les femmes (ı → arrière → lar)" },
         { tr: "gül + ler → güller", fr: "les roses (ü → avant → ler)" }
       ] },
-      { t: "note", kind: "tip", tag: "Rassure-toi", text: "Même les Turcs appliquent cette règle sans y penser — c'est devenu un réflexe auditif. Après quelques jours d'exercices, tu « entendras » quel suffixe sonne juste. C'est le module le plus rentable du cours : tout ce qui suit (cas, temps, possessifs) obéit à cette mécanique." }
+      { t: "note", kind: "tip", tag: "Rassure-toi", text: "Même les Turcs appliquent cette règle sans y penser : c'est devenu un réflexe auditif. Après quelques jours d'exercices, tu « entendras » quel suffixe sonne juste. C'est le module le plus rentable du cours : tout ce qui suit (cas, temps, possessifs) obéit à cette mécanique." }
     ],
     dialogue: {
       title: "Cours de turc : « evler » ou « evlar » ?",
@@ -307,7 +307,7 @@ const COURSE = [
       { q: "« okul » (école) au pluriel ?", opts: ["okuller", "okullar", "okullır", "okulnur"], a: 1, exp: "u = arrière → -lar : okullar." },
       { q: "Laquelle de ces voyelles est de la famille AVANT ?", opts: ["ı", "u", "ü", "o"], a: 2, exp: "Avant = e, i, ö, ü. Arrière = a, ı, o, u." },
       { q: "« güzelller »… quelle est la bonne écriture ?", opts: ["güzeller", "güzallar", "güzullur", "güzelar"], a: 0, exp: "e final (avant) → güzeller. Le suffixe copie la DERNIÈRE voyelle seulement." },
-      { q: "Le suffixe s'accorde avec…", opts: ["la première voyelle du mot", "la dernière voyelle du mot", "le nombre de syllabes", "la consonne finale"], a: 1, exp: "Uniquement la dernière voyelle — c'est elle qui commande l'harmonie." }
+      { q: "Le suffixe s'accorde avec…", opts: ["la première voyelle du mot", "la dernière voyelle du mot", "le nombre de syllabes", "la consonne finale"], a: 1, exp: "Uniquement la dernière voyelle : c'est elle qui commande l'harmonie." }
     ]
   },
 
@@ -377,14 +377,14 @@ const COURSE = [
   {
     id: "m6", num: 6, level: "A2",
     title: "La famille & la possession",
-    subtitle: "Mon, ton, son — des suffixes encore",
+    subtitle: "Mon, ton, son : des suffixes encore",
     objectifs: [
       "Présenter les membres de ta famille",
       "Exprimer la possession avec des suffixes",
       "Demander « de qui ? c'est quoi ? »"
     ],
     blocks: [
-      { t: "p", text: "En français, la possession utilise des mots séparés (mon, ta, ses…). En turc, elle utilise des <b>suffixes</b> collés au nom possédé — et harmonisés bien sûr." },
+      { t: "p", text: "En français, la possession utilise des mots séparés (mon, ta, ses…). En turc, elle utilise des <b>suffixes</b> collés au nom possédé : et harmonisés bien sûr." },
       { t: "table", caption: "Les suffixes possessifs", head: ["Personne", "Suffixe", "Exemple avec « anne » (mère)", "Traduction"],
         rows: [
           ["1re sg (mon)", "-im", "<tur>annem</tur>", "ma mère"],
@@ -401,10 +401,10 @@ const COURSE = [
         { tr: "İki kardeşim var.", fr: "J'ai deux frères et sœurs." },
         { tr: "Annem öğretmen, babam mühendis.", fr: "Ma mère est enseignante, mon père ingénieur." },
         { tr: "Ablam İzmir'de yaşıyor.", fr: "Ma grande sœur habite à Izmir." },
-        { tr: "Bu kim? — Bu ablam.", fr: "C'est qui ? — C'est ma grande sœur." }
+        { tr: "Bu kim? : Bu ablam.", fr: "C'est qui ? : C'est ma grande sœur." }
       ] },
       { t: "p", text: "La Turquie distingue finement la famille : <tur>abla</tur> = grande sœur, <tur>abi</tur> = grand frère, <tur>kız kardeş</tur> = petite sœur, <tur>erkek kardeş</tur> = petit frère. Et « abla/abi » s'emploient aussi poliment pour des inconnus plus âgés !" },
-      { t: "note", kind: "info", tag: "À noter", text: "Pour dire « le prénom DE ma mère », on utilise le génitif : <tur>annemin adı</tur> (annem-in ad-ı) = littéralement « de-ma-mère son-nom ». Deux suffixes qui s'enchaînent — la possession à la turque est <b>réfléchie</b> : le possédé porte aussi la marque de son possesseur." }
+      { t: "note", kind: "info", tag: "À noter", text: "Pour dire « le prénom DE ma mère », on utilise le génitif : <tur>annemin adı</tur> (annem-in ad-ı) = littéralement « de-ma-mère son-nom ». Deux suffixes qui s'enchaînent : la possession à la turque est <b>réfléchie</b> : le possédé porte aussi la marque de son possesseur." }
     ],
     dialogue: {
       title: "Photos de famille",
@@ -459,7 +459,7 @@ const COURSE = [
           ["<tur>Zamanımız yok.</tur>", "notre temps n'existe pas", "Nous n'avons pas le temps."],
           ["<tur>Bir sorunumuz var.</tur>", "un notre problème existe", "Nous avons un problème."]
         ] },
-      { t: "p", text: "La structure : <b>possesseur (avec suffixe possessif) + var/yok</b>. Le complément « à moi » peut aussi apparaître en tête avec le génitif : <tur>Benim bir arabam var</tur> (moi, j'ai une voiture) — forme complète mais pas obligatoire." },
+      { t: "p", text: "La structure : <b>possesseur (avec suffixe possessif) + var/yok</b>. Le complément « à moi » peut aussi apparaître en tête avec le génitif : <tur>Benim bir arabam var</tur> (moi, j'ai une voiture) : forme complète mais pas obligatoire." },
       { t: "h", text: "« Il y a » dans un lieu" },
       { t: "p", text: "Même couple, autre usage : <b>lieu + var/yok</b> = il y a / il n'y a pas. Le lieu se met au <b>locatif</b> (-de/-da), que tu approfondiras au module 10." },
       { t: "ex", items: [
@@ -470,7 +470,7 @@ const COURSE = [
       ] },
       { t: "h", text: "La question : var mı ? yok mu ?" },
       { t: "p", text: "On ajoute la particule <tur>mi</tur> : <tur>Kahve var mı?</tur> (y a-t-il du café ?), <tur>Para yok mu?</tur> (il n'y a pas d'argent ?). Réponse courte toute simple : <tur>Var.</tur> / <tur>Yok.</tur>" },
-      { t: "note", kind: "tip", tag: "Culture", text: "<tur>Yok</tur> est un mot hautement turc : on l'entend toute la journée. Un marchand : « Coca-Cola var mı? » — « Yok, maalesef. » Il exprime aussi l'absence totale et sert de réponse négative familière (« non, rien »)." }
+      { t: "note", kind: "tip", tag: "Culture", text: "<tur>Yok</tur> est un mot hautement turc : on l'entend toute la journée. Un marchand : « Coca-Cola var mı? » : « Yok, maalesef. » Il exprime aussi l'absence totale et sert de réponse négative familière (« non, rien »)." }
     ],
     dialogue: {
       title: "Arrivée à l'hôtel",
@@ -498,8 +498,8 @@ const COURSE = [
     ],
     quiz: [
       { q: "« Param yok » signifie…", opts: ["J'ai de l'argent", "Je n'ai pas d'argent", "C'est cher", "Il y a de l'argent ici"], a: 1, exp: "param (mon argent) + yok (n'existe pas) = je n'ai pas d'argent." },
-      { q: "Comment demande-t-on « y a-t-il du thé ? »", opts: ["Çay var mı?", "Çay mı var?", "Çay yok mu?", "Var çay?"], a: 0, exp: "Çay var mı ? — la particule interrogative mi suit directement var." },
-      { q: "« Odada bir yatak var » — où est le lit ?", opts: ["sous la chambre", "dans la chambre", "près de la chambre", "hors de la chambre"], a: 1, exp: "oda-da = dans la chambre (suffixe locatif -da)." },
+      { q: "Comment demande-t-on « y a-t-il du thé ? »", opts: ["Çay var mı?", "Çay mı var?", "Çay yok mu?", "Var çay?"], a: 0, exp: "Çay var mı ? : la particule interrogative mi suit directement var." },
+      { q: "« Odada bir yatak var » : où est le lit ?", opts: ["sous la chambre", "dans la chambre", "près de la chambre", "hors de la chambre"], a: 1, exp: "oda-da = dans la chambre (suffixe locatif -da)." },
       { q: "Pour dire « nous avons un problème »…", opts: ["Biz problem var", "Bir sorunumuz var", "Sorun biz var", "Var sorunumuz biz"], a: 1, exp: "sorun-umuz (notre problème) + var : bir sorunumuz var." },
       { q: "« Buzdolabında bira yok » veut dire…", opts: ["Il y a de la bière dans le frigo", "Le frigo est vide de bière", "La bière est froide", "Il n'y a pas de frigo"], a: 1, exp: "Dans le frigo (buzdolabı-nda), bière inexistante : il n'y a pas de bière dans le frigo." }
     ]
@@ -532,7 +532,7 @@ const COURSE = [
       { t: "h", text: "Emplois" },
       { t: "ul", items: [
         "Action en cours : <tur>Şimdi ders çalışıyorum.</tur> (je révise maintenant)",
-        "Habitude : <tur>Her sabah kahve içerim</tur>… au présent simple — mais à l'oral, <tur>Her sabah kahve içiyorum</tur> (je bois du café chaque matin) est très courant.",
+        "Habitude : <tur>Her sabah kahve içerim</tur>… au présent simple : mais à l'oral, <tur>Her sabah kahve içiyorum</tur> (je bois du café chaque matin) est très courant.",
         "États durables : <tur>İstanbul'da yaşıyorum.</tur> (j'habite à Istanbul)"
       ] },
       { t: "ex", items: [
@@ -573,7 +573,7 @@ const COURSE = [
       { q: "« geliyorum » signifie…", opts: ["je pars", "je viens", "il vient", "je viendrai"], a: 1, exp: "gel (racine de venir) + -iyor + -um : je viens." },
       { q: "Complète : « Ben bak… » (je regarde)", opts: ["-ıyorum", "-iyorum", "-uyorum", "-üyorum"], a: 0, exp: "bak- contient a (arrière) → bakıyorum." },
       { q: "« yapmıyorum » signifie…", opts: ["je fais", "je ne fais pas", "tu ne fais pas", "je défaismois"], a: 1, exp: "Le -me/-ma de négation s'intercale : yap-mı-yorum." },
-      { q: "« Ne yapıyorsun? » — que réponds-tu si tu lis ?", opts: ["Kitap okuyorum", "Kitap okumuyorum", "Kitap yapıyorum", "Kitabım var"], a: 0, exp: "oku (lire) + -yorum : kitap okuyorum = je lis un livre." },
+      { q: "« Ne yapıyorsun? » : que réponds-tu si tu lis ?", opts: ["Kitap okuyorum", "Kitap okumuyorum", "Kitap yapıyorum", "Kitabım var"], a: 0, exp: "oku (lire) + -yorum : kitap okuyorum = je lis un livre." },
       { q: "Comment se dit « j'habite à Istanbul » ?", opts: ["İstanbul'da oturuyorum", "İstanbul yaşıyorum var", "İstanbul'da varım", "İstanbul yaşamak"], a: 0, exp: "Deux verbes possibles : yaşamak ou oturmak, avec -da (locatif) : İstanbul'da yaşıyorum / oturuyorum." }
     ]
   },
@@ -602,7 +602,7 @@ const COURSE = [
           ["Avoir", "<tur>param var</tur>", "<tur>param yok</tur>"]
         ] },
       { t: "h", text: "La question : mi, mı, mu, mü" },
-      { t: "p", text: "La particule interrogative se place <b>après le mot interrogé</b> et s'écrit <b>séparée</b> (avec un tiret dans les manuels : mı-). Elle s'harmonise avec la dernière voyelle du mot précédent — comme un suffixe détaché." },
+      { t: "p", text: "La particule interrogative se place <b>après le mot interrogé</b> et s'écrit <b>séparée</b> (avec un tiret dans les manuels : mı-). Elle s'harmonise avec la dernière voyelle du mot précédent : comme un suffixe détaché." },
       { t: "ex", items: [
         { tr: "Öğrenci misin?", fr: "Es-tu étudiant ?" },
         { tr: "Geliyor musun?", fr: "Est-ce que tu viens ?" },
@@ -649,7 +649,7 @@ const COURSE = [
   {
     id: "m10", num: 10, level: "B1",
     title: "Au restaurant : les premiers cas",
-    subtitle: "Locatif, accusatif, datif — commander comme un local",
+    subtitle: "Locatif, accusatif, datif : commander comme un local",
     objectifs: [
       "Employer le locatif -de/-da",
       "Comprendre l'accusatif du COD défini",
@@ -666,9 +666,9 @@ const COURSE = [
           ["<tur>iş</tur>", "<tur>işte</tur>", "au travail"],
           ["<tur>sokak</tur>", "<tur>sokakta</tur>", "dans la rue"]
         ] },
-      { t: "note", kind: "info", tag: "Consonnes sourdes", text: "Si le mot finit par une consonne sourde (p, ç, t, k, s, ş, f, h), le <b>d</b> du suffixe devient <b>t</b> : sokak → soka<b>kta</b>, et → e<b>tte</b>, iş → i<b>şte</b>. Astuce mnémotechnique pour retenir les sourdes : « <b>p ç t k s ş f h</b> » — le poisson frais turc se cuit vite." },
+      { t: "note", kind: "info", tag: "Consonnes sourdes", text: "Si le mot finit par une consonne sourde (p, ç, t, k, s, ş, f, h), le <b>d</b> du suffixe devient <b>t</b> : sokak → soka<b>kta</b>, et → e<b>tte</b>, iş → i<b>şte</b>. Astuce mnémotechnique pour retenir les sourdes : « <b>p ç t k s ş f h</b> » : le poisson frais turc se cuit vite." },
       { t: "h", text: "L'accusatif : le COD défini (-i, -ı, -u, -ü)" },
-      { t: "p", text: "Subtilité clé : l'accusatif ne marque pas n'importe quel COD, mais le COD <b>défini</b> — celui qu'on connaît déjà. Compare :" },
+      { t: "p", text: "Subtilité clé : l'accusatif ne marque pas n'importe quel COD, mais le COD <b>défini</b> : celui qu'on connaît déjà. Compare :" },
       { t: "ex", items: [
         { tr: "Ekmek aldım.", fr: "J'ai acheté du pain. (indéfini : du pain en général)" },
         { tr: "Ekmeği aldım.", fr: "J'ai pris le pain. (défini : celui qu'on attendait)" },
@@ -677,7 +677,7 @@ const COURSE = [
       ] },
       { t: "p", text: "Après voyelle finale, un tampon <b>y</b> s'intercale : <tur>masa-y-ı</tur> (la table), <tur>kapı-y-ı</tur> (la porte), <tur>çay-ı</tur> (le thé)." },
       { t: "h", text: "Le datif : -e / -a (à, vers)" },
-      { t: "p", text: "Il marque la destination : <tur>Eve gidiyorum</tur> (je vais à la maison), <tur>Okula gittik</tur> (nous sommes allés à l'école), <tur>Masaya koydum</tur> (je l'ai posé sur la table). Après voyelle : tampon y — <tur>araba-y-a</tur>." },
+      { t: "p", text: "Il marque la destination : <tur>Eve gidiyorum</tur> (je vais à la maison), <tur>Okula gittik</tur> (nous sommes allés à l'école), <tur>Masaya koydum</tur> (je l'ai posé sur la table). Après voyelle : tampon y : <tur>araba-y-a</tur>." },
       { t: "h", text: "Kit de survie du restaurant" },
       { t: "ex", items: [
         { tr: "Bir menü alabilir miyim?", fr: "Puis-je avoir une carte ?" },
@@ -746,16 +746,16 @@ const COURSE = [
           ["siz", "<tur>geldiniz</tur>", "vous êtes venus"],
           ["onlar", "<tur>geldiler</tur>", "ils/elles sont venus"]
         ] },
-      { t: "p", text: "Négation : <tur>gelmedim</tur> (je ne suis pas venu), avec le -me familier. Attention aux harmonies : <tur>baktım</tur> (j'ai regardé), <tur>koştum</tur> (j'ai couru), <tur>içtim</tur> (j'ai bu), <tur>öptüm</tur>… (j'ai embrassé — la fameuse chanson)." },
+      { t: "p", text: "Négation : <tur>gelmedim</tur> (je ne suis pas venu), avec le -me familier. Attention aux harmonies : <tur>baktım</tur> (j'ai regardé), <tur>koştum</tur> (j'ai couru), <tur>içtim</tur> (j'ai bu), <tur>öptüm</tur>… (j'ai embrassé : la fameuse chanson)." },
       { t: "h", text: "Le passé rapporté : -miş" },
-      { t: "p", text: "Voici la pépite du turc : le <b>duyulan geçmiş</b> (passé entendu). On l'utilise quand on <b>rapporte</b> un événement qu'on n'a pas vu soi-même — ou pour exprimer la surprise." },
+      { t: "p", text: "Voici la pépite du turc : le <b>duyulan geçmiş</b> (passé entendu). On l'utilise quand on <b>rapporte</b> un événement qu'on n'a pas vu soi-même : ou pour exprimer la surprise." },
       { t: "ex", items: [
         { tr: "Yağmur yağmış.", fr: "Il a plu, paraît-il. (je ne l'ai pas vu)" },
         { tr: "Ali evlenmiş!", fr: "Ali se serait marié ! (je viens de l'apprendre)" },
         { tr: "Çok yorgunmuş.", fr: "Il paraît qu'il était très fatigué." },
         { tr: "Bir varmış, bir yokmuş.", fr: "Il était une fois… (ouverture des contes)" }
       ] },
-      { t: "note", kind: "info", tag: "Nuance", text: "Français « paraît-il / aurait / se serait » ≈ -miş. En turc, dire « Ali geldi » (je l'ai vu arriver) vs « Ali gelmiş » (on m'a dit qu'il était arrivé) distingue <b>la source de l'information</b> — une précision que le français n'a pas, et que les Turcs trouvent indispensable !" },
+      { t: "note", kind: "info", tag: "Nuance", text: "Français « paraît-il / aurait / se serait » ≈ -miş. En turc, dire « Ali geldi » (je l'ai vu arriver) vs « Ali gelmiş » (on m'a dit qu'il était arrivé) distingue <b>la source de l'information</b> : une précision que le français n'a pas, et que les Turcs trouvent indispensable !" },
       { t: "h", text: "Raconter sa journée" },
       { t: "ex", items: [
         { tr: "Sabah erken kalktım.", fr: "Le matin je me suis levé tôt." },
@@ -790,7 +790,7 @@ const COURSE = [
       { q: "« gittim » signifie…", opts: ["je viens", "je suis allé(e)", "je partirai", "il est allé"], a: 1, exp: "git + -ti + -m : je suis allé(e). (la racine git- garde son t → gitti, pas « gitedi »)" },
       { q: "« Ali evlenmiş » exprime…", opts: ["que j'ai vu Ali se marier", "qu'on m'a dit qu'Ali s'est marié", "qu'Ali va se marier", "qu'Ali n'est pas marié"], a: 1, exp: "-miş = passé rapporté : je le sais de source indirecte." },
       { q: "Négation de « geldik » (nous sommes venus) ?", opts: ["gelmedik", "gelmediler", "gelmeyiz", "gelmiyoruz"], a: 0, exp: "-me s'intercale avant la terminaison : gel-me-dik." },
-      { q: "« Bir varmış, bir yokmuş » ouvre…", opts: ["un journal télévisé", "un conte", "un discours politique", "une recette"], a: 1, exp: "C'est le « il était une fois » turc — au passé rapporté, comme il se doit pour les histoires." },
+      { q: "« Bir varmış, bir yokmuş » ouvre…", opts: ["un journal télévisé", "un conte", "un discours politique", "une recette"], a: 1, exp: "C'est le « il était une fois » turc : au passé rapporté, comme il se doit pour les histoires." },
       { q: "« Çok güldüm » signifie…", opts: ["j'ai beaucoup ri", "j'étais drôle", "il a ri", "je vais rire"], a: 0, exp: "gül (rire) + -d + -üm : güldüm." }
     ]
   },
@@ -816,8 +816,8 @@ const COURSE = [
           ["siz", "<tur>geleceksiniz</tur>", "vous viendrez"],
           ["onlar", "<tur>gelecekler</tur>", "ils/elles viendront"]
         ] },
-      { t: "note", kind: "warn", tag: "Le fameux k → ğ", text: "Regarde <tur>geleceğim</tur> : le <b>k</b> de « gelecek » devient <b>ğ</b> quand une voyelle suit. Règle générale : un k final se soften en ğ devant voyelle (yapacak → yapacağım). C'est l'alternance consonantique — le turc adore adoucir ses consonnes finales." },
-      { t: "p", text: "Négation : <tur>gelmeyeceğim</tur> (je ne viendrai pas) — le -me s'intercale, et le k redevient… k ! (gel-me-y-ecek-im). Question : <tur>Gelecek misin?</tur> (viendras-tu ?)." },
+      { t: "note", kind: "warn", tag: "Le fameux k → ğ", text: "Regarde <tur>geleceğim</tur> : le <b>k</b> de « gelecek » devient <b>ğ</b> quand une voyelle suit. Règle générale : un k final se soften en ğ devant voyelle (yapacak → yapacağım). C'est l'alternance consonantique : le turc adore adoucir ses consonnes finales." },
+      { t: "p", text: "Négation : <tur>gelmeyeceğim</tur> (je ne viendrai pas) : le -me s'intercale, et le k redevient… k ! (gel-me-y-ecek-im). Question : <tur>Gelecek misin?</tur> (viendras-tu ?)." },
       { t: "h", text: "Parler de projets" },
       { t: "ex", items: [
         { tr: "Yarın spor yapacağım.", fr: "Demain je ferai du sport." },
@@ -835,7 +835,7 @@ const COURSE = [
           ["<tur>ama / fakat</tur>", "mais", "<tur>İstedim ama yapamadım.</tur>"],
           ["<tur>ve</tur>", "et", "<tur>çay ve kahve</tur>"]
         ] },
-      { t: "note", kind: "tip", tag: "Félicitations", text: "Tu as terminé le parcours A1→B1 ! Tu peux maintenant te présenter, compter, conjuguer aux trois temps principaux, nier, questionner, commander au restaurant et raconter ta journée. La suite logique : enrichis ton vocabulaire avec les flashcards, révise la grammaire de référence, et surtout — <b>parle</b>. Türkçe konuşmak istiyorsan, konuş! Un Türk qui te corrige vaut mille exercices. Bol şans ! (Bonne chance !)" }
+      { t: "note", kind: "tip", tag: "Félicitations", text: "Tu as terminé le parcours A1→B1 ! Tu peux maintenant te présenter, compter, conjuguer aux trois temps principaux, nier, questionner, commander au restaurant et raconter ta journée. La suite logique : enrichis ton vocabulaire avec les flashcards, révise la grammaire de référence, et surtout : <b>parle</b>. Türkçe konuşmak istiyorsan, konuş! Un Türk qui te corrige vaut mille exercices. Bol şans ! (Bonne chance !)" }
     ],
     dialogue: {
       title: "Projets du week-end",

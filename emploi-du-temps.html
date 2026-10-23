@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planning & méthode — Türkçe Akademi</title>
-  <meta name="description" content="Un emploi du temps d'étude optimisé : sommeil 9 h, séances Pomodoro 25/5, sieste courte, révision espacée — avec minuteur intégré.">
+  <title>Mon planning d'études | Türkçe Akademi</title>
+  <meta name="description" content="Ton rythme actuel comparé à un emploi du temps optimisé : sommeil 9 h, séances Pomodoro 25/5, sieste courte, révision espacée et minuteur intégré.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 
   <header class="nav">
     <div class="container nav-inner">
-      <a class="brand" href="index.html" aria-label="Türkçe Akademi — Accueil">
+      <a class="brand" href="index.html" aria-label="Türkçe Akademi, accueil">
         <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
           <rect width="40" height="40" rx="11" fill="var(--red)"/>
           <circle cx="16.5" cy="20" r="11" fill="#fff"/>
@@ -93,6 +93,11 @@
         <b class="tag">Ce que j'ai supposé</b>
         <div>Le rythme « actuel » est reconstitué d'après tes habitudes (réveil vers 3 h du matin, étude jusqu'à 6 h 30, sieste vers 19 h, dîner à 20 h, coucher vers 21 h). Si j'ai mal compris un horaire, dis-le-moi et j'ajuste le planning.</div>
       </div>
+
+      <div class="note warn">
+        <b class="tag">Pourquoi ne pas commencer à 3 h ?</b>
+        <div>Si tu te couches à 19 h puis te réveilles pour dîner, ton sommeil est coupé en deux. Pour un étudiant, le repère général est de dormir 8 à 10 heures par nuit. Ce planning place le coucher vers 21 h 30 et le réveil à 6 h 30 : neuf heures au lit, sans révision tardive. Tu gagnes des heures d'étude <i>mieux placées</i>, pas des heures en plus.</div>
+      </div>
     </div>
   </main>
 
@@ -101,8 +106,8 @@
     <div class="container">
       <div class="section-head center">
         <span class="overline">Pourquoi ça marche</span>
-        <h2>Six principes validés par la recherche</h2>
-        <p>Tout le net se ressemble sur ce point : ce n'est pas le nombre d'heures qui compte, c'est leur qualité. Voici les six leviers qui changent tout.</p>
+        <h2>Neuf principes validés par la recherche</h2>
+        <p>Tout le net se ressemble sur ce point : ce n'est pas le nombre d'heures qui compte, c'est leur qualité. Voici les neuf leviers qui changent tout.</p>
       </div>
       <div class="grid grid-3 reveal">
         <div class="card hover">
@@ -134,6 +139,21 @@
           <div class="feat-icon gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/><path d="M12 18h.01M3 3l18 18"/></svg></div>
           <h3>Téléphone hors de la pièce</h3>
           <p>Chaque notification coûte plusieurs minutes de re-concentration. Pendant une séance, le téléphone vit ailleurs ; pendant les pauses, tu peux y retourner. C'est le réflexe n° 1 des étudiants qui travaillent moins longtemps et réussissent mieux.</p>
+        </div>
+        <div class="card hover">
+          <div class="feat-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+          <h3>Étudie activement</h3>
+          <p>Ferme le cahier et essaie de restituer la leçon. Réponds à des questions, puis vérifie et corrige. La relecture seule donne une impression de maîtrise sans vérifier ce que tu sais vraiment.</p>
+        </div>
+        <div class="card hover">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div>
+          <h3>Corrige chaque erreur</h3>
+          <p>Ne te contente pas de lire la bonne réponse. Explique pourquoi tu t'es trompé, refais l'exercice sans aide et note une question courte pour le prochain rappel.</p>
+        </div>
+        <div class="card hover">
+          <div class="feat-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></div>
+          <h3>Une priorité par séance</h3>
+          <p>Écris un résultat précis avant de commencer, par exemple « résoudre trois exercices sur les fractions ». Une séance qui a un objectif clair se termine vraiment ; une séance « réviser » s'étire ou se disperse.</p>
         </div>
       </div>
 
@@ -185,10 +205,49 @@
     </div>
   </section>
 
+  <!-- ============ RÉVISION ESPACÉE ============ -->
+  <section class="section tinted">
+    <div class="container">
+      <div class="section-head center">
+        <span class="overline">Révision espacée</span>
+        <h2>Revoir au bon moment toute la semaine</h2>
+        <p>Une courte révision bien espacée aide davantage qu'une longue séance de dernière minute. Essaie cette boucle et adapte-la à tes cours.</p>
+      </div>
+      <div class="grid grid-4 reveal">
+        <div class="card">
+          <span class="chip red">Le jour du cours</span>
+          <h3 class="mt-2">Comprendre et noter les questions</h3>
+          <p>Après l'école, reformule l'idée principale en quelques phrases et note ce qui reste flou.</p>
+        </div>
+        <div class="card">
+          <span class="chip gold">Le lendemain</span>
+          <h3 class="mt-2">Répondre sans regarder</h3>
+          <p>Ferme le cahier, écris ou récite ce dont tu te souviens, puis vérifie et corrige.</p>
+        </div>
+        <div class="card">
+          <span class="chip blue">Trois jours après</span>
+          <h3 class="mt-2">Faire un exercice différent</h3>
+          <p>Applique la même notion dans un nouveau problème, une phrase ou un exemple.</p>
+        </div>
+        <div class="card">
+          <span class="chip green">Le week-end</span>
+          <h3 class="mt-2">Mélanger les matières</h3>
+          <p>Teste-toi sur les notions importantes de plusieurs jours et choisis les points à reprendre la semaine suivante.</p>
+        </div>
+      </div>
+
+      <div class="note warn mt-4">
+        <b class="tag">Les jours où tu es fatigué</b>
+        <div><b>Fais la version courte, puis arrête-toi.</b> Choisis un exercice ou une leçon à revoir pendant 20 minutes, prépare ton sac et couche-toi à l'heure prévue. Si tu es régulièrement épuisé, parle-en à un adulte de confiance et allège le planning au lieu d'ajouter des heures de travail.</div>
+      </div>
+      <p class="muted" style="font-size:.82rem;text-align:center;margin-top:14px">Les temps de trajet et les heures de lever sont des estimations. Adapte-les à ta réalité et protège ton sommeil plutôt que de remplir chaque minute.</p>
+    </div>
+  </section>
+
   <footer class="footer">
     <div class="container">
       <div class="footer-bottom" style="border:none;padding-top:0">
-        <span>© <span id="year">2026</span> Türkçe Akademi — by TAM · pour les francophones</span>
+        <span>© <span id="year">2026</span> Türkçe Akademi, by TAM, pour les francophones</span>
         <span><a href="exercices.html">Passe au quiz</a> · <a href="index.html">Retour à l'accueil</a></span>
       </div>
     </div>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vocabulaire & flashcards — Türkçe Akademi</title>
-  <meta name="description" content="581 mots de turc en 28 thèmes : flashcards interactives avec prononciation, exemples et révision espacée.">
+  <title>Vocabulaire & flashcards | Türkçe Akademi</title>
+  <meta name="description" content="625 mots de turc en 29 thèmes : flashcards interactives, filtres de révision, expressions et verbes utiles.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 
   <header class="nav">
     <div class="container nav-inner">
-      <a class="brand" href="index.html" aria-label="Türkçe Akademi — Accueil">
+      <a class="brand" href="index.html" aria-label="Türkçe Akademi, accueil">
         <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
           <rect width="40" height="40" rx="11" fill="var(--red)"/>
           <circle cx="16.5" cy="20" r="11" fill="#fff"/>
@@ -46,18 +46,44 @@
     <div class="container">
       <div class="section-head">
         <span class="overline">Vocabulaire</span>
-        <h2>Flashcards — <span id="total-words">581</span> mots en 28 thèmes</h2>
-        <p>Choisis un thème, retourne les cartes, évalue-toi honnêtement : les mots que tu maîtrises le moins reviendront en priorité. Ton niveau (5 pastilles) est mémorisé.</p>
+        <h2>Flashcards : <span id="total-words">0</span> mots en <span id="total-themes">0</span> thèmes</h2>
+        <p>Choisis un thème et le sens de traduction. Filtre les mots à apprendre, en cours ou déjà maîtrisés ; ta progression est mémorisée sur cet appareil.</p>
       </div>
 
+      <div class="vocab-shortcuts" aria-label="Accès rapide aux thèmes">
+        <span class="muted">Révision rapide :</span>
+        <button class="theme-chip" type="button" data-quick-theme="verbes1">Verbes courants 1</button>
+        <button class="theme-chip" type="button" data-quick-theme="verbes2">Verbes courants 2</button>
+        <button class="theme-chip" type="button" data-quick-theme="verbes3">Verbes courants 3</button>
+        <button class="theme-chip" type="button" data-quick-theme="verbes4">Verbes courants 4</button>
+        <button class="theme-chip" type="button" data-quick-theme="expressions">Expressions</button>
+      </div>
+      <details class="verb-guide">
+        <summary>Quelques verbes au présent : lire, écrire, apprendre</summary>
+        <div class="verb-guide-grid">
+          <div><b>lire</b><span class="tr">okumak</span><span class="tr">okuyorum</span><small>je lis</small></div>
+          <div><b>écrire</b><span class="tr">yazmak</span><span class="tr">yazıyorum</span><small>j'écris</small></div>
+          <div><b>apprendre</b><span class="tr">öğrenmek</span><span class="tr">öğreniyorum</span><small>j'apprends</small></div>
+          <div><b>aller</b><span class="tr">gitmek</span><span class="tr">gidiyorum</span><small>je vais</small></div>
+        </div>
+        <p class="muted">Les verbes à l'infinitif se terminent souvent par <span class="tr">-mak</span> ou <span class="tr">-mek</span>. Prononce la forme au présent, puis essaie d'en retrouver le sens sans regarder.</p>
+      </details>
       <div class="theme-chips" id="theme-chips"></div>
 
       <div class="flex wrap gap-2 items-center mb-3" style="justify-content:space-between">
         <div class="flex gap-2 items-center wrap">
-          <span class="chip" id="theme-progress">—</span>
-          <span class="chip green" id="theme-known">—</span>
+          <label class="vocab-filter-label" for="vocab-level-filter">Afficher</label>
+          <select class="vocab-filter" id="vocab-level-filter">
+            <option value="all">Tous les mots</option>
+            <option value="new">À apprendre</option>
+            <option value="learning">En cours</option>
+            <option value="mastered">Maîtrisés</option>
+          </select>
+          <span class="chip" id="theme-progress">0 mots</span>
+          <span class="chip green" id="theme-known">0 connu</span>
         </div>
         <div class="flex gap-2 items-center">
+          <button class="btn btn-ghost btn-sm" id="btn-direction" type="button" aria-pressed="false">Carte : turc → français</button>
           <button class="btn btn-ghost btn-sm" id="btn-shuffle">Mélanger</button>
           <button class="btn btn-ghost btn-sm" id="btn-mode">Vue liste</button>
         </div>
@@ -79,7 +105,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-bottom" style="border:none;padding-top:0">
-        <span>© <span id="year">2026</span> Türkçe Akademi — by TAM · pour les francophones</span>
+        <span>© <span id="year">2026</span> Türkçe Akademi, by TAM, pour les francophones</span>
         <span><a href="exercices.html">Passe au quiz</a> · <a href="grammaire.html">Fiches de grammaire</a></span>
       </div>
     </div>

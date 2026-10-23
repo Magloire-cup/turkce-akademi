@@ -1,6 +1,6 @@
 /* ============================================================
    Türkçe Akademi — Base de vocabulaire
-   28 thèmes, 581 mots avec exemple et traduction
+   29 thèmes, 625 mots avec exemple et traduction
    ============================================================ */
 
 const VOCAB = [
@@ -685,7 +685,39 @@ const VOCAB = [
       { tr: "tekrar etmek", fr: "répéter", ex: "Lütfen tekrar eder misiniz?", exFr: "Pouvez-vous répéter, s'il vous plaît ?" },
       { tr: "devam etmek", fr: "continuer", ex: "Derse devam ettim.", exFr: "J'ai continué le cours." },
       { tr: "başarmak", fr: "réussir", ex: "Başaracağına inanıyorum.", exFr: "Je crois que tu vas réussir." },
-      { tr: "kazanmak", fr: "gagner", ex: "Maçı kazandık!", exFr: "On a gagné le match !" }
+      { tr: "kazanmak", fr: "gagner", ex: "Maçı kazandık!", exFr: "On a gagné le match !" },
+      { tr: "anlaşmak", fr: "s'entendre, se mettre d'accord", ex: "Arkadaşımla iyi anlaşıyorum.", exFr: "Je m'entends bien avec mon ami." },
+      { tr: "çözmek", fr: "résoudre", ex: "Bu problemi çözdüm.", exFr: "J'ai résolu ce problème." },
+      { tr: "paylaşmak", fr: "partager", ex: "Yemeğimi arkadaşımla paylaştım.", exFr: "J'ai partagé mon repas avec mon ami." },
+      { tr: "kaçmak", fr: "s'enfuir, s'échapper", ex: "Kedi bahçeye kaçtı.", exFr: "Le chat s'est enfui dans le jardin." },
+      { tr: "giymek", fr: "porter (un vêtement)", ex: "Bugün mavi bir gömlek giyiyorum.", exFr: "Je porte une chemise bleue aujourd'hui." },
+      { tr: "çıkarmak", fr: "enlever, retirer", ex: "Ayakkabılarını çıkar.", exFr: "Enlève tes chaussures." },
+      { tr: "buluşmak", fr: "se retrouver, se rencontrer", ex: "Saat beşte buluşalım.", exFr: "Retrouvons-nous à cinq heures." },
+      { tr: "tanımak", fr: "connaître, reconnaître", ex: "Onu okuldan tanıyorum.", exFr: "Je le connais de l'école." }
+    ]
+  },
+  {
+    id: "verbes4",
+    name: "Verbes courants (4)",
+    words: [
+      { tr: "korumak", fr: "protéger, garder", ex: "Doğayı korumalıyız.", exFr: "Nous devons protéger la nature." },
+      { tr: "düşmek", fr: "tomber", ex: "Dün merdivenden düştüm.", exFr: "Je suis tombé dans l'escalier hier." },
+      { tr: "artmak", fr: "augmenter", ex: "Son günlerde fiyatlar arttı.", exFr: "Les prix ont augmenté ces derniers jours." },
+      { tr: "azalmak", fr: "diminuer", ex: "Yağmur akşama doğru azalacak.", exFr: "La pluie diminuera vers le soir." },
+      { tr: "karşılaşmak", fr: "rencontrer, tomber sur", ex: "Yolda eski bir arkadaşımla karşılaştım.", exFr: "J'ai croisé un vieil ami en chemin." },
+      { tr: "vazgeçmek", fr: "renoncer, abandonner", ex: "Hayalimden vazgeçmedim.", exFr: "Je n'ai pas renoncé à mon rêve." },
+      { tr: "saklamak", fr: "cacher, conserver", ex: "Bu mektubu saklamak istiyorum.", exFr: "Je veux garder cette lettre." },
+      { tr: "silmek", fr: "effacer, essuyer", ex: "Tahtadaki yazıyı sildi.", exFr: "Il a effacé ce qui était écrit au tableau." },
+      { tr: "kırmak", fr: "casser, briser", ex: "Bardağı yanlışlıkla kırdım.", exFr: "J'ai cassé le verre par accident." },
+      { tr: "başvurmak", fr: "postuler, faire une demande", ex: "Bu işe başvurmak istiyorum.", exFr: "Je veux postuler à cet emploi." },
+      { tr: "düzenlemek", fr: "organiser, arranger", ex: "Yarın küçük bir gezi düzenliyoruz.", exFr: "Nous organisons une petite excursion demain." },
+      { tr: "araştırmak", fr: "faire des recherches, enquêter", ex: "Bu konuyu dikkatlice araştırdım.", exFr: "J'ai étudié ce sujet attentivement." },
+      { tr: "gelişmek", fr: "se développer, progresser", ex: "Türkçem her gün gelişiyor.", exFr: "Mon turc progresse chaque jour." },
+      { tr: "fark etmek", fr: "remarquer, se rendre compte", ex: "Hatasını hemen fark etti.", exFr: "Il a tout de suite remarqué son erreur." },
+      { tr: "kaçırmak", fr: "manquer, rater", ex: "Sabah otobüsünü kaçırdım.", exFr: "J'ai raté le bus du matin." },
+      { tr: "toplamak", fr: "ramasser, rassembler", ex: "Bahçedeki yaprakları topladık.", exFr: "Nous avons ramassé les feuilles du jardin." },
+      { tr: "yakalamak", fr: "attraper", ex: "Treni yakalamak için koştum.", exFr: "J'ai couru pour attraper le train." },
+      { tr: "kaydetmek", fr: "enregistrer, sauvegarder", ex: "Yeni numarayı telefonuma kaydettim.", exFr: "J'ai enregistré le nouveau numéro dans mon téléphone." }
     ]
   },
   {
@@ -723,7 +755,25 @@ const VOCAB = [
       { tr: "aynen", fr: "pareil, tout à fait", ex: "— Ben de öyle düşünüyorum. — Aynen!", exFr: "— Je pense pareil. — Tout à fait !" },
       { tr: "bir şey değil", fr: "de rien", ex: "— Teşekkürler! — Bir şey değil.", exFr: "— Merci ! — De rien." },
       { tr: "güle güle kullan", fr: "bon usage (pour un objet neuf)", ex: "Yeni telefonunu güle güle kullan!", exFr: "Profite bien de ton nouveau téléphone !" },
-      { tr: "bakalım", fr: "on verra, allez", ex: "— Sınav zor mu olacak? — Bakalım!", exFr: "— L'examen sera difficile ? — On verra !" }
+      { tr: "bakalım", fr: "on verra, allez", ex: "— Sınav zor mu olacak? — Bakalım!", exFr: "— L'examen sera difficile ? — On verra !" },
+      { tr: "her şey yolunda mı?", fr: "tout va bien ?", ex: "Her şey yolunda mı, iyi misin?", exFr: "Tout va bien, tu vas bien ?" },
+      { tr: "bir dakika, lütfen", fr: "une minute, s'il vous plaît", ex: "Bir dakika, lütfen. Hemen geliyorum.", exFr: "Une minute, s'il vous plaît. J'arrive tout de suite." },
+      { tr: "tekrar eder misiniz?", fr: "pouvez-vous répéter ?", ex: "Affedersiniz, tekrar eder misiniz?", exFr: "Excusez-moi, pouvez-vous répéter ?" },
+      { tr: "anlamadım", fr: "je n'ai pas compris", ex: "Anlamadım, daha yavaş konuşur musunuz?", exFr: "Je n'ai pas compris, pouvez-vous parler plus lentement ?" },
+      { tr: "daha yavaş konuşur musunuz?", fr: "pouvez-vous parler plus lentement ?", ex: "Lütfen daha yavaş konuşur musunuz?", exFr: "Pouvez-vous parler plus lentement, s'il vous plaît ?" },
+      { tr: "türkçe öğreniyorum", fr: "j'apprends le turc", ex: "Türkçe öğreniyorum, biraz sabırlı olun.", exFr: "J'apprends le turc, soyez un peu patient." },
+      { tr: "biraz türkçe konuşuyorum", fr: "je parle un peu turc", ex: "Biraz Türkçe konuşuyorum ama hâlâ öğreniyorum.", exFr: "Je parle un peu turc, mais j'apprends encore." },
+      { tr: "yardımınıza ihtiyacım var", fr: "j'ai besoin de votre aide", ex: "Affedersiniz, yardımınıza ihtiyacım var.", exFr: "Excusez-moi, j'ai besoin de votre aide." },
+      { tr: "buraya nasıl gidebilirim?", fr: "comment puis-je aller là-bas ?", ex: "Buraya nasıl gidebilirim, biliyor musunuz?", exFr: "Savez-vous comment je peux aller là-bas ?" },
+      { tr: "kartla ödeyebilir miyim?", fr: "puis-je payer par carte ?", ex: "Kartla ödeyebilir miyim, yoksa nakit mi lazım?", exFr: "Puis-je payer par carte ou faut-il de l'argent liquide ?" },
+      { tr: "hesabı alabilir miyim?", fr: "puis-je avoir l'addition ?", ex: "Hesabı alabilir miyim, lütfen?", exFr: "Puis-je avoir l'addition, s'il vous plaît ?" },
+      { tr: "rezervasyonum var", fr: "j'ai une réservation", ex: "Saat yedi için rezervasyonum var.", exFr: "J'ai une réservation pour sept heures." },
+      { tr: "boş yer var mı?", fr: "y a-t-il une place libre ?", ex: "İki kişi için boş yer var mı?", exFr: "Y a-t-il une place libre pour deux personnes ?" },
+      { tr: "afedersiniz, geçebilir miyim?", fr: "excusez-moi, puis-je passer ?", ex: "Afedersiniz, geçebilir miyim? Otobüse yetişmem gerekiyor.", exFr: "Excusez-moi, puis-je passer ? Je dois attraper le bus." },
+      { tr: "ben de öyle düşünüyorum", fr: "je le pense aussi", ex: "Ben de öyle düşünüyorum, çok güzel bir fikir.", exFr: "Je le pense aussi, c'est une très bonne idée." },
+      { tr: "fark etmez", fr: "peu importe, ça m'est égal", ex: "Çay mı kahve mi? Fark etmez.", exFr: "Thé ou café ? Peu importe." },
+      { tr: "henüz bilmiyorum", fr: "je ne sais pas encore", ex: "Yarın gelip gelmeyeceğimi henüz bilmiyorum.", exFr: "Je ne sais pas encore si je viendrai demain." },
+      { tr: "tekrar görüşmek üzere", fr: "à une prochaine fois", ex: "Şimdilik hoşça kal, tekrar görüşmek üzere.", exFr: "Au revoir pour l'instant, à une prochaine fois." }
     ]
   },
   {
