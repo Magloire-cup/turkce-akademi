@@ -118,12 +118,14 @@ const PARCOURS_B = [
           ["onlar", "<tur>gelseler</tur>", "s'ils / elles venaient"]
         ] },
       { t: "p", text: "<tur>Eğer</tur> (si) est facultatif. Pour une hypothèse irréelle ou un regret, on combine -se avec le passé <b>-ydi</b> : <tur>Param olsaydı yeni bir araba alırdım.</tur> (Si j'avais de l'argent, j'achèterais une nouvelle voiture.)." },
+      { t: "note", kind: "info", tag: "Hypothèse irréelle", text: "Le schéma complet est <tur>-seydi</tur> + <tur>-erdi</tur> : <tur>Daha erken çıksaydık trene yetişirdik.</tur> (Si nous étions partis plus tôt, nous aurions attrapé le train.). À la forme négative : <tur>söylemeseydim</tur> (si je ne l'avais pas dit) : <tur>Keşke ona söylemeseydim.</tur>" },
       { t: "note", kind: "tip", tag: "Keşke", text: "<tur>Keşke</tur> signifie « si seulement ». Il appelle souvent le conditionnel passé : <tur>Keşke daha erken gelseydim.</tur> (Si seulement j'étais venu plus tôt.), <tur>Keşke Türkçe konuşabilseydim.</tur> (Si seulement je savais parler turc.)" },
       { t: "ex", items: [
         { tr: "Yarın hava güzel olursa parka gideriz.", fr: "S'il fait beau demain, nous irons au parc." },
         { tr: "Eğer gelirsen beni ara.", fr: "Si tu viens, appelle-moi." },
         { tr: "Param olsaydı yeni bir araba alırdım.", fr: "Si j'avais de l'argent, j'achèterais une voiture neuve." },
-        { tr: "Keşke daha erken gelseydim.", fr: "Si seulement j'étais venu plus tôt." }
+        { tr: "Keşke daha erken gelseydim.", fr: "Si seulement j'étais venu plus tôt." },
+        { tr: "Daha erken çıksaydık trene yetişirdik.", fr: "Si nous étions partis plus tôt, nous aurions attrapé le train." }
       ] },
       { t: "note", kind: "info", tag: "Famille", text: "<tur>anne</tur> (mère), <tur>baba</tur> (père), <tur>kardeş</tur> (frère ou sœur), <tur>eş</tur> (conjoint), <tur>çocuk</tur> (enfant), <tur>evli</tur> (marié), <tur>bekar</tur> (célibataire)." }
     ],
@@ -145,11 +147,12 @@ const PARCOURS_B = [
       { t: "table", caption: "Exprimer l'obligation et la nécessité", head: ["Structure", "Exemple", "Sens"],
         rows: [
           ["-meli / -malı", "<tur>Gitmeliyim.</tur>", "Je dois partir."],
+          ["-meliydi / -malıydı", "<tur>Gitmeliydim.</tur>", "J'aurais dû partir."],
           ["-memeli / -mamalı", "<tur>Gitmemelisin.</tur>", "Tu ne dois pas partir."],
           ["-mek zorunda", "<tur>Çalışmak zorundayım.</tur>", "Je suis obligé de travailler."],
           ["-meye ihtiyaç", "<tur>Su içmeye ihtiyacım var.</tur>", "J'ai besoin de boire de l'eau."]
         ] },
-      { t: "note", kind: "info", tag: "Nuance", text: "<b>-meli</b> exprime une obligation personnelle, un conseil ou une déduction (« je dois », « il faut que »). <b>zorunda</b> insiste sur une contrainte extérieure. <b>ihtiyaç</b> parle d'un besoin." },
+      { t: "note", kind: "info", tag: "Nuance", text: "<b>-meli</b> exprime une obligation personnelle, un conseil ou une déduction (« je dois », « il faut que »). <b>zorunda</b> insiste sur une contrainte extérieure. <b>ihtiyaç</b> parle d'un besoin. Au passé, <tur>-meliydi</tur> exprime le regret d'une obligation non remplie : <tur>Daha erken kalkmalıydım.</tur> (J'aurais dû me lever plus tôt.)" },
       { t: "p", text: "Pour les goûts : <tur>sevmek</tur> (aimer), <tur>hoşlanmak</tur> (apprécier), <tur>nefret etmek</tur> (détester). L'activité aimée prend <b>-meyi / -mayı</b> : <tur>Yürümeyi seviyorum.</tur>" },
       { t: "ex", items: [
         { tr: "Yürümeyi seviyorum.", fr: "J'aime marcher." },
@@ -263,7 +266,7 @@ const PARCOURS_B = [
           ["<tur>Can kulağıyla dinlemek</tur>", "écouter avec l'oreille de l'âme", "écouter très attentivement"]
         ] },
       { t: "p", text: "<b>Mustafa Kemal Atatürk</b> (1881–1938) est le fondateur de la République de Turquie, proclamée en 1923. Il a engagé de grandes réformes : adoption de l'alphabet latin en 1928, développement de l'enseignement, droits politiques des femmes (éligibilité en 1934) et modernisation du pays. Son nom reste associé à la laïcité et à la souveraineté nationale." },
-      { t: "note", kind: "tip", tag: "Fin du parcours", text: "Tu as parcouru les 17 étapes ! Pour consolider, refais les mini-quiz, puis choisis un module de cours et une série de flashcards. La régularité vaut mieux que les sessions marathon." }
+      { t: "note", kind: "tip", tag: "Presque au bout", text: "Tu viens de boucler les temps du passé. Deux unités concrètes t'attendent encore : chez le médecin et au téléphone." }
     ],
     vocab: [
       ["yağmur", "pluie"], ["başlamak", "commencer"], ["uyumak", "dormir"], ["cumhuriyet", "république"],

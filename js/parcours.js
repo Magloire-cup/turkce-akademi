@@ -1,6 +1,6 @@
-/* Türkçe Akademi : parcours guidé en 17 unités */
+/* Türkçe Akademi : parcours guidé en 19 unités */
 
-const PARCOURS = [...PARCOURS_A, ...PARCOURS_B];
+const PARCOURS = [...PARCOURS_A, ...PARCOURS_B, ...PARCOURS_C];
 
 const QUIZ_KEY = "ta_parcours_quiz";
 let quizDone = {};
