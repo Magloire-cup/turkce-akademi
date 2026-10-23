@@ -64,6 +64,7 @@ html[data-theme="dark"] {
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
+[id] { scroll-margin-top: 88px; }
 
 body {
   font-family: var(--font-body);
@@ -384,6 +385,7 @@ table.tbl th {
 table.tbl td { padding: 11px 18px; border-bottom: 1px solid var(--border); color: var(--ink-2); }
 table.tbl tr:last-child td { border-bottom: none; }
 table.tbl td:first-child { font-weight: 600; color: var(--ink); }
+#defi table.tbl td:first-child, #defi table.tbl td:last-child { white-space: nowrap; }
 
 .ex-line {
   display: flex; align-items: center; gap: 14px;
@@ -438,6 +440,8 @@ table.tbl td:first-child { font-weight: 600; color: var(--ink); }
 .chip.gold { background: var(--gold-soft); color: var(--gold); border-color: color-mix(in srgb, var(--gold) 30%, transparent); }
 .chip.green { background: var(--green-soft); color: var(--green); border-color: color-mix(in srgb, var(--green) 25%, transparent); }
 .chip.blue { background: var(--blue-soft); color: var(--blue); border-color: color-mix(in srgb, var(--blue) 22%, transparent); }
+a.chip { transition: border-color .15s, color .15s, transform .15s; }
+a.chip:hover { border-color: var(--border-2); color: var(--ink); transform: translateY(-1px); }
 
 /* ---------------- Flashcards ---------------- */
 .flash-zone { max-width: 560px; margin: 0 auto; }
