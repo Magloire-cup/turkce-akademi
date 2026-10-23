@@ -747,8 +747,31 @@ kbd {
 .faq-item[open] summary::after { content: "–"; }
 .faq-item p { margin: 10px 0 0; color: var(--muted); font-size: .92rem; line-height: 1.65; }
 
-/* Huit liens : le menu passe en burger avant que la barre ne déborde. */
-@media (max-width: 1160px) {
+/* ---------------- Parcours guidé ---------------- */
+.parcours-vocab { margin-bottom: 8px; }
+.pq {
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface-2); padding: 20px 22px;
+}
+.pq-q { padding: 16px 0; border-top: 1px dashed var(--border-2); }
+.pq-q:first-child { border-top: 0; padding-top: 0; }
+.pq-q:last-child { padding-bottom: 0; }
+.pq-title { font-weight: 600; font-size: .96rem; margin-bottom: 10px; }
+.pq-opts { display: grid; gap: 8px; }
+.pq-opt {
+  text-align: left; font: inherit; font-size: .9rem; color: var(--ink-2);
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 10px 14px; transition: all .15s;
+}
+.pq-opt:hover:not(:disabled) { border-color: var(--border-2); background: var(--bg-soft); transform: translateX(2px); }
+.pq-opt:disabled { cursor: default; opacity: .75; }
+.pq-opt.ok { border-color: var(--green); background: var(--green-soft); color: var(--green); font-weight: 600; opacity: 1; }
+.pq-opt.no { border-color: var(--red); background: var(--red-soft); color: var(--red); opacity: 1; }
+.pq-why { display: none; margin-top: 10px; font-size: .86rem; color: var(--muted); line-height: 1.55; }
+.pq-why.show { display: block; }
+
+/* Neuf liens : le menu passe en burger avant que la barre ne déborde. */
+@media (max-width: 1260px) {
   .nav-links {
     display: none; position: absolute; top: 68px; left: 0; right: 0;
     background: var(--surface); border-bottom: 1px solid var(--border);
@@ -770,6 +793,7 @@ kbd {
   .course-side { position: static; max-height: none; }
   .gram-layout { grid-template-columns: 1fr; }
   .gram-toc { position: static; max-height: none; }
+  #parcours-toc { max-height: 340px; overflow-y: auto; }
   .track-body { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {

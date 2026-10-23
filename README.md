@@ -7,6 +7,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 ## Contenu
 
 - **12 modules de cours** (A1 → B1) : leçon complète, dialogue joué, vocabulaire clé et quiz de validation pour chaque module.
+- **Parcours guidé de 17 unités originales** (A1 → B1) : objectif, vocabulaire audio, tableaux de grammaire, exemples et mini-quiz corrigés (34 questions, XP à la clé).
 - **625 mots et expressions** répartis en 29 thèmes, avec phrases d'exemple et prononciation, dont quatre thèmes de verbes, des expressions du quotidien et des questions utiles.
 - **Flashcards à révision espacée** : cinq niveaux de maîtrise, filtres par niveau, entraînement dans les deux sens et priorité aux mots les moins connus.
 - **16 fiches de grammaire** de référence (harmonie vocalique, les 6 cas, passés -di/-miş, futur -ecek…).
@@ -28,6 +29,7 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
 ```
 ├── index.html            Accueil + tableau de bord
 ├── cours.html            Les 12 modules
+├── parcours.html         Parcours guidé en 17 unités
 ├── vocabulaire.html      Flashcards + liste
 ├── grammaire.html        Référence (16 fiches)
 ├── essentiel.html        Mémento : cas, SOV, phrases, nombres, FAQ
@@ -40,6 +42,8 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
     ├── data-vocab.js     625 mots en 29 thèmes
     ├── data-course.js    Les 12 modules (leçons, dialogues, quiz)
     ├── data-grammar.js   Les 16 fiches de grammaire
+    ├── data-parcours-a.js  Parcours, unités 1 à 9
+    ├── data-parcours-b.js  Parcours, unités 10 à 17
     ├── data-quiz.js      Banque de quiz + mot du jour
     ├── schedule.js       Planning + minuteur Pomodoro
     └── … un script par page
