@@ -1,13 +1,13 @@
 # Türkçe Akademi
 
-**Apprendre le turc en français : un cours complet, gratuit et sans inscription.**
+**Apprendre le turc en français : un cours complet et gratuit.**
 
 Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) conçu pour les francophones qui veulent apprendre le turc sérieusement, du niveau A1 au B1.
 
 ## Contenu
 
 - **12 modules de cours** (A1 → B1) : leçon complète, dialogue joué, vocabulaire clé et quiz de validation pour chaque module.
-- **Parcours guidé de 17 unités originales** (A1 → B1) : objectif, vocabulaire audio, tableaux de grammaire, exemples et mini-quiz corrigés (34 questions, XP à la clé).
+- **Parcours guidé de 17 unités originales** : objectif, vocabulaire audio, tableaux de grammaire, exemples et mini-quiz corrigés (34 questions, XP à la clé).
 - **625 mots et expressions** répartis en 29 thèmes, avec phrases d'exemple et prononciation, dont quatre thèmes de verbes, des expressions du quotidien et des questions utiles.
 - **Flashcards à révision espacée** : cinq niveaux de maîtrise, filtres par niveau, entraînement dans les deux sens et priorité aux mots les moins connus.
 - **16 fiches de grammaire** de référence (harmonie vocalique, les 6 cas, passés -di/-miş, futur -ecek…).
@@ -15,7 +15,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 - **Quiz interactifs** : turc→français, français→turc, compréhension orale, grammaire et grand mix. Chaque réponse est expliquée.
 - **Alphabet interactif** : 29 lettres avec prononciation, paires minimales et accent tonique.
 - **Prononciation sonore** partout grâce à la synthèse vocale du navigateur (voix `tr-TR`).
-- **Progression locale** : XP, niveaux, série quotidienne, modules terminés et mots mémorisés, stockés dans `localStorage`, sans compte.
+- **Progression locale** : XP, niveaux, série quotidienne, modules terminés et mots mémorisés, stockés dans `localStorage`.
 - **Planning d'études** : routine adaptée aux cours de 9 h à 15 h 45, comparaison avec ton rythme actuel, révisions espacées, pomodoro 25/5 qui rapporte des XP, pauses et sommeil protégé.
 
 ## Utiliser
