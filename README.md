@@ -10,6 +10,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 - **625 mots et expressions** répartis en 29 thèmes, avec phrases d'exemple et prononciation, dont quatre thèmes de verbes, des expressions du quotidien et des questions utiles.
 - **Flashcards à révision espacée** : cinq niveaux de maîtrise, filtres par niveau, entraînement dans les deux sens et priorité aux mots les moins connus.
 - **16 fiches de grammaire** de référence (harmonie vocalique, les 6 cas, passés -di/-miş, futur -ecek…).
+- **L'essentiel en une page** : les 6 cas, l'ordre SOV, la conjugaison de *gelmek*, 27 phrases de survie avec prononciation, les nombres, les jours et les mois, six conseils et une FAQ.
 - **Quiz interactifs** : turc→français, français→turc, compréhension orale, grammaire et grand mix. Chaque réponse est expliquée.
 - **Alphabet interactif** : 29 lettres avec prononciation, paires minimales et accent tonique.
 - **Prononciation sonore** partout grâce à la synthèse vocale du navigateur (voix `tr-TR`).
@@ -29,6 +30,7 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
 ├── cours.html            Les 12 modules
 ├── vocabulaire.html      Flashcards + liste
 ├── grammaire.html        Référence (16 fiches)
+├── essentiel.html        Mémento : cas, SOV, phrases, nombres, FAQ
 ├── exercices.html        Quiz
 ├── prononciation.html    Alphabet interactif
 ├── emploi-du-temps.html  Planning d'études + minuteur Pomodoro
