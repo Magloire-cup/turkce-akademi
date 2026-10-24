@@ -11,6 +11,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 - **625 mots et expressions** répartis en 29 thèmes, avec phrases d'exemple et prononciation, dont quatre thèmes de verbes, des expressions du quotidien et des questions utiles.
 - **Flashcards à révision espacée** : cinq niveaux de maîtrise, filtres par niveau, entraînement dans les deux sens et priorité aux mots les moins connus.
 - **16 fiches de grammaire** de référence (harmonie vocalique, les 6 cas, passés -di/-miş, futur -ecek…).
+- **Conjugueur interactif** : 36 verbes courants, 7 temps, formes affirmatives et négatives, prononciation audio et mode test pour réviser de mémoire.
 - **L'essentiel en une page** : les 6 cas, l'ordre SOV, la conjugaison de *gelmek*, 27 phrases de survie avec prononciation, les nombres, les jours et les mois, six conseils, les 7 pièges du francophone, les faux amis, 8 codes culturels, des ressources vérifiées, un défi de 7 jours et une FAQ.
 - **Quiz interactifs** : turc→français, français→turc, compréhension orale, grammaire et grand mix. Chaque réponse est expliquée.
 - **Alphabet interactif** : 29 lettres avec prononciation, paires minimales et accent tonique.
@@ -32,6 +33,7 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
 ├── parcours.html         Parcours guidé en 19 unités
 ├── vocabulaire.html      Flashcards + liste
 ├── grammaire.html        Référence (16 fiches)
+├── conjugaison.html      Conjugueur interactif (36 verbes, 7 temps)
 ├── essentiel.html        Mémento : cas, SOV, phrases, pièges, faux amis, culture, ressources, FAQ
 ├── exercices.html        Quiz
 ├── prononciation.html    Alphabet interactif
@@ -42,6 +44,8 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
     ├── data-vocab.js     625 mots en 29 thèmes
     ├── data-course.js    Les 12 modules (leçons, dialogues, quiz)
     ├── data-grammar.js   Les 16 fiches de grammaire
+    ├── data-verbs.js     36 verbes pour le conjugueur
+    ├── conjugator.js     Moteur et interface du conjugueur
     ├── data-parcours-a.js  Parcours, unités 1 à 9
     ├── data-parcours-b.js  Parcours, unités 10 à 17
     ├── data-parcours-c.js  Parcours, unités 18 à 19

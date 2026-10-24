@@ -1,0 +1,44 @@
+/* ============================================================
+   Türkçe Akademi : verbes du conjugueur
+   Formes de référence à la 3e personne du singulier (présent
+   continu, présent simple, passé -di, futur -ecek).
+   ============================================================ */
+
+const VERBES = [
+  { inf: "gelmek", tr: "venir", pres: "geliyor", aor: "gelir", past: "geldi", fut: "gelecek" },
+  { inf: "gitmek", tr: "aller", pres: "gidiyor", aor: "gider", past: "gitti", fut: "gidecek", note: "Le t final devient d devant une voyelle : git- → gid-iyor, gid-ecek." },
+  { inf: "yapmak", tr: "faire", pres: "yapıyor", aor: "yapar", past: "yaptı", fut: "yapacak" },
+  { inf: "etmek", tr: "faire (verbe auxiliaire)", pres: "ediyor", aor: "eder", past: "etti", fut: "edecek", note: "Le t devient d devant une voyelle : et- → ed-iyor, ed-ecek." },
+  { inf: "olmak", tr: "être, devenir", pres: "oluyor", aor: "olur", past: "oldu", fut: "olacak" },
+  { inf: "istemek", tr: "vouloir", pres: "istiyor", aor: "ister", past: "istedi", fut: "isteyecek" },
+  { inf: "sevmek", tr: "aimer", pres: "seviyor", aor: "sever", past: "sevdi", fut: "sevecek" },
+  { inf: "bilmek", tr: "savoir", pres: "biliyor", aor: "bilir", past: "bildi", fut: "bilecek" },
+  { inf: "görmek", tr: "voir", pres: "görüyor", aor: "görür", past: "gördü", fut: "görecek" },
+  { inf: "almak", tr: "prendre, acheter", pres: "alıyor", aor: "alır", past: "aldı", fut: "alacak" },
+  { inf: "vermek", tr: "donner", pres: "veriyor", aor: "verir", past: "verdi", fut: "verecek" },
+  { inf: "konuşmak", tr: "parler", pres: "konuşuyor", aor: "konuşur", past: "konuştu", fut: "konuşacak" },
+  { inf: "çalışmak", tr: "travailler", pres: "çalışıyor", aor: "çalışır", past: "çalıştı", fut: "çalışacak" },
+  { inf: "okumak", tr: "lire", pres: "okuyor", aor: "okur", past: "okudu", fut: "okuyacak" },
+  { inf: "yazmak", tr: "écrire", pres: "yazıyor", aor: "yazar", past: "yazdı", fut: "yazacak" },
+  { inf: "dinlemek", tr: "écouter", pres: "dinliyor", aor: "dinler", past: "dinledi", fut: "dinleyecek" },
+  { inf: "anlamak", tr: "comprendre", pres: "anlıyor", aor: "anlar", past: "anladı", fut: "anlayacak" },
+  { inf: "öğrenmek", tr: "apprendre", pres: "öğreniyor", aor: "öğrenir", past: "öğrendi", fut: "öğrenecek" },
+  { inf: "söylemek", tr: "dire", pres: "söylüyor", aor: "söyler", past: "söyledi", fut: "söyleyecek" },
+  { inf: "yemek", tr: "manger", pres: "yiyor", aor: "yer", past: "yedi", fut: "yiyecek", note: "Le radical ye- devient yi- devant -yor et -yecek : yiyor, yiyecek." },
+  { inf: "içmek", tr: "boire", pres: "içiyor", aor: "içer", past: "içti", fut: "içecek" },
+  { inf: "uyumak", tr: "dormir", pres: "uyuyor", aor: "uyur", past: "uyudu", fut: "uyuyacak" },
+  { inf: "kalkmak", tr: "se lever", pres: "kalkıyor", aor: "kalkar", past: "kalktı", fut: "kalkacak" },
+  { inf: "oturmak", tr: "s'asseoir", pres: "oturuyor", aor: "oturur", past: "oturdu", fut: "oturacak" },
+  { inf: "beklemek", tr: "attendre", pres: "bekliyor", aor: "bekler", past: "bekledi", fut: "bekleyecek" },
+  { inf: "açmak", tr: "ouvrir", pres: "açıyor", aor: "açar", past: "açtı", fut: "açacak" },
+  { inf: "kapatmak", tr: "fermer", pres: "kapatıyor", aor: "kapatır", past: "kapattı", fut: "kapatacak" },
+  { inf: "bulmak", tr: "trouver", pres: "buluyor", aor: "bulur", past: "buldu", fut: "bulacak" },
+  { inf: "çıkmak", tr: "sortir", pres: "çıkıyor", aor: "çıkar", past: "çıktı", fut: "çıkacak" },
+  { inf: "girmek", tr: "entrer", pres: "giriyor", aor: "girer", past: "girdi", fut: "girecek" },
+  { inf: "dönmek", tr: "revenir, tourner", pres: "dönüyor", aor: "döner", past: "döndü", fut: "dönecek" },
+  { inf: "başlamak", tr: "commencer", pres: "başlıyor", aor: "başlar", past: "başladı", fut: "başlayacak" },
+  { inf: "bitirmek", tr: "finir", pres: "bitiriyor", aor: "bitirir", past: "bitirdi", fut: "bitirecek" },
+  { inf: "kalmak", tr: "rester", pres: "kalıyor", aor: "kalır", past: "kaldı", fut: "kalacak" },
+  { inf: "bakmak", tr: "regarder", pres: "bakıyor", aor: "bakar", past: "baktı", fut: "bakacak" },
+  { inf: "düşünmek", tr: "penser", pres: "düşünüyor", aor: "düşünür", past: "düşündü", fut: "düşünecek" }
+];
