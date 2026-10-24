@@ -64,6 +64,14 @@ const GRAMMAR = [
           ["+ possessif", "<tur>evlerim</tur>", "mes maisons"],
           ["+ cas locatif", "<tur>evlerimde</tur>", "dans mes maisons"]
         ] },
+      { t: "p", text: "La logique va du <b>plus général au plus précis</b> : l'objet, puis la quantité (<tur>-ler/-lar</tur>), puis le possesseur (<tur>-im</tur>…), puis la fonction dans la phrase (<tur>-de</tur>, <tur>-den</tur>…)." },
+      { t: "table", caption: "Le même radical, trois niveaux de précision", head: ["Formule", "Mot", "Sens"],
+        rows: [
+          ["racine + pluriel + locatif", "<tur>evlerde</tur>", "dans les maisons"],
+          ["racine + possessif + locatif", "<tur>evimde</tur>", "dans ma maison"],
+          ["racine + pluriel + possessif + locatif", "<tur>evlerimde</tur>", "dans mes maisons"]
+        ] },
+      { t: "note", kind: "info", tag: "Deux noms liés", text: "Le <b>génitif</b> relie deux noms : il se place sur le <b>possesseur</b>, tandis que le <b>possessif</b> se place sur l'objet possédé. Exemple : <tur>evin kapısı</tur> (la porte de la maison) = <tur>ev-in</tur> + <tur>kapı-sı</tur>. Le génitif ferme le premier mot ; il ne se glisse pas après le possessif du second." },
       { t: "p", text: "Même principe pour les verbes : racine + négation + temps + personne. <tur>gel-me-di-m</tur> = je ne suis pas venu. Un mot = une mini-phrase." },
       { t: "note", kind: "tip", tag: "Lecture", text: "Face à un long mot turc, épluche-le par la droite : -ler/-lar ? possessif ? cas ? Puis traite le radical restant." }
     ]

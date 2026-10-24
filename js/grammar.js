@@ -3,14 +3,14 @@
 let currentArticle = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
-  renderToc();
   const hash = location.hash.replace("#", "");
   const idx = GRAMMAR.findIndex(g => g.id === hash);
   currentArticle = idx >= 0 ? idx : 0;
+  renderToc();
   renderArticle();
   window.addEventListener("hashchange", () => {
     const i = GRAMMAR.findIndex(g => g.id === location.hash.replace("#", ""));
-    if (i >= 0 && i !== currentArticle) { currentArticle = i; renderArticle(); }
+    if (i >= 0 && i !== currentArticle) { currentArticle = i; renderToc(); renderArticle(); }
   });
 });
 

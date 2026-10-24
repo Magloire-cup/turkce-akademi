@@ -341,6 +341,13 @@ const COURSE = [
       { t: "note", kind: "warn", tag: "Piège", text: "Après un nombre, le nom reste au <b>singulier</b> : <tur>üç elma</tur> (trois pommes), jamais « üç elmalar ». On précise la quantité avec <tur>tane</tur> : <tur>üç tane elma</tur> (trois pommes, littéralement « trois pièces de pomme »)." },
       { t: "h", text: "L'ordre des briques" },
       { t: "p", text: "Les suffixes arrivent toujours dans le même ordre, comme une recette : <b>1.</b> pluriel → <b>2.</b> possessif → <b>3.</b> cas. Ainsi <tur>evlerimde</tur> = ev-ler-im-de. Inverser l'ordre est impossible." },
+      { t: "ex", items: [
+        { tr: "evlerde", fr: "dans les maisons (pluriel + locatif)" },
+        { tr: "evimde", fr: "dans ma maison (possessif + locatif)" },
+        { tr: "evlerimde", fr: "dans mes maisons (pluriel + possessif + locatif)" }
+      ] },
+      { t: "p", text: "Cette mécanique va du <b>plus général au plus précis</b> : l'objet de base, puis la quantité, puis le possesseur, puis la fonction dans la phrase." },
+      { t: "note", kind: "info", tag: "Deux noms liés", text: "Le <b>génitif</b> (<tur>-in</tur>) relie deux noms : il se place sur le <b>possesseur</b>, et le <b>possessif</b> sur l'objet possédé. <tur>evin kapısı</tur> = la porte de la maison (<tur>ev-in</tur> + <tur>kapı-sı</tur>). Le génitif termine le premier mot ; il ne s'insère pas dans l'ordre interne du second." },
       { t: "note", kind: "tip", tag: "Repère", text: "Quand tu vois un long mot turc, ne panique pas : découpe-le par la droite. Cherche -ler/-lar (pluriel), puis un suffixe connu. La lecture « épluchage d'oignon » rend 90 % des longs mots transparents." }
     ],
     dialogue: {
@@ -366,6 +373,7 @@ const COURSE = [
     ],
     quiz: [
       { q: "Que signifie « evlerimde » ?", opts: ["mes maisons", "dans mes maisons", "ta maison", "les maisons lointaines"], a: 1, exp: "ev-ler-im-de : maison + pluriel + mon + dans = dans mes maisons." },
+      { q: "« dans ma maison » se dit…", opts: ["evlerde", "evimde", "evlerimde", "evim"], a: 1, exp: "ev-im-de : maison + mon + dans. Sans pluriel, evlerimde signifierait « dans mes maisons »." },
       { q: "« şehir » (ville) au pluriel ?", opts: ["şehirler", "şıhırlar", "şehirlar", "şehirlor"], a: 0, exp: "i (avant) → -ler : şehirler." },
       { q: "Après un nombre (ex. üç elma), le nom est…", opts: ["toujours au pluriel", "au singulier", "au duel", "au cas locatif"], a: 1, exp: "üç elma, beş kitap : le nombre suffit, pas de pluriel après un chiffre." },
       { q: "L'ordre correct des suffixes est…", opts: ["cas → pluriel → possessif", "possessif → cas → pluriel", "pluriel → possessif → cas", "peu importe"], a: 2, exp: "Toujours : pluriel → possessif → cas (ev-ler-im-de)." },
