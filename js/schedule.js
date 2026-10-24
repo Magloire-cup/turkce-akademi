@@ -213,7 +213,6 @@ function pomoComplete() {
     Pomo.cycles = Math.min(4, Pomo.cycles + 1);
     Pomo.done += 1;
     pomoSaveToday();
-    if (window.Progress) Progress.addXp(5);
     pomoSetMode(Pomo.cycles >= 4 ? "long" : "short");
     toast("Séance terminée ! " + (Pomo.cycles >= 4 ? "Pause longue bien méritée." : "Petite pause de 5 min."));
   } else {

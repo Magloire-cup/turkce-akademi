@@ -1,10 +1,20 @@
 /* Türkçe Akademi : parcours guidé en 19 unités */
 
 const PARCOURS = [...PARCOURS_A, ...PARCOURS_B, ...PARCOURS_C];
+const PARCOURS_QUIZ_TOTAL = PARCOURS.reduce((n, u) => n + u.quiz.length, 0);
+const PARCOURS_QUIZ_KEYS = new Set(PARCOURS.flatMap(u => u.quiz.map((_, qi) => `${u.id}-${qi}`)));
 
 const QUIZ_KEY = "ta_parcours_quiz";
 let quizDone = {};
-try { quizDone = JSON.parse(localStorage.getItem(QUIZ_KEY) || "{}"); } catch (e) { quizDone = {}; }
+try {
+  const saved = JSON.parse(localStorage.getItem(QUIZ_KEY) || "{}");
+  if (saved && typeof saved === "object" && !Array.isArray(saved)) {
+    Object.keys(saved).forEach(key => {
+      if (saved[key] === true && PARCOURS_QUIZ_KEYS.has(key)) quizDone[key] = true;
+    });
+  }
+} catch (e) { quizDone = {}; }
+try { localStorage.setItem(QUIZ_KEY, JSON.stringify(quizDone)); } catch (e) {}
 
 const UNIT_LEVELS = { A1: "Les bases", A2: "L'autonomie", B1: "L'approfondissement" };
 let currentUnit = 0;
@@ -28,7 +38,7 @@ function chipClass(level) {
 function renderToc() {
   const done = Object.keys(quizDone).length;
   el("#parcours-toc").innerHTML = `
-    <div class="lvl" id="parcours-progress">${done}/${PARCOURS.length * 2} réponses justes</div>
+    <div class="lvl" id="parcours-progress">${done}/${PARCOURS_QUIZ_TOTAL} réponses justes</div>
     ${["A1", "A2", "B1"].map(lvl => `
       <div class="lvl">${UNIT_LEVELS[lvl]} · ${lvl}</div>
       ${PARCOURS.map((u, i) => u.level === lvl ? `
@@ -125,11 +135,10 @@ function bindQuiz(u) {
           if (!quizDone[key]) {
             quizDone[key] = true;
             localStorage.setItem(QUIZ_KEY, JSON.stringify(quizDone));
-            Progress.addXp(5);
-            toast("Bonne réponse ! +5 XP");
+            toast("Bonne réponse !");
           }
           const p = el("#parcours-progress");
-          if (p) p.textContent = `${Object.keys(quizDone).length}/${PARCOURS.length * 2} réponses justes`;
+          if (p) p.textContent = `${Object.keys(quizDone).length}/${PARCOURS_QUIZ_TOTAL} réponses justes`;
         } else {
           btn.classList.add("no");
           toast("Presque ! Lis l'explication et retiens la forme.");

@@ -263,13 +263,6 @@ html[data-theme="dark"] .nav-links a.active { background: var(--red); color: #ff
 .dash-stat .lab { font-size: .8rem; color: var(--muted); font-weight: 600; }
 .dash-stat .sub { font-size: .74rem; color: var(--muted); margin-top: 6px; }
 
-.level-bar { margin-top: 22px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; box-shadow: var(--shadow-sm); }
-.level-bar .row { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
-.level-bar .row b { font-family: var(--font-head); }
-.level-bar .row span { color: var(--muted); font-size: .85rem; }
-.progress-track { height: 12px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 99px; overflow: hidden; }
-.progress-fill { height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--red), var(--gold)); transition: width .8s cubic-bezier(.2,.8,.2,1); width: 0; }
-
 /* ---------------- Programme / modules ---------------- */
 .track {
   background: var(--surface); border: 1px solid var(--border);
@@ -692,8 +685,6 @@ a.chip:hover { border-color: var(--border-2); color: var(--ink); transform: tran
 .quiz-result .score { font-family: var(--font-head); font-size: 3.4rem; font-weight: 800; letter-spacing: -.04em; }
 .quiz-result .score b { color: var(--red); }
 .quiz-result p { color: var(--muted); margin: 8px 0 24px; }
-.xp-burst { display: inline-flex; align-items: center; gap: 8px; background: var(--gold-soft); color: var(--gold); font-weight: 700; padding: 8px 18px; border-radius: 999px; margin-top: 6px; }
-
 /* ---------------- Grammaire ---------------- */
 .gram-layout { display: grid; grid-template-columns: 260px 1fr; gap: 40px; align-items: start; }
 .gram-layout > * { min-width: 0; }
@@ -906,7 +897,7 @@ kbd {
 .pq-why { display: none; margin-top: 10px; font-size: .86rem; color: var(--muted); line-height: 1.55; }
 .pq-why.show { display: block; }
 
-/* Dix liens : le menu passe en burger avant que la barre ne déborde. */
+/* Onze liens : le menu passe en burger avant que la barre ne déborde. */
 @media (max-width: 1440px) {
   .nav-links {
     display: none; position: absolute; top: 68px; left: 0; right: 0;
@@ -944,4 +935,11 @@ kbd {
   .hero-stats { gap: 22px; }
   .alpha-grid { grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); }
   .verb-guide-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 380px) {
+  .container { padding: 0 16px; }
+  .nav-inner { gap: 10px; }
+  .brand { font-size: .9rem; gap: 7px; }
+  .brand .star-mark { width: 30px; height: 30px; }
+  .icon-btn { width: 36px; height: 36px; }
 }

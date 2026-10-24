@@ -63,10 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
     </div>`).join("");
 
   els(".alpha-card").forEach(c => c.addEventListener("click", () => selectLetter(+c.dataset.i)));
-  selectLetter(0);
+  selectLetter(0, true);
 });
 
-function selectLetter(i) {
+function selectLetter(i, silent = false) {
   const a = ALPHABET[i];
   const isTr = a.type === "special";
   els(".alpha-card").forEach(c => { c.style.borderColor = ""; c.style.background = ""; });
@@ -89,5 +89,5 @@ function selectLetter(i) {
     <button class="btn btn-ghost btn-sm mt-3" id="alpha-say">Réécouter la lettre</button>`;
 
   el("#alpha-say").addEventListener("click", () => speak(trLower(a.l)));
-  speak(trLower(a.l));
+  if (!silent) speak(trLower(a.l));
 }

@@ -89,33 +89,12 @@ const Progress = {
   data: null,
   load() {
     try { this.data = JSON.parse(localStorage.getItem(this.KEY)) || {}; } catch (e) { this.data = {}; }
-    if (typeof this.data.xp !== "number") this.data.xp = 0;
     if (!Array.isArray(this.data.doneModules)) this.data.doneModules = [];
     if (!this.data.knownWords) this.data.knownWords = {};
-    if (typeof this.data.streak !== "number") this.data.streak = 0;
     if (!this.data.quizBest) this.data.quizBest = {};
-    this.updateStreak();
     return this.data;
   },
   save() { try { localStorage.setItem(this.KEY, JSON.stringify(this.data)); } catch (e) {} },
-  updateStreak() {
-    const today = new Date().toDateString();
-    if (this.data.lastDay === today) return;
-    const y = new Date(); y.setDate(y.getDate() - 1);
-    this.data.streak = this.data.lastDay === y.toDateString() ? this.data.streak + 1 : 1;
-    this.data.lastDay = today;
-    this.save();
-  },
-  addXp(n) {
-    this.load();
-    const before = this.level();
-    this.data.xp += n;
-    this.save();
-    if (this.level() > before) toast(`Niveau ${this.level()} atteint ! Tebrikler !`);
-    else toast(`+${n} XP`);
-  },
-  level() { return Math.floor(this.data.xp / 100) + 1; },
-  levelProgress() { return this.data.xp % 100; },
   isModuleDone(id) { return this.data.doneModules.includes(id); },
   toggleModuleDone(id) {
     this.load();
@@ -123,16 +102,40 @@ const Progress = {
     if (i >= 0) { this.data.doneModules.splice(i, 1); this.save(); return false; }
     this.data.doneModules.push(id);
     this.save();
-    this.addXp(30);
     return true;
   },
-  setWordLevel(word, lvl) {
+  wordKey(tr, fr) { return `${tr}|${fr}`; },
+  migrateWordKeys(themes) {
     this.load();
-    this.data.knownWords[word] = lvl;
+    const known = this.data.knownWords;
+    const byTr = new Map();
+    const valid = new Set();
+    themes.forEach(t => t.words.forEach(w => {
+      const key = this.wordKey(w.tr, w.fr);
+      valid.add(key);
+      if (!byTr.has(w.tr)) byTr.set(w.tr, []);
+      if (!byTr.get(w.tr).includes(key)) byTr.get(w.tr).push(key);
+    }));
+    let changed = false;
+    Object.keys(known).forEach(key => {
+      if (valid.has(key)) return;
+      if (!key.includes("|") && byTr.has(key)) {
+        byTr.get(key).forEach(target => {
+          if (known[target] === undefined) known[target] = known[key];
+        });
+      }
+      delete known[key];
+      changed = true;
+    });
+    if (changed) this.save();
+  },
+  setWordLevel(key, lvl) {
+    this.load();
+    this.data.knownWords[key] = lvl;
     this.save();
   },
-  getWordLevel(word) { this.load(); return this.data.knownWords[word] || 0; },
-  knownCount() { this.load(); return Object.keys(this.data.knownWords).length; },
+  getWordLevel(key) { this.load(); return this.data.knownWords[key] || 0; },
+  knownCount() { this.load(); return Object.values(this.data.knownWords).filter(l => l > 0).length; },
   setQuizBest(key, score) {
     this.load();
     if ((this.data.quizBest[key] || 0) < score) { this.data.quizBest[key] = score; this.save(); return true; }

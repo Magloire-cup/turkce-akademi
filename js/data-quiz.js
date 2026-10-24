@@ -1,6 +1,6 @@
 /* ============================================================
    Türkçe Akademi : Banque de quiz de grammaire
-   36 questions avec explications (les quiz de vocabulaire
+   40 questions avec explications (les quiz de vocabulaire
    sont générés dynamiquement depuis VOCAB)
    ============================================================ */
 

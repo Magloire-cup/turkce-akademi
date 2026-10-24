@@ -1,6 +1,8 @@
 /* Türkçe Akademi : compagnon vidéo A1 / A2 / B1 */
 
 const VIDEOS = [...VIDEOS_A1, ...VIDEOS_A2, ...VIDEOS_B1];
+const VIDEO_QUIZ_TOTAL = VIDEOS.reduce((n, u) => n + u.quiz.length, 0);
+const VIDEO_QUIZ_KEYS = new Set(VIDEOS.flatMap(u => u.quiz.map((_, qi) => `${u.id}-${qi}`)));
 
 const VIDEO_PLAYLISTS = {
   A1: "https://www.youtube.com/playlist?list=PLJnZq9X10tdbMDbn4Q5hdwh4VEGtrBWIs",
@@ -14,7 +16,15 @@ const VIDEO_DONE_KEY = "ta_videos_done";
 
 let videoQuizDone = {};
 let videoDone = [];
-try { videoQuizDone = JSON.parse(localStorage.getItem(VIDEO_QUIZ_KEY) || "{}") || {}; } catch (e) { videoQuizDone = {}; }
+try {
+  const saved = JSON.parse(localStorage.getItem(VIDEO_QUIZ_KEY) || "{}");
+  if (saved && typeof saved === "object" && !Array.isArray(saved)) {
+    Object.keys(saved).forEach(key => {
+      if (saved[key] === true && VIDEO_QUIZ_KEYS.has(key)) videoQuizDone[key] = true;
+    });
+  }
+} catch (e) { videoQuizDone = {}; }
+try { localStorage.setItem(VIDEO_QUIZ_KEY, JSON.stringify(videoQuizDone)); } catch (e) {}
 try {
   const saved = JSON.parse(localStorage.getItem(VIDEO_DONE_KEY) || "[]");
   if (Array.isArray(saved)) videoDone = [...new Set(saved.filter(id => VIDEOS.some(v => v.id === id)))];
@@ -84,11 +94,10 @@ function renderVideoToc() {
   const toc = el("#video-toc");
   if (!toc) return;
   const list = videoList(currentLevel);
-  const quizTotal = VIDEOS.length * 2;
   const quizDone = Object.keys(videoQuizDone).length;
   toc.innerHTML = `
     <div class="lvl" id="video-progress">${videoDone.length}/${VIDEOS.length} fiches révisées</div>
-    <div class="lvl" id="video-quiz-progress">${quizDone}/${quizTotal} réponses justes</div>
+    <div class="lvl" id="video-quiz-progress">${quizDone}/${VIDEO_QUIZ_TOTAL} réponses justes</div>
     <div class="lvl">${VIDEO_LEVELS[currentLevel]} · ${currentLevel}</div>
     ${list.map((u, i) => `
       <button data-idx="${i}" class="${i === currentIndex ? "active" : ""}${videoDone.includes(u.id) ? " done" : ""}">
@@ -216,7 +225,7 @@ function bindVideoQuiz(u) {
             toast("Bonne réponse !");
           }
           const p = el("#video-quiz-progress");
-          if (p) p.textContent = `${Object.keys(videoQuizDone).length}/${VIDEOS.length * 2} réponses justes`;
+          if (p) p.textContent = `${Object.keys(videoQuizDone).length}/${VIDEO_QUIZ_TOTAL} réponses justes`;
         } else {
           btn.classList.add("no");
           toast("Presque ! Lis l'explication et retiens la forme.");

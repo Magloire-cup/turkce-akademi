@@ -56,7 +56,7 @@ function renderModule() {
         <span class="chip red">Module ${m.num} · ${m.level}</span>
         ${done ? '<span class="chip green">Terminé</span>' : ""}
         <button class="btn btn-sm ${done ? "btn-ghost" : "btn-green"}" id="btn-done">
-          ${done ? "Marquer comme non terminé" : "Marquer comme terminé (+30 XP)"}
+          ${done ? "Marquer comme non terminé" : "Marquer comme terminé"}
         </button>
       </div>
       <h2 class="lesson-title">${m.title}</h2>
@@ -201,14 +201,11 @@ function renderModuleQuiz(m, container) {
 
   function finish() {
     const pct = Math.round((score / questions.length) * 100);
-    const xp = Math.max(5, Math.round(pct / 5));
-    Progress.addXp(xp);
     container.innerHTML = `
       <div class="quiz-box">
         <div class="quiz-result">
           <div class="score"><b>${score}</b>/${questions.length}</div>
           <p>${pct === 100 ? "Parfait ! Kusursuz !" : pct >= 60 ? "Bien joué : un petit tour de flashcards et c'est validé." : "Reprends la leçon, puis retente : c'est comme ça qu'on apprend."}</p>
-          <span class="xp-burst">+${xp} XP</span><br><br>
           <button class="btn btn-primary" id="quiz-retry">Refaire le quiz</button>
           ${currentModule < COURSE.length - 1 ? '<button class="btn btn-ghost" id="quiz-next">Module suivant →</button>' : ""}
         </div>

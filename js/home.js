@@ -1,6 +1,10 @@
 /* Türkçe Akademi : page d'accueil */
 
+const QUIZ_TYPE_IDS = ["tr-fr", "fr-tr", "listen", "grammar", "mix"];
+
 document.addEventListener("DOMContentLoaded", () => {
+  Progress.migrateWordKeys(VOCAB);
+
   // Statistiques
   el("#stat-modules").textContent = COURSE.length;
   el("#stat-words").textContent = VOCAB_TOTAL;
@@ -14,15 +18,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Tableau de bord
   const d = Progress.data;
-  el("#dash-xp").textContent = d.xp;
-  el("#dash-lvl").textContent = `Niveau ${Progress.level()} · ${100 - Progress.levelProgress()} XP avant le suivant`;
-  el("#dash-streak").textContent = d.streak;
-  el("#dash-modules").textContent = `${d.doneModules.length} / ${COURSE.length}`;
+  const doneModules = new Set(d.doneModules.filter(id => COURSE.some(m => m.id === id))).size;
+  el("#dash-modules").textContent = `${doneModules} / ${COURSE.length}`;
   el("#dash-words").textContent = Progress.knownCount();
   el("#dash-words-sub").textContent = `sur ${VOCAB_TOTAL} au total`;
-  el("#lvl-title").textContent = `Niveau ${Progress.level()}`;
-  el("#lvl-next").textContent = `${100 - Progress.levelProgress()} XP pour le niveau ${Progress.level() + 1}`;
-  requestAnimationFrame(() => { el("#lvl-fill").style.width = Progress.levelProgress() + "%"; });
+  let parcoursDone = 0;
+  try {
+    const saved = JSON.parse(localStorage.getItem("ta_parcours_quiz") || "{}");
+    parcoursDone = Math.min(38, Object.entries(saved).filter(([k, v]) => v === true && /^u\d+-\d+$/.test(k)).length);
+  } catch (e) {}
+  el("#dash-parcours").textContent = parcoursDone;
+  const quizTried = QUIZ_TYPE_IDS.filter(id => d.quizBest[id] !== undefined).length;
+  el("#dash-quiz").textContent = `${quizTried} / ${QUIZ_TYPE_IDS.length}`;
 
   // Programme : les trois pistes
   const groups = { A1: [], A2: [], B1: [] };

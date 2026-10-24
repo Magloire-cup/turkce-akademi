@@ -55,34 +55,44 @@ function renderQuizHome() {
 
 /* ---------- Génération des questions ---------- */
 
+function pickOptions(word, words, make, labelOf) {
+  const seen = new Set([labelOf(word)]);
+  const opts = [make(word)];
+  for (const x of shuffle(words)) {
+    if (opts.length === 4) break;
+    if (x.tr === word.tr || x.fr === word.fr) continue;
+    const label = labelOf(x);
+    if (seen.has(label)) continue;
+    seen.add(label);
+    opts.push(make(x));
+  }
+  return shuffle(opts);
+}
+
 function pickVocabQuestion(kind) {
   const words = allWords();
   const w = words[Math.floor(Math.random() * words.length)];
-  const others = shuffle(words.filter(x => x.tr !== w.tr)).slice(0, 3);
   if (kind === "tr-fr") {
     return {
       html: `<span class="big-tr">${w.tr}</span><br><span style="font-size:.85rem;color:var(--muted)">Que signifie ce mot ?</span>`,
       speak: w.tr,
-      opts: shuffle([w, ...others].map(x => ({ label: x.fr, correct: x === w }))),
+      opts: pickOptions(w, words, x => ({ label: x.fr, correct: x === w }), x => x.fr),
       exp: `« ${w.tr} » = ${w.fr}${w.ex ? ` : ex. : ${w.ex}` : ""}`
     };
   }
   if (kind === "fr-tr") {
     return {
       html: `<span style="font-size:.9rem;color:var(--muted)">Comment dit-on en turc :</span><br><span class="big-tr">${w.fr}</span>`,
-      opts: shuffle([w, ...others].map(x => ({ label: x.tr, correct: x === w, speak: x.tr }))),
+      opts: pickOptions(w, words, x => ({ label: x.tr, correct: x === w, speak: x.tr }), x => x.tr),
       exp: `« ${w.fr} » se dit « ${w.tr} »${w.ex ? ` : ex. : ${w.ex}` : ""}`
     };
   }
-  // listen
-  const frOthers = shuffle(words.filter(x => x.fr !== w.fr && x.tr !== w.tr)).slice(0, 3);
   return {
     html: `<button class="speak-btn" data-speak="${esc(w.tr)}" title="Réécouter" style="width:56px;height:56px;margin:0 auto 10px" aria-label="Réécouter">
       <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
     </button><span style="font-size:.9rem;color:var(--muted)">Écoute et choisis la signification</span>`,
     speak: w.tr,
-    opts: shuffle([{ fr: w.fr, tr: w.tr }, ...frOthers.map(x => ({ fr: x.fr, tr: x.tr }))])
-      .map(x => ({ label: x.fr, correct: x.tr === w.tr })),
+    opts: pickOptions(w, words, x => ({ label: x.fr, correct: x === w }), x => x.fr),
     exp: `Tu as entendu « ${w.tr} » = ${w.fr}${w.ex ? ` : ex. : ${w.ex}` : ""}`
   };
 }
@@ -173,9 +183,6 @@ function renderQuestion() {
 
 function finishQuiz() {
   const s = run.score;
-  let xp = s * 2;
-  if (s === run.questions.length) xp += 10;
-  Progress.addXp(xp);
   const isRecord = Progress.setQuizBest(run.type, s);
   const grade = s === run.questions.length ? "Kusursuz ! Sans faute."
     : s >= 8 ? "Très beau score."
@@ -189,8 +196,6 @@ function finishQuiz() {
         <div class="score mt-2"><b>${s}</b>/${run.questions.length}</div>
         <p>${grade}</p>
         ${isRecord ? '<span class="chip gold">Nouveau record !</span>' : ""}
-        <br>
-        <span class="xp-burst">+${xp} XP</span>
         <div class="mt-3 flex wrap gap-2" style="justify-content:center">
           <button class="btn btn-primary" id="q-retry">Refaire</button>
           <button class="btn btn-ghost" id="q-home">Autres quiz</button>

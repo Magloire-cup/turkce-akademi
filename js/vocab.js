@@ -10,7 +10,11 @@ let frenchFirst = false;
 
 const speakSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
 
+function wordKey(w) { return Progress.wordKey(w.tr, w.fr); }
+function wordLevel(w) { return Progress.getWordLevel(wordKey(w)); }
+
 document.addEventListener("DOMContentLoaded", () => {
+  Progress.migrateWordKeys(VOCAB);
   el("#total-words").textContent = VOCAB_TOTAL;
   el("#total-themes") && (el("#total-themes").textContent = VOCAB.length);
   renderChips();
@@ -76,12 +80,21 @@ function selectTheme(id) {
 
 function themeWords() {
   if (themeId) return VOCAB.find(t => t.id === themeId).words;
-  return VOCAB.reduce((acc, t) => acc.concat(t.words), []);
+  const seen = new Set();
+  return VOCAB.reduce((acc, t) => {
+    t.words.forEach(w => {
+      const key = wordKey(w);
+      if (seen.has(key)) return;
+      seen.add(key);
+      acc.push(w);
+    });
+    return acc;
+  }, []);
 }
 
 function filterWords(words) {
   return words.filter(word => {
-    const level = Progress.getWordLevel(word.tr);
+    const level = wordLevel(word);
     if (levelFilter === "new") return level === 0;
     if (levelFilter === "learning") return level > 0 && level < 5;
     if (levelFilter === "mastered") return level >= 5;
@@ -101,15 +114,13 @@ function refreshDeck() {
 function buildDeck() {
   const words = filterWords(themeWords());
   // Priorité aux mots les moins connus, puis aléatoire
-  return shuffle(words).sort((a, b) =>
-    (Progress.getWordLevel(a.tr) || 0) - (Progress.getWordLevel(b.tr) || 0)
-  );
+  return shuffle(words).sort((a, b) => wordLevel(a) - wordLevel(b));
 }
 
 function updateThemeStats() {
   const words = themeWords();
-  const known = words.filter(w => Progress.getWordLevel(w.tr) >= 1).length;
-  const mastered = words.filter(w => Progress.getWordLevel(w.tr) >= 5).length;
+  const known = words.filter(w => wordLevel(w) >= 1).length;
+  const mastered = words.filter(w => wordLevel(w) >= 5).length;
   const visible = filterWords(words).length;
   el("#theme-progress").textContent = themeId
     ? `${VOCAB.find(t => t.id === themeId).name} : ${visible} cartes`
@@ -122,12 +133,12 @@ function renderCard() {
   if (!deck.length) {
     zone.innerHTML = `<div class="empty">${levelFilter === "all"
       ? "Aucun mot dans ce thème."
-      : "Aucun mot ne correspond à ce filtre. Choisis un autre niveau ou un autre thème."}</div>`;
+      : "Aucun mot ne correspond à ce filtre. Choisis un autre filtre ou un autre thème."}</div>`;
     return;
   }
   pos = Math.min(pos, deck.length - 1);
   const w = deck[pos];
-  const lvl = Progress.getWordLevel(w.tr);
+  const lvl = wordLevel(w);
   const theme = VOCAB.find(t => t.words.includes(w));
   const front = frenchFirst ? w.fr : w.tr;
   const back = frenchFirst ? w.tr : w.fr;
@@ -161,7 +172,7 @@ function renderCard() {
       </div>
       <div class="flash-feedback">
         <button class="btn btn-dont" id="fc-dont">À revoir</button>
-        <button class="btn btn-know" id="fc-know">Je sais (+2 XP)</button>
+        <button class="btn btn-know" id="fc-know">Je sais</button>
       </div>
     </div>`;
 
@@ -181,12 +192,11 @@ function prev() { pos = (pos - 1 + deck.length) % deck.length; flipped = false; 
 function answer(known) {
   if (!deck.length) return;
   const w = deck[pos];
-  const lvl = Progress.getWordLevel(w.tr);
+  const lvl = wordLevel(w);
   if (known) {
-    Progress.setWordLevel(w.tr, Math.min(5, lvl + 1));
-    Progress.addXp(2);
+    Progress.setWordLevel(wordKey(w), Math.min(5, lvl + 1));
   } else {
-    Progress.setWordLevel(w.tr, 0);
+    Progress.setWordLevel(wordKey(w), 0);
   }
   updateThemeStats();
   if (levelFilter !== "all" && !filterWords(themeWords()).includes(w)) refreshDeck();
@@ -198,10 +208,10 @@ function renderList() {
   const words = filterWords(themeWords())
     .filter(w => !q || w.tr.toLowerCase().includes(q) || w.fr.toLowerCase().includes(q));
   el("#vocab-list").innerHTML = words.length ? words.map(w => `
-    <div class="vocab-item ${Progress.getWordLevel(w.tr) >= 1 ? "known" : ""}">
+    <div class="vocab-item ${wordLevel(w) >= 1 ? "known" : ""}">
       <button class="speak-btn" data-speak="${esc(w.tr)}" title="Écouter" aria-label="Écouter ${esc(w.tr)}">${speakSVG}</button>
       <div class="w"><div class="tr">${w.tr}</div><div class="fr">${w.fr}</div></div>
       <svg class="badge-known" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
     </div>`).join("")
-    : '<div class="empty" style="grid-column:1/-1">Aucun mot ne correspond à ces filtres. Essaie un autre niveau ou un autre thème.</div>';
+    : '<div class="empty" style="grid-column:1/-1">Aucun mot ne correspond à ces filtres. Essaie un autre filtre ou un autre thème.</div>';
 }

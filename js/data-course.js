@@ -366,7 +366,7 @@ const COURSE = [
     ],
     quiz: [
       { q: "Que signifie « evlerimde » ?", opts: ["mes maisons", "dans mes maisons", "ta maison", "les maisons lointaines"], a: 1, exp: "ev-ler-im-de : maison + pluriel + mon + dans = dans mes maisons." },
-      { q: "« şehir » (ville) au pluriel ?", opts: ["şehirler", "şıhırlar", "şehirlar", "şehirlar"], a: 0, exp: "i (avant) → -ler : şehirler." },
+      { q: "« şehir » (ville) au pluriel ?", opts: ["şehirler", "şıhırlar", "şehirlar", "şehirlor"], a: 0, exp: "i (avant) → -ler : şehirler." },
       { q: "Après un nombre (ex. üç elma), le nom est…", opts: ["toujours au pluriel", "au singulier", "au duel", "au cas locatif"], a: 1, exp: "üç elma, beş kitap : le nombre suffit, pas de pluriel après un chiffre." },
       { q: "L'ordre correct des suffixes est…", opts: ["cas → pluriel → possessif", "possessif → cas → pluriel", "pluriel → possessif → cas", "peu importe"], a: 2, exp: "Toujours : pluriel → possessif → cas (ev-ler-im-de)." },
       { q: "« çocuk » (enfant) au pluriel ?", opts: ["çocukler", "çocuklar", "çocuklir", "çocuklor"], a: 1, exp: "u/o = arrière → -lar : çocuklar." }
