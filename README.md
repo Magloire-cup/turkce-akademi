@@ -12,6 +12,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 - **Flashcards à révision espacée** : cinq niveaux de maîtrise, filtres par niveau, entraînement dans les deux sens et priorité aux mots les moins connus.
 - **16 fiches de grammaire** de référence (harmonie vocalique, les 6 cas, passés -di/-miş, futur -ecek…).
 - **Conjugueur interactif** : 36 verbes courants, 7 temps, formes affirmatives et négatives, prononciation audio et mode test pour réviser de mémoire.
+- **Compagnon vidéo A1 → B1** : 27 fiches originales (9 par niveau) qui suivent le programme des cours vidéo de Yunus Emre Enstitüsü, avec objectif, tableau de grammaire, exemples sonores, 10 mots de vocabulaire et un mini-quiz par fiche. Les vidéos ne sont ni hébergées ni recopiées : chaque fiche renvoie vers la playlist officielle et une recherche par thème.
 - **L'essentiel en une page** : les 6 cas, l'ordre SOV, la conjugaison de *gelmek*, 27 phrases de survie avec prononciation, les nombres, les jours et les mois, six conseils, les 7 pièges du francophone, les faux amis, 8 codes culturels, des ressources vérifiées, un défi de 7 jours et une FAQ.
 - **Quiz interactifs** : turc→français, français→turc, compréhension orale, grammaire et grand mix. Chaque réponse est expliquée.
 - **Alphabet interactif** : 29 lettres avec prononciation, paires minimales et accent tonique.
@@ -34,6 +35,7 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
 ├── vocabulaire.html      Flashcards + liste
 ├── grammaire.html        Référence (16 fiches)
 ├── conjugaison.html      Conjugueur interactif (36 verbes, 7 temps)
+├── videos.html           Compagnon vidéo : 27 fiches A1 / A2 / B1
 ├── essentiel.html        Mémento : cas, SOV, phrases, pièges, faux amis, culture, ressources, FAQ
 ├── exercices.html        Quiz
 ├── prononciation.html    Alphabet interactif
@@ -49,6 +51,10 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
     ├── data-parcours-a.js  Parcours, unités 1 à 9
     ├── data-parcours-b.js  Parcours, unités 10 à 17
     ├── data-parcours-c.js  Parcours, unités 18 à 19
+    ├── data-videos-a1.js   Compagnon vidéo, fiches A1
+    ├── data-videos-a2.js   Compagnon vidéo, fiches A2
+    ├── data-videos-b1.js   Compagnon vidéo, fiches B1
+    ├── videos.js         Moteur du compagnon vidéo (onglets, quiz, progression)
     ├── data-quiz.js      Banque de quiz + mot du jour
     ├── schedule.js       Planning + minuteur Pomodoro
     └── … un script par page
