@@ -10,15 +10,11 @@ const QUIZ_TYPES_BASE = [
     icon: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>'
   },
   {
-    id: "listen", name: "Écoute", desc: "Écoute le mot turc et choisis ce qu'il signifie.",
-    icon: '<path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/>'
-  },
-  {
     id: "grammar", name: "Grammaire", desc: "Harmonie, cas, conjugaison : les règles des 16 fiches.",
     icon: '<path d="M4 3v18M4 5h16l-2.5 4L20 13H4"/>'
   },
   {
-    id: "mix", name: "Grand mix", desc: "Vocabulaire, écoute et grammaire mélangés. Le vrai test.",
+    id: "mix", name: "Grand mix", desc: "Vocabulaire et grammaire mélangés. Le vrai test.",
     icon: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/>'
   }
 ];
@@ -80,25 +76,14 @@ function pickVocabQuestion(kind) {
   if (kind === "tr-fr") {
     return {
       html: `<span class="big-tr">${w.tr}</span><br><span style="font-size:.85rem;color:var(--muted)">Que signifie ce mot ?</span>`,
-      speak: w.tr,
       opts: pickOptions(w, words, x => ({ label: x.fr, correct: x === w }), x => x.fr),
       exp: `« ${w.tr} » = ${w.fr}${w.ex ? ` : ex. : ${w.ex}` : ""}`
     };
   }
-  if (kind === "fr-tr") {
-    return {
-      html: `<span style="font-size:.9rem;color:var(--muted)">Comment dit-on en turc :</span><br><span class="big-tr">${w.fr}</span>`,
-      opts: pickOptions(w, words, x => ({ label: x.tr, correct: x === w, speak: x.tr }), x => x.tr),
-      exp: `« ${w.fr} » se dit « ${w.tr} »${w.ex ? ` : ex. : ${w.ex}` : ""}`
-    };
-  }
   return {
-    html: `<button class="speak-btn" data-speak="${esc(w.tr)}" title="Réécouter" style="width:56px;height:56px;margin:0 auto 10px" aria-label="Réécouter">
-      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
-    </button><span style="font-size:.9rem;color:var(--muted)">Écoute et choisis la signification</span>`,
-    speak: w.tr,
-    opts: pickOptions(w, words, x => ({ label: x.fr, correct: x === w }), x => x.fr),
-    exp: `Tu as entendu « ${w.tr} » = ${w.fr}${w.ex ? ` : ex. : ${w.ex}` : ""}`
+    html: `<span style="font-size:.9rem;color:var(--muted)">Comment dit-on en turc :</span><br><span class="big-tr">${w.fr}</span>`,
+    opts: pickOptions(w, words, x => ({ label: x.tr, correct: x === w }), x => x.tr),
+    exp: `« ${w.fr} » se dit « ${w.tr} »${w.ex ? ` : ex. : ${w.ex}` : ""}`
   };
 }
 
@@ -117,12 +102,10 @@ function buildQuestions(type) {
     if (type === "grammar") out.push(pickGrammarQuestion());
     else if (type === "tr-fr") out.push(pickVocabQuestion("tr-fr"));
     else if (type === "fr-tr") out.push(pickVocabQuestion("fr-tr"));
-    else if (type === "listen") out.push(pickVocabQuestion("listen"));
     else {
       const r = Math.random();
-      if (r < 0.3) out.push(pickVocabQuestion("tr-fr"));
-      else if (r < 0.5) out.push(pickVocabQuestion("fr-tr"));
-      else if (r < 0.75) out.push(pickVocabQuestion("listen"));
+      if (r < 0.34) out.push(pickVocabQuestion("tr-fr"));
+      else if (r < 0.67) out.push(pickVocabQuestion("fr-tr"));
       else out.push(pickGrammarQuestion());
     }
   }
@@ -154,19 +137,15 @@ function renderQuestion() {
           <button class="quiz-opt" data-i="${i}">
             <span class="key">${"ABCD"[i]}</span>
             <span style="flex:1">${esc(o.label)}</span>
-            ${o.speak ? `<span class="speak-btn" data-speak="${esc(o.speak)}" title="Écouter" aria-label="Écouter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></span>` : ""}
           </button>`).join("")}
       </div>
       <p class="muted mt-2" id="quiz-exp" style="min-height:26px"></p>
     </div>`;
 
-  if (q.speak) setTimeout(() => speak(q.speak), 300);
-
   el("#quiz-quit").addEventListener("click", () => renderQuizHome());
   els(".quiz-opt").forEach(btn => {
-    btn.addEventListener("click", e => {
+    btn.addEventListener("click", () => {
       if (run.answered) return;
-      if (e.target.closest("[data-speak]")) return; // clic sur le haut-parleur
       run.answered = true;
       const chosen = q.opts[+btn.dataset.i];
       els(".quiz-opt").forEach((b, i) => {

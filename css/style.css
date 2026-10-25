@@ -432,14 +432,11 @@ html[data-theme="dark"] .conj-polarity .tab.active { background: var(--red); bor
 table.tbl.conj-table { min-width: 0; }
 .conj-table td:first-child { width: 92px; font-weight: 700; }
 .conj-cell { display: flex; align-items: center; gap: 10px; }
-.conj-cell .speak-btn.sb-xs { margin-right: 0; }
 .conj-form { font-family: var(--font-head); font-weight: 600; font-size: 1.02rem; transition: filter .15s, opacity .15s; }
 .conj-table.is-hidden tbody tr { cursor: pointer; }
 .conj-table.is-hidden tbody tr:hover { background: var(--bg-soft); }
 .conj-table.is-hidden .conj-form { filter: blur(7px); user-select: none; }
-.conj-table.is-hidden .speak-btn { opacity: .18; pointer-events: none; }
 .conj-table tbody tr.revealed .conj-form { filter: blur(0); }
-.conj-table.is-hidden tbody tr.revealed .speak-btn { opacity: 1; pointer-events: auto; }
 .conj-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
 .conj-actions .muted { font-size: .84rem; }
 
@@ -520,18 +517,6 @@ table.tbl.conj-table { min-width: 0; }
 .ex-line:hover { border-color: var(--border-2); transform: translateX(3px); }
 .ex-line .tr { font-family: var(--font-head); font-weight: 600; font-size: 1rem; flex: 1; }
 .ex-line .fr { color: var(--muted); font-size: .88rem; flex: 1.2; }
-
-.speak-btn {
-  width: 34px; height: 34px; flex: none; border-radius: 50%;
-  border: 1px solid var(--border); background: var(--surface);
-  display: grid; place-items: center; color: var(--red);
-  transition: all .16s;
-}
-.speak-btn:hover { background: var(--red); color: #fff; border-color: var(--red); transform: scale(1.08); }
-.speak-btn svg { width: 15px; height: 15px; }
-.speak-btn.playing { animation: pulse 1s infinite; background: var(--red); color: #fff; }
-.speak-btn.sb-xs { width: 26px; height: 26px; display: inline-grid; margin-right: 8px; vertical-align: middle; }
-.speak-btn.sb-xs svg { width: 12px; height: 12px; }
 
 /* Dialogue */
 .dialogue { max-width: 620px; }
@@ -735,6 +720,32 @@ a.chip:hover { border-color: var(--border-2); color: var(--ink); transform: tran
 .footer a:hover { color: var(--red); }
 .footer .brandline { font-size: .9rem; color: var(--muted); margin-top: 12px; max-width: 36ch; }
 .footer-bottom { border-top: 1px solid var(--border); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; font-size: .8rem; color: var(--muted); }
+
+/* ---------------- Partenaire BAIBU ---------------- */
+.partner-section { padding-top: 0; }
+.partner-card {
+  display: grid; grid-template-columns: auto 1fr auto; gap: 28px; align-items: center;
+  padding: 26px 30px; border: 1px solid var(--border); border-radius: var(--radius-lg);
+  background: var(--surface); box-shadow: var(--shadow-sm);
+}
+.partner-logo {
+  width: 96px; height: 96px; object-fit: contain; padding: 8px;
+  background: #fff; border: 1px solid var(--border); border-radius: 18px;
+}
+.partner-copy .overline { display: inline-block; margin-bottom: 6px; }
+.partner-copy h2 { font-family: var(--font-head); font-size: 1.45rem; margin-bottom: 4px; }
+.partner-university { font-weight: 600; color: var(--ink-2); font-size: .95rem; }
+.partner-copy p { color: var(--muted); font-size: .9rem; max-width: 62ch; margin-top: 8px; }
+.partner-link { flex: none; }
+.footer-partner {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  margin-top: 18px; padding-top: 18px; border-top: 1px dashed var(--border);
+  font-size: .8rem; color: var(--muted);
+}
+.footer-partner img { width: 34px; height: 34px; object-fit: contain; background: #fff; border-radius: 8px; padding: 3px; border: 1px solid var(--border); }
+.footer-partner b { color: var(--ink); }
+.footer-partner a { color: var(--ink-2); }
+.footer-partner a:hover { color: var(--red); }
 
 /* ---------------- Toast ---------------- */
 #toast-root { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); z-index: 300; display: flex; flex-direction: column; gap: 10px; align-items: center; pointer-events: none; }
@@ -1036,6 +1047,11 @@ html[lang="kk"] {
 
 @media (max-width: 1020px) {
   .lang-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  .partner-card { grid-template-columns: 1fr; text-align: center; justify-items: center; gap: 18px; }
+  .partner-copy p { max-width: none; }
 }
 @media (max-width: 560px) {
   .lang-grid { grid-template-columns: 1fr; }

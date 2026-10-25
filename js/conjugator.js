@@ -124,8 +124,6 @@ const CONJ_TENSES = CONJ_TENSES_BASE.map(t => {
   return tr ? Object.assign({}, t, { label: tr.label || t.label, usage: tr.usage || t.usage }) : t;
 });
 
-const CONJ_SPEAK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
-
 const conjState = { verb: 0, tense: "pres", neg: false, hidden: false };
 
 function initConj() {
@@ -195,7 +193,6 @@ function renderConj() {
       <td>${persons[i]}</td>
       <td>
         <div class="conj-cell">
-          <button class="speak-btn sb-xs" data-speak="${esc(f)}" title="Écouter" aria-label="Écouter ${esc(f)}">${CONJ_SPEAK_SVG}</button>
           <span class="conj-form">${esc(f)}</span>
         </div>
       </td>
@@ -206,7 +203,7 @@ function renderConj() {
   hideBtn.setAttribute("aria-pressed", String(conjState.hidden));
   el("#conj-hint").textContent = conjState.hidden
     ? "Clique sur une ligne pour révéler la forme."
-    : "Clique sur le haut-parleur pour écouter la forme.";
+    : "";
 
   if (conjState.hidden) {
     els("#conj-body tr").forEach(tr => {

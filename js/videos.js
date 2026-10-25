@@ -1,4 +1,4 @@
-/* Türkçe Akademi : compagnon vidéo A1 / A2 / B1 */
+/* Türkçe Akademi : compagnon vidéo */
 
 const VIDEOS = [...VIDEOS_A1, ...VIDEOS_A2, ...VIDEOS_B1];
 const VIDEO_QUIZ_TOTAL = VIDEOS.reduce((n, u) => n + u.quiz.length, 0);
@@ -10,6 +10,7 @@ const VIDEO_PLAYLISTS = {
   B1: "https://www.youtube.com/@yeeorgtr/playlists"
 };
 
+const VIDEO_PARTS = { A1: "Partie 1", A2: "Partie 2", B1: "Partie 3" };
 const VIDEO_LEVELS = { A1: "Les bases", A2: "L'autonomie", B1: "L'approfondissement" };
 const VIDEO_QUIZ_KEY = "ta_videos_quiz";
 const VIDEO_DONE_KEY = "ta_videos_done";
@@ -35,7 +36,6 @@ let currentIndex = 0;
 
 function videoList(level) { return VIDEOS.filter(v => v.level === level); }
 function currentLesson() { return videoList(currentLevel)[currentIndex]; }
-function videoChipClass(level) { return level === "A1" ? "red" : level === "A2" ? "gold" : "green"; }
 
 document.addEventListener("DOMContentLoaded", () => {
   const hash = decodeURIComponent(location.hash.replace("#", ""));
@@ -73,7 +73,7 @@ function renderVideoTabs() {
     const list = videoList(lvl);
     const done = list.filter(v => videoDone.includes(v.id)).length;
     return `<button class="tab${lvl === currentLevel ? " active" : ""}" data-level="${lvl}">
-      ${lvl} · ${done}/${list.length}
+      ${VIDEO_PARTS[lvl]} · ${done}/${list.length}
     </button>`;
   }).join("");
   els("#video-tabs .tab").forEach(btn => {
@@ -98,7 +98,7 @@ function renderVideoToc() {
   toc.innerHTML = `
     <div class="lvl" id="video-progress">${videoDone.length}/${VIDEOS.length} fiches révisées</div>
     <div class="lvl" id="video-quiz-progress">${quizDone}/${VIDEO_QUIZ_TOTAL} réponses justes</div>
-    <div class="lvl">${VIDEO_LEVELS[currentLevel]} · ${currentLevel}</div>
+    <div class="lvl">${VIDEO_LEVELS[currentLevel]}</div>
     ${list.map((u, i) => `
       <button data-idx="${i}" class="${i === currentIndex ? "active" : ""}${videoDone.includes(u.id) ? " done" : ""}">
         <span class="tk" style="min-width:18px">${String(u.num).padStart(2, "0")}</span>${u.title}
@@ -115,13 +115,12 @@ function renderVideoLesson() {
   const list = videoList(currentLevel);
   const playlist = VIDEO_PLAYLISTS[u.level];
   const search = "https://www.youtube.com/results?search_query=" +
-    encodeURIComponent("Yunus Emre Enstitüsü " + u.level + " " + u.watch);
+    encodeURIComponent("Yunus Emre Enstitüsü Türkçe " + u.watch);
   const isDone = videoDone.includes(u.id);
 
   el("#video-lesson").innerHTML = `
     <article class="gram-article video-lesson">
       <div class="flex wrap gap-2 items-center">
-        <span class="chip ${videoChipClass(u.level)}">${u.level}</span>
         <span class="muted" style="font-size:.82rem;font-weight:600">Fiche ${u.num} / ${list.length}</span>
         <span class="chip blue">Compagnon vidéo</span>
       </div>
@@ -139,7 +138,7 @@ function renderVideoLesson() {
           <p>Regarde la leçon correspondante sur la chaîne Yunus Emre Enstitüsü, puis reviens vérifier les points clés ici.</p>
         </div>
         <div class="video-callout-actions">
-          <a class="btn btn-primary btn-sm" href="${playlist}" target="_blank" rel="noopener">${u.level === "B1" ? "Toutes les playlists" : "Playlist " + u.level} ↗</a>
+          <a class="btn btn-primary btn-sm" href="${playlist}" target="_blank" rel="noopener">${u.level === "B1" ? "Toutes les playlists" : "Playlist de la série"} ↗</a>
           <a class="btn btn-ghost btn-sm" href="${search}" target="_blank" rel="noopener">Chercher « ${u.watch} » ↗</a>
         </div>
       </div>
@@ -150,9 +149,6 @@ function renderVideoLesson() {
       <div class="grid grid-2 parcours-vocab">
         ${u.vocab.map(([tr, fr]) => `
           <div class="ex-line">
-            <button class="speak-btn" data-speak="${esc(tr)}" title="Écouter" aria-label="Écouter ${esc(tr)}">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
-            </button>
             <span class="tr">${tr}</span><span class="fr">${fr}</span>
           </div>`).join("")}
       </div>
@@ -187,7 +183,7 @@ function renderVideoLesson() {
         ${currentIndex < list.length - 1
           ? `<button class="btn btn-dark btn-sm" id="video-next">${list[currentIndex + 1].title} →</button>`
           : (currentLevel !== "B1"
-            ? `<button class="btn btn-primary btn-sm" id="video-next-level">Passer au niveau ${currentLevel === "A1" ? "A2" : "B1"} →</button>`
+            ? `<button class="btn btn-primary btn-sm" id="video-next-level">Partie suivante →</button>`
             : '<a class="btn btn-primary btn-sm" href="exercices.html">Se tester en quiz →</a>')}
       </div>
     </article>`;

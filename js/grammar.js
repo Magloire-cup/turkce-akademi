@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function renderToc() {
-  const levels = { A1: "Les fondations", A2: "La construction", B1: "L'expression" };
+  const parts = { A1: "Les fondations", A2: "La construction", B1: "L'expression" };
   el("#gram-toc").innerHTML = ["A1", "A2", "B1"].map(lvl => `
-    <div class="lvl">${levels[lvl]} · ${lvl}</div>
+    <div class="lvl">${parts[lvl]}</div>
     ${GRAMMAR.map((g, i) => g.level === lvl ? `
       <button data-idx="${i}" class="${i === currentArticle ? "active" : ""}">
         <span class="tk" style="min-width:18px">${String(i + 1).padStart(2, "0")}</span>${g.title}
@@ -39,7 +39,6 @@ function renderArticle() {
   const g = GRAMMAR[currentArticle];
   el("#gram-article").innerHTML = `
     <article class="gram-article">
-      <span class="chip ${g.level === "A1" ? "red" : g.level === "A2" ? "gold" : "green"}">${g.level}</span>
       <h2 class="mt-2 mb-2">${g.title}</h2>
       <div class="blocks">${renderBlocks(g.blocks)}</div>
       <div class="divider"></div>

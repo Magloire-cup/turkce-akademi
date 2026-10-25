@@ -60,8 +60,6 @@ function trLower(s) {
   return s === "I" ? "ı" : s === "İ" ? "i" : s.toLowerCase();
 }
 
-const speakSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
-
 document.addEventListener("DOMContentLoaded", () => {
   el("#alpha-grid").innerHTML = ALPHABET.map((a, i) => `
     <button class="alpha-card ${a.type === "vowel" ? "vowel" : a.type === "special" ? "special" : ""}" data-i="${i}"
@@ -72,17 +70,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   el("#minimal-pairs").innerHTML = MINIMAL_PAIRS.map(p => `
     <div class="ex-line">
-      <button class="speak-btn" data-speak="${esc(p.a)}" title="Écouter ${esc(p.a)}" aria-label="Écouter">${speakSVG}</button>
       <span class="tr">${p.a} <span class="muted" style="font-weight:400">(${p.aFr})</span></span>
-      <button class="speak-btn" data-speak="${esc(p.b)}" title="Écouter ${esc(p.b)}" aria-label="Écouter">${speakSVG}</button>
       <span class="fr">${p.b} : ${p.bFr}</span>
     </div>`).join("");
 
   els(".alpha-card").forEach(c => c.addEventListener("click", () => selectLetter(+c.dataset.i)));
-  selectLetter(0, true);
+  selectLetter(0);
 });
 
-function selectLetter(i, silent = false) {
+function selectLetter(i) {
   const a = ALPHABET[i];
   const isTr = a.type === "special";
   els(".alpha-card").forEach(c => { c.style.borderColor = ""; c.style.background = ""; });
@@ -98,12 +94,7 @@ function selectLetter(i, silent = false) {
     <div class="mt-3">
       ${a.words.map(w => `
         <div class="ex-line" style="margin-bottom:10px">
-          <button class="speak-btn" data-speak="${esc(w.tr)}" title="Écouter" aria-label="Écouter ${esc(w.tr)}">${speakSVG}</button>
           <span class="tr">${w.tr}</span><span class="fr">${w.fr}</span>
         </div>`).join("")}
-    </div>
-    <button class="btn btn-ghost btn-sm mt-3" id="alpha-say">Réécouter la lettre</button>`;
-
-  el("#alpha-say").addEventListener("click", () => speak(trLower(a.l)));
-  if (!silent) speak(trLower(a.l));
+    </div>`;
 }

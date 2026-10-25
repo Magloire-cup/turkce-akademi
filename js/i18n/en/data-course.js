@@ -157,7 +157,7 @@ const COURSE = [
         "t": "note",
         "kind": "tip",
         "tag": "Method",
-        "text": "Listen to each word with the speaker button, then repeat it out loud, copying the rhythm. Turkish has final stress: the stress almost always falls on the <b>last syllable</b>: merhaba (merha-<b>BA</b>), güzel (gu-<b>ZEL</b>), teşekkür (te-şek-<b>KÜR</b>)."
+        "text": "Read each word out loud, copying the rhythm. Turkish has final stress: the stress almost always falls on the <b>last syllable</b>: merhaba (merha-<b>BA</b>), güzel (gu-<b>ZEL</b>), teşekkür (te-şek-<b>KÜR</b>)."
       }
     ],
     "dialogue": {
@@ -2959,7 +2959,7 @@ const COURSE = [
     "num": 12,
     "level": "B1",
     "title": "The future & projects",
-    "subtitle": "-ecek, essential little words, and on towards B1",
+    "subtitle": "-ecek, essential little words and everyday conversations",
     "objectifs": [
       "Conjugate in the future (-ecek)",
       "Talk about your plans",
@@ -3095,7 +3095,7 @@ const COURSE = [
         "t": "note",
         "kind": "tip",
         "tag": "Congratulations",
-        "text": "You have finished the A1→B1 path! You can now introduce yourself, count, conjugate in the three main tenses, negate, ask questions, order at a restaurant and talk about your day. The logical next step: build your vocabulary with the flashcards, review the reference grammar, and above all: <b>speak</b>. Türkçe konuşmak istiyorsan, konuş! One Turk who corrects you is worth a thousand exercises. Bol şans! (Good luck!)"
+        "text": "You have finished the course! You can now introduce yourself, count, conjugate in the three main tenses, negate, ask questions, order at a restaurant and talk about your day. The logical next step: build your vocabulary with the flashcards, review the reference grammar, and above all: <b>speak</b>. Türkçe konuşmak istiyorsan, konuş! One Turk who corrects you is worth a thousand exercises. Bol şans! (Good luck!)"
       }
     ],
     "dialogue": {

@@ -16,7 +16,7 @@ try {
 } catch (e) { quizDone = {}; }
 try { localStorage.setItem(QUIZ_KEY, JSON.stringify(quizDone)); } catch (e) {}
 
-const UNIT_LEVELS = { A1: "Les bases", A2: "L'autonomie", B1: "L'approfondissement" };
+const UNIT_PARTS = { A1: "Les bases", A2: "L'autonomie", B1: "L'approfondissement" };
 let currentUnit = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -31,16 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-function chipClass(level) {
-  return level === "A1" ? "red" : level === "A2" ? "gold" : "green";
-}
-
 function renderToc() {
   const done = Object.keys(quizDone).length;
   el("#parcours-toc").innerHTML = `
     <div class="lvl" id="parcours-progress">${done}/${PARCOURS_QUIZ_TOTAL} réponses justes</div>
     ${["A1", "A2", "B1"].map(lvl => `
-      <div class="lvl">${UNIT_LEVELS[lvl]} · ${lvl}</div>
+      <div class="lvl">${UNIT_PARTS[lvl]}</div>
       ${PARCOURS.map((u, i) => u.level === lvl ? `
         <button data-idx="${i}" class="${i === currentUnit ? "active" : ""}">
           <span class="tk" style="min-width:18px">${String(u.num).padStart(2, "0")}</span>${u.title}
@@ -58,7 +54,6 @@ function renderUnit() {
   el("#parcours-unit").innerHTML = `
     <article class="gram-article">
       <div class="flex wrap gap-2 items-center">
-        <span class="chip ${chipClass(u.level)}">${u.level}</span>
         <span class="muted" style="font-size:.82rem;font-weight:600">Unité ${u.num} / ${total}</span>
       </div>
       <h2 class="mt-2 mb-2">${u.title}</h2>
@@ -72,9 +67,6 @@ function renderUnit() {
       <div class="grid grid-2 parcours-vocab">
         ${u.vocab.map(([tr, fr]) => `
           <div class="ex-line">
-            <button class="speak-btn" data-speak="${esc(tr)}" title="Écouter" aria-label="Écouter ${esc(tr)}">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
-            </button>
             <span class="tr">${tr}</span><span class="fr">${fr}</span>
           </div>`).join("")}
       </div>

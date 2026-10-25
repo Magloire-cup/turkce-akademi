@@ -1,6 +1,6 @@
 /* ============================================================
    Türkçe Akademi : Programme de cours
-   12 modules : A1 (1-4), A2 (5-9), B1 (10-12)
+   12 modules répartis en trois grandes étapes
    Chaque module : objectifs, leçon (blocs), dialogue, vocabulaire, quiz
    ============================================================ */
 
@@ -49,7 +49,7 @@ const COURSE = [
         { tr: "çok güzel", fr: "Très beau / très bien" },
         { tr: "hoş geldiniz", fr: "Bienvenue" }
       ] },
-      { t: "note", kind: "tip", tag: "Méthode", text: "Écoute chaque mot avec le bouton haut-parleur, puis répète à voix haute en imitant le rythme. Le turc est une langue à accent final : l'accent tonique tombe presque toujours sur la <b>dernière syllabe</b> : merhaba (merha-<b>BA</b>), güzel (gu-<b>ZEL</b>), teşekkür (te-şek-<b>KÜR</b>)." }
+      { t: "note", kind: "tip", tag: "Méthode", text: "Lis chaque mot à voix haute en imitant le rythme. Le turc est une langue à accent final : l'accent tonique tombe presque toujours sur la <b>dernière syllabe</b> : merhaba (merha-<b>BA</b>), güzel (gu-<b>ZEL</b>), teşekkür (te-şek-<b>KÜR</b>)." }
     ],
     dialogue: {
       title: "Première rencontre",
@@ -807,7 +807,7 @@ const COURSE = [
   {
     id: "m12", num: 12, level: "B1",
     title: "Le futur & les projets",
-    subtitle: "-ecek, petits mots essentiels, et cap sur B1",
+    subtitle: "-ecek, petits mots essentiels et conversations du quotidien",
     objectifs: [
       "Conjuguer au futur (-ecek)",
       "Parler de tes projets",
@@ -843,7 +843,7 @@ const COURSE = [
           ["<tur>ama / fakat</tur>", "mais", "<tur>İstedim ama yapamadım.</tur>"],
           ["<tur>ve</tur>", "et", "<tur>çay ve kahve</tur>"]
         ] },
-      { t: "note", kind: "tip", tag: "Félicitations", text: "Tu as terminé le parcours A1→B1 ! Tu peux maintenant te présenter, compter, conjuguer aux trois temps principaux, nier, questionner, commander au restaurant et raconter ta journée. La suite logique : enrichis ton vocabulaire avec les flashcards, révise la grammaire de référence, et surtout : <b>parle</b>. Türkçe konuşmak istiyorsan, konuş! Un Türk qui te corrige vaut mille exercices. Bol şans ! (Bonne chance !)" }
+      { t: "note", kind: "tip", tag: "Félicitations", text: "Tu as terminé le parcours ! Tu peux maintenant te présenter, compter, conjuguer aux trois temps principaux, nier, questionner, commander au restaurant et raconter ta journée. La suite logique : enrichis ton vocabulaire avec les flashcards, révise la grammaire de référence, et surtout : <b>parle</b>. Türkçe konuşmak istiyorsan, konuş! Un Türk qui te corrige vaut mille exercices. Bol şans ! (Bonne chance !)" }
     ],
     dialogue: {
       title: "Projets du week-end",

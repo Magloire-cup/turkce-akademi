@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
 function renderSidebar() {
   const groups = { A1: [], A2: [], B1: [] };
   COURSE.forEach((m, i) => groups[m.level].push({ m, i }));
-  el("#course-side").innerHTML = ["A1", "A2", "B1"].map(lvl => `
-    <div class="side-group">${lvl === "A1" ? "Découverte" : lvl === "A2" ? "Construction" : "Expression"} · ${lvl}</div>
+  el("#course-side").innerHTML = ["A1", "A2", "B1"].map((lvl, part) => `
+    <div class="side-group">${["Découverte", "Construction", "Expression"][part]}</div>
     ${groups[lvl].map(({ m, i }) => `
       <button class="side-item ${Progress.isModuleDone(m.id) ? "done" : ""}" data-idx="${i}">
         <span class="n">${m.num}</span>
@@ -53,7 +53,7 @@ function renderModule() {
   el("#course-main").innerHTML = `
     <article class="lesson">
       <div class="course-top">
-        <span class="chip red">Module ${m.num} · ${m.level}</span>
+        <span class="chip red">Module ${m.num}</span>
         ${done ? '<span class="chip green">Terminé</span>' : ""}
         <button class="btn btn-sm ${done ? "btn-ghost" : "btn-green"}" id="btn-done">
           ${done ? "Marquer comme non terminé" : "Marquer comme terminé"}
@@ -125,19 +125,14 @@ function renderTab() {
   } else if (currentTab === "dialogue") {
     c.innerHTML = `
       <h4 class="blk-h">Dialogue : ${m.dialogue.title}</h4>
-      <p class="muted mb-2">Joue-le à voix haute : chaque réplique s'écoute. Les noms alternent les côtés comme dans une vraie conversation.</p>
+      <p class="muted mb-2">Joue-le à voix haute : chaque réplique est traduite. Les noms alternent les côtés comme dans une vraie conversation.</p>
       <div class="dialogue">
         ${m.dialogue.lines.map((l, i) => `
           <div class="dlg-line ${i % 2 ? "right" : ""}">
             <div class="dlg-avatar">${l.name.slice(0, 2).toUpperCase()}</div>
             <div class="dlg-bubble">
               <div class="dlg-name">${l.name}</div>
-              <div class="dlg-tr">
-                ${l.tr}
-                <button class="speak-btn" data-speak="${esc(l.tr)}" title="Écouter" aria-label="Écouter">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
-                </button>
-              </div>
+              <div class="dlg-tr">${l.tr}</div>
               <div class="dlg-fr">${l.fr}</div>
             </div>
           </div>`).join("")}
@@ -145,12 +140,9 @@ function renderTab() {
   } else if (currentTab === "vocab") {
     c.innerHTML = `
       <h4 class="blk-h">Vocabulaire clé du module</h4>
-      <p class="muted mb-2">${m.vocab.length} mots à retenir. Clique sur le haut-parleur pour la prononciation.</p>
+      <p class="muted mb-2">${m.vocab.length} mots à retenir. Répète chaque mot à voix haute.</p>
       <div>${m.vocab.map(v => `
         <div class="ex-line">
-          <button class="speak-btn" data-speak="${esc(v.tr)}" title="Écouter" aria-label="Écouter ${esc(v.tr)}">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
-          </button>
           <span class="tr">${v.tr}</span><span class="fr">${v.fr}</span>
         </div>`).join("")}</div>
       <p class="muted mt-3">Pour pratiquer ces mots en révision espacée, direction les <a href="vocabulaire.html" style="color:var(--red);font-weight:600">flashcards</a>.</p>`;

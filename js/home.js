@@ -1,6 +1,6 @@
 /* Türkçe Akademi : page d'accueil */
 
-const QUIZ_TYPE_IDS = ["tr-fr", "fr-tr", "listen", "grammar", "mix"];
+const QUIZ_TYPE_IDS = ["tr-fr", "fr-tr", "grammar", "mix"];
 
 document.addEventListener("DOMContentLoaded", () => {
   Progress.migrateWordKeys(VOCAB);
@@ -35,6 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const groups = { A1: [], A2: [], B1: [] };
   COURSE.forEach(m => groups[m.level].push(m));
   const colors = { A1: "var(--red)", A2: "var(--gold)", B1: "var(--green)" };
+  const nums = { A1: "1", A2: "2", B1: "3" };
+  const titles = { A1: "Découverte", A2: "Construction", B1: "Expression" };
   const descs = {
     A1: "Les fondations : alphabet, premiers mots, nombres et la règle d'or de l'harmonie vocalique.",
     A2: "Tu construis : pluriel, possession, var/yok, présent, négation et questions.",
@@ -44,9 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
   el("#tracks").innerHTML = ["A1", "A2", "B1"].map(lvl => `
     <div class="track reveal">
       <div class="track-head">
-        <span class="track-badge" style="background:${colors[lvl]}">${lvl}</span>
+        <span class="track-badge" style="background:${colors[lvl]}">${nums[lvl]}</span>
         <div class="info">
-          <h3>${lvl === "A1" ? "Découverte" : lvl === "A2" ? "Construction" : "Expression"} : ${groups[lvl].length} modules</h3>
+          <h3>${titles[lvl]} : ${groups[lvl].length} modules</h3>
           <p>${descs[lvl]}</p>
         </div>
       </div>

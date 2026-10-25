@@ -3579,7 +3579,7 @@ const VIDEOS_B1 = [
     "blocks": [
       {
         "t": "table",
-        "caption": "روابط المستوى B1",
+        "caption": "روابط الخطاب",
         "head": [
           "التركية",
           "العربية",

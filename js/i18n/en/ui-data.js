@@ -386,17 +386,13 @@ window.TA_LOCALE = {
       "name": "English → Turkish",
       "desc": "You are given the English word: find the Turkish one."
     },
-    "listen": {
-      "name": "Listening",
-      "desc": "Listen to the Turkish word and choose what it means."
-    },
     "grammar": {
       "name": "Grammar",
       "desc": "Harmony, cases, conjugation: the rules from the 16 lessons."
     },
     "mix": {
       "name": "Big mix",
-      "desc": "Vocabulary, listening and grammar all mixed together. The real test."
+      "desc": "Vocabulary and grammar all mixed together. The real test."
     }
   },
   "planTypes": {

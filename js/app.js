@@ -1,6 +1,6 @@
 /* ============================================================
    Türkçe Akademi : script commun
-   Navigation, thème, TTS turc, progression (localStorage), toasts
+   Navigation, thème, progression (localStorage), toasts
    ============================================================ */
 
 /* ---------- Navigation ---------- */
@@ -52,36 +52,6 @@ function setThemeIcon(btn) {
   if (!t) t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
   document.documentElement.dataset.theme = t;
 })();
-
-/* ---------- TTS (prononciation turque) ---------- */
-let taVoice = null;
-function pickTurkishVoice() {
-  const voices = window.speechSynthesis ? speechSynthesis.getVoices() : [];
-  taVoice = voices.find(v => /^tr/i.test(v.lang)) || null;
-}
-if (window.speechSynthesis) {
-  pickTurkishVoice();
-  speechSynthesis.onvoiceschanged = pickTurkishVoice;
-}
-function speak(text, btn) {
-  if (!window.speechSynthesis) { toast("Ton navigateur ne supporte pas la synthèse vocale."); return; }
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = "tr-TR";
-  if (taVoice) u.voice = taVoice;
-  u.rate = 0.82;
-  u.pitch = 1;
-  if (btn) {
-    btn.classList.add("playing");
-    u.onend = u.onerror = () => btn.classList.remove("playing");
-  }
-  speechSynthesis.speak(u);
-  if (!taVoice) toast("Astuce : installe une voix turque (tr-TR) dans ton système pour une meilleure prononciation.");
-}
-document.addEventListener("click", e => {
-  const b = e.target.closest("[data-speak]");
-  if (b) speak(b.dataset.speak, b);
-});
 
 /* ---------- Progression (localStorage) ---------- */
 const Progress = {
@@ -172,9 +142,6 @@ function renderBlocks(blocks) {
       case "ex":
         return `<div>${b.items.map(i => `
           <div class="ex-line">
-            <button class="speak-btn" data-speak="${esc(i.tr)}" title="Écouter" aria-label="Écouter ${esc(i.tr)}">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>
-            </button>
             <span class="tr">${i.tr}</span><span class="fr">${i.fr}</span>
           </div>`).join("")}</div>`;
       default: return "";

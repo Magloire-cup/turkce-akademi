@@ -8,8 +8,6 @@ let listMode = false;
 let levelFilter = "all";
 let frenchFirst = false;
 
-const speakSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
-
 function wordKey(w) { return Progress.wordKey(w.tr, w.frSrc || w.fr); }
 function wordLevel(w) { return Progress.getWordLevel(wordKey(w)); }
 
@@ -167,7 +165,6 @@ function renderCard() {
       <div class="flash-controls">
         <button class="btn btn-ghost btn-sm" id="fc-prev">← Précédent</button>
         <button class="btn btn-dark btn-sm" id="fc-flip">Retourner</button>
-        <button class="speak-btn" data-speak="${esc(w.tr)}" title="Écouter ${esc(w.tr)}" style="width:44px;height:44px" aria-label="Écouter">${speakSVG}</button>
         <button class="btn btn-ghost btn-sm" id="fc-next">Suivant →</button>
       </div>
       <div class="flash-feedback">
@@ -209,7 +206,6 @@ function renderList() {
     .filter(w => !q || w.tr.toLowerCase().includes(q) || w.fr.toLowerCase().includes(q));
   el("#vocab-list").innerHTML = words.length ? words.map(w => `
     <div class="vocab-item ${wordLevel(w) >= 1 ? "known" : ""}">
-      <button class="speak-btn" data-speak="${esc(w.tr)}" title="Écouter" aria-label="Écouter ${esc(w.tr)}">${speakSVG}</button>
       <div class="w"><div class="tr">${w.tr}</div><div class="fr">${w.fr}</div></div>
       <svg class="badge-known" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
     </div>`).join("")

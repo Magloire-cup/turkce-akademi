@@ -3579,7 +3579,7 @@ const VIDEOS_B1 = [
     "blocks": [
       {
         "t": "table",
-        "caption": "B1-level connectors",
+        "caption": "Discourse connectors",
         "head": [
           "Turkish",
           "English",

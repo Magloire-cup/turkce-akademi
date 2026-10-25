@@ -164,7 +164,7 @@ const VIDEOS_B1 = [
     goal: "Nuancer un argument avec « cependant », « alors que », « sinon », « de plus ».",
     watch: "bağlaçlar ileri düzey",
     blocks: [
-      { t: "table", caption: "Les connecteurs de niveau B1", head: ["Turc", "Français", "Nuance"],
+      { t: "table", caption: "Les connecteurs du discours", head: ["Turc", "Français", "Nuance"],
         rows: [
           ["<tur>halbuki</tur>", "alors que, pourtant", "contraste avec une attente"],
           ["<tur>oysa</tur>", "alors que", "opposition entre deux constats"],

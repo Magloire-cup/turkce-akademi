@@ -534,11 +534,6 @@
       "desc": "On te donne le mot français, retrouve le mot turc."
     },
     {
-      "id": "listen",
-      "name": "Écoute",
-      "desc": "Écoute le mot turc et choisis ce qu'il signifie."
-    },
-    {
       "id": "grammar",
       "name": "Grammaire",
       "desc": "Harmonie, cas, conjugaison : les règles des 16 fiches."
@@ -546,7 +541,7 @@
     {
       "id": "mix",
       "name": "Grand mix",
-      "desc": "Vocabulaire, écoute et grammaire mélangés. Le vrai test."
+      "desc": "Vocabulaire et grammaire mélangés. Le vrai test."
     }
   ],
   "planTypes": {

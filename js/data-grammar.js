@@ -1,6 +1,6 @@
 /* ============================================================
    Türkçe Akademi : Référence de grammaire
-   16 fiches classées par niveau
+   16 fiches classées par étape
    ============================================================ */
 
 const GRAMMAR = [

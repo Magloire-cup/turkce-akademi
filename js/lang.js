@@ -18,7 +18,13 @@
       sectionLead: "Les cours, les explications, les quiz et le vocabulaire s'affichent dans la langue choisie. Le turc reste la langue étudiée.",
       current: "Langue actuelle",
       choose: "Choisir",
-      aria: "Langue du site"
+      aria: "Langue du site",
+      partner: {
+        overline: "Notre classe",
+        university: "Bolu Abant İzzet Baysal Üniversitesi",
+        lead: "Türkçe Akademi accompagne la classe de turc BAIBU YTB TÖMER. Le site rassemble les cours, les fiches et les exercices pour réviser entre deux séances.",
+        link: "Site de l'université"
+      }
     },
     en: {
       change: "Change language",
@@ -27,7 +33,13 @@
       sectionLead: "Courses, explanations, quizzes and vocabulary are shown in the language you choose. Turkish remains the language you are learning.",
       current: "Current language",
       choose: "Choose",
-      aria: "Site language"
+      aria: "Site language",
+      partner: {
+        overline: "Our class",
+        university: "Bolu Abant İzzet Baysal University",
+        lead: "Türkçe Akademi supports the BAIBU YTB TÖMER Turkish class. The site gathers lessons, sheets and exercises to revise between sessions.",
+        link: "University website"
+      }
     },
     ar: {
       change: "تغيير اللغة",
@@ -36,7 +48,13 @@
       sectionLead: "تُعرض الدروس والشروحات والاختبارات والمفردات باللغة التي تختارها. وتبقى التركية هي اللغة التي تتعلمها.",
       current: "اللغة الحالية",
       choose: "اختر",
-      aria: "لغة الموقع"
+      aria: "لغة الموقع",
+      partner: {
+        overline: "صفّنا",
+        university: "جامعة بولو أبانت عزت بايسال",
+        lead: "يرافق Türkçe Akademi صف اللغة التركية BAIBU YTB TÖMER. يجمع الموقع الدروس والبطاقات والتمارين للمراجعة بين الحصص.",
+        link: "موقع الجامعة"
+      }
     },
     kk: {
       change: "Тілді ауыстыру",
@@ -45,7 +63,13 @@
       sectionLead: "Сабақтар, түсіндірмелер, тесттер мен сөздік таңдаған тіліңізде көрсетіледі. Түрік тілі оқылатын тіл болып қалады.",
       current: "Ағымдағы тіл",
       choose: "Таңдау",
-      aria: "Сайт тілі"
+      aria: "Сайт тілі",
+      partner: {
+        overline: "Біздің сынып",
+        university: "Болу Абант Иззет Байсал университеті",
+        lead: "Türkçe Akademi BAIBU YTB TÖMER түрік тілі сыныбын қолдайды. Сайт сабақтар, материалдар және жаттығуларды бір жерге жинайды.",
+        link: "Университет сайты"
+      }
     }
   };
 
@@ -60,6 +84,10 @@
   function targetUrl(code) {
     const prefix = (current === "fr" ? "" : "../") + (code === "fr" ? "" : code + "/");
     return prefix + currentFile() + location.search + location.hash;
+  }
+
+  function assetUrl(file) {
+    return (current === "fr" ? "" : "../") + file;
   }
 
   function remember(code) {
@@ -158,9 +186,55 @@
     });
   }
 
+  function buildPartnerSection() {
+    if (document.body.dataset.page !== "home") return;
+    if (document.querySelector("#baibu")) return;
+    const main = document.querySelector("main");
+    if (!main) return;
+    const p = labels.partner || UI.fr.partner;
+
+    const section = document.createElement("section");
+    section.className = "section partner-section";
+    section.id = "baibu";
+    section.dataset.noI18n = "";
+    section.innerHTML = `
+      <div class="container">
+        <div class="partner-card">
+          <img class="partner-logo" src="${assetUrl("assets/baibu-logo.png")}" alt="Bolu Abant İzzet Baysal Üniversitesi" width="96" height="96" loading="lazy">
+          <div class="partner-copy">
+            <span class="overline">${p.overline}</span>
+            <h2 lang="tr" dir="ltr">BAIBU YTB TÖMER Sınıfı</h2>
+            <div class="partner-university">${p.university}</div>
+            <p>${p.lead}</p>
+          </div>
+          <a class="btn btn-ghost btn-sm partner-link" href="https://www.baibu.edu.tr/" target="_blank" rel="noopener">${p.link} ↗</a>
+        </div>
+      </div>`;
+    const hero = main.querySelector(".hero");
+    if (hero) hero.insertAdjacentElement("afterend", section);
+    else main.insertBefore(section, main.firstChild);
+  }
+
+  function buildPartnerFooter() {
+    const container = document.querySelector(".footer .container");
+    if (!container || container.querySelector(".footer-partner")) return;
+    const p = labels.partner || UI.fr.partner;
+    const line = document.createElement("div");
+    line.className = "footer-partner";
+    line.dataset.noI18n = "";
+    line.innerHTML = `
+      <img src="${assetUrl("assets/baibu-logo.png")}" alt="Bolu Abant İzzet Baysal Üniversitesi" width="34" height="34" loading="lazy">
+      <span><b lang="tr" dir="ltr">BAIBU YTB TÖMER Sınıfı</b> · <a href="https://www.baibu.edu.tr/" target="_blank" rel="noopener">${p.university} ↗</a></span>`;
+    const bottom = container.querySelector(".footer-bottom");
+    if (bottom) container.insertBefore(line, bottom);
+    else container.appendChild(line);
+  }
+
   function init() {
     buildSwitch();
     buildHomeSection();
+    buildPartnerSection();
+    buildPartnerFooter();
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
