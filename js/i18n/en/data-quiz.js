@@ -490,9 +490,9 @@ const WORD_OF_DAY = [
     "exFr": "This bag has served me well."
   },
   {
-    "tr": "gurbet",
-    "fr": "exile, being far from your loved ones",
-    "ex": "Gurbette olmak zor.",
-    "exFr": "Living far from your loved ones is hard."
+    "tr": "hoş geldiniz",
+    "fr": "welcome (formal)",
+    "ex": "Hoş geldiniz! Buyurun.",
+    "exFr": "Welcome! Please come in."
   }
 ];

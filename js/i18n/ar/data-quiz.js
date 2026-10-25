@@ -490,9 +490,9 @@ const WORD_OF_DAY = [
     "exFr": "هذه الحقيبة خدمتني جيدا."
   },
   {
-    "tr": "gurbet",
-    "fr": "الاغتراب، البعد عن الأهل",
-    "ex": "Gurbette olmak zor.",
-    "exFr": "العيش بعيدا عن الأهل صعب."
+    "tr": "hoş geldiniz",
+    "fr": "أهلاً وسهلاً (صيغة رسمية)",
+    "ex": "Hoş geldiniz! Buyurun.",
+    "exFr": "أهلاً وسهلاً! تفضّل بالدخول."
   }
 ];

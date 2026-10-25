@@ -56,5 +56,5 @@ const WORD_OF_DAY = [
   { tr: "özlem", fr: "la nostalgie, le manque", ex: "Özlemle bekliyorum.", exFr: "J'attends avec impatience." },
   { tr: "şans", fr: "la chance", ex: "Sana şans diliyorum.", exFr: "Je te souhaite bonne chance." },
   { tr: "emektar", fr: "fidèle serviteur, dévoué", ex: "Bu çanta emektar artık.", exFr: "Ce sac m'a bien servi." },
-  { tr: "gurbet", fr: "l'exil, être loin des siens", ex: "Gurbette olmak zor.", exFr: "Vivre loin des siens est dur." }
+  { tr: "hoş geldiniz", fr: "bienvenue (formule polie)", ex: "Hoş geldiniz! Buyurun.", exFr: "Bienvenue ! Entrez, je vous en prie." }
 ];
