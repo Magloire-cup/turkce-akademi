@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="kk" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulaire & flashcards | Türkçe Akademi</title>
+  <meta name="description" content="625 mots de turc en 29 thèmes : flashcards interactives, filtres de révision, expressions et verbes utiles.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="vocab">
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Türkçe Akademi, accueil">
+        <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="11" fill="var(--red)"/>
+          <circle cx="16.5" cy="20" r="11" fill="#fff"/>
+          <circle cx="20.5" cy="20" r="9" fill="var(--red)"/>
+          <polygon points="27,15.6 28.1,18.5 31.2,18.6 28.7,20.6 29.6,23.6 27,21.8 24.4,23.6 25.3,20.6 22.8,18.6 25.9,18.5" fill="#fff"/>
+        </svg>
+        <div>Türkçe Akademi<small>Apprendre le turc</small></div>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="cours.html" data-nav="cours">Cours</a>
+        <a href="parcours.html" data-nav="parcours">Parcours</a>
+        <a href="vocabulaire.html" data-nav="vocab">Vocabulaire</a>
+        <a href="grammaire.html" data-nav="grammar">Grammaire</a>
+        <a href="conjugaison.html" data-nav="conjugaison">Conjugaison</a>
+        <a href="videos.html" data-nav="videos">Vidéos</a>
+        <a href="essentiel.html" data-nav="essential">Essentiel</a>
+        <a href="exercices.html" data-nav="quiz">Exercices</a>
+        <a href="prononciation.html" data-nav="alpha">Prononciation</a>
+        <a href="emploi-du-temps.html" data-nav="planning">Planning</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" title="Basculer clair / sombre" aria-label="Changer le thème"></button>
+        <button class="icon-btn burger" id="burger" title="Menu" aria-label="Ouvrir le menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="overline">Vocabulaire</span>
+        <h2>Flashcards : <span id="total-words">0</span> mots en <span id="total-themes">0</span> thèmes</h2>
+        <p>Choisis un thème et le sens de traduction. Filtre les mots à apprendre, en cours ou déjà maîtrisés ; ta progression est mémorisée sur cet appareil.</p>
+      </div>
+
+      <div class="vocab-shortcuts" aria-label="Accès rapide aux thèmes">
+        <span class="muted">Révision rapide :</span>
+        <button class="theme-chip" type="button" data-quick-theme="verbes1">Verbes courants 1</button>
+        <button class="theme-chip" type="button" data-quick-theme="verbes2">Verbes courants 2</button>
+        <button class="theme-chip" type="button" data-quick-theme="verbes3">Verbes courants 3</button>
+        <button class="theme-chip" type="button" data-quick-theme="verbes4">Verbes courants 4</button>
+        <button class="theme-chip" type="button" data-quick-theme="expressions">Expressions</button>
+      </div>
+      <details class="verb-guide">
+        <summary>Quelques verbes au présent : lire, écrire, apprendre</summary>
+        <div class="verb-guide-grid">
+          <div><b>lire</b><span class="tr">okumak</span><span class="tr">okuyorum</span><small>je lis</small></div>
+          <div><b>écrire</b><span class="tr">yazmak</span><span class="tr">yazıyorum</span><small>j'écris</small></div>
+          <div><b>apprendre</b><span class="tr">öğrenmek</span><span class="tr">öğreniyorum</span><small>j'apprends</small></div>
+          <div><b>aller</b><span class="tr">gitmek</span><span class="tr">gidiyorum</span><small>je vais</small></div>
+        </div>
+        <p class="muted">Les verbes à l'infinitif se terminent souvent par <span class="tr">-mak</span> ou <span class="tr">-mek</span>. Prononce la forme au présent, puis essaie d'en retrouver le sens sans regarder.</p>
+      </details>
+      <div class="theme-chips" id="theme-chips"></div>
+
+      <div class="flex wrap gap-2 items-center mb-3" style="justify-content:space-between">
+        <div class="flex gap-2 items-center wrap">
+          <label class="vocab-filter-label" for="vocab-level-filter">Afficher</label>
+          <select class="vocab-filter" id="vocab-level-filter">
+            <option value="all">Tous les mots</option>
+            <option value="new">À apprendre</option>
+            <option value="learning">En cours</option>
+            <option value="mastered">Maîtrisés</option>
+          </select>
+          <span class="chip" id="theme-progress">0 mots</span>
+          <span class="chip green" id="theme-known">0 connu</span>
+        </div>
+        <div class="flex gap-2 items-center">
+          <button class="btn btn-ghost btn-sm" id="btn-direction" type="button" aria-pressed="false">Carte : turc → français</button>
+          <button class="btn btn-ghost btn-sm" id="btn-shuffle">Mélanger</button>
+          <button class="btn btn-ghost btn-sm" id="btn-mode">Vue liste</button>
+        </div>
+      </div>
+
+      <div id="deck-zone"></div>
+      <div id="list-zone" style="display:none">
+        <input type="search" id="vocab-search" placeholder="Rechercher un mot (turc ou français)…" style="width:100%;max-width:420px;padding:12px 18px;border-radius:999px;border:1px solid var(--border-2);background:var(--surface);color:var(--ink);font-family:inherit;font-size:.95rem;margin-bottom:18px">
+        <div class="vocab-list" id="vocab-list"></div>
+      </div>
+
+      <div class="note info mt-4">
+        <b class="tag">Comment ça marche</b>
+        <div>Clique la carte (ou <kbd>espace</kbd>) pour la retourner. <kbd>←</kbd> <kbd>→</kbd> pour naviguer, <kbd>1</kbd> « je sais », <kbd>2</kbd> « à revoir ». Chaque « je sais » renforce le mot et le rapproche de la maîtrise ; « à revoir » le remet à zéro. Cinq réussites suffisent pour le considérer comme maîtrisé.</div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding-top:0">
+        <span>© <span id="year">2026</span> Türkçe Akademi, by TAM, pour les francophones</span>
+        <span><a href="exercices.html">Passe au quiz</a> · <a href="grammaire.html">Fiches de grammaire</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast-root"></div>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/i18n/kk/ui-data.js"></script>
+  <script src="../js/i18n/kk/ui.js"></script>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/lang.js"></script>
+  <script src="../js/i18n/kk/data-vocab.js"></script>
+  <script src="../js/i18n/kk/data-course.js"></script>
+  <script src="../js/i18n/kk/data-grammar.js"></script>
+  <script src="../js/i18n/kk/data-quiz.js"></script>
+  <script src="../js/vocab.js"></script>
+</body>
+</html>

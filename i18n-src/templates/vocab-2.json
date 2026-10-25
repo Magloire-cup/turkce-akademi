@@ -1,0 +1,1076 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 10,
+  "end": 18,
+  "items": [
+    {
+      "id": "nourriture",
+      "name": "Nourriture & boissons",
+      "words": [
+        {
+          "tr": "su",
+          "fr": "eau",
+          "ex": "Bir bardak su, lütfen.",
+          "exFr": "Un verre d'eau, s'il vous plaît."
+        },
+        {
+          "tr": "ekmek",
+          "fr": "pain",
+          "ex": "Fırından ekmek aldım.",
+          "exFr": "J'ai acheté du pain à la boulangerie."
+        },
+        {
+          "tr": "süt",
+          "fr": "lait",
+          "ex": "Sabahları süt içerim.",
+          "exFr": "Le matin je bois du lait."
+        },
+        {
+          "tr": "kahve",
+          "fr": "café",
+          "ex": "Türk kahvesi içer misin?",
+          "exFr": "Veux-tu un café turc ?"
+        },
+        {
+          "tr": "çay",
+          "fr": "thé",
+          "ex": "İki çay, lütfen.",
+          "exFr": "Deux thés, s'il vous plaît."
+        },
+        {
+          "tr": "peynir",
+          "fr": "fromage",
+          "ex": "Kahvaltıda peynir yedim.",
+          "exFr": "Au petit-déjeuner j'ai mangé du fromage."
+        },
+        {
+          "tr": "zeytin",
+          "fr": "olive",
+          "ex": "Zeytin yağı sağlıklıdır.",
+          "exFr": "L'huile d'olive est saine."
+        },
+        {
+          "tr": "yumurta",
+          "fr": "œuf",
+          "ex": "İki yumurta haşladım.",
+          "exFr": "J'ai fait cuire deux œufs."
+        },
+        {
+          "tr": "et",
+          "fr": "viande",
+          "ex": "Et almak için kasaba gittim.",
+          "exFr": "Je suis allé à la boucherie acheter de la viande."
+        },
+        {
+          "tr": "tavuk",
+          "fr": "poulet",
+          "ex": "Akşam tavuk yiyeceğiz.",
+          "exFr": "Ce soir nous mangerons du poulet."
+        },
+        {
+          "tr": "balık",
+          "fr": "poisson",
+          "ex": "Balık çok taze görünüyor.",
+          "exFr": "Le poisson a l'air très frais."
+        },
+        {
+          "tr": "pilav",
+          "fr": "riz",
+          "ex": "Pilavı kendim yaptım.",
+          "exFr": "J'ai fait le riz moi-même."
+        },
+        {
+          "tr": "sebze",
+          "fr": "légume",
+          "ex": "Sebze yemeyi sevmiyorum.",
+          "exFr": "Je n'aime pas manger des légumes."
+        },
+        {
+          "tr": "meyve",
+          "fr": "fruit",
+          "ex": "Meyve sağlıklı bir atıştırmalıktır.",
+          "exFr": "Le fruit est un en-cas sain."
+        },
+        {
+          "tr": "elma",
+          "fr": "pomme",
+          "ex": "Her gün bir elma yerim.",
+          "exFr": "Chaque jour je mange une pomme."
+        },
+        {
+          "tr": "portakal",
+          "fr": "orange (fruit)",
+          "ex": "Portakal suyu içtim.",
+          "exFr": "J'ai bu du jus d'orange."
+        },
+        {
+          "tr": "muz",
+          "fr": "banane",
+          "ex": "Muz çok olmuş.",
+          "exFr": "La banane est très mûre."
+        },
+        {
+          "tr": "domates",
+          "fr": "tomate",
+          "ex": "Salataya domates doğradım.",
+          "exFr": "J'ai coupé des tomates pour la salade."
+        },
+        {
+          "tr": "soğan",
+          "fr": "oignon",
+          "ex": "Soğan ağlatıyor.",
+          "exFr": "L'oignon fait pleurer."
+        },
+        {
+          "tr": "şeker",
+          "fr": "sucre",
+          "ex": "Şekersiz içiyorum.",
+          "exFr": "Je le bois sans sucre."
+        },
+        {
+          "tr": "tuz",
+          "fr": "sel",
+          "ex": "Çorba tuzlu değil.",
+          "exFr": "La soupe n'est pas salée."
+        },
+        {
+          "tr": "kahvaltı",
+          "fr": "petit-déjeuner",
+          "ex": "Kahvaltı hazır!",
+          "exFr": "Le petit-déjeuner est prêt !"
+        },
+        {
+          "tr": "yemek",
+          "fr": "repas, nourriture",
+          "ex": "Yemek çok lezzetliydi.",
+          "exFr": "Le repas était délicieux."
+        },
+        {
+          "tr": "aç",
+          "fr": "affamé",
+          "ex": "Karnım çok aç.",
+          "exFr": "J'ai très faim."
+        },
+        {
+          "tr": "tok",
+          "fr": "rassasié",
+          "ex": "Karnım tok, teşekkürler.",
+          "exFr": "Je suis rassasié, merci."
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "Au restaurant",
+      "words": [
+        {
+          "tr": "restoran",
+          "fr": "restaurant",
+          "ex": "Bu restoran çok ünlü.",
+          "exFr": "Ce restaurant est très connu."
+        },
+        {
+          "tr": "garson",
+          "fr": "serveur",
+          "ex": "Garson, hesap lütfen!",
+          "exFr": "Serveur, l'addition s'il vous plaît !"
+        },
+        {
+          "tr": "menü",
+          "fr": "menu, carte",
+          "ex": "Menüyü getirebilir misiniz?",
+          "exFr": "Pouvez-vous apporter la carte ?"
+        },
+        {
+          "tr": "hesap",
+          "fr": "addition",
+          "ex": "Hesabı ödedim.",
+          "exFr": "J'ai payé l'addition."
+        },
+        {
+          "tr": "sipariş",
+          "fr": "commande",
+          "ex": "Sipariş vermek istiyorum.",
+          "exFr": "Je voudrais commander."
+        },
+        {
+          "tr": "masa",
+          "fr": "table",
+          "ex": "Boş bir masa var mı?",
+          "exFr": "Y a-t-il une table libre ?"
+        },
+        {
+          "tr": "kafe",
+          "fr": "café (lieu)",
+          "ex": "Bu kafede çalışıyorum.",
+          "exFr": "Je travaille dans ce café."
+        },
+        {
+          "tr": "lezzetli",
+          "fr": "délicieux",
+          "ex": "Çorba çok lezzetliydi.",
+          "exFr": "La soupe était délicieuse."
+        },
+        {
+          "tr": "bahşiş",
+          "fr": "pourboire",
+          "ex": "Bahşiş bıraktım.",
+          "exFr": "J'ai laissé un pourboire."
+        },
+        {
+          "tr": "içecek",
+          "fr": "boisson",
+          "ex": "Ne içersiniz, içecek ne alırsınız?",
+          "exFr": "Que prendrez-vous à boire ?"
+        },
+        {
+          "tr": "porsiyon",
+          "fr": "portion",
+          "ex": "Porsiyonlar çok büyük.",
+          "exFr": "Les portions sont très grandes."
+        },
+        {
+          "tr": "rezervasyon",
+          "fr": "réservation",
+          "ex": "Rezervasyonum var.",
+          "exFr": "J'ai une réservation."
+        },
+        {
+          "tr": "dolu",
+          "fr": "complet, occupé",
+          "ex": "Restoran şu an dolu.",
+          "exFr": "Le restaurant est complet en ce moment."
+        },
+        {
+          "tr": "boş",
+          "fr": "libre, vide",
+          "ex": "Şu masa boş görünüyor.",
+          "exFr": "Cette table a l'air libre."
+        },
+        {
+          "tr": "hesabı bölüşmek",
+          "fr": "partager l'addition",
+          "ex": "Hesabı bölüşelim mi?",
+          "exFr": "On partage l'addition ?"
+        },
+        {
+          "tr": "ikram",
+          "fr": "offert (par la maison)",
+          "ex": "Bunlar bizden ikram.",
+          "exFr": "Ceci est offert par la maison."
+        }
+      ]
+    },
+    {
+      "id": "famille",
+      "name": "Famille & personnes",
+      "words": [
+        {
+          "tr": "aile",
+          "fr": "famille",
+          "ex": "Ailem çok büyük.",
+          "exFr": "Ma famille est très grande."
+        },
+        {
+          "tr": "anne",
+          "fr": "mère",
+          "ex": "Annem öğretmen.",
+          "exFr": "Ma mère est enseignante."
+        },
+        {
+          "tr": "baba",
+          "fr": "père",
+          "ex": "Babam doktor.",
+          "exFr": "Mon père est médecin."
+        },
+        {
+          "tr": "kardeş",
+          "fr": "frère ou sœur",
+          "ex": "İki kardeşim var.",
+          "exFr": "J'ai deux frères et sœurs."
+        },
+        {
+          "tr": "abla",
+          "fr": "grande sœur",
+          "ex": "Ablam İzmir'de yaşıyor.",
+          "exFr": "Ma grande sœur habite à Izmir."
+        },
+        {
+          "tr": "abi",
+          "fr": "grand frère",
+          "ex": "Abim beni aradı.",
+          "exFr": "Mon grand frère m'a appelé."
+        },
+        {
+          "tr": "kız kardeş",
+          "fr": "sœur",
+          "ex": "Kız kardeşim âşık oldu.",
+          "exFr": "Ma sœur est tombée amoureuse."
+        },
+        {
+          "tr": "erkek kardeş",
+          "fr": "frère",
+          "ex": "Erkek kardeşim askerde.",
+          "exFr": "Mon frère est à l'armée."
+        },
+        {
+          "tr": "dede",
+          "fr": "grand-père",
+          "ex": "Dedem hâlâ bahçede çalışıyor.",
+          "exFr": "Mon grand-père travaille encore au jardin."
+        },
+        {
+          "tr": "nine",
+          "fr": "grand-mère",
+          "ex": "Ninem börek yapıyor.",
+          "exFr": "Ma grand-mère prépare des böreks."
+        },
+        {
+          "tr": "çocuk",
+          "fr": "enfant",
+          "ex": "Çocuklar parkta oynuyor.",
+          "exFr": "Les enfants jouent au parc."
+        },
+        {
+          "tr": "kız",
+          "fr": "fille",
+          "ex": "Kızım yeni yürümeye başladı.",
+          "exFr": "Ma fille commence à marcher."
+        },
+        {
+          "tr": "oğlan",
+          "fr": "garçon",
+          "ex": "Oğlan çok yaramaz.",
+          "exFr": "Le garçon est très turbulent."
+        },
+        {
+          "tr": "bebek",
+          "fr": "bébé",
+          "ex": "Bebek uyuyor, sessiz olun.",
+          "exFr": "Le bébé dort, soyez silencieux."
+        },
+        {
+          "tr": "arkadaş",
+          "fr": "ami",
+          "ex": "Arkadaşımla sinemaya gittim.",
+          "exFr": "Je suis allé au cinéma avec mon ami."
+        },
+        {
+          "tr": "komşu",
+          "fr": "voisin",
+          "ex": "Komşumuz çok kibar.",
+          "exFr": "Notre voisin est très courtois."
+        },
+        {
+          "tr": "erkek",
+          "fr": "homme",
+          "ex": "O erkek çok uzun.",
+          "exFr": "Cet homme est très grand."
+        },
+        {
+          "tr": "kadın",
+          "fr": "femme",
+          "ex": "Kadın gazete okuyor.",
+          "exFr": "La femme lit le journal."
+        },
+        {
+          "tr": "insan",
+          "fr": "personne, humain",
+          "ex": "İnsanlar sokakta toplanmış.",
+          "exFr": "Les gens se sont rassemblés dans la rue."
+        },
+        {
+          "tr": "isim",
+          "fr": "prénom, nom",
+          "ex": "İsminizi tekrarlar mısınız?",
+          "exFr": "Pouvez-vous répéter votre nom ?"
+        },
+        {
+          "tr": "evli",
+          "fr": "marié(e)",
+          "ex": "Evli misin, bekar mı?",
+          "exFr": "Es-tu marié ou célibataire ?"
+        },
+        {
+          "tr": "bekar",
+          "fr": "célibataire",
+          "ex": "Henüz bekârım.",
+          "exFr": "Je suis encore célibataire."
+        }
+      ]
+    },
+    {
+      "id": "corps",
+      "name": "Corps & santé",
+      "words": [
+        {
+          "tr": "baş",
+          "fr": "tête",
+          "ex": "Başım ağrıyor.",
+          "exFr": "J'ai mal à la tête."
+        },
+        {
+          "tr": "saç",
+          "fr": "cheveux",
+          "ex": "Saçlarını kestirdi.",
+          "exFr": "Il s'est fait couper les cheveux."
+        },
+        {
+          "tr": "göz",
+          "fr": "œil",
+          "ex": "Gözlerin çok güzel.",
+          "exFr": "Tes yeux sont très beaux."
+        },
+        {
+          "tr": "kulak",
+          "fr": "oreille",
+          "ex": "Kulağım çınlıyor.",
+          "exFr": "Mon oreille siffle."
+        },
+        {
+          "tr": "burun",
+          "fr": "nez",
+          "ex": "Burunu kızardı.",
+          "exFr": "Son nez est devenu rouge."
+        },
+        {
+          "tr": "ağız",
+          "fr": "bouche",
+          "ex": "Ağzını aç ve göster.",
+          "exFr": "Ouvre la bouche et montre."
+        },
+        {
+          "tr": "diş",
+          "fr": "dent",
+          "ex": "Dişim çok ağrıyor.",
+          "exFr": "J'ai très mal aux dents."
+        },
+        {
+          "tr": "kol",
+          "fr": "bras",
+          "ex": "Kolunu kırdı.",
+          "exFr": "Il s'est cassé le bras."
+        },
+        {
+          "tr": "el",
+          "fr": "main",
+          "ex": "Ellerini yıka!",
+          "exFr": "Lave-toi les mains !"
+        },
+        {
+          "tr": "parmak",
+          "fr": "doigt",
+          "ex": "Parmağımı kestim.",
+          "exFr": "Je me suis coupé le doigt."
+        },
+        {
+          "tr": "bacak",
+          "fr": "jambe",
+          "ex": "Bacaklarım ağrıyor.",
+          "exFr": "J'ai mal aux jambes."
+        },
+        {
+          "tr": "ayak",
+          "fr": "pied",
+          "ex": "Ayağım üşüdü.",
+          "exFr": "J'ai les pieds froids."
+        },
+        {
+          "tr": "kalp",
+          "fr": "cœur",
+          "ex": "Kalbim hızlı çarpıyor.",
+          "exFr": "Mon cœur bat vite."
+        },
+        {
+          "tr": "mide",
+          "fr": "estomac",
+          "ex": "Midem bulanıyor.",
+          "exFr": "J'ai la nausée."
+        },
+        {
+          "tr": "doktor",
+          "fr": "médecin",
+          "ex": "Doktora görünmelisin.",
+          "exFr": "Tu devrais consulter un médecin."
+        },
+        {
+          "tr": "hastane",
+          "fr": "hôpital",
+          "ex": "Hastaneye gittim.",
+          "exFr": "Je suis allé à l'hôpital."
+        },
+        {
+          "tr": "ilaç",
+          "fr": "médicament",
+          "ex": "İlaçlarını düzenli iç.",
+          "exFr": "Prends régulièrement tes médicaments."
+        },
+        {
+          "tr": "hasta",
+          "fr": "malade",
+          "ex": "Hasta oldum, eve gidiyorum.",
+          "exFr": "Je suis tombé malade, je rentre."
+        },
+        {
+          "tr": "yorgun",
+          "fr": "fatigué",
+          "ex": "Bugün çok yorgunum.",
+          "exFr": "Aujourd'hui je suis très fatigué."
+        },
+        {
+          "tr": "ağrı",
+          "fr": "douleur",
+          "ex": "Boynumda bir ağrı var.",
+          "exFr": "J'ai une douleur dans le cou."
+        },
+        {
+          "tr": "iyileşmek",
+          "fr": "guérir",
+          "ex": "Çabuk iyileş, geçmiş olsun.",
+          "exFr": "Guéris vite, bon rétablissement."
+        }
+      ]
+    },
+    {
+      "id": "maison",
+      "name": "La maison & objets",
+      "words": [
+        {
+          "tr": "ev",
+          "fr": "maison",
+          "ex": "Şu an evdeyim.",
+          "exFr": "Je suis à la maison en ce moment."
+        },
+        {
+          "tr": "oda",
+          "fr": "pièce, chambre",
+          "ex": "Odan çok dağınık.",
+          "exFr": "Ta chambre est très en désordre."
+        },
+        {
+          "tr": "mutfak",
+          "fr": "cuisine (pièce)",
+          "ex": "Mutfakta yemek pişiriyorum.",
+          "exFr": "Je prépare à manger dans la cuisine."
+        },
+        {
+          "tr": "banyo",
+          "fr": "salle de bain",
+          "ex": "Banyoya gidiyorum.",
+          "exFr": "Je vais à la salle de bain."
+        },
+        {
+          "tr": "yatak",
+          "fr": "lit",
+          "ex": "Yatak çok rahat.",
+          "exFr": "Le lit est très confortable."
+        },
+        {
+          "tr": "yastık",
+          "fr": "oreiller",
+          "ex": "Yastığım kirlendi.",
+          "exFr": "Mon oreiller s'est sali."
+        },
+        {
+          "tr": "battaniye",
+          "fr": "couverture",
+          "ex": "Üşüdüm, battaniye alayım.",
+          "exFr": "J'ai froid, je vais prendre une couverture."
+        },
+        {
+          "tr": "dolap",
+          "fr": "armoire",
+          "ex": "Dolabın içi boş.",
+          "exFr": "L'intérieur de l'armoire est vide."
+        },
+        {
+          "tr": "masa",
+          "fr": "table",
+          "ex": "Masayı ben hazırladım.",
+          "exFr": "C'est moi qui ai dressé la table."
+        },
+        {
+          "tr": "sandalye",
+          "fr": "chaise",
+          "ex": "Bir sandalye alır mısın?",
+          "exFr": "Peux-tu prendre une chaise ?"
+        },
+        {
+          "tr": "kapı",
+          "fr": "porte",
+          "ex": "Kapıyı kapat, lütfen.",
+          "exFr": "Ferme la porte, s'il te plaît."
+        },
+        {
+          "tr": "pencere",
+          "fr": "fenêtre",
+          "ex": "Pencereyi açabilir misin?",
+          "exFr": "Peux-tu ouvrir la fenêtre ?"
+        },
+        {
+          "tr": "duvar",
+          "fr": "mur",
+          "ex": "Duvarda bir resim asılı.",
+          "exFr": "Un tableau est accroché au mur."
+        },
+        {
+          "tr": "bahçe",
+          "fr": "jardin",
+          "ex": "Bahçede çay içtik.",
+          "exFr": "Nous avons bu le thé dans le jardin."
+        },
+        {
+          "tr": "merdiven",
+          "fr": "escalier",
+          "ex": "Merdivenlerden çıktım.",
+          "exFr": "Je suis monté par les escaliers."
+        },
+        {
+          "tr": "ayna",
+          "fr": "miroir",
+          "ex": "Aynaya baktım.",
+          "exFr": "Je me suis regardé dans le miroir."
+        },
+        {
+          "tr": "anahtar",
+          "fr": "clé",
+          "ex": "Anahtarlarımı kaybettim.",
+          "exFr": "J'ai perdu mes clés."
+        },
+        {
+          "tr": "lamba",
+          "fr": "lampe",
+          "ex": "Lambayı kapattım.",
+          "exFr": "J'ai éteint la lampe."
+        },
+        {
+          "tr": "kitap",
+          "fr": "livre",
+          "ex": "Bu kitabı okudun mu?",
+          "exFr": "As-tu lu ce livre ?"
+        },
+        {
+          "tr": "kalem",
+          "fr": "crayon, stylo",
+          "ex": "Kalemim yok, ödünç alabilir miyim?",
+          "exFr": "Je n'ai pas de stylo, puis-je en emprunter un ?"
+        },
+        {
+          "tr": "çanta",
+          "fr": "sac",
+          "ex": "Çantamı unuttum.",
+          "exFr": "J'ai oublié mon sac."
+        },
+        {
+          "tr": "giysi",
+          "fr": "vêtement",
+          "ex": "Giysilerimi astım.",
+          "exFr": "J'ai suspendu mes vêtements."
+        }
+      ]
+    },
+    {
+      "id": "vetements",
+      "name": "Vêtements & shopping",
+      "words": [
+        {
+          "tr": "gömlek",
+          "fr": "chemise",
+          "ex": "Beyaz bir gömlek giydim.",
+          "exFr": "J'ai mis une chemise blanche."
+        },
+        {
+          "tr": "pantolon",
+          "fr": "pantalon",
+          "ex": "Pantolonum yırtıldı.",
+          "exFr": "Mon pantalon s'est déchiré."
+        },
+        {
+          "tr": "ceket",
+          "fr": "veste",
+          "ex": "Ceketini çıkardı.",
+          "exFr": "Il a enlevé sa veste."
+        },
+        {
+          "tr": "kazak",
+          "fr": "pull",
+          "ex": "Bu kazak çok sıcak tutuyor.",
+          "exFr": "Ce pull tient très chaud."
+        },
+        {
+          "tr": "tişört",
+          "fr": "t-shirt",
+          "ex": "Tişörtümün rengi solmuş.",
+          "exFr": "La couleur de mon t-shirt a passé."
+        },
+        {
+          "tr": "ayakkabı",
+          "fr": "chaussure",
+          "ex": "Yeni ayakkabılarım geldi.",
+          "exFr": "Mes nouvelles chaussures sont arrivées."
+        },
+        {
+          "tr": "çorap",
+          "fr": "chaussette",
+          "ex": "Çoraplarım eşleşmiyor.",
+          "exFr": "Mes chaussettes ne s'apparient pas."
+        },
+        {
+          "tr": "şapka",
+          "fr": "chapeau",
+          "ex": "Güneşten korunmak için şapka taktım.",
+          "exFr": "Pour me protéger du soleil j'ai mis un chapeau."
+        },
+        {
+          "tr": "elbise",
+          "fr": "robe",
+          "ex": "Şık bir elbise aldı.",
+          "exFr": "Elle a acheté une robe élégante."
+        },
+        {
+          "tr": "etek",
+          "fr": "jupe",
+          "ex": "Eteği uzun.",
+          "exFr": "La jupe est longue."
+        },
+        {
+          "tr": "mont",
+          "fr": "manteau",
+          "ex": "Kışın mont şart.",
+          "exFr": "En hiver le manteau est indispensable."
+        },
+        {
+          "tr": "atkı",
+          "fr": "écharpe",
+          "ex": "Atkını takmayı unutma.",
+          "exFr": "N'oublie pas de mettre ton écharpe."
+        },
+        {
+          "tr": "mağaza",
+          "fr": "magasin",
+          "ex": "Mağaza saat kaçta açılıyor?",
+          "exFr": "À quelle heure ouvre le magasin ?"
+        },
+        {
+          "tr": "alışveriş",
+          "fr": "shopping, achats",
+          "ex": "Alışverişe çıktım.",
+          "exFr": "Je suis sorti faire du shopping."
+        },
+        {
+          "tr": "fiyat",
+          "fr": "prix",
+          "ex": "Fiyatı ne kadar?",
+          "exFr": "Il coûte combien ?"
+        },
+        {
+          "tr": "pahalı",
+          "fr": "cher",
+          "ex": "Bu çok pahalı, daha ucuzu var mı?",
+          "exFr": "C'est trop cher, y en a-t-il un moins cher ?"
+        },
+        {
+          "tr": "ucuz",
+          "fr": "bon marché",
+          "ex": "Burada sebze ucuz.",
+          "exFr": "Ici les légumes sont bon marché."
+        },
+        {
+          "tr": "indirim",
+          "fr": "réduction, soldes",
+          "ex": "Her şeyde indirim var.",
+          "exFr": "Tout est en promotion."
+        },
+        {
+          "tr": "kasa",
+          "fr": "caisse",
+          "ex": "Kasada sıra uzun.",
+          "exFr": "La file à la caisse est longue."
+        },
+        {
+          "tr": "denemek",
+          "fr": "essayer (vêtement)",
+          "ex": "Bunu denemek istiyorum.",
+          "exFr": "Je voudrais l'essayer."
+        }
+      ]
+    },
+    {
+      "id": "ville",
+      "name": "La ville & lieux",
+      "words": [
+        {
+          "tr": "şehir",
+          "fr": "ville",
+          "ex": "İstanbul çok kalabalık bir şehir.",
+          "exFr": "Istanbul est une ville très peuplée."
+        },
+        {
+          "tr": "sokak",
+          "fr": "rue",
+          "ex": "Sokakta çocuklar oynuyor.",
+          "exFr": "Des enfants jouent dans la rue."
+        },
+        {
+          "tr": "cadde",
+          "fr": "avenue",
+          "ex": "Cadde boyunca yürüdüm.",
+          "exFr": "J'ai marché le long de l'avenue."
+        },
+        {
+          "tr": "meydan",
+          "fr": "place (publique)",
+          "ex": "Taksim Meydanı'nda buluşalım.",
+          "exFr": "Retrouvons-nous sur la place Taksim."
+        },
+        {
+          "tr": "park",
+          "fr": "parc",
+          "ex": "Parkta koşu yapıyorum.",
+          "exFr": "Je fais du jogging au parc."
+        },
+        {
+          "tr": "okul",
+          "fr": "école",
+          "ex": "Okul evime yakın.",
+          "exFr": "L'école est proche de chez moi."
+        },
+        {
+          "tr": "üniversite",
+          "fr": "université",
+          "ex": "Üniversitede mühendislik okuyorum.",
+          "exFr": "J'étudie l'ingénierie à l'université."
+        },
+        {
+          "tr": "kütüphane",
+          "fr": "bibliothèque",
+          "ex": "Kütüphanede sessizlik var.",
+          "exFr": "Il y a du calme à la bibliothèque."
+        },
+        {
+          "tr": "eczane",
+          "fr": "pharmacie",
+          "ex": "Gece nöbetçi eczane buldum.",
+          "exFr": "J'ai trouvé la pharmacie de garde."
+        },
+        {
+          "tr": "banka",
+          "fr": "banque",
+          "ex": "Bankadan para çektim.",
+          "exFr": "J'ai retiré de l'argent à la banque."
+        },
+        {
+          "tr": "postane",
+          "fr": "poste",
+          "ex": "Postaneden paket aldım.",
+          "exFr": "J'ai récupéré un colis à la poste."
+        },
+        {
+          "tr": "müze",
+          "fr": "musée",
+          "ex": "Müzede sergi var.",
+          "exFr": "Il y a une exposition au musée."
+        },
+        {
+          "tr": "cami",
+          "fr": "mosquée",
+          "ex": "Cami çok eski ve güzel.",
+          "exFr": "La mosquée est très ancienne et belle."
+        },
+        {
+          "tr": "sinema",
+          "fr": "cinéma",
+          "ex": "Sinemaya film seyretmeye gittim.",
+          "exFr": "Je suis allé au cinéma voir un film."
+        },
+        {
+          "tr": "tiyatro",
+          "fr": "théâtre",
+          "ex": "Tiyatro bileti aldım.",
+          "exFr": "J'ai pris un billet de théâtre."
+        },
+        {
+          "tr": "otel",
+          "fr": "hôtel",
+          "ex": "Otel deniz manzaralı.",
+          "exFr": "L'hôtel a une vue sur la mer."
+        },
+        {
+          "tr": "plaj",
+          "fr": "plage",
+          "ex": "Plajda güneşlendim.",
+          "exFr": "J'ai pris le soleil à la plage."
+        },
+        {
+          "tr": "köprü",
+          "fr": "pont",
+          "ex": "Köprüden karşıya geçtik.",
+          "exFr": "Nous avons traversé par le pont."
+        },
+        {
+          "tr": "adres",
+          "fr": "adresse",
+          "ex": "Adresi yazar mısınız?",
+          "exFr": "Pouvez-vous écrire l'adresse ?"
+        },
+        {
+          "tr": "turistik",
+          "fr": "touristique",
+          "ex": "Burası çok turistik bir yer.",
+          "exFr": "C'est un endroit très touristique."
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "name": "Transports & voyage",
+      "words": [
+        {
+          "tr": "otobüs",
+          "fr": "bus",
+          "ex": "Otobüsle eve döndüm.",
+          "exFr": "Je suis rentré en bus."
+        },
+        {
+          "tr": "tren",
+          "fr": "train",
+          "ex": "Tren istasyonu nerede?",
+          "exFr": "Où est la gare ?"
+        },
+        {
+          "tr": "uçak",
+          "fr": "avion",
+          "ex": "Uçakla iki saatte vardık.",
+          "exFr": "Nous sommes arrivés en deux heures d'avion."
+        },
+        {
+          "tr": "gemi",
+          "fr": "bateau",
+          "ex": "Gemi limana yanaştı.",
+          "exFr": "Le bateau a accosté au port."
+        },
+        {
+          "tr": "vapur",
+          "fr": "ferry",
+          "ex": "Vapurla karşıya geçtim.",
+          "exFr": "J'ai traversé en ferry."
+        },
+        {
+          "tr": "araba",
+          "fr": "voiture",
+          "ex": "Arabam bozuldu.",
+          "exFr": "Ma voiture est tombée en panne."
+        },
+        {
+          "tr": "bisiklet",
+          "fr": "vélo",
+          "ex": "Bisikletle işe gidiyorum.",
+          "exFr": "Je vais au travail à vélo."
+        },
+        {
+          "tr": "taksi",
+          "fr": "taxi",
+          "ex": "Taksi çağırdım.",
+          "exFr": "J'ai appelé un taxi."
+        },
+        {
+          "tr": "metro",
+          "fr": "métro",
+          "ex": "Metro çok hızlı ve ucuz.",
+          "exFr": "Le métro est très rapide et bon marché."
+        },
+        {
+          "tr": "dolmuş",
+          "fr": "minibus collectif",
+          "ex": "Dolmuşla gidebilirsin.",
+          "exFr": "Tu peux y aller en dolmuş."
+        },
+        {
+          "tr": "istasyon",
+          "fr": "gare, station",
+          "ex": "İstasyonda seni bekleyeceğim.",
+          "exFr": "Je t'attendrai à la gare."
+        },
+        {
+          "tr": "havalimanı",
+          "fr": "aéroport",
+          "ex": "Havalimanına erken git.",
+          "exFr": "Va à l'aéroport tôt."
+        },
+        {
+          "tr": "bilet",
+          "fr": "billet",
+          "ex": "İki bilet almak istiyorum.",
+          "exFr": "Je voudrais deux billets."
+        },
+        {
+          "tr": "valiz",
+          "fr": "valise",
+          "ex": "Valizimi hazırladım.",
+          "exFr": "J'ai préparé ma valise."
+        },
+        {
+          "tr": "pasaport",
+          "fr": "passeport",
+          "ex": "Pasaportunuz hazır mı?",
+          "exFr": "Votre passeport est-il prêt ?"
+        },
+        {
+          "tr": "seyahat",
+          "fr": "voyage",
+          "ex": "Seyahat etmeyi seviyorum.",
+          "exFr": "J'aime voyager."
+        },
+        {
+          "tr": "gitmek",
+          "fr": "aller, partir",
+          "ex": "Nereye gidiyorsun?",
+          "exFr": "Où vas-tu ?"
+        },
+        {
+          "tr": "gelmek",
+          "fr": "venir",
+          "ex": "Yarın geliyorum.",
+          "exFr": "Je viens demain."
+        },
+        {
+          "tr": "dönmek",
+          "fr": "revenir, rentrer",
+          "ex": "Eve döndüm.",
+          "exFr": "Je suis rentré à la maison."
+        },
+        {
+          "tr": "binmek",
+          "fr": "monter (dans un véhicule)",
+          "ex": "Otobüse bindim.",
+          "exFr": "Je suis monté dans le bus."
+        },
+        {
+          "tr": "inmek",
+          "fr": "descendre (d'un véhicule)",
+          "ex": "Bir sonraki durakta ineceğim.",
+          "exFr": "Je descendrai à l'arrêt suivant."
+        },
+        {
+          "tr": "durak",
+          "fr": "arrêt (bus)",
+          "ex": "Durakta bekliyorum.",
+          "exFr": "J'attends à l'arrêt."
+        },
+        {
+          "tr": "yol",
+          "fr": "route, chemin",
+          "ex": "Yolu kaybettim.",
+          "exFr": "J'ai perdu mon chemin."
+        },
+        {
+          "tr": "trafik",
+          "fr": "circulation",
+          "ex": "Trafik çok yoğun.",
+          "exFr": "La circulation est très dense."
+        }
+      ]
+    }
+  ]
+}

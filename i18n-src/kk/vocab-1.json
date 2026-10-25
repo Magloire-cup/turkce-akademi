@@ -1,0 +1,1040 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 0,
+  "end": 10,
+  "items": [
+    {
+      "id": "salutations",
+      "name": "Сәлемдесу",
+      "words": [
+        {
+          "tr": "merhaba",
+          "fr": "сәлем, амандасу",
+          "ex": "Merhaba, nasılsın?",
+          "exFr": "Сәлем, қалың қалай?"
+        },
+        {
+          "tr": "günaydın",
+          "fr": "қайырлы таң",
+          "ex": "Günaydın hanım.",
+          "exFr": "Қайырлы таң, ханым."
+        },
+        {
+          "tr": "iyi günler",
+          "fr": "қайырлы күн",
+          "ex": "İyi günler efendim.",
+          "exFr": "Қайырлы күн, мырза / ханым."
+        },
+        {
+          "tr": "iyi akşamlar",
+          "fr": "қайырлы кеш",
+          "ex": "İyi akşamlar, hoşça kalın.",
+          "exFr": "Қайырлы кеш, сау болыңыз."
+        },
+        {
+          "tr": "iyi geceler",
+          "fr": "қайырлы түн",
+          "ex": "İyi geceler, tatlı rüyalar.",
+          "exFr": "Қайырлы түн, жақсы түс көр."
+        },
+        {
+          "tr": "hoş geldiniz",
+          "fr": "қош келдіңіз (сыпайы «сіз»)",
+          "ex": "Hoş geldiniz! Buyurun.",
+          "exFr": "Қош келдіңіз! Кіріңіз, өтінемін."
+        },
+        {
+          "tr": "hoş buldum",
+          "fr": "қош таптым (жауап)",
+          "ex": "Hoş buldum, çok naziksiniz.",
+          "exFr": "Қош таптым, өте сыпайы екенсіз."
+        },
+        {
+          "tr": "güle güle",
+          "fr": "сау бол (кетіп бара жатқанға)",
+          "ex": "Güle güle, yarın görüşürüz.",
+          "exFr": "Сау бол, ертең кездесеміз."
+        },
+        {
+          "tr": "hoşça kal",
+          "fr": "сау бол (кетуші айтады)",
+          "ex": "Ben gidiyorum, hoşça kal.",
+          "exFr": "Мен кетіп барамын, сау бол."
+        },
+        {
+          "tr": "görüşürüz",
+          "fr": "кездескенше",
+          "ex": "Görüşürüz, kendine iyi bak.",
+          "exFr": "Кездескенше, өзіңді күт."
+        },
+        {
+          "tr": "nasılsın?",
+          "fr": "қалың қалай?",
+          "ex": "Merhaba Ali, nasılsın?",
+          "exFr": "Сәлем, Әли, қалың қалай?"
+        },
+        {
+          "tr": "nasılsınız?",
+          "fr": "қалыңыз қалай?",
+          "ex": "Hoş geldiniz, nasılsınız?",
+          "exFr": "Қош келдіңіз, қалыңыз қалай?"
+        },
+        {
+          "tr": "iyiyim",
+          "fr": "жақсымын",
+          "ex": "İyiyim, teşekkür ederim.",
+          "exFr": "Жақсымын, рақмет."
+        },
+        {
+          "tr": "memnun oldum",
+          "fr": "танысқаныма қуаныштымын",
+          "ex": "Tanıştığımıza memnun oldum.",
+          "exFr": "Сізбен танысқаныма қуаныштымын."
+        },
+        {
+          "tr": "hoşça kalın",
+          "fr": "сау болыңыз (сыпайы «сіз»)",
+          "ex": "İyi günler, hoşça kalın.",
+          "exFr": "Қайырлы күн, сау болыңыз."
+        }
+      ]
+    },
+    {
+      "id": "politesse",
+      "name": "Сыпайылық және жауаптар",
+      "words": [
+        {
+          "tr": "evet",
+          "fr": "иә",
+          "ex": "Evet, doğru.",
+          "exFr": "Иә, бұл рас."
+        },
+        {
+          "tr": "hayır",
+          "fr": "жоқ",
+          "ex": "Hayır, teşekkürler.",
+          "exFr": "Жоқ, рақмет."
+        },
+        {
+          "tr": "teşekkür ederim",
+          "fr": "рақмет",
+          "ex": "Yardımın için teşekkür ederim.",
+          "exFr": "Көмегің үшін рақмет."
+        },
+        {
+          "tr": "sağ ol",
+          "fr": "рақмет (бейресми)",
+          "ex": "Sağ ol, çok tatlısın.",
+          "exFr": "Рақмет, өте сыпайы екенсің."
+        },
+        {
+          "tr": "rica ederim",
+          "fr": "оқасы жоқ",
+          "ex": "Rica ederim, ne demek!",
+          "exFr": "Оқасы жоқ, ештеңе емес!"
+        },
+        {
+          "tr": "lütfen",
+          "fr": "өтінемін",
+          "ex": "Bir bardak su, lütfen.",
+          "exFr": "Бір стақан су, өтінемін."
+        },
+        {
+          "tr": "buyurun",
+          "fr": "міне, өтінемін",
+          "ex": "Buyurun, oturun.",
+          "exFr": "Отырыңыз, өтінемін."
+        },
+        {
+          "tr": "affedersiniz",
+          "fr": "кешіріңіз",
+          "ex": "Affedersiniz, bir sorum var.",
+          "exFr": "Кешіріңіз, бір сұрағым бар."
+        },
+        {
+          "tr": "özür dilerim",
+          "fr": "кешірім сұраймын",
+          "ex": "Geç kaldım, özür dilerim.",
+          "exFr": "Кешігіп қалдым, кешірім сұраймын."
+        },
+        {
+          "tr": "sorun değil",
+          "fr": "ештеңе етпейді",
+          "ex": "Sorun değil, merak etme.",
+          "exFr": "Ештеңе етпейді, уайымдама."
+        },
+        {
+          "tr": "tamam",
+          "fr": "жарайды",
+          "ex": "Tamam, anladım.",
+          "exFr": "Жарайды, түсіндім."
+        },
+        {
+          "tr": "olur",
+          "fr": "болады, әрине",
+          "ex": "Olur, yarın gelirim.",
+          "exFr": "Болады, ертең келемін."
+        },
+        {
+          "tr": "maalesef",
+          "fr": "өкінішке орай",
+          "ex": "Maalesef bugün gelamam.",
+          "exFr": "Өкінішке орай, бүгін келе алмаймын."
+        },
+        {
+          "tr": "belki",
+          "fr": "мүмкін",
+          "ex": "Belki yarın gelir.",
+          "exFr": "Мүмкін, ол ертең келер."
+        },
+        {
+          "tr": "tabii",
+          "fr": "әрине",
+          "ex": "Tabii ki yardım ederim.",
+          "exFr": "Әрине, саған көмектесемін."
+        },
+        {
+          "tr": "tebrikler",
+          "fr": "құттықтаймын",
+          "ex": "Tebrikler, başardın!",
+          "exFr": "Құттықтаймын, сен жеңіске жеттің!"
+        },
+        {
+          "tr": "geçmiş olsun",
+          "fr": "тез сауығып кетіңіз",
+          "ex": "Geçmiş olsun, çabuk iyileş.",
+          "exFr": "Тезірек сауығып кет, жазылып кет."
+        },
+        {
+          "tr": "afiyet olsun",
+          "fr": "ас дәмді болсын",
+          "ex": "Buyurun, afiyet olsun.",
+          "exFr": "Міне, ас дәмді болсын."
+        },
+        {
+          "tr": "kolay gelsin",
+          "fr": "жұмысың жеңіл болсын",
+          "ex": "Kolay gelsin, iyi çalışmalar.",
+          "exFr": "Жұмысың жеңіл болсын, сәттілік."
+        }
+      ]
+    },
+    {
+      "id": "pronom",
+      "name": "Есімдіктер және сұрақтар",
+      "words": [
+        {
+          "tr": "ben",
+          "fr": "мен",
+          "ex": "Ben öğrenciyim.",
+          "exFr": "Мен студентпін."
+        },
+        {
+          "tr": "sen",
+          "fr": "сен",
+          "ex": "Sen nasılsın?",
+          "exFr": "Ал сен ше, қалың қалай?"
+        },
+        {
+          "tr": "o",
+          "fr": "ол",
+          "ex": "O Türk.",
+          "exFr": "Ол түрік."
+        },
+        {
+          "tr": "biz",
+          "fr": "біз",
+          "ex": "Biz Fransızız.",
+          "exFr": "Біз французбыз."
+        },
+        {
+          "tr": "siz",
+          "fr": "сіз",
+          "ex": "Siz nerelisiniz?",
+          "exFr": "Сіз қайдансыз?"
+        },
+        {
+          "tr": "onlar",
+          "fr": "олар",
+          "ex": "Onlar evde.",
+          "exFr": "Олар үйде."
+        },
+        {
+          "tr": "bu",
+          "fr": "бұл",
+          "ex": "Bu nedir?",
+          "exFr": "Бұл не?"
+        },
+        {
+          "tr": "şu",
+          "fr": "сол",
+          "ex": "Şu kitap benim.",
+          "exFr": "Сол кітап менікі."
+        },
+        {
+          "tr": "ne",
+          "fr": "не, қандай",
+          "ex": "Adın ne?",
+          "exFr": "Сенің есімің кім?"
+        },
+        {
+          "tr": "kim",
+          "fr": "кім",
+          "ex": "O kim?",
+          "exFr": "Бұл кім?"
+        },
+        {
+          "tr": "nerede",
+          "fr": "қайда",
+          "ex": "Tuvalet nerede?",
+          "exFr": "Дәретхана қайда?"
+        },
+        {
+          "tr": "nereye",
+          "fr": "қайда қарай",
+          "ex": "Nereye gidiyorsun?",
+          "exFr": "Қайда бара жатырсың?"
+        },
+        {
+          "tr": "nereden",
+          "fr": "қайдан",
+          "ex": "Sen nereden geldin?",
+          "exFr": "Сен қайдан келдің?"
+        },
+        {
+          "tr": "ne zaman",
+          "fr": "қашан",
+          "ex": "Ne zaman geliyorsun?",
+          "exFr": "Қашан келесің?"
+        },
+        {
+          "tr": "neden",
+          "fr": "неге",
+          "ex": "Neden gittin?",
+          "exFr": "Неге кеттің?"
+        },
+        {
+          "tr": "niye",
+          "fr": "неге (бейресми)",
+          "ex": "Niye böyle yaptın?",
+          "exFr": "Неге олай жасадың?"
+        },
+        {
+          "tr": "nasıl",
+          "fr": "қалай",
+          "ex": "Nasıl yaptın?",
+          "exFr": "Қалай жасадың?"
+        },
+        {
+          "tr": "kaç",
+          "fr": "қанша",
+          "ex": "Bu kaç lira?",
+          "exFr": "Бұл қанша?"
+        },
+        {
+          "tr": "hangi",
+          "fr": "қайсы, қандай",
+          "ex": "Hangi rengi seviyorsun?",
+          "exFr": "Қандай түсті ұнатасың?"
+        },
+        {
+          "tr": "hepsi",
+          "fr": "барлығы",
+          "ex": "Hepsi doğru.",
+          "exFr": "Барлығы дұрыс."
+        }
+      ]
+    },
+    {
+      "id": "nombres",
+      "name": "Сандар",
+      "words": [
+        {
+          "tr": "sıfır",
+          "fr": "нөл",
+          "ex": "Sıcaklık sıfırın altında.",
+          "exFr": "Температура нөлден төмен."
+        },
+        {
+          "tr": "bir",
+          "fr": "бір",
+          "ex": "Bir kahve, lütfen.",
+          "exFr": "Бір кофе, өтінемін."
+        },
+        {
+          "tr": "iki",
+          "fr": "екі",
+          "ex": "İki bilet aldım.",
+          "exFr": "Мен екі билет алдым."
+        },
+        {
+          "tr": "üç",
+          "fr": "үш",
+          "ex": "Üç gün kaldım.",
+          "exFr": "Мен үш күн қалдым."
+        },
+        {
+          "tr": "dört",
+          "fr": "төрт",
+          "ex": "Dört mevsim var.",
+          "exFr": "Төрт мезгіл бар."
+        },
+        {
+          "tr": "beş",
+          "fr": "бес",
+          "ex": "Saat beş.",
+          "exFr": "Сағат бес."
+        },
+        {
+          "tr": "altı",
+          "fr": "алты",
+          "ex": "Altı kişi geldik.",
+          "exFr": "Біз алтау болып келдік."
+        },
+        {
+          "tr": "yedi",
+          "fr": "жеті",
+          "ex": "Haftada yedi gün var.",
+          "exFr": "Бір аптада жеті күн бар."
+        },
+        {
+          "tr": "sekiz",
+          "fr": "сегіз",
+          "ex": "Sekiz katlı bina.",
+          "exFr": "Сегіз қабатты ғимарат."
+        },
+        {
+          "tr": "dokuz",
+          "fr": "тоғыз",
+          "ex": "Dokuz ay sonra döndü.",
+          "exFr": "Ол тоғыз айдан кейін оралды."
+        },
+        {
+          "tr": "on",
+          "fr": "он",
+          "ex": "On dakika bekle.",
+          "exFr": "Он минут күте тұр."
+        },
+        {
+          "tr": "yirmi",
+          "fr": "жиырма",
+          "ex": "Yirmi lira verdim.",
+          "exFr": "Мен жиырма лира бердім."
+        },
+        {
+          "tr": "otuz",
+          "fr": "отыз",
+          "ex": "Otuz yaşındayım.",
+          "exFr": "Мен отыз жастамын."
+        },
+        {
+          "tr": "kırk",
+          "fr": "қырық",
+          "ex": "Kırk dakika sürdü.",
+          "exFr": "Бұл қырық минутқа созылды."
+        },
+        {
+          "tr": "elli",
+          "fr": "елу",
+          "ex": "Elli kişi davetli.",
+          "exFr": "Елу адам шақырылған."
+        },
+        {
+          "tr": "altmış",
+          "fr": "алпыс",
+          "ex": "Altmış saniye bir dakikadır.",
+          "exFr": "Алпыс секунд бір минутқа тең."
+        },
+        {
+          "tr": "yetmiş",
+          "fr": "жетпіс",
+          "ex": "Yetmiş yaşında ama dinç.",
+          "exFr": "Жетпіс жаста, бірақ сергек."
+        },
+        {
+          "tr": "seksen",
+          "fr": "сексен",
+          "ex": "Seksen kilometre hızla.",
+          "exFr": "Сексен километр жылдамдықпен."
+        },
+        {
+          "tr": "doksan",
+          "fr": "тоқсан",
+          "ex": "Doksan iki yıl önce.",
+          "exFr": "Тоқсан екі жыл бұрын."
+        },
+        {
+          "tr": "yüz",
+          "fr": "жүз",
+          "ex": "Yüz kişi geldi.",
+          "exFr": "Жүз адам келді."
+        },
+        {
+          "tr": "bin",
+          "fr": "мың",
+          "ex": "İki bin kilometre yolculuk.",
+          "exFr": "Екі мың километрлік сапар."
+        },
+        {
+          "tr": "milyon",
+          "fr": "бір миллион",
+          "ex": "On beş milyon insan.",
+          "exFr": "Он бес миллион адам."
+        },
+        {
+          "tr": "tane",
+          "fr": "дана (санақ сөзі)",
+          "ex": "Üç tane elma aldim.",
+          "exFr": "Мен үш алма алдым."
+        }
+      ]
+    },
+    {
+      "id": "couleurs",
+      "name": "Түстер",
+      "words": [
+        {
+          "tr": "kırmızı",
+          "fr": "қызыл",
+          "ex": "Kırmızı bir elma yedim.",
+          "exFr": "Мен қызыл алма жедім."
+        },
+        {
+          "tr": "beyaz",
+          "fr": "ақ",
+          "ex": "Beyaz bir kedi gördüm.",
+          "exFr": "Мен ақ мысық көрдім."
+        },
+        {
+          "tr": "siyah",
+          "fr": "қара",
+          "ex": "Siyah kahve içiyorum.",
+          "exFr": "Мен қара кофе ішемін."
+        },
+        {
+          "tr": "mavi",
+          "fr": "көк",
+          "ex": "Gökyüzü çok mavi.",
+          "exFr": "Аспан өте көк."
+        },
+        {
+          "tr": "yeşil",
+          "fr": "жасыл",
+          "ex": "Yeşil çay sağlıklıdır.",
+          "exFr": "Жасыл шай пайдалы."
+        },
+        {
+          "tr": "sarı",
+          "fr": "сары",
+          "ex": "Sarı bir çiçek koydum.",
+          "exFr": "Мен сары гүл қойдым."
+        },
+        {
+          "tr": "turuncu",
+          "fr": "қызғылт сары (түс)",
+          "ex": "Turuncu bir tişört giydim.",
+          "exFr": "Мен қызғылт сары футболка кидім."
+        },
+        {
+          "tr": "mor",
+          "fr": "күлгін",
+          "ex": "Mor bere taktı.",
+          "exFr": "Ол күлгін бөрік киді."
+        },
+        {
+          "tr": "pembe",
+          "fr": "қызғылт",
+          "ex": "Pembe bir elbise aldı.",
+          "exFr": "Ол қызғылт көйлек сатып алды."
+        },
+        {
+          "tr": "kahverengi",
+          "fr": "қоңыр",
+          "ex": "Kahverengi gözleri var.",
+          "exFr": "Оның көздері қоңыр."
+        },
+        {
+          "tr": "gri",
+          "fr": "сұр",
+          "ex": "Gri bir ceket giyiyor.",
+          "exFr": "Ол сұр пиджак киіп жүр."
+        },
+        {
+          "tr": "altın",
+          "fr": "алтын (түс)",
+          "ex": "Altın rengi bir saat.",
+          "exFr": "Алтын түсті сағат."
+        },
+        {
+          "tr": "açık",
+          "fr": "ашық",
+          "ex": "Açık mavi bir gömlek.",
+          "exFr": "Ашық көк жейде."
+        },
+        {
+          "tr": "koyu",
+          "fr": "қою",
+          "ex": "Koyu yeşil bir oda.",
+          "exFr": "Қою жасыл бөлме."
+        }
+      ]
+    },
+    {
+      "id": "temps",
+      "name": "Уақыт ағымы",
+      "words": [
+        {
+          "tr": "bugün",
+          "fr": "бүгін",
+          "ex": "Bugün hava çok güzel.",
+          "exFr": "Бүгін ауа райы өте жақсы."
+        },
+        {
+          "tr": "yarın",
+          "fr": "ертең",
+          "ex": "Yarın okula gideceğim.",
+          "exFr": "Ертең мектепке барамын."
+        },
+        {
+          "tr": "dün",
+          "fr": "кеше",
+          "ex": "Dün sinemaya gittim.",
+          "exFr": "Кеше мен киноға бардым."
+        },
+        {
+          "tr": "şimdi",
+          "fr": "қазір",
+          "ex": "Şimdi ders çalışıyorum.",
+          "exFr": "Қазір сабағымды қайталап жатырмын."
+        },
+        {
+          "tr": "sabah",
+          "fr": "таңертең",
+          "ex": "Her sabah erken kalkarım.",
+          "exFr": "Мен әр таңертең ерте тұрамын."
+        },
+        {
+          "tr": "akşam",
+          "fr": "кеш",
+          "ex": "Bu akşam evde kalacağım.",
+          "exFr": "Бүгін кешке үйде қаламын."
+        },
+        {
+          "tr": "gece",
+          "fr": "түн",
+          "ex": "Gece yürüyüşü yaptık.",
+          "exFr": "Біз түнде серуендедік."
+        },
+        {
+          "tr": "öğle",
+          "fr": "түс",
+          "ex": "Öğle yemeği yedik.",
+          "exFr": "Біз түскі ас іштік."
+        },
+        {
+          "tr": "gün",
+          "fr": "күн",
+          "ex": "İyi günler dilerim.",
+          "exFr": "Сізге жақсы күн тілеймін."
+        },
+        {
+          "tr": "hafta",
+          "fr": "апта",
+          "ex": "Gelecek hafta tatildeyim.",
+          "exFr": "Келесі аптада демалыста боламын."
+        },
+        {
+          "tr": "ay",
+          "fr": "ай",
+          "ex": "Üç ay kaldım.",
+          "exFr": "Мен үш ай қалдым."
+        },
+        {
+          "tr": "yıl",
+          "fr": "жыл",
+          "ex": "Yeni yıl kutlu olsun!",
+          "exFr": "Жаңа жыл құтты болсын!"
+        },
+        {
+          "tr": "saat",
+          "fr": "сағат",
+          "ex": "Saatlerdir seni bekliyorum.",
+          "exFr": "Сені сағаттар бойы күтіп отырмын."
+        },
+        {
+          "tr": "dakika",
+          "fr": "минут",
+          "ex": "Beş dakika kaldı.",
+          "exFr": "Бес минут қалды."
+        },
+        {
+          "tr": "erken",
+          "fr": "ерте",
+          "ex": "Bugün erken uyandım.",
+          "exFr": "Бүгін ерте ояндым."
+        },
+        {
+          "tr": "geç",
+          "fr": "кеш",
+          "ex": "Geç kaldım, özür dilerim.",
+          "exFr": "Мен кешіктім, кешіріңіз."
+        },
+        {
+          "tr": "her zaman",
+          "fr": "әрқашан",
+          "ex": "Her zaman yanındayım.",
+          "exFr": "Мен әрқашан жаныңдамын."
+        },
+        {
+          "tr": "bazen",
+          "fr": "кейде",
+          "ex": "Bazen yalnız kalırım.",
+          "exFr": "Кейде жалғыз қаламын."
+        },
+        {
+          "tr": "hiç",
+          "fr": "ешқашан (болымсыздық)",
+          "ex": "Hiç sigara içmedim.",
+          "exFr": "Мен ешқашан темекі тартпағанмын."
+        },
+        {
+          "tr": "artık",
+          "fr": "енді, бұдан былай",
+          "ex": "Artık burada yaşamıyorum.",
+          "exFr": "Мен енді мұнда тұрмаймын."
+        }
+      ]
+    },
+    {
+      "id": "semaine",
+      "name": "Апта күндері",
+      "words": [
+        {
+          "tr": "pazartesi",
+          "fr": "дүйсенбі",
+          "ex": "Pazartesi toplantım var.",
+          "exFr": "Дүйсенбіде жиналым бар."
+        },
+        {
+          "tr": "salı",
+          "fr": "сейсенбі",
+          "ex": "Salı günü spor yapıyorum.",
+          "exFr": "Сейсенбіде мен спортпен шұғылданамын."
+        },
+        {
+          "tr": "çarşamba",
+          "fr": "сәрсенбі",
+          "ex": "Çarşamba akşamı buluşalım.",
+          "exFr": "Сәрсенбі кешке кездесейік."
+        },
+        {
+          "tr": "perşembe",
+          "fr": "бейсенбі",
+          "ex": "Perşembe günü sınavım var.",
+          "exFr": "Бейсенбіде емтиханым бар."
+        },
+        {
+          "tr": "cuma",
+          "fr": "жұма",
+          "ex": "Cuma akşamı sinemaya gidelim.",
+          "exFr": "Жұма кешке киноға барайық."
+        },
+        {
+          "tr": "cumartesi",
+          "fr": "сенбі",
+          "ex": "Cumartesi sabahı piyano çalıyorum.",
+          "exFr": "Сенбі таңертең фортепиано ойнаймын."
+        },
+        {
+          "tr": "pazar",
+          "fr": "жексенбі",
+          "ex": "Pazar günü dinlenirim.",
+          "exFr": "Жексенбіде дем аламын."
+        },
+        {
+          "tr": "hafta içi",
+          "fr": "жұмыс күндері",
+          "ex": "Hafta içi çok meşgulüm.",
+          "exFr": "Жұмыс күндері мен өте бос емеспін."
+        },
+        {
+          "tr": "hafta sonu",
+          "fr": "демалыс күндері",
+          "ex": "Hafta sonu nereye gideceğiz?",
+          "exFr": "Демалыс күндері қайда барамыз?"
+        }
+      ]
+    },
+    {
+      "id": "mois",
+      "name": "Жыл айлары",
+      "words": [
+        {
+          "tr": "Ocak",
+          "fr": "қаңтар",
+          "ex": "Ocak ayında kar yağdı.",
+          "exFr": "Қаңтарда қар жауды."
+        },
+        {
+          "tr": "Şubat",
+          "fr": "ақпан",
+          "ex": "Şubat kısa bir aydır.",
+          "exFr": "Ақпан қысқа ай."
+        },
+        {
+          "tr": "Mart",
+          "fr": "наурыз",
+          "ex": "Martta bahar başlar.",
+          "exFr": "Наурызда көктем басталады."
+        },
+        {
+          "tr": "Nisan",
+          "fr": "сәуір",
+          "ex": "Nisanda kiraz çiçekleri açar.",
+          "exFr": "Сәуірде шие ағаштары гүлдейді."
+        },
+        {
+          "tr": "Mayıs",
+          "fr": "мамыр",
+          "ex": "Mayıs en güzel ay.",
+          "exFr": "Мамыр — ең әдемі ай."
+        },
+        {
+          "tr": "Haziran",
+          "fr": "маусым",
+          "ex": "Haziranda okul biter.",
+          "exFr": "Маусымда оқу жылы аяқталады."
+        },
+        {
+          "tr": "Temmuz",
+          "fr": "шілде",
+          "ex": "Temmuz çok sıcak olur.",
+          "exFr": "Шілде өте ыстық."
+        },
+        {
+          "tr": "Ağustos",
+          "fr": "тамыз",
+          "ex": "Ağustosta tatile çıkıyoruz.",
+          "exFr": "Тамызда біз демалысқа шығамыз."
+        },
+        {
+          "tr": "Eylül",
+          "fr": "қыркүйек",
+          "ex": "Eylülde okullar açılır.",
+          "exFr": "Қыркүйекте мектептер ашылады."
+        },
+        {
+          "tr": "Ekim",
+          "fr": "қазан",
+          "ex": "Ekimde yapraklar düşer.",
+          "exFr": "Қазанда жапырақтар түседі."
+        },
+        {
+          "tr": "Kasım",
+          "fr": "қараша",
+          "ex": "Kasımda yağmur çok yağar.",
+          "exFr": "Қарашада жаңбыр көп жауады."
+        },
+        {
+          "tr": "Aralık",
+          "fr": "желтоқсан",
+          "ex": "Aralıkta yıl sonu yaklaşır.",
+          "exFr": "Желтоқсанда жыл соңы жақындайды."
+        }
+      ]
+    },
+    {
+      "id": "heure",
+      "name": "Уақытты айту",
+      "words": [
+        {
+          "tr": "saat kaç?",
+          "fr": "сағат неше?",
+          "ex": "Affedersiniz, saat kaç?",
+          "exFr": "Кешіріңіз, сағат неше?"
+        },
+        {
+          "tr": "saat üç",
+          "fr": "сағат үш",
+          "ex": "Saat şu an tam üç.",
+          "exFr": "Дәл сағат үш."
+        },
+        {
+          "tr": "buçuk",
+          "fr": "жарты",
+          "ex": "Saat yedi buçuk.",
+          "exFr": "Сағат жеті жарым."
+        },
+        {
+          "tr": "çeyrek",
+          "fr": "ширек",
+          "ex": "Saat on bir çeyrek geçiyor.",
+          "exFr": "Сағат он бірден ширек өтті."
+        },
+        {
+          "tr": "geçiyor",
+          "fr": "өтті (сағат туралы)",
+          "ex": "Saat beşi on geçiyor.",
+          "exFr": "Сағат бестен он минут өтті."
+        },
+        {
+          "tr": "var",
+          "fr": "қалды (сағатқа дейін)",
+          "ex": "Saat ikiye çeyrek var.",
+          "exFr": "Сағат екіге ширек қалды."
+        },
+        {
+          "tr": "gece yarısı",
+          "fr": "түн ортасы",
+          "ex": "Gece yarısı döndüm.",
+          "exFr": "Мен түн ортасында үйге келдім."
+        },
+        {
+          "tr": "sabahın körü",
+          "fr": "таң сәрі",
+          "ex": "Sabahın körü kalktık.",
+          "exFr": "Біз таң сәріде тұрдық."
+        },
+        {
+          "tr": "ne zaman?",
+          "fr": "сағат нешеде / қашан",
+          "ex": "Tren ne zaman kalkıyor?",
+          "exFr": "Пойыз сағат нешеде кетеді?"
+        },
+        {
+          "tr": "geç kalmak",
+          "fr": "кешігу",
+          "ex": "Toplantıya geç kaldım.",
+          "exFr": "Мен жиналысқа кешігіп келдім."
+        }
+      ]
+    },
+    {
+      "id": "meteo",
+      "name": "Ауа райы және табиғат",
+      "words": [
+        {
+          "tr": "hava",
+          "fr": "ауа райы, ауа",
+          "ex": "Hava bugün çok güzel.",
+          "exFr": "Бүгін ауа райы өте жақсы."
+        },
+        {
+          "tr": "güneş",
+          "fr": "күн",
+          "ex": "Güneş yüzünü gösterdi.",
+          "exFr": "Күн жүзін көрсетті."
+        },
+        {
+          "tr": "yağmur",
+          "fr": "жаңбыр",
+          "ex": "Yağmur yağıyor.",
+          "exFr": "Жаңбыр жауып тұр."
+        },
+        {
+          "tr": "kar",
+          "fr": "қар",
+          "ex": "Kar yağmaya başladı.",
+          "exFr": "Қар жауа бастады."
+        },
+        {
+          "tr": "bulut",
+          "fr": "бұлт",
+          "ex": "Gökyüzü bulutlu.",
+          "exFr": "Аспан бұлтты."
+        },
+        {
+          "tr": "rüzgar",
+          "fr": "жел",
+          "ex": "Rüzgar çok kuvvetli.",
+          "exFr": "Жел өте күшті."
+        },
+        {
+          "tr": "fırtına",
+          "fr": "дауыл",
+          "ex": "Fırtına geldiği için evde kaldık.",
+          "exFr": "Дауыл болғандықтан, үйде қалдық."
+        },
+        {
+          "tr": "sıcak",
+          "fr": "ыстық",
+          "ex": "Bugün çok sıcak.",
+          "exFr": "Бүгін өте ыстық."
+        },
+        {
+          "tr": "soğuk",
+          "fr": "суық",
+          "ex": "Kışın hava soğuk olur.",
+          "exFr": "Қыста ауа суық болады."
+        },
+        {
+          "tr": "ılık",
+          "fr": "жылы, жұмсақ",
+          "ex": "İlkbaharda hava ılıktır.",
+          "exFr": "Көктемде ауа райы жылы."
+        },
+        {
+          "tr": "gökyüzü",
+          "fr": "аспан",
+          "ex": "Gökyüzünde yıldızlar var.",
+          "exFr": "Аспанда жұлдыздар бар."
+        },
+        {
+          "tr": "deniz",
+          "fr": "теңіз",
+          "ex": "Deniz çok sakin.",
+          "exFr": "Теңіз өте тыныш."
+        },
+        {
+          "tr": "dağ",
+          "fr": "тау",
+          "ex": "Dağa tırmandık.",
+          "exFr": "Біз тауға шықтық."
+        },
+        {
+          "tr": "orman",
+          "fr": "орман",
+          "ex": "Ormanda yürüyüş yaptık.",
+          "exFr": "Біз орманда серуендедік."
+        },
+        {
+          "tr": "nehir",
+          "fr": "өзен",
+          "ex": "Nehir hızlı akıyor.",
+          "exFr": "Өзен жылдам ағады."
+        },
+        {
+          "tr": "göl",
+          "fr": "көл",
+          "ex": "Gölde kuşlar yüzüyor.",
+          "exFr": "Көлде құстар жүзіп жүр."
+        },
+        {
+          "tr": "ağaç",
+          "fr": "ағаш",
+          "ex": "Ağacın altında oturduk.",
+          "exFr": "Біз ағаштың астында отырдық."
+        },
+        {
+          "tr": "çiçek",
+          "fr": "гүл",
+          "ex": "Sana çiçek aldım.",
+          "exFr": "Мен саған гүл сатып алдым."
+        },
+        {
+          "tr": "yıldız",
+          "fr": "жұлдыз",
+          "ex": "Yıldızları saydım.",
+          "exFr": "Мен жұлдыздарды санадым."
+        },
+        {
+          "tr": "ay",
+          "fr": "ай",
+          "ex": "Ay bu akşam çok parlak.",
+          "exFr": "Бұл кеште ай өте жарық."
+        }
+      ]
+    }
+  ]
+}

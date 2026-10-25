@@ -1,0 +1,1427 @@
+{
+  "domain": "videos",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 18,
+  "end": 27,
+  "items": [
+    {
+      "id": "vb1-1",
+      "level": "B1",
+      "num": 1,
+      "title": "La nécessité : -malı / -meli",
+      "tr": "Gereklilik kipi",
+      "goal": "Dire ce qu'il faut faire, donner un conseil appuyé et reprocher un manquement passé.",
+      "watch": "gereklilik kipi -malı -meli",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "<b>-malı / -meli</b> exprime la nécessité, l'obligation morale ou un conseil fort. On ajoute le suffixe au radical, puis la marque de personne : <tur>git-meli-yim</tur> (je dois aller), <tur>gel-meli-sin</tur> (tu dois venir), <tur>oku-malı-yız</tur> (nous devons lire)."
+        },
+        {
+          "t": "table",
+          "caption": "La nécessité avec gitmek et gelmek",
+          "head": [
+            "Personne",
+            "gitmek (aller)",
+            "gelmek (venir)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gitmeliyim</tur>",
+              "<tur>gelmeliyim</tur>"
+            ],
+            [
+              "sen",
+              "<tur>gitmelisin</tur>",
+              "<tur>gelmelisin</tur>"
+            ],
+            [
+              "o",
+              "<tur>gitmeli</tur>",
+              "<tur>gelmeli</tur>"
+            ],
+            [
+              "biz",
+              "<tur>gitmeliyiz</tur>",
+              "<tur>gelmeliyiz</tur>"
+            ],
+            [
+              "siz",
+              "<tur>gitmelisiniz</tur>",
+              "<tur>gelmelisiniz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>gitmeliler</tur>",
+              "<tur>gelmeliler</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Négation et passé",
+          "text": "La négation se forme avec <b>-ma / -me</b> : <tur>gitmemeliyim</tur> (je ne dois pas aller), <tur>gelmemelisin</tur> (tu ne dois pas venir). Au passé : <tur>gitmeliydim</tur> (j'aurais dû aller), <tur>gelmeliydi</tur> (il aurait dû venir). Le suffixe -ydi ajoute un reproche ou un regret."
+        },
+        {
+          "t": "p",
+          "text": "<b>-malı</b> est souvent une obligation intérieure ou un conseil : <tur>Daha dikkatli olmalısın.</tur> (Tu devrais être plus prudent.) Pour une obligation imposée de l'extérieur, on préfère <tur>-mak zorunda</tur> : <tur>Her gün işe gitmek zorundayım.</tur> (Je suis obligé d'aller travailler tous les jours.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Yarın erken kalkmalıyım.",
+              "fr": "Je dois me lever tôt demain."
+            },
+            {
+              "tr": "Bu kitabı okumalısın.",
+              "fr": "Tu devrais lire ce livre."
+            },
+            {
+              "tr": "Burada sigara içmemelisiniz.",
+              "fr": "Vous ne devez pas fumer ici."
+            },
+            {
+              "tr": "Daha dikkatli olmalıydı.",
+              "fr": "Il aurait dû être plus prudent."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "malı mı?",
+          "text": "Pour demander un avis : <tur>Gitmeli miyim?</tur> (Dois-je y aller ?), <tur>Ona söylemeli miyim?</tur> (Dois-je le lui dire ?). La particule <tur>mi</tur> se place après le verbe conjugué."
+        }
+      ],
+      "vocab": [
+        [
+          "gerekmek",
+          "falloir, être nécessaire"
+        ],
+        [
+          "dikkatli",
+          "prudent, attentif"
+        ],
+        [
+          "erken",
+          "tôt"
+        ],
+        [
+          "geç",
+          "tard"
+        ],
+        [
+          "söylemek",
+          "dire"
+        ],
+        [
+          "sigara içmek",
+          "fumer"
+        ],
+        [
+          "hazırlanmak",
+          "se préparer"
+        ],
+        [
+          "karar vermek",
+          "décider"
+        ],
+        [
+          "önemli",
+          "important"
+        ],
+        [
+          "zorunlu",
+          "obligatoire"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « Je dois partir » avec gitmek ?",
+          "options": [
+            "Gitmeliyim",
+            "Gitmelisin",
+            "Gitmeliyiz"
+          ],
+          "a": 0,
+          "why": "La 1re personne de -malı est -yim : git + meli + yim = gitmeliyim."
+        },
+        {
+          "q": "Que signifie « Gitmemelisin » ?",
+          "options": [
+            "Tu ne dois pas y aller",
+            "Tu n'es pas allé",
+            "Tu devrais y aller"
+          ],
+          "a": 0,
+          "why": "La négation -me s'insère avant -meli : git-me-meli-sin = tu ne dois pas y aller."
+        }
+      ]
+    },
+    {
+      "id": "vb1-2",
+      "level": "B1",
+      "num": 2,
+      "title": "L'obligation : -mak zorunda",
+      "tr": "-mak / -mek zorunda",
+      "goal": "Exprimer une contrainte extérieure, dire « je suis obligé de » et distinguer obligation et interdiction.",
+      "watch": "-mak zorunda",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "La structure <b>-mak / -mek zorunda</b> signifie « être obligé de ». Le verbe reste à l'infinitif et la personne se marque sur <tur>zorunda</tur> : <tur>gitmek zorundayım</tur> (je suis obligé d'aller), <tur>gelmek zorundasın</tur> (tu es obligé de venir)."
+        },
+        {
+          "t": "table",
+          "caption": "L'obligation avec gitmek",
+          "head": [
+            "Personne",
+            "Forme",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gitmek zorundayım</tur>",
+              "je suis obligé d'aller"
+            ],
+            [
+              "sen",
+              "<tur>gitmek zorundasın</tur>",
+              "tu es obligé d'aller"
+            ],
+            [
+              "o",
+              "<tur>gitmek zorunda</tur>",
+              "il / elle est obligé(e) d'aller"
+            ],
+            [
+              "biz",
+              "<tur>gitmek zorundayız</tur>",
+              "nous sommes obligés d'aller"
+            ],
+            [
+              "siz",
+              "<tur>gitmek zorundasınız</tur>",
+              "vous êtes obligés d'aller"
+            ],
+            [
+              "onlar",
+              "<tur>gitmek zorundalar</tur>",
+              "ils / elles sont obligés d'aller"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Négation : « je n'ai pas besoin »",
+          "text": "<tur>Gitmek zorunda değilim.</tur> signifie « je ne suis pas obligé d'y aller », pas « je ne dois pas y aller ». Pour une interdiction, on utilise <tur>gitmemeliyim</tur> (je ne dois pas y aller) ou <tur>gitmek yasak</tur> (il est interdit d'y aller)."
+        },
+        {
+          "t": "p",
+          "text": "On peut conjuguer <tur>zorunda</tur> au passé ou au futur : <tur>Dün çalışmak zorundaydım.</tur> (Hier, j'étais obligé de travailler.) <tur>Yarın erken kalkmak zorunda olacağım.</tur> (Demain, je serai obligé de me lever tôt.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Her gün işe gitmek zorundayım.",
+              "fr": "Je suis obligé d'aller au travail tous les jours."
+            },
+            {
+              "tr": "Yarın sınav var, erken kalkmak zorundayım.",
+              "fr": "Il y a un examen demain, je dois me lever tôt."
+            },
+            {
+              "tr": "Bugün çalışmak zorunda değilim.",
+              "fr": "Aujourd'hui, je ne suis pas obligé de travailler."
+            },
+            {
+              "tr": "O, bunu yapmak zorunda kaldı.",
+              "fr": "Il a été obligé de faire cela."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "-malı ou zorunda ?",
+          "text": "<b>-malı</b> = obligation personnelle, conseil, devoir moral. <b>zorunda</b> = contrainte extérieure : règlement, horaire, situation. <tur>Sigara içmemelisin.</tur> (Tu ne devrais pas fumer.) <tur>Burada sigara içmek yasak.</tur> (Il est interdit de fumer ici.)"
+        }
+      ],
+      "vocab": [
+        [
+          "zorunda",
+          "obligé"
+        ],
+        [
+          "yasak",
+          "interdit"
+        ],
+        [
+          "kural",
+          "règle"
+        ],
+        [
+          "izin",
+          "permission"
+        ],
+        [
+          "iş",
+          "travail"
+        ],
+        [
+          "sınav",
+          "examen"
+        ],
+        [
+          "erken kalkmak",
+          "se lever tôt"
+        ],
+        [
+          "çalışmak",
+          "travailler"
+        ],
+        [
+          "kalmak",
+          "rester"
+        ],
+        [
+          "gerekmek",
+          "falloir"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « Je suis obligé de travailler » ?",
+          "options": [
+            "Çalışmak zorundayım",
+            "Çalışmalıyım",
+            "Çalışmak yasak"
+          ],
+          "a": 0,
+          "why": "La contrainte extérieure se dit avec -mak zorunda : çalışmak zorundayım."
+        },
+        {
+          "q": "Que signifie « Gitmek zorunda değilim » ?",
+          "options": [
+            "Je ne dois pas y aller",
+            "Je ne suis pas obligé d'y aller",
+            "Il est interdit d'y aller"
+          ],
+          "a": 1,
+          "why": "zorunda değil exprime l'absence d'obligation, pas une interdiction."
+        }
+      ]
+    },
+    {
+      "id": "vb1-3",
+      "level": "B1",
+      "num": 3,
+      "title": "Le passé antérieur : -mıştı",
+      "tr": "-mıştı / -mişti",
+      "goal": "Raconter une action accomplie avant une autre action passée.",
+      "watch": "-mıştı -mişti",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "<b>-mıştı / -mişti / -muştu / -müştü</b> exprime un passé accompli avant un autre moment du passé : « j'avais déjà fait ». On ajoute <b>-mış</b> au radical, puis <b>-tı / -ti</b>, puis la marque de personne : <tur>gel-miş-ti-m</tur> (j'étais venu)."
+        },
+        {
+          "t": "table",
+          "caption": "Le passé antérieur de gelmek et okumak",
+          "head": [
+            "Personne",
+            "gelmek (venir)",
+            "okumak (lire)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gelmiştim</tur>",
+              "<tur>okumuştum</tur>"
+            ],
+            [
+              "sen",
+              "<tur>gelmiştin</tur>",
+              "<tur>okumuştun</tur>"
+            ],
+            [
+              "o",
+              "<tur>gelmişti</tur>",
+              "<tur>okumuştu</tur>"
+            ],
+            [
+              "biz",
+              "<tur>gelmiştik</tur>",
+              "<tur>okumuştuk</tur>"
+            ],
+            [
+              "siz",
+              "<tur>gelmiştiniz</tur>",
+              "<tur>okumuştunuz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>gelmişlerdi</tur>",
+              "<tur>okumuşlardı</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "On l'utilise avec des repères comme <tur>daha önce</tur> (auparavant), <tur>önceden</tur> (avant), <tur>çoktan</tur> (déjà, depuis longtemps) ou une proposition temporelle : <tur>Dün geldiğinde biz çoktan yemek yemiştik.</tur> (Quand il est arrivé hier, nous avions déjà mangé.)"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Ne pas confondre",
+          "text": "<tur>Geldim</tur> = je suis venu (passé simple). <tur>Gelmiştim</tur> = j'étais venu (passé antérieur). Le second situe l'action avant une autre action passée. <tur>Gelmişim</tur> = il paraît que je suis venu / j'ai apparemment fait l'action (évidentiel, autre emploi de -miş)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Oraya gitmeden önce kitabı okumuştum.",
+              "fr": "J'avais lu le livre avant d'y aller."
+            },
+            {
+              "tr": "Dün geldiğinde biz çoktan yemek yemiştik.",
+              "fr": "Quand tu es arrivé hier, nous avions déjà mangé."
+            },
+            {
+              "tr": "Daha önce hiç Türkçe konuşmamıştım.",
+              "fr": "Je n'avais jamais parlé turc auparavant."
+            },
+            {
+              "tr": "Sınava hazırlanmıştı ama heyecanlandı.",
+              "fr": "Il s'était préparé à l'examen, mais il a stressé."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Un temps du récit",
+          "text": "Le passé antérieur est très fréquent dans les récits et les explications : il donne le décor avant l'événement principal. Tu le retrouveras souvent avec <tur>çoktan</tur>, <tur>zaten</tur> (déjà) et <tur>henüz</tur> (pas encore)."
+        }
+      ],
+      "vocab": [
+        [
+          "çoktan",
+          "depuis longtemps, déjà"
+        ],
+        [
+          "daha önce",
+          "auparavant"
+        ],
+        [
+          "önceden",
+          "avant"
+        ],
+        [
+          "hazırlanmak",
+          "se préparer"
+        ],
+        [
+          "heyecanlanmak",
+          "s'énerver, être excité"
+        ],
+        [
+          "yemek yemek",
+          "manger"
+        ],
+        [
+          "okumak",
+          "lire"
+        ],
+        [
+          "bitirmek",
+          "finir"
+        ],
+        [
+          "zaten",
+          "déjà"
+        ],
+        [
+          "henüz",
+          "pas encore"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Que signifie « Okumuştum » ?",
+          "options": [
+            "J'ai lu",
+            "J'avais lu",
+            "Je lirai"
+          ],
+          "a": 1,
+          "why": "-mıştı exprime un passé accompli avant un autre moment passé : j'avais lu."
+        },
+        {
+          "q": "Quelle forme signifie « ils étaient déjà partis » ?",
+          "options": [
+            "Gitmişlerdi",
+            "Gittiler",
+            "Gidiyorlar"
+          ],
+          "a": 0,
+          "why": "La 3e personne du pluriel de -mıştı est -mışlardı : gitmişlerdi."
+        }
+      ]
+    },
+    {
+      "id": "vb1-4",
+      "level": "B1",
+      "num": 4,
+      "title": "Le futur dans le passé : -(y)acaktı",
+      "tr": "Gelecek zamanın hikâyesi",
+      "goal": "Dire « j'allais partir », « il devait venir » : un projet passé qui ne s'est pas réalisé.",
+      "watch": "-acaktı -ecekti",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "<b>-acaktı / -ecekti</b> exprime un futur vu depuis le passé : « j'allais faire », « j'étais sur le point de faire », souvent avec l'idée que le projet ne s'est pas réalisé. On ajoute <b>-acak / -ecek</b>, puis l'imparfait <b>-tı / -ti</b> et la personne."
+        },
+        {
+          "t": "table",
+          "caption": "Le futur dans le passé",
+          "head": [
+            "Personne",
+            "gelmek (venir)",
+            "gitmek (aller)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gelecektim</tur>",
+              "<tur>gidecektim</tur>"
+            ],
+            [
+              "sen",
+              "<tur>gelecektin</tur>",
+              "<tur>gidecektin</tur>"
+            ],
+            [
+              "o",
+              "<tur>gelecekti</tur>",
+              "<tur>gidecekti</tur>"
+            ],
+            [
+              "biz",
+              "<tur>gelecektik</tur>",
+              "<tur>gidecektik</tur>"
+            ],
+            [
+              "siz",
+              "<tur>gelecektiniz</tur>",
+              "<tur>gidecektiniz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>geleceklerdi</tur>",
+              "<tur>gideceklerdi</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Cette forme est très utile pour expliquer un changement de plan : <tur>Dün size gelecektim ama işim çıktı.</tur> (Je devais venir chez vous hier, mais j'ai eu un imprévu.) <tur>Sınavdan sonra tatile gidecektik, ama iptal oldu.</tur> (Nous devions partir en vacances après l'examen, mais c'est annulé.)"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Projet non réalisé",
+          "text": "<tur>Gelecektim</tur> peut simplement signifier « j'allais venir » sans insister sur l'échec. Mais avec <tur>ama</tur>, <tur>fakat</tur> ou <tur>ancak</tur>, on comprend que le projet a été interrompu. <tur>Gelecektim ama gelemedim.</tur> = Je devais venir, mais je n'ai pas pu."
+        },
+        {
+          "t": "p",
+          "text": "La question <tur>Ne yapacaktın?</tur> signifie « Qu'allais-tu faire ? ». <tur>Ne zaman gelecektin?</tur> = « Quand devais-tu venir ? ». La négation : <tur>gelmeyecektim</tur> (je n'allais pas venir), <tur>gitmeyecektik</tur> (nous n'allions pas y aller)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Dün size gelecektim ama işim çıktı.",
+              "fr": "Je devais venir chez vous hier, mais j'ai eu un imprévu."
+            },
+            {
+              "tr": "Sınavdan sonra tatile gidecektik, ama iptal oldu.",
+              "fr": "Nous devions partir en vacances après l'examen, mais c'est annulé."
+            },
+            {
+              "tr": "O da gelecekti, ama hastalandı.",
+              "fr": "Lui aussi devait venir, mais il est tombé malade."
+            },
+            {
+              "tr": "Ne yapacaktın?",
+              "fr": "Qu'allais-tu faire ?"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Futur simple ou futur du passé ?",
+          "text": "<tur>Yarın geleceğim.</tur> = Je viendrai demain (futur simple). <tur>Dün gelecektim.</tur> = Je devais venir hier (futur dans le passé). Le repère temporel et le contexte font toute la différence."
+        }
+      ],
+      "vocab": [
+        [
+          "gelecek",
+          "avenir, futur"
+        ],
+        [
+          "plan",
+          "projet"
+        ],
+        [
+          "iptal",
+          "annulation"
+        ],
+        [
+          "hastalanmak",
+          "tomber malade"
+        ],
+        [
+          "iş",
+          "travail, imprévu"
+        ],
+        [
+          "tatil",
+          "vacances"
+        ],
+        [
+          "değişmek",
+          "changer"
+        ],
+        [
+          "vazgeçmek",
+          "renoncer"
+        ],
+        [
+          "niyet",
+          "intention"
+        ],
+        [
+          "sonra",
+          "après"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Que signifie « Dün gelecektim » ?",
+          "options": [
+            "Je viendrai demain",
+            "Je devais venir hier",
+            "Je suis venu hier"
+          ],
+          "a": 1,
+          "why": "-acaktı place un futur vu depuis le passé : je devais / j'allais venir hier."
+        },
+        {
+          "q": "Quelle est la forme négative de « j'allais venir » ?",
+          "options": [
+            "gelmeyecektim",
+            "gelmiyorum",
+            "gelmeyeceğim"
+          ],
+          "a": 0,
+          "why": "La négation du futur dans le passé est -meyecektim : gelmeyecektim."
+        }
+      ]
+    },
+    {
+      "id": "vb1-5",
+      "level": "B1",
+      "num": 5,
+      "title": "Les conjonctions avancées",
+      "tr": "İleri düzey bağlaçlar",
+      "goal": "Nuancer un argument avec « cependant », « alors que », « sinon », « de plus ».",
+      "watch": "bağlaçlar ileri düzey",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Les connecteurs de niveau B1",
+          "head": [
+            "Turc",
+            "Français",
+            "Nuance"
+          ],
+          "rows": [
+            [
+              "<tur>halbuki</tur>",
+              "alors que, pourtant",
+              "contraste avec une attente"
+            ],
+            [
+              "<tur>oysa</tur>",
+              "alors que",
+              "opposition entre deux constats"
+            ],
+            [
+              "<tur>meğer</tur>",
+              "il s'avère que",
+              "découverte après coup"
+            ],
+            [
+              "<tur>dolayısıyla</tur>",
+              "par conséquent",
+              "conséquence logique"
+            ],
+            [
+              "<tur>buna rağmen</tur>",
+              "malgré cela",
+              "concession"
+            ],
+            [
+              "<tur>aksi halde</tur>",
+              "sinon, dans le cas contraire",
+              "conséquence négative"
+            ],
+            [
+              "<tur>yoksa</tur>",
+              "sinon, ou bien",
+              "alternative, menace"
+            ],
+            [
+              "<tur>üstelik</tur>",
+              "de plus, en outre",
+              "ajout qui renforce"
+            ],
+            [
+              "<tur>hatta</tur>",
+              "même",
+              "gradation"
+            ],
+            [
+              "<tur>hem de</tur>",
+              "et en plus",
+              "insistance"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<tur>Halbuki</tur> et <tur>oysa</tur> introduisent un contraste : <tur>Çok çalıştı, halbuki hiç hazır değildi.</tur> (Il a beaucoup travaillé, alors qu'il n'était pas prêt.) <tur>Meğer</tur> marque une révélation : <tur>Meğer anahtarı masada bırakmışım.</tur> (Il s'avère que j'avais laissé la clé sur la table.)"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "yoksa et aksi halde",
+          "text": "<tur>Yoksa</tur> et <tur>aksi halde</tur> introduisent une alternative ou une conséquence fâcheuse : <tur>Erken çık, yoksa otobüsü kaçıracaksın.</tur> (Pars tôt, sinon tu vas rater le bus.) <tur>Aksi halde</tur> est plus formel : <tur>Ödevini yap, aksi halde notun düşer.</tur>"
+        },
+        {
+          "t": "p",
+          "text": "<tur>Üstelik</tur>, <tur>hatta</tur> et <tur>hem de</tur> ajoutent une information qui renforce le propos : <tur>Üstelik çok da pahalı.</tur> (En plus, c'est très cher.) <tur>Hatta onu ben de gördüm.</tur> (Même moi, je l'ai vu.) <tur>Hem de ne kadar güzel!</tur> (Et en plus, qu'est-ce que c'est beau !)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Çok çalıştı, buna rağmen başaramadı.",
+              "fr": "Il a beaucoup travaillé, malgré cela il n'a pas réussi."
+            },
+            {
+              "tr": "Erken çık, yoksa otobüsü kaçıracaksın.",
+              "fr": "Pars tôt, sinon tu vas rater le bus."
+            },
+            {
+              "tr": "Oysa ben onu çok iyi tanıyordum.",
+              "fr": "Alors que je le connaissais très bien."
+            },
+            {
+              "tr": "Meğer anahtarı masada bırakmışım.",
+              "fr": "Il s'avère que j'avais laissé la clé sur la table."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Registre",
+          "text": "<tur>Ama</tur> est le « mais » de tous les jours. <tur>Ancak</tur>, <tur>fakat</tur> et <tur>lakin</tur> sont plus formels. <tur>Halbuki</tur> et <tur>oysa</tur> conviennent bien à l'écrit argumenté ; à l'oral, on entend aussi <tur>ama</tur> et <tur>yoksa</tur>."
+        }
+      ],
+      "vocab": [
+        [
+          "halbuki",
+          "alors que, pourtant"
+        ],
+        [
+          "oysa",
+          "alors que"
+        ],
+        [
+          "meğer",
+          "il s'avère que"
+        ],
+        [
+          "dolayısıyla",
+          "par conséquent"
+        ],
+        [
+          "buna rağmen",
+          "malgré cela"
+        ],
+        [
+          "aksi halde",
+          "sinon"
+        ],
+        [
+          "yoksa",
+          "sinon"
+        ],
+        [
+          "üstelik",
+          "de plus"
+        ],
+        [
+          "hatta",
+          "même"
+        ],
+        [
+          "başarmak",
+          "réussir"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Quel connecteur signifie « sinon » ?",
+          "options": [
+            "üstelik",
+            "yoksa",
+            "oysa"
+          ],
+          "a": 1,
+          "why": "yoksa introduit une alternative ou une conséquence fâcheuse : sinon."
+        },
+        {
+          "q": "Que marque « meğer » ?",
+          "options": [
+            "Une cause",
+            "Une révélation après coup",
+            "Une comparaison"
+          ],
+          "a": 1,
+          "why": "meğer révèle une information découverte après les faits : il s'avère que."
+        }
+      ]
+    },
+    {
+      "id": "vb1-6",
+      "level": "B1",
+      "num": 6,
+      "title": "Les participes avancés",
+      "tr": "Sıfat-fiiller ileri düzey",
+      "goal": "Construire des groupes nominaux riches avec -an, -dık, -acak et -mış.",
+      "watch": "sıfat fiiller ileri",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Les participes permettent de transformer une proposition en adjectif. <b>-an / -en</b> désigne celui qui fait : <tur>çalışan insan</tur> (la personne qui travaille). <b>-dık / -dik</b> désigne ce qui a été fait ou l'objet de l'action : <tur>çalıştığım şirket</tur> (l'entreprise où je travaille). <b>-acak / -ecek</b> projette dans le futur : <tur>gideceğim yer</tur> (l'endroit où j'irai)."
+        },
+        {
+          "t": "table",
+          "caption": "Quatre participes de okumak (lire)",
+          "head": [
+            "Forme",
+            "Sens",
+            "Exemple"
+          ],
+          "rows": [
+            [
+              "<tur>okuyan</tur>",
+              "qui lit",
+              "<tur>okuyan öğrenci</tur>"
+            ],
+            [
+              "<tur>okuduğum</tur>",
+              "que j'ai lu / où je lis",
+              "<tur>okuduğum kitap</tur>"
+            ],
+            [
+              "<tur>okuyacağım</tur>",
+              "que je lirai",
+              "<tur>okuyacağım kitap</tur>"
+            ],
+            [
+              "<tur>okumuş</tur>",
+              "qui a lu / ayant lu",
+              "<tur>okumuş insan</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le participe <b>-dık</b> prend toujours un suffixe possessif qui indique l'agent : <tur>okuduğum</tur> (que j'ai lu), <tur>okuduğun</tur> (que tu as lu), <tur>okuduğu</tur> (qu'il a lu), <tur>okuduğumuz</tur> (que nous avons lu). Le participe <b>-an</b>, lui, n'en prend pas : <tur>okuyan öğrenci</tur>."
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "-mış participe",
+          "text": "Le participe <b>-mış / -miş</b> décrit un état résultant d'une action : <tur>kırılmış cam</tur> (verre cassé), <tur>pişmiş yemek</tur> (nourriture cuite), <tur>donmuş göl</tur> (lac gelé). Il ne faut pas le confondre avec le passé évidentiel <tur>gelmiş</tur> (« il paraît qu'il est venu »)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Burada çalışan insanlar çok nazik.",
+              "fr": "Les gens qui travaillent ici sont très gentils."
+            },
+            {
+              "tr": "Okuduğum kitabın adını unuttum.",
+              "fr": "J'ai oublié le titre du livre que j'ai lu."
+            },
+            {
+              "tr": "Yarın açılacak sergiye gidiyoruz.",
+              "fr": "Nous allons à l'exposition qui ouvre demain."
+            },
+            {
+              "tr": "Kırılmış camı değiştirdik.",
+              "fr": "Nous avons remplacé le verre cassé."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Un groupe nominal long",
+          "text": "Le turc empile les participes avant le nom : <tur>dün okuduğum yeni Türkçe kitabın adı</tur> (le titre du nouveau livre de turc que j'ai lu hier). Chaque participe reste à sa place, du plus général au plus précis."
+        }
+      ],
+      "vocab": [
+        [
+          "okuyan",
+          "qui lit"
+        ],
+        [
+          "okuduğum",
+          "que j'ai lu"
+        ],
+        [
+          "okuyacağım",
+          "que je lirai"
+        ],
+        [
+          "kırılmış",
+          "cassé"
+        ],
+        [
+          "pişmiş",
+          "cuit"
+        ],
+        [
+          "donmuş",
+          "gelé"
+        ],
+        [
+          "sergi",
+          "exposition"
+        ],
+        [
+          "nazik",
+          "gentil"
+        ],
+        [
+          "başlık",
+          "titre"
+        ],
+        [
+          "değiştirmek",
+          "changer, remplacer"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Que signifie « çalıştığım şirket » ?",
+          "options": [
+            "l'entreprise qui travaille",
+            "l'entreprise où je travaille",
+            "l'entreprise que je dirige"
+          ],
+          "a": 1,
+          "why": "-dığ + suffixe possessif -ım exprime « où je travaille »."
+        },
+        {
+          "q": "Quel participe décrit un état résultant d'une action ?",
+          "options": [
+            "-an",
+            "-acak",
+            "-mış"
+          ],
+          "a": 2,
+          "why": "-mış forme des participes d'état : kırılmış cam (verre cassé)."
+        }
+      ]
+    },
+    {
+      "id": "vb1-7",
+      "level": "B1",
+      "num": 7,
+      "title": "Durée et limite : -dığı sürece, -dıkça",
+      "tr": "-dığı sürece, -dıkça, -madan önce",
+      "goal": "Dire « tant que », « au fur et à mesure que », « avant de » et « après avoir ».",
+      "watch": "-dığı sürece -dıkça",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "<b>-dığı sürece</b> signifie « tant que / aussi longtemps que » : <tur>çalıştığın sürece</tur> (tant que tu travailles), <tur>ben burada olduğum sürece</tur> (tant que je suis ici). Le suffixe possessif de <tur>-dığı</tur> s'accorde avec le sujet de la proposition."
+        },
+        {
+          "t": "p",
+          "text": "<b>-dıkça</b> exprime « au fur et à mesure que » ou « plus… plus… » : <tur>çalıştıkça</tur> (à mesure que tu travailles), <tur>okudukça</tur> (plus tu lis), <tur>öğrendikçe</tur> (à mesure que j'apprends), <tur>geldikçe</tur> (chaque fois que je viens)."
+        },
+        {
+          "t": "table",
+          "caption": "Les formes utiles",
+          "head": [
+            "Structure",
+            "Exemple",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "<tur>-dığı sürece</tur>",
+              "<tur>Sağlığın iyi olduğu sürece çalışabilirsin.</tur>",
+              "Tant que ta santé est bonne, tu peux travailler."
+            ],
+            [
+              "<tur>-dıkça</tur>",
+              "<tur>Türkçe öğrendikçe daha çok seviyorum.</tur>",
+              "Plus j'apprends le turc, plus je l'aime."
+            ],
+            [
+              "<tur>-madan önce</tur>",
+              "<tur>Gitmeden önce haber ver.</tur>",
+              "Préviens-moi avant de partir."
+            ],
+            [
+              "<tur>-dıktan sonra</tur>",
+              "<tur>Yemek yedikten sonra ilaç al.</tur>",
+              "Prends le médicament après avoir mangé."
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "-madan / -madan önce",
+          "text": "<tur>-madan</tur> seul signifie « sans » : <tur>Kahve içmeden çalışamam.</tur> (Je ne peux pas travailler sans boire de café.) Avec <tur>önce</tur>, il prend le sens de « avant de » : <tur>Gitmeden önce haber ver.</tur> (Préviens-moi avant de partir.) À l'inverse, <tur>-dıktan sonra</tur> = « après avoir »."
+        },
+        {
+          "t": "p",
+          "text": "Ces structures sont très fréquentes à l'écrit et dans les consignes. <tur>Ders çalışmadan önce telefonunu kapat.</tur> (Éteins ton téléphone avant d'étudier.) <tur>Spor yaptıkça kendini daha iyi hissediyorsun.</tur> (Plus tu fais du sport, mieux tu te sens.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Sağlığın iyi olduğu sürece çalışabilirsin.",
+              "fr": "Tant que ta santé est bonne, tu peux travailler."
+            },
+            {
+              "tr": "Türkçe öğrendikçe daha çok seviyorum.",
+              "fr": "Plus j'apprends le turc, plus je l'aime."
+            },
+            {
+              "tr": "Gitmeden önce haber ver.",
+              "fr": "Préviens-moi avant de partir."
+            },
+            {
+              "tr": "Yemek yedikten sonra ilaç al.",
+              "fr": "Prends le médicament après avoir mangé."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Sürece",
+          "text": "<tur>Sürece</tur> vient de <tur>sürmek</tur> (durer). On peut aussi employer <tur>olduğu sürece</tur> avec un adjectif : <tur>Hava güzel olduğu sürece yürüyebiliriz.</tur> (Tant que le temps est beau, nous pouvons marcher.)"
+        }
+      ],
+      "vocab": [
+        [
+          "süre",
+          "durée"
+        ],
+        [
+          "sürmek",
+          "durer"
+        ],
+        [
+          "sağlık",
+          "santé"
+        ],
+        [
+          "alışkanlık",
+          "habitude"
+        ],
+        [
+          "öğrenmek",
+          "apprendre"
+        ],
+        [
+          "gelişmek",
+          "progresser"
+        ],
+        [
+          "haber vermek",
+          "prévenir"
+        ],
+        [
+          "ilaç",
+          "médicament"
+        ],
+        [
+          "spor yapmak",
+          "faire du sport"
+        ],
+        [
+          "hissetmek",
+          "ressentir"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Que signifie « çalıştıkça » ?",
+          "options": [
+            "avant de travailler",
+            "au fur et à mesure que l'on travaille",
+            "sans travailler"
+          ],
+          "a": 1,
+          "why": "-dıkça exprime la progression : à mesure que l'on travaille, plus on travaille."
+        },
+        {
+          "q": "Comment dire « avant de partir » ?",
+          "options": [
+            "gittikten sonra",
+            "gitmeden önce",
+            "gittiği sürece"
+          ],
+          "a": 1,
+          "why": "-madan önce signifie avant de : gitmeden önce."
+        }
+      ]
+    },
+    {
+      "id": "vb1-8",
+      "level": "B1",
+      "num": 8,
+      "title": "Le conditionnel passé",
+      "tr": "Geçmiş zaman şartı",
+      "goal": "Exprimer un regret ou une hypothèse irréelle : « si j'avais su… », « j'aurais dû… ».",
+      "watch": "geçmiş zaman şartı -seydi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le conditionnel passé se forme avec <b>-seydi / -saydı</b> : <tur>gelseydim</tur> (si j'étais venu), <tur>yapsaydım</tur> (si j'avais fait), <tur>olsaydı</tur> (si c'était). La voyelle suit l'harmonie vocalique."
+        },
+        {
+          "t": "table",
+          "caption": "Le conditionnel passé de gelmek et yapmak",
+          "head": [
+            "Personne",
+            "gelmek (venir)",
+            "yapmak (faire)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gelseydim</tur>",
+              "<tur>yapsaydım</tur>"
+            ],
+            [
+              "sen",
+              "<tur>gelseydin</tur>",
+              "<tur>yapsaydın</tur>"
+            ],
+            [
+              "o",
+              "<tur>gelseydi</tur>",
+              "<tur>yapsaydı</tur>"
+            ],
+            [
+              "biz",
+              "<tur>gelseydik</tur>",
+              "<tur>yapsaydık</tur>"
+            ],
+            [
+              "siz",
+              "<tur>gelseydiniz</tur>",
+              "<tur>yapsaydınız</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>gelselerdi</tur>",
+              "<tur>yapsalardı</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "La conséquence se met souvent au futur dans le passé ou au conditionnel : <tur>Gelseydin, onu görürdün.</tur> (Si tu étais venu, tu l'aurais vu.) <tur>Daha çok çalışsaydım, sınavı kazanacaktım.</tur> (Si j'avais étudié davantage, j'aurais réussi l'examen.)"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "keşke",
+          "text": "<tur>Keşke</tur> signifie « si seulement ». Il se combine avec le conditionnel passé : <tur>Keşke daha erken başlasaydım.</tur> (Si seulement j'avais commencé plus tôt.) <tur>Keşke gelmeseydim.</tur> (Si seulement je n'étais pas venu.)"
+        },
+        {
+          "t": "p",
+          "text": "On peut aussi employer <tur>-miş olsaydım</tur> : <tur>Daha çok çalışmış olsaydım, kazanırdım.</tur> (Si j'avais travaillé plus, j'aurais gagné.) Cette variante insiste sur l'action accomplie. Le sens reste proche de <tur>-seydim</tur>."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Gelseydin, onu görürdün.",
+              "fr": "Si tu étais venu, tu l'aurais vu."
+            },
+            {
+              "tr": "Daha çok çalışsaydım, sınavı kazanacaktım.",
+              "fr": "Si j'avais étudié plus, j'aurais réussi l'examen."
+            },
+            {
+              "tr": "Keşke daha erken başlasaydım.",
+              "fr": "Si seulement j'avais commencé plus tôt."
+            },
+            {
+              "tr": "Hava güzel olsaydı, yürüyüşe çıkardık.",
+              "fr": "S'il avait fait beau, nous serions allés marcher."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "-se ou -seydi ?",
+          "text": "<tur>Gelseydin</tur> = si tu étais venu (hypothèse irréelle sur le passé). <tur>Gelsen</tur> = si tu venais (hypothèse présente ou future). Le suffixe <b>-ydi</b> déplace l'hypothèse dans le passé."
+        }
+      ],
+      "vocab": [
+        [
+          "keşke",
+          "si seulement"
+        ],
+        [
+          "şart",
+          "condition"
+        ],
+        [
+          "pişman olmak",
+          "regretter"
+        ],
+        [
+          "kazanmak",
+          "gagner, réussir"
+        ],
+        [
+          "kaybetmek",
+          "perdre"
+        ],
+        [
+          "olsaydı",
+          "s'il y avait eu"
+        ],
+        [
+          "erken",
+          "tôt"
+        ],
+        [
+          "geç",
+          "tard"
+        ],
+        [
+          "yürüyüş",
+          "marche"
+        ],
+        [
+          "çıkmak",
+          "sortir"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Que signifie « Gelseydin » ?",
+          "options": [
+            "Si tu viens",
+            "Si tu étais venu",
+            "Tu viendras"
+          ],
+          "a": 1,
+          "why": "-seydi est un conditionnel passé : si tu étais venu."
+        },
+        {
+          "q": "Quel mot signifie « si seulement » ?",
+          "options": [
+            "keşke",
+            "çünkü",
+            "yoksa"
+          ],
+          "a": 0,
+          "why": "keşke exprime le regret ou le souhait : si seulement."
+        }
+      ]
+    },
+    {
+      "id": "vb1-9",
+      "level": "B1",
+      "num": 9,
+      "title": "Passif et causatif",
+      "tr": "Edilgen ve ettirgen çatı",
+      "goal": "Dire « c'est fait », « on l'a fait faire » et comprendre les verbes en -ıl / -dır.",
+      "watch": "edilgen ettirgen çatı",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le <b>passif</b> se forme avec <b>-ıl / -il / -ul / -ül</b> après une consonne, et <b>-n</b> après une voyelle : <tur>yazmak → yazılmak</tur> (être écrit), <tur>okumak → okunmak</tur> (être lu), <tur>yapmak → yapılmak</tur> (être fait), <tur>görmek → görülmek</tur> (être vu)."
+        },
+        {
+          "t": "p",
+          "text": "Le <b>causatif</b> signifie « faire faire » ou « laisser faire ». On ajoute <b>-dır / -dir / -tır / -tir</b> (ou <b>-t</b>, <b>-ir</b>, <b>-er</b>) selon le verbe et la consonne finale : <tur>yapmak → yaptırmak</tur> (faire faire), <tur>okumak → okutmak</tur> (faire lire), <tur>yazmak → yazdırmak</tur> (faire écrire), <tur>temizlemek → temizletmek</tur> (faire nettoyer)."
+        },
+        {
+          "t": "table",
+          "caption": "Les quatre formes de yapmak",
+          "head": [
+            "Forme",
+            "Turc",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "Actif",
+              "<tur>yaptım</tur>",
+              "j'ai fait"
+            ],
+            [
+              "Passif",
+              "<tur>yapıldı</tur>",
+              "ça a été fait"
+            ],
+            [
+              "Causatif",
+              "<tur>yaptırdım</tur>",
+              "j'ai fait faire"
+            ],
+            [
+              "Causatif passif",
+              "<tur>yaptırıldı</tur>",
+              "on a fait faire / on m'a fait faire"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Irréguliers fréquents",
+          "text": "<tur>gelmek → getirmek</tur> (apporter, faire venir), <tur>gitmek → götürmek</tur> (emporter, faire aller), <tur>görmek → göstermek</tur> (montrer). Ces formes sont lexicalisées : apprends-les comme des verbes à part."
+        },
+        {
+          "t": "p",
+          "text": "Le complément d'agent se rend avec <tur>tarafından</tur> : <tur>Bu roman, genç bir yazar tarafından yazılmış.</tur> (Ce roman a été écrit par un jeune auteur.) Le passif est très utilisé dans les textes formels, les notices et les actualités."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bu kitap 1990'da yazılmış.",
+              "fr": "Ce livre a été écrit en 1990."
+            },
+            {
+              "tr": "Bana bir ev yaptırdım.",
+              "fr": "Je me suis fait construire une maison."
+            },
+            {
+              "tr": "Öğretmen bize metni okuttu.",
+              "fr": "Le professeur nous a fait lire le texte."
+            },
+            {
+              "tr": "O, Ankara'ya götürüldü.",
+              "fr": "Il a été emmené à Ankara."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Repérer la chaîne",
+          "text": "Les suffixes peuvent s'enchaîner : <tur>yap-tır-ıl-mak</tur> (être fait faire). Dans une phrase, cherche d'abord le dernier suffixe : il te dit si l'action est passive, causative ou les deux."
+        }
+      ],
+      "vocab": [
+        [
+          "etmek",
+          "faire"
+        ],
+        [
+          "yapılmak",
+          "être fait"
+        ],
+        [
+          "yaptırmak",
+          "faire faire"
+        ],
+        [
+          "yazılmak",
+          "être écrit"
+        ],
+        [
+          "yazdırmak",
+          "faire écrire"
+        ],
+        [
+          "okutmak",
+          "faire lire"
+        ],
+        [
+          "göstermek",
+          "montrer"
+        ],
+        [
+          "getirmek",
+          "apporter"
+        ],
+        [
+          "götürmek",
+          "emporter"
+        ],
+        [
+          "tarafından",
+          "par (agent)"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Que signifie « yaptırdım » ?",
+          "options": [
+            "J'ai fait",
+            "J'ai fait faire",
+            "Ça a été fait"
+          ],
+          "a": 1,
+          "why": "Le causatif -dır indique que l'on fait faire l'action par quelqu'un d'autre."
+        },
+        {
+          "q": "Quelle forme est passive ?",
+          "options": [
+            "yazdım",
+            "yazıldı",
+            "yazdırdım"
+          ],
+          "a": 1,
+          "why": "yazıldı est le passif de yazmak : ça a été écrit."
+        }
+      ]
+    }
+  ]
+}

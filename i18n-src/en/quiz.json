@@ -1,0 +1,496 @@
+{
+  "domain": "quiz",
+  "fields": "grammarQuiz[].q/opts/exp, wordOfDay[].fr/exFr",
+  "grammarQuiz": [
+    {
+      "q": "How is « ğ » pronounced?",
+      "opts": [
+        "like a hard g",
+        "it lengthens the preceding vowel",
+        "like a k",
+        "it is silent"
+      ],
+      "a": 1,
+      "exp": "The soft g does not block the airflow: dağ → « daa »."
+    },
+    {
+      "q": "« şehir » is pronounced…",
+      "opts": [
+        "seh-heer",
+        "sheh-heer",
+        "tcheh-heer",
+        "zeh-heer"
+      ],
+      "a": 1,
+      "exp": "ş = « sh » (the French « ch »). The city: şehir."
+    },
+    {
+      "q": "How many vowels are there in Turkish?",
+      "opts": [
+        "5",
+        "6",
+        "8",
+        "10"
+      ],
+      "a": 2,
+      "exp": "a e ı i o ö u ü: eight vowels, two families."
+    },
+    {
+      "q": "Which one is a front vowel?",
+      "opts": [
+        "ı",
+        "u",
+        "ö",
+        "a"
+      ],
+      "a": 2,
+      "exp": "Front: e i ö ü. Back: a ı o u."
+    },
+    {
+      "q": "« öğretmenim » means…",
+      "opts": [
+        "you are a teacher",
+        "I am a teacher",
+        "his teacher",
+        "teachers"
+      ],
+      "a": 1,
+      "exp": "öğretmen + -im (1st person): I am a teacher."
+    },
+    {
+      "q": "« Türküz » = we are Turkish. What is the suffix?",
+      "opts": [
+        "-üz",
+        "-z",
+        "-süz",
+        "-üzler"
+      ],
+      "a": 0,
+      "exp": "Türk + üz: the « we » marker of « to be »."
+    },
+    {
+      "q": "« öğrenci değilim » means…",
+      "opts": [
+        "I am a student",
+        "I am not a student",
+        "you are not a student",
+        "student or not"
+      ],
+      "a": 1,
+      "exp": "değil = not to be; değilim = I am not."
+    },
+    {
+      "q": "What is the negative of « geliyor » (he is coming)?",
+      "opts": [
+        "gelmiyor",
+        "yok geliyor",
+        "gelmeyor değil",
+        "gelmiyor değil"
+      ],
+      "a": 0,
+      "exp": "-me slots in between: gel-me-yor."
+    },
+    {
+      "q": "« Suyum var » means…",
+      "opts": [
+        "I don't have water",
+        "I have water",
+        "water exists",
+        "I am drinking water"
+      ],
+      "a": 1,
+      "exp": "su-yum (my water) + var (exists) = I have water."
+    },
+    {
+      "q": "« Kahve yok » means…",
+      "opts": [
+        "there is coffee",
+        "there is no coffee",
+        "the coffee is cold",
+        "I want a coffee"
+      ],
+      "a": 1,
+      "exp": "yok = non-existent. No extra negation is needed."
+    },
+    {
+      "q": "What is the plural of « kitap » (book)?",
+      "opts": [
+        "kitapler",
+        "kitaplar",
+        "kitaplır",
+        "kitaplor"
+      ],
+      "a": 1,
+      "exp": "a = back → -lar: kitaplar."
+    },
+    {
+      "q": "What is the plural of « gözlük » (glasses)?",
+      "opts": [
+        "gözlükler",
+        "gözlüklar",
+        "gözlüklır",
+        "gözlüknar"
+      ],
+      "a": 0,
+      "exp": "ü = front → -ler: gözlükler."
+    },
+    {
+      "q": "« üç elma » (three apples): why not « üç elmalar »?",
+      "opts": [
+        "after a number, no plural",
+        "elma is invariable",
+        "vowel harmony",
+        "elma is already plural"
+      ],
+      "a": 0,
+      "exp": "The number makes the plural unnecessary: üç elma, iki ev, beş kitap."
+    },
+    {
+      "q": "What is the correct order of suffixes?",
+      "opts": [
+        "case → possessive → plural",
+        "plural → case → possessive",
+        "plural → possessive → case",
+        "possessive → plural → case"
+      ],
+      "a": 2,
+      "exp": "ev-ler-im-de: plural, possessive, case. Always."
+    },
+    {
+      "q": "« annem » means…",
+      "opts": [
+        "your mother",
+        "his/her mother",
+        "my mother",
+        "their mother"
+      ],
+      "a": 2,
+      "exp": "anne + -m: my mother."
+    },
+    {
+      "q": "« odası » means…",
+      "opts": [
+        "my room",
+        "your room",
+        "his/her room",
+        "our rooms"
+      ],
+      "a": 2,
+      "exp": "oda + -sı (with buffer n after a vowel): his/her room."
+    },
+    {
+      "q": "« Arabam var » means…",
+      "opts": [
+        "I have a car",
+        "his/her car exists",
+        "there are cars",
+        "my car is over there"
+      ],
+      "a": 0,
+      "exp": "araba-m (my car) + var: I have a car."
+    },
+    {
+      "q": "« Ne yapıyorsun? » means…",
+      "opts": [
+        "Who are you?",
+        "What are you doing?",
+        "Where are you going?",
+        "How are you?"
+      ],
+      "a": 1,
+      "exp": "yapmak (to do) in the present + 2nd person."
+    },
+    {
+      "q": "« okuyorum » means…",
+      "opts": [
+        "I read",
+        "you read",
+        "he writes",
+        "I write"
+      ],
+      "a": 0,
+      "exp": "oku- (to read) + -yor + -um."
+    },
+    {
+      "q": "Complete: « Ben bak… » (I look)",
+      "opts": [
+        "-iyorum",
+        "-ıyorum",
+        "-uyorum",
+        "-üyorum"
+      ],
+      "a": 1,
+      "exp": "bak- contains a (back) → bakıyorum."
+    },
+    {
+      "q": "Complete: « Ben sür… » (I drive)",
+      "opts": [
+        "-iyorum",
+        "-ıyorum",
+        "-uyorum",
+        "-üyorum"
+      ],
+      "a": 3,
+      "exp": "sür- contains ü (front rounded) → sürüyorum."
+    },
+    {
+      "q": "« sevmiyorum » means…",
+      "opts": [
+        "I like it",
+        "I don't like it",
+        "you don't like it",
+        "I will like it"
+      ],
+      "a": 1,
+      "exp": "sev-me-yorum: the negative -me comes before the tense."
+    },
+    {
+      "q": "« Geliyor musun? » means…",
+      "opts": [
+        "are you coming?",
+        "is he coming?",
+        "aren't you coming?",
+        "will you come?"
+      ],
+      "a": 0,
+      "exp": "geliyor + mu (o/u harmony) + sun: are you coming?"
+    },
+    {
+      "q": "« Türk müsün? »: why « mü »?",
+      "opts": [
+        "harmony with the ü in Türk",
+        "it is an exception",
+        "mü is the only form",
+        "harmony with the pronoun"
+      ],
+      "a": 0,
+      "exp": "Türk ends in ü (front rounded) → mü."
+    },
+    {
+      "q": "« var mı? »: why « mı »?",
+      "opts": [
+        "harmony with the a in var",
+        "because it is a question",
+        "mı is invariable",
+        "harmony with r"
+      ],
+      "a": 0,
+      "exp": "var ends in a (back) → mı."
+    },
+    {
+      "q": "Where does the particle mi go?",
+      "opts": [
+        "always at the end of the sentence",
+        "right after the word being asked about",
+        "before the verb",
+        "after the subject"
+      ],
+      "a": 1,
+      "exp": "Yarın MI geliyorsun? (is it tomorrow?) ≠ Yarın geliyor MUSUN? (are you coming tomorrow?)."
+    },
+    {
+      "q": "« evde » means…",
+      "opts": [
+        "towards the house",
+        "from the house",
+        "at home",
+        "the house"
+      ],
+      "a": 2,
+      "exp": "-de = locative (in, at, on)."
+    },
+    {
+      "q": "« eve » means…",
+      "opts": [
+        "to the house (destination)",
+        "in the house",
+        "from the house",
+        "my house"
+      ],
+      "a": 0,
+      "exp": "-e = dative: movement towards."
+    },
+    {
+      "q": "« evden » means…",
+      "opts": [
+        "towards the house",
+        "in the house",
+        "from the house (origin)",
+        "the house of"
+      ],
+      "a": 2,
+      "exp": "-den = ablative: origin."
+    },
+    {
+      "q": "Why « sokakta » (in the street) and not « sokakda »?",
+      "opts": [
+        "final k is voiceless → d becomes t",
+        "vowel harmony",
+        "deliberate mistake",
+        "the k assimilates"
+      ],
+      "a": 0,
+      "exp": "After p ç t k s ş f h, the d of suffixes becomes t."
+    },
+    {
+      "q": "« Kitabı okudum » means…",
+      "opts": [
+        "I read a book (any book)",
+        "I read the book (this particular book)",
+        "I am reading the book",
+        "the book read me"
+      ],
+      "a": 1,
+      "exp": "The accusative -ı marks a definite direct object, known to both speakers."
+    },
+    {
+      "q": "« Ekmek aldım » means…",
+      "opts": [
+        "I bought bread",
+        "I bought the bread",
+        "I want bread",
+        "the bread is bought"
+      ],
+      "a": 0,
+      "exp": "Without the accusative, the direct object is indefinite: bread in general."
+    },
+    {
+      "q": "« geldim » means…",
+      "opts": [
+        "I come",
+        "I came",
+        "I will come",
+        "he came"
+      ],
+      "a": 1,
+      "exp": "gel-di-m: witnessed past, 1st person."
+    },
+    {
+      "q": "« Ali gelmiş » expresses…",
+      "opts": [
+        "I saw Ali come",
+        "they say Ali has come",
+        "Ali will come",
+        "Ali is not coming"
+      ],
+      "a": 1,
+      "exp": "-miş: reported past, second-hand information."
+    },
+    {
+      "q": "« geleceğim » means…",
+      "opts": [
+        "I come",
+        "I will come",
+        "I came",
+        "come!"
+      ],
+      "a": 1,
+      "exp": "gel-ecek-im, with k→ğ before the vowel."
+    },
+    {
+      "q": "« yapacağım »: why the ğ?",
+      "opts": [
+        "final k softens to ğ before a vowel",
+        "vowel harmony",
+        "the a requires a ğ",
+        "it is irregular"
+      ],
+      "a": 0,
+      "exp": "Consonant alternation: yap-acak-ım → yapacağım."
+    },
+    {
+      "q": "« senin için » means…",
+      "opts": [
+        "with you",
+        "like you",
+        "for you",
+        "at your place"
+      ],
+      "a": 2,
+      "exp": "için = for. senin için = for you."
+    },
+    {
+      "q": "« otobüsle gittim » means…",
+      "opts": [
+        "I went by bus",
+        "I took the bus tomorrow",
+        "the bus has left",
+        "I was waiting for the bus"
+      ],
+      "a": 0,
+      "exp": "-le = by means of: otobüsle = by bus."
+    },
+    {
+      "q": "In « Ben yarın okula gidiyorum », the normal Turkish order is…",
+      "opts": [
+        "Subject-Object-Verb",
+        "Verb-Subject-Object",
+        "Object-Verb-Subject",
+        "free, with no rule"
+      ],
+      "a": 0,
+      "exp": "The verb usually closes the sentence; the suffixes carry the roles."
+    },
+    {
+      "q": "« Ben de gelmedim » means…",
+      "opts": [
+        "I came too",
+        "I didn't come either",
+        "I won't come either",
+        "I never said that"
+      ],
+      "a": 1,
+      "exp": "de (also) + negative past: « me neither »."
+    }
+  ],
+  "wordOfDay": [
+    {
+      "tr": "gönül",
+      "fr": "the heart (seat of the emotions)",
+      "ex": "Gönül ister ki…",
+      "exFr": "The heart wishes that…"
+    },
+    {
+      "tr": "keyif",
+      "fr": "pleasure, atmosphere",
+      "ex": "Keyifli bir akşamdı.",
+      "exFr": "It was a pleasant evening."
+    },
+    {
+      "tr": "merak",
+      "fr": "curiosity, worry",
+      "ex": "Merak etme!",
+      "exFr": "Don't worry!"
+    },
+    {
+      "tr": "hayat",
+      "fr": "life",
+      "ex": "Hayat güzel.",
+      "exFr": "Life is beautiful."
+    },
+    {
+      "tr": "özlem",
+      "fr": "nostalgia, longing",
+      "ex": "Özlemle bekliyorum.",
+      "exFr": "I am waiting eagerly."
+    },
+    {
+      "tr": "şans",
+      "fr": "luck",
+      "ex": "Sana şans diliyorum.",
+      "exFr": "I wish you good luck."
+    },
+    {
+      "tr": "emektar",
+      "fr": "faithful servant, devoted",
+      "ex": "Bu çanta emektar artık.",
+      "exFr": "This bag has served me well."
+    },
+    {
+      "tr": "gurbet",
+      "fr": "exile, being far from your loved ones",
+      "ex": "Gurbette olmak zor.",
+      "exFr": "Living far from your loved ones is hard."
+    }
+  ]
+}

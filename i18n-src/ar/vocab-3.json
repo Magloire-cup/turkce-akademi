@@ -1,0 +1,1280 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 18,
+  "end": 26,
+  "items": [
+    {
+      "id": "directions",
+      "name": "الاتجاهات",
+      "words": [
+        {
+          "tr": "sol",
+          "fr": "يسار",
+          "ex": "Sola dönün.",
+          "exFr": "انعطفوا إلى اليسار."
+        },
+        {
+          "tr": "sağ",
+          "fr": "يمين",
+          "ex": "Sağdaki binaya gir.",
+          "exFr": "ادخل المبنى الذي على اليمين."
+        },
+        {
+          "tr": "düz",
+          "fr": "مستقيم",
+          "ex": "Düz gidin, sonra sağa dönün.",
+          "exFr": "سيروا مستقيما، ثم انعطفوا يمينا."
+        },
+        {
+          "tr": "ileri",
+          "fr": "إلى الأمام",
+          "ex": "İleri bak.",
+          "exFr": "انظر إلى الأمام."
+        },
+        {
+          "tr": "geri",
+          "fr": "إلى الخلف",
+          "ex": "Geri döndüm.",
+          "exFr": "رجعت إلى الوراء."
+        },
+        {
+          "tr": "yakın",
+          "fr": "قريب",
+          "ex": "Otel buraya yakın.",
+          "exFr": "الفندق قريب من هنا."
+        },
+        {
+          "tr": "uzak",
+          "fr": "بعيد",
+          "ex": "İstasyon çok uzak değil.",
+          "exFr": "المحطة ليست بعيدة جدا."
+        },
+        {
+          "tr": "burada",
+          "fr": "هنا",
+          "ex": "Burada bekleyin.",
+          "exFr": "انتظروا هنا."
+        },
+        {
+          "tr": "orada",
+          "fr": "هناك",
+          "ex": "Orada bir kafe var.",
+          "exFr": "يوجد مقهى هناك."
+        },
+        {
+          "tr": "şurada",
+          "fr": "هناك تماما",
+          "ex": "Şurada oturalım.",
+          "exFr": "لنجلس هناك تماما."
+        },
+        {
+          "tr": "köşe",
+          "fr": "زاوية",
+          "ex": "Caddenin köşesinde eczane var.",
+          "exFr": "توجد صيدلية عند زاوية الشارع."
+        },
+        {
+          "tr": "kavşak",
+          "fr": "مفترق طرق",
+          "ex": "Kavşaktan geçtik.",
+          "exFr": "تجاوزنا مفترق الطرق."
+        },
+        {
+          "tr": "kaybolmak",
+          "fr": "يضيع، يتوه",
+          "ex": "Kayboldum, yardım eder misin?",
+          "exFr": "أضعت طريقي، هل يمكنك مساعدتي؟"
+        },
+        {
+          "tr": "harita",
+          "fr": "خريطة (جغرافية)",
+          "ex": "Haritaya bakalım.",
+          "exFr": "لننظر إلى الخريطة."
+        },
+        {
+          "tr": "göstermek",
+          "fr": "يظهر، يدل",
+          "ex": "Yolu gösterir misiniz?",
+          "exFr": "هل يمكنكم أن تدلوني على الطريق؟"
+        },
+        {
+          "tr": "karşı",
+          "fr": "مقابل، أمام",
+          "ex": "Bankanın karşısında.",
+          "exFr": "مقابل المصرف."
+        },
+        {
+          "tr": "arasında",
+          "fr": "بين",
+          "ex": "İki bina arasında.",
+          "exFr": "بين المبنيين."
+        },
+        {
+          "tr": "yanında",
+          "fr": "بجانب",
+          "ex": "Benim yanımda otur.",
+          "exFr": "اجلس بجانبي."
+        }
+      ]
+    },
+    {
+      "id": "metiers",
+      "name": "المهن والدراسة",
+      "words": [
+        {
+          "tr": "iş",
+          "fr": "عمل، وظيفة",
+          "ex": "Bugün işe gitmiyorum.",
+          "exFr": "اليوم لا أذهب إلى العمل."
+        },
+        {
+          "tr": "meslek",
+          "fr": "مهنة",
+          "ex": "Mesleğin ne?",
+          "exFr": "ما مهنتك؟"
+        },
+        {
+          "tr": "öğretmen",
+          "fr": "مدرس",
+          "ex": "Öğretmenim, matematik dersi veriyorum.",
+          "exFr": "أنا مدرس، وأدرس الرياضيات."
+        },
+        {
+          "tr": "öğrenci",
+          "fr": "طالب، تلميذ",
+          "ex": "Üniversite öğrencisiyim.",
+          "exFr": "أنا طالب في الجامعة."
+        },
+        {
+          "tr": "mühendis",
+          "fr": "مهندس",
+          "ex": "Mühendis olmak istiyorum.",
+          "exFr": "أريد أن أصبح مهندسا."
+        },
+        {
+          "tr": "avukat",
+          "fr": "محام",
+          "ex": "Avukatım, size yardım edebilirim.",
+          "exFr": "أنا محام، ويمكنني مساعدتكم."
+        },
+        {
+          "tr": "polis",
+          "fr": "شرطي",
+          "ex": "Polis caddeyi kapattı.",
+          "exFr": "أغلقت الشرطة الشارع."
+        },
+        {
+          "tr": "aşçı",
+          "fr": "طباخ",
+          "ex": "Aşçı yemeği hazırlıyor.",
+          "exFr": "الطباخ يجهز الطعام."
+        },
+        {
+          "tr": "şoför",
+          "fr": "سائق",
+          "ex": "Şoför çok hızlı sürüyor.",
+          "exFr": "السائق يقود بسرعة كبيرة."
+        },
+        {
+          "tr": "memur",
+          "fr": "موظف",
+          "ex": "Memur devlette çalışır.",
+          "exFr": "الموظف يعمل في الدولة."
+        },
+        {
+          "tr": "esnaf",
+          "fr": "تاجر",
+          "ex": "Esnaf pazar tezgahını kurdu.",
+          "exFr": "أقام التاجر منصبه في السوق."
+        },
+        {
+          "tr": "kurs",
+          "fr": "دورة تدريبية",
+          "ex": "Türkçe kursuna gidiyorum.",
+          "exFr": "أذهب إلى دورة في اللغة التركية."
+        },
+        {
+          "tr": "ders",
+          "fr": "درس، مادة دراسية",
+          "ex": "Ders çalışmam lazım.",
+          "exFr": "يجب أن أراجع دروسي."
+        },
+        {
+          "tr": "sınav",
+          "fr": "اختبار",
+          "ex": "Yarın matematik sınavım var.",
+          "exFr": "غدا عندي اختبار في الرياضيات."
+        },
+        {
+          "tr": "okumak",
+          "fr": "يقرأ، يدرس",
+          "ex": "Kitap okuyorum.",
+          "exFr": "أقرأ كتابا."
+        },
+        {
+          "tr": "yazmak",
+          "fr": "يكتب",
+          "ex": "Adınızı buraya yazın.",
+          "exFr": "اكتبوا اسمكم هنا."
+        },
+        {
+          "tr": "öğrenmek",
+          "fr": "يتعلم",
+          "ex": "Türkçe öğreniyorum.",
+          "exFr": "أتعلم اللغة التركية."
+        },
+        {
+          "tr": "öğretmek",
+          "fr": "يمارس التعليم",
+          "ex": "Bize bir şeyler öğret.",
+          "exFr": "أعطنا بعض الدروس."
+        },
+        {
+          "tr": "diploma",
+          "fr": "شهادة",
+          "ex": "Diplomamı aldım.",
+          "exFr": "حصلت على شهادتي."
+        }
+      ]
+    },
+    {
+      "id": "verbes1",
+      "name": "أفعال شائعة (1)",
+      "words": [
+        {
+          "tr": "olmak",
+          "fr": "يكون، يصبح",
+          "ex": "Doktor olmak istiyorum.",
+          "exFr": "أريد أن أصبح طبيبا."
+        },
+        {
+          "tr": "yapmak",
+          "fr": "يفعل",
+          "ex": "Şu an ne yapıyorsun?",
+          "exFr": "ماذا تفعل الآن؟"
+        },
+        {
+          "tr": "etmek",
+          "fr": "يفعل (في الأفعال المركبة)",
+          "ex": "Seyahat etmek istiyorum.",
+          "exFr": "أريد أن أسافر."
+        },
+        {
+          "tr": "vermek",
+          "fr": "يعطي",
+          "ex": "Kalemi bana verir misin?",
+          "exFr": "هل يمكنك أن تعطيني القلم؟"
+        },
+        {
+          "tr": "almak",
+          "fr": "يأخذ، يشتري",
+          "ex": "Bir kahve aldım.",
+          "exFr": "تناولت قهوة."
+        },
+        {
+          "tr": "görmek",
+          "fr": "يرى",
+          "ex": "Onu dün gördüm.",
+          "exFr": "رأيته أمس."
+        },
+        {
+          "tr": "bilmek",
+          "fr": "يعرف",
+          "ex": "Biraz Türkçe biliyorum.",
+          "exFr": "أعرف القليل من التركية."
+        },
+        {
+          "tr": "istemek",
+          "fr": "يريد",
+          "ex": "Su istiyorum.",
+          "exFr": "أريد ماء."
+        },
+        {
+          "tr": "sevmek",
+          "fr": "يحب",
+          "ex": "Kitap okumayı seviyorum.",
+          "exFr": "أحب القراءة."
+        },
+        {
+          "tr": "demek",
+          "fr": "يقول",
+          "ex": "Ne dedin?",
+          "exFr": "ماذا قلت؟"
+        },
+        {
+          "tr": "söylemek",
+          "fr": "يقول، يخبر",
+          "ex": "Bana bir şey söyle.",
+          "exFr": "قل لي شيئا."
+        },
+        {
+          "tr": "sormak",
+          "fr": "يسأل",
+          "ex": "Bir soru sormak istiyorum.",
+          "exFr": "أريد أن أطرح سؤالا."
+        },
+        {
+          "tr": "konuşmak",
+          "fr": "يتكلم",
+          "ex": "Yavaş konuşur musun?",
+          "exFr": "هل يمكنك أن تتكلم ببطء؟"
+        },
+        {
+          "tr": "anlamak",
+          "fr": "يفهم",
+          "ex": "Anlamıyorum, tekrar eder misin?",
+          "exFr": "لا أفهم، هل يمكنك التكرار؟"
+        },
+        {
+          "tr": "dinlemek",
+          "fr": "يستمع",
+          "ex": "Müzik dinliyorum.",
+          "exFr": "أستمع إلى الموسيقى."
+        },
+        {
+          "tr": "beklemek",
+          "fr": "ينتظر",
+          "ex": "Seni burada bekliyorum.",
+          "exFr": "أنتظرك هنا."
+        },
+        {
+          "tr": "başlamak",
+          "fr": "يبدأ",
+          "ex": "Ders başladı.",
+          "exFr": "بدأ الدرس."
+        },
+        {
+          "tr": "bitirmek",
+          "fr": "ينهي",
+          "ex": "İşi bitirdim.",
+          "exFr": "أنهيت العمل."
+        },
+        {
+          "tr": "çalışmak",
+          "fr": "يعمل، يدرس",
+          "ex": "Her gün çok çalışıyorum.",
+          "exFr": "أعمل كثيرا كل يوم."
+        },
+        {
+          "tr": "gitmek",
+          "fr": "يذهب، يرحل",
+          "ex": "Okula gidiyorum.",
+          "exFr": "أذهب إلى المدرسة."
+        },
+        {
+          "tr": "gelmek",
+          "fr": "يأتي",
+          "ex": "Buraya gel!",
+          "exFr": "تعال إلى هنا!"
+        }
+      ]
+    },
+    {
+      "id": "verbes2",
+      "name": "أفعال شائعة (2)",
+      "words": [
+        {
+          "tr": "yemek",
+          "fr": "يأكل",
+          "ex": "Akşam ne yiyeceğiz?",
+          "exFr": "ماذا سنأكل الليلة؟"
+        },
+        {
+          "tr": "içmek",
+          "fr": "يشرب",
+          "ex": "Her sabah çay içerim.",
+          "exFr": "أشرب الشاي كل صباح."
+        },
+        {
+          "tr": "kalmak",
+          "fr": "يبقى",
+          "ex": "Bugün evde kalıyorum.",
+          "exFr": "اليوم أبقى في البيت."
+        },
+        {
+          "tr": "yaşamak",
+          "fr": "يعيش، يسكن",
+          "ex": "İstanbul'da yaşıyorum.",
+          "exFr": "أعيش في إسطنبول."
+        },
+        {
+          "tr": "hatırlamak",
+          "fr": "يتذكر",
+          "ex": "Adını hatırladım!",
+          "exFr": "تذكرت اسمك!"
+        },
+        {
+          "tr": "unutmak",
+          "fr": "ينسى",
+          "ex": "Doğum gününü unuttum, özür dilerim.",
+          "exFr": "نسيت عيد ميلادك، آسف."
+        },
+        {
+          "tr": "bulmak",
+          "fr": "يجد",
+          "ex": "Cüzdanımı buldum.",
+          "exFr": "وجدت محفظتي."
+        },
+        {
+          "tr": "kaybetmek",
+          "fr": "يفقد",
+          "ex": "Telefonumu kaybettim.",
+          "exFr": "فقدت هاتفي."
+        },
+        {
+          "tr": "açmak",
+          "fr": "يفتح، يشغل",
+          "ex": "Kapıyı açtım.",
+          "exFr": "فتحت الباب."
+        },
+        {
+          "tr": "kapatmak",
+          "fr": "يغلق، يطفئ",
+          "ex": "Işıkları kapat.",
+          "exFr": "أطفئ الأضواء."
+        },
+        {
+          "tr": "koymak",
+          "fr": "يضع",
+          "ex": "Kitabı masaya koydum.",
+          "exFr": "وضعت الكتاب على الطاولة."
+        },
+        {
+          "tr": "taşımak",
+          "fr": "يحمل، ينقل",
+          "ex": "Çantamı taşıyabilir miyim?",
+          "exFr": "هل يمكنني أن أحمل حقيبتي؟"
+        },
+        {
+          "tr": "sürmek",
+          "fr": "يقود",
+          "ex": "Araba sürmeyi öğrendim.",
+          "exFr": "تعلمت القيادة."
+        },
+        {
+          "tr": "yardım etmek",
+          "fr": "يساعد",
+          "ex": "Sana yardım edebilir miyim?",
+          "exFr": "هل يمكنني مساعدتك؟"
+        },
+        {
+          "tr": "ödemek",
+          "fr": "يدفع",
+          "ex": "Hesabı ben ödedim.",
+          "exFr": "أنا من دفع الحساب."
+        },
+        {
+          "tr": "satın almak",
+          "fr": "يشتري",
+          "ex": "Yeni bir bilgisayar satın aldım.",
+          "exFr": "اشتريت حاسوبا جديدا."
+        },
+        {
+          "tr": "satmak",
+          "fr": "يبيع",
+          "ex": "Arabasını sattı.",
+          "exFr": "باع سيارته."
+        },
+        {
+          "tr": "kullanmak",
+          "fr": "يستخدم",
+          "ex": "Bu kelimeyi nasıl kullanırım?",
+          "exFr": "كيف أستخدم هذه الكلمة؟"
+        },
+        {
+          "tr": "seçmek",
+          "fr": "يختار",
+          "ex": "Rengi sen seç.",
+          "exFr": "اختر اللون بنفسك."
+        },
+        {
+          "tr": "denemek",
+          "fr": "يحاول، يجرب",
+          "ex": "Bir kez daha denedim.",
+          "exFr": "حاولت مرة أخرى."
+        }
+      ]
+    },
+    {
+      "id": "adjectifs",
+      "name": "الصفات",
+      "words": [
+        {
+          "tr": "büyük",
+          "fr": "كبير",
+          "ex": "Büyük bir ev satın aldı.",
+          "exFr": "اشترى بيتا كبيرا."
+        },
+        {
+          "tr": "küçük",
+          "fr": "صغير",
+          "ex": "Küçük bir kedi buldum.",
+          "exFr": "وجدت قطا صغيرا."
+        },
+        {
+          "tr": "yeni",
+          "fr": "جديد",
+          "ex": "Yeni telefonum geldi.",
+          "exFr": "وصل هاتفي الجديد."
+        },
+        {
+          "tr": "eski",
+          "fr": "قديم (للأشياء)",
+          "ex": "Eski bir kitap okuyorum.",
+          "exFr": "أقرأ كتابا قديما."
+        },
+        {
+          "tr": "güzel",
+          "fr": "جميل، حسن",
+          "ex": "Bugün hava çok güzel.",
+          "exFr": "الطقس جميل جدا اليوم."
+        },
+        {
+          "tr": "iyi",
+          "fr": "جيد، طيب",
+          "ex": "İyi bir insan.",
+          "exFr": "إنسان طيب."
+        },
+        {
+          "tr": "kötü",
+          "fr": "سيئ",
+          "ex": "Kötü haber var.",
+          "exFr": "هناك خبر سيئ."
+        },
+        {
+          "tr": "uzun",
+          "fr": "طويل، طويل القامة",
+          "ex": "Uzun bir yolculuktu.",
+          "exFr": "كانت رحلة طويلة."
+        },
+        {
+          "tr": "kısa",
+          "fr": "قصير",
+          "ex": "Saçlarını kısa kestirdi.",
+          "exFr": "طلب من الحلاق أن يقصر شعره."
+        },
+        {
+          "tr": "yüksek",
+          "fr": "مرتفع",
+          "ex": "Çok yüksek bir dağ.",
+          "exFr": "جبل مرتفع جدا."
+        },
+        {
+          "tr": "geniş",
+          "fr": "واسع، فسيح",
+          "ex": "Geniş bir oda.",
+          "exFr": "غرفة واسعة."
+        },
+        {
+          "tr": "dar",
+          "fr": "ضيق",
+          "ex": "Bu sokak çok dar.",
+          "exFr": "هذا الشارع ضيق جدا."
+        },
+        {
+          "tr": "temiz",
+          "fr": "نظيف",
+          "ex": "Odalar çok temiz.",
+          "exFr": "الغرف نظيفة جدا."
+        },
+        {
+          "tr": "kirli",
+          "fr": "متسخ",
+          "ex": "Ellerin kirli.",
+          "exFr": "يداك متسختان."
+        },
+        {
+          "tr": "kolay",
+          "fr": "سهل",
+          "ex": "Bu soru kolay.",
+          "exFr": "هذا السؤال سهل."
+        },
+        {
+          "tr": "zor",
+          "fr": "صعب",
+          "ex": "Türkçe zor mu? Hayır, çok mantıklı!",
+          "exFr": "هل التركية صعبة؟ لا، منطقية جدا!"
+        },
+        {
+          "tr": "hızlı",
+          "fr": "سريع",
+          "ex": "Çok hızlı sürüyorsun.",
+          "exFr": "أنت تقود بسرعة كبيرة."
+        },
+        {
+          "tr": "yavaş",
+          "fr": "بطيء",
+          "ex": "Yavaş yavaş öğreniyorum.",
+          "exFr": "أتعلم شيئا فشيئا."
+        },
+        {
+          "tr": "ağır",
+          "fr": "ثقيل",
+          "ex": "Bu çanta çok ağır.",
+          "exFr": "هذه الحقيبة ثقيلة جدا."
+        },
+        {
+          "tr": "hafif",
+          "fr": "خفيف",
+          "ex": "Hafif bir yemek yedim.",
+          "exFr": "تناولت وجبة خفيفة."
+        },
+        {
+          "tr": "yumuşak",
+          "fr": "طري، ناعم",
+          "ex": "Yatak çok yumuşak.",
+          "exFr": "السرير طري جدا."
+        },
+        {
+          "tr": "sert",
+          "fr": "صلب، قاس",
+          "ex": "Bu ekmek sert olmuş.",
+          "exFr": "أصبح هذا الخبز قاسيا."
+        },
+        {
+          "tr": "tatlı",
+          "fr": "حلو، لطيف",
+          "ex": "Çok tatlı bir köpek.",
+          "exFr": "كلب لطيف جدا."
+        },
+        {
+          "tr": "zengin",
+          "fr": "غني",
+          "ex": "Zengin bir işadamı.",
+          "exFr": "رجل أعمال غني."
+        },
+        {
+          "tr": "meşgul",
+          "fr": "مشغول",
+          "ex": "Şu an meşgulüm.",
+          "exFr": "أنا مشغول الآن."
+        }
+      ]
+    },
+    {
+      "id": "emotions",
+      "name": "المشاعر والأحوال",
+      "words": [
+        {
+          "tr": "mutlu",
+          "fr": "سعيد",
+          "ex": "Seni görünce çok mutlu oldum.",
+          "exFr": "سررت كثيرا برؤيتك."
+        },
+        {
+          "tr": "mutsuz",
+          "fr": "تعيس، غير سعيد",
+          "ex": "Bu film beni mutsuz etti.",
+          "exFr": "جعلني هذا الفيلم تعيسا."
+        },
+        {
+          "tr": "üzgün",
+          "fr": "حزين",
+          "ex": "Üzgün görünüyorsun, ne oldu?",
+          "exFr": "تبدو حزينا، ماذا حدث؟"
+        },
+        {
+          "tr": "heyecanlı",
+          "fr": "متحمس، متلهف",
+          "ex": "Yarın için çok heyecanlıyım.",
+          "exFr": "أنا متحمس جدا للغد."
+        },
+        {
+          "tr": "kızgın",
+          "fr": "غاضب",
+          "ex": "Ona kızgın değilim.",
+          "exFr": "لست غاضبا منه."
+        },
+        {
+          "tr": "korkmak",
+          "fr": "يخاف",
+          "ex": "Karanlıktan korkuyorum.",
+          "exFr": "أخاف من الظلام."
+        },
+        {
+          "tr": "şaşırmak",
+          "fr": "يتفاجأ",
+          "ex": "Hediyesine çok şaşırdım.",
+          "exFr": "دهشت كثيرا من مفاجأته."
+        },
+        {
+          "tr": "gülmek",
+          "fr": "يضحك",
+          "ex": "Şakasına çok güldüm.",
+          "exFr": "ضحكت كثيرا على نكتته."
+        },
+        {
+          "tr": "gülümsemek",
+          "fr": "يبتسم",
+          "ex": "Bana gülümsedi.",
+          "exFr": "ابتسم لي."
+        },
+        {
+          "tr": "ağlamak",
+          "fr": "يبكي",
+          "ex": "Neden ağlıyorsun?",
+          "exFr": "لماذا تبكي؟"
+        },
+        {
+          "tr": "özlemek",
+          "fr": "يشتاق",
+          "ex": "Seni çok özlüyorum.",
+          "exFr": "أشتاق إليك كثيرا."
+        },
+        {
+          "tr": "rahat",
+          "fr": "مرتاح",
+          "ex": "Kendimi rahat hissediyorum.",
+          "exFr": "أشعر بالراحة."
+        },
+        {
+          "tr": "endişeli",
+          "fr": "قلق",
+          "ex": "Sınav için endişeliyim.",
+          "exFr": "أنا قلق بشأن الاختبار."
+        },
+        {
+          "tr": "sıkılmak",
+          "fr": "يشعر بالملل",
+          "ex": "Evde sıkıldım, çıkalım.",
+          "exFr": "شعرت بالملل في البيت، لنخرج."
+        },
+        {
+          "tr": "nefret etmek",
+          "fr": "يكره",
+          "ex": "Trafikten nefret ediyorum.",
+          "exFr": "أكره الازدحام المروري."
+        },
+        {
+          "tr": "ummak",
+          "fr": "يأمل",
+          "ex": "Umarım yarın gelir.",
+          "exFr": "آمل أن يأتي غدا."
+        },
+        {
+          "tr": "gurur duymak",
+          "fr": "يفتخر",
+          "ex": "Seninle gurur duyuyorum.",
+          "exFr": "أنا فخور بك."
+        }
+      ]
+    },
+    {
+      "id": "techno",
+      "name": "التقنية والتواصل",
+      "words": [
+        {
+          "tr": "telefon",
+          "fr": "هاتف",
+          "ex": "Telefonum şarj olmuyor.",
+          "exFr": "هاتفي لا يشحن."
+        },
+        {
+          "tr": "bilgisayar",
+          "fr": "حاسوب",
+          "ex": "Bilgisayarım çok yavaş.",
+          "exFr": "حاسوبي بطيء جدا."
+        },
+        {
+          "tr": "internet",
+          "fr": "الإنترنت",
+          "ex": "İnternet bağlantısı yok.",
+          "exFr": "لا يوجد اتصال بالإنترنت."
+        },
+        {
+          "tr": "mesaj",
+          "fr": "رسالة",
+          "ex": "Sana mesaj attım.",
+          "exFr": "أرسلت إليك رسالة."
+        },
+        {
+          "tr": "e-posta",
+          "fr": "بريد إلكتروني",
+          "ex": "E-postanı kontrol et.",
+          "exFr": "تحقق من بريدك الإلكتروني."
+        },
+        {
+          "tr": "şifre",
+          "fr": "كلمة المرور",
+          "ex": "Şifremi unuttum.",
+          "exFr": "نسيت كلمة المرور."
+        },
+        {
+          "tr": "ekran",
+          "fr": "شاشة",
+          "ex": "Ekran kırıldı.",
+          "exFr": "تشققت الشاشة."
+        },
+        {
+          "tr": "pil",
+          "fr": "بطارية",
+          "ex": "Pil bitti.",
+          "exFr": "فرغت البطارية."
+        },
+        {
+          "tr": "şarj etmek",
+          "fr": "يشحن",
+          "ex": "Telefonu şarj et.",
+          "exFr": "اشحن الهاتف."
+        },
+        {
+          "tr": "fotoğraf",
+          "fr": "صورة",
+          "ex": "Sana bir fotoğraf çektim.",
+          "exFr": "التقطت لك صورة."
+        },
+        {
+          "tr": "kamera",
+          "fr": "كاميرا",
+          "ex": "Yeni kamera aldım.",
+          "exFr": "اشتريت كاميرا جديدة."
+        },
+        {
+          "tr": "uygulama",
+          "fr": "تطبيق",
+          "ex": "Yeni bir uygulama indirdim.",
+          "exFr": "قمت بتنزيل تطبيق جديد."
+        },
+        {
+          "tr": "indirmek",
+          "fr": "ينزل (من الإنترنت)",
+          "ex": "Şarkıyı indirdim.",
+          "exFr": "قمت بتنزيل الأغنية."
+        },
+        {
+          "tr": "göndermek",
+          "fr": "يرسل",
+          "ex": "Dosyayı sana gönderdim.",
+          "exFr": "أرسلت إليك الملف."
+        },
+        {
+          "tr": "dosya",
+          "fr": "ملف",
+          "ex": "Dosya çok büyük.",
+          "exFr": "الملف كبير جدا."
+        },
+        {
+          "tr": "klavye",
+          "fr": "لوحة مفاتيح",
+          "ex": "Klavye bozuk.",
+          "exFr": "لوحة المفاتيح معطلة."
+        },
+        {
+          "tr": "fare",
+          "fr": "فأرة (جهاز)",
+          "ex": "Fare çalışmıyor.",
+          "exFr": "الفأرة لا تعمل."
+        },
+        {
+          "tr": "aramak",
+          "fr": "يتصل (هاتفيا)",
+          "ex": "Seni akşam arayacağım.",
+          "exFr": "سأتصل بك مساء."
+        },
+        {
+          "tr": "çağrı",
+          "fr": "مكالمة",
+          "ex": "Cevapsız çağrın var.",
+          "exFr": "لديك مكالمة فائتة."
+        },
+        {
+          "tr": "sosyal medya",
+          "fr": "شبكات التواصل الاجتماعي",
+          "ex": "Sosyal medyada fazla vakit geçiriyorum.",
+          "exFr": "أمضي وقتا طويلا على شبكات التواصل الاجتماعي."
+        }
+      ]
+    },
+    {
+      "id": "verbes3",
+      "name": "أفعال شائعة (3)",
+      "words": [
+        {
+          "tr": "düşünmek",
+          "fr": "يفكر",
+          "ex": "Seni düşünüyorum.",
+          "exFr": "أفكر فيك."
+        },
+        {
+          "tr": "çizmek",
+          "fr": "يرسم",
+          "ex": "Çocuklar resim çiziyor.",
+          "exFr": "الأطفال يرسمون."
+        },
+        {
+          "tr": "vakit geçirmek",
+          "fr": "يقضي الوقت",
+          "ex": "Arkadaşlarla vakit geçiriyorum.",
+          "exFr": "أقضي الوقت مع أصدقاء."
+        },
+        {
+          "tr": "oturmak",
+          "fr": "يجلس، يسكن",
+          "ex": "İstanbul'da oturuyorum.",
+          "exFr": "أسكن في إسطنبول."
+        },
+        {
+          "tr": "kalkmak",
+          "fr": "ينهض",
+          "ex": "Sabah altıda kalkarım.",
+          "exFr": "أنهض في السادسة صباحا."
+        },
+        {
+          "tr": "yatmak",
+          "fr": "ينام، يأوي إلى الفراش",
+          "ex": "On birde yatıyorum.",
+          "exFr": "أذهب إلى الفراش في الحادية عشرة ليلا."
+        },
+        {
+          "tr": "uyumak",
+          "fr": "ينام",
+          "ex": "Uyumadan önce kitap okurum.",
+          "exFr": "أقرأ كتابا قبل النوم."
+        },
+        {
+          "tr": "uyanmak",
+          "fr": "يستيقظ",
+          "ex": "Alarm çalmadan uyanırım.",
+          "exFr": "أستيقظ قبل أن يرن المنبه."
+        },
+        {
+          "tr": "durmak",
+          "fr": "يتوقف",
+          "ex": "Otobüs burada durmuyor.",
+          "exFr": "الحافلة لا تتوقف هنا."
+        },
+        {
+          "tr": "yürümek",
+          "fr": "يمشي",
+          "ex": "Okula yürüyerek giderim.",
+          "exFr": "أذهب إلى المدرسة مشيا."
+        },
+        {
+          "tr": "koşmak",
+          "fr": "يركض",
+          "ex": "Sabah koşusu yaparım.",
+          "exFr": "أمارس الجري في الصباح."
+        },
+        {
+          "tr": "bakmak",
+          "fr": "ينظر",
+          "ex": "Pencereden bakıyorum.",
+          "exFr": "أنظر من النافذة."
+        },
+        {
+          "tr": "izlemek",
+          "fr": "يشاهد",
+          "ex": "Akşam film izliyoruz.",
+          "exFr": "في المساء نشاهد فيلما."
+        },
+        {
+          "tr": "anlatmak",
+          "fr": "يحكي، يشرح",
+          "ex": "Bana bir hikâye anlatır mısın?",
+          "exFr": "هل يمكنك أن تحكي لي قصة؟"
+        },
+        {
+          "tr": "kabul etmek",
+          "fr": "يقبل",
+          "ex": "Teklifi kabul ettim.",
+          "exFr": "قبلت العرض."
+        },
+        {
+          "tr": "reddetmek",
+          "fr": "يرفض",
+          "ex": "İsteğimi reddetti.",
+          "exFr": "رفض طلبي."
+        },
+        {
+          "tr": "cevap vermek",
+          "fr": "يجيب",
+          "ex": "Hemen cevap verdi.",
+          "exFr": "أجاب فورا."
+        },
+        {
+          "tr": "karşılamak",
+          "fr": "يستقبل",
+          "ex": "Havaalanında karşıladık.",
+          "exFr": "استقبلناه في المطار."
+        },
+        {
+          "tr": "getirmek",
+          "fr": "يجلب",
+          "ex": "Su getirir misin?",
+          "exFr": "هل يمكنك أن تجلب ماء؟"
+        },
+        {
+          "tr": "götürmek",
+          "fr": "يأخذ، يحمل معه",
+          "ex": "Çantamı okula götürdüm.",
+          "exFr": "حملت حقيبتي إلى المدرسة."
+        },
+        {
+          "tr": "hazırlamak",
+          "fr": "يجهز",
+          "ex": "Kahvaltıyı hazırladım.",
+          "exFr": "جهزت الفطور."
+        },
+        {
+          "tr": "temizlemek",
+          "fr": "ينظف",
+          "ex": "Odamı temizledim.",
+          "exFr": "نظفت غرفتي."
+        },
+        {
+          "tr": "pişirmek",
+          "fr": "يطبخ",
+          "ex": "Akşam yemeğini ben pişirdim.",
+          "exFr": "أنا من طبخ العشاء."
+        },
+        {
+          "tr": "yıkamak",
+          "fr": "يغسل",
+          "ex": "Ellerini yıkamayı unutma.",
+          "exFr": "لا تنس أن تغسل يديك."
+        },
+        {
+          "tr": "giyinmek",
+          "fr": "يلبس",
+          "ex": "Hızlıca giyindim.",
+          "exFr": "لبست بسرعة."
+        },
+        {
+          "tr": "değiştirmek",
+          "fr": "يغير",
+          "ex": "Planımı değiştirdim.",
+          "exFr": "غيرت خطتي."
+        },
+        {
+          "tr": "bırakmak",
+          "fr": "يترك، يتخلى",
+          "ex": "Çantanı masada bırakma.",
+          "exFr": "لا تترك حقيبتك على الطاولة."
+        },
+        {
+          "tr": "kesmek",
+          "fr": "يقطع",
+          "ex": "Ekmeği bıçakla kestim.",
+          "exFr": "قطعت الخبز بالسكين."
+        },
+        {
+          "tr": "üzülmek",
+          "fr": "يحزن، يتألم",
+          "ex": "Haber beni çok üzdü.",
+          "exFr": "أحزنني الخبر كثيرا."
+        },
+        {
+          "tr": "sevinmek",
+          "fr": "يفرح",
+          "ex": "Başarın için sevindim.",
+          "exFr": "فرحت بنجاحك."
+        },
+        {
+          "tr": "inanmak",
+          "fr": "يؤمن، يصدق",
+          "ex": "Sana inanıyorum.",
+          "exFr": "أصدقك."
+        },
+        {
+          "tr": "hissetmek",
+          "fr": "يشعر، يحس",
+          "ex": "Kendimi çok yorgun hissediyorum.",
+          "exFr": "أشعر بتعب شديد."
+        },
+        {
+          "tr": "gerekmek",
+          "fr": "يلزم، يجب",
+          "ex": "Bugün erken yatmam gerekiyor.",
+          "exFr": "يجب أن أنام مبكرا اليوم."
+        },
+        {
+          "tr": "gezmek",
+          "fr": "يتجول، يتنزه",
+          "ex": "Hafta sonu şehri gezdik.",
+          "exFr": "في عطلة نهاية الأسبوع تجولنا في المدينة."
+        },
+        {
+          "tr": "eğlenmek",
+          "fr": "يستمتع",
+          "ex": "Partide çok eğlendik.",
+          "exFr": "استمتعنا كثيرا في الحفلة."
+        },
+        {
+          "tr": "dinlenmek",
+          "fr": "يستريح",
+          "ex": "Biraz dinlenmeliyim.",
+          "exFr": "يجب أن أستريح قليلا."
+        },
+        {
+          "tr": "yorulmak",
+          "fr": "يتعب",
+          "ex": "Yürüyünce çok yoruldum.",
+          "exFr": "تعبت كثيرا بعد المشي."
+        },
+        {
+          "tr": "acıkmak",
+          "fr": "يجوع",
+          "ex": "Çok acıktım, hadi yemek yiyelim.",
+          "exFr": "جعت كثيرا، هيا نأكل."
+        },
+        {
+          "tr": "susamak",
+          "fr": "يعطش",
+          "ex": "Susadım, bir bardak su istiyorum.",
+          "exFr": "عطشت، أريد كأس ماء."
+        },
+        {
+          "tr": "hasta olmak",
+          "fr": "يمرض",
+          "ex": "Hava soğudu, hasta oldum.",
+          "exFr": "برد الطقس، فمرضت."
+        },
+        {
+          "tr": "büyümek",
+          "fr": "يكبر",
+          "ex": "Çocuklar çok hızlı büyüyor.",
+          "exFr": "الأطفال يكبرون بسرعة كبيرة."
+        },
+        {
+          "tr": "tanışmak",
+          "fr": "يتعرف",
+          "ex": "Tanıştığımıza çok sevindim.",
+          "exFr": "يسعدني كثيرا التعرف إليك."
+        },
+        {
+          "tr": "evlenmek",
+          "fr": "يتزوج",
+          "ex": "Gelecek yıl evlenecekler.",
+          "exFr": "سيتزوجان العام المقبل."
+        },
+        {
+          "tr": "doğmak",
+          "fr": "يولد",
+          "ex": "İstanbul'da doğdum.",
+          "exFr": "ولدت في إسطنبول."
+        },
+        {
+          "tr": "ölmek",
+          "fr": "يموت",
+          "ex": "Bitki susuzluktan öldü.",
+          "exFr": "ماتت النبتة من العطش."
+        },
+        {
+          "tr": "katılmak",
+          "fr": "يشارك",
+          "ex": "Toplantıya katıldım.",
+          "exFr": "شاركت في الاجتماع."
+        },
+        {
+          "tr": "çıkmak",
+          "fr": "يخرج، يصعد",
+          "ex": "Arkadaşlarla çıkıyorum.",
+          "exFr": "أخرج مع أصدقاء."
+        },
+        {
+          "tr": "yüzmek",
+          "fr": "يسبح",
+          "ex": "Yazın denizde yüzerim.",
+          "exFr": "أسبح في البحر صيفا."
+        },
+        {
+          "tr": "taşınmak",
+          "fr": "ينتقل",
+          "ex": "Yeni eve taşındık.",
+          "exFr": "انتقلنا إلى البيت الجديد."
+        },
+        {
+          "tr": "yetişmek",
+          "fr": "يلحق، يصل في الوقت",
+          "ex": "Otobüse yetiştim.",
+          "exFr": "لحقت بالحافلة."
+        },
+        {
+          "tr": "planlamak",
+          "fr": "يخطط",
+          "ex": "Günümü önceden planlıyorum.",
+          "exFr": "أخطط ليومي مسبقا."
+        },
+        {
+          "tr": "karar vermek",
+          "fr": "يقرر، يتخذ قرارا",
+          "ex": "Kararını verdin mi?",
+          "exFr": "هل اتخذت قرارك؟"
+        },
+        {
+          "tr": "tekrar etmek",
+          "fr": "يكرر",
+          "ex": "Lütfen tekrar eder misiniz?",
+          "exFr": "هل يمكنكم التكرار، من فضلكم؟"
+        },
+        {
+          "tr": "devam etmek",
+          "fr": "يستمر، يواصل",
+          "ex": "Derse devam ettim.",
+          "exFr": "واصلت الدرس."
+        },
+        {
+          "tr": "başarmak",
+          "fr": "ينجح، يحقق",
+          "ex": "Başaracağına inanıyorum.",
+          "exFr": "أعتقد أنك ستنجح."
+        },
+        {
+          "tr": "kazanmak",
+          "fr": "يفوز، يكسب",
+          "ex": "Maçı kazandık!",
+          "exFr": "فزنا بالمباراة!"
+        },
+        {
+          "tr": "anlaşmak",
+          "fr": "يتفاهم، يتفق",
+          "ex": "Arkadaşımla iyi anlaşıyorum.",
+          "exFr": "أتفاهم جيدا مع صديقي."
+        },
+        {
+          "tr": "çözmek",
+          "fr": "يحل",
+          "ex": "Bu problemi çözdüm.",
+          "exFr": "حللت هذه المشكلة."
+        },
+        {
+          "tr": "paylaşmak",
+          "fr": "يتقاسم، يشارك",
+          "ex": "Yemeğimi arkadaşımla paylaştım.",
+          "exFr": "تقاسمت طعامي مع صديقي."
+        },
+        {
+          "tr": "kaçmak",
+          "fr": "يهرب، يفر",
+          "ex": "Kedi bahçeye kaçtı.",
+          "exFr": "هرب القط إلى الحديقة."
+        },
+        {
+          "tr": "giymek",
+          "fr": "يلبس، يرتدي",
+          "ex": "Bugün mavi bir gömlek giyiyorum.",
+          "exFr": "ألبس قميصا أزرق اليوم."
+        },
+        {
+          "tr": "çıkarmak",
+          "fr": "ينزع، يزيل",
+          "ex": "Ayakkabılarını çıkar.",
+          "exFr": "انزع حذاءك."
+        },
+        {
+          "tr": "buluşmak",
+          "fr": "يلتقي",
+          "ex": "Saat beşte buluşalım.",
+          "exFr": "لنتقابل في الخامسة."
+        },
+        {
+          "tr": "tanımak",
+          "fr": "يعرف، يميز",
+          "ex": "Onu okuldan tanıyorum.",
+          "exFr": "أعرفه من المدرسة."
+        }
+      ]
+    }
+  ]
+}

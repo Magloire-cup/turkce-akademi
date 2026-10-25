@@ -1,0 +1,1040 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 0,
+  "end": 10,
+  "items": [
+    {
+      "id": "salutations",
+      "name": "التحيات",
+      "words": [
+        {
+          "tr": "merhaba",
+          "fr": "مرحبا، أهلا",
+          "ex": "Merhaba, nasılsın?",
+          "exFr": "مرحبا، كيف حالك؟"
+        },
+        {
+          "tr": "günaydın",
+          "fr": "صباح الخير (في الصباح)",
+          "ex": "Günaydın hanım.",
+          "exFr": "صباح الخير يا سيدتي."
+        },
+        {
+          "tr": "iyi günler",
+          "fr": "طاب يومك (خلال النهار)",
+          "ex": "İyi günler efendim.",
+          "exFr": "طاب يومك يا سيدي أو سيدتي."
+        },
+        {
+          "tr": "iyi akşamlar",
+          "fr": "مساء الخير",
+          "ex": "İyi akşamlar, hoşça kalın.",
+          "exFr": "مساء الخير، إلى اللقاء."
+        },
+        {
+          "tr": "iyi geceler",
+          "fr": "ليلة سعيدة",
+          "ex": "İyi geceler, tatlı rüyalar.",
+          "exFr": "ليلة سعيدة، وأحلام جميلة."
+        },
+        {
+          "tr": "hoş geldiniz",
+          "fr": "أهلا وسهلا (للمخاطبة الرسمية)",
+          "ex": "Hoş geldiniz! Buyurun.",
+          "exFr": "أهلا وسهلا! تفضل بالدخول."
+        },
+        {
+          "tr": "hoş buldum",
+          "fr": "شكرا على حسن الاستقبال (رد التحية)",
+          "ex": "Hoş buldum, çok naziksiniz.",
+          "exFr": "شكرا على حسن الاستقبال، هذا لطف كبير."
+        },
+        {
+          "tr": "güle güle",
+          "fr": "وداعا (يقولها من يبقى)",
+          "ex": "Güle güle, yarın görüşürüz.",
+          "exFr": "إلى اللقاء، نلتقي غدا."
+        },
+        {
+          "tr": "hoşça kal",
+          "fr": "وداعا (يقولها من يرحل)",
+          "ex": "Ben gidiyorum, hoşça kal.",
+          "exFr": "أنا ذاهب، وداعا."
+        },
+        {
+          "tr": "görüşürüz",
+          "fr": "إلى اللقاء قريبا",
+          "ex": "Görüşürüz, kendine iyi bak.",
+          "exFr": "إلى اللقاء قريبا، اعتن بنفسك."
+        },
+        {
+          "tr": "nasılsın?",
+          "fr": "كيف حالك؟",
+          "ex": "Merhaba Ali, nasılsın?",
+          "exFr": "مرحبا علي، كيف حالك؟"
+        },
+        {
+          "tr": "nasılsınız?",
+          "fr": "كيف حالكم؟",
+          "ex": "Hoş geldiniz, nasılsınız?",
+          "exFr": "أهلا وسهلا، كيف حالكم؟"
+        },
+        {
+          "tr": "iyiyim",
+          "fr": "أنا بخير",
+          "ex": "İyiyim, teşekkür ederim.",
+          "exFr": "أنا بخير، شكرا."
+        },
+        {
+          "tr": "memnun oldum",
+          "fr": "تشرفت بلقائك",
+          "ex": "Tanıştığımıza memnun oldum.",
+          "exFr": "تشرفت بمعرفتك."
+        },
+        {
+          "tr": "hoşça kalın",
+          "fr": "وداعا (للمخاطبة الرسمية)",
+          "ex": "İyi günler, hoşça kalın.",
+          "exFr": "طاب يومك، وداعا."
+        }
+      ]
+    },
+    {
+      "id": "politesse",
+      "name": "المجاملات والردود",
+      "words": [
+        {
+          "tr": "evet",
+          "fr": "نعم",
+          "ex": "Evet, doğru.",
+          "exFr": "نعم، هذا صحيح."
+        },
+        {
+          "tr": "hayır",
+          "fr": "لا",
+          "ex": "Hayır, teşekkürler.",
+          "exFr": "لا، شكرا."
+        },
+        {
+          "tr": "teşekkür ederim",
+          "fr": "شكرا لك",
+          "ex": "Yardımın için teşekkür ederim.",
+          "exFr": "شكرا لك على مساعدتك."
+        },
+        {
+          "tr": "sağ ol",
+          "fr": "شكرا (صيغة غير رسمية)",
+          "ex": "Sağ ol, çok tatlısın.",
+          "exFr": "شكرا، هذا لطف كبير."
+        },
+        {
+          "tr": "rica ederim",
+          "fr": "على الرحب والسعة",
+          "ex": "Rica ederim, ne demek!",
+          "exFr": "على الرحب والسعة، لا شكر على واجب!"
+        },
+        {
+          "tr": "lütfen",
+          "fr": "من فضلك",
+          "ex": "Bir bardak su, lütfen.",
+          "exFr": "كوب ماء، من فضلك."
+        },
+        {
+          "tr": "buyurun",
+          "fr": "تفضل، تفضل بالدخول",
+          "ex": "Buyurun, oturun.",
+          "exFr": "تفضل، اجلس."
+        },
+        {
+          "tr": "affedersiniz",
+          "fr": "المعذرة",
+          "ex": "Affedersiniz, bir sorum var.",
+          "exFr": "المعذرة، لدي سؤال."
+        },
+        {
+          "tr": "özür dilerim",
+          "fr": "أنا آسف",
+          "ex": "Geç kaldım, özür dilerim.",
+          "exFr": "لقد تأخرت، وأنا آسف."
+        },
+        {
+          "tr": "sorun değil",
+          "fr": "لا مشكلة",
+          "ex": "Sorun değil, merak etme.",
+          "exFr": "لا مشكلة، لا تقلق."
+        },
+        {
+          "tr": "tamam",
+          "fr": "حسنا، موافق",
+          "ex": "Tamam, anladım.",
+          "exFr": "حسنا، لقد فهمت."
+        },
+        {
+          "tr": "olur",
+          "fr": "موافق، بكل سرور",
+          "ex": "Olur, yarın gelirim.",
+          "exFr": "موافق، سآتي غدا."
+        },
+        {
+          "tr": "maalesef",
+          "fr": "للأسف",
+          "ex": "Maalesef bugün gelamam.",
+          "exFr": "للأسف لا أستطيع المجيء اليوم."
+        },
+        {
+          "tr": "belki",
+          "fr": "ربما",
+          "ex": "Belki yarın gelir.",
+          "exFr": "ربما سيأتي غدا."
+        },
+        {
+          "tr": "tabii",
+          "fr": "بالطبع",
+          "ex": "Tabii ki yardım ederim.",
+          "exFr": "بالطبع سأساعدك."
+        },
+        {
+          "tr": "tebrikler",
+          "fr": "تهانينا",
+          "ex": "Tebrikler, başardın!",
+          "exFr": "تهانينا، لقد نجحت!"
+        },
+        {
+          "tr": "geçmiş olsun",
+          "fr": "شفاء عاجل",
+          "ex": "Geçmiş olsun, çabuk iyileş.",
+          "exFr": "شفاء عاجل، وتعاف سريعا."
+        },
+        {
+          "tr": "afiyet olsun",
+          "fr": "بالهناء والشفاء",
+          "ex": "Buyurun, afiyet olsun.",
+          "exFr": "تفضل، بالهناء والشفاء."
+        },
+        {
+          "tr": "kolay gelsin",
+          "fr": "بالتوفيق في عملك",
+          "ex": "Kolay gelsin, iyi çalışmalar.",
+          "exFr": "بالتوفيق، وعملا موفقا."
+        }
+      ]
+    },
+    {
+      "id": "pronom",
+      "name": "الضمائر وأدوات الاستفهام",
+      "words": [
+        {
+          "tr": "ben",
+          "fr": "أنا",
+          "ex": "Ben öğrenciyim.",
+          "exFr": "أنا طالب."
+        },
+        {
+          "tr": "sen",
+          "fr": "أنت",
+          "ex": "Sen nasılsın?",
+          "exFr": "وأنت، كيف حالك؟"
+        },
+        {
+          "tr": "o",
+          "fr": "هو، هي",
+          "ex": "O Türk.",
+          "exFr": "هو أو هي تركي أو تركية."
+        },
+        {
+          "tr": "biz",
+          "fr": "نحن",
+          "ex": "Biz Fransızız.",
+          "exFr": "نحن فرنسيون."
+        },
+        {
+          "tr": "siz",
+          "fr": "أنتم",
+          "ex": "Siz nerelisiniz?",
+          "exFr": "من أين أنتم؟"
+        },
+        {
+          "tr": "onlar",
+          "fr": "هم، هن",
+          "ex": "Onlar evde.",
+          "exFr": "هم في البيت."
+        },
+        {
+          "tr": "bu",
+          "fr": "هذا، هذه",
+          "ex": "Bu nedir?",
+          "exFr": "ما هذا؟"
+        },
+        {
+          "tr": "şu",
+          "fr": "ذلك، تلك",
+          "ex": "Şu kitap benim.",
+          "exFr": "ذلك الكتاب لي."
+        },
+        {
+          "tr": "ne",
+          "fr": "ماذا، ما",
+          "ex": "Adın ne?",
+          "exFr": "ما اسمك؟"
+        },
+        {
+          "tr": "kim",
+          "fr": "من",
+          "ex": "O kim?",
+          "exFr": "من هذا؟"
+        },
+        {
+          "tr": "nerede",
+          "fr": "أين",
+          "ex": "Tuvalet nerede?",
+          "exFr": "أين دورة المياه؟"
+        },
+        {
+          "tr": "nereye",
+          "fr": "إلى أين",
+          "ex": "Nereye gidiyorsun?",
+          "exFr": "إلى أين تذهب؟"
+        },
+        {
+          "tr": "nereden",
+          "fr": "من أين",
+          "ex": "Sen nereden geldin?",
+          "exFr": "من أين أتيت؟"
+        },
+        {
+          "tr": "ne zaman",
+          "fr": "متى",
+          "ex": "Ne zaman geliyorsun?",
+          "exFr": "متى ستأتي؟"
+        },
+        {
+          "tr": "neden",
+          "fr": "لماذا",
+          "ex": "Neden gittin?",
+          "exFr": "لماذا رحلت؟"
+        },
+        {
+          "tr": "niye",
+          "fr": "لماذا (صيغة غير رسمية)",
+          "ex": "Niye böyle yaptın?",
+          "exFr": "لماذا فعلت ذلك؟"
+        },
+        {
+          "tr": "nasıl",
+          "fr": "كيف",
+          "ex": "Nasıl yaptın?",
+          "exFr": "كيف فعلت ذلك؟"
+        },
+        {
+          "tr": "kaç",
+          "fr": "كم",
+          "ex": "Bu kaç lira?",
+          "exFr": "كم سعر هذا؟"
+        },
+        {
+          "tr": "hangi",
+          "fr": "أي",
+          "ex": "Hangi rengi seviyorsun?",
+          "exFr": "أي لون تفضل؟"
+        },
+        {
+          "tr": "hepsi",
+          "fr": "الكل، جميع",
+          "ex": "Hepsi doğru.",
+          "exFr": "كل شيء صحيح."
+        }
+      ]
+    },
+    {
+      "id": "nombres",
+      "name": "الأعداد",
+      "words": [
+        {
+          "tr": "sıfır",
+          "fr": "صفر",
+          "ex": "Sıcaklık sıfırın altında.",
+          "exFr": "درجة الحرارة تحت الصفر."
+        },
+        {
+          "tr": "bir",
+          "fr": "واحد",
+          "ex": "Bir kahve, lütfen.",
+          "exFr": "قهوة واحدة، من فضلك."
+        },
+        {
+          "tr": "iki",
+          "fr": "اثنان",
+          "ex": "İki bilet aldım.",
+          "exFr": "أخذت تذكرتين."
+        },
+        {
+          "tr": "üç",
+          "fr": "ثلاثة",
+          "ex": "Üç gün kaldım.",
+          "exFr": "بقيت ثلاثة أيام."
+        },
+        {
+          "tr": "dört",
+          "fr": "أربعة",
+          "ex": "Dört mevsim var.",
+          "exFr": "هناك أربعة فصول."
+        },
+        {
+          "tr": "beş",
+          "fr": "خمسة",
+          "ex": "Saat beş.",
+          "exFr": "الساعة الخامسة."
+        },
+        {
+          "tr": "altı",
+          "fr": "ستة",
+          "ex": "Altı kişi geldik.",
+          "exFr": "جئنا ستة أشخاص."
+        },
+        {
+          "tr": "yedi",
+          "fr": "سبعة",
+          "ex": "Haftada yedi gün var.",
+          "exFr": "هناك سبعة أيام في الأسبوع."
+        },
+        {
+          "tr": "sekiz",
+          "fr": "ثمانية",
+          "ex": "Sekiz katlı bina.",
+          "exFr": "مبنى من ثمانية طوابق."
+        },
+        {
+          "tr": "dokuz",
+          "fr": "تسعة",
+          "ex": "Dokuz ay sonra döndü.",
+          "exFr": "عاد بعد تسعة أشهر."
+        },
+        {
+          "tr": "on",
+          "fr": "عشرة",
+          "ex": "On dakika bekle.",
+          "exFr": "انتظر عشر دقائق."
+        },
+        {
+          "tr": "yirmi",
+          "fr": "عشرون",
+          "ex": "Yirmi lira verdim.",
+          "exFr": "أعطيت عشرين ليرة."
+        },
+        {
+          "tr": "otuz",
+          "fr": "ثلاثون",
+          "ex": "Otuz yaşındayım.",
+          "exFr": "عمري ثلاثون عاما."
+        },
+        {
+          "tr": "kırk",
+          "fr": "أربعون",
+          "ex": "Kırk dakika sürdü.",
+          "exFr": "استمر أربعين دقيقة."
+        },
+        {
+          "tr": "elli",
+          "fr": "خمسون",
+          "ex": "Elli kişi davetli.",
+          "exFr": "خمسون شخصا مدعوون."
+        },
+        {
+          "tr": "altmış",
+          "fr": "ستون",
+          "ex": "Altmış saniye bir dakikadır.",
+          "exFr": "ستون ثانية تساوي دقيقة."
+        },
+        {
+          "tr": "yetmiş",
+          "fr": "سبعون",
+          "ex": "Yetmiş yaşında ama dinç.",
+          "exFr": "سبعون عاما، لكنه في لياقة جيدة."
+        },
+        {
+          "tr": "seksen",
+          "fr": "ثمانون",
+          "ex": "Seksen kilometre hızla.",
+          "exFr": "بسرعة ثمانين كيلومترا."
+        },
+        {
+          "tr": "doksan",
+          "fr": "تسعون",
+          "ex": "Doksan iki yıl önce.",
+          "exFr": "قبل اثنين وتسعين عاما."
+        },
+        {
+          "tr": "yüz",
+          "fr": "مئة",
+          "ex": "Yüz kişi geldi.",
+          "exFr": "جاء مئة شخص."
+        },
+        {
+          "tr": "bin",
+          "fr": "ألف",
+          "ex": "İki bin kilometre yolculuk.",
+          "exFr": "رحلة طولها ألفا كيلومتر."
+        },
+        {
+          "tr": "milyon",
+          "fr": "مليون",
+          "ex": "On beş milyon insan.",
+          "exFr": "خمسة عشر مليون شخص."
+        },
+        {
+          "tr": "tane",
+          "fr": "قطعة (أداة تعداد)",
+          "ex": "Üç tane elma aldim.",
+          "exFr": "أخذت ثلاث تفاحات."
+        }
+      ]
+    },
+    {
+      "id": "couleurs",
+      "name": "الألوان",
+      "words": [
+        {
+          "tr": "kırmızı",
+          "fr": "أحمر",
+          "ex": "Kırmızı bir elma yedim.",
+          "exFr": "أكلت تفاحة حمراء."
+        },
+        {
+          "tr": "beyaz",
+          "fr": "أبيض",
+          "ex": "Beyaz bir kedi gördüm.",
+          "exFr": "رأيت قطا أبيض."
+        },
+        {
+          "tr": "siyah",
+          "fr": "أسود",
+          "ex": "Siyah kahve içiyorum.",
+          "exFr": "أشرب قهوة سوداء."
+        },
+        {
+          "tr": "mavi",
+          "fr": "أزرق",
+          "ex": "Gökyüzü çok mavi.",
+          "exFr": "السماء زرقاء جدا."
+        },
+        {
+          "tr": "yeşil",
+          "fr": "أخضر",
+          "ex": "Yeşil çay sağlıklıdır.",
+          "exFr": "الشاي الأخضر صحي."
+        },
+        {
+          "tr": "sarı",
+          "fr": "أصفر",
+          "ex": "Sarı bir çiçek koydum.",
+          "exFr": "وضعت زهرة صفراء."
+        },
+        {
+          "tr": "turuncu",
+          "fr": "برتقالي (لون)",
+          "ex": "Turuncu bir tişört giydim.",
+          "exFr": "ارتديت قميصا برتقالي اللون."
+        },
+        {
+          "tr": "mor",
+          "fr": "بنفسجي",
+          "ex": "Mor bere taktı.",
+          "exFr": "وضع قبعة صوفية بنفسجية."
+        },
+        {
+          "tr": "pembe",
+          "fr": "وردي",
+          "ex": "Pembe bir elbise aldı.",
+          "exFr": "اشترت فستانا ورديا."
+        },
+        {
+          "tr": "kahverengi",
+          "fr": "بني",
+          "ex": "Kahverengi gözleri var.",
+          "exFr": "لديه عينان بنيتان."
+        },
+        {
+          "tr": "gri",
+          "fr": "رمادي",
+          "ex": "Gri bir ceket giyiyor.",
+          "exFr": "يرتدي سترة رمادية."
+        },
+        {
+          "tr": "altın",
+          "fr": "ذهبي (لون)",
+          "ex": "Altın rengi bir saat.",
+          "exFr": "ساعة بلون ذهبي."
+        },
+        {
+          "tr": "açık",
+          "fr": "فاتح",
+          "ex": "Açık mavi bir gömlek.",
+          "exFr": "قميص أزرق فاتح."
+        },
+        {
+          "tr": "koyu",
+          "fr": "غامق",
+          "ex": "Koyu yeşil bir oda.",
+          "exFr": "غرفة خضراء غامقة."
+        }
+      ]
+    },
+    {
+      "id": "temps",
+      "name": "مرور الوقت",
+      "words": [
+        {
+          "tr": "bugün",
+          "fr": "اليوم",
+          "ex": "Bugün hava çok güzel.",
+          "exFr": "الجو جميل جدا اليوم."
+        },
+        {
+          "tr": "yarın",
+          "fr": "غدا",
+          "ex": "Yarın okula gideceğim.",
+          "exFr": "غدا سأذهب إلى المدرسة."
+        },
+        {
+          "tr": "dün",
+          "fr": "أمس",
+          "ex": "Dün sinemaya gittim.",
+          "exFr": "أمس ذهبت إلى السينما."
+        },
+        {
+          "tr": "şimdi",
+          "fr": "الآن",
+          "ex": "Şimdi ders çalışıyorum.",
+          "exFr": "الآن أراجع دروسي."
+        },
+        {
+          "tr": "sabah",
+          "fr": "الصباح",
+          "ex": "Her sabah erken kalkarım.",
+          "exFr": "أستيقظ مبكرا كل صباح."
+        },
+        {
+          "tr": "akşam",
+          "fr": "المساء",
+          "ex": "Bu akşam evde kalacağım.",
+          "exFr": "سأبقى في البيت هذا المساء."
+        },
+        {
+          "tr": "gece",
+          "fr": "الليل",
+          "ex": "Gece yürüyüşü yaptık.",
+          "exFr": "قمنا بنزهة ليلية."
+        },
+        {
+          "tr": "öğle",
+          "fr": "الظهيرة",
+          "ex": "Öğle yemeği yedik.",
+          "exFr": "تناولنا طعام الغداء."
+        },
+        {
+          "tr": "gün",
+          "fr": "يوم",
+          "ex": "İyi günler dilerim.",
+          "exFr": "أتمنى لك يوما طيبا."
+        },
+        {
+          "tr": "hafta",
+          "fr": "أسبوع",
+          "ex": "Gelecek hafta tatildeyim.",
+          "exFr": "الأسبوع القادم سأكون في عطلة."
+        },
+        {
+          "tr": "ay",
+          "fr": "شهر",
+          "ex": "Üç ay kaldım.",
+          "exFr": "بقيت ثلاثة أشهر."
+        },
+        {
+          "tr": "yıl",
+          "fr": "سنة، عام",
+          "ex": "Yeni yıl kutlu olsun!",
+          "exFr": "سنة جديدة سعيدة!"
+        },
+        {
+          "tr": "saat",
+          "fr": "ساعة",
+          "ex": "Saatlerdir seni bekliyorum.",
+          "exFr": "أنتظرك منذ ساعات."
+        },
+        {
+          "tr": "dakika",
+          "fr": "دقيقة",
+          "ex": "Beş dakika kaldı.",
+          "exFr": "بقي خمس دقائق."
+        },
+        {
+          "tr": "erken",
+          "fr": "مبكرا",
+          "ex": "Bugün erken uyandım.",
+          "exFr": "استيقظت مبكرا اليوم."
+        },
+        {
+          "tr": "geç",
+          "fr": "متأخرا",
+          "ex": "Geç kaldım, özür dilerim.",
+          "exFr": "تأخرت، وأنا آسف."
+        },
+        {
+          "tr": "her zaman",
+          "fr": "دائما",
+          "ex": "Her zaman yanındayım.",
+          "exFr": "أنا دائما بجانبك."
+        },
+        {
+          "tr": "bazen",
+          "fr": "أحيانا",
+          "ex": "Bazen yalnız kalırım.",
+          "exFr": "أحيانا أبقى وحدي."
+        },
+        {
+          "tr": "hiç",
+          "fr": "أبدا (مع النفي)",
+          "ex": "Hiç sigara içmedim.",
+          "exFr": "لم أدخن أبدا."
+        },
+        {
+          "tr": "artık",
+          "fr": "من الآن فصاعدا، لم يعد",
+          "ex": "Artık burada yaşamıyorum.",
+          "exFr": "لم أعد أسكن هنا."
+        }
+      ]
+    },
+    {
+      "id": "semaine",
+      "name": "أيام الأسبوع",
+      "words": [
+        {
+          "tr": "pazartesi",
+          "fr": "الاثنين",
+          "ex": "Pazartesi toplantım var.",
+          "exFr": "لدي اجتماع يوم الاثنين."
+        },
+        {
+          "tr": "salı",
+          "fr": "الثلاثاء",
+          "ex": "Salı günü spor yapıyorum.",
+          "exFr": "أمارس الرياضة يوم الثلاثاء."
+        },
+        {
+          "tr": "çarşamba",
+          "fr": "الأربعاء",
+          "ex": "Çarşamba akşamı buluşalım.",
+          "exFr": "لنتقابل مساء الأربعاء."
+        },
+        {
+          "tr": "perşembe",
+          "fr": "الخميس",
+          "ex": "Perşembe günü sınavım var.",
+          "exFr": "لدي امتحان يوم الخميس."
+        },
+        {
+          "tr": "cuma",
+          "fr": "الجمعة",
+          "ex": "Cuma akşamı sinemaya gidelim.",
+          "exFr": "مساء الجمعة، لنذهب إلى السينما."
+        },
+        {
+          "tr": "cumartesi",
+          "fr": "السبت",
+          "ex": "Cumartesi sabahı piyano çalıyorum.",
+          "exFr": "أعزف على البيانو صباح السبت."
+        },
+        {
+          "tr": "pazar",
+          "fr": "الأحد",
+          "ex": "Pazar günü dinlenirim.",
+          "exFr": "أستريح يوم الأحد."
+        },
+        {
+          "tr": "hafta içi",
+          "fr": "أيام العمل",
+          "ex": "Hafta içi çok meşgulüm.",
+          "exFr": "أكون مشغولا جدا في أيام العمل."
+        },
+        {
+          "tr": "hafta sonu",
+          "fr": "عطلة نهاية الأسبوع",
+          "ex": "Hafta sonu nereye gideceğiz?",
+          "exFr": "إلى أين سنذهب في عطلة نهاية الأسبوع؟"
+        }
+      ]
+    },
+    {
+      "id": "mois",
+      "name": "أشهر السنة",
+      "words": [
+        {
+          "tr": "Ocak",
+          "fr": "يناير",
+          "ex": "Ocak ayında kar yağdı.",
+          "exFr": "تساقطت الثلوج في يناير."
+        },
+        {
+          "tr": "Şubat",
+          "fr": "فبراير",
+          "ex": "Şubat kısa bir aydır.",
+          "exFr": "فبراير شهر قصير."
+        },
+        {
+          "tr": "Mart",
+          "fr": "مارس",
+          "ex": "Martta bahar başlar.",
+          "exFr": "يبدأ الربيع في مارس."
+        },
+        {
+          "tr": "Nisan",
+          "fr": "أبريل",
+          "ex": "Nisanda kiraz çiçekleri açar.",
+          "exFr": "تزهر أشجار الكرز في أبريل."
+        },
+        {
+          "tr": "Mayıs",
+          "fr": "مايو",
+          "ex": "Mayıs en güzel ay.",
+          "exFr": "مايو أجمل شهر."
+        },
+        {
+          "tr": "Haziran",
+          "fr": "يونيو",
+          "ex": "Haziranda okul biter.",
+          "exFr": "ينتهي العام الدراسي في يونيو."
+        },
+        {
+          "tr": "Temmuz",
+          "fr": "يوليو",
+          "ex": "Temmuz çok sıcak olur.",
+          "exFr": "يوليو حار جدا."
+        },
+        {
+          "tr": "Ağustos",
+          "fr": "أغسطس",
+          "ex": "Ağustosta tatile çıkıyoruz.",
+          "exFr": "في أغسطس نذهب في عطلة."
+        },
+        {
+          "tr": "Eylül",
+          "fr": "سبتمبر",
+          "ex": "Eylülde okullar açılır.",
+          "exFr": "تفتح المدارس في سبتمبر."
+        },
+        {
+          "tr": "Ekim",
+          "fr": "أكتوبر",
+          "ex": "Ekimde yapraklar düşer.",
+          "exFr": "تتساقط الأوراق في أكتوبر."
+        },
+        {
+          "tr": "Kasım",
+          "fr": "نوفمبر",
+          "ex": "Kasımda yağmur çok yağar.",
+          "exFr": "تمطر كثيرا في نوفمبر."
+        },
+        {
+          "tr": "Aralık",
+          "fr": "ديسمبر",
+          "ex": "Aralıkta yıl sonu yaklaşır.",
+          "exFr": "يقترب نهاية العام في ديسمبر."
+        }
+      ]
+    },
+    {
+      "id": "heure",
+      "name": "الساعة",
+      "words": [
+        {
+          "tr": "saat kaç?",
+          "fr": "كم الساعة؟",
+          "ex": "Affedersiniz, saat kaç?",
+          "exFr": "المعذرة، كم الساعة؟"
+        },
+        {
+          "tr": "saat üç",
+          "fr": "الساعة الثالثة",
+          "ex": "Saat şu an tam üç.",
+          "exFr": "الساعة الثالثة تماما الآن."
+        },
+        {
+          "tr": "buçuk",
+          "fr": "والنصف",
+          "ex": "Saat yedi buçuk.",
+          "exFr": "الساعة السابعة والنصف."
+        },
+        {
+          "tr": "çeyrek",
+          "fr": "والربع",
+          "ex": "Saat on bir çeyrek geçiyor.",
+          "exFr": "الساعة الحادية عشرة والربع."
+        },
+        {
+          "tr": "geçiyor",
+          "fr": "مضت (الدقائق)",
+          "ex": "Saat beşi on geçiyor.",
+          "exFr": "الساعة الخامسة وعشر دقائق."
+        },
+        {
+          "tr": "var",
+          "fr": "تنقص (قبل الساعة)",
+          "ex": "Saat ikiye çeyrek var.",
+          "exFr": "الساعة الثانية إلا ربع."
+        },
+        {
+          "tr": "gece yarısı",
+          "fr": "منتصف الليل",
+          "ex": "Gece yarısı döndüm.",
+          "exFr": "عدت إلى البيت في منتصف الليل."
+        },
+        {
+          "tr": "sabahın körü",
+          "fr": "في أول الصباح",
+          "ex": "Sabahın körü kalktık.",
+          "exFr": "استيقظنا عند الفجر."
+        },
+        {
+          "tr": "ne zaman?",
+          "fr": "في أي ساعة / متى",
+          "ex": "Tren ne zaman kalkıyor?",
+          "exFr": "في أي ساعة ينطلق القطار؟"
+        },
+        {
+          "tr": "geç kalmak",
+          "fr": "أن يتأخر",
+          "ex": "Toplantıya geç kaldım.",
+          "exFr": "وصلت متأخرا إلى الاجتماع."
+        }
+      ]
+    },
+    {
+      "id": "meteo",
+      "name": "الطقس والطبيعة",
+      "words": [
+        {
+          "tr": "hava",
+          "fr": "الطقس، الهواء",
+          "ex": "Hava bugün çok güzel.",
+          "exFr": "الطقس جميل جدا اليوم."
+        },
+        {
+          "tr": "güneş",
+          "fr": "الشمس",
+          "ex": "Güneş yüzünü gösterdi.",
+          "exFr": "أطلت الشمس بوجهها."
+        },
+        {
+          "tr": "yağmur",
+          "fr": "المطر",
+          "ex": "Yağmur yağıyor.",
+          "exFr": "إنها تمطر."
+        },
+        {
+          "tr": "kar",
+          "fr": "الثلج",
+          "ex": "Kar yağmaya başladı.",
+          "exFr": "بدأ الثلج يتساقط."
+        },
+        {
+          "tr": "bulut",
+          "fr": "السحاب",
+          "ex": "Gökyüzü bulutlu.",
+          "exFr": "السماء غائمة."
+        },
+        {
+          "tr": "rüzgar",
+          "fr": "الريح",
+          "ex": "Rüzgar çok kuvvetli.",
+          "exFr": "الريح قوية جدا."
+        },
+        {
+          "tr": "fırtına",
+          "fr": "العاصفة",
+          "ex": "Fırtına geldiği için evde kaldık.",
+          "exFr": "بقينا في البيت لأن العاصفة وصلت."
+        },
+        {
+          "tr": "sıcak",
+          "fr": "حار",
+          "ex": "Bugün çok sıcak.",
+          "exFr": "الجو حار جدا اليوم."
+        },
+        {
+          "tr": "soğuk",
+          "fr": "بارد",
+          "ex": "Kışın hava soğuk olur.",
+          "exFr": "الجو بارد في الشتاء."
+        },
+        {
+          "tr": "ılık",
+          "fr": "معتدل، دافئ",
+          "ex": "İlkbaharda hava ılıktır.",
+          "exFr": "الجو معتدل في الربيع."
+        },
+        {
+          "tr": "gökyüzü",
+          "fr": "السماء",
+          "ex": "Gökyüzünde yıldızlar var.",
+          "exFr": "هناك نجوم في السماء."
+        },
+        {
+          "tr": "deniz",
+          "fr": "البحر",
+          "ex": "Deniz çok sakin.",
+          "exFr": "البحر هادئ جدا."
+        },
+        {
+          "tr": "dağ",
+          "fr": "الجبل",
+          "ex": "Dağa tırmandık.",
+          "exFr": "صعدنا الجبل."
+        },
+        {
+          "tr": "orman",
+          "fr": "الغابة",
+          "ex": "Ormanda yürüyüş yaptık.",
+          "exFr": "مشينا في الغابة."
+        },
+        {
+          "tr": "nehir",
+          "fr": "النهر",
+          "ex": "Nehir hızlı akıyor.",
+          "exFr": "النهر يجري بسرعة."
+        },
+        {
+          "tr": "göl",
+          "fr": "البحيرة",
+          "ex": "Gölde kuşlar yüzüyor.",
+          "exFr": "تسبح طيور في البحيرة."
+        },
+        {
+          "tr": "ağaç",
+          "fr": "الشجرة",
+          "ex": "Ağacın altında oturduk.",
+          "exFr": "جلسنا تحت الشجرة."
+        },
+        {
+          "tr": "çiçek",
+          "fr": "الزهرة",
+          "ex": "Sana çiçek aldım.",
+          "exFr": "اشتريت لك زهورا."
+        },
+        {
+          "tr": "yıldız",
+          "fr": "النجمة",
+          "ex": "Yıldızları saydım.",
+          "exFr": "عددت النجوم."
+        },
+        {
+          "tr": "ay",
+          "fr": "القمر",
+          "ex": "Ay bu akşam çok parlak.",
+          "exFr": "القمر ساطع جدا هذا المساء."
+        }
+      ]
+    }
+  ]
+}

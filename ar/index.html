@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Türkçe Akademi | Apprendre le turc en français, gratuitement</title>
+  <meta name="description" content="Cours complet de turc en français : 12 modules A1→B1, 625 mots de vocabulaire, grammaire de référence, quiz interactifs et prononciation. 100 % gratuit.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="home">
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Türkçe Akademi, accueil">
+        <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="11" fill="var(--red)"/>
+          <circle cx="16.5" cy="20" r="11" fill="#fff"/>
+          <circle cx="20.5" cy="20" r="9" fill="var(--red)"/>
+          <polygon points="27,15.6 28.1,18.5 31.2,18.6 28.7,20.6 29.6,23.6 27,21.8 24.4,23.6 25.3,20.6 22.8,18.6 25.9,18.5" fill="#fff"/>
+        </svg>
+        <div>Türkçe Akademi<small>Apprendre le turc</small></div>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="cours.html" data-nav="cours">Cours</a>
+        <a href="parcours.html" data-nav="parcours">Parcours</a>
+        <a href="vocabulaire.html" data-nav="vocab">Vocabulaire</a>
+        <a href="grammaire.html" data-nav="grammar">Grammaire</a>
+        <a href="conjugaison.html" data-nav="conjugaison">Conjugaison</a>
+        <a href="videos.html" data-nav="videos">Vidéos</a>
+        <a href="essentiel.html" data-nav="essential">Essentiel</a>
+        <a href="exercices.html" data-nav="quiz">Exercices</a>
+        <a href="prononciation.html" data-nav="alpha">Prononciation</a>
+        <a href="emploi-du-temps.html" data-nav="planning">Planning</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" title="Basculer clair / sombre" aria-label="Changer le thème"></button>
+        <button class="icon-btn burger" id="burger" title="Menu" aria-label="Ouvrir le menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <svg class="hero-crescent" viewBox="0 0 200 200" fill="currentColor" aria-hidden="true">
+        <circle cx="82" cy="100" r="72"/>
+        <circle cx="112" cy="100" r="56" fill="var(--bg)"/>
+        <path d="M138 88l4.2 11.7 12.4.4-9.8 7.6 3.3 12-10.1-6.7-10.1 6.7 3.3-12-9.8-7.6 12.4-.4z"/>
+      </svg>
+      <div class="container hero-inner">
+        <div>
+          <span class="kicker"><span class="dot"></span>Cours de turc · 100 % gratuit</span>
+          <h1>Apprends le turc,<br><em>vraiment</em>.</h1>
+          <p class="lead">Un cours complet pensé pour les francophones : 12 modules progressifs, plus de 600 mots de vocabulaire, une grammaire claire, des quiz et la prononciation. Tout est réuni au même endroit.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="cours.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              Commencer le cours
+            </a>
+            <a class="btn btn-ghost" href="vocabulaire.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="3"/><path d="M3 10h18M8 3l2 3M16 3l-2 3"/></svg>
+              Explorer le vocabulaire
+            </a>
+            <a class="btn btn-ghost" href="emploi-du-temps.html">Mon planning d'études</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hstat"><b id="stat-modules">12</b><span>modules de cours</span></div>
+            <div class="hstat"><b id="stat-words">0</b><span>mots de vocabulaire</span></div>
+            <div class="hstat"><b id="stat-grammar">16</b><span>fiches de grammaire</span></div>
+            <div class="hstat"><b>0 €</b><span>pour toujours</span></div>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Mot du jour">
+          <div class="flag"></div>
+          <div class="word-tr" id="wod-tr">gönül</div>
+          <div class="word-fr" id="wod-fr">le cœur (siège des émotions)</div>
+          <div class="word-ex" id="wod-ex"><b>Gönül ister ki…</b> Le cœur voudrait que…</div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ PROGRESSION ============ -->
+    <section class="section tinted" id="progression">
+      <div class="container">
+        <div class="section-head">
+          <span class="overline">Ton tableau de bord</span>
+          <h2>Ta progression, sauvegardée sur ton appareil</h2>
+          <p>Aucun compte, aucun serveur : tout est stocké localement dans ton navigateur. Reviens quand tu veux, tu reprends exactement où tu t'étais arrêté.</p>
+        </div>
+        <div class="dash">
+          <div class="dash-stat"><div class="val" id="dash-modules">0 / 12</div><div class="lab">Modules terminés</div><div class="sub">sur 12 modules</div></div>
+          <div class="dash-stat c2"><div class="val" id="dash-words">0</div><div class="lab">Mots en mémoire</div><div class="sub" id="dash-words-sub">sur 625 au total</div></div>
+          <div class="dash-stat c3"><div class="val" id="dash-parcours">0</div><div class="lab">Réponses justes</div><div class="sub">aux mini-quiz du parcours</div></div>
+          <div class="dash-stat c4"><div class="val" id="dash-quiz">0 / 5</div><div class="lab">Quiz travaillés</div><div class="sub">types de quiz tentés</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROGRAMME ============ -->
+    <section class="section" id="programme">
+      <div class="container">
+        <div class="section-head center">
+          <span class="overline">Le programme</span>
+          <h2>Un parcours structuré, du tout premier « merhaba » au B1</h2>
+          <p>Chaque module contient une leçon complète, un dialogue du quotidien, son vocabulaire clé et un quiz de validation. Termine-les dans l'ordre ou picore selon tes besoins.</p>
+        </div>
+        <div id="tracks" class="grid gap-2"></div>
+      </div>
+    </section>
+
+    <!-- ============ FONCTIONNALITÉS ============ -->
+    <section class="section tinted">
+      <div class="container">
+        <div class="section-head center">
+          <span class="overline">La boîte à outils</span>
+          <h2>Tout ce dont tu as besoin, zéro superflu</h2>
+        </div>
+        <div class="grid grid-3 reveal">
+          <div class="card hover">
+            <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+            <h3>12 modules de cours</h3>
+            <p>Des leçons rigoureuses mais lisibles : harmonie vocalique, cas, temps, tout est expliqué en français avec des tableaux et des exemples sonores.</p>
+          </div>
+          <div class="card hover">
+            <div class="feat-icon gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="3"/><path d="M3 10h18M8 3l2 3M16 3l-2 3"/></svg></div>
+            <h3>Flashcards intelligentes</h3>
+            <p>625 mots en 29 thèmes, dont quatre listes de verbes, des expressions courantes et des questions utiles. Les flashcards proposent plusieurs filtres et un entraînement dans les deux sens.</p>
+          </div>
+          <div class="card hover">
+            <div class="feat-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3v18M4 5h16l-2.5 4L20 13H4"/></svg></div>
+            <h3>Référence de grammaire</h3>
+            <p>16 fiches classées par niveau : alphabet, harmonie, six cas, négation, passés -di/-miş, futur… Le réflexe « je vérifie » en 30 secondes.</p>
+          </div>
+          <div class="card hover">
+            <div class="feat-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></div>
+            <h3>Quiz notés</h3>
+            <p>Vocabulaire turc→français, français→turc, écoute, grammaire : chaque réponse est expliquée. Les scores record sont conservés.</p>
+          </div>
+          <div class="card hover">
+            <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg></div>
+            <h3>Prononciation sonore</h3>
+            <p>Clique sur un mot turc pour l'entendre avec la synthèse vocale de ton navigateur. L'alphabet interactif t'aide à reconnaître chaque son.</p>
+          </div>
+          <div class="card hover">
+            <div class="feat-icon gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M10 9l5 3-5 3V9z"/></svg></div>
+            <h3>Compagnon vidéo A1 → B1</h3>
+            <p>27 fiches originales pour accompagner les vidéos de Yunus Emre Enstitüsü : objectif, grammaire, vocabulaire et mini-quiz, du A1 au B1.</p>
+          </div>
+        </div>
+        <div class="center mt-4 flex wrap gap-2" style="justify-content:center">
+          <a class="btn btn-ghost" href="conjugaison.html">Essayer le conjugueur interactif →</a>
+          <a class="btn btn-ghost" href="videos.html">Réviser avec les fiches vidéo →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MÉTHODE ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head center">
+          <span class="overline">La méthode</span>
+          <h2>Une routine simple, à ton rythme</h2>
+        </div>
+        <div class="grid grid-3 reveal">
+          <div class="card">
+            <span class="chip red">Étape 1</span>
+            <h3 class="mt-2">Apprends un module</h3>
+            <p>Lis une partie, écoute le dialogue et essaie de le répéter. Termine par quelques questions pour vérifier ce que tu as compris.</p>
+          </div>
+          <div class="card">
+            <span class="chip gold">Étape 2</span>
+            <h3 class="mt-2">Fais tourner les flashcards</h3>
+            <p>Fais une courte séance sur les mots difficiles. Essaie de retrouver le sens avant de retourner la carte, puis marque honnêtement « je sais » ou « à revoir ».</p>
+          </div>
+          <div class="card">
+            <span class="chip green">Étape 3</span>
+            <h3 class="mt-2">Teste-toi en quiz</h3>
+            <p>En fin de semaine, mélange plusieurs sujets et corrige tes erreurs. Le but est de repérer ce qu'il faut revoir, pas seulement de battre un record.</p>
+          </div>
+        </div>
+        <div class="center mt-3">
+          <p class="muted mb-2">Tu étudies aussi à l'école ? Organise devoirs, révisions, pauses et sommeil sans remplir chaque minute.</p>
+          <a class="btn btn-primary" href="emploi-du-temps.html">Voir le planning d'études</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section tinted">
+      <div class="container center">
+        <div class="section-head center" style="margin-bottom:28px">
+          <span class="overline">Başlayalım, commençons</span>
+          <h2>Le turc n'est pas difficile.<br>Il est différent et passionnant.</h2>
+          <p>Une grammaire 100 % régulière, un alphabet transparent, une logique de Lego. Ton plus grand défi ? Te souvenir d'y revenir demain.</p>
+        </div>
+        <div class="flex wrap gap-2 items-center" style="justify-content:center">
+          <a class="btn btn-primary" href="cours.html#m1">Module 1 : l'alphabet turc</a>
+          <a class="btn btn-ghost" href="prononciation.html">Écouter l'alphabet d'abord</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
+              <rect width="40" height="40" rx="11" fill="var(--red)"/>
+              <circle cx="16.5" cy="20" r="11" fill="#fff"/>
+              <circle cx="20.5" cy="20" r="9" fill="var(--red)"/>
+              <polygon points="27,15.6 28.1,18.5 31.2,18.6 28.7,20.6 29.6,23.6 27,21.8 24.4,23.6 25.3,20.6 22.8,18.6 25.9,18.5" fill="#fff"/>
+            </svg>
+            <div>Türkçe Akademi<small>Apprendre le turc</small></div>
+          </a>
+          <p class="brandline">Un cours de turc complet en français, gratuit et sans publicité. Construit avec du HTML, du CSS et du JavaScript, sans dépendance.</p>
+        </div>
+        <div>
+          <h4>Apprendre</h4>
+          <ul>
+            <li><a href="cours.html">Les 12 modules</a></li>
+            <li><a href="vocabulaire.html">Vocabulaire & flashcards</a></li>
+            <li><a href="grammaire.html">Grammaire de référence</a></li>
+            <li><a href="videos.html">Compagnon vidéo A1→B1</a></li>
+            <li><a href="essentiel.html">L'essentiel en une page</a></li>
+            <li><a href="exercices.html">Exercices & quiz</a></li>
+            <li><a href="prononciation.html">Prononciation</a></li>
+            <li><a href="emploi-du-temps.html">Planning d'études</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Le projet</h4>
+          <ul>
+            <li><a href="#progression">Ta progression</a></li>
+            <li><a href="#programme">Le programme</a></li>
+          </ul>
+          <p class="muted mt-2" style="font-size:.82rem">Kolay gelsin ! (Bon courage !)</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Türkçe Akademi, by TAM, pour les francophones</span>
+        <span>Türkçe güzel bir dildir.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast-root"></div>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/i18n/ar/ui-data.js"></script>
+  <script src="../js/i18n/ar/ui.js"></script>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/lang.js"></script>
+  <script src="../js/i18n/ar/data-vocab.js"></script>
+  <script src="../js/i18n/ar/data-course.js"></script>
+  <script src="../js/i18n/ar/data-grammar.js"></script>
+  <script src="../js/i18n/ar/data-quiz.js"></script>
+  <script src="../js/home.js"></script>
+</body>
+</html>

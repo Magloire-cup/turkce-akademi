@@ -1,0 +1,474 @@
+{
+  "domain": "grammar",
+  "fields": "title, blocks",
+  "start": 8,
+  "end": 16,
+  "items": [
+    {
+      "id": "varyok",
+      "title": "Var / yok : avoir & exister",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Pas de verbe avoir : <tur>var</tur> (il y a) et <tur>yok</tur> (il n'y a pas), invariables, se placent en fin de phrase."
+        },
+        {
+          "t": "table",
+          "caption": "Structures",
+          "head": [
+            "Structure",
+            "Exemple",
+            "Français"
+          ],
+          "rows": [
+            [
+              "possédé-possessif + var",
+              "<tur>Arabam var.</tur>",
+              "J'ai une voiture."
+            ],
+            [
+              "possédé-possessif + yok",
+              "<tur>Zamanım yok.</tur>",
+              "Je n'ai pas le temps."
+            ],
+            [
+              "lieu-locatif + var/yok",
+              "<tur>Buzdolabında süt yok.</tur>",
+              "Il n'y a pas de lait dans le frigo."
+            ],
+            [
+              "question",
+              "<tur>Sigara var mı?</tur>",
+              "Y a-t-il des cigarettes ?"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bir sorunum var.",
+              "fr": "J'ai un problème."
+            },
+            {
+              "tr": "Param yok, ama hayalim var.",
+              "fr": "Je n'ai pas d'argent, mais j'ai un rêve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "title": "Le présent continu : -iyor",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Racine + <b>-iyor</b> + personne. La voyelle de -iyor s'harmonise (i/ı/ü/u), les terminaisons personnelles non."
+        },
+        {
+          "t": "table",
+          "caption": "Conjugaison complète (gelmek, venir)",
+          "head": [
+            "Personne",
+            "Turc",
+            "Français"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geliyorum</tur>",
+              "je viens"
+            ],
+            [
+              "sen",
+              "<tur>geliyorsun</tur>",
+              "tu viens"
+            ],
+            [
+              "o",
+              "<tur>geliyor</tur>",
+              "il/elle vient"
+            ],
+            [
+              "biz",
+              "<tur>geliyoruz</tur>",
+              "nous venons"
+            ],
+            [
+              "siz",
+              "<tur>geliyorsunuz</tur>",
+              "vous venez"
+            ],
+            [
+              "onlar",
+              "<tur>geliyorlar</tur>",
+              "ils/elles viennent"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Négation : -me/-ma s'intercale (gel<b>mi</b>yorum). Après voyelle, un y apparaît : oku<b>y</b>orum (je lis), bekle<b>y</b>or (il attend)."
+        },
+        {
+          "t": "p",
+          "text": "Ce temps couvre l'action en cours <b>et</b> l'état durable : <tur>İstanbul'da yaşıyorum</tur> (j'habite à Istanbul), <tur>Türkçe öğreniyorum</tur> (j'apprends le turc)."
+        }
+      ]
+    },
+    {
+      "id": "negation",
+      "title": "La négation",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Trois outils de négation",
+          "head": [
+            "Contexte",
+            "Outil",
+            "Exemple"
+          ],
+          "rows": [
+            [
+              "Nom / adjectif",
+              "<tur>değil</tur>",
+              "<tur>Hasta değilim.</tur> (je ne suis pas malade)"
+            ],
+            [
+              "Verbe",
+              "<b>-me/-ma</b> avant le temps",
+              "<tur>gelmedim</tur> (je ne suis pas venu)"
+            ],
+            [
+              "Existence / avoir",
+              "<tur>yok</tur>",
+              "<tur>Param yok.</tur> (je n'ai pas d'argent)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le mot <tur>hayır</tur> (non) répond à une question ; <tur>değil</tur>, -me et yok nient <b>à l'intérieur</b> de la phrase. Pour « non plus » : <tur>ben de değilim</tur> / <tur>ben de gelmedim</tur>."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Kahve istemiyorum.",
+              "fr": "Je ne veux pas de café."
+            },
+            {
+              "tr": "Bu kitap benim değil.",
+              "fr": "Ce livre n'est pas à moi."
+            },
+            {
+              "tr": "Hiç sevmiyorum.",
+              "fr": "Je n'aime pas du tout."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "title": "La question : mi / mı / mu / mü",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Particule interrogative <b>séparée</b>, placée juste après le mot interrogé, harmonisée avec la voyelle précédente. Avec les formes verbales en voyelle, elle prend les personnes : <tur>geldin mi?</tur>, <tur>geliyor musun?</tur>, <tur>gelecek misin?</tur>"
+        },
+        {
+          "t": "table",
+          "caption": "Choix de la variante",
+          "head": [
+            "Dernière voyelle avant mi",
+            "Particule",
+            "Exemple"
+          ],
+          "rows": [
+            [
+              "e, i",
+              "mi",
+              "<tur>güzel mi?</tur>"
+            ],
+            [
+              "a, ı",
+              "mı",
+              "<tur>var mı?</tur>"
+            ],
+            [
+              "ö, ü",
+              "mü",
+              "<tur>Türk müsün?</tur>"
+            ],
+            [
+              "o, u",
+              "mu",
+              "<tur>yoruldu mu?</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Les mots interrogatifs (ne, kim, nerede, nasıl, kaç, hangi…) ne demandent PAS mi : <tur>Adın ne?</tur> : jamais « Adın ne mi ? »."
+        }
+      ]
+    },
+    {
+      "id": "alternances",
+      "title": "Alternances consonantiques",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Les consonnes finales « respirent » : elles se durcissent ou s'adoucissent selon ce qui suit. Trois phénomènes à connaître."
+        },
+        {
+          "t": "table",
+          "caption": "Les trois alternances",
+          "head": [
+            "Phénomène",
+            "Règle",
+            "Exemple"
+          ],
+          "rows": [
+            [
+              "Durcissement (sourde)",
+              "d → t après p ç t k s ş f h",
+              "<tur>sokakta</tur>, <tur>işte</tur>"
+            ],
+            [
+              "Adoucissement",
+              "k final → ğ devant voyelle",
+              "<tur>yapacak → yapacağım</tur>, <tur>ayak → ayağı</tur>"
+            ],
+            [
+              "Voisement",
+              "p → b, ç → c, t → d devant voyelle",
+              "<tur>kitap → kitabı</tur>, <tur>ağaç → ağacı</tur>, <tur>kanat → kanadı</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Lis ce que tu vois",
+          "text": "La bonne nouvelle : ces alternances sont <b>écrites</b>, pas cachées. En lisant beaucoup, tu les mémorises comme des images de mots."
+        }
+      ]
+    },
+    {
+      "id": "passe",
+      "title": "Les passés : -di et -miş",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Passé vu (-di) : conjugaison de gelmek",
+          "head": [
+            "Personne",
+            "Turc",
+            "Français"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geldim</tur>",
+              "je suis venu(e)"
+            ],
+            [
+              "sen",
+              "<tur>geldin</tur>",
+              "tu es venu(e)"
+            ],
+            [
+              "o",
+              "<tur>geldi</tur>",
+              "il/elle est venu(e)"
+            ],
+            [
+              "biz",
+              "<tur>geldik</tur>",
+              "nous sommes venus"
+            ],
+            [
+              "siz",
+              "<tur>geldiniz</tur>",
+              "vous êtes venus"
+            ],
+            [
+              "onlar",
+              "<tur>geldiler</tur>",
+              "ils/elles sont venus"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le passé rapporté <b>-miş</b> suit le même schéma (gelmişim, gelmişsin…) et encode la <b>source de l'information</b> : tu n'as pas été témoin, on te l'a raconté : ou tu découvres avec surprise."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Dün Ankara'ya gittim.",
+              "fr": "Hier je suis allé à Ankara. (je le sais, j'y étais)"
+            },
+            {
+              "tr": "Dün Ankara'ya gitmiş.",
+              "fr": "Il serait allé à Ankara hier. (on me l'a dit)"
+            },
+            {
+              "tr": "Ayşe evlenmiş!",
+              "fr": "Ayşe s'est mariée : qui l'eût cru !"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Plus-que-parfait",
+          "text": "En combinant les deux : <tur>gelmışti</tur> = il était venu (miş + di). Le turc empile les temps comme des briques."
+        }
+      ]
+    },
+    {
+      "id": "futur",
+      "title": "Le futur : -ecek / -acak",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Conjugaison de gelmek au futur",
+          "head": [
+            "Personne",
+            "Turc",
+            "Français"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleceğim</tur>",
+              "je viendrai"
+            ],
+            [
+              "sen",
+              "<tur>geleceksin</tur>",
+              "tu viendras"
+            ],
+            [
+              "o",
+              "<tur>gelecek</tur>",
+              "il/elle viendra"
+            ],
+            [
+              "biz",
+              "<tur>geleceğiz</tur>",
+              "nous viendrons"
+            ],
+            [
+              "siz",
+              "<tur>geleceksiniz</tur>",
+              "vous viendrez"
+            ],
+            [
+              "onlar",
+              "<tur>gelecekler</tur>",
+              "ils/elles viendront"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le k de -cek/-cak devient ğ devant la voyelle des personnes : gelecek + im → gelece<b>ğ</b>im. Négation : gel<b>me</b>yeceğim. Question : gelecek misin?"
+        },
+        {
+          "t": "p",
+          "text": "Pour exprimer une intention immédiate, les Turcs utilisent souvent le présent : <tur>Şimdi gidiyorum</tur> (j'y vais maintenant / tout de suite)."
+        }
+      ]
+    },
+    {
+      "id": "postpositions",
+      "title": "Postpositions & connecteurs",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le turc place ses « prépositions » <b>après</b> le nom (d'où leur nom : postpositions). Certaines se collent (-le/-la), d'autres restent des mots."
+        },
+        {
+          "t": "table",
+          "caption": "Les essentielles",
+          "head": [
+            "Turc",
+            "Sens",
+            "Exemple",
+            "Français"
+          ],
+          "rows": [
+            [
+              "<tur>-le / -la</tur> (= ile)",
+              "avec, au moyen de",
+              "<tur>otobüsle</tur>",
+              "en bus"
+            ],
+            [
+              "<tur>için</tur>",
+              "pour, afin de",
+              "<tur>senin için</tur>",
+              "pour toi"
+            ],
+            [
+              "<tur>gibi</tur>",
+              "comme",
+              "<tur>kuş gibi</tur>",
+              "comme un oiseau"
+            ],
+            [
+              "<tur>ile</tur>",
+              "avec (nom)",
+              "<tur>arkadaşım ile</tur>",
+              "avec mon ami"
+            ],
+            [
+              "<tur>kadar</tur>",
+              "jusqu'à, autant que",
+              "<tur>saat beşe kadar</tur>",
+              "jusqu'à cinq heures"
+            ],
+            [
+              "<tur>önce / sonra</tur>",
+              "avant / après",
+              "<tur>yemekten sonra</tur>",
+              "après le repas"
+            ],
+            [
+              "<tur>çünkü</tur>",
+              "parce que",
+              "<tur>yorgunum, çünkü…</tur>",
+              "je suis fatigué parce que…"
+            ],
+            [
+              "<tur>ama / fakat</tur>",
+              "mais",
+              "<tur>ama</tur>",
+              "mais"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Ordre des mots",
+          "text": "Phrase type : Sujet-Complément-Verbe, le verbe ferme presque toujours la phrase : <tur>Ben yarın okula gideceğim.</tur> Mais l'ordre reste flexible : c'est les suffixes qui portent la grammaire, pas la position."
+        }
+      ]
+    }
+  ]
+}

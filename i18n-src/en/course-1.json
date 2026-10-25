@@ -1,0 +1,1153 @@
+{
+  "domain": "course",
+  "fields": "title, subtitle, objectifs, blocks, dialogue.title, dialogue.lines[].fr, vocab[].fr, quiz.q/opts/exp",
+  "start": 0,
+  "end": 4,
+  "items": [
+    {
+      "id": "m1",
+      "num": 1,
+      "level": "A1",
+      "title": "The Turkish alphabet & first words",
+      "subtitle": "Pronounce all 29 letters and greet like a local",
+      "objectifs": [
+        "Know the 29 letters of the Turkish alphabet",
+        "Pronounce ç, ş, ğ, ı, ö, ü correctly",
+        "Read any Turkish word out loud",
+        "Greet people and say thank you"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Good news: Turkish is a <b>phonetic</b> language. Every letter is always pronounced the same way, with no exceptions. Once you have mastered the alphabet, you can read any word, even without understanding it. The Latin alphabet has been used since 1928, following the great letter reform introduced by <b>Atatürk</b>."
+        },
+        {
+          "t": "h",
+          "text": "The 8 vowels"
+        },
+        {
+          "t": "p",
+          "text": "Turkish has 8 vowels. Four will feel familiar (a, e, i as in Spanish, o); four take a little effort."
+        },
+        {
+          "t": "table",
+          "caption": "The Turkish vowels",
+          "head": [
+            "Letter",
+            "Pronunciation (approximate)",
+            "Example"
+          ],
+          "rows": [
+            [
+              "a / e / i / o",
+              "a, e as in « bed », i (short and crisp), o",
+              "<tur>elma</tur> (apple)"
+            ],
+            [
+              "u",
+              "oo as in « boot »",
+              "<tur>okul</tur> (school)"
+            ],
+            [
+              "ı (dotless i)",
+              "a short, unrounded « uh », as in the word « the »",
+              "<tur>ışık</tur> (light)"
+            ],
+            [
+              "ü",
+              "the French « u » (as in « rue »)",
+              "<tur>gül</tur> (rose)"
+            ],
+            [
+              "ö",
+              "the French « eu » (as in « peu »)",
+              "<tur>göz</tur> (eye)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Tip",
+          "text": "Watch out for the classic trap: <b>ı</b> (capital I, no dot) and <b>i</b> (capital İ, with a dot) are two different letters. <tur>kedi</tur> (cat) ≠ <tur>kırmızı</tur> (red)."
+        },
+        {
+          "t": "h",
+          "text": "The consonants that change everything"
+        },
+        {
+          "t": "table",
+          "caption": "Specific consonants",
+          "head": [
+            "Letter",
+            "Pronounced",
+            "Example"
+          ],
+          "rows": [
+            [
+              "ç",
+              "« ch » as in « chair »",
+              "<tur>çay</tur> (tea): chai"
+            ],
+            [
+              "ş",
+              "« sh » as in « ship »",
+              "<tur>şehir</tur> (city): sheh-heer"
+            ],
+            [
+              "c",
+              "« j » as in « jam »",
+              "<tur>cam</tur> (glass): jam"
+            ],
+            [
+              "j",
+              "« zh » as in « measure » (rare)",
+              "<tur>jilet</tur> (razor)"
+            ],
+            [
+              "ğ",
+              "barely pronounced: it lengthens the preceding vowel",
+              "<tur>dağ</tur> (mountain): « daa »"
+            ],
+            [
+              "h",
+              "always aspirated, as in English",
+              "<tur>hava</tur> (air, weather)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The other letters are pronounced roughly as in English, with two small differences: <b>r</b> is rolled, and <b>v</b> is sometimes softer, between « v » and « w ». The <b>y</b> sounds like the « y » in « yogurt »."
+        },
+        {
+          "t": "h",
+          "text": "Read out loud"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Merhaba",
+              "fr": "Hello"
+            },
+            {
+              "tr": "teşekkür ederim",
+              "fr": "Thank you"
+            },
+            {
+              "tr": "günaydın",
+              "fr": "Good morning"
+            },
+            {
+              "tr": "nasılsın?",
+              "fr": "How are you?"
+            },
+            {
+              "tr": "çok güzel",
+              "fr": "Very beautiful / very good"
+            },
+            {
+              "tr": "hoş geldiniz",
+              "fr": "Welcome"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Method",
+          "text": "Listen to each word with the speaker button, then repeat it out loud, copying the rhythm. Turkish has final stress: the stress almost always falls on the <b>last syllable</b>: merhaba (merha-<b>BA</b>), güzel (gu-<b>ZEL</b>), teşekkür (te-şek-<b>KÜR</b>)."
+        }
+      ],
+      "dialogue": {
+        "title": "First meeting",
+        "lines": [
+          {
+            "name": "Elif",
+            "tr": "Merhaba!",
+            "fr": "Hello!"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Merhaba, nasılsın?",
+            "fr": "Hello, how are you?"
+          },
+          {
+            "name": "Elif",
+            "tr": "İyiyim, teşekkür ederim. Sen nasılsın?",
+            "fr": "I'm fine, thank you. And you?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Ben de iyiyim. Adın ne?",
+            "fr": "I'm fine too. What's your name?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Benim adım Elif. Sen?",
+            "fr": "My name is Elif. And you?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Ben Magloire. Memnun oldum!",
+            "fr": "I'm Magloire. Nice to meet you!"
+          },
+          {
+            "name": "Elif",
+            "tr": "Ben de memnun oldum. Görüşürüz!",
+            "fr": "Nice to meet you too. See you soon!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "merhaba",
+          "fr": "hello, hi"
+        },
+        {
+          "tr": "günaydın",
+          "fr": "good morning"
+        },
+        {
+          "tr": "iyi akşamlar",
+          "fr": "good evening"
+        },
+        {
+          "tr": "nasılsın?",
+          "fr": "how are you?"
+        },
+        {
+          "tr": "iyiyim",
+          "fr": "I'm fine"
+        },
+        {
+          "tr": "teşekkür ederim",
+          "fr": "thank you"
+        },
+        {
+          "tr": "memnun oldum",
+          "fr": "pleased to meet you"
+        },
+        {
+          "tr": "görüşürüz",
+          "fr": "see you soon"
+        },
+        {
+          "tr": "çok",
+          "fr": "very"
+        },
+        {
+          "tr": "güzel",
+          "fr": "beautiful, pretty"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "How is the letter « ş » pronounced?",
+          "opts": [
+            "« sh » as in « ship »",
+            "« ch » as in « cheese »",
+            "a hissing « s »",
+            "the French « j »"
+          ],
+          "a": 0,
+          "exp": "ş is pronounced like « sh » in « ship »: şehir = sheh-heer."
+        },
+        {
+          "q": "How many letters does the Turkish alphabet have?",
+          "opts": [
+            "26",
+            "29",
+            "32",
+            "24"
+          ],
+          "a": 1,
+          "exp": "29 letters: the Latin alphabet minus q, w and x, plus ç, ğ, ı, ö, ş and ü."
+        },
+        {
+          "q": "The letter « ğ » (soft g)…",
+          "opts": [
+            "is pronounced like a hard « g »",
+            "lengthens the vowel that comes before it",
+            "is no longer written today",
+            "is pronounced « y »"
+          ],
+          "a": 1,
+          "exp": "dağ is pronounced « daa »: ğ is never a hard g; it stretches the vowel."
+        },
+        {
+          "q": "How is « ı » (dotless i) pronounced?",
+          "opts": [
+            "like the « ee » in « see »",
+            "like a short, unrounded « uh »",
+            "like « y »",
+            "it is silent"
+          ],
+          "a": 1,
+          "exp": "The letter Iı resembles the « e » in « the »: ışık (light) is pronounced « uh-shuk »."
+        },
+        {
+          "q": "What does « teşekkür ederim » mean?",
+          "opts": [
+            "Goodbye",
+            "Please",
+            "Thank you",
+            "Excuse me"
+          ],
+          "a": 2,
+          "exp": "teşekkür ederim = I thank you. Short informal form: sağ ol."
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "num": 2,
+      "level": "A1",
+      "title": "Introducing yourself: I am…",
+      "subtitle": "There is no verb « to be »: it attaches to the end of the word",
+      "objectifs": [
+        "Say your name, your nationality, your job",
+        "Understand the logic of personal suffixes",
+        "Ask « and you? »"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Surprise: in Turkish, <b>there is no verb « to be » in the present tense</b>. To say « I am a student », you attach a small suffix to the end of the noun: <tur>öğrenci</tur> + <b>-im</b> → <tur>öğrenciyim</tur>. The pronoun (ben, sen…) is optional: the suffix already says who is speaking."
+        },
+        {
+          "t": "h",
+          "text": "Conjugating « to be »"
+        },
+        {
+          "t": "table",
+          "caption": "Personal suffixes for « to be »",
+          "head": [
+            "Pronoun",
+            "Suffix",
+            "Example",
+            "Translation"
+          ],
+          "rows": [
+            [
+              "ben (I)",
+              "-im / -ım / -üm / -um",
+              "<tur>öğretmenim</tur>",
+              "I am a teacher"
+            ],
+            [
+              "sen (you, informal)",
+              "-sin / -sın / -sün / -sun",
+              "<tur>öğrencisin</tur>",
+              "you are a student"
+            ],
+            [
+              "o (he/she)",
+              "Ø",
+              "<tur>doktor</tur>",
+              "he/she is a doctor"
+            ],
+            [
+              "biz (we)",
+              "-iz / -ız / -üz / -uz",
+              "<tur>Türküz</tur>",
+              "we are Turkish"
+            ],
+            [
+              "siz (you, formal)",
+              "-siniz / -sınız / -sünüz / -sunuz",
+              "<tur>yorgunsunuz</tur>",
+              "you are tired"
+            ],
+            [
+              "onlar (they)",
+              "Ø (or -ler)",
+              "<tur>öğretmen</tur>",
+              "they are teachers"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Why 4 forms?",
+          "text": "-im, -ım, -üm, -um… the suffix adapts to the last vowel of the word. This is <b>vowel harmony</b>, covered in module 4. For now, learn each word as a single block."
+        },
+        {
+          "t": "h",
+          "text": "Your first name"
+        },
+        {
+          "t": "p",
+          "text": "Two ways to say your name: <tur>Benim adım Elif</tur> (my name is Elif: literally « ad-ım ») or, more simply, <tur>Ben Elif</tur> (me, [it's] Elif). To ask: <tur>Adın ne?</tur> (informal) / <tur>Adınız ne?</tur> (formal)."
+        },
+        {
+          "t": "h",
+          "text": "Nationalities & jobs"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ben Magloire. Fransızım.",
+              "fr": "My name is Magloire. I'm French."
+            },
+            {
+              "tr": "Ben Türküm.",
+              "fr": "I'm Turkish."
+            },
+            {
+              "tr": "Öğretmenim.",
+              "fr": "I'm a teacher."
+            },
+            {
+              "tr": "Mühendisim.",
+              "fr": "I'm an engineer."
+            },
+            {
+              "tr": "Öğrenci misin?",
+              "fr": "Are you a student?"
+            },
+            {
+              "tr": "Evet, öğrenciyim.",
+              "fr": "Yes, I'm a student."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Culture",
+          "text": "The question <tur>nerelisin?</tur> means « where are you from? ». Natural answers: <tur>Fransızım</tur> (I'm French) or <tur>Fransa'dan geliyorum</tur> (I come from France)."
+        }
+      ],
+      "dialogue": {
+        "title": "At the university cafeteria",
+        "lines": [
+          {
+            "name": "Magloire",
+            "tr": "Merhaba! Burada oturabilir miyim?",
+            "fr": "Hello! May I sit here?"
+          },
+          {
+            "name": "Zeynep",
+            "tr": "Tabii, buyurun.",
+            "fr": "Of course, please do."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Benim adım Magloire. Siz öğrenci misiniz?",
+            "fr": "My name is Magloire. Are you a student?"
+          },
+          {
+            "name": "Zeynep",
+            "tr": "Hayır, ben öğretmenim. Fransızca dersleri veriyorum.",
+            "fr": "No, I'm a teacher. I teach French."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Ah, çok güzel! Ben Fransızım, mühendislik öğrencisiyim.",
+            "fr": "Ah, very good! I'm French, an engineering student."
+          },
+          {
+            "name": "Zeynep",
+            "tr": "Hoş geldiniz! Türkçe öğreniyorsunuz, çok başarılısınız.",
+            "fr": "Welcome! You're learning Turkish, and you're very good at it."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Teşekkür ederim!",
+            "fr": "Thank you!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "ben / sen / o",
+          "fr": "I / you / he, she"
+        },
+        {
+          "tr": "biz / siz / onlar",
+          "fr": "we / you / they"
+        },
+        {
+          "tr": "ad",
+          "fr": "first name"
+        },
+        {
+          "tr": "Fransız",
+          "fr": "French"
+        },
+        {
+          "tr": "Türk",
+          "fr": "Turkish"
+        },
+        {
+          "tr": "öğrenci",
+          "fr": "student"
+        },
+        {
+          "tr": "öğretmen",
+          "fr": "teacher"
+        },
+        {
+          "tr": "mühendis",
+          "fr": "engineer"
+        },
+        {
+          "tr": "evet / hayır",
+          "fr": "yes / no"
+        },
+        {
+          "tr": "nerelisin?",
+          "fr": "where are you from?"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "How do you say « I am a student »?",
+          "opts": [
+            "Ben öğrenci olmak",
+            "Öğrenciyim",
+            "Ben öğrenci var",
+            "Öğrenci benim"
+          ],
+          "a": 1,
+          "exp": "öğrenci + -im → öğrenciyim. The pronoun ben is optional."
+        },
+        {
+          "q": "Complete: « Biz Türk… » (we are Turkish)",
+          "opts": [
+            "-im",
+            "-sin",
+            "-üz",
+            "-ler"
+          ],
+          "a": 2,
+          "exp": "Türk + üz → Türküz (the vowel ü harmonises with the ü in Türk)."
+        },
+        {
+          "q": "« Siz öğretmen… » (you are a teacher)",
+          "opts": [
+            "-im",
+            "-siniz",
+            "-sin",
+            "-üz"
+          ],
+          "a": 1,
+          "exp": "For « you » (formal), the suffix is -siniz: öğretmensiniz."
+        },
+        {
+          "q": "What does « Adın ne? » mean?",
+          "opts": [
+            "How old are you?",
+            "What's your name?",
+            "Where do you live?",
+            "What do you do?"
+          ],
+          "a": 1,
+          "exp": "ad (name) + -ın (your) + ne (what): « your name, what? »."
+        },
+        {
+          "q": "With « o » (he/she), the suffix for « to be » is…",
+          "opts": [
+            "-dir, always required",
+            "often nothing at all",
+            "-sin",
+            "-lar"
+          ],
+          "a": 1,
+          "exp": "O doktor is enough. The suffix -dir exists but is very formal/written."
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "num": 3,
+      "level": "A1",
+      "title": "Numbers, age & time",
+      "subtitle": "Count to 1000 and ask for the time",
+      "objectifs": [
+        "Count from 0 to 1000",
+        "Say your age and ask someone else's",
+        "Ask for and tell the time"
+      ],
+      "blocks": [
+        {
+          "t": "h",
+          "text": "Counting"
+        },
+        {
+          "t": "table",
+          "caption": "Basic numbers",
+          "head": [
+            "Number",
+            "Turkish",
+            "Number",
+            "Turkish"
+          ],
+          "rows": [
+            [
+              "0",
+              "<tur>sıfır</tur>",
+              "7",
+              "<tur>yedi</tur>"
+            ],
+            [
+              "1",
+              "<tur>bir</tur>",
+              "8",
+              "<tur>sekiz</tur>"
+            ],
+            [
+              "2",
+              "<tur>iki</tur>",
+              "9",
+              "<tur>dokuz</tur>"
+            ],
+            [
+              "3",
+              "<tur>üç</tur>",
+              "10",
+              "<tur>on</tur>"
+            ],
+            [
+              "4",
+              "<tur>dört</tur>",
+              "20",
+              "<tur>yirmi</tur>"
+            ],
+            [
+              "5",
+              "<tur>beş</tur>",
+              "30",
+              "<tur>otuz</tur>"
+            ],
+            [
+              "6",
+              "<tur>altı</tur>",
+              "40",
+              "<tur>kırk</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The system is <b>completely transparent</b>: 11 = <tur>on bir</tur> (ten-one), 17 = <tur>on yedi</tur>, 23 = <tur>yirmi üç</tur>, 45 = <tur>kırk beş</tur>. And for hundreds: 100 = <tur>yüz</tur>, 1000 = <tur>bin</tur>, so 350 = <tur>üç yüz elli</tur>, 1985 = <tur>bin dokuz yüz seksen beş</tur>."
+        },
+        {
+          "t": "h",
+          "text": "Age"
+        },
+        {
+          "t": "p",
+          "text": "Question: <tur>Kaç yaşındasın?</tur> (how old are you?). Answer: <tur>Yirmi iki yaşındayım</tur> (I am 22 years old). Note the little particle <b>-da-</b> in the middle: « in my twenty-two years »."
+        },
+        {
+          "t": "h",
+          "text": "Time"
+        },
+        {
+          "t": "p",
+          "text": "The magic question: <tur>Saat kaç?</tur> (literally « hour how much? »). Structure: <tur>Saat</tur> + number. Then two useful words: <b>buçuk</b> (half past) and <b>çeyrek</b> (quarter)."
+        },
+        {
+          "t": "table",
+          "caption": "Telling the time",
+          "head": [
+            "Time",
+            "Turkish",
+            "Note"
+          ],
+          "rows": [
+            [
+              "3:00",
+              "<tur>Saat üç.</tur>",
+              "total simplicity"
+            ],
+            [
+              "3:30",
+              "<tur>Saat üç buçuk.</tur>",
+              "buçuk = half past"
+            ],
+            [
+              "5:10",
+              "<tur>Saat beşi on geçiyor.</tur>",
+              "« five-ten passes »: geçiyor = past"
+            ],
+            [
+              "2:50",
+              "<tur>Saat üçe on var.</tur>",
+              "« to three, ten remain »: var = to (the hour)"
+            ],
+            [
+              "11:15",
+              "<tur>Saat on bir çeyrek geçiyor.</tur>",
+              "a quarter past"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Turkish logic",
+          "text": "For « 5:10 », Turkish puts the number in a special case (beş<b>i</b>, üç<b>e</b>): you will understand why in module 10. For now, just memorise the ready-made blocks."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Affedersiniz, saat kaç?",
+              "fr": "Excuse me, what time is it?"
+            },
+            {
+              "tr": "Saat dokuz buçuk.",
+              "fr": "It's half past nine."
+            },
+            {
+              "tr": "Kaç yaşındasın?",
+              "fr": "How old are you?"
+            },
+            {
+              "tr": "Ben yirmi yaşındayım.",
+              "fr": "I'm twenty years old."
+            },
+            {
+              "tr": "Bu kaç lira?",
+              "fr": "How much is this (these books)?"
+            }
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "At the bus stop",
+        "lines": [
+          {
+            "name": "Magloire",
+            "tr": "Affedersiniz, saat kaç oldu?",
+            "fr": "Excuse me, what time is it?"
+          },
+          {
+            "name": "Passant",
+            "tr": "Saat on buçuk oldu.",
+            "fr": "It's half past ten."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Otobüs ne zaman geliyor?",
+            "fr": "When does the bus arrive?"
+          },
+          {
+            "name": "Passant",
+            "tr": "On beşte geliyor. Siz kaç yaşındasınız?",
+            "fr": "It arrives at five past ten. How old are you?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Ben yirmi yaşındayım. Neden sordunuz?",
+            "fr": "I'm twenty. Why do you ask?"
+          },
+          {
+            "name": "Passant",
+            "tr": "Öğrenci bileti var mı diye. Gençlere indirim var!",
+            "fr": "To find out whether you have a student ticket. There's a discount for young people!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "bir … on",
+          "fr": "one … ten"
+        },
+        {
+          "tr": "yirmi … doksan",
+          "fr": "twenty … ninety"
+        },
+        {
+          "tr": "yüz / bin",
+          "fr": "hundred / thousand"
+        },
+        {
+          "tr": "kaç",
+          "fr": "how much / how many"
+        },
+        {
+          "tr": "yaş",
+          "fr": "age, year (of age)"
+        },
+        {
+          "tr": "saat",
+          "fr": "hour, clock"
+        },
+        {
+          "tr": "buçuk",
+          "fr": "half past"
+        },
+        {
+          "tr": "çeyrek",
+          "fr": "quarter"
+        },
+        {
+          "tr": "geç / kala",
+          "fr": "past / to (the hour)"
+        },
+        {
+          "tr": "lira",
+          "fr": "Turkish lira (currency)"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "How do you say 17?",
+          "opts": [
+            "yedi on",
+            "on yedi",
+            "yetmiş",
+            "yedi bir"
+          ],
+          "a": 1,
+          "exp": "10 = on, 7 = yedi: on yedi. Turkish literally says « ten-seven »."
+        },
+        {
+          "q": "« Saat yedi buçuk » means…",
+          "opts": [
+            "7:15",
+            "7:45",
+            "7:30",
+            "7:00"
+          ],
+          "a": 2,
+          "exp": "buçuk = half past: it is half past seven."
+        },
+        {
+          "q": "What does « bin » mean?",
+          "opts": [
+            "100",
+            "1 000",
+            "1 000 000",
+            "10"
+          ],
+          "a": 1,
+          "exp": "bin = thousand. Thousand = bin, a million = milyon."
+        },
+        {
+          "q": "« Kaç yaşındasın? » means…",
+          "opts": [
+            "Where do you live?",
+            "How old are you?",
+            "What do you do?",
+            "How much does it cost?"
+          ],
+          "a": 1,
+          "exp": "yaş = age. Answer: [number] yaşındayım."
+        },
+        {
+          "q": "« Saat üçe on var » means…",
+          "opts": [
+            "3:10",
+            "2:50",
+            "3:50",
+            "10:03"
+          ],
+          "a": 1,
+          "exp": "var = « there remains »: ten minutes remain until three → 2:50."
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "num": 4,
+      "level": "A1",
+      "title": "Vowel harmony",
+      "subtitle": "THE golden rule that explains 80% of Turkish grammar",
+      "objectifs": [
+        "Sort the vowels into two families",
+        "Choose between a/e and i/ı/ü/u in a suffix",
+        "Apply the rule automatically"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Here is the most valuable concept in all of Turkish. Vowels fall into <b>two families</b>: so-called « back » vowels and « front » vowels. The rule: <b>suffixes copy the family of the word's last vowel</b>. This is vowel harmony (<tur>ünlü uyumu</tur>): the language « sings » while staying consistent from start to finish."
+        },
+        {
+          "t": "table",
+          "caption": "The two vowel families",
+          "head": [
+            "BACK family",
+            "FRONT family"
+          ],
+          "rows": [
+            [
+              "a, ı, o, u",
+              "e, i, ö, ü"
+            ],
+            [
+              "mouth rounded towards the back",
+              "mouth towards the front"
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Two-vowel harmony: a or e"
+        },
+        {
+          "t": "p",
+          "text": "Some suffixes choose only between <b>a</b> and <b>e</b> (the plural, for example). If the word's last vowel is a back vowel → <b>a</b>; otherwise → <b>e</b>."
+        },
+        {
+          "t": "table",
+          "caption": "The plural -ler / -lar",
+          "head": [
+            "Word",
+            "Last vowel",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "<tur>ev</tur> (house)",
+              "e → front",
+              "<tur>evler</tur>"
+            ],
+            [
+              "<tur>masa</tur> (table)",
+              "a → back",
+              "<tur>masalar</tur>"
+            ],
+            [
+              "<tur>köprü</tur> (bridge)",
+              "ü → front",
+              "<tur>köprüler</tur>"
+            ],
+            [
+              "<tur>kitap</tur> (book)",
+              "a → back",
+              "<tur>kitaplar</tur>"
+            ],
+            [
+              "<tur>göz</tur> (eye)",
+              "ö → front",
+              "<tur>gözler</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Four-vowel harmony: i, ı, ü or u"
+        },
+        {
+          "t": "p",
+          "text": "Other suffixes (such as -im « I am ») have 4 variants. The rule stays the same: look at the word's last vowel and copy its family and its rounding."
+        },
+        {
+          "t": "table",
+          "caption": "The suffix -im (I am…)",
+          "head": [
+            "Last vowel of the word",
+            "Suffix",
+            "Example"
+          ],
+          "rows": [
+            [
+              "e or i",
+              "-im",
+              "<tur>öğretmenim</tur> (I am a teacher)"
+            ],
+            [
+              "a or ı",
+              "-ım",
+              "<tur>hastayım</tur> (I am ill: with buffer y)"
+            ],
+            [
+              "ö or ü",
+              "-üm",
+              "<tur>Türküm</tur> (I am Turkish)"
+            ],
+            [
+              "o or u",
+              "-um",
+              "<tur>varım</tur> (I exist)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "warn",
+          "tag": "Buffer",
+          "text": "If the word ends in a vowel, a « buffer » consonant comes in between: <tur>hasta</tur> + -ım → hasta<b>y</b>ım (I am ill), <tur>öğrenci</tur> + -im → öğrenci<b>y</b>im (I am a student). Remember: final vowel → buffer y."
+        },
+        {
+          "t": "h",
+          "text": "Your three-second method"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "<b>1.</b> Find the word's <b>last vowel</b> (ignore final consonants).",
+            "<b>2.</b> Back family (a ı o u) → choose the « dark » variant of the suffix (a, ı, u).",
+            "<b>3.</b> Front family (e i ö ü) → choose the « light » variant (e, i, ü)."
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "okul + lar → okullar",
+              "fr": "the schools (u → back → lar)"
+            },
+            {
+              "tr": "şehir + ler → şehirler",
+              "fr": "the cities (i → front → ler)"
+            },
+            {
+              "tr": "kadın + lar → kadınlar",
+              "fr": "the women (ı → back → lar)"
+            },
+            {
+              "tr": "gül + ler → güller",
+              "fr": "the roses (ü → front → ler)"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Don't worry",
+          "text": "Even Turkish speakers apply this rule without thinking: it has become an auditory reflex. After a few days of practice, you will « hear » which suffix sounds right. This is the most valuable module in the course: everything that follows (cases, tenses, possessives) follows this mechanism."
+        }
+      ],
+      "dialogue": {
+        "title": "Turkish class: « evler » or « evlar »?",
+        "lines": [
+          {
+            "name": "Magloire",
+            "tr": "Öğretmenim, bir sorum var. « Evlar » mı, « evler » mi?",
+            "fr": "Teacher, I have a question. « Evlar » or « evler »?"
+          },
+          {
+            "name": "Öğretmen",
+            "tr": "« Evler ». Çünkü « ev » içinde « e » var. « e » önde bir ünlü.",
+            "fr": "« Evler ». Because there is an « e » in « ev ». The « e » is a front vowel."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Peki « masa »? « Masalar » mı?",
+            "fr": "And « masa »? Is it « masalar »?"
+          },
+          {
+            "name": "Öğretmen",
+            "tr": "Aferin! « a » arkada, o yüzden « masalar ».",
+            "fr": "Well done! The « a » is a back vowel, so « masalar »."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Köprü? « Köprüler »?",
+            "fr": "Köprü? « Köprüler »?"
+          },
+          {
+            "name": "Öğretmen",
+            "tr": "Çok doğru! Artık kuralı biliyorsun.",
+            "fr": "Perfect! Now you know the rule."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "ünlü",
+          "fr": "vowel"
+        },
+        {
+          "tr": "ünsüz",
+          "fr": "consonant"
+        },
+        {
+          "tr": "arka",
+          "fr": "back"
+        },
+        {
+          "tr": "ön / önde",
+          "fr": "front / at the front"
+        },
+        {
+          "tr": "kural",
+          "fr": "rule"
+        },
+        {
+          "tr": "çünkü",
+          "fr": "because"
+        },
+        {
+          "tr": "o yüzden",
+          "fr": "that's why"
+        },
+        {
+          "tr": "aferin!",
+          "fr": "well done!"
+        },
+        {
+          "tr": "yüzünden",
+          "fr": "because of"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« kalem » (pencil) in the plural?",
+          "opts": [
+            "kalem-lar",
+            "kalem-ler",
+            "kalem-lır",
+            "kalem-lor"
+          ],
+          "a": 1,
+          "exp": "Last vowel = e (front) → -ler: kalemler."
+        },
+        {
+          "q": "« okul » (school) in the plural?",
+          "opts": [
+            "okuller",
+            "okullar",
+            "okullır",
+            "okulnur"
+          ],
+          "a": 1,
+          "exp": "u = back → -lar: okullar."
+        },
+        {
+          "q": "Which of these vowels belongs to the FRONT family?",
+          "opts": [
+            "ı",
+            "u",
+            "ü",
+            "o"
+          ],
+          "a": 2,
+          "exp": "Front = e, i, ö, ü. Back = a, ı, o, u."
+        },
+        {
+          "q": "« güzelller »… which spelling is correct?",
+          "opts": [
+            "güzeller",
+            "güzallar",
+            "güzullur",
+            "güzelar"
+          ],
+          "a": 0,
+          "exp": "final e (front) → güzeller. The suffix copies only the LAST vowel."
+        },
+        {
+          "q": "The suffix agrees with…",
+          "opts": [
+            "the first vowel of the word",
+            "the last vowel of the word",
+            "the number of syllables",
+            "the final consonant"
+          ],
+          "a": 1,
+          "exp": "Only the last vowel: it is the one that controls harmony."
+        }
+      ]
+    }
+  ]
+}

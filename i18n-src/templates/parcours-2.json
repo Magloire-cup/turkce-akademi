@@ -1,0 +1,1128 @@
+{
+  "domain": "parcours",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 7,
+  "end": 14,
+  "items": [
+    {
+      "id": "u8",
+      "num": 8,
+      "level": "A2",
+      "title": "Parler du futur",
+      "goal": "Employer le futur -ecek, parler de la météo et des projets.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le futur se forme avec <b>-ecek / -acak</b>, selon l'harmonie vocalique. À la première personne, le k devient ğ : <tur>geleceğim</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "gelmek (venir) au futur",
+          "head": [
+            "Personne",
+            "Forme",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleceğim</tur>",
+              "je viendrai"
+            ],
+            [
+              "sen",
+              "<tur>geleceksin</tur>",
+              "tu viendras"
+            ],
+            [
+              "o",
+              "<tur>gelecek</tur>",
+              "il / elle viendra"
+            ],
+            [
+              "biz",
+              "<tur>geleceğiz</tur>",
+              "nous viendrons"
+            ],
+            [
+              "siz",
+              "<tur>geleceksiniz</tur>",
+              "vous viendrez"
+            ],
+            [
+              "onlar",
+              "<tur>gelecekler</tur>",
+              "ils / elles viendront"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Négation et question",
+          "text": "Négatif : <tur>gelmeyeceğim</tur> (je ne viendrai pas). Question : <tur>gelecek misin?</tur> (Viendras-tu ?)."
+        },
+        {
+          "t": "table",
+          "caption": "Météo et points cardinaux",
+          "head": [
+            "Turc",
+            "Français"
+          ],
+          "rows": [
+            [
+              "<tur>güneşli</tur>",
+              "ensoleillé"
+            ],
+            [
+              "<tur>bulutlu</tur>",
+              "nuageux"
+            ],
+            [
+              "<tur>yağmurlu</tur>",
+              "pluvieux"
+            ],
+            [
+              "<tur>rüzgarlı</tur>",
+              "venteux"
+            ],
+            [
+              "<tur>kuzey / güney</tur>",
+              "nord / sud"
+            ],
+            [
+              "<tur>doğu / batı</tur>",
+              "est / ouest"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Yarın İstanbul'a gideceğim.",
+              "fr": "Demain, j'irai à Istanbul."
+            },
+            {
+              "tr": "Hava yarın yağmurlu olacak.",
+              "fr": "Il pleuvra demain."
+            },
+            {
+              "tr": "Gelecek yaz Türkçe öğreneceğim.",
+              "fr": "L'été prochain, j'apprendrai le turc."
+            },
+            {
+              "tr": "Ne zaman döneceksin?",
+              "fr": "Quand reviendras-tu ?"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Repères du futur",
+          "text": "<tur>yarın</tur> (demain), <tur>gelecek hafta</tur> (la semaine prochaine), <tur>bir saat sonra</tur> (dans une heure), <tur>yakında</tur> (bientôt)."
+        }
+      ],
+      "vocab": [
+        [
+          "gelecek",
+          "futur, prochain"
+        ],
+        [
+          "yarın",
+          "demain"
+        ],
+        [
+          "hava",
+          "temps, météo"
+        ],
+        [
+          "yağmur",
+          "pluie"
+        ],
+        [
+          "kar",
+          "neige"
+        ],
+        [
+          "güneş",
+          "soleil"
+        ],
+        [
+          "rüzgar",
+          "vent"
+        ],
+        [
+          "sıcak",
+          "chaud"
+        ],
+        [
+          "soğuk",
+          "froid"
+        ],
+        [
+          "dönmek",
+          "revenir"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dit-on « j'irai » ?",
+          "options": [
+            "gideceğim",
+            "gidiyorum",
+            "gittim"
+          ],
+          "a": 0,
+          "why": "Futur de gitmek à la première personne : git- + -ecek + -im, avec k → ğ : gideceğim."
+        },
+        {
+          "q": "Quelle phrase annonce « il pleuvra » ?",
+          "options": [
+            "Yağmur yağacak.",
+            "Yağmur yağıyor.",
+            "Yağmur yağdı."
+          ],
+          "a": 0,
+          "why": "Le futur de yağmak est yağacak : « il pleuvra »."
+        }
+      ]
+    },
+    {
+      "id": "u9",
+      "num": 9,
+      "level": "A2",
+      "title": "L'objet défini",
+      "goal": "Employer l'accusatif, distinguer objet défini et indéfini, et placer les mots.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "L'<b>accusatif</b> marque le complément d'objet direct quand celui-ci est défini (connu, précisé, déjà mentionné). Il se forme avec <b>-(y)ı / -i / -u / -ü</b>. Un objet indéfini reste sans suffixe."
+        },
+        {
+          "t": "table",
+          "caption": "Former l'accusatif",
+          "head": [
+            "Mot",
+            "Accusatif",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "<tur>ev</tur>",
+              "<tur>evi</tur>",
+              "la maison"
+            ],
+            [
+              "<tur>okul</tur>",
+              "<tur>okulu</tur>",
+              "l'école"
+            ],
+            [
+              "<tur>kitap</tur>",
+              "<tur>kitabı</tur>",
+              "le livre"
+            ],
+            [
+              "<tur>masa</tur>",
+              "<tur>masayı</tur>",
+              "la table"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Défini ou indéfini ?",
+          "text": "<tur>Kitabı okudum.</tur> = j'ai lu le livre (précis). <tur>Bir kitap okudum.</tur> = j'ai lu un livre. Le suffixe change le sens et l'attention du locuteur."
+        },
+        {
+          "t": "table",
+          "caption": "Pronoms objets",
+          "head": [
+            "Sujet",
+            "Objet",
+            "Exemple"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>beni</tur>",
+              "<tur>Beni anlıyor musun?</tur>"
+            ],
+            [
+              "sen",
+              "<tur>seni</tur>",
+              "<tur>Seni dün gördüm.</tur>"
+            ],
+            [
+              "o",
+              "<tur>onu</tur>",
+              "<tur>Onu tanıyorum.</tur>"
+            ],
+            [
+              "biz",
+              "<tur>bizi</tur>",
+              "<tur>Bizi davet ettiler.</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Kitabı okudum.",
+              "fr": "J'ai lu le livre."
+            },
+            {
+              "tr": "Bir kitap okudum.",
+              "fr": "J'ai lu un livre."
+            },
+            {
+              "tr": "Beni anlıyor musun?",
+              "fr": "Me comprends-tu ?"
+            },
+            {
+              "tr": "Mehmet'e anahtarı verdim.",
+              "fr": "J'ai donné la clé à Mehmet."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Ordre des mots",
+          "text": "L'ordre neutre est <b>Sujet – Objet – Verbe</b> (SOV). On peut déplacer un élément en tête pour le mettre en relief, mais le verbe reste généralement en fin de phrase."
+        }
+      ],
+      "vocab": [
+        [
+          "kitap",
+          "livre"
+        ],
+        [
+          "anahtar",
+          "clé"
+        ],
+        [
+          "hediye",
+          "cadeau"
+        ],
+        [
+          "görmek",
+          "voir"
+        ],
+        [
+          "vermek",
+          "donner"
+        ],
+        [
+          "almak",
+          "prendre, acheter"
+        ],
+        [
+          "anlamak",
+          "comprendre"
+        ],
+        [
+          "unutmak",
+          "oublier"
+        ],
+        [
+          "tanımak",
+          "connaître"
+        ],
+        [
+          "davet etmek",
+          "inviter"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « J'ai vu la maison » ?",
+          "options": [
+            "Evi gördüm.",
+            "Ev gördüm.",
+            "Eve gördüm."
+          ],
+          "a": 0,
+          "why": "La maison est un objet défini : ev + i = evi, placé avant le verbe."
+        },
+        {
+          "q": "Quel est le pronom objet de « ben » ?",
+          "options": [
+            "beni",
+            "bana",
+            "benim"
+          ],
+          "a": 0,
+          "why": "L'accusatif de ben est beni ; bana est le datif et benim le génitif."
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "num": 10,
+      "level": "A2",
+      "title": "Habitudes et politesse",
+      "goal": "Parler de ses habitudes, faire une demande polie et évoquer le passé récurrent.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le <b>présent simple</b> (ou présent d'habitude) se forme avec <b>-ir / -ır / -ur / -ür</b>, ou simplement <b>-r</b> après une voyelle. Il décrit ce qui se répète, une vérité générale ou un goût."
+        },
+        {
+          "t": "table",
+          "caption": "gelmek (venir) au présent simple",
+          "head": [
+            "Personne",
+            "Affirmatif",
+            "Négatif"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gelirim</tur>",
+              "<tur>gelmem</tur>"
+            ],
+            [
+              "sen",
+              "<tur>gelirsin</tur>",
+              "<tur>gelmezsin</tur>"
+            ],
+            [
+              "o",
+              "<tur>gelir</tur>",
+              "<tur>gelmez</tur>"
+            ],
+            [
+              "biz",
+              "<tur>geliriz</tur>",
+              "<tur>gelmeyiz</tur>"
+            ],
+            [
+              "siz",
+              "<tur>gelirsiniz</tur>",
+              "<tur>gelmezsiniz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>gelirler</tur>",
+              "<tur>gelmezler</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le <b>passé d'habitude</b> ajoute <b>-erdi / -ardı</b> : <tur>gelirdim</tur> (je venais, j'avais l'habitude de venir). Il sert aux souvenirs répétés : <tur>Çocukken her yaz köye giderdik.</tur>"
+        },
+        {
+          "t": "p",
+          "text": "Pour une demande polie, on utilise le présent simple + <tur>mi</tur> : <tur>Bana yardım eder misiniz?</tur> (Pourriez-vous m'aider ?), <tur>Bir dakika bekler misiniz?</tur> (Pourriez-vous patienter un instant ?). Pour offrir : <tur>Çay ister misiniz?</tur> (Voulez-vous du thé ?)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Her sabah erken kalkarım.",
+              "fr": "Je me lève tôt chaque matin."
+            },
+            {
+              "tr": "Genellikle otobüsle işe giderim.",
+              "fr": "Je vais généralement au travail en bus."
+            },
+            {
+              "tr": "Çocukken her yaz köye giderdik.",
+              "fr": "Enfant, nous allions au village chaque été."
+            },
+            {
+              "tr": "Bana yardım eder misin?",
+              "fr": "Peux-tu m'aider ?"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Fréquence",
+          "text": "<tur>her zaman</tur> (toujours), <tur>genellikle</tur> (généralement), <tur>sık sık</tur> (souvent), <tur>bazen</tur> (parfois), <tur>nadiren</tur> (rarement), <tur>asla</tur> (jamais)."
+        }
+      ],
+      "vocab": [
+        [
+          "kalkmak",
+          "se lever"
+        ],
+        [
+          "yürümek",
+          "marcher"
+        ],
+        [
+          "otobüs",
+          "bus"
+        ],
+        [
+          "erken",
+          "tôt"
+        ],
+        [
+          "geç",
+          "tard"
+        ],
+        [
+          "her gün",
+          "chaque jour"
+        ],
+        [
+          "sık sık",
+          "souvent"
+        ],
+        [
+          "bazen",
+          "parfois"
+        ],
+        [
+          "asla",
+          "jamais"
+        ],
+        [
+          "beklemek",
+          "attendre"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dit-on « je me lève tôt » ?",
+          "options": [
+            "Erken kalkarım",
+            "Erken kalkıyorum",
+            "Erken kalktım"
+          ],
+          "a": 0,
+          "why": "Une habitude se rend au présent simple : kalk- + -ar + -ım = kalkarım."
+        },
+        {
+          "q": "Que signifie « giderdik » ?",
+          "options": [
+            "nous allions (habituellement)",
+            "nous irons",
+            "nous sommes allés"
+          ],
+          "a": 0,
+          "why": "-erdi/-ardı exprime une habitude passée : giderdik = nous avions l'habitude d'aller."
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "num": 11,
+      "level": "B1",
+      "title": "Relier les idées",
+      "goal": "Former des relatives avec les participes -en, -dik et -ecek, et rapporter des propos.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le turc relie les idées avec des <b>participes</b> placés avant le nom, sans pronom relatif séparé. Le suffixe <b>-en / -an</b> correspond à « qui » au présent : <tur>çalışan adam</tur> (l'homme qui travaille)."
+        },
+        {
+          "t": "table",
+          "caption": "Trois participes utiles",
+          "head": [
+            "Forme",
+            "Exemple",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "-en / -an",
+              "<tur>bekleyen kadın</tur>",
+              "la femme qui attend"
+            ],
+            [
+              "-dik / -dık",
+              "<tur>aldığım kitap</tur>",
+              "le livre que j'ai acheté"
+            ],
+            [
+              "-ecek / -acak",
+              "<tur>gideceğimiz otel</tur>",
+              "l'hôtel où nous irons"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Possessif dans le participe",
+          "text": "Avec -dik et -ecek, le suffixe possessif indique qui fait l'action : <tur>aldığım</tur> (que j'ai acheté), <tur>aldığın</tur> (que tu as acheté), <tur>aldığı</tur> (qu'il a acheté), <tur>aldığımız</tur> (que nous avons acheté)."
+        },
+        {
+          "t": "p",
+          "text": "Pour rapporter des paroles, on peut citer directement : <tur>Ali « Yarın geleceğim » dedi.</tur> Ou intégrer la proposition : <tur>Ali yarın geleceğini söyledi.</tur> (Ali a dit qu'il viendrait demain.)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Kütüphanede çalışan öğrenci benim arkadaşım.",
+              "fr": "L'étudiant qui travaille à la bibliothèque est mon ami."
+            },
+            {
+              "tr": "Dün aldığım kitap çok güzel.",
+              "fr": "Le livre que j'ai acheté hier est très beau."
+            },
+            {
+              "tr": "Gideceğimiz otel deniz kenarında.",
+              "fr": "L'hôtel où nous irons est au bord de la mer."
+            },
+            {
+              "tr": "Ali yarın geleceğini söyledi.",
+              "fr": "Ali a dit qu'il viendrait demain."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Méthode",
+          "text": "Pour traduire une relative française, commence par le nom, puis place l'action au participe devant lui, et ajoute le possessif si nécessaire. <tur>Le train qui arrive</tur> → <tur>gelen tren</tur>."
+        }
+      ],
+      "vocab": [
+        [
+          "beklemek",
+          "attendre"
+        ],
+        [
+          "tanımak",
+          "connaître"
+        ],
+        [
+          "arkadaş",
+          "ami"
+        ],
+        [
+          "otel",
+          "hôtel"
+        ],
+        [
+          "deniz",
+          "mer"
+        ],
+        [
+          "kenar",
+          "bord"
+        ],
+        [
+          "söylemek",
+          "dire"
+        ],
+        [
+          "duymak",
+          "entendre"
+        ],
+        [
+          "gelen",
+          "qui vient"
+        ],
+        [
+          "aldığım",
+          "que j'ai acheté"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « le livre que j'ai acheté » ?",
+          "options": [
+            "aldığım kitap",
+            "alan kitap",
+            "alacağım kitap"
+          ],
+          "a": 0,
+          "why": "Le participe -dik avec le possessif de la première personne donne aldığım."
+        },
+        {
+          "q": "Que signifie « çalışan adam » ?",
+          "options": [
+            "l'homme qui travaille",
+            "l'homme qui a travaillé",
+            "l'homme qui travaillera"
+          ],
+          "a": 0,
+          "why": "-en/-an est le participe présent : çalışan = qui travaille."
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "num": 12,
+      "level": "B1",
+      "title": "Le passé indéfini",
+      "goal": "Employer -miş, rapporter une information non vérifiée et situer avec les postpositions.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le suffixe <b>-miş / -mış / -muş / -müş</b> marque un passé <b>indirect</b> : information rapportée, découverte, conte ou événement dont on n'a pas été témoin. En français, on le rend par « il paraît que », « apparemment » ou « il se trouve que »."
+        },
+        {
+          "t": "table",
+          "caption": "gelmek au passé indéfini",
+          "head": [
+            "Personne",
+            "Forme",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gelmişim</tur>",
+              "il paraît que je suis venu"
+            ],
+            [
+              "sen",
+              "<tur>gelmişsin</tur>",
+              "il paraît que tu es venu"
+            ],
+            [
+              "o",
+              "<tur>gelmiş</tur>",
+              "il / elle serait venu(e)"
+            ],
+            [
+              "biz",
+              "<tur>gelmişiz</tur>",
+              "nous serions venus"
+            ],
+            [
+              "siz",
+              "<tur>gelmişsiniz</tur>",
+              "vous seriez venus"
+            ],
+            [
+              "onlar",
+              "<tur>gelmişler</tur>",
+              "ils / elles seraient venus"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Négation et question",
+          "text": "Négatif : <tur>gelmemişim</tur> (il paraît que je ne suis pas venu). Question : <tur>gelmiş mi?</tur> (Serait-il venu ?)."
+        },
+        {
+          "t": "p",
+          "text": "Les <b>postpositions de lieu</b> se construisent avec le génitif : <tur>masanın üstünde</tur> (sur la table), <tur>kapının yanında</tur> (à côté de la porte), <tur>evin önünde</tur> (devant la maison), <tur>arabanın arkasında</tur> (derrière la voiture)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ali eve gelmiş.",
+              "fr": "Apparemment, Ali est rentré à la maison."
+            },
+            {
+              "tr": "Ayşe yeni bir iş bulmuş.",
+              "fr": "Il paraît qu'Ayşe a trouvé un nouveau travail."
+            },
+            {
+              "tr": "Kitabım masanın üstünde.",
+              "fr": "Mon livre est sur la table."
+            },
+            {
+              "tr": "Duyduğuma göre hava yarın düzelecek.",
+              "fr": "D'après ce que j'ai entendu, le temps va s'améliorer demain."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Ne pas confondre",
+          "text": "<tur>Geldi</tur> = je l'ai vu venir, j'en suis témoin. <tur>Gelmiş</tur> = on me l'a dit, je le déduis. Le choix du suffixe change la source de l'information."
+        }
+      ],
+      "vocab": [
+        [
+          "duymak",
+          "entendre"
+        ],
+        [
+          "bulmak",
+          "trouver"
+        ],
+        [
+          "hasta",
+          "malade"
+        ],
+        [
+          "haber",
+          "nouvelle"
+        ],
+        [
+          "üst",
+          "dessus"
+        ],
+        [
+          "alt",
+          "dessous"
+        ],
+        [
+          "yan",
+          "côté"
+        ],
+        [
+          "arka",
+          "arrière"
+        ],
+        [
+          "karşı",
+          "en face"
+        ],
+        [
+          "göre",
+          "selon"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Quelle phrase signifie « il paraît qu'il est venu » ?",
+          "options": [
+            "Gelmiş",
+            "Geldi",
+            "Geliyor"
+          ],
+          "a": 0,
+          "why": "-miş marque le passé indirect, non témoigné : gelmiş."
+        },
+        {
+          "q": "Comment dire « sur la table » ?",
+          "options": [
+            "masanın üstünde",
+            "masaya",
+            "masadan"
+          ],
+          "a": 0,
+          "why": "La postposition üstünde exige le génitif : masanın üstünde."
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "num": 13,
+      "level": "B1",
+      "title": "Conditions et souhaits",
+      "goal": "Formuler des hypothèses avec -se, exprimer un regret avec keşke.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le <b>conditionnel</b> se forme avec <b>-se / -sa</b> suivi des marques de personne : <tur>gelsem</tur> (si je venais), <tur>gelsen</tur> (si tu venais). La condition réelle utilise souvent le présent ou le futur dans la proposition principale."
+        },
+        {
+          "t": "table",
+          "caption": "Le conditionnel de gelmek",
+          "head": [
+            "Personne",
+            "Forme",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>gelsem</tur>",
+              "si je venais"
+            ],
+            [
+              "sen",
+              "<tur>gelsen</tur>",
+              "si tu venais"
+            ],
+            [
+              "o",
+              "<tur>gelse</tur>",
+              "s'il / elle venait"
+            ],
+            [
+              "biz",
+              "<tur>gelsek</tur>",
+              "si nous venions"
+            ],
+            [
+              "siz",
+              "<tur>gelseniz</tur>",
+              "si vous veniez"
+            ],
+            [
+              "onlar",
+              "<tur>gelseler</tur>",
+              "s'ils / elles venaient"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<tur>Eğer</tur> (si) est facultatif. Pour une hypothèse irréelle ou un regret, on combine -se avec le passé <b>-ydi</b> : <tur>Param olsaydı yeni bir araba alırdım.</tur> (Si j'avais de l'argent, j'achèterais une nouvelle voiture.)."
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Hypothèse irréelle",
+          "text": "Le schéma complet est <tur>-seydi</tur> + <tur>-erdi</tur> : <tur>Daha erken çıksaydık trene yetişirdik.</tur> (Si nous étions partis plus tôt, nous aurions attrapé le train.). À la forme négative : <tur>söylemeseydim</tur> (si je ne l'avais pas dit) : <tur>Keşke ona söylemeseydim.</tur>"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Keşke",
+          "text": "<tur>Keşke</tur> signifie « si seulement ». Il appelle souvent le conditionnel passé : <tur>Keşke daha erken gelseydim.</tur> (Si seulement j'étais venu plus tôt.), <tur>Keşke Türkçe konuşabilseydim.</tur> (Si seulement je savais parler turc.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Yarın hava güzel olursa parka gideriz.",
+              "fr": "S'il fait beau demain, nous irons au parc."
+            },
+            {
+              "tr": "Eğer gelirsen beni ara.",
+              "fr": "Si tu viens, appelle-moi."
+            },
+            {
+              "tr": "Param olsaydı yeni bir araba alırdım.",
+              "fr": "Si j'avais de l'argent, j'achèterais une voiture neuve."
+            },
+            {
+              "tr": "Keşke daha erken gelseydim.",
+              "fr": "Si seulement j'étais venu plus tôt."
+            },
+            {
+              "tr": "Daha erken çıksaydık trene yetişirdik.",
+              "fr": "Si nous étions partis plus tôt, nous aurions attrapé le train."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Famille",
+          "text": "<tur>anne</tur> (mère), <tur>baba</tur> (père), <tur>kardeş</tur> (frère ou sœur), <tur>eş</tur> (conjoint), <tur>çocuk</tur> (enfant), <tur>evli</tur> (marié), <tur>bekar</tur> (célibataire)."
+        }
+      ],
+      "vocab": [
+        [
+          "eğer",
+          "si"
+        ],
+        [
+          "keşke",
+          "si seulement"
+        ],
+        [
+          "şart",
+          "condition"
+        ],
+        [
+          "aile",
+          "famille"
+        ],
+        [
+          "evli",
+          "marié"
+        ],
+        [
+          "bekar",
+          "célibataire"
+        ],
+        [
+          "anne",
+          "mère"
+        ],
+        [
+          "baba",
+          "père"
+        ],
+        [
+          "kardeş",
+          "frère, sœur"
+        ],
+        [
+          "çocuk",
+          "enfant"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « si tu viens » ?",
+          "options": [
+            "gelirsen",
+            "gelsem",
+            "gelsen"
+          ],
+          "a": 0,
+          "why": "La condition réelle avec sen se forme avec -irsen : gelirsen."
+        },
+        {
+          "q": "Que signifie « Keşke bilseydim » ?",
+          "options": [
+            "Si seulement j'avais su",
+            "Je sais",
+            "Je saurai"
+          ],
+          "a": 0,
+          "why": "Keşke + conditionnel passé exprime le regret : « si seulement j'avais su »."
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "num": 14,
+      "level": "B1",
+      "title": "Devoir, nécessité, goûts",
+      "goal": "Exprimer l'obligation, la nécessité et parler de ce qu'on aime faire.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Pour parler d'une activité en général, on utilise le <b>nom verbal</b> : <tur>-mek / -mak</tur>, ou <tur>-me / -ma</tur> lorsqu'il porte un suffixe de cas : <tur>yüzmek</tur> (nager), <tur>yüzmeyi seviyorum</tur> (j'aime nager)."
+        },
+        {
+          "t": "table",
+          "caption": "Exprimer l'obligation et la nécessité",
+          "head": [
+            "Structure",
+            "Exemple",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "-meli / -malı",
+              "<tur>Gitmeliyim.</tur>",
+              "Je dois partir."
+            ],
+            [
+              "-meliydi / -malıydı",
+              "<tur>Gitmeliydim.</tur>",
+              "J'aurais dû partir."
+            ],
+            [
+              "-memeli / -mamalı",
+              "<tur>Gitmemelisin.</tur>",
+              "Tu ne dois pas partir."
+            ],
+            [
+              "-mek zorunda",
+              "<tur>Çalışmak zorundayım.</tur>",
+              "Je suis obligé de travailler."
+            ],
+            [
+              "-meye ihtiyaç",
+              "<tur>Su içmeye ihtiyacım var.</tur>",
+              "J'ai besoin de boire de l'eau."
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Nuance",
+          "text": "<b>-meli</b> exprime une obligation personnelle, un conseil ou une déduction (« je dois », « il faut que »). <b>zorunda</b> insiste sur une contrainte extérieure. <b>ihtiyaç</b> parle d'un besoin. Au passé, <tur>-meliydi</tur> exprime le regret d'une obligation non remplie : <tur>Daha erken kalkmalıydım.</tur> (J'aurais dû me lever plus tôt.)"
+        },
+        {
+          "t": "p",
+          "text": "Pour les goûts : <tur>sevmek</tur> (aimer), <tur>hoşlanmak</tur> (apprécier), <tur>nefret etmek</tur> (détester). L'activité aimée prend <b>-meyi / -mayı</b> : <tur>Yürümeyi seviyorum.</tur>"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Yürümeyi seviyorum.",
+              "fr": "J'aime marcher."
+            },
+            {
+              "tr": "Bugün erken kalkmalıyım.",
+              "fr": "Je dois me lever tôt aujourd'hui."
+            },
+            {
+              "tr": "Otobüse binmek zorundayız.",
+              "fr": "Nous sommes obligés de prendre le bus."
+            },
+            {
+              "tr": "Gürültü yapmamalısın.",
+              "fr": "Tu ne dois pas faire de bruit."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "À toi",
+          "text": "Compose trois phrases : une obligation avec -meli, une contrainte avec zorunda, et un goût avec -meyi sevmek. Dis-les à voix haute pour ancrer le rythme."
+        }
+      ],
+      "vocab": [
+        [
+          "yürümek",
+          "marcher"
+        ],
+        [
+          "yüzmek",
+          "nager"
+        ],
+        [
+          "gürültü",
+          "bruit"
+        ],
+        [
+          "zorunda",
+          "obligé"
+        ],
+        [
+          "ihtiyaç",
+          "besoin"
+        ],
+        [
+          "nefret etmek",
+          "détester"
+        ],
+        [
+          "hoşlanmak",
+          "apprécier"
+        ],
+        [
+          "sevmek",
+          "aimer"
+        ],
+        [
+          "binmek",
+          "monter dans"
+        ],
+        [
+          "dinlenmek",
+          "se reposer"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « Je dois partir » ?",
+          "options": [
+            "Gitmeliyim",
+            "Gidiyorum",
+            "Gittim"
+          ],
+          "a": 0,
+          "why": "L'obligation se marque avec -meli : git- + -meli + -yim = gitmeliyim."
+        },
+        {
+          "q": "Quelle phrase signifie « J'aime nager » ?",
+          "options": [
+            "Yüzmeyi seviyorum",
+            "Yüzmek istiyorum",
+            "Yüzmeyi sevmiyorum"
+          ],
+          "a": 0,
+          "why": "L'activité prend -meyi : yüzme + yi seviyorum."
+        }
+      ]
+    }
+  ]
+}

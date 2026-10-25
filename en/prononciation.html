@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prononciation & alphabet | Türkçe Akademi</title>
+  <meta name="description" content="L'alphabet turc interactif : 29 lettres, leur prononciation en français, et des exemples sonores pour chaque son.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="alpha">
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Türkçe Akademi, accueil">
+        <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="11" fill="var(--red)"/>
+          <circle cx="16.5" cy="20" r="11" fill="#fff"/>
+          <circle cx="20.5" cy="20" r="9" fill="var(--red)"/>
+          <polygon points="27,15.6 28.1,18.5 31.2,18.6 28.7,20.6 29.6,23.6 27,21.8 24.4,23.6 25.3,20.6 22.8,18.6 25.9,18.5" fill="#fff"/>
+        </svg>
+        <div>Türkçe Akademi<small>Apprendre le turc</small></div>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="cours.html" data-nav="cours">Cours</a>
+        <a href="parcours.html" data-nav="parcours">Parcours</a>
+        <a href="vocabulaire.html" data-nav="vocab">Vocabulaire</a>
+        <a href="grammaire.html" data-nav="grammar">Grammaire</a>
+        <a href="conjugaison.html" data-nav="conjugaison">Conjugaison</a>
+        <a href="videos.html" data-nav="videos">Vidéos</a>
+        <a href="essentiel.html" data-nav="essential">Essentiel</a>
+        <a href="exercices.html" data-nav="quiz">Exercices</a>
+        <a href="prononciation.html" data-nav="alpha">Prononciation</a>
+        <a href="emploi-du-temps.html" data-nav="planning">Planning</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" title="Basculer clair / sombre" aria-label="Changer le thème"></button>
+        <button class="icon-btn burger" id="burger" title="Menu" aria-label="Ouvrir le menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="overline">Prononciation</span>
+        <h2>L'alphabet turc en 29 lettres</h2>
+        <p>Clique sur une lettre pour l'entendre et voir ses mots d'exemple. Les voyelles <b>a, e, i, o, u</b> sont sur fond rouge, les lettres <b>propres au turc</b> (ç, ğ, ı, ö, ş, ü) sur fond doré. Attention, <b>ı</b> et <b>i</b> sont deux lettres distinctes.</p>
+      </div>
+
+      <div class="alpha-layout">
+        <div>
+          <div class="alpha-grid" id="alpha-grid"></div>
+
+          <div class="blocks mt-4">
+            <h4 class="blk-h">Les 4 pièges classiques des francophones</h4>
+            <div class="note warn"><b class="tag" style="text-transform:none">ı ≠ i</b><div><tur>kedi</tur> (chat) et <tur>kırmızı</tur> (rouge) n'ont pas la même voyelle : le ı se prononce comme le « e » de « le », sans arrondir les lèvres. Entraîne-toi : <tur>bir</tur> (un), <tur>kız</tur> (fille), <tur>ışık</tur> (lumière).</div></div>
+            <div class="note warn"><b class="tag">ğ, le fantôme</b><div>Le « soft g » ne se prononce pas : il <b>allonge</b> la voyelle avant lui. <tur>dağ</tur> → « daa », <tur>eğri</tur> → « é-ri » (long). Entre deux voyelles, on l'entend à peine : <tur>ağaç</tur> (arbre) ≈ « aa-tch ».</div></div>
+            <div class="note warn"><b class="tag">c = dj, ç = tch</b><div><tur>cam</tur> (verre) → « djam » ; <tur>çay</tur> (thé) → « tchaï ». Ne lis jamais c comme « s » ou « k ».</div></div>
+            <div class="note warn"><b class="tag">ö et ü, les françaises</b><div>Bonne nouvelle : ce sont exactement nos « eu » et « u » : <tur>göz</tur> (œil) → « gueuze », <tur>gül</tur> (rose) → « goul ».</div></div>
+
+            <h4 class="blk-h">Paires minimales à écouter</h4>
+            <p class="blk-p">Écoute chaque paire et répète : la différence tient à une seule lettre.</p>
+            <div id="minimal-pairs"></div>
+
+            <h4 class="blk-h">L'accent tonique</h4>
+            <p class="blk-p">En turc, l'accent tombe presque toujours sur la <b>dernière syllabe</b> : ço-<b>CUK</b>, ka-<b>DEŞ</b>, öğ-ret-<b>MEN</b>. Quand un mot reçoit un suffixe, l'accent migre sur lui : <tur>ev</tur> → e-<b>LER</b> → eve-<b>LER</b>… e-leri-<b>MDE</b>. Certaines exceptions notables tirent l'accent vers l'avant (mots d'emprunt, noms de lieux).</p>
+          </div>
+        </div>
+
+        <aside class="alpha-detail" id="alpha-detail"></aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding-top:0">
+        <span>© <span id="year">2026</span> Türkçe Akademi, by TAM, pour les francophones</span>
+        <span><a href="cours.html#m1">Module 1 : l'alphabet en détail</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast-root"></div>
+
+  <script src="../js/app.js"></script>
+  <script src="../js/i18n/en/ui-data.js"></script>
+  <script src="../js/i18n/en/ui.js"></script>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/lang.js"></script>
+  <script src="../js/i18n/en/data-vocab.js"></script>
+  <script src="../js/i18n/en/data-course.js"></script>
+  <script src="../js/i18n/en/data-grammar.js"></script>
+  <script src="../js/i18n/en/data-quiz.js"></script>
+  <script src="../js/alpha.js"></script>
+</body>
+</html>

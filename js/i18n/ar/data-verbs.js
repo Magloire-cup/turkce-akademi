@@ -1,0 +1,298 @@
+/* ============================================================
+   Türkçe Akademi — données AR générées depuis le français.
+   Ne pas modifier à la main : relancer tools/locales.js build ar.
+   ============================================================ */
+
+const VERBES = [
+  {
+    "inf": "gelmek",
+    "tr": "جاء",
+    "pres": "geliyor",
+    "aor": "gelir",
+    "past": "geldi",
+    "fut": "gelecek"
+  },
+  {
+    "inf": "gitmek",
+    "tr": "ذهب",
+    "pres": "gidiyor",
+    "aor": "gider",
+    "past": "gitti",
+    "fut": "gidecek",
+    "note": "يتحول الحرف t في آخر الجذر إلى d أمام صائت: git- → gid-iyor، gid-ecek."
+  },
+  {
+    "inf": "yapmak",
+    "tr": "فعل، صنع",
+    "pres": "yapıyor",
+    "aor": "yapar",
+    "past": "yaptı",
+    "fut": "yapacak"
+  },
+  {
+    "inf": "etmek",
+    "tr": "فعل (فعل مساعد)",
+    "pres": "ediyor",
+    "aor": "eder",
+    "past": "etti",
+    "fut": "edecek",
+    "note": "يتحول الحرف t إلى d أمام صائت: et- → ed-iyor، ed-ecek."
+  },
+  {
+    "inf": "olmak",
+    "tr": "كان، أصبح",
+    "pres": "oluyor",
+    "aor": "olur",
+    "past": "oldu",
+    "fut": "olacak"
+  },
+  {
+    "inf": "istemek",
+    "tr": "أراد",
+    "pres": "istiyor",
+    "aor": "ister",
+    "past": "istedi",
+    "fut": "isteyecek"
+  },
+  {
+    "inf": "sevmek",
+    "tr": "أحب",
+    "pres": "seviyor",
+    "aor": "sever",
+    "past": "sevdi",
+    "fut": "sevecek"
+  },
+  {
+    "inf": "bilmek",
+    "tr": "عرف",
+    "pres": "biliyor",
+    "aor": "bilir",
+    "past": "bildi",
+    "fut": "bilecek"
+  },
+  {
+    "inf": "görmek",
+    "tr": "رأى",
+    "pres": "görüyor",
+    "aor": "görür",
+    "past": "gördü",
+    "fut": "görecek"
+  },
+  {
+    "inf": "almak",
+    "tr": "أخذ، اشترى",
+    "pres": "alıyor",
+    "aor": "alır",
+    "past": "aldı",
+    "fut": "alacak"
+  },
+  {
+    "inf": "vermek",
+    "tr": "أعطى",
+    "pres": "veriyor",
+    "aor": "verir",
+    "past": "verdi",
+    "fut": "verecek"
+  },
+  {
+    "inf": "konuşmak",
+    "tr": "تكلم",
+    "pres": "konuşuyor",
+    "aor": "konuşur",
+    "past": "konuştu",
+    "fut": "konuşacak"
+  },
+  {
+    "inf": "çalışmak",
+    "tr": "عمل",
+    "pres": "çalışıyor",
+    "aor": "çalışır",
+    "past": "çalıştı",
+    "fut": "çalışacak"
+  },
+  {
+    "inf": "okumak",
+    "tr": "قرأ",
+    "pres": "okuyor",
+    "aor": "okur",
+    "past": "okudu",
+    "fut": "okuyacak"
+  },
+  {
+    "inf": "yazmak",
+    "tr": "كتب",
+    "pres": "yazıyor",
+    "aor": "yazar",
+    "past": "yazdı",
+    "fut": "yazacak"
+  },
+  {
+    "inf": "dinlemek",
+    "tr": "استمع",
+    "pres": "dinliyor",
+    "aor": "dinler",
+    "past": "dinledi",
+    "fut": "dinleyecek"
+  },
+  {
+    "inf": "anlamak",
+    "tr": "فهم",
+    "pres": "anlıyor",
+    "aor": "anlar",
+    "past": "anladı",
+    "fut": "anlayacak"
+  },
+  {
+    "inf": "öğrenmek",
+    "tr": "تعلم",
+    "pres": "öğreniyor",
+    "aor": "öğrenir",
+    "past": "öğrendi",
+    "fut": "öğrenecek"
+  },
+  {
+    "inf": "söylemek",
+    "tr": "قال",
+    "pres": "söylüyor",
+    "aor": "söyler",
+    "past": "söyledi",
+    "fut": "söyleyecek"
+  },
+  {
+    "inf": "yemek",
+    "tr": "أكل",
+    "pres": "yiyor",
+    "aor": "yer",
+    "past": "yedi",
+    "fut": "yiyecek",
+    "note": "يتحول الجذر ye- إلى yi- أمام -yor و-yecek: yiyor، yiyecek."
+  },
+  {
+    "inf": "içmek",
+    "tr": "شرب",
+    "pres": "içiyor",
+    "aor": "içer",
+    "past": "içti",
+    "fut": "içecek"
+  },
+  {
+    "inf": "uyumak",
+    "tr": "نام",
+    "pres": "uyuyor",
+    "aor": "uyur",
+    "past": "uyudu",
+    "fut": "uyuyacak"
+  },
+  {
+    "inf": "kalkmak",
+    "tr": "نهض، قام",
+    "pres": "kalkıyor",
+    "aor": "kalkar",
+    "past": "kalktı",
+    "fut": "kalkacak"
+  },
+  {
+    "inf": "oturmak",
+    "tr": "جلس",
+    "pres": "oturuyor",
+    "aor": "oturur",
+    "past": "oturdu",
+    "fut": "oturacak"
+  },
+  {
+    "inf": "beklemek",
+    "tr": "انتظر",
+    "pres": "bekliyor",
+    "aor": "bekler",
+    "past": "bekledi",
+    "fut": "bekleyecek"
+  },
+  {
+    "inf": "açmak",
+    "tr": "فتح",
+    "pres": "açıyor",
+    "aor": "açar",
+    "past": "açtı",
+    "fut": "açacak"
+  },
+  {
+    "inf": "kapatmak",
+    "tr": "أغلق",
+    "pres": "kapatıyor",
+    "aor": "kapatır",
+    "past": "kapattı",
+    "fut": "kapatacak"
+  },
+  {
+    "inf": "bulmak",
+    "tr": "وجد",
+    "pres": "buluyor",
+    "aor": "bulur",
+    "past": "buldu",
+    "fut": "bulacak"
+  },
+  {
+    "inf": "çıkmak",
+    "tr": "خرج",
+    "pres": "çıkıyor",
+    "aor": "çıkar",
+    "past": "çıktı",
+    "fut": "çıkacak"
+  },
+  {
+    "inf": "girmek",
+    "tr": "دخل",
+    "pres": "giriyor",
+    "aor": "girer",
+    "past": "girdi",
+    "fut": "girecek"
+  },
+  {
+    "inf": "dönmek",
+    "tr": "عاد، استدار",
+    "pres": "dönüyor",
+    "aor": "döner",
+    "past": "döndü",
+    "fut": "dönecek"
+  },
+  {
+    "inf": "başlamak",
+    "tr": "بدأ",
+    "pres": "başlıyor",
+    "aor": "başlar",
+    "past": "başladı",
+    "fut": "başlayacak"
+  },
+  {
+    "inf": "bitirmek",
+    "tr": "أنهى",
+    "pres": "bitiriyor",
+    "aor": "bitirir",
+    "past": "bitirdi",
+    "fut": "bitirecek"
+  },
+  {
+    "inf": "kalmak",
+    "tr": "بقي",
+    "pres": "kalıyor",
+    "aor": "kalır",
+    "past": "kaldı",
+    "fut": "kalacak"
+  },
+  {
+    "inf": "bakmak",
+    "tr": "نظر",
+    "pres": "bakıyor",
+    "aor": "bakar",
+    "past": "baktı",
+    "fut": "bakacak"
+  },
+  {
+    "inf": "düşünmek",
+    "tr": "فكر",
+    "pres": "düşünüyor",
+    "aor": "düşünür",
+    "past": "düşündü",
+    "fut": "düşünecek"
+  }
+];

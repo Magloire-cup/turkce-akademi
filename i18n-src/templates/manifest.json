@@ -1,0 +1,13 @@
+{
+  "note": "Traduire uniquement les champs listés. Ne jamais modifier le turc (tr, ex, watch, inf, formes, noms propres turcs) ni les balises <tur>.",
+  "chunks": {
+    "vocab": "vocab-*.json — name, words[].fr, words[].exFr",
+    "course": "course-*.json — title, subtitle, objectifs, blocks (text/caption/tag/head/rows/items), dialogue.title, dialogue.lines[].fr, vocab[].fr, quiz.q, quiz.opts, quiz.exp",
+    "grammar": "grammar-*.json — title, blocks",
+    "parcours": "parcours-*.json — title, goal, blocks, vocab[].fr, quiz.q, quiz.options, quiz.why",
+    "videos": "videos-*.json — title, goal, blocks, vocab[].fr, quiz.q, quiz.options, quiz.why. Ne pas toucher tr/watch.",
+    "quiz": "quiz.json — grammarQuiz[].q/opts/exp, wordOfDay[].fr/exFr",
+    "verbs": "verbs.json — tr, note",
+    "ui-data": "ui-data.json — alphabet[].sound/words[].fr, minimalPairs[].aFr/bFr, conjTenses[].label/usage, quizTypes[].name/desc, planTypes.*.label, plan*.label/warn/note"
+  }
+}

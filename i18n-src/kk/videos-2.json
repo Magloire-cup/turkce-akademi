@@ -1,0 +1,1434 @@
+{
+  "domain": "videos",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 9,
+  "end": 18,
+  "items": [
+    {
+      "id": "va2-1",
+      "level": "A2",
+      "num": 1,
+      "title": "Бұйрық рай және сыпайылық",
+      "tr": "Emir kipi ve nezaket",
+      "goal": "Бейресми «сен» мен сыпайы «сіз» түрінде бұйрық, кеңес немесе нұсқау беру.",
+      "watch": "emir kipi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Бұйрық рай етістік түбірінен жасалады. Бейресми «сен» түрінде көбінесе ешқандай жалғау қосылмайды: <tur>gel</tur> (кел), <tur>git</tur> (бар), <tur>oku</tur> (оқы). Сыпайы «сіз» түрінде <b>-in / -ın / -un / -ün</b> жалғанады: <tur>gelin</tur>, <tur>gidin</tur>, <tur>okuyun</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "Жиі қолданылатын етістіктердің бұйрық райы",
+          "head": [
+            "Тұйық етістік",
+            "sen",
+            "siz",
+            "Болымсыз түрі (siz)"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gel</tur>",
+              "<tur>gelin</tur>",
+              "<tur>gelmeyin</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>git</tur>",
+              "<tur>gidin</tur>",
+              "<tur>gitmeyin</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>oku</tur>",
+              "<tur>okuyun</tur>",
+              "<tur>okumayın</tur>"
+            ],
+            [
+              "<tur>yemek</tur>",
+              "<tur>ye</tur>",
+              "<tur>yiyin</tur>",
+              "<tur>yemeyin</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Болымсыздық",
+          "text": "Бұйрық райдың болымсыз түрі <b>-ma / -me</b> жұрнағымен жасалады: <tur>gelme</tur> (келме), <tur>gelmeyin</tur> (келмеңіз), <tur>okuma</tur> (оқыма), <tur>okumayın</tur>. Үшінші жақта: <tur>gelsin</tur> (ол келсін), <tur>gelmesin</tur> (ол келмесін)."
+        },
+        {
+          "t": "p",
+          "text": "Сұранысты жұмсарту үшін <tur>lütfen</tur> (өтінемін) қосыңыз немесе сыпайы «сіз» түрін қолданыңыз. Ауызекі тілде <tur>-sana / -sene</tur> өтінішті бейресми етеді: <tur>Biraz beklesene.</tur> (Сәл күтші, бола ма?)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Lütfen kapıyı aç.",
+              "fr": "Есікті аш, өтінемін."
+            },
+            {
+              "tr": "Biraz bekleyin.",
+              "fr": "Сәл күте тұрыңыз."
+            },
+            {
+              "tr": "Bana yardım edin.",
+              "fr": "Маған көмектесіңіз."
+            },
+            {
+              "tr": "Burada sigara içmeyin.",
+              "fr": "Мұнда темекі шекпеңіз."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        [
+          "açmak",
+          "ашу"
+        ],
+        [
+          "kapatmak",
+          "жабу"
+        ],
+        [
+          "beklemek",
+          "күту"
+        ],
+        [
+          "yardım etmek",
+          "көмектесу"
+        ],
+        [
+          "sigara içmek",
+          "темекі шегу"
+        ],
+        [
+          "girmek",
+          "кіру"
+        ],
+        [
+          "çıkmak",
+          "шығу"
+        ],
+        [
+          "oturmak",
+          "отыру"
+        ],
+        [
+          "kalkmak",
+          "тұру"
+        ],
+        [
+          "lütfen",
+          "өтінемін"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "«Бару» етістігінің сыпайы бұйрық райы қандай?",
+          "options": [
+            "git",
+            "gidin",
+            "gitmeyin"
+          ],
+          "a": 1,
+          "why": "Сыпайы бұйрық райда -in жалғанады: git + in = gidin."
+        },
+        {
+          "q": "«Темекі шекпеңіз» дегенді қалай айтады?",
+          "options": [
+            "Sigara içmeyin",
+            "Sigara içmiyorsun",
+            "Sigara içme"
+          ],
+          "a": 0,
+          "why": "Екінші жақтың көпше түрінде бұйрық райдың болымсыздығы -meyin жұрнағымен жасалады: içmeyin."
+        }
+      ]
+    },
+    {
+      "id": "va2-2",
+      "level": "A2",
+      "num": 2,
+      "title": "Қалау рай: «мен келейін», «кеттік»",
+      "tr": "İstek kipi",
+      "goal": "Әрекетті ұсыну, тілек білдіру немесе «рұқсат етші… / кеттік» дегенді айту.",
+      "watch": "istek kipi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Қалау рай тілек немесе ұсыныс білдіру үшін қолданылады. Түбірге <b>-a / -e</b> жалғанып, одан кейін жақ жалғаулары қосылады: <tur>gel-e-yim</tur> (мен келейін), <tur>gel-e-lim</tur> (келейік), <tur>gel-e-sin</tur> (сен келесің)."
+        },
+        {
+          "t": "table",
+          "caption": "gelmek (келу) етістігінің қалау райы",
+          "head": [
+            "Жақ",
+            "Түрі",
+            "Мағынасы"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleyim</tur>",
+              "мен келейін / келуіме рұқсат ет"
+            ],
+            [
+              "sen",
+              "<tur>gelesin</tur>",
+              "сен келесің"
+            ],
+            [
+              "o",
+              "<tur>gele</tur>",
+              "ол келсін"
+            ],
+            [
+              "biz",
+              "<tur>gelelim</tur>",
+              "келейік / кеттік"
+            ],
+            [
+              "siz",
+              "<tur>gelesiniz</tur>",
+              "сіз келіңіз"
+            ],
+            [
+              "onlar",
+              "<tur>geleler</tur>",
+              "олар келсін (сирек)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "«-alım / -elim» көптік түрі",
+          "text": "Бірінші жақтың көпше түрі ең жиі қолданылады: <tur>Gidelim!</tur> (Кеттік!), <tur>Başlayalım!</tur> (Бастайық!), <tur>Bir çay içelim.</tur> (Бір шай ішейік.) Үшінші жақтың көпше түрінде көбінесе <tur>gelsinler</tur> қолданылады."
+        },
+        {
+          "t": "p",
+          "text": "Ұсыныс-сұрақ құру үшін <tur>mi</tur> қосылады: <tur>Gidelim mi?</tur> (Кеттік пе?), <tur>Başlayalım mı?</tur> (Бастайық па?). Болымсыз түрі <b>-ma / -me</b> арқылы жасалады: <tur>gelmeyeyim</tur> (мен келмейін), <tur>gitmeyelim</tur> (кетпейік)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Geleyim.",
+              "fr": "Келуіме рұқсат ет."
+            },
+            {
+              "tr": "Gidelim mi?",
+              "fr": "Кеттік пе?"
+            },
+            {
+              "tr": "Bir kahve içelim.",
+              "fr": "Бір кофе ішейік."
+            },
+            {
+              "tr": "İyi olsun.",
+              "fr": "Барлығы жақсы болсын."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Шатастырмаңыз",
+          "text": "<tur>Gidelim</tur> = «кеттік» (қалау рай). <tur>Gitmeliyim</tur> = «мен баруым керек» (қажеттілік). <b>-malı</b> жұрнағы қалау райда жоқ міндеттемені қосады."
+        }
+      ],
+      "vocab": [
+        [
+          "gelmek",
+          "келу"
+        ],
+        [
+          "gitmek",
+          "бару"
+        ],
+        [
+          "başlamak",
+          "бастау"
+        ],
+        [
+          "içmek",
+          "ішу"
+        ],
+        [
+          "yapmak",
+          "істеу"
+        ],
+        [
+          "olmak",
+          "болу, айналу"
+        ],
+        [
+          "birlikte",
+          "бірге"
+        ],
+        [
+          "hadi",
+          "кәне, кел"
+        ],
+        [
+          "belki",
+          "мүмкін"
+        ],
+        [
+          "dilemek",
+          "тілеу"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "«Gidelim» нені білдіреді?",
+          "options": [
+            "Мен баруым керек",
+            "Кеттік",
+            "Ол барды"
+          ],
+          "a": 1,
+          "why": "Қалау райдың бірінші жағының көпше түрі ұсыныс білдіреді: кеттік."
+        },
+        {
+          "q": "«Бастайық па?» дегенді қалай айтады?",
+          "options": [
+            "Başlayalım mı?",
+            "Başlamalıyım?",
+            "Başladık mı?"
+          ],
+          "a": 0,
+          "why": "Başlayalım — «бастайық» деген қалау рай; mi қосымшасымен бірге бастауды ұсынады."
+        }
+      ]
+    },
+    {
+      "id": "va2-3",
+      "level": "A2",
+      "num": 3,
+      "title": "Мүмкіндік: -abil / -ebil",
+      "tr": "-abilmek / -ebilmek",
+      "goal": "Не істей алатыныңды айту, рұқсат сұрау және мүмкіндікті білдіру.",
+      "watch": "-abilmek -ebilmek",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Қабілетті немесе мүмкіндікті білдіру үшін түбір мен жалғаудың арасына <b>-abil / -ebil</b> кірістіріледі: <tur>oku-yabil-ir-im</tur> (мен оқи аламын), <tur>gel-ebil-ir-sin</tur> (сен келе аласың). Дауысты дыбыстың таңдауы дауыс үндестігіне бағынады."
+        },
+        {
+          "t": "table",
+          "caption": "Осы шақтағы қабілет",
+          "head": [
+            "Жақ",
+            "okumak (оқу)",
+            "gelmek (келу)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>okuyabilirim</tur>",
+              "<tur>gelebilirim</tur>"
+            ],
+            [
+              "sen",
+              "<tur>okuyabilirsin</tur>",
+              "<tur>gelebilirsin</tur>"
+            ],
+            [
+              "o",
+              "<tur>okuyabilir</tur>",
+              "<tur>gelebilir</tur>"
+            ],
+            [
+              "biz",
+              "<tur>okuyabiliriz</tur>",
+              "<tur>gelebiliriz</tur>"
+            ],
+            [
+              "siz",
+              "<tur>okuyabilirsiniz</tur>",
+              "<tur>gelebilirsiniz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>okuyabilirler</tur>",
+              "<tur>gelebilirler</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Болымсыз түрі ерекше жасалады",
+          "text": "Назар аударыңыз: <tur>okumayabilirim</tur> түрі бар, бірақ ол «оқымауым мүмкін» дегенді білдіреді. «Оқи алмаймын» деп айту үшін <tur>okuyamam</tur>, одан кейін <tur>okuyamazsın</tur>, <tur>okuyamaz</tur>, <tur>okuyamayız</tur>, <tur>okuyamazsınız</tur>, <tur>okuyamazlar</tur> қолданылады. <tur>gelemem</tur> (келе алмаймын) үшін де сол логика сақталады."
+        },
+        {
+          "t": "p",
+          "text": "<b>-abilir</b> рұқсатты немесе болжамды да білдіре алады: <tur>Burada oturabilir miyim?</tur> (Мұнда отыруға бола ма?), <tur>Yarın yağmur yağabilir.</tur> (Ертең жаңбыр жаууы мүмкін). Қабілет, рұқсат және мүмкіндіктің қайсысы екенін контекст анықтайды."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe okuyabiliyorum.",
+              "fr": "Мен түрікше оқи аламын."
+            },
+            {
+              "tr": "Yarın gelebilir miyim?",
+              "fr": "Ертең келуіме бола ма?"
+            },
+            {
+              "tr": "Burada sigara içemezsiniz.",
+              "fr": "Сіз мұнда темекі шеге алмайсыз."
+            },
+            {
+              "tr": "Onu anlayabiliyorum.",
+              "fr": "Мен оны түсіне аламын."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "bilmek",
+          "text": "<tur>Bilmek</tur> жеке тұрғанда «білу» дегенді білдіреді: <tur>Türkçe biliyorum.</tur> (Мен түрік тілін білемін.) <b>-abil</b> қосылғанда ол қабілет жұрнағына айналады: <tur>Türkçe konuşabiliyorum.</tur> (Мен түрікше сөйлей аламын.)"
+        }
+      ],
+      "vocab": [
+        [
+          "okumak",
+          "оқу"
+        ],
+        [
+          "yazmak",
+          "жазу"
+        ],
+        [
+          "konuşmak",
+          "сөйлеу"
+        ],
+        [
+          "anlamak",
+          "түсіну"
+        ],
+        [
+          "gelmek",
+          "келу"
+        ],
+        [
+          "gitmek",
+          "бару"
+        ],
+        [
+          "oturmak",
+          "отыру"
+        ],
+        [
+          "izin",
+          "рұқсат"
+        ],
+        [
+          "belki",
+          "мүмкін"
+        ],
+        [
+          "bilmek",
+          "білу"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "«Келе алмаймын» дегенді қалай айтады?",
+          "options": [
+            "Gelemiyorum",
+            "Gelemem",
+            "Gelmiyorum"
+          ],
+          "a": 1,
+          "why": "gelmek етістігінің болымсыз қабілет түрі — gelemem (келе алмаймын); gelmiyorum тек «келмеймін» дегенді білдіреді."
+        },
+        {
+          "q": "«Burada oturabilir miyim?» нені білдіреді?",
+          "options": [
+            "Мұнда отыруым керек пе?",
+            "Мұнда отыруға бола ма?",
+            "Мұнда отырамын ба?"
+          ],
+          "a": 1,
+          "why": "-abilir + miyim рұқсатты білдіреді: мұнда отыруға бола ма?"
+        }
+      ]
+    },
+    {
+      "id": "va2-4",
+      "level": "A2",
+      "num": 4,
+      "title": "Көсемшелер: -arak және -ıp",
+      "tr": "-arak / -erek ve -ıp / -ip",
+      "goal": "Екі әрекетті байланыстыру: «істей отырып» және «істеп, сосын…» дегенді айту.",
+      "watch": "-arak -erek -ıp -ip",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "<b>-arak / -erek</b> жұрнағы «істей отырып» дегенді білдіреді: ол негізгі әрекеттің қалай орындалғанын сипаттайды. <tur>Koşarak geldi.</tur> (Ол жүгіріп келді.) <tur>Gülerek cevap verdi.</tur> (Ол күліп жауап берді.)"
+        },
+        {
+          "t": "p",
+          "text": "<b>-ıp / -ip / -up / -üp</b> жұрнағы бір бастауышқа қатысты бірінен кейін бірі орындалатын екі әрекетті байланыстырады: <tur>Kitabı okuyup özetledi.</tur> (Ол кітапты оқып, қысқаша мазмұнын жазды.) <tur>Otobüse binip eve gitti.</tur> (Ол автобусқа мініп, үйге кетті.)"
+        },
+        {
+          "t": "table",
+          "caption": "Екі көсемшенің жасалуы",
+          "head": [
+            "Етістік",
+            "-arak / -erek",
+            "-ıp / -ip"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gelerek</tur>",
+              "<tur>gelip</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>giderek</tur>",
+              "<tur>gidip</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>okuyarak</tur>",
+              "<tur>okuyup</tur>"
+            ],
+            [
+              "<tur>yapmak</tur>",
+              "<tur>yaparak</tur>",
+              "<tur>yapıp</tur>"
+            ],
+            [
+              "<tur>görmek</tur>",
+              "<tur>görerek</tur>",
+              "<tur>görüp</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Бір бастауыш",
+          "text": "Екі әрекеттің бастауышы бір болуы керек. <tur>Ali gelip masayı temizledi.</tur> = Ali келіп, үстелді тазалады. Бастауыштар әртүрлі болса, <tur>ve</tur> немесе басқа байланыстырғыш қосылатын толық сөйлем қолданылады."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Koşarak geldi.",
+              "fr": "Ол жүгіріп келді."
+            },
+            {
+              "tr": "Gülerek cevap verdi.",
+              "fr": "Ол күліп жауап берді."
+            },
+            {
+              "tr": "Kitabı okuyup özetledi.",
+              "fr": "Ол кітапты оқып, қысқаша мазмұнын жазды."
+            },
+            {
+              "tr": "Otobüse binip eve gitti.",
+              "fr": "Ол автобусқа мініп, үйге кетті."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Жазу ерекшелігі",
+          "text": "Түбір дауысты дыбыспен аяқталса, <tur>okumak</tur> -arak алдында жалғау дауыссызы <b>y</b>-ды алады: <tur>okuyarak</tur>. -ıp алдында түбірдің соңғы дауысты дыбысы сақталады: <tur>oku-y-up</tur>."
+        }
+      ],
+      "vocab": [
+        [
+          "koşmak",
+          "жүгіру"
+        ],
+        [
+          "yürümek",
+          "жүру"
+        ],
+        [
+          "gülmek",
+          "күлу"
+        ],
+        [
+          "bakmak",
+          "қарау"
+        ],
+        [
+          "binmek",
+          "міну"
+        ],
+        [
+          "inmek",
+          "түсу"
+        ],
+        [
+          "özetlemek",
+          "қысқаша мазмұндау"
+        ],
+        [
+          "cevap vermek",
+          "жауап беру"
+        ],
+        [
+          "temizlemek",
+          "тазалау"
+        ],
+        [
+          "hazırlamak",
+          "дайындау"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "«Koşarak geldi» нені білдіреді?",
+          "options": [
+            "Ол жүгіріп келді",
+            "Ол жүгіріп, сосын келді",
+            "Ол жиі жүгіреді"
+          ],
+          "a": 0,
+          "why": "-arak әрекеттің қалай орындалғанын сипаттайды: ол жүгіріп келді."
+        },
+        {
+          "q": "«Оқу» мен «қысқаша мазмұндау» әрекеттерін қай түр байланыстырады?",
+          "options": [
+            "okuyarak",
+            "okuyup",
+            "okumak"
+          ],
+          "a": 1,
+          "why": "-ıp / -ip әрекеттердің ретін көрсетеді: okuyup = оқып, сосын."
+        }
+      ]
+    },
+    {
+      "id": "va2-5",
+      "level": "A2",
+      "num": 5,
+      "title": "Қимыл есімдері: -mak, -ma, -ış",
+      "tr": "İsim-fiiller",
+      "goal": "Әрекет, қызығушылық немесе орындалу тәсілі туралы айту үшін етістікті зат есімге айналдыру.",
+      "watch": "isim fiil -mak -ma -ış",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Түрік тілінде етістікті бірнеше тәсілмен зат есімге айналдыруға болады. <b>-mak / -mek</b> тұйық етістік-зат есім жасайды: <tur>yüzmek</tur> (жүзу). <b>-ma / -me</b> қимыл есімін жасайды: <tur>yüzme</tur> (жүзу, жүзу әрекеті). <b>-ış / -iş</b> көбінесе орындалу тәсілін білдіреді: <tur>yürüyüş</tur> (жүріс, жүру тәсілі)."
+        },
+        {
+          "t": "table",
+          "caption": "Жиі қолданылатын етістіктерден жасалған үш қимыл есімі",
+          "head": [
+            "Етістік",
+            "-mak / -mek",
+            "-ma / -me",
+            "-ış / -iş"
+          ],
+          "rows": [
+            [
+              "<tur>okumak</tur>",
+              "<tur>okumak</tur>",
+              "<tur>okuma</tur>",
+              "<tur>okuyuş</tur>"
+            ],
+            [
+              "<tur>yüzmek</tur>",
+              "<tur>yüzmek</tur>",
+              "<tur>yüzme</tur>",
+              "<tur>yüzüş</tur>"
+            ],
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gelmek</tur>",
+              "<tur>gelme</tur>",
+              "<tur>geliş</tur>"
+            ],
+            [
+              "<tur>gülmek</tur>",
+              "<tur>gülmek</tur>",
+              "<tur>gülme</tur>",
+              "<tur>gülüş</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<b>-mak</b> көбінесе <tur>istemek</tur> (қалау) және <tur>için</tur> (үшін) сөздерімен қолданылады: <tur>Türkçe öğrenmek istiyorum.</tur> (Мен түрік тілін үйренгім келеді.) <tur>Kitap okumak için zamanım yok.</tur> (Кітап оқуға уақытым жоқ.)"
+        },
+        {
+          "t": "p",
+          "text": "<b>-ma</b> септік жалғауларын қабылдайды: <tur>Okumayı seviyorum.</tur> (Мен оқығанды ұнатамын.) <tur>Yüzmeyi öğreniyorum.</tur> (Мен жүзуді үйреніп жүрмін.) <tur>Gelmeyi unuttum.</tur> (Мен келуді ұмытып кеттім.) -ma жұрнағы табыс септігінде -ma-yı болып өзгереді."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe öğrenmek istiyorum.",
+              "fr": "Мен түрік тілін үйренгім келеді."
+            },
+            {
+              "tr": "Yüzmeyi seviyorum.",
+              "fr": "Мен жүзуді ұнатамын."
+            },
+            {
+              "tr": "Konuşması çok güzel.",
+              "fr": "Оның сөйлеу мәнері өте әдемі."
+            },
+            {
+              "tr": "Kitap okumak için zamanım yok.",
+              "fr": "Кітап оқуға уақытым жоқ."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "«-ış» әрдайым тұрақты емес",
+          "text": "<b>-ış</b> жұрнағымен жасалған кейбір зат есімдер дербес сөзге айналған: <tur>yürüyüş</tur> (серуен, жүріс), <tur>bakış</tur> (көзқарас), <tur>gülüş</tur> (күлкі), <tur>anlatış</tur> (айту тәсілі). Оларды сөздік қор ретінде жаттаңыз."
+        }
+      ],
+      "vocab": [
+        [
+          "yüzmek",
+          "жүзу"
+        ],
+        [
+          "okumak",
+          "оқу"
+        ],
+        [
+          "öğrenmek",
+          "үйрену"
+        ],
+        [
+          "sevmek",
+          "ұнату, жақсы көру"
+        ],
+        [
+          "istemek",
+          "қалау"
+        ],
+        [
+          "unutmak",
+          "ұмыту"
+        ],
+        [
+          "konuşmak",
+          "сөйлеу"
+        ],
+        [
+          "yürüyüş",
+          "жүріс, серуен"
+        ],
+        [
+          "bakış",
+          "көзқарас"
+        ],
+        [
+          "zaman",
+          "уақыт"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Қай түр «Мен жүзуді ұнатамын» дегенді білдіреді?",
+          "options": [
+            "Yüzmek seviyorum",
+            "Yüzmeyi seviyorum",
+            "Yüzme seviyorum"
+          ],
+          "a": 1,
+          "why": "sevmek етістігімен бірге -ma қимыл есімі табыс септігін қабылдайды: yüzme + yi = yüzmeyi."
+        },
+        {
+          "q": "Қай жұрнақ «жүру тәсілі» дегенді жасайды?",
+          "options": [
+            "-mak",
+            "-ma",
+            "-ış"
+          ],
+          "a": 2,
+          "why": "-ış / -iş тәсілді білдіретін есімдер жасайды: yürüyüş, bakış, gülüş."
+        }
+      ]
+    },
+    {
+      "id": "va2-6",
+      "level": "A2",
+      "num": 6,
+      "title": "Қатыстық есімшелер: -an / -en және -dik",
+      "tr": "Sıfat-fiiller",
+      "goal": "Ауыр қатыстық сөйлемсіз «жұмыс істейтін студент» немесе «мен оқыған кітап» дегенді айту.",
+      "watch": "sıfat fiil -an -dik",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Түрік тілінде қатыстық құрылым сын есім сияқты зат есімнің алдында тұрады. <b>-an / -en</b> «істейтін» дегенді білдіреді: <tur>çalışan öğrenci</tur> (жұмыс істейтін студент), <tur>gelen otobüs</tur> (келе жатқан автобус)."
+        },
+        {
+          "t": "table",
+          "caption": "Қатыстық есімшелердің екі тобы",
+          "head": [
+            "Жұрнақ",
+            "Мағынасы",
+            "Мысал"
+          ],
+          "rows": [
+            [
+              "<tur>-an / -en</tur>",
+              "әрекетті жасайтын",
+              "<tur>Türkçe konuşan arkadaş</tur> (түрікше сөйлейтін дос)"
+            ],
+            [
+              "<tur>-dik / -dık</tur>",
+              "жасалған, орындалған",
+              "<tur>okuduğum kitap</tur> (мен оқыған кітап)"
+            ],
+            [
+              "<tur>-acak / -ecek</tur>",
+              "жасайтын / жасалатын",
+              "<tur>gideceğim yer</tur> (мен баратын жер)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<b>-dik</b> жұрнағымен бірге әрекетті кім жасайтынын көрсететін тәуелдік жалғауы міндетті түрде қосылады: <tur>okuduğum kitap</tur> (мен оқыған кітап), <tur>okuduğun kitap</tur> (сен оқыған кітап), <tur>okuduğu kitap</tur> (ол оқыған кітап), <tur>okuduğumuz kitap</tur> (біз оқыған кітап)."
+        },
+        {
+          "t": "table",
+          "caption": "okumak: «... кітап» үлгісі",
+          "head": [
+            "Бастауыш",
+            "Түрі",
+            "Мағынасы"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>okuduğum kitap</tur>",
+              "мен оқыған кітап"
+            ],
+            [
+              "sen",
+              "<tur>okuduğun kitap</tur>",
+              "сен оқыған кітап"
+            ],
+            [
+              "o",
+              "<tur>okuduğu kitap</tur>",
+              "ол оқыған кітап"
+            ],
+            [
+              "biz",
+              "<tur>okuduğumuz kitap</tur>",
+              "біз оқыған кітап"
+            ],
+            [
+              "siz",
+              "<tur>okuduğunuz kitap</tur>",
+              "сіз оқыған кітап"
+            ],
+            [
+              "onlar",
+              "<tur>okudukları kitap</tur>",
+              "олар оқыған кітап"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe konuşan bir arkadaş arıyorum.",
+              "fr": "Мен түрікше сөйлейтін дос іздеп жүрмін."
+            },
+            {
+              "tr": "Okuduğum kitap çok güzel.",
+              "fr": "Мен оқыған кітап өте әдемі."
+            },
+            {
+              "tr": "Gelecek hafta gideceğim şehir İzmir.",
+              "fr": "Келесі аптада баратын қалам — İzmir."
+            },
+            {
+              "tr": "Burada çalışan insanlar çok nazik.",
+              "fr": "Мұнда жұмыс істейтін адамдар өте сыпайы."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Қатыстық есімше ме, сын есім бе?",
+          "text": "<tur>Gelecek hafta</tur> «келесі апта» дегенді білдіреді (келер шақ сын есімі), ал <tur>gelecek otobüs</tur> «келетін автобус» дегенді білдіруі мүмкін. Мұны кейін тұрған зат есім мен контекст анықтайды."
+        }
+      ],
+      "vocab": [
+        [
+          "çalışan",
+          "жұмыс істейтін"
+        ],
+        [
+          "gelen",
+          "келетін"
+        ],
+        [
+          "okuduğum",
+          "мен оқыған"
+        ],
+        [
+          "gideceğim",
+          "мен баратын"
+        ],
+        [
+          "arkadaş",
+          "дос"
+        ],
+        [
+          "insan",
+          "адам, адам баласы"
+        ],
+        [
+          "nazik",
+          "сыпайы, мейірімді"
+        ],
+        [
+          "aramak",
+          "іздеу"
+        ],
+        [
+          "yer",
+          "жер"
+        ],
+        [
+          "şirket",
+          "компания, кәсіпорын"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "«okuduğum kitap» нені білдіреді?",
+          "options": [
+            "оқып жатқан кітап",
+            "мен оқыған кітап",
+            "оқылатын кітап"
+          ],
+          "a": 1,
+          "why": "-dik жұрнағы мен -um тәуелдік жалғауы «мен оқыған» дегенді көрсетеді: okuduğum kitap."
+        },
+        {
+          "q": "Қай түр «жұмыс істейтін студент» дегенді білдіреді?",
+          "options": [
+            "çalışan öğrenci",
+            "çalıştığım öğrenci",
+            "çalışacak öğrenci"
+          ],
+          "a": 0,
+          "why": "-an / -en әрекетті жасаушыны білдіреді: çalışan öğrenci = жұмыс істейтін студент."
+        }
+      ]
+    },
+    {
+      "id": "va2-7",
+      "level": "A2",
+      "num": 7,
+      "title": "Күшейтілген сын есімдер",
+      "tr": "Pekiştirilmiş sıfatlar",
+      "goal": "Күшейтілген сын есімдермен «көп-көк», «аппақ», «қап-қара» дегенді айту.",
+      "watch": "pekiştirilmiş sıfatlar",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Сын есімді күшейту үшін түрік тілі көбінесе сөз басына бірінші буын мен <b>m, p, r немесе s</b> дыбысынан жасалған буын қосады: <tur>mavi → masmavi</tur> (көп-көк), <tur>beyaz → bembeyaz</tur> (аппақ), <tur>siyah → simsiyah</tur> (қап-қара)."
+        },
+        {
+          "t": "table",
+          "caption": "Ең жиі қолданылатын күшейту түрлері",
+          "head": [
+            "Сын есім",
+            "Күшейтілген түрі",
+            "Мағынасы"
+          ],
+          "rows": [
+            [
+              "<tur>mavi</tur>",
+              "<tur>masmavi</tur>",
+              "көп-көк"
+            ],
+            [
+              "<tur>beyaz</tur>",
+              "<tur>bembeyaz</tur>",
+              "аппақ"
+            ],
+            [
+              "<tur>siyah</tur>",
+              "<tur>simsiyah</tur>",
+              "қап-қара"
+            ],
+            [
+              "<tur>yeşil</tur>",
+              "<tur>yemyeşil</tur>",
+              "жап-жасыл"
+            ],
+            [
+              "<tur>kırmızı</tur>",
+              "<tur>kıpkırmızı</tur>",
+              "қып-қызыл"
+            ],
+            [
+              "<tur>sarı</tur>",
+              "<tur>sapsarı</tur>",
+              "сап-сары"
+            ],
+            [
+              "<tur>temiz</tur>",
+              "<tur>tertemiz</tur>",
+              "тап-таза"
+            ],
+            [
+              "<tur>pembe</tur>",
+              "<tur>pespembe</tur>",
+              "қып-қызғылт"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Икемді ереже",
+          "text": "Барлық сын есім бұлай күшейтілмейді. Дайын түрі еске түспесе, <tur>çok</tur> + сын есім әрдайым дұрыс: <tur>çok güzel</tur>, <tur>çok yeni</tur>. Ең жиі кездесетін күшейтілген түрлерді тіркес ретінде жаттаңыз."
+        },
+        {
+          "t": "p",
+          "text": "Сонымен қатар <tur>çok</tur> (өте), <tur>pek</tur> (айтарлықтай, өте), <tur>son derece</tur> (аса) немесе <tur>fevkalade</tur> (ерекше) сөздерімен күшейтуге болады. Түбірге қосылатын түрі болмаған жағдайда <tur>Çok</tur> — әмбебап шешім."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Deniz bugün masmavi.",
+              "fr": "Бүгін теңіз көп-көк."
+            },
+            {
+              "tr": "Bembeyaz bir gömlek giydi.",
+              "fr": "Ол аппақ жейде киіпті."
+            },
+            {
+              "tr": "Simsiyah bir kedi gördüm.",
+              "fr": "Мен қап-қара мысық көрдім."
+            },
+            {
+              "tr": "Oda tertemiz.",
+              "fr": "Бөлме тап-таза."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Түстер мен эмоциялар",
+          "text": "Бұл түрлер ауыспалы мағынада да қолданылады: <tur>kıpkırmızı</tur> қызарған бет-әлпетті, <tur>yemyeşil</tur> құлпырған табиғат көрінісін сипаттай алады. Күшейту тек қарқындылық емес, бейнелілік қосады."
+        }
+      ],
+      "vocab": [
+        [
+          "mavi",
+          "көк"
+        ],
+        [
+          "beyaz",
+          "ақ"
+        ],
+        [
+          "siyah",
+          "қара"
+        ],
+        [
+          "yeşil",
+          "жасыл"
+        ],
+        [
+          "kırmızı",
+          "қызыл"
+        ],
+        [
+          "sarı",
+          "сары"
+        ],
+        [
+          "temiz",
+          "таза"
+        ],
+        [
+          "pembe",
+          "қызғылт"
+        ],
+        [
+          "çok",
+          "өте"
+        ],
+        [
+          "renk",
+          "түс"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "«mavi» сын есімін қалай күшейтеді?",
+          "options": [
+            "mavimavi",
+            "masmavi",
+            "mavimsi"
+          ],
+          "a": 1,
+          "why": "Бірінші буын ma мен m дыбысы masmavi түрін жасайды: көп-көк."
+        },
+        {
+          "q": "«tertemiz» нені білдіреді?",
+          "options": [
+            "өте лас",
+            "тап-таза",
+            "сәл таза"
+          ],
+          "a": 1,
+          "why": "tertemiz — temiz (таза) сын есімінің күшейтілген түрі."
+        }
+      ]
+    },
+    {
+      "id": "va2-8",
+      "level": "A2",
+      "num": 8,
+      "title": "Басқаның сөзін жеткізу",
+      "tr": "Dolaylı anlatım",
+      "goal": "«Ол… деді», «Мен… деп ойлаймын», «Мен… деп естідім» дегенді айту.",
+      "watch": "dolaylı anlatım -dığını",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Ақпаратты жеткізу үшін <b>-dığını / -diğini / -duğunu / -düğünü</b> жұрнақтары қолданылады: <tur>Onun geldiğini biliyorum.</tur> (Ол келгенін білемін.) <tur>Bana evde olduğunu söyledi.</tur> (Ол маған үйде екенін айтты.)"
+        },
+        {
+          "t": "table",
+          "caption": "Өткен және келер шақтағы жеткізу",
+          "head": [
+            "Етістік",
+            "Осы / өткен шақ",
+            "Келер шақ"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>geldiğini</tur>",
+              "<tur>geleceğini</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>gittiğini</tur>",
+              "<tur>gideceğini</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>okuduğunu</tur>",
+              "<tur>okuyacağını</tur>"
+            ],
+            [
+              "<tur>görmek</tur>",
+              "<tur>gördüğünü</tur>",
+              "<tur>göreceğini</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Ең пайдалы кіріспе етістіктер: <tur>söylemek</tur> (айту), <tur>demek</tur> (деу), <tur>düşünmek</tur> (ойлау), <tur>sanmak</tur> (деп білу), <tur>bilmek</tur> (білу) және <tur>duymak</tur> (есту). Бағыныңқы сөйлемнің бастауышы көбінесе ілік септігінде тұрады: <tur>Ali'nin geleceğini duydum.</tur>"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Төл сөз бе, жанама сөз бе?",
+          "text": "Төл сөз: <tur>« Yarın geleceğim » dedi.</tur> (Ол: «Ертең келемін», — деді.) Жанама сөз: <tur>Yarın geleceğini söyledi.</tur> (Ол ертең келетінін айтты.) Түрік тілінде француз тіліндегіндей қатаң шақ үйлесімі жоқ: келер шақ мағынасын жұрнақтың өзі білдіреді."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ali'nin yarın geleceğini duydum.",
+              "fr": "Мен Ali ертең келетінін естідім."
+            },
+            {
+              "tr": "Öğretmen sınavın kolay olduğunu söyledi.",
+              "fr": "Мұғалім емтиханның оңай екенін айтты."
+            },
+            {
+              "tr": "Onun haklı olduğunu düşünüyorum.",
+              "fr": "Менің ойымша, ол дұрыс айтады."
+            },
+            {
+              "tr": "Bana evde olduğunu söyledi.",
+              "fr": "Ол маған үйде екенін айтты."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Ілік септігіндегі бастауыш",
+          "text": "Бағыныңқы сөйлемнің бастауышы жалқы есім немесе есімдік болса, оны ілік септігіне қоюға болады: <tur>Ali'nin geldiğini</tur>, <tur>onun geldiğini</tur>. Ілік септігінсіз де сөйлем түсінікті, бірақ ілік септігі екіұштылықты жояды."
+        }
+      ],
+      "vocab": [
+        [
+          "söylemek",
+          "айту"
+        ],
+        [
+          "demek",
+          "деу"
+        ],
+        [
+          "düşünmek",
+          "ойлау"
+        ],
+        [
+          "sanmak",
+          "сену, деп білу"
+        ],
+        [
+          "bilmek",
+          "білу"
+        ],
+        [
+          "duymak",
+          "есту"
+        ],
+        [
+          "haklı",
+          "дұрыс айтатын"
+        ],
+        [
+          "kolay",
+          "оңай"
+        ],
+        [
+          "haber",
+          "жаңалық"
+        ],
+        [
+          "doğru",
+          "дұрыс, шынайы"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "«Geldiğini biliyorum» нені білдіреді?",
+          "options": [
+            "Ол келгенін білемін",
+            "Ол келетінін білемін",
+            "Ол келеді деп ойлаймын"
+          ],
+          "a": 0,
+          "why": "-dığını өткен немесе аяқталған фактіні жеткізеді: ол келгенін білемін."
+        },
+        {
+          "q": "«Ол ертең келетінін айтты» дегенді қалай жеткізеді?",
+          "options": [
+            "Yarın geleceğini söyledi",
+            "Yarın geldiğini söyledi",
+            "Yarın geliyor söyledi"
+          ],
+          "a": 0,
+          "why": "Жанама сөздегі келер шақ -eceğini жұрнағымен беріледі: geleceğini söyledi."
+        }
+      ]
+    },
+    {
+      "id": "va2-9",
+      "level": "A2",
+      "num": 9,
+      "title": "Ойларды байланыстыру",
+      "tr": "Bağlaçlar",
+      "goal": "Сөйлемдерді «бірақ», «себебі», «сондықтан», «сонымен қатар», «не… не…» жалғаулықтарымен жалғастыру.",
+      "watch": "bağlaçlar",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Қажетті жалғаулықтар",
+          "head": [
+            "Түрікше",
+            "Қазақша",
+            "Мысал"
+          ],
+          "rows": [
+            [
+              "<tur>ama</tur>",
+              "бірақ",
+              "<tur>Zor ama güzel.</tur>"
+            ],
+            [
+              "<tur>ancak / fakat</tur>",
+              "бірақ, алайда",
+              "<tur>Ancak bugün gelemem.</tur>"
+            ],
+            [
+              "<tur>çünkü</tur>",
+              "себебі, өйткені",
+              "<tur>Çalışıyorum çünkü sınav var.</tur>"
+            ],
+            [
+              "<tur>bu yüzden</tur>",
+              "сондықтан",
+              "<tur>Yağmur var, bu yüzden gelmiyorum.</tur>"
+            ],
+            [
+              "<tur>ayrıca</tur>",
+              "сонымен қатар",
+              "<tur>Ayrıca Türkçe öğreniyorum.</tur>"
+            ],
+            [
+              "<tur>hem … hem …</tur>",
+              "әрі … әрі …",
+              "<tur>Hem çay hem kahve içti.</tur>"
+            ],
+            [
+              "<tur>ya … ya …</tur>",
+              "біресе … біресе …",
+              "<tur>Ya bugün ya yarın gel.</tur>"
+            ],
+            [
+              "<tur>ne … ne …</tur>",
+              "не … не …",
+              "<tur>Ne çay ne kahve istiyorum.</tur>"
+            ],
+            [
+              "<tur>oysa</tur>",
+              "алайда, шын мәнінде",
+              "<tur>Oysa ben onu tanıyordum.</tur>"
+            ],
+            [
+              "<tur>yani</tur>",
+              "яғни",
+              "<tur>Yani gelmiyorsun?</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<tur>Ama</tur> қарама-қарсы екі ойды байланыстырып, екі сөйлемнің арасында тұрады. <tur>Çünkü</tur> себепті енгізіп, түсіндірудің алдында тұрады. <tur>Bu yüzden</tur> салдарды білдіреді: <tur>Yorgunum, bu yüzden erken yatıyorum.</tur> (Мен шаршадым, сондықтан ерте жатамын.)"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "hem … hem …",
+          "text": "<tur>hem … hem …</tur> жалғаулығымен байланысқан екі элемент бір қызметті атқарады: <tur>Hem Türkçe hem Fransızca konuşuyor.</tur> (Ол түрікше және французша сөйлейді.) Болымсыз мағынада <tur>ne … ne …</tur> қолданылады: <tur>Ne parası ne zamanı var.</tur> (Оның ақшасы да, уақыты да жоқ.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe zor ama güzel.",
+              "fr": "Түрік тілі қиын, бірақ әдемі."
+            },
+            {
+              "tr": "Bugün gelemiyorum çünkü çalışıyorum.",
+              "fr": "Бүгін келе алмаймын, себебі жұмыс істеп жүрмін."
+            },
+            {
+              "tr": "Hem çay hem kahve içti.",
+              "fr": "Ол шай да, кофе де ішті."
+            },
+            {
+              "tr": "Ya bugün ya yarın gel.",
+              "fr": "Бүгін немесе ертең кел."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "de / da",
+          "text": "<tur>de / da</tur> «сондай-ақ, де» дегенді білдіреді және бөлек жазылады: <tur>Ben de geliyorum.</tur> (Мен де келемін.) Оны зат есімге жалғанатын жатыс септігінің <tur>-de / -da</tur> жалғауымен шатастырмаңыз: <tur>evde</tur> (үйде)."
+        }
+      ],
+      "vocab": [
+        [
+          "ama",
+          "бірақ"
+        ],
+        [
+          "çünkü",
+          "себебі"
+        ],
+        [
+          "bu yüzden",
+          "сондықтан"
+        ],
+        [
+          "ayrıca",
+          "сонымен қатар"
+        ],
+        [
+          "hem",
+          "және, әрі"
+        ],
+        [
+          "ya",
+          "біресе"
+        ],
+        [
+          "ne",
+          "не"
+        ],
+        [
+          "oysa",
+          "шын мәнінде"
+        ],
+        [
+          "yani",
+          "яғни"
+        ],
+        [
+          "ancak",
+          "алайда"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Қай сөз «себебі» дегенді білдіреді?",
+          "options": [
+            "ama",
+            "çünkü",
+            "bu yüzden"
+          ],
+          "a": 1,
+          "why": "çünkü себепті, bu yüzden салдарды білдіреді."
+        },
+        {
+          "q": "«Не шай, не кофе» дегенді қалай айтады?",
+          "options": [
+            "Hem çay hem kahve",
+            "Ya çay ya kahve",
+            "Ne çay ne kahve"
+          ],
+          "a": 2,
+          "why": "ne … ne … қосарлы болымсыздықты білдіреді: не … не …."
+        }
+      ]
+    }
+  ]
+}

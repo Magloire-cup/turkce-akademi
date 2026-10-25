@@ -1,0 +1,560 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 26,
+  "end": 29,
+  "items": [
+    {
+      "id": "verbes4",
+      "name": "Жиі қолданылатын етістіктер (4)",
+      "words": [
+        {
+          "tr": "korumak",
+          "fr": "қорғау, сақтау",
+          "ex": "Doğayı korumalıyız.",
+          "exFr": "Біз табиғатты қорғауымыз керек."
+        },
+        {
+          "tr": "düşmek",
+          "fr": "құлау",
+          "ex": "Dün merdivenden düştüm.",
+          "exFr": "Мен кеше баспалдақтан құладым."
+        },
+        {
+          "tr": "artmak",
+          "fr": "арту, өсу",
+          "ex": "Son günlerde fiyatlar arttı.",
+          "exFr": "Соңғы күндері бағалар артты."
+        },
+        {
+          "tr": "azalmak",
+          "fr": "азаю",
+          "ex": "Yağmur akşama doğru azalacak.",
+          "exFr": "Жаңбыр кешке қарай азаяды."
+        },
+        {
+          "tr": "karşılaşmak",
+          "fr": "кездесу, кездейсоқ ұшырасу",
+          "ex": "Yolda eski bir arkadaşımla karşılaştım.",
+          "exFr": "Жолда ескі досыммен кездестім."
+        },
+        {
+          "tr": "vazgeçmek",
+          "fr": "бас тарту, тастау",
+          "ex": "Hayalimden vazgeçmedim.",
+          "exFr": "Мен арманымнан бас тартпадым."
+        },
+        {
+          "tr": "saklamak",
+          "fr": "жасыру, сақтау",
+          "ex": "Bu mektubu saklamak istiyorum.",
+          "exFr": "Мен бұл хатты сақтағым келеді."
+        },
+        {
+          "tr": "silmek",
+          "fr": "өшіру, сүрту",
+          "ex": "Tahtadaki yazıyı sildi.",
+          "exFr": "Ол тақтадағы жазуды өшірді."
+        },
+        {
+          "tr": "kırmak",
+          "fr": "сындыру, жару",
+          "ex": "Bardağı yanlışlıkla kırdım.",
+          "exFr": "Мен стақанды байқаусызда сындырып алдым."
+        },
+        {
+          "tr": "başvurmak",
+          "fr": "өтініш беру, жүгіну",
+          "ex": "Bu işe başvurmak istiyorum.",
+          "exFr": "Мен осы жұмысқа өтініш бергім келеді."
+        },
+        {
+          "tr": "düzenlemek",
+          "fr": "ұйымдастыру, реттеу",
+          "ex": "Yarın küçük bir gezi düzenliyoruz.",
+          "exFr": "Біз ертең шағын саяхат ұйымдастырамыз."
+        },
+        {
+          "tr": "araştırmak",
+          "fr": "зерттеу, тексеру",
+          "ex": "Bu konuyu dikkatlice araştırdım.",
+          "exFr": "Мен бұл тақырыпты мұқият зерттедім."
+        },
+        {
+          "tr": "gelişmek",
+          "fr": "даму, ілгерілеу",
+          "ex": "Türkçem her gün gelişiyor.",
+          "exFr": "Түрік тілім күн сайын жақсарып келеді."
+        },
+        {
+          "tr": "fark etmek",
+          "fr": "байқау, аңғару",
+          "ex": "Hatasını hemen fark etti.",
+          "exFr": "Ол қатесін бірден байқады."
+        },
+        {
+          "tr": "kaçırmak",
+          "fr": "жіберіп алу, үлгермей қалу",
+          "ex": "Sabah otobüsünü kaçırdım.",
+          "exFr": "Мен таңғы автобусқа үлгермей қалдым."
+        },
+        {
+          "tr": "toplamak",
+          "fr": "жинау",
+          "ex": "Bahçedeki yaprakları topladık.",
+          "exFr": "Біз бақтағы жапырақтарды жинадық."
+        },
+        {
+          "tr": "yakalamak",
+          "fr": "ұстап алу",
+          "ex": "Treni yakalamak için koştum.",
+          "exFr": "Пойызға үлгеру үшін жүгірдім."
+        },
+        {
+          "tr": "kaydetmek",
+          "fr": "жазу, сақтау",
+          "ex": "Yeni numarayı telefonuma kaydettim.",
+          "exFr": "Мен жаңа нөмірді телефоныма жазып қойдым."
+        }
+      ]
+    },
+    {
+      "id": "expressions",
+      "name": "Күнделікті тіркестер",
+      "words": [
+        {
+          "tr": "tünaydın",
+          "fr": "қайырлы түс",
+          "ex": "Tünaydın, nasıl geçti günün?",
+          "exFr": "Қайырлы түс, күнің қалай өтті?"
+        },
+        {
+          "tr": "teşekkürler",
+          "fr": "рақмет (күнделікті)",
+          "ex": "Teşekkürler, çok naziksin!",
+          "exFr": "Рақмет, өте сыпайы екенсіз!"
+        },
+        {
+          "tr": "sağ olun",
+          "fr": "рақмет (сыпайы түрі)",
+          "ex": "İlginiz için sağ olun.",
+          "exFr": "Назарыңыз үшін рақмет."
+        },
+        {
+          "tr": "ne haber?",
+          "fr": "не жаңалық? (ауызекі)",
+          "ex": "Ne haber, uzun zamandır görüşmedik!",
+          "exFr": "Не жаңалық, көптен көріспедік!"
+        },
+        {
+          "tr": "iyilik",
+          "fr": "ерекше ештеңе жоқ (жауап)",
+          "ex": "— Ne haber? — İyilik, senden?",
+          "exFr": "— Не жаңалық? — Ерекше ештеңе жоқ, өзің қалай?"
+        },
+        {
+          "tr": "fena değil",
+          "fr": "жаман емес",
+          "ex": "— Nasılsın? — Fena değil.",
+          "exFr": "— Қалайсың? — Жаман емес."
+        },
+        {
+          "tr": "şimdilik hoşça kal",
+          "fr": "әзірге сау бол",
+          "ex": "Şimdilik hoşça kal, sonra konuşuruz.",
+          "exFr": "Әзірге сау бол, кейінірек сөйлесеміз."
+        },
+        {
+          "tr": "kendine iyi bak",
+          "fr": "өзіңе мұқият бол",
+          "ex": "Görüşürüz, kendine iyi bak!",
+          "exFr": "Жуырда көріскенше, өзіңе мұқият бол!"
+        },
+        {
+          "tr": "iyi şanslar",
+          "fr": "сәттілік",
+          "ex": "Sınava gireceksin, iyi şanslar!",
+          "exFr": "Емтихан тапсырасың, сәттілік!"
+        },
+        {
+          "tr": "başarılar",
+          "fr": "сәттілік (оқу, емтихан үшін)",
+          "ex": "Başarılar dilerim!",
+          "exFr": "Саған зор табыс тілеймін!"
+        },
+        {
+          "tr": "eline sağlık",
+          "fr": "қолыңа саулық (ас, қол еңбегі үшін)",
+          "ex": "Bu yemek harika, eline sağlık!",
+          "exFr": "Бұл тағам керемет, қолыңа саулық!"
+        },
+        {
+          "tr": "çok yaşa",
+          "fr": "көп жаса (түшкіргенде)",
+          "ex": "— Hapşu! — Çok yaşa!",
+          "exFr": "— Әпши! — Көп жаса!"
+        },
+        {
+          "tr": "sen de gör",
+          "fr": "сен де көп жаса (жауап)",
+          "ex": "— Çok yaşa! — Sen de gör!",
+          "exFr": "— Көп жаса! — Сен де көп жаса!"
+        },
+        {
+          "tr": "haydi bakalım",
+          "fr": "ал, кеттік",
+          "ex": "Haydi bakalım, başlayalım!",
+          "exFr": "Ал, бастайық!"
+        },
+        {
+          "tr": "hadi",
+          "fr": "ал, жүр!",
+          "ex": "Hadi, geç kalıyoruz!",
+          "exFr": "Жүр, кешігіп қаламыз!"
+        },
+        {
+          "tr": "peki",
+          "fr": "жарайды, солай болсын",
+          "ex": "Peki, nasıl istersen.",
+          "exFr": "Жарайды, қалағаныңша."
+        },
+        {
+          "tr": "kesinlikle",
+          "fr": "сөзсіз, толығымен",
+          "ex": "Kesinlikle katılıyorum.",
+          "exFr": "Мен толығымен келісемін."
+        },
+        {
+          "tr": "ne yazık ki",
+          "fr": "өкінішке орай, амал не",
+          "ex": "Ne yazık ki gelemem.",
+          "exFr": "Өкінішке орай, келе алмаймын."
+        },
+        {
+          "tr": "boşver",
+          "fr": "қоя ғой, елеме",
+          "ex": "Boşver, önemli değil.",
+          "exFr": "Қоя ғой, маңызды емес."
+        },
+        {
+          "tr": "vay be",
+          "fr": "керемет! ғажап!",
+          "ex": "Vay be, ne kadar büyük!",
+          "exFr": "Ғажап, қандай үлкен!"
+        },
+        {
+          "tr": "kıyamam",
+          "fr": "айналайын, өте тәтті",
+          "ex": "Kıyamam, çok tatlısın!",
+          "exFr": "Айналайын, өте тәтті!"
+        },
+        {
+          "tr": "maşallah",
+          "fr": "бәрекелді, керемет (таңырқау)",
+          "ex": "Maşallah, ne kadar hızlı öğrenmişsin!",
+          "exFr": "Бәрекелді, қандай жылдам үйрендің!"
+        },
+        {
+          "tr": "inşallah",
+          "fr": "құдай қаласа",
+          "ex": "İnşallah sınavı geçerim.",
+          "exFr": "Құдай қаласа, емтиханды тапсырамын."
+        },
+        {
+          "tr": "yolun açık olsun",
+          "fr": "ақ жол, жолың болсын",
+          "ex": "Yolun açık olsun, kendine iyi bak!",
+          "exFr": "Ақ жол, өзіңе мұқият бол!"
+        },
+        {
+          "tr": "hoş geldin",
+          "fr": "қош келдің (досқа)",
+          "ex": "Hoş geldin! Sana çay koydum.",
+          "exFr": "Қош келдің! Саған шәй қойдым."
+        },
+        {
+          "tr": "afedersin",
+          "fr": "кешір (ауызекі)",
+          "ex": "Afedersin, geçiyorum.",
+          "exFr": "Кешір, өтуге рұқсат ет."
+        },
+        {
+          "tr": "canım",
+          "fr": "қымбаттым, досым",
+          "ex": "Canım, bugün çok yoruldum.",
+          "exFr": "Досым, бүгін қатты шаршадым."
+        },
+        {
+          "tr": "yok canım",
+          "fr": "жоқ, ондай емес",
+          "ex": "— Pahalı mı? — Yok canım!",
+          "exFr": "— Қымбат па? — Жоқ, ондай емес!"
+        },
+        {
+          "tr": "aynen",
+          "fr": "дәл солай, тура солай",
+          "ex": "— Ben de öyle düşünüyorum. — Aynen!",
+          "exFr": "— Мен де солай ойлаймын. — Дәл солай!"
+        },
+        {
+          "tr": "bir şey değil",
+          "fr": "ештеңе емес",
+          "ex": "— Teşekkürler! — Bir şey değil.",
+          "exFr": "— Рақмет! — Ештеңе емес."
+        },
+        {
+          "tr": "güle güle kullan",
+          "fr": "жақсылыққа қолдан (жаңа зат үшін)",
+          "ex": "Yeni telefonunu güle güle kullan!",
+          "exFr": "Жаңа телефоныңды жақсылықпен қолдан!"
+        },
+        {
+          "tr": "bakalım",
+          "fr": "көрерміз, қараймыз",
+          "ex": "— Sınav zor mu olacak? — Bakalım!",
+          "exFr": "— Емтихан қиын бола ма? — Көрерміз!"
+        },
+        {
+          "tr": "her şey yolunda mı?",
+          "fr": "бәрі жақсы ма?",
+          "ex": "Her şey yolunda mı, iyi misin?",
+          "exFr": "Бәрі жақсы ма, өзің жақсысың ба?"
+        },
+        {
+          "tr": "bir dakika, lütfen",
+          "fr": "бір минут, өтінемін",
+          "ex": "Bir dakika, lütfen. Hemen geliyorum.",
+          "exFr": "Бір минут, өтінемін. Қазір келемін."
+        },
+        {
+          "tr": "tekrar eder misiniz?",
+          "fr": "қайталай аласыз ба?",
+          "ex": "Affedersiniz, tekrar eder misiniz?",
+          "exFr": "Кешіріңіз, қайталай аласыз ба?"
+        },
+        {
+          "tr": "anlamadım",
+          "fr": "түсінбедім",
+          "ex": "Anlamadım, daha yavaş konuşur musunuz?",
+          "exFr": "Түсінбедім, баяуырақ сөйлей аласыз ба?"
+        },
+        {
+          "tr": "daha yavaş konuşur musunuz?",
+          "fr": "баяуырақ сөйлей аласыз ба?",
+          "ex": "Lütfen daha yavaş konuşur musunuz?",
+          "exFr": "Баяуырақ сөйлей аласыз ба, өтінемін?"
+        },
+        {
+          "tr": "türkçe öğreniyorum",
+          "fr": "түрік тілін үйреніп жүрмін",
+          "ex": "Türkçe öğreniyorum, biraz sabırlı olun.",
+          "exFr": "Мен түрік тілін үйреніп жүрмін, сәл шыдамды болыңыз."
+        },
+        {
+          "tr": "biraz türkçe konuşuyorum",
+          "fr": "түрікше аздап сөйлеймін",
+          "ex": "Biraz Türkçe konuşuyorum ama hâlâ öğreniyorum.",
+          "exFr": "Мен түрікше аздап сөйлеймін, бірақ әлі үйреніп жүрмін."
+        },
+        {
+          "tr": "yardımınıza ihtiyacım var",
+          "fr": "сіздің көмегіңіз керек",
+          "ex": "Affedersiniz, yardımınıza ihtiyacım var.",
+          "exFr": "Кешіріңіз, сіздің көмегіңіз керек."
+        },
+        {
+          "tr": "buraya nasıl gidebilirim?",
+          "fr": "ол жаққа қалай бара аламын?",
+          "ex": "Buraya nasıl gidebilirim, biliyor musunuz?",
+          "exFr": "Ол жаққа қалай баруға болатынын білесіз бе?"
+        },
+        {
+          "tr": "kartla ödeyebilir miyim?",
+          "fr": "картамен төлей аламын ба?",
+          "ex": "Kartla ödeyebilir miyim, yoksa nakit mi lazım?",
+          "exFr": "Картамен төлей аламын ба, әлде қолма-қол ақша керек пе?"
+        },
+        {
+          "tr": "hesabı alabilir miyim?",
+          "fr": "шотты ала аламын ба?",
+          "ex": "Hesabı alabilir miyim, lütfen?",
+          "exFr": "Шотты ала аламын ба, өтінемін?"
+        },
+        {
+          "tr": "rezervasyonum var",
+          "fr": "менде брондау бар",
+          "ex": "Saat yedi için rezervasyonum var.",
+          "exFr": "Менде жетіге брондау бар."
+        },
+        {
+          "tr": "boş yer var mı?",
+          "fr": "бос орын бар ма?",
+          "ex": "İki kişi için boş yer var mı?",
+          "exFr": "Екі адамға бос орын бар ма?"
+        },
+        {
+          "tr": "afedersiniz, geçebilir miyim?",
+          "fr": "кешіріңіз, өте аламын ба?",
+          "ex": "Afedersiniz, geçebilir miyim? Otobüse yetişmem gerekiyor.",
+          "exFr": "Кешіріңіз, өте аламын ба? Автобусқа үлгеруім керек."
+        },
+        {
+          "tr": "ben de öyle düşünüyorum",
+          "fr": "мен де солай ойлаймын",
+          "ex": "Ben de öyle düşünüyorum, çok güzel bir fikir.",
+          "exFr": "Мен де солай ойлаймын, бұл өте жақсы идея."
+        },
+        {
+          "tr": "fark etmez",
+          "fr": "бәрібір, айырмасы жоқ",
+          "ex": "Çay mı kahve mi? Fark etmez.",
+          "exFr": "Шәй ме, кофе ме? Бәрібір."
+        },
+        {
+          "tr": "henüz bilmiyorum",
+          "fr": "әлі білмеймін",
+          "ex": "Yarın gelip gelmeyeceğimi henüz bilmiyorum.",
+          "exFr": "Ертең келемін бе, жоқ па, әлі білмеймін."
+        },
+        {
+          "tr": "tekrar görüşmek üzere",
+          "fr": "қайта көріскенше",
+          "ex": "Şimdilik hoşça kal, tekrar görüşmek üzere.",
+          "exFr": "Әзірге сау бол, қайта көріскенше."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Пайдалы сұрақтар",
+      "words": [
+        {
+          "tr": "kaç tane?",
+          "fr": "қанша (зат туралы)",
+          "ex": "Kaç tane elma aldın?",
+          "exFr": "Сен қанша алма сатып алдың?"
+        },
+        {
+          "tr": "saat kaçta?",
+          "fr": "сағат нешеде?",
+          "ex": "Ders saat kaçta başlıyor?",
+          "exFr": "Сабақ сағат нешеде басталады?"
+        },
+        {
+          "tr": "bu ne?",
+          "fr": "бұл не?",
+          "ex": "Bu ne, çok ilginç!",
+          "exFr": "Бұл не, өте қызық!"
+        },
+        {
+          "tr": "bu ne kadar?",
+          "fr": "бұл қанша тұрады?",
+          "ex": "Bu çanta ne kadar?",
+          "exFr": "Бұл сөмке қанша тұрады?"
+        },
+        {
+          "tr": "nerelisin?",
+          "fr": "қай жерденсің?",
+          "ex": "Nerelisin, Türk müsün?",
+          "exFr": "Қай жерденсің, түрікпісің?"
+        },
+        {
+          "tr": "nereden geliyorsun?",
+          "fr": "қайдан келесің?",
+          "ex": "Nereden geliyorsun, okuldan mı?",
+          "exFr": "Қайдан келесің, мектептен бе?"
+        },
+        {
+          "tr": "nereye gidiyorsun?",
+          "fr": "қайда барасың?",
+          "ex": "Nereye gidiyorsun, bu kadar erken?",
+          "exFr": "Қайда барасың, сонша ерте?"
+        },
+        {
+          "tr": "kaç yaşındasın?",
+          "fr": "жасың нешеде?",
+          "ex": "Kaç yaşındasın, on sekiz mi?",
+          "exFr": "Жасың нешеде, он сегізде ме?"
+        },
+        {
+          "tr": "ne yapıyorsun?",
+          "fr": "не істеп жатырсың?",
+          "ex": "Ne yapıyorsun, çalışıyor musun?",
+          "exFr": "Не істеп жатырсың, жұмыс істеп жүрсің бе?"
+        },
+        {
+          "tr": "nasıl gidiyor?",
+          "fr": "істер қалай? (өмір туралы)",
+          "ex": "Okul nasıl gidiyor?",
+          "exFr": "Мектепте істер қалай?"
+        },
+        {
+          "tr": "neden?",
+          "fr": "неге?",
+          "ex": "Neden geldin, neden gittin?",
+          "exFr": "Неге келдің, неге кеттің?"
+        },
+        {
+          "tr": "nasıl?",
+          "fr": "қалай?",
+          "ex": "Bu kelime nasıl okunuyor?",
+          "exFr": "Бұл сөз қалай оқылады?"
+        },
+        {
+          "tr": "niye?",
+          "fr": "неге? (ауызекі)",
+          "ex": "Niye gelmedin?",
+          "exFr": "Неге келмедің?"
+        },
+        {
+          "tr": "hangisi?",
+          "fr": "қайсысы?",
+          "ex": "Hangisi daha güzel?",
+          "exFr": "Қайсысы әдемірек?"
+        },
+        {
+          "tr": "kim?",
+          "fr": "кім?",
+          "ex": "Kim arıyor?",
+          "exFr": "Кім қоңырау шалып тұр?"
+        },
+        {
+          "tr": "yardım eder misin?",
+          "fr": "көмектесе аласың ба?",
+          "ex": "Bir dakika, yardım eder misin?",
+          "exFr": "Бір минут, көмектесе аласың ба?"
+        },
+        {
+          "tr": "anladın mı?",
+          "fr": "түсіндің бе?",
+          "ex": "Soru net mi, anladın mı?",
+          "exFr": "Сұрақ анық па, түсіндің бе?"
+        },
+        {
+          "tr": "tekrar eder misin?",
+          "fr": "қайталай аласың ба?",
+          "ex": "Daha yavaş, tekrar eder misin?",
+          "exFr": "Баяуырақ, қайталай аласың ба?"
+        },
+        {
+          "tr": "tuvalet nerede?",
+          "fr": "дәретхана қайда?",
+          "ex": "Afedersiniz, tuvalet nerede?",
+          "exFr": "Кешіріңіз, дәретхана қайда?"
+        },
+        {
+          "tr": "ne yapalım?",
+          "fr": "не істейміз?",
+          "ex": "Bugün ne yapalım?",
+          "exFr": "Бүгін не істейміз?"
+        },
+        {
+          "tr": "hazır mısın?",
+          "fr": "дайынсың ба?",
+          "ex": "Hazır mısın, başlıyoruz!",
+          "exFr": "Дайынсың ба? Бастаймыз!"
+        }
+      ]
+    }
+  ]
+}

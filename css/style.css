@@ -943,3 +943,102 @@ kbd {
   .brand .star-mark { width: 30px; height: 30px; }
   .icon-btn { width: 36px; height: 36px; }
 }
+
+/* ---------------- Sélecteur de langue ---------------- */
+.lang-switch { position: relative; flex: none; }
+.lang-btn {
+  width: auto; min-width: 64px; padding: 0 10px; gap: 6px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.lang-btn .lang-code { font-size: .68rem; font-weight: 800; letter-spacing: .08em; color: var(--muted); }
+.lang-menu {
+  position: absolute; top: calc(100% + 10px); right: 0; z-index: 120;
+  min-width: 230px; padding: 6px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow-md);
+  display: none;
+}
+.lang-switch.open .lang-menu { display: block; }
+.lang-menu a {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 9px 12px; border-radius: 10px; transition: background .15s;
+}
+.lang-menu a:hover, .lang-menu a.active { background: var(--bg-soft); }
+.lang-name { font-weight: 600; font-size: .93rem; }
+.lang-meta {
+  display: flex; align-items: center; gap: 7px;
+  font-size: .68rem; font-weight: 800; letter-spacing: .08em; color: var(--muted);
+}
+.lang-meta em { font-style: normal; font-size: .64rem; color: var(--red); letter-spacing: .02em; }
+
+/* Section de choix sur l'accueil */
+.lang-section { scroll-margin-top: 90px; }
+.lang-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 30px; }
+.lang-card {
+  position: relative; display: flex; flex-direction: column; gap: 5px;
+  padding: 22px 20px 18px; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--border);
+  transition: transform .18s, border-color .18s, box-shadow .18s;
+  min-height: 148px;
+}
+.lang-card:hover { transform: translateY(-3px); border-color: var(--border-2); box-shadow: var(--shadow-md); }
+.lang-card.active { border-color: var(--red); box-shadow: 0 0 0 1px var(--red) inset, var(--shadow-sm); }
+.lang-card-code {
+  font-family: var(--font-head); font-size: .68rem; font-weight: 800;
+  letter-spacing: .16em; color: var(--red);
+}
+.lang-card-name { font-family: var(--font-head); font-size: 1.22rem; font-weight: 700; letter-spacing: -.01em; }
+.lang-card-desc { font-size: .84rem; color: var(--muted); line-height: 1.5; }
+.lang-card-state {
+  margin-top: auto; padding-top: 10px;
+  font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
+}
+.lang-card.active .lang-card-state { color: var(--red); }
+
+/* ---------------- Arabe (RTL) ---------------- */
+html[lang="ar"] {
+  --font-head: "Cairo", "Sora", system-ui, sans-serif;
+  --font-body: "Cairo", "Inter", system-ui, sans-serif;
+}
+html[lang="ar"] body { line-height: 1.85; }
+html[lang="ar"] .brand small { letter-spacing: 0; }
+html[lang="ar"] .overline, html[lang="ar"] .lang-card-state, html[lang="ar"] .lang-meta { letter-spacing: 0; text-transform: none; }
+html[dir="rtl"] .lang-menu { right: auto; left: 0; }
+html[dir="rtl"] .lang-switch { order: -1; }
+html[dir="rtl"] .pq-opt { text-align: right; }
+html[dir="rtl"] .pq-opt:hover:not(:disabled) { transform: translateX(-2px); }
+html[dir="rtl"] .faq-item summary { padding-right: 0; padding-left: 26px; }
+html[dir="rtl"] .faq-item summary::after { right: auto; left: 2px; }
+html[dir="rtl"] .note { border-left: 0; border-right: 3px solid var(--border-2); }
+html[dir="rtl"] .blk-ul, html[dir="rtl"] .read-list { padding-left: 0; padding-right: 20px; }
+html[dir="rtl"] .breadcrumb, html[dir="rtl"] .course-side, html[dir="rtl"] .gram-toc { text-align: right; }
+
+/* Le turc reste toujours lisible de gauche à droite. */
+html[dir="rtl"] tur,
+html[dir="rtl"] .tk,
+html[dir="rtl"] .tr,
+html[dir="rtl"] .word-tr,
+html[dir="rtl"] .big-tr,
+html[dir="rtl"] .fc-word,
+html[dir="rtl"] .fc-ex b,
+html[dir="rtl"] #wod-ex b {
+  direction: ltr; unicode-bidi: isolate;
+}
+html[dir="rtl"] .ex-line .tr { text-align: left; }
+html[dir="rtl"] .ex-line { direction: rtl; }
+html[dir="rtl"] .ex-line .fr { text-align: right; }
+
+/* ---------------- Kazakh (cyrillique) ---------------- */
+html[lang="kk"] {
+  --font-head: "Noto Sans", "Sora", system-ui, sans-serif;
+  --font-body: "Noto Sans", "Inter", system-ui, sans-serif;
+}
+
+@media (max-width: 1020px) {
+  .lang-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .lang-grid { grid-template-columns: 1fr; }
+  .lang-btn { min-width: 56px; padding: 0 8px; }
+  .lang-menu { min-width: 210px; }
+}

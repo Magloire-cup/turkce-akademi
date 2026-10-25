@@ -2,7 +2,7 @@
    Türkçe Akademi — Emploi du temps d'étude + minuteur Pomodoro
    ============================================================ */
 
-const PLAN_TYPES = {
+const PLAN_TYPES_BASE = {
   sleep:   { label: "Sommeil",        cls: "pb-sleep" },
   school:  { label: "École",          cls: "pb-school" },
   study:   { label: "Étude",          cls: "pb-study" },
@@ -15,7 +15,7 @@ const PLAN_TYPES = {
 };
 
 /* Rythme actuel (reconstitué d'après les habitudes décrites) */
-const PLAN_CURRENT = [
+const PLAN_CURRENT_BASE = [
   { s: "21:00", e: "03:00", label: "Sommeil", type: "sleep", warn: "≈ 6 h seulement : le cerveau n'a pas le temps de consolider les apprentissages de la veille." },
   { s: "03:00", e: "04:00", label: "Apprendre le nouveau cours", type: "study", warn: "Réveil à 3 h du matin : la concentration et la mémorisation sont au plus bas, exactement quand tu veux apprendre du neuf." },
   { s: "04:00", e: "06:30", label: "Réviser", type: "study", warn: "2 h 30 de travail sur un cerveau non reposé : gros effort, faible rendement." },
@@ -29,7 +29,7 @@ const PLAN_CURRENT = [
 ];
 
 /* Emploi du temps optimisé — jour de semaine */
-const PLAN_WEEKDAY = [
+const PLAN_WEEKDAY_BASE = [
   { s: "06:30", e: "06:40", label: "Réveil + grand verre d'eau", type: "prep", note: "Lumière du jour tout de suite : elle calibre l'horloge biologique." },
   { s: "06:40", e: "07:10", label: "Révision du matin : flashcards + mot du jour", type: "study", note: "Le cerveau est frais : le meilleur moment pour la révision espacée." },
   { s: "07:10", e: "07:50", label: "Petit-déjeuner + habillage", type: "meal" },
@@ -50,7 +50,7 @@ const PLAN_WEEKDAY = [
 ];
 
 /* Emploi du temps optimisé — week-end */
-const PLAN_WEEKEND = [
+const PLAN_WEEKEND_BASE = [
   { s: "08:00", e: "08:10", label: "Réveil (sans alarme si possible)", type: "prep" },
   { s: "08:10", e: "08:40", label: "Révision : flashcards à revoir", type: "study" },
   { s: "08:40", e: "09:20", label: "Petit-déjeuner", type: "meal" },
@@ -71,6 +71,26 @@ const PLAN_WEEKEND = [
 ];
 
 /* ---------- Rendu des plannings ---------- */
+const PLAN_TYPES = Object.fromEntries(Object.entries(PLAN_TYPES_BASE).map(([key, value]) => {
+  const tr = window.TA_LOCALE && window.TA_LOCALE.planTypes && window.TA_LOCALE.planTypes[key];
+  return [key, tr ? Object.assign({}, value, { label: tr.label || value.label }) : value];
+}));
+function localizePlan(base, tr) {
+  if (!Array.isArray(tr)) return base;
+  return base.map((block, i) => {
+    const t = tr[i];
+    if (!t) return block;
+    const out = Object.assign({}, block);
+    if (t.label) out.label = t.label;
+    if (t.warn) out.warn = t.warn;
+    if (t.note) out.note = t.note;
+    return out;
+  });
+}
+const PLAN_CURRENT = localizePlan(PLAN_CURRENT_BASE, window.TA_LOCALE && window.TA_LOCALE.planCurrent);
+const PLAN_WEEKDAY = localizePlan(PLAN_WEEKDAY_BASE, window.TA_LOCALE && window.TA_LOCALE.planWeekday);
+const PLAN_WEEKEND = localizePlan(PLAN_WEEKEND_BASE, window.TA_LOCALE && window.TA_LOCALE.planWeekend);
+
 function planMinutes(s, e) {
   const [sh, sm] = s.split(":").map(Number);
   const [eh, em] = e.split(":").map(Number);
@@ -78,10 +98,17 @@ function planMinutes(s, e) {
   if (mins <= 0) mins += 24 * 60;
   return mins;
 }
+const PLAN_LANG = (document.documentElement.lang || "fr").split("-")[0];
+const PLAN_UNITS = {
+  ar: { h: "ساعة", min: "دقيقة" },
+  kk: { h: "сағ", min: "мин" }
+}[PLAN_LANG] || { h: "h", min: "min" };
+
 function planFmt(mins) {
-  if (mins < 60) return mins + " min";
-  if (mins % 60 === 0) return (mins / 60) + " h";
-  return Math.floor(mins / 60) + " h " + String(mins % 60).padStart(2, "0");
+  if (mins < 60) return mins + " " + PLAN_UNITS.min;
+  if (mins % 60 === 0) return (mins / 60) + " " + PLAN_UNITS.h;
+  const rest = String(mins % 60).padStart(2, "0");
+  return Math.floor(mins / 60) + " " + PLAN_UNITS.h + " " + rest + (PLAN_LANG === "fr" ? "" : " " + PLAN_UNITS.min);
 }
 function renderPlan(container, blocks) {
   if (!container) return;
@@ -113,9 +140,14 @@ const planCurrent = el("#plan-current");
 const planOptimized = el("#plan-optimized");
 const planSummaryLine = el("#plan-summary-line");
 
-renderPlan(planCurrent, PLAN_CURRENT);
-renderPlan(planOptimized, PLAN_WEEKDAY);
-if (planSummaryLine) planSummaryLine.innerHTML = planStatsLine(PLAN_WEEKDAY);
+function initPlan() {
+  renderPlan(planCurrent, PLAN_CURRENT);
+  renderPlan(planOptimized, PLAN_WEEKDAY);
+  if (planSummaryLine) planSummaryLine.innerHTML = planStatsLine(PLAN_WEEKDAY);
+}
+
+if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initPlan);
+else initPlan();
 
 els(".plan-tab").forEach(btn => btn.addEventListener("click", () => {
   els(".plan-tab").forEach(b => b.classList.toggle("active", b === btn));

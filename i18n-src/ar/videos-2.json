@@ -1,0 +1,1434 @@
+{
+  "domain": "videos",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 9,
+  "end": 18,
+  "items": [
+    {
+      "id": "va2-1",
+      "level": "A2",
+      "num": 1,
+      "title": "صيغة الأمر واللباقة",
+      "tr": "Emir kipi ve nezaket",
+      "goal": "إعطاء أمر أو نصيحة أو تعليمات، بصيغة المخاطب غير الرسمي (sen) أو الرسمي (siz).",
+      "watch": "emir kipi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تتكون صيغة الأمر من جذر الفعل. ومع ضمير المخاطب غير الرسمي (sen) لا توجد غالبا لاحقة: <tur>gel</tur> (تعال)، <tur>git</tur> (اذهب)، <tur>oku</tur> (اقرأ). ومع المخاطب الرسمي (siz) نضيف <b>-in / -ın / -un / -ün</b>: <tur>gelin</tur>، <tur>gidin</tur>، <tur>okuyun</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "صيغة الأمر في ثلاثة أفعال شائعة",
+          "head": [
+            "المصدر",
+            "sen",
+            "siz",
+            "النفي مع siz"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gel</tur>",
+              "<tur>gelin</tur>",
+              "<tur>gelmeyin</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>git</tur>",
+              "<tur>gidin</tur>",
+              "<tur>gitmeyin</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>oku</tur>",
+              "<tur>okuyun</tur>",
+              "<tur>okumayın</tur>"
+            ],
+            [
+              "<tur>yemek</tur>",
+              "<tur>ye</tur>",
+              "<tur>yiyin</tur>",
+              "<tur>yemeyin</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "النفي",
+          "text": "يبنى نفي الأمر بـ<b>-ma / -me</b>: <tur>gelme</tur> (لا تأت)، <tur>gelmeyin</tur> (لا تأتوا)، <tur>okuma</tur> (لا تقرأ)، <tur>okumayın</tur>. وللشخص الثالث: <tur>gelsin</tur> (فليأت)، <tur>gelmesin</tur> (فلا يأت)."
+        },
+        {
+          "t": "p",
+          "text": "لتلطيف الطلب، أضف <tur>lütfen</tur> (من فضلك) أو استخدم صيغة المخاطب الرسمي. وفي الكلام العادي تجعل <tur>-sana / -sene</tur> الطلب أكثر ودا: <tur>Biraz beklesene.</tur> (انتظر قليلا، هل توافق؟)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Lütfen kapıyı aç.",
+              "fr": "افتح الباب من فضلك."
+            },
+            {
+              "tr": "Biraz bekleyin.",
+              "fr": "انتظروا قليلا."
+            },
+            {
+              "tr": "Bana yardım edin.",
+              "fr": "ساعدوني."
+            },
+            {
+              "tr": "Burada sigara içmeyin.",
+              "fr": "لا تدخنوا هنا."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        [
+          "açmak",
+          "يفتح"
+        ],
+        [
+          "kapatmak",
+          "يغلق"
+        ],
+        [
+          "beklemek",
+          "ينتظر"
+        ],
+        [
+          "yardım etmek",
+          "يساعد"
+        ],
+        [
+          "sigara içmek",
+          "يدخن"
+        ],
+        [
+          "girmek",
+          "يدخل"
+        ],
+        [
+          "çıkmak",
+          "يخرج"
+        ],
+        [
+          "oturmak",
+          "يجلس"
+        ],
+        [
+          "kalkmak",
+          "ينهض"
+        ],
+        [
+          "lütfen",
+          "من فضلك"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما صيغة الأمر المهذبة لفعل «الذهاب»؟",
+          "options": [
+            "git",
+            "gidin",
+            "gitmeyin"
+          ],
+          "a": 1,
+          "why": "تضيف صيغة المخاطب الرسمي اللاحقة -in: git + in = gidin."
+        },
+        {
+          "q": "كيف نقول «لا تدخنوا»؟",
+          "options": [
+            "Sigara içmeyin",
+            "Sigara içmiyorsun",
+            "Sigara içme"
+          ],
+          "a": 0,
+          "why": "في صيغة الجمع للمخاطب يكون نفي الأمر بـ-meyin: içmeyin."
+        }
+      ]
+    },
+    {
+      "id": "va2-2",
+      "level": "A2",
+      "num": 2,
+      "title": "صيغة التمني: «أن أفعل…»، «هيا بنا…»",
+      "tr": "İstek kipi",
+      "goal": "اقتراح عمل، أو التعبير عن رغبة، أو قول «دعني… / هيا بنا».",
+      "watch": "istek kipi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تستعمل صيغة التمني للتعبير عن رغبة أو اقتراح. نضيف <b>-a / -e</b> إلى الجذر، ثم لواحق الشخص: <tur>gel-e-yim</tur> (لآت)، <tur>gel-e-lim</tur> (لنأت)، <tur>gel-e-sin</tur> (لتأت)."
+        },
+        {
+          "t": "table",
+          "caption": "صيغة التمني للفعل gelmek (يأتي)",
+          "head": [
+            "الشخص",
+            "الصيغة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleyim</tur>",
+              "لآت / دعني آت"
+            ],
+            [
+              "sen",
+              "<tur>gelesin</tur>",
+              "لتأت"
+            ],
+            [
+              "o",
+              "<tur>gele</tur>",
+              "فليأت / فلتأت"
+            ],
+            [
+              "biz",
+              "<tur>gelelim</tur>",
+              "لنأت / هيا بنا"
+            ],
+            [
+              "siz",
+              "<tur>gelesiniz</tur>",
+              "لتأتوا"
+            ],
+            [
+              "onlar",
+              "<tur>geleler</tur>",
+              "فليأتوا (نادر)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "الجمع بـ-alım / -elim",
+          "text": "صيغة الجمع للمتكلم هي الأكثر شيوعا: <tur>Gidelim!</tur> (هيا بنا!)، <tur>Başlayalım!</tur> (لنبدأ!)، <tur>Bir çay içelim.</tur> (لنشرب شايا.) وللجمع الغائب يفضل غالبا <tur>gelsinler</tur>."
+        },
+        {
+          "t": "p",
+          "text": "لطرح سؤال-اقتراح نضيف <tur>mi</tur>: <tur>Gidelim mi?</tur> (هل نذهب؟)، <tur>Başlayalım mı?</tur> (هل نبدأ؟). ويبنى النفي بـ<b>-ma / -me</b>: <tur>gelmeyeyim</tur> (ألا آتي)، <tur>gitmeyelim</tur> (ألا نذهب)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Geleyim.",
+              "fr": "دعني آت."
+            },
+            {
+              "tr": "Gidelim mi?",
+              "fr": "هل نذهب؟"
+            },
+            {
+              "tr": "Bir kahve içelim.",
+              "fr": "لنشرب قهوة."
+            },
+            {
+              "tr": "İyi olsun.",
+              "fr": "فليكن كل شيء بخير."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "لا تخلط",
+          "text": "<tur>Gidelim</tur> = «هيا بنا» (تمن). <tur>Gitmeliyim</tur> = «علي أن أذهب» (ضرورة). فاللاحقة <b>-malı</b> تضيف إلزاما لا تحمله صيغة التمني."
+        }
+      ],
+      "vocab": [
+        [
+          "gelmek",
+          "يأتي"
+        ],
+        [
+          "gitmek",
+          "يذهب"
+        ],
+        [
+          "başlamak",
+          "يبدأ"
+        ],
+        [
+          "içmek",
+          "يشرب"
+        ],
+        [
+          "yapmak",
+          "يفعل"
+        ],
+        [
+          "olmak",
+          "يكون، يصبح"
+        ],
+        [
+          "birlikte",
+          "معا"
+        ],
+        [
+          "hadi",
+          "هيا، تعال"
+        ],
+        [
+          "belki",
+          "ربما"
+        ],
+        [
+          "dilemek",
+          "يتمنى"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما معنى «Gidelim»؟",
+          "options": [
+            "علي أن أذهب",
+            "هيا بنا",
+            "لقد ذهب"
+          ],
+          "a": 1,
+          "why": "تعبر صيغة الجمع للمتكلم في التمني عن الاقتراح: هيا بنا."
+        },
+        {
+          "q": "كيف نقول «هل نبدأ؟»",
+          "options": [
+            "Başlayalım mı?",
+            "Başlamalıyım?",
+            "Başladık mı?"
+          ],
+          "a": 0,
+          "why": "Başlayalım صيغة تمن بمعنى «لنبدأ»؛ ومع mi نقترح البدء."
+        }
+      ]
+    },
+    {
+      "id": "va2-3",
+      "level": "A2",
+      "num": 3,
+      "title": "القدرة: -abil / -ebil",
+      "tr": "-abilmek / -ebilmek",
+      "goal": "التعبير عما يمكن فعله، وطلب الإذن، وإمكان حدوث الشيء.",
+      "watch": "-abilmek -ebilmek",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "للتعبير عن القدرة أو الإمكان، ندخل <b>-abil / -ebil</b> بين الجذر واللاحقة: <tur>oku-yabil-ir-im</tur> (أستطيع أن أقرأ)، <tur>gel-ebil-ir-sin</tur> (تستطيع أن تأتي). ويتبع اختيار الصائت التناغم الصوتي."
+        },
+        {
+          "t": "table",
+          "caption": "القدرة في المضارع",
+          "head": [
+            "الشخص",
+            "okumak (يقرأ)",
+            "gelmek (يأتي)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>okuyabilirim</tur>",
+              "<tur>gelebilirim</tur>"
+            ],
+            [
+              "sen",
+              "<tur>okuyabilirsin</tur>",
+              "<tur>gelebilirsin</tur>"
+            ],
+            [
+              "o",
+              "<tur>okuyabilir</tur>",
+              "<tur>gelebilir</tur>"
+            ],
+            [
+              "biz",
+              "<tur>okuyabiliriz</tur>",
+              "<tur>gelebiliriz</tur>"
+            ],
+            [
+              "siz",
+              "<tur>okuyabilirsiniz</tur>",
+              "<tur>gelebilirsiniz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>okuyabilirler</tur>",
+              "<tur>gelebilirler</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "النفي شاذ",
+          "text": "انتبه: <tur>okumayabilirim</tur> موجودة، لكنها تعني «قد لا أقرأ». أما «لا أستطيع أن أقرأ» فنستعمل لها <tur>okuyamam</tur>، ثم <tur>okuyamazsın</tur>، <tur>okuyamaz</tur>، <tur>okuyamayız</tur>، <tur>okuyamazsınız</tur>، <tur>okuyamazlar</tur>. والمنطق نفسه في <tur>gelemem</tur> (لا أستطيع أن آتي)."
+        },
+        {
+          "t": "p",
+          "text": "يمكن أن تعبر <b>-abilir</b> أيضا عن الإذن أو الاحتمال: <tur>Burada oturabilir miyim?</tur> (هل يمكنني الجلوس هنا؟)، <tur>Yarın yağmur yağabilir.</tur> (قد تمطر غدا). ويحدد السياق المعنى: قدرة أم إذن أم إمكان."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe okuyabiliyorum.",
+              "fr": "أستطيع قراءة التركية."
+            },
+            {
+              "tr": "Yarın gelebilir miyim?",
+              "fr": "هل يمكنني أن آتي غدا؟"
+            },
+            {
+              "tr": "Burada sigara içemezsiniz.",
+              "fr": "لا يمكنكم التدخين هنا."
+            },
+            {
+              "tr": "Onu anlayabiliyorum.",
+              "fr": "أستطيع فهمه."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "bilmek",
+          "text": "<tur>Bilmek</tur> وحدها تعني «يعرف»: <tur>Türkçe biliyorum.</tur> (أعرف التركية.) ومع <b>-abil</b> تصبح لاحقة قدرة: <tur>Türkçe konuşabiliyorum.</tur> (أستطيع التحدث بالتركية.)"
+        }
+      ],
+      "vocab": [
+        [
+          "okumak",
+          "يقرأ"
+        ],
+        [
+          "yazmak",
+          "يكتب"
+        ],
+        [
+          "konuşmak",
+          "يتحدث"
+        ],
+        [
+          "anlamak",
+          "يفهم"
+        ],
+        [
+          "gelmek",
+          "يأتي"
+        ],
+        [
+          "gitmek",
+          "يذهب"
+        ],
+        [
+          "oturmak",
+          "يجلس"
+        ],
+        [
+          "izin",
+          "إذن"
+        ],
+        [
+          "belki",
+          "ربما"
+        ],
+        [
+          "bilmek",
+          "يعرف"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "كيف نقول «لا أستطيع أن آتي»؟",
+          "options": [
+            "Gelemiyorum",
+            "Gelemem",
+            "Gelmiyorum"
+          ],
+          "a": 1,
+          "why": "صيغة القدرة المنفية من gelmek هي gelemem (لا أستطيع أن آتي)؛ أما gelmiyorum فتعني ببساطة «لا آتي»."
+        },
+        {
+          "q": "ما معنى «Burada oturabilir miyim?»",
+          "options": [
+            "هل علي الجلوس هنا؟",
+            "هل يمكنني الجلوس هنا؟",
+            "هل أجلس هنا؟"
+          ],
+          "a": 1,
+          "why": "تعبر -abilir + miyim عن الإذن: هل يمكنني الجلوس هنا؟"
+        }
+      ]
+    },
+    {
+      "id": "va2-4",
+      "level": "A2",
+      "num": 4,
+      "title": "صيغتا الحال: -arak و-ıp",
+      "tr": "-arak / -erek ve -ıp / -ip",
+      "goal": "ربط فعلين: التعبير عن الطريقة («فاعلا») وعن التعاقب («يفعل ثم…»).",
+      "watch": "-arak -erek -ıp -ip",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تعني اللاحقة <b>-arak / -erek</b> «فاعلا»: فهي تصف طريقة تنفيذ الفعل الرئيسي. <tur>Koşarak geldi.</tur> (جاء راكضا.) <tur>Gülerek cevap verdi.</tur> (أجابت مبتسمة.)"
+        },
+        {
+          "t": "p",
+          "text": "تربط اللاحقة <b>-ıp / -ip / -up / -üp</b> فعلين متعاقبين لفاعل واحد: <tur>Kitabı okuyup özetledi.</tur> (قرأ الكتاب ثم لخصه.) <tur>Otobüse binip eve gitti.</tur> (ركب الحافلة ثم عاد إلى البيت.)"
+        },
+        {
+          "t": "table",
+          "caption": "تكوين صيغتي الحال",
+          "head": [
+            "الفعل",
+            "-arak / -erek",
+            "-ıp / -ip"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gelerek</tur>",
+              "<tur>gelip</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>giderek</tur>",
+              "<tur>gidip</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>okuyarak</tur>",
+              "<tur>okuyup</tur>"
+            ],
+            [
+              "<tur>yapmak</tur>",
+              "<tur>yaparak</tur>",
+              "<tur>yapıp</tur>"
+            ],
+            [
+              "<tur>görmek</tur>",
+              "<tur>görerek</tur>",
+              "<tur>görüp</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "الفاعل نفسه",
+          "text": "يجب أن يكون الفعلان لفاعل واحد. <tur>Ali gelip masayı temizledi.</tur> = جاء علي ونظف الطاولة. وإذا اختلف الفاعلان، نستعمل جملة كاملة مع <tur>ve</tur> أو أداة ربط أخرى."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Koşarak geldi.",
+              "fr": "جاء راكضا."
+            },
+            {
+              "tr": "Gülerek cevap verdi.",
+              "fr": "أجابت مبتسمة."
+            },
+            {
+              "tr": "Kitabı okuyup özetledi.",
+              "fr": "قرأ الكتاب ثم لخصه."
+            },
+            {
+              "tr": "Otobüse binip eve gitti.",
+              "fr": "ركب الحافلة ثم عاد إلى البيت."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "تفصيل إملائي",
+          "text": "عندما ينتهي الجذر بحرف علة، تأخذ <tur>okumak</tur> حرف وصل <b>y</b> قبل -arak: <tur>okuyarak</tur>. وقبل -ıp يبقى صائت الجذر الأخير: <tur>oku-y-up</tur>."
+        }
+      ],
+      "vocab": [
+        [
+          "koşmak",
+          "يجري"
+        ],
+        [
+          "yürümek",
+          "يمشي"
+        ],
+        [
+          "gülmek",
+          "يضحك"
+        ],
+        [
+          "bakmak",
+          "ينظر"
+        ],
+        [
+          "binmek",
+          "يركب"
+        ],
+        [
+          "inmek",
+          "ينزل"
+        ],
+        [
+          "özetlemek",
+          "يلخص"
+        ],
+        [
+          "cevap vermek",
+          "يجيب"
+        ],
+        [
+          "temizlemek",
+          "ينظف"
+        ],
+        [
+          "hazırlamak",
+          "يحضر"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما معنى «Koşarak geldi»؟",
+          "options": [
+            "جاء راكضا",
+            "ركض ثم جاء",
+            "يركض كثيرا"
+          ],
+          "a": 0,
+          "why": "تصف -arak الطريقة: جاء راكضا."
+        },
+        {
+          "q": "أي صيغة تربط بين «القراءة» ثم «التلخيص»؟",
+          "options": [
+            "okuyarak",
+            "okuyup",
+            "okumak"
+          ],
+          "a": 1,
+          "why": "تدل -ıp / -ip على التعاقب: okuyup = بعد أن قرأ، ثم."
+        }
+      ]
+    },
+    {
+      "id": "va2-5",
+      "level": "A2",
+      "num": 5,
+      "title": "الأسماء الفعلية: -mak و-ma و-ış",
+      "tr": "İsim-fiiller",
+      "goal": "تحويل الفعل إلى اسم للحديث عن نشاط أو ذوق أو طريقة.",
+      "watch": "isim fiil -mak -ma -ış",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "يمكن للتركية أن تحول الفعل إلى اسم بطرق عدة. تعطي <b>-mak / -mek</b> المصدر-الاسم: <tur>yüzmek</tur> (السباحة). وتعطي <b>-ma / -me</b> اسم الحدث: <tur>yüzme</tur> (السباحة، فعل السباحة). وتعطي <b>-ış / -iş</b> غالبا الطريقة: <tur>yürüyüş</tur> (المشي، طريقة المشي)."
+        },
+        {
+          "t": "table",
+          "caption": "ثلاثة أسماء مشتقة من أفعال شائعة",
+          "head": [
+            "الفعل",
+            "-mak / -mek",
+            "-ma / -me",
+            "-ış / -iş"
+          ],
+          "rows": [
+            [
+              "<tur>okumak</tur>",
+              "<tur>okumak</tur>",
+              "<tur>okuma</tur>",
+              "<tur>okuyuş</tur>"
+            ],
+            [
+              "<tur>yüzmek</tur>",
+              "<tur>yüzmek</tur>",
+              "<tur>yüzme</tur>",
+              "<tur>yüzüş</tur>"
+            ],
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gelmek</tur>",
+              "<tur>gelme</tur>",
+              "<tur>geliş</tur>"
+            ],
+            [
+              "<tur>gülmek</tur>",
+              "<tur>gülmek</tur>",
+              "<tur>gülme</tur>",
+              "<tur>gülüş</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "تستعمل <b>-mak</b> خصوصا مع <tur>istemek</tur> (يريد) و<tur>için</tur> (من أجل): <tur>Türkçe öğrenmek istiyorum.</tur> (أريد أن أتعلم التركية.) <tur>Kitap okumak için zamanım yok.</tur> (ليس لدي وقت للقراءة.)"
+        },
+        {
+          "t": "p",
+          "text": "تأخذ <b>-ma</b> لواحق الحالة: <tur>Okumayı seviyorum.</tur> (أحب القراءة.) <tur>Yüzmeyi öğreniyorum.</tur> (أتعلم السباحة.) <tur>Gelmeyi unuttum.</tur> (نسيت أن آتي.) وتصير اللاحقة -ma صيغة -ma-yı في حالة النصب."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe öğrenmek istiyorum.",
+              "fr": "أريد أن أتعلم التركية."
+            },
+            {
+              "tr": "Yüzmeyi seviyorum.",
+              "fr": "أحب السباحة."
+            },
+            {
+              "tr": "Konuşması çok güzel.",
+              "fr": "طريقة كلامه جميلة جدا."
+            },
+            {
+              "tr": "Kitap okumak için zamanım yok.",
+              "fr": "ليس لدي وقت للقراءة."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "-ış ليست مطردة دائما",
+          "text": "بعض الأسماء المنتهية بـ<b>-ış</b> أصبحت كلمات مستقلة: <tur>yürüyüş</tur> (نزهة، مشي)، <tur>bakış</tur> (نظرة)، <tur>gülüş</tur> (ضحكة)، <tur>anlatış</tur> (طريقة السرد). احفظها كما تحفظ المفردات."
+        }
+      ],
+      "vocab": [
+        [
+          "yüzmek",
+          "يسبح"
+        ],
+        [
+          "okumak",
+          "يقرأ"
+        ],
+        [
+          "öğrenmek",
+          "يتعلم"
+        ],
+        [
+          "sevmek",
+          "يحب"
+        ],
+        [
+          "istemek",
+          "يريد"
+        ],
+        [
+          "unutmak",
+          "ينسى"
+        ],
+        [
+          "konuşmak",
+          "يتحدث"
+        ],
+        [
+          "yürüyüş",
+          "مشي، نزهة"
+        ],
+        [
+          "bakış",
+          "نظرة"
+        ],
+        [
+          "zaman",
+          "وقت"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "أي صيغة تعني «أحب السباحة»؟",
+          "options": [
+            "Yüzmek seviyorum",
+            "Yüzmeyi seviyorum",
+            "Yüzme seviyorum"
+          ],
+          "a": 1,
+          "why": "مع sevmek يأخذ اسم الحدث -ma حالة النصب: yüzme + yi = yüzmeyi."
+        },
+        {
+          "q": "أي لاحقة تعطي «طريقة المشي»؟",
+          "options": [
+            "-mak",
+            "-ma",
+            "-ış"
+          ],
+          "a": 2,
+          "why": "تكون -ış / -iş أسماء تدل على الطريقة: yürüyüş، bakış، gülüş."
+        }
+      ]
+    },
+    {
+      "id": "va2-6",
+      "level": "A2",
+      "num": 6,
+      "title": "المشتقات الوصفية: -an / -en و-dik",
+      "tr": "Sıfat-fiiller",
+      "goal": "قول «الطالب الذي يعمل» أو «الكتاب الذي قرأته» من دون جملة موصولة ثقيلة.",
+      "watch": "sıfat fiil -an -dik",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تضع التركية الجملة الوصفية قبل الاسم، كأنها صفة. وتعني <b>-an / -en</b> «الذي يفعل»: <tur>çalışan öğrenci</tur> (الطالب الذي يعمل)، <tur>gelen otobüs</tur> (الحافلة القادمة)."
+        },
+        {
+          "t": "table",
+          "caption": "نوعان من الجمل الوصفية",
+          "head": [
+            "اللاحقة",
+            "المعنى",
+            "المثال"
+          ],
+          "rows": [
+            [
+              "<tur>-an / -en</tur>",
+              "الذي يقوم بالفعل",
+              "<tur>Türkçe konuşan arkadaş</tur> (الصديق الذي يتحدث التركية)"
+            ],
+            [
+              "<tur>-dik / -dık</tur>",
+              "الذي وقع عليه الفعل",
+              "<tur>okuduğum kitap</tur> (الكتاب الذي قرأته)"
+            ],
+            [
+              "<tur>-acak / -ecek</tur>",
+              "الذي سيفعل / الذي سيقع عليه الفعل",
+              "<tur>gideceğim yer</tur> (المكان الذي سأذهب إليه)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "مع <b>-dik</b> تلزم دائما لاحقة ملكية تحدد من يقوم بالفعل: <tur>okuduğum kitap</tur> (الكتاب الذي قرأته)، <tur>okuduğun kitap</tur> (الكتاب الذي قرأته أنت)، <tur>okuduğu kitap</tur> (الكتاب الذي قرأه)، <tur>okuduğumuz kitap</tur> (الكتاب الذي قرأناه)."
+        },
+        {
+          "t": "table",
+          "caption": "okumak: «الكتاب الذي…»",
+          "head": [
+            "الفاعل",
+            "الصيغة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>okuduğum kitap</tur>",
+              "الكتاب الذي قرأته"
+            ],
+            [
+              "sen",
+              "<tur>okuduğun kitap</tur>",
+              "الكتاب الذي قرأته (أنت)"
+            ],
+            [
+              "o",
+              "<tur>okuduğu kitap</tur>",
+              "الكتاب الذي قرأه / قرأته"
+            ],
+            [
+              "biz",
+              "<tur>okuduğumuz kitap</tur>",
+              "الكتاب الذي قرأناه"
+            ],
+            [
+              "siz",
+              "<tur>okuduğunuz kitap</tur>",
+              "الكتاب الذي قرأتموه"
+            ],
+            [
+              "onlar",
+              "<tur>okudukları kitap</tur>",
+              "الكتاب الذي قرأوه"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe konuşan bir arkadaş arıyorum.",
+              "fr": "أبحث عن صديق يتحدث التركية."
+            },
+            {
+              "tr": "Okuduğum kitap çok güzel.",
+              "fr": "الكتاب الذي قرأته جميل جدا."
+            },
+            {
+              "tr": "Gelecek hafta gideceğim şehir İzmir.",
+              "fr": "المدينة التي سأذهب إليها الأسبوع القادم هي إزمير."
+            },
+            {
+              "tr": "Burada çalışan insanlar çok nazik.",
+              "fr": "الناس الذين يعملون هنا لطفاء جدا."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "وصف أم صفة؟",
+          "text": "تعني <tur>Gelecek hafta</tur> «الأسبوع القادم» (صفة للمستقبل)، بينما قد تعني <tur>gelecek otobüs</tur> «الحافلة التي ستأتي». والاسم التالي والسياق هما الفيصل."
+        }
+      ],
+      "vocab": [
+        [
+          "çalışan",
+          "الذي يعمل"
+        ],
+        [
+          "gelen",
+          "الذي يأتي، القادم"
+        ],
+        [
+          "okuduğum",
+          "الذي قرأته"
+        ],
+        [
+          "gideceğim",
+          "الذي سأذهب إليه"
+        ],
+        [
+          "arkadaş",
+          "صديق"
+        ],
+        [
+          "insan",
+          "إنسان، شخص"
+        ],
+        [
+          "nazik",
+          "لطيف، مهذب"
+        ],
+        [
+          "aramak",
+          "يبحث عن"
+        ],
+        [
+          "yer",
+          "مكان"
+        ],
+        [
+          "şirket",
+          "شركة"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما معنى «okuduğum kitap»؟",
+          "options": [
+            "الكتاب الذي يقرأ",
+            "الكتاب الذي قرأته",
+            "الكتاب الذي يجب قراءته"
+          ],
+          "a": 1,
+          "why": "-dik + لاحقة الملكية -um تدل على «الذي قرأته»: okuduğum kitap."
+        },
+        {
+          "q": "أي صيغة تعني «الطالب الذي يعمل»؟",
+          "options": [
+            "çalışan öğrenci",
+            "çalıştığım öğrenci",
+            "çalışacak öğrenci"
+          ],
+          "a": 0,
+          "why": "تدل -an / -en على الفاعل: çalışan öğrenci = الطالب الذي يعمل."
+        }
+      ]
+    },
+    {
+      "id": "va2-7",
+      "level": "A2",
+      "num": 7,
+      "title": "الصفات المشددة",
+      "tr": "Pekiştirilmiş sıfatlar",
+      "goal": "قول «أزرق تماما» و«أبيض ناصع» و«أسود حالك» باستعمال الصفات المشددة.",
+      "watch": "pekiştirilmiş sıfatlar",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "لتشديد صفة، تضيف التركية غالبا مقطعا في أولها يتكون من المقطع الأول + <b>m أو p أو r أو s</b>: <tur>mavi → masmavi</tur> (أزرق تماما)، <tur>beyaz → bembeyaz</tur> (أبيض ناصع)، <tur>siyah → simsiyah</tur> (أسود حالك)."
+        },
+        {
+          "t": "table",
+          "caption": "أكثر الصيغ المشددة شيوعا",
+          "head": [
+            "الصفة",
+            "الصيغة المشددة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "<tur>mavi</tur>",
+              "<tur>masmavi</tur>",
+              "أزرق تماما"
+            ],
+            [
+              "<tur>beyaz</tur>",
+              "<tur>bembeyaz</tur>",
+              "أبيض ناصع"
+            ],
+            [
+              "<tur>siyah</tur>",
+              "<tur>simsiyah</tur>",
+              "أسود حالك"
+            ],
+            [
+              "<tur>yeşil</tur>",
+              "<tur>yemyeşil</tur>",
+              "أخضر ناضر"
+            ],
+            [
+              "<tur>kırmızı</tur>",
+              "<tur>kıpkırmızı</tur>",
+              "أحمر قان"
+            ],
+            [
+              "<tur>sarı</tur>",
+              "<tur>sapsarı</tur>",
+              "أصفر زاه"
+            ],
+            [
+              "<tur>temiz</tur>",
+              "<tur>tertemiz</tur>",
+              "نظيف تماما"
+            ],
+            [
+              "<tur>pembe</tur>",
+              "<tur>pespembe</tur>",
+              "وردي زاه"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "قاعدة مرنة",
+          "text": "ليست كل الصفات تشدد بهذه الطريقة. وإذا لم تحضرك صيغة ثابتة، يبقى <tur>çok</tur> + الصفة صحيحا دائما: <tur>çok güzel</tur>، <tur>çok yeni</tur>. احفظ أكثر الصيغ المشددة شيوعا كتعبيرات جاهزة."
+        },
+        {
+          "t": "p",
+          "text": "يمكن أيضا التشديد بـ<tur>çok</tur> (جدا)، و<tur>pek</tur> (كثيرا)، و<tur>son derece</tur> (إلى أقصى حد)، و<tur>fevkalade</tur> (على نحو استثنائي). وتكون <tur>Çok</tur> الحل الشامل حين لا توجد الصيغة المسبوقة بمقطع."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Deniz bugün masmavi.",
+              "fr": "البحر أزرق تماما اليوم."
+            },
+            {
+              "tr": "Bembeyaz bir gömlek giydi.",
+              "fr": "ارتدى قميصا أبيض ناصعا."
+            },
+            {
+              "tr": "Simsiyah bir kedi gördüm.",
+              "fr": "رأيت قطا أسود حالكا."
+            },
+            {
+              "tr": "Oda tertemiz.",
+              "fr": "الغرفة نظيفة تماما."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "الألوان والمشاعر",
+          "text": "تستعمل هذه الصيغ مجازيا أيضا: فقد تصف <tur>kıpkırmızı</tur> وجها يحمر، وتصف <tur>yemyeşil</tur> منظرا طبيعيا ناضرا. فالتشديد يضيف صورة، لا مجرد شدة."
+        }
+      ],
+      "vocab": [
+        [
+          "mavi",
+          "أزرق"
+        ],
+        [
+          "beyaz",
+          "أبيض"
+        ],
+        [
+          "siyah",
+          "أسود"
+        ],
+        [
+          "yeşil",
+          "أخضر"
+        ],
+        [
+          "kırmızı",
+          "أحمر"
+        ],
+        [
+          "sarı",
+          "أصفر"
+        ],
+        [
+          "temiz",
+          "نظيف"
+        ],
+        [
+          "pembe",
+          "وردي"
+        ],
+        [
+          "çok",
+          "جدا، كثيرا"
+        ],
+        [
+          "renk",
+          "لون"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "كيف نشدد «mavi»؟",
+          "options": [
+            "mavimavi",
+            "masmavi",
+            "mavimsi"
+          ],
+          "a": 1,
+          "why": "المقطع الأول ma + m يعطي masmavi: أزرق تماما."
+        },
+        {
+          "q": "ما معنى «tertemiz»؟",
+          "options": [
+            "متسخ جدا",
+            "نظيف تماما",
+            "نظيف قليلا"
+          ],
+          "a": 1,
+          "why": "tertemiz هي الصيغة المشددة من temiz (نظيف)."
+        }
+      ]
+    },
+    {
+      "id": "va2-8",
+      "level": "A2",
+      "num": 8,
+      "title": "نقل الكلام",
+      "tr": "Dolaylı anlatım",
+      "goal": "قول «قال إن…» و«أعتقد أن…» و«سمعت أن…».",
+      "watch": "dolaylı anlatım -dığını",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "لنقل معلومة نستعمل <b>-dığını / -diğini / -duğunu / -düğünü</b>: <tur>Onun geldiğini biliyorum.</tur> (أعلم أنه جاء.) <tur>Bana evde olduğunu söyledi.</tur> (قال لي إنه كان في البيت.)"
+        },
+        {
+          "t": "table",
+          "caption": "النقل في الماضي والمستقبل",
+          "head": [
+            "الفعل",
+            "المضارع / الماضي",
+            "المستقبل"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>geldiğini</tur>",
+              "<tur>geleceğini</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>gittiğini</tur>",
+              "<tur>gideceğini</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>okuduğunu</tur>",
+              "<tur>okuyacağını</tur>"
+            ],
+            [
+              "<tur>görmek</tur>",
+              "<tur>gördüğünü</tur>",
+              "<tur>göreceğini</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "أكثر أفعال النقل فائدة هي <tur>söylemek</tur> (يقول)، و<tur>demek</tur> (يقول)، و<tur>düşünmek</tur> (يعتقد)، و<tur>sanmak</tur> (يظن)، و<tur>bilmek</tur> (يعرف)، و<tur>duymak</tur> (يسمع). ويوضع فاعل الجملة المروية غالبا في حالة الإضافة: <tur>Ali'nin geleceğini duydum.</tur>"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "كلام مباشر أم منقول؟",
+          "text": "مباشر: <tur>« Yarın geleceğim » dedi.</tur> (قال: «سآتي غدا».) منقول: <tur>Yarın geleceğini söyledi.</tur> (قال إنه سيأتي غدا.) ولا تعرف التركية تطابق الأزمنة الصارم كما في الفرنسية: فاللاحقة هي التي تحمل دلالة المستقبل."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ali'nin yarın geleceğini duydum.",
+              "fr": "سمعت أن علي سيأتي غدا."
+            },
+            {
+              "tr": "Öğretmen sınavın kolay olduğunu söyledi.",
+              "fr": "قال المعلم إن الامتحان سهل."
+            },
+            {
+              "tr": "Onun haklı olduğunu düşünüyorum.",
+              "fr": "أعتقد أنه على حق."
+            },
+            {
+              "tr": "Bana evde olduğunu söyledi.",
+              "fr": "قال لي إنه كان في البيت."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "الفاعل في حالة الإضافة",
+          "text": "حين يكون فاعل الجملة المروية اسما علما أو ضميرا، يمكن وضعه في حالة الإضافة: <tur>Ali'nin geldiğini</tur>، <tur>onun geldiğini</tur>. وبدون حالة الإضافة تبقى الجملة مفهومة، لكن حالة الإضافة تزيل الالتباس."
+        }
+      ],
+      "vocab": [
+        [
+          "söylemek",
+          "يقول"
+        ],
+        [
+          "demek",
+          "يقول"
+        ],
+        [
+          "düşünmek",
+          "يعتقد"
+        ],
+        [
+          "sanmak",
+          "يظن"
+        ],
+        [
+          "bilmek",
+          "يعرف"
+        ],
+        [
+          "duymak",
+          "يسمع"
+        ],
+        [
+          "haklı",
+          "على حق"
+        ],
+        [
+          "kolay",
+          "سهل"
+        ],
+        [
+          "haber",
+          "خبر"
+        ],
+        [
+          "doğru",
+          "صحيح"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما معنى «Geldiğini biliyorum»؟",
+          "options": [
+            "أعلم أنه جاء",
+            "أعلم أنه سيأتي",
+            "أعتقد أنه يأتي"
+          ],
+          "a": 0,
+          "why": "تنقل -dığını حقيقة ماضية أو منتهية: أعلم أنه جاء."
+        },
+        {
+          "q": "كيف ننقل «قال إنه سيأتي غدا»؟",
+          "options": [
+            "Yarın geleceğini söyledi",
+            "Yarın geldiğini söyledi",
+            "Yarın geliyor söyledi"
+          ],
+          "a": 0,
+          "why": "يستعمل النقل في المستقبل -eceğini: geleceğini söyledi."
+        }
+      ]
+    },
+    {
+      "id": "va2-9",
+      "level": "A2",
+      "num": 9,
+      "title": "ربط الأفكار",
+      "tr": "Bağlaçlar",
+      "goal": "وصل الجمل بـ«لكن» و«لأن» و«لذلك» و«أيضا» و«لا… ولا…».",
+      "watch": "bağlaçlar",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "أدوات الربط الأساسية",
+          "head": [
+            "التركية",
+            "العربية",
+            "المثال"
+          ],
+          "rows": [
+            [
+              "<tur>ama</tur>",
+              "لكن",
+              "<tur>Zor ama güzel.</tur>"
+            ],
+            [
+              "<tur>ancak / fakat</tur>",
+              "لكن، غير أن",
+              "<tur>Ancak bugün gelemem.</tur>"
+            ],
+            [
+              "<tur>çünkü</tur>",
+              "لأن",
+              "<tur>Çalışıyorum çünkü sınav var.</tur>"
+            ],
+            [
+              "<tur>bu yüzden</tur>",
+              "لهذا",
+              "<tur>Yağmur var, bu yüzden gelmiyorum.</tur>"
+            ],
+            [
+              "<tur>ayrıca</tur>",
+              "علاوة على ذلك",
+              "<tur>Ayrıca Türkçe öğreniyorum.</tur>"
+            ],
+            [
+              "<tur>hem … hem …</tur>",
+              "كل من … و…",
+              "<tur>Hem çay hem kahve içti.</tur>"
+            ],
+            [
+              "<tur>ya … ya …</tur>",
+              "إما … أو …",
+              "<tur>Ya bugün ya yarın gel.</tur>"
+            ],
+            [
+              "<tur>ne … ne …</tur>",
+              "لا … ولا …",
+              "<tur>Ne çay ne kahve istiyorum.</tur>"
+            ],
+            [
+              "<tur>oysa</tur>",
+              "بينما",
+              "<tur>Oysa ben onu tanıyordum.</tur>"
+            ],
+            [
+              "<tur>yani</tur>",
+              "أي",
+              "<tur>Yani gelmiyorsun?</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "تربط <tur>Ama</tur> فكرتين متعارضتين وتقع بين الجملتين. وتقدم <tur>Çünkü</tur> السبب وتقع قبل التفسير. وتقدم <tur>Bu yüzden</tur> النتيجة: <tur>Yorgunum, bu yüzden erken yatıyorum.</tur> (أنا متعب، ولهذا أنام مبكرا.)"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "hem … hem …",
+          "text": "يؤدي العنصران اللذان تربطهما <tur>hem … hem …</tur> الوظيفة نفسها: <tur>Hem Türkçe hem Fransızca konuşuyor.</tur> (يتحدث التركية والفرنسية.) وللنفي نستعمل <tur>ne … ne …</tur>: <tur>Ne parası ne zamanı var.</tur> (لا يملك مالا ولا وقتا.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe zor ama güzel.",
+              "fr": "التركية صعبة لكنها جميلة."
+            },
+            {
+              "tr": "Bugün gelemiyorum çünkü çalışıyorum.",
+              "fr": "لا أستطيع المجيء اليوم لأنني أعمل."
+            },
+            {
+              "tr": "Hem çay hem kahve içti.",
+              "fr": "شرب الشاي والقهوة."
+            },
+            {
+              "tr": "Ya bugün ya yarın gel.",
+              "fr": "تعال إما اليوم وإما غدا."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "de / da",
+          "text": "تعني <tur>de / da</tur> «أيضا» وتكتب منفصلة: <tur>Ben de geliyorum.</tur> (أنا آت أيضا.) لا تخلطها بحالة المكان <tur>-de / -da</tur> الملتصقة بالاسم: <tur>evde</tur> (في البيت)."
+        }
+      ],
+      "vocab": [
+        [
+          "ama",
+          "لكن"
+        ],
+        [
+          "çünkü",
+          "لأن"
+        ],
+        [
+          "bu yüzden",
+          "لهذا"
+        ],
+        [
+          "ayrıca",
+          "علاوة على ذلك"
+        ],
+        [
+          "hem",
+          "و، كذلك"
+        ],
+        [
+          "ya",
+          "إما"
+        ],
+        [
+          "ne",
+          "لا (للنفي)"
+        ],
+        [
+          "oysa",
+          "بينما"
+        ],
+        [
+          "yani",
+          "أي"
+        ],
+        [
+          "ancak",
+          "لكن، غير أن"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "أي كلمة تعني «لأن»؟",
+          "options": [
+            "ama",
+            "çünkü",
+            "bu yüzden"
+          ],
+          "a": 1,
+          "why": "تقدم çünkü السبب؛ وتقدم bu yüzden النتيجة."
+        },
+        {
+          "q": "كيف نقول «لا شاي ولا قهوة»؟",
+          "options": [
+            "Hem çay hem kahve",
+            "Ya çay ya kahve",
+            "Ne çay ne kahve"
+          ],
+          "a": 2,
+          "why": "تفيد ne … ne … النفي المزدوج: لا … ولا …"
+        }
+      ]
+    }
+  ]
+}

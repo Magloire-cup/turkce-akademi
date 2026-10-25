@@ -1,0 +1,1040 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 0,
+  "end": 10,
+  "items": [
+    {
+      "id": "salutations",
+      "name": "Greetings",
+      "words": [
+        {
+          "tr": "merhaba",
+          "fr": "hello, hi",
+          "ex": "Merhaba, nasılsın?",
+          "exFr": "Hi, how are you?"
+        },
+        {
+          "tr": "günaydın",
+          "fr": "good morning",
+          "ex": "Günaydın hanım.",
+          "exFr": "Good morning, madam."
+        },
+        {
+          "tr": "iyi günler",
+          "fr": "good day",
+          "ex": "İyi günler efendim.",
+          "exFr": "Good day, sir / madam."
+        },
+        {
+          "tr": "iyi akşamlar",
+          "fr": "good evening",
+          "ex": "İyi akşamlar, hoşça kalın.",
+          "exFr": "Good evening, goodbye."
+        },
+        {
+          "tr": "iyi geceler",
+          "fr": "good night",
+          "ex": "İyi geceler, tatlı rüyalar.",
+          "exFr": "Good night, sweet dreams."
+        },
+        {
+          "tr": "hoş geldiniz",
+          "fr": "welcome (formal)",
+          "ex": "Hoş geldiniz! Buyurun.",
+          "exFr": "Welcome! Please come in."
+        },
+        {
+          "tr": "hoş buldum",
+          "fr": "thank you for the welcome (the reply)",
+          "ex": "Hoş buldum, çok naziksiniz.",
+          "exFr": "Thank you for the welcome, that's very kind."
+        },
+        {
+          "tr": "güle güle",
+          "fr": "goodbye (to the person leaving)",
+          "ex": "Güle güle, yarın görüşürüz.",
+          "exFr": "Goodbye, see you tomorrow."
+        },
+        {
+          "tr": "hoşça kal",
+          "fr": "goodbye (said by the person leaving)",
+          "ex": "Ben gidiyorum, hoşça kal.",
+          "exFr": "I'm off, goodbye."
+        },
+        {
+          "tr": "görüşürüz",
+          "fr": "see you soon",
+          "ex": "Görüşürüz, kendine iyi bak.",
+          "exFr": "See you soon, take care."
+        },
+        {
+          "tr": "nasılsın?",
+          "fr": "how are you? (informal)",
+          "ex": "Merhaba Ali, nasılsın?",
+          "exFr": "Hi Ali, how are you?"
+        },
+        {
+          "tr": "nasılsınız?",
+          "fr": "how are you? (formal)",
+          "ex": "Hoş geldiniz, nasılsınız?",
+          "exFr": "Welcome, how are you?"
+        },
+        {
+          "tr": "iyiyim",
+          "fr": "I'm well",
+          "ex": "İyiyim, teşekkür ederim.",
+          "exFr": "I'm well, thank you."
+        },
+        {
+          "tr": "memnun oldum",
+          "fr": "pleased to meet you",
+          "ex": "Tanıştığımıza memnun oldum.",
+          "exFr": "Pleased to meet you."
+        },
+        {
+          "tr": "hoşça kalın",
+          "fr": "goodbye (formal)",
+          "ex": "İyi günler, hoşça kalın.",
+          "exFr": "Have a good day, goodbye."
+        }
+      ]
+    },
+    {
+      "id": "politesse",
+      "name": "Politeness & replies",
+      "words": [
+        {
+          "tr": "evet",
+          "fr": "yes",
+          "ex": "Evet, doğru.",
+          "exFr": "Yes, that's true."
+        },
+        {
+          "tr": "hayır",
+          "fr": "no",
+          "ex": "Hayır, teşekkürler.",
+          "exFr": "No, thank you."
+        },
+        {
+          "tr": "teşekkür ederim",
+          "fr": "thank you",
+          "ex": "Yardımın için teşekkür ederim.",
+          "exFr": "Thank you for your help."
+        },
+        {
+          "tr": "sağ ol",
+          "fr": "thanks (informal)",
+          "ex": "Sağ ol, çok tatlısın.",
+          "exFr": "Thanks, that's very kind."
+        },
+        {
+          "tr": "rica ederim",
+          "fr": "you're welcome",
+          "ex": "Rica ederim, ne demek!",
+          "exFr": "You're welcome, it's nothing!"
+        },
+        {
+          "tr": "lütfen",
+          "fr": "please",
+          "ex": "Bir bardak su, lütfen.",
+          "exFr": "A glass of water, please."
+        },
+        {
+          "tr": "buyurun",
+          "fr": "here you are, please",
+          "ex": "Buyurun, oturun.",
+          "exFr": "Please, sit down."
+        },
+        {
+          "tr": "affedersiniz",
+          "fr": "excuse me",
+          "ex": "Affedersiniz, bir sorum var.",
+          "exFr": "Excuse me, I have a question."
+        },
+        {
+          "tr": "özür dilerim",
+          "fr": "I'm sorry",
+          "ex": "Geç kaldım, özür dilerim.",
+          "exFr": "I'm late, I'm sorry."
+        },
+        {
+          "tr": "sorun değil",
+          "fr": "it's no problem",
+          "ex": "Sorun değil, merak etme.",
+          "exFr": "It's no problem, don't worry."
+        },
+        {
+          "tr": "tamam",
+          "fr": "all right, OK",
+          "ex": "Tamam, anladım.",
+          "exFr": "All right, I understand."
+        },
+        {
+          "tr": "olur",
+          "fr": "sure, gladly",
+          "ex": "Olur, yarın gelirim.",
+          "exFr": "Sure, I'll come tomorrow."
+        },
+        {
+          "tr": "maalesef",
+          "fr": "unfortunately",
+          "ex": "Maalesef bugün gelamam.",
+          "exFr": "Unfortunately I can't come today."
+        },
+        {
+          "tr": "belki",
+          "fr": "maybe",
+          "ex": "Belki yarın gelir.",
+          "exFr": "Maybe he'll come tomorrow."
+        },
+        {
+          "tr": "tabii",
+          "fr": "of course",
+          "ex": "Tabii ki yardım ederim.",
+          "exFr": "Of course I'll help you."
+        },
+        {
+          "tr": "tebrikler",
+          "fr": "congratulations",
+          "ex": "Tebrikler, başardın!",
+          "exFr": "Congratulations, you did it!"
+        },
+        {
+          "tr": "geçmiş olsun",
+          "fr": "get well soon",
+          "ex": "Geçmiş olsun, çabuk iyileş.",
+          "exFr": "Get well soon, recover quickly."
+        },
+        {
+          "tr": "afiyet olsun",
+          "fr": "enjoy your meal",
+          "ex": "Buyurun, afiyet olsun.",
+          "exFr": "Here you are, enjoy your meal."
+        },
+        {
+          "tr": "kolay gelsin",
+          "fr": "good luck with your work",
+          "ex": "Kolay gelsin, iyi çalışmalar.",
+          "exFr": "Good luck, and good work."
+        }
+      ]
+    },
+    {
+      "id": "pronom",
+      "name": "Pronouns & questions",
+      "words": [
+        {
+          "tr": "ben",
+          "fr": "I, me",
+          "ex": "Ben öğrenciyim.",
+          "exFr": "I'm a student."
+        },
+        {
+          "tr": "sen",
+          "fr": "you (informal)",
+          "ex": "Sen nasılsın?",
+          "exFr": "And you, how are you?"
+        },
+        {
+          "tr": "o",
+          "fr": "he, she, it",
+          "ex": "O Türk.",
+          "exFr": "He (she) is Turkish."
+        },
+        {
+          "tr": "biz",
+          "fr": "we",
+          "ex": "Biz Fransızız.",
+          "exFr": "We are French."
+        },
+        {
+          "tr": "siz",
+          "fr": "you (polite/plural)",
+          "ex": "Siz nerelisiniz?",
+          "exFr": "Where are you from?"
+        },
+        {
+          "tr": "onlar",
+          "fr": "they",
+          "ex": "Onlar evde.",
+          "exFr": "They are at home."
+        },
+        {
+          "tr": "bu",
+          "fr": "this",
+          "ex": "Bu nedir?",
+          "exFr": "What is this?"
+        },
+        {
+          "tr": "şu",
+          "fr": "that",
+          "ex": "Şu kitap benim.",
+          "exFr": "That book is mine."
+        },
+        {
+          "tr": "ne",
+          "fr": "what",
+          "ex": "Adın ne?",
+          "exFr": "What's your name?"
+        },
+        {
+          "tr": "kim",
+          "fr": "who",
+          "ex": "O kim?",
+          "exFr": "Who is it?"
+        },
+        {
+          "tr": "nerede",
+          "fr": "where",
+          "ex": "Tuvalet nerede?",
+          "exFr": "Where are the toilets?"
+        },
+        {
+          "tr": "nereye",
+          "fr": "where to",
+          "ex": "Nereye gidiyorsun?",
+          "exFr": "Where are you going?"
+        },
+        {
+          "tr": "nereden",
+          "fr": "where from",
+          "ex": "Sen nereden geldin?",
+          "exFr": "Where do you come from?"
+        },
+        {
+          "tr": "ne zaman",
+          "fr": "when",
+          "ex": "Ne zaman geliyorsun?",
+          "exFr": "When are you coming?"
+        },
+        {
+          "tr": "neden",
+          "fr": "why",
+          "ex": "Neden gittin?",
+          "exFr": "Why did you leave?"
+        },
+        {
+          "tr": "niye",
+          "fr": "why (informal)",
+          "ex": "Niye böyle yaptın?",
+          "exFr": "Why did you do that?"
+        },
+        {
+          "tr": "nasıl",
+          "fr": "how",
+          "ex": "Nasıl yaptın?",
+          "exFr": "How did you do it?"
+        },
+        {
+          "tr": "kaç",
+          "fr": "how many / how much",
+          "ex": "Bu kaç lira?",
+          "exFr": "How much is it?"
+        },
+        {
+          "tr": "hangi",
+          "fr": "which",
+          "ex": "Hangi rengi seviyorsun?",
+          "exFr": "Which colour do you prefer?"
+        },
+        {
+          "tr": "hepsi",
+          "fr": "everything, all",
+          "ex": "Hepsi doğru.",
+          "exFr": "Everything is correct."
+        }
+      ]
+    },
+    {
+      "id": "nombres",
+      "name": "Numbers",
+      "words": [
+        {
+          "tr": "sıfır",
+          "fr": "zero",
+          "ex": "Sıcaklık sıfırın altında.",
+          "exFr": "The temperature is below zero."
+        },
+        {
+          "tr": "bir",
+          "fr": "one",
+          "ex": "Bir kahve, lütfen.",
+          "exFr": "One coffee, please."
+        },
+        {
+          "tr": "iki",
+          "fr": "two",
+          "ex": "İki bilet aldım.",
+          "exFr": "I got two tickets."
+        },
+        {
+          "tr": "üç",
+          "fr": "three",
+          "ex": "Üç gün kaldım.",
+          "exFr": "I stayed three days."
+        },
+        {
+          "tr": "dört",
+          "fr": "four",
+          "ex": "Dört mevsim var.",
+          "exFr": "There are four seasons."
+        },
+        {
+          "tr": "beş",
+          "fr": "five",
+          "ex": "Saat beş.",
+          "exFr": "It's five o'clock."
+        },
+        {
+          "tr": "altı",
+          "fr": "six",
+          "ex": "Altı kişi geldik.",
+          "exFr": "Six of us came."
+        },
+        {
+          "tr": "yedi",
+          "fr": "seven",
+          "ex": "Haftada yedi gün var.",
+          "exFr": "There are seven days in a week."
+        },
+        {
+          "tr": "sekiz",
+          "fr": "eight",
+          "ex": "Sekiz katlı bina.",
+          "exFr": "An eight-storey building."
+        },
+        {
+          "tr": "dokuz",
+          "fr": "nine",
+          "ex": "Dokuz ay sonra döndü.",
+          "exFr": "He came back nine months later."
+        },
+        {
+          "tr": "on",
+          "fr": "ten",
+          "ex": "On dakika bekle.",
+          "exFr": "Wait ten minutes."
+        },
+        {
+          "tr": "yirmi",
+          "fr": "twenty",
+          "ex": "Yirmi lira verdim.",
+          "exFr": "I gave twenty lira."
+        },
+        {
+          "tr": "otuz",
+          "fr": "thirty",
+          "ex": "Otuz yaşındayım.",
+          "exFr": "I'm thirty years old."
+        },
+        {
+          "tr": "kırk",
+          "fr": "forty",
+          "ex": "Kırk dakika sürdü.",
+          "exFr": "It lasted forty minutes."
+        },
+        {
+          "tr": "elli",
+          "fr": "fifty",
+          "ex": "Elli kişi davetli.",
+          "exFr": "Fifty people are invited."
+        },
+        {
+          "tr": "altmış",
+          "fr": "sixty",
+          "ex": "Altmış saniye bir dakikadır.",
+          "exFr": "Sixty seconds make a minute."
+        },
+        {
+          "tr": "yetmiş",
+          "fr": "seventy",
+          "ex": "Yetmiş yaşında ama dinç.",
+          "exFr": "Seventy years old, but still fit."
+        },
+        {
+          "tr": "seksen",
+          "fr": "eighty",
+          "ex": "Seksen kilometre hızla.",
+          "exFr": "At a speed of eighty kilometres."
+        },
+        {
+          "tr": "doksan",
+          "fr": "ninety",
+          "ex": "Doksan iki yıl önce.",
+          "exFr": "Ninety-two years earlier."
+        },
+        {
+          "tr": "yüz",
+          "fr": "hundred",
+          "ex": "Yüz kişi geldi.",
+          "exFr": "A hundred people came."
+        },
+        {
+          "tr": "bin",
+          "fr": "thousand",
+          "ex": "İki bin kilometre yolculuk.",
+          "exFr": "A journey of two thousand kilometres."
+        },
+        {
+          "tr": "milyon",
+          "fr": "a million",
+          "ex": "On beş milyon insan.",
+          "exFr": "Fifteen million people."
+        },
+        {
+          "tr": "tane",
+          "fr": "piece (counting word)",
+          "ex": "Üç tane elma aldim.",
+          "exFr": "I got three apples."
+        }
+      ]
+    },
+    {
+      "id": "couleurs",
+      "name": "Colours",
+      "words": [
+        {
+          "tr": "kırmızı",
+          "fr": "red",
+          "ex": "Kırmızı bir elma yedim.",
+          "exFr": "I ate a red apple."
+        },
+        {
+          "tr": "beyaz",
+          "fr": "white",
+          "ex": "Beyaz bir kedi gördüm.",
+          "exFr": "I saw a white cat."
+        },
+        {
+          "tr": "siyah",
+          "fr": "black",
+          "ex": "Siyah kahve içiyorum.",
+          "exFr": "I drink black coffee."
+        },
+        {
+          "tr": "mavi",
+          "fr": "blue",
+          "ex": "Gökyüzü çok mavi.",
+          "exFr": "The sky is very blue."
+        },
+        {
+          "tr": "yeşil",
+          "fr": "green",
+          "ex": "Yeşil çay sağlıklıdır.",
+          "exFr": "Green tea is healthy."
+        },
+        {
+          "tr": "sarı",
+          "fr": "yellow",
+          "ex": "Sarı bir çiçek koydum.",
+          "exFr": "I placed a yellow flower."
+        },
+        {
+          "tr": "turuncu",
+          "fr": "orange (colour)",
+          "ex": "Turuncu bir tişört giydim.",
+          "exFr": "I wore an orange T-shirt."
+        },
+        {
+          "tr": "mor",
+          "fr": "purple",
+          "ex": "Mor bere taktı.",
+          "exFr": "He put on a purple hat."
+        },
+        {
+          "tr": "pembe",
+          "fr": "pink",
+          "ex": "Pembe bir elbise aldı.",
+          "exFr": "She bought a pink dress."
+        },
+        {
+          "tr": "kahverengi",
+          "fr": "brown",
+          "ex": "Kahverengi gözleri var.",
+          "exFr": "He has brown eyes."
+        },
+        {
+          "tr": "gri",
+          "fr": "grey",
+          "ex": "Gri bir ceket giyiyor.",
+          "exFr": "He is wearing a grey jacket."
+        },
+        {
+          "tr": "altın",
+          "fr": "gold (colour)",
+          "ex": "Altın rengi bir saat.",
+          "exFr": "A gold-coloured watch."
+        },
+        {
+          "tr": "açık",
+          "fr": "light",
+          "ex": "Açık mavi bir gömlek.",
+          "exFr": "A light blue shirt."
+        },
+        {
+          "tr": "koyu",
+          "fr": "dark",
+          "ex": "Koyu yeşil bir oda.",
+          "exFr": "A dark green room."
+        }
+      ]
+    },
+    {
+      "id": "temps",
+      "name": "Time passing",
+      "words": [
+        {
+          "tr": "bugün",
+          "fr": "today",
+          "ex": "Bugün hava çok güzel.",
+          "exFr": "The weather is lovely today."
+        },
+        {
+          "tr": "yarın",
+          "fr": "tomorrow",
+          "ex": "Yarın okula gideceğim.",
+          "exFr": "Tomorrow I'll go to school."
+        },
+        {
+          "tr": "dün",
+          "fr": "yesterday",
+          "ex": "Dün sinemaya gittim.",
+          "exFr": "Yesterday I went to the cinema."
+        },
+        {
+          "tr": "şimdi",
+          "fr": "now",
+          "ex": "Şimdi ders çalışıyorum.",
+          "exFr": "Now I'm reviewing."
+        },
+        {
+          "tr": "sabah",
+          "fr": "the morning",
+          "ex": "Her sabah erken kalkarım.",
+          "exFr": "Every morning I get up early."
+        },
+        {
+          "tr": "akşam",
+          "fr": "the evening",
+          "ex": "Bu akşam evde kalacağım.",
+          "exFr": "Tonight I'll stay at home."
+        },
+        {
+          "tr": "gece",
+          "fr": "the night",
+          "ex": "Gece yürüyüşü yaptık.",
+          "exFr": "We went for a night walk."
+        },
+        {
+          "tr": "öğle",
+          "fr": "midday",
+          "ex": "Öğle yemeği yedik.",
+          "exFr": "We had lunch."
+        },
+        {
+          "tr": "gün",
+          "fr": "day",
+          "ex": "İyi günler dilerim.",
+          "exFr": "I wish you a good day."
+        },
+        {
+          "tr": "hafta",
+          "fr": "week",
+          "ex": "Gelecek hafta tatildeyim.",
+          "exFr": "Next week I'm on holiday."
+        },
+        {
+          "tr": "ay",
+          "fr": "month",
+          "ex": "Üç ay kaldım.",
+          "exFr": "I stayed three months."
+        },
+        {
+          "tr": "yıl",
+          "fr": "year",
+          "ex": "Yeni yıl kutlu olsun!",
+          "exFr": "Happy New Year!"
+        },
+        {
+          "tr": "saat",
+          "fr": "hour",
+          "ex": "Saatlerdir seni bekliyorum.",
+          "exFr": "I've been waiting for you for hours."
+        },
+        {
+          "tr": "dakika",
+          "fr": "minute",
+          "ex": "Beş dakika kaldı.",
+          "exFr": "There are five minutes left."
+        },
+        {
+          "tr": "erken",
+          "fr": "early",
+          "ex": "Bugün erken uyandım.",
+          "exFr": "Today I woke up early."
+        },
+        {
+          "tr": "geç",
+          "fr": "late",
+          "ex": "Geç kaldım, özür dilerim.",
+          "exFr": "I'm late, sorry."
+        },
+        {
+          "tr": "her zaman",
+          "fr": "always",
+          "ex": "Her zaman yanındayım.",
+          "exFr": "I'm always by your side."
+        },
+        {
+          "tr": "bazen",
+          "fr": "sometimes",
+          "ex": "Bazen yalnız kalırım.",
+          "exFr": "Sometimes I stay alone."
+        },
+        {
+          "tr": "hiç",
+          "fr": "never (with negation)",
+          "ex": "Hiç sigara içmedim.",
+          "exFr": "I have never smoked."
+        },
+        {
+          "tr": "artık",
+          "fr": "from now on, no longer",
+          "ex": "Artık burada yaşamıyorum.",
+          "exFr": "I no longer live here."
+        }
+      ]
+    },
+    {
+      "id": "semaine",
+      "name": "Days of the week",
+      "words": [
+        {
+          "tr": "pazartesi",
+          "fr": "Monday",
+          "ex": "Pazartesi toplantım var.",
+          "exFr": "On Monday I have a meeting."
+        },
+        {
+          "tr": "salı",
+          "fr": "Tuesday",
+          "ex": "Salı günü spor yapıyorum.",
+          "exFr": "On Tuesdays I do sport."
+        },
+        {
+          "tr": "çarşamba",
+          "fr": "Wednesday",
+          "ex": "Çarşamba akşamı buluşalım.",
+          "exFr": "Let's meet on Wednesday evening."
+        },
+        {
+          "tr": "perşembe",
+          "fr": "Thursday",
+          "ex": "Perşembe günü sınavım var.",
+          "exFr": "On Thursday I have an exam."
+        },
+        {
+          "tr": "cuma",
+          "fr": "Friday",
+          "ex": "Cuma akşamı sinemaya gidelim.",
+          "exFr": "On Friday evening, let's go to the cinema."
+        },
+        {
+          "tr": "cumartesi",
+          "fr": "Saturday",
+          "ex": "Cumartesi sabahı piyano çalıyorum.",
+          "exFr": "On Saturday morning I play the piano."
+        },
+        {
+          "tr": "pazar",
+          "fr": "Sunday",
+          "ex": "Pazar günü dinlenirim.",
+          "exFr": "On Sundays I rest."
+        },
+        {
+          "tr": "hafta içi",
+          "fr": "on weekdays",
+          "ex": "Hafta içi çok meşgulüm.",
+          "exFr": "On weekdays I'm very busy."
+        },
+        {
+          "tr": "hafta sonu",
+          "fr": "the weekend",
+          "ex": "Hafta sonu nereye gideceğiz?",
+          "exFr": "Where shall we go at the weekend?"
+        }
+      ]
+    },
+    {
+      "id": "mois",
+      "name": "Months of the year",
+      "words": [
+        {
+          "tr": "Ocak",
+          "fr": "January",
+          "ex": "Ocak ayında kar yağdı.",
+          "exFr": "It snowed in January."
+        },
+        {
+          "tr": "Şubat",
+          "fr": "February",
+          "ex": "Şubat kısa bir aydır.",
+          "exFr": "February is a short month."
+        },
+        {
+          "tr": "Mart",
+          "fr": "March",
+          "ex": "Martta bahar başlar.",
+          "exFr": "Spring begins in March."
+        },
+        {
+          "tr": "Nisan",
+          "fr": "April",
+          "ex": "Nisanda kiraz çiçekleri açar.",
+          "exFr": "In April the cherry trees blossom."
+        },
+        {
+          "tr": "Mayıs",
+          "fr": "May",
+          "ex": "Mayıs en güzel ay.",
+          "exFr": "May is the most beautiful month."
+        },
+        {
+          "tr": "Haziran",
+          "fr": "June",
+          "ex": "Haziranda okul biter.",
+          "exFr": "School ends in June."
+        },
+        {
+          "tr": "Temmuz",
+          "fr": "July",
+          "ex": "Temmuz çok sıcak olur.",
+          "exFr": "July is very hot."
+        },
+        {
+          "tr": "Ağustos",
+          "fr": "August",
+          "ex": "Ağustosta tatile çıkıyoruz.",
+          "exFr": "In August we go on holiday."
+        },
+        {
+          "tr": "Eylül",
+          "fr": "September",
+          "ex": "Eylülde okullar açılır.",
+          "exFr": "In September the schools open."
+        },
+        {
+          "tr": "Ekim",
+          "fr": "October",
+          "ex": "Ekimde yapraklar düşer.",
+          "exFr": "In October the leaves fall."
+        },
+        {
+          "tr": "Kasım",
+          "fr": "November",
+          "ex": "Kasımda yağmur çok yağar.",
+          "exFr": "It rains a lot in November."
+        },
+        {
+          "tr": "Aralık",
+          "fr": "December",
+          "ex": "Aralıkta yıl sonu yaklaşır.",
+          "exFr": "In December the end of the year approaches."
+        }
+      ]
+    },
+    {
+      "id": "heure",
+      "name": "Telling the time",
+      "words": [
+        {
+          "tr": "saat kaç?",
+          "fr": "what time is it?",
+          "ex": "Affedersiniz, saat kaç?",
+          "exFr": "Excuse me, what time is it?"
+        },
+        {
+          "tr": "saat üç",
+          "fr": "three o'clock",
+          "ex": "Saat şu an tam üç.",
+          "exFr": "It's exactly three o'clock."
+        },
+        {
+          "tr": "buçuk",
+          "fr": "half past",
+          "ex": "Saat yedi buçuk.",
+          "exFr": "It's half past seven."
+        },
+        {
+          "tr": "çeyrek",
+          "fr": "quarter",
+          "ex": "Saat on bir çeyrek geçiyor.",
+          "exFr": "It's quarter past eleven."
+        },
+        {
+          "tr": "geçiyor",
+          "fr": "past (the hour)",
+          "ex": "Saat beşi on geçiyor.",
+          "exFr": "It's ten past five."
+        },
+        {
+          "tr": "var",
+          "fr": "to (before the hour)",
+          "ex": "Saat ikiye çeyrek var.",
+          "exFr": "It's quarter to two."
+        },
+        {
+          "tr": "gece yarısı",
+          "fr": "midnight",
+          "ex": "Gece yarısı döndüm.",
+          "exFr": "I came home at midnight."
+        },
+        {
+          "tr": "sabahın körü",
+          "fr": "very early in the morning",
+          "ex": "Sabahın körü kalktık.",
+          "exFr": "We got up at dawn."
+        },
+        {
+          "tr": "ne zaman?",
+          "fr": "what time / when",
+          "ex": "Tren ne zaman kalkıyor?",
+          "exFr": "What time does the train leave?"
+        },
+        {
+          "tr": "geç kalmak",
+          "fr": "to be late",
+          "ex": "Toplantıya geç kaldım.",
+          "exFr": "I was late for the meeting."
+        }
+      ]
+    },
+    {
+      "id": "meteo",
+      "name": "Weather & nature",
+      "words": [
+        {
+          "tr": "hava",
+          "fr": "the weather, the air",
+          "ex": "Hava bugün çok güzel.",
+          "exFr": "The weather is lovely today."
+        },
+        {
+          "tr": "güneş",
+          "fr": "sun",
+          "ex": "Güneş yüzünü gösterdi.",
+          "exFr": "The sun showed its face."
+        },
+        {
+          "tr": "yağmur",
+          "fr": "rain",
+          "ex": "Yağmur yağıyor.",
+          "exFr": "It's raining."
+        },
+        {
+          "tr": "kar",
+          "fr": "snow",
+          "ex": "Kar yağmaya başladı.",
+          "exFr": "It started to snow."
+        },
+        {
+          "tr": "bulut",
+          "fr": "cloud",
+          "ex": "Gökyüzü bulutlu.",
+          "exFr": "The sky is cloudy."
+        },
+        {
+          "tr": "rüzgar",
+          "fr": "wind",
+          "ex": "Rüzgar çok kuvvetli.",
+          "exFr": "The wind is very strong."
+        },
+        {
+          "tr": "fırtına",
+          "fr": "storm",
+          "ex": "Fırtına geldiği için evde kaldık.",
+          "exFr": "We stayed at home because the storm came."
+        },
+        {
+          "tr": "sıcak",
+          "fr": "hot",
+          "ex": "Bugün çok sıcak.",
+          "exFr": "It's very hot today."
+        },
+        {
+          "tr": "soğuk",
+          "fr": "cold",
+          "ex": "Kışın hava soğuk olur.",
+          "exFr": "It's cold in winter."
+        },
+        {
+          "tr": "ılık",
+          "fr": "mild, warm",
+          "ex": "İlkbaharda hava ılıktır.",
+          "exFr": "In spring the weather is mild."
+        },
+        {
+          "tr": "gökyüzü",
+          "fr": "sky",
+          "ex": "Gökyüzünde yıldızlar var.",
+          "exFr": "There are stars in the sky."
+        },
+        {
+          "tr": "deniz",
+          "fr": "sea",
+          "ex": "Deniz çok sakin.",
+          "exFr": "The sea is very calm."
+        },
+        {
+          "tr": "dağ",
+          "fr": "mountain",
+          "ex": "Dağa tırmandık.",
+          "exFr": "We climbed the mountain."
+        },
+        {
+          "tr": "orman",
+          "fr": "forest",
+          "ex": "Ormanda yürüyüş yaptık.",
+          "exFr": "We walked in the forest."
+        },
+        {
+          "tr": "nehir",
+          "fr": "river",
+          "ex": "Nehir hızlı akıyor.",
+          "exFr": "The river flows fast."
+        },
+        {
+          "tr": "göl",
+          "fr": "lake",
+          "ex": "Gölde kuşlar yüzüyor.",
+          "exFr": "Birds are swimming on the lake."
+        },
+        {
+          "tr": "ağaç",
+          "fr": "tree",
+          "ex": "Ağacın altında oturduk.",
+          "exFr": "We sat under the tree."
+        },
+        {
+          "tr": "çiçek",
+          "fr": "flower",
+          "ex": "Sana çiçek aldım.",
+          "exFr": "I bought you flowers."
+        },
+        {
+          "tr": "yıldız",
+          "fr": "star",
+          "ex": "Yıldızları saydım.",
+          "exFr": "I counted the stars."
+        },
+        {
+          "tr": "ay",
+          "fr": "moon",
+          "ex": "Ay bu akşam çok parlak.",
+          "exFr": "The moon is very bright tonight."
+        }
+      ]
+    }
+  ]
+}

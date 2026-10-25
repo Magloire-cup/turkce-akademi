@@ -1,0 +1,1076 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 10,
+  "end": 18,
+  "items": [
+    {
+      "id": "nourriture",
+      "name": "Food & drinks",
+      "words": [
+        {
+          "tr": "su",
+          "fr": "water",
+          "ex": "Bir bardak su, lütfen.",
+          "exFr": "A glass of water, please."
+        },
+        {
+          "tr": "ekmek",
+          "fr": "bread",
+          "ex": "Fırından ekmek aldım.",
+          "exFr": "I bought bread at the bakery."
+        },
+        {
+          "tr": "süt",
+          "fr": "milk",
+          "ex": "Sabahları süt içerim.",
+          "exFr": "I drink milk in the morning."
+        },
+        {
+          "tr": "kahve",
+          "fr": "coffee",
+          "ex": "Türk kahvesi içer misin?",
+          "exFr": "Would you like a Turkish coffee?"
+        },
+        {
+          "tr": "çay",
+          "fr": "tea",
+          "ex": "İki çay, lütfen.",
+          "exFr": "Two teas, please."
+        },
+        {
+          "tr": "peynir",
+          "fr": "cheese",
+          "ex": "Kahvaltıda peynir yedim.",
+          "exFr": "I ate cheese for breakfast."
+        },
+        {
+          "tr": "zeytin",
+          "fr": "olive",
+          "ex": "Zeytin yağı sağlıklıdır.",
+          "exFr": "Olive oil is healthy."
+        },
+        {
+          "tr": "yumurta",
+          "fr": "egg",
+          "ex": "İki yumurta haşladım.",
+          "exFr": "I boiled two eggs."
+        },
+        {
+          "tr": "et",
+          "fr": "meat",
+          "ex": "Et almak için kasaba gittim.",
+          "exFr": "I went to the butcher's to buy meat."
+        },
+        {
+          "tr": "tavuk",
+          "fr": "chicken",
+          "ex": "Akşam tavuk yiyeceğiz.",
+          "exFr": "We're having chicken tonight."
+        },
+        {
+          "tr": "balık",
+          "fr": "fish",
+          "ex": "Balık çok taze görünüyor.",
+          "exFr": "The fish looks very fresh."
+        },
+        {
+          "tr": "pilav",
+          "fr": "rice",
+          "ex": "Pilavı kendim yaptım.",
+          "exFr": "I made the rice myself."
+        },
+        {
+          "tr": "sebze",
+          "fr": "vegetable",
+          "ex": "Sebze yemeyi sevmiyorum.",
+          "exFr": "I don't like eating vegetables."
+        },
+        {
+          "tr": "meyve",
+          "fr": "fruit",
+          "ex": "Meyve sağlıklı bir atıştırmalıktır.",
+          "exFr": "Fruit is a healthy snack."
+        },
+        {
+          "tr": "elma",
+          "fr": "apple",
+          "ex": "Her gün bir elma yerim.",
+          "exFr": "I eat an apple every day."
+        },
+        {
+          "tr": "portakal",
+          "fr": "orange (fruit)",
+          "ex": "Portakal suyu içtim.",
+          "exFr": "I drank orange juice."
+        },
+        {
+          "tr": "muz",
+          "fr": "banana",
+          "ex": "Muz çok olmuş.",
+          "exFr": "The banana is very ripe."
+        },
+        {
+          "tr": "domates",
+          "fr": "tomato",
+          "ex": "Salataya domates doğradım.",
+          "exFr": "I cut some tomatoes for the salad."
+        },
+        {
+          "tr": "soğan",
+          "fr": "onion",
+          "ex": "Soğan ağlatıyor.",
+          "exFr": "Onions make you cry."
+        },
+        {
+          "tr": "şeker",
+          "fr": "sugar",
+          "ex": "Şekersiz içiyorum.",
+          "exFr": "I drink it without sugar."
+        },
+        {
+          "tr": "tuz",
+          "fr": "salt",
+          "ex": "Çorba tuzlu değil.",
+          "exFr": "The soup isn't salty."
+        },
+        {
+          "tr": "kahvaltı",
+          "fr": "breakfast",
+          "ex": "Kahvaltı hazır!",
+          "exFr": "Breakfast is ready!"
+        },
+        {
+          "tr": "yemek",
+          "fr": "meal, food",
+          "ex": "Yemek çok lezzetliydi.",
+          "exFr": "The meal was delicious."
+        },
+        {
+          "tr": "aç",
+          "fr": "hungry",
+          "ex": "Karnım çok aç.",
+          "exFr": "I'm very hungry."
+        },
+        {
+          "tr": "tok",
+          "fr": "full",
+          "ex": "Karnım tok, teşekkürler.",
+          "exFr": "I'm full, thank you."
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "At the restaurant",
+      "words": [
+        {
+          "tr": "restoran",
+          "fr": "restaurant",
+          "ex": "Bu restoran çok ünlü.",
+          "exFr": "This restaurant is very well known."
+        },
+        {
+          "tr": "garson",
+          "fr": "waiter",
+          "ex": "Garson, hesap lütfen!",
+          "exFr": "Waiter, the bill please!"
+        },
+        {
+          "tr": "menü",
+          "fr": "menu",
+          "ex": "Menüyü getirebilir misiniz?",
+          "exFr": "Could you bring the menu?"
+        },
+        {
+          "tr": "hesap",
+          "fr": "bill",
+          "ex": "Hesabı ödedim.",
+          "exFr": "I paid the bill."
+        },
+        {
+          "tr": "sipariş",
+          "fr": "order",
+          "ex": "Sipariş vermek istiyorum.",
+          "exFr": "I'd like to order."
+        },
+        {
+          "tr": "masa",
+          "fr": "table",
+          "ex": "Boş bir masa var mı?",
+          "exFr": "Is there a free table?"
+        },
+        {
+          "tr": "kafe",
+          "fr": "café (place)",
+          "ex": "Bu kafede çalışıyorum.",
+          "exFr": "I work in this café."
+        },
+        {
+          "tr": "lezzetli",
+          "fr": "delicious",
+          "ex": "Çorba çok lezzetliydi.",
+          "exFr": "The soup was delicious."
+        },
+        {
+          "tr": "bahşiş",
+          "fr": "tip",
+          "ex": "Bahşiş bıraktım.",
+          "exFr": "I left a tip."
+        },
+        {
+          "tr": "içecek",
+          "fr": "drink",
+          "ex": "Ne içersiniz, içecek ne alırsınız?",
+          "exFr": "What would you like to drink?"
+        },
+        {
+          "tr": "porsiyon",
+          "fr": "portion",
+          "ex": "Porsiyonlar çok büyük.",
+          "exFr": "The portions are very large."
+        },
+        {
+          "tr": "rezervasyon",
+          "fr": "reservation",
+          "ex": "Rezervasyonum var.",
+          "exFr": "I have a reservation."
+        },
+        {
+          "tr": "dolu",
+          "fr": "full, occupied",
+          "ex": "Restoran şu an dolu.",
+          "exFr": "The restaurant is full at the moment."
+        },
+        {
+          "tr": "boş",
+          "fr": "free, empty",
+          "ex": "Şu masa boş görünüyor.",
+          "exFr": "That table looks free."
+        },
+        {
+          "tr": "hesabı bölüşmek",
+          "fr": "to split the bill",
+          "ex": "Hesabı bölüşelim mi?",
+          "exFr": "Shall we split the bill?"
+        },
+        {
+          "tr": "ikram",
+          "fr": "on the house",
+          "ex": "Bunlar bizden ikram.",
+          "exFr": "This is on the house."
+        }
+      ]
+    },
+    {
+      "id": "famille",
+      "name": "Family & people",
+      "words": [
+        {
+          "tr": "aile",
+          "fr": "family",
+          "ex": "Ailem çok büyük.",
+          "exFr": "My family is very big."
+        },
+        {
+          "tr": "anne",
+          "fr": "mother",
+          "ex": "Annem öğretmen.",
+          "exFr": "My mother is a teacher."
+        },
+        {
+          "tr": "baba",
+          "fr": "father",
+          "ex": "Babam doktor.",
+          "exFr": "My father is a doctor."
+        },
+        {
+          "tr": "kardeş",
+          "fr": "sibling (brother or sister)",
+          "ex": "İki kardeşim var.",
+          "exFr": "I have two siblings."
+        },
+        {
+          "tr": "abla",
+          "fr": "older sister",
+          "ex": "Ablam İzmir'de yaşıyor.",
+          "exFr": "My older sister lives in Izmir."
+        },
+        {
+          "tr": "abi",
+          "fr": "older brother",
+          "ex": "Abim beni aradı.",
+          "exFr": "My older brother called me."
+        },
+        {
+          "tr": "kız kardeş",
+          "fr": "sister",
+          "ex": "Kız kardeşim âşık oldu.",
+          "exFr": "My sister fell in love."
+        },
+        {
+          "tr": "erkek kardeş",
+          "fr": "brother",
+          "ex": "Erkek kardeşim askerde.",
+          "exFr": "My brother is in the army."
+        },
+        {
+          "tr": "dede",
+          "fr": "grandfather",
+          "ex": "Dedem hâlâ bahçede çalışıyor.",
+          "exFr": "My grandfather still works in the garden."
+        },
+        {
+          "tr": "nine",
+          "fr": "grandmother",
+          "ex": "Ninem börek yapıyor.",
+          "exFr": "My grandmother is making börek."
+        },
+        {
+          "tr": "çocuk",
+          "fr": "child",
+          "ex": "Çocuklar parkta oynuyor.",
+          "exFr": "The children are playing in the park."
+        },
+        {
+          "tr": "kız",
+          "fr": "daughter",
+          "ex": "Kızım yeni yürümeye başladı.",
+          "exFr": "My daughter has just started walking."
+        },
+        {
+          "tr": "oğlan",
+          "fr": "boy",
+          "ex": "Oğlan çok yaramaz.",
+          "exFr": "The boy is very naughty."
+        },
+        {
+          "tr": "bebek",
+          "fr": "baby",
+          "ex": "Bebek uyuyor, sessiz olun.",
+          "exFr": "The baby is sleeping, be quiet."
+        },
+        {
+          "tr": "arkadaş",
+          "fr": "friend",
+          "ex": "Arkadaşımla sinemaya gittim.",
+          "exFr": "I went to the cinema with my friend."
+        },
+        {
+          "tr": "komşu",
+          "fr": "neighbour",
+          "ex": "Komşumuz çok kibar.",
+          "exFr": "Our neighbour is very courteous."
+        },
+        {
+          "tr": "erkek",
+          "fr": "man",
+          "ex": "O erkek çok uzun.",
+          "exFr": "That man is very tall."
+        },
+        {
+          "tr": "kadın",
+          "fr": "woman",
+          "ex": "Kadın gazete okuyor.",
+          "exFr": "The woman is reading the newspaper."
+        },
+        {
+          "tr": "insan",
+          "fr": "person, human",
+          "ex": "İnsanlar sokakta toplanmış.",
+          "exFr": "People have gathered in the street."
+        },
+        {
+          "tr": "isim",
+          "fr": "first name, name",
+          "ex": "İsminizi tekrarlar mısınız?",
+          "exFr": "Could you repeat your name?"
+        },
+        {
+          "tr": "evli",
+          "fr": "married",
+          "ex": "Evli misin, bekar mı?",
+          "exFr": "Are you married or single?"
+        },
+        {
+          "tr": "bekar",
+          "fr": "single",
+          "ex": "Henüz bekârım.",
+          "exFr": "I'm still single."
+        }
+      ]
+    },
+    {
+      "id": "corps",
+      "name": "Body & health",
+      "words": [
+        {
+          "tr": "baş",
+          "fr": "head",
+          "ex": "Başım ağrıyor.",
+          "exFr": "I have a headache."
+        },
+        {
+          "tr": "saç",
+          "fr": "hair",
+          "ex": "Saçlarını kestirdi.",
+          "exFr": "He got a haircut."
+        },
+        {
+          "tr": "göz",
+          "fr": "eye",
+          "ex": "Gözlerin çok güzel.",
+          "exFr": "Your eyes are very beautiful."
+        },
+        {
+          "tr": "kulak",
+          "fr": "ear",
+          "ex": "Kulağım çınlıyor.",
+          "exFr": "My ear is ringing."
+        },
+        {
+          "tr": "burun",
+          "fr": "nose",
+          "ex": "Burunu kızardı.",
+          "exFr": "His nose turned red."
+        },
+        {
+          "tr": "ağız",
+          "fr": "mouth",
+          "ex": "Ağzını aç ve göster.",
+          "exFr": "Open your mouth and show me."
+        },
+        {
+          "tr": "diş",
+          "fr": "tooth",
+          "ex": "Dişim çok ağrıyor.",
+          "exFr": "I have a bad toothache."
+        },
+        {
+          "tr": "kol",
+          "fr": "arm",
+          "ex": "Kolunu kırdı.",
+          "exFr": "He broke his arm."
+        },
+        {
+          "tr": "el",
+          "fr": "hand",
+          "ex": "Ellerini yıka!",
+          "exFr": "Wash your hands!"
+        },
+        {
+          "tr": "parmak",
+          "fr": "finger",
+          "ex": "Parmağımı kestim.",
+          "exFr": "I cut my finger."
+        },
+        {
+          "tr": "bacak",
+          "fr": "leg",
+          "ex": "Bacaklarım ağrıyor.",
+          "exFr": "My legs hurt."
+        },
+        {
+          "tr": "ayak",
+          "fr": "foot",
+          "ex": "Ayağım üşüdü.",
+          "exFr": "My feet are cold."
+        },
+        {
+          "tr": "kalp",
+          "fr": "heart",
+          "ex": "Kalbim hızlı çarpıyor.",
+          "exFr": "My heart is beating fast."
+        },
+        {
+          "tr": "mide",
+          "fr": "stomach",
+          "ex": "Midem bulanıyor.",
+          "exFr": "I feel sick."
+        },
+        {
+          "tr": "doktor",
+          "fr": "doctor",
+          "ex": "Doktora görünmelisin.",
+          "exFr": "You should see a doctor."
+        },
+        {
+          "tr": "hastane",
+          "fr": "hospital",
+          "ex": "Hastaneye gittim.",
+          "exFr": "I went to the hospital."
+        },
+        {
+          "tr": "ilaç",
+          "fr": "medicine",
+          "ex": "İlaçlarını düzenli iç.",
+          "exFr": "Take your medicine regularly."
+        },
+        {
+          "tr": "hasta",
+          "fr": "ill, sick",
+          "ex": "Hasta oldum, eve gidiyorum.",
+          "exFr": "I've fallen ill, I'm going home."
+        },
+        {
+          "tr": "yorgun",
+          "fr": "tired",
+          "ex": "Bugün çok yorgunum.",
+          "exFr": "I'm very tired today."
+        },
+        {
+          "tr": "ağrı",
+          "fr": "pain",
+          "ex": "Boynumda bir ağrı var.",
+          "exFr": "I have a pain in my neck."
+        },
+        {
+          "tr": "iyileşmek",
+          "fr": "to recover",
+          "ex": "Çabuk iyileş, geçmiş olsun.",
+          "exFr": "Get well soon, wishing you a speedy recovery."
+        }
+      ]
+    },
+    {
+      "id": "maison",
+      "name": "Home & objects",
+      "words": [
+        {
+          "tr": "ev",
+          "fr": "house, home",
+          "ex": "Şu an evdeyim.",
+          "exFr": "I'm at home right now."
+        },
+        {
+          "tr": "oda",
+          "fr": "room",
+          "ex": "Odan çok dağınık.",
+          "exFr": "Your room is very messy."
+        },
+        {
+          "tr": "mutfak",
+          "fr": "kitchen",
+          "ex": "Mutfakta yemek pişiriyorum.",
+          "exFr": "I'm cooking in the kitchen."
+        },
+        {
+          "tr": "banyo",
+          "fr": "bathroom",
+          "ex": "Banyoya gidiyorum.",
+          "exFr": "I'm going to the bathroom."
+        },
+        {
+          "tr": "yatak",
+          "fr": "bed",
+          "ex": "Yatak çok rahat.",
+          "exFr": "The bed is very comfortable."
+        },
+        {
+          "tr": "yastık",
+          "fr": "pillow",
+          "ex": "Yastığım kirlendi.",
+          "exFr": "My pillow got dirty."
+        },
+        {
+          "tr": "battaniye",
+          "fr": "blanket",
+          "ex": "Üşüdüm, battaniye alayım.",
+          "exFr": "I'm cold, I'll get a blanket."
+        },
+        {
+          "tr": "dolap",
+          "fr": "wardrobe",
+          "ex": "Dolabın içi boş.",
+          "exFr": "The wardrobe is empty inside."
+        },
+        {
+          "tr": "masa",
+          "fr": "table",
+          "ex": "Masayı ben hazırladım.",
+          "exFr": "I set the table."
+        },
+        {
+          "tr": "sandalye",
+          "fr": "chair",
+          "ex": "Bir sandalye alır mısın?",
+          "exFr": "Can you get a chair?"
+        },
+        {
+          "tr": "kapı",
+          "fr": "door",
+          "ex": "Kapıyı kapat, lütfen.",
+          "exFr": "Close the door, please."
+        },
+        {
+          "tr": "pencere",
+          "fr": "window",
+          "ex": "Pencereyi açabilir misin?",
+          "exFr": "Can you open the window?"
+        },
+        {
+          "tr": "duvar",
+          "fr": "wall",
+          "ex": "Duvarda bir resim asılı.",
+          "exFr": "A picture is hanging on the wall."
+        },
+        {
+          "tr": "bahçe",
+          "fr": "garden",
+          "ex": "Bahçede çay içtik.",
+          "exFr": "We drank tea in the garden."
+        },
+        {
+          "tr": "merdiven",
+          "fr": "stairs",
+          "ex": "Merdivenlerden çıktım.",
+          "exFr": "I went up the stairs."
+        },
+        {
+          "tr": "ayna",
+          "fr": "mirror",
+          "ex": "Aynaya baktım.",
+          "exFr": "I looked at myself in the mirror."
+        },
+        {
+          "tr": "anahtar",
+          "fr": "key",
+          "ex": "Anahtarlarımı kaybettim.",
+          "exFr": "I lost my keys."
+        },
+        {
+          "tr": "lamba",
+          "fr": "lamp",
+          "ex": "Lambayı kapattım.",
+          "exFr": "I turned off the lamp."
+        },
+        {
+          "tr": "kitap",
+          "fr": "book",
+          "ex": "Bu kitabı okudun mu?",
+          "exFr": "Have you read this book?"
+        },
+        {
+          "tr": "kalem",
+          "fr": "pen, pencil",
+          "ex": "Kalemim yok, ödünç alabilir miyim?",
+          "exFr": "I don't have a pen, can I borrow one?"
+        },
+        {
+          "tr": "çanta",
+          "fr": "bag",
+          "ex": "Çantamı unuttum.",
+          "exFr": "I forgot my bag."
+        },
+        {
+          "tr": "giysi",
+          "fr": "clothing",
+          "ex": "Giysilerimi astım.",
+          "exFr": "I hung up my clothes."
+        }
+      ]
+    },
+    {
+      "id": "vetements",
+      "name": "Clothes & shopping",
+      "words": [
+        {
+          "tr": "gömlek",
+          "fr": "shirt",
+          "ex": "Beyaz bir gömlek giydim.",
+          "exFr": "I put on a white shirt."
+        },
+        {
+          "tr": "pantolon",
+          "fr": "trousers",
+          "ex": "Pantolonum yırtıldı.",
+          "exFr": "My trousers got torn."
+        },
+        {
+          "tr": "ceket",
+          "fr": "jacket",
+          "ex": "Ceketini çıkardı.",
+          "exFr": "He took off his jacket."
+        },
+        {
+          "tr": "kazak",
+          "fr": "jumper",
+          "ex": "Bu kazak çok sıcak tutuyor.",
+          "exFr": "This jumper is very warm."
+        },
+        {
+          "tr": "tişört",
+          "fr": "T-shirt",
+          "ex": "Tişörtümün rengi solmuş.",
+          "exFr": "The colour of my T-shirt has faded."
+        },
+        {
+          "tr": "ayakkabı",
+          "fr": "shoe",
+          "ex": "Yeni ayakkabılarım geldi.",
+          "exFr": "My new shoes have arrived."
+        },
+        {
+          "tr": "çorap",
+          "fr": "sock",
+          "ex": "Çoraplarım eşleşmiyor.",
+          "exFr": "My socks don't match."
+        },
+        {
+          "tr": "şapka",
+          "fr": "hat",
+          "ex": "Güneşten korunmak için şapka taktım.",
+          "exFr": "I put on a hat to protect myself from the sun."
+        },
+        {
+          "tr": "elbise",
+          "fr": "dress",
+          "ex": "Şık bir elbise aldı.",
+          "exFr": "She bought an elegant dress."
+        },
+        {
+          "tr": "etek",
+          "fr": "skirt",
+          "ex": "Eteği uzun.",
+          "exFr": "The skirt is long."
+        },
+        {
+          "tr": "mont",
+          "fr": "coat",
+          "ex": "Kışın mont şart.",
+          "exFr": "In winter a coat is essential."
+        },
+        {
+          "tr": "atkı",
+          "fr": "scarf",
+          "ex": "Atkını takmayı unutma.",
+          "exFr": "Don't forget to put on your scarf."
+        },
+        {
+          "tr": "mağaza",
+          "fr": "shop",
+          "ex": "Mağaza saat kaçta açılıyor?",
+          "exFr": "What time does the shop open?"
+        },
+        {
+          "tr": "alışveriş",
+          "fr": "shopping",
+          "ex": "Alışverişe çıktım.",
+          "exFr": "I went out shopping."
+        },
+        {
+          "tr": "fiyat",
+          "fr": "price",
+          "ex": "Fiyatı ne kadar?",
+          "exFr": "How much does it cost?"
+        },
+        {
+          "tr": "pahalı",
+          "fr": "expensive",
+          "ex": "Bu çok pahalı, daha ucuzu var mı?",
+          "exFr": "That's too expensive, is there a cheaper one?"
+        },
+        {
+          "tr": "ucuz",
+          "fr": "cheap",
+          "ex": "Burada sebze ucuz.",
+          "exFr": "Vegetables are cheap here."
+        },
+        {
+          "tr": "indirim",
+          "fr": "discount, sale",
+          "ex": "Her şeyde indirim var.",
+          "exFr": "Everything is on sale."
+        },
+        {
+          "tr": "kasa",
+          "fr": "checkout, till",
+          "ex": "Kasada sıra uzun.",
+          "exFr": "The queue at the checkout is long."
+        },
+        {
+          "tr": "denemek",
+          "fr": "to try on (clothes)",
+          "ex": "Bunu denemek istiyorum.",
+          "exFr": "I'd like to try it on."
+        }
+      ]
+    },
+    {
+      "id": "ville",
+      "name": "The city & places",
+      "words": [
+        {
+          "tr": "şehir",
+          "fr": "city",
+          "ex": "İstanbul çok kalabalık bir şehir.",
+          "exFr": "Istanbul is a very crowded city."
+        },
+        {
+          "tr": "sokak",
+          "fr": "street",
+          "ex": "Sokakta çocuklar oynuyor.",
+          "exFr": "Children are playing in the street."
+        },
+        {
+          "tr": "cadde",
+          "fr": "avenue",
+          "ex": "Cadde boyunca yürüdüm.",
+          "exFr": "I walked along the avenue."
+        },
+        {
+          "tr": "meydan",
+          "fr": "square",
+          "ex": "Taksim Meydanı'nda buluşalım.",
+          "exFr": "Let's meet at Taksim Square."
+        },
+        {
+          "tr": "park",
+          "fr": "park",
+          "ex": "Parkta koşu yapıyorum.",
+          "exFr": "I go jogging in the park."
+        },
+        {
+          "tr": "okul",
+          "fr": "school",
+          "ex": "Okul evime yakın.",
+          "exFr": "The school is close to my home."
+        },
+        {
+          "tr": "üniversite",
+          "fr": "university",
+          "ex": "Üniversitede mühendislik okuyorum.",
+          "exFr": "I study engineering at university."
+        },
+        {
+          "tr": "kütüphane",
+          "fr": "library",
+          "ex": "Kütüphanede sessizlik var.",
+          "exFr": "It's quiet in the library."
+        },
+        {
+          "tr": "eczane",
+          "fr": "pharmacy",
+          "ex": "Gece nöbetçi eczane buldum.",
+          "exFr": "I found the pharmacy on duty."
+        },
+        {
+          "tr": "banka",
+          "fr": "bank",
+          "ex": "Bankadan para çektim.",
+          "exFr": "I withdrew money from the bank."
+        },
+        {
+          "tr": "postane",
+          "fr": "post office",
+          "ex": "Postaneden paket aldım.",
+          "exFr": "I picked up a parcel at the post office."
+        },
+        {
+          "tr": "müze",
+          "fr": "museum",
+          "ex": "Müzede sergi var.",
+          "exFr": "There's an exhibition at the museum."
+        },
+        {
+          "tr": "cami",
+          "fr": "mosque",
+          "ex": "Cami çok eski ve güzel.",
+          "exFr": "The mosque is very old and beautiful."
+        },
+        {
+          "tr": "sinema",
+          "fr": "cinema",
+          "ex": "Sinemaya film seyretmeye gittim.",
+          "exFr": "I went to the cinema to see a film."
+        },
+        {
+          "tr": "tiyatro",
+          "fr": "theatre",
+          "ex": "Tiyatro bileti aldım.",
+          "exFr": "I bought a theatre ticket."
+        },
+        {
+          "tr": "otel",
+          "fr": "hotel",
+          "ex": "Otel deniz manzaralı.",
+          "exFr": "The hotel overlooks the sea."
+        },
+        {
+          "tr": "plaj",
+          "fr": "beach",
+          "ex": "Plajda güneşlendim.",
+          "exFr": "I sunbathed on the beach."
+        },
+        {
+          "tr": "köprü",
+          "fr": "bridge",
+          "ex": "Köprüden karşıya geçtik.",
+          "exFr": "We crossed over the bridge."
+        },
+        {
+          "tr": "adres",
+          "fr": "address",
+          "ex": "Adresi yazar mısınız?",
+          "exFr": "Could you write the address?"
+        },
+        {
+          "tr": "turistik",
+          "fr": "touristy",
+          "ex": "Burası çok turistik bir yer.",
+          "exFr": "It's a very touristy place."
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "name": "Transport & travel",
+      "words": [
+        {
+          "tr": "otobüs",
+          "fr": "bus",
+          "ex": "Otobüsle eve döndüm.",
+          "exFr": "I came home by bus."
+        },
+        {
+          "tr": "tren",
+          "fr": "train",
+          "ex": "Tren istasyonu nerede?",
+          "exFr": "Where is the station?"
+        },
+        {
+          "tr": "uçak",
+          "fr": "plane",
+          "ex": "Uçakla iki saatte vardık.",
+          "exFr": "We arrived in two hours by plane."
+        },
+        {
+          "tr": "gemi",
+          "fr": "ship",
+          "ex": "Gemi limana yanaştı.",
+          "exFr": "The ship docked at the port."
+        },
+        {
+          "tr": "vapur",
+          "fr": "ferry",
+          "ex": "Vapurla karşıya geçtim.",
+          "exFr": "I crossed by ferry."
+        },
+        {
+          "tr": "araba",
+          "fr": "car",
+          "ex": "Arabam bozuldu.",
+          "exFr": "My car broke down."
+        },
+        {
+          "tr": "bisiklet",
+          "fr": "bicycle",
+          "ex": "Bisikletle işe gidiyorum.",
+          "exFr": "I cycle to work."
+        },
+        {
+          "tr": "taksi",
+          "fr": "taxi",
+          "ex": "Taksi çağırdım.",
+          "exFr": "I called a taxi."
+        },
+        {
+          "tr": "metro",
+          "fr": "metro",
+          "ex": "Metro çok hızlı ve ucuz.",
+          "exFr": "The metro is very fast and cheap."
+        },
+        {
+          "tr": "dolmuş",
+          "fr": "shared minibus",
+          "ex": "Dolmuşla gidebilirsin.",
+          "exFr": "You can go there by dolmuş."
+        },
+        {
+          "tr": "istasyon",
+          "fr": "station",
+          "ex": "İstasyonda seni bekleyeceğim.",
+          "exFr": "I'll wait for you at the station."
+        },
+        {
+          "tr": "havalimanı",
+          "fr": "airport",
+          "ex": "Havalimanına erken git.",
+          "exFr": "Go to the airport early."
+        },
+        {
+          "tr": "bilet",
+          "fr": "ticket",
+          "ex": "İki bilet almak istiyorum.",
+          "exFr": "I'd like two tickets."
+        },
+        {
+          "tr": "valiz",
+          "fr": "suitcase",
+          "ex": "Valizimi hazırladım.",
+          "exFr": "I packed my suitcase."
+        },
+        {
+          "tr": "pasaport",
+          "fr": "passport",
+          "ex": "Pasaportunuz hazır mı?",
+          "exFr": "Is your passport ready?"
+        },
+        {
+          "tr": "seyahat",
+          "fr": "travel",
+          "ex": "Seyahat etmeyi seviyorum.",
+          "exFr": "I like travelling."
+        },
+        {
+          "tr": "gitmek",
+          "fr": "to go, to leave",
+          "ex": "Nereye gidiyorsun?",
+          "exFr": "Where are you going?"
+        },
+        {
+          "tr": "gelmek",
+          "fr": "to come",
+          "ex": "Yarın geliyorum.",
+          "exFr": "I'm coming tomorrow."
+        },
+        {
+          "tr": "dönmek",
+          "fr": "to return, to come back",
+          "ex": "Eve döndüm.",
+          "exFr": "I returned home."
+        },
+        {
+          "tr": "binmek",
+          "fr": "to get on (a vehicle)",
+          "ex": "Otobüse bindim.",
+          "exFr": "I got on the bus."
+        },
+        {
+          "tr": "inmek",
+          "fr": "to get off (a vehicle)",
+          "ex": "Bir sonraki durakta ineceğim.",
+          "exFr": "I'll get off at the next stop."
+        },
+        {
+          "tr": "durak",
+          "fr": "stop (bus)",
+          "ex": "Durakta bekliyorum.",
+          "exFr": "I'm waiting at the stop."
+        },
+        {
+          "tr": "yol",
+          "fr": "road, way",
+          "ex": "Yolu kaybettim.",
+          "exFr": "I lost my way."
+        },
+        {
+          "tr": "trafik",
+          "fr": "traffic",
+          "ex": "Trafik çok yoğun.",
+          "exFr": "The traffic is very heavy."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 26,
+  "end": 29,
+  "items": [
+    {
+      "id": "verbes4",
+      "name": "Common verbs (4)",
+      "words": [
+        {
+          "tr": "korumak",
+          "fr": "to protect, to keep",
+          "ex": "Doğayı korumalıyız.",
+          "exFr": "We must protect nature."
+        },
+        {
+          "tr": "düşmek",
+          "fr": "to fall",
+          "ex": "Dün merdivenden düştüm.",
+          "exFr": "I fell down the stairs yesterday."
+        },
+        {
+          "tr": "artmak",
+          "fr": "to increase, to rise",
+          "ex": "Son günlerde fiyatlar arttı.",
+          "exFr": "Prices have risen in recent days."
+        },
+        {
+          "tr": "azalmak",
+          "fr": "to decrease, to fall",
+          "ex": "Yağmur akşama doğru azalacak.",
+          "exFr": "The rain will ease towards the evening."
+        },
+        {
+          "tr": "karşılaşmak",
+          "fr": "to meet, to run into",
+          "ex": "Yolda eski bir arkadaşımla karşılaştım.",
+          "exFr": "I ran into an old friend on the way."
+        },
+        {
+          "tr": "vazgeçmek",
+          "fr": "to give up, to abandon",
+          "ex": "Hayalimden vazgeçmedim.",
+          "exFr": "I didn't give up on my dream."
+        },
+        {
+          "tr": "saklamak",
+          "fr": "to hide, to keep",
+          "ex": "Bu mektubu saklamak istiyorum.",
+          "exFr": "I want to keep this letter."
+        },
+        {
+          "tr": "silmek",
+          "fr": "to erase, to wipe",
+          "ex": "Tahtadaki yazıyı sildi.",
+          "exFr": "He erased what was written on the board."
+        },
+        {
+          "tr": "kırmak",
+          "fr": "to break, to smash",
+          "ex": "Bardağı yanlışlıkla kırdım.",
+          "exFr": "I broke the glass by accident."
+        },
+        {
+          "tr": "başvurmak",
+          "fr": "to apply, to make an application",
+          "ex": "Bu işe başvurmak istiyorum.",
+          "exFr": "I want to apply for this job."
+        },
+        {
+          "tr": "düzenlemek",
+          "fr": "to organise, to arrange",
+          "ex": "Yarın küçük bir gezi düzenliyoruz.",
+          "exFr": "We're organising a small trip tomorrow."
+        },
+        {
+          "tr": "araştırmak",
+          "fr": "to research, to investigate",
+          "ex": "Bu konuyu dikkatlice araştırdım.",
+          "exFr": "I studied this topic carefully."
+        },
+        {
+          "tr": "gelişmek",
+          "fr": "to develop, to improve",
+          "ex": "Türkçem her gün gelişiyor.",
+          "exFr": "My Turkish is improving every day."
+        },
+        {
+          "tr": "fark etmek",
+          "fr": "to notice, to realise",
+          "ex": "Hatasını hemen fark etti.",
+          "exFr": "He noticed his mistake straight away."
+        },
+        {
+          "tr": "kaçırmak",
+          "fr": "to miss",
+          "ex": "Sabah otobüsünü kaçırdım.",
+          "exFr": "I missed the morning bus."
+        },
+        {
+          "tr": "toplamak",
+          "fr": "to pick up, to gather",
+          "ex": "Bahçedeki yaprakları topladık.",
+          "exFr": "We gathered the leaves in the garden."
+        },
+        {
+          "tr": "yakalamak",
+          "fr": "to catch",
+          "ex": "Treni yakalamak için koştum.",
+          "exFr": "I ran to catch the train."
+        },
+        {
+          "tr": "kaydetmek",
+          "fr": "to save, to record",
+          "ex": "Yeni numarayı telefonuma kaydettim.",
+          "exFr": "I saved the new number in my phone."
+        }
+      ]
+    },
+    {
+      "id": "expressions",
+      "name": "Everyday expressions",
+      "words": [
+        {
+          "tr": "tünaydın",
+          "fr": "good afternoon",
+          "ex": "Tünaydın, nasıl geçti günün?",
+          "exFr": "Good afternoon, how was your day?"
+        },
+        {
+          "tr": "teşekkürler",
+          "fr": "thanks (common)",
+          "ex": "Teşekkürler, çok naziksin!",
+          "exFr": "Thanks, that's very kind of you!"
+        },
+        {
+          "tr": "sağ olun",
+          "fr": "thank you (formal you)",
+          "ex": "İlginiz için sağ olun.",
+          "exFr": "Thank you for your attention."
+        },
+        {
+          "tr": "ne haber?",
+          "fr": "what's new? (informal)",
+          "ex": "Ne haber, uzun zamandır görüşmedik!",
+          "exFr": "What's new, long time no see!"
+        },
+        {
+          "tr": "iyilik",
+          "fr": "nothing much (reply)",
+          "ex": "— Ne haber? — İyilik, senden?",
+          "exFr": "— What's new? — Not much, and you?"
+        },
+        {
+          "tr": "fena değil",
+          "fr": "not bad",
+          "ex": "— Nasılsın? — Fena değil.",
+          "exFr": "— How are you? — Not bad."
+        },
+        {
+          "tr": "şimdilik hoşça kal",
+          "fr": "see you later",
+          "ex": "Şimdilik hoşça kal, sonra konuşuruz.",
+          "exFr": "See you later, we'll talk afterwards."
+        },
+        {
+          "tr": "kendine iyi bak",
+          "fr": "take care of yourself",
+          "ex": "Görüşürüz, kendine iyi bak!",
+          "exFr": "See you, take care!"
+        },
+        {
+          "tr": "iyi şanslar",
+          "fr": "good luck",
+          "ex": "Sınava gireceksin, iyi şanslar!",
+          "exFr": "You're taking an exam, good luck!"
+        },
+        {
+          "tr": "başarılar",
+          "fr": "good luck (studies, exams)",
+          "ex": "Başarılar dilerim!",
+          "exFr": "I wish you every success!"
+        },
+        {
+          "tr": "eline sağlık",
+          "fr": "well done (cooking, manual work)",
+          "ex": "Bu yemek harika, eline sağlık!",
+          "exFr": "This dish is wonderful, well done!"
+        },
+        {
+          "tr": "çok yaşa",
+          "fr": "bless you (sneeze)",
+          "ex": "— Hapşu! — Çok yaşa!",
+          "exFr": "— Achoo! — Bless you!"
+        },
+        {
+          "tr": "sen de gör",
+          "fr": "you too (reply)",
+          "ex": "— Çok yaşa! — Sen de gör!",
+          "exFr": "— Bless you! — You too!"
+        },
+        {
+          "tr": "haydi bakalım",
+          "fr": "come on, here we go",
+          "ex": "Haydi bakalım, başlayalım!",
+          "exFr": "Come on, let's begin!"
+        },
+        {
+          "tr": "hadi",
+          "fr": "come on! let's go!",
+          "ex": "Hadi, geç kalıyoruz!",
+          "exFr": "Come on, we're going to be late!"
+        },
+        {
+          "tr": "peki",
+          "fr": "all right, okay, fine",
+          "ex": "Peki, nasıl istersen.",
+          "exFr": "All right, as you like."
+        },
+        {
+          "tr": "kesinlikle",
+          "fr": "absolutely, exactly",
+          "ex": "Kesinlikle katılıyorum.",
+          "exFr": "I completely agree."
+        },
+        {
+          "tr": "ne yazık ki",
+          "fr": "alas, unfortunately",
+          "ex": "Ne yazık ki gelemem.",
+          "exFr": "Unfortunately, I can't come."
+        },
+        {
+          "tr": "boşver",
+          "fr": "never mind, forget it",
+          "ex": "Boşver, önemli değil.",
+          "exFr": "Never mind, it doesn't matter."
+        },
+        {
+          "tr": "vay be",
+          "fr": "wow! good grief!",
+          "ex": "Vay be, ne kadar büyük!",
+          "exFr": "Wow, it's so big!"
+        },
+        {
+          "tr": "kıyamam",
+          "fr": "so cute, I can't even",
+          "ex": "Kıyamam, çok tatlısın!",
+          "exFr": "Aw, you're so sweet!"
+        },
+        {
+          "tr": "maşallah",
+          "fr": "well done, hats off (admiration)",
+          "ex": "Maşallah, ne kadar hızlı öğrenmişsin!",
+          "exFr": "Hats off, you learned that so quickly!"
+        },
+        {
+          "tr": "inşallah",
+          "fr": "hopefully, God willing",
+          "ex": "İnşallah sınavı geçerim.",
+          "exFr": "Hopefully I'll pass the exam."
+        },
+        {
+          "tr": "yolun açık olsun",
+          "fr": "safe travels",
+          "ex": "Yolun açık olsun, kendine iyi bak!",
+          "exFr": "Safe travels, take care of yourself!"
+        },
+        {
+          "tr": "hoş geldin",
+          "fr": "welcome (to a friend)",
+          "ex": "Hoş geldin! Sana çay koydum.",
+          "exFr": "Welcome! I've made you some tea."
+        },
+        {
+          "tr": "afedersin",
+          "fr": "sorry (informal)",
+          "ex": "Afedersin, geçiyorum.",
+          "exFr": "Sorry, coming through."
+        },
+        {
+          "tr": "canım",
+          "fr": "darling, mate",
+          "ex": "Canım, bugün çok yoruldum.",
+          "exFr": "Mate, I'm exhausted today."
+        },
+        {
+          "tr": "yok canım",
+          "fr": "no way! not at all",
+          "ex": "— Pahalı mı? — Yok canım!",
+          "exFr": "— Is it expensive? — No way!"
+        },
+        {
+          "tr": "aynen",
+          "fr": "same here, exactly",
+          "ex": "— Ben de öyle düşünüyorum. — Aynen!",
+          "exFr": "— I think so too. — Exactly!"
+        },
+        {
+          "tr": "bir şey değil",
+          "fr": "you're welcome",
+          "ex": "— Teşekkürler! — Bir şey değil.",
+          "exFr": "— Thanks! — You're welcome."
+        },
+        {
+          "tr": "güle güle kullan",
+          "fr": "enjoy it (for a new item)",
+          "ex": "Yeni telefonunu güle güle kullan!",
+          "exFr": "Enjoy your new phone!"
+        },
+        {
+          "tr": "bakalım",
+          "fr": "we'll see, let's see",
+          "ex": "— Sınav zor mu olacak? — Bakalım!",
+          "exFr": "— Will the exam be hard? — We'll see!"
+        },
+        {
+          "tr": "her şey yolunda mı?",
+          "fr": "is everything all right?",
+          "ex": "Her şey yolunda mı, iyi misin?",
+          "exFr": "Is everything all right, are you okay?"
+        },
+        {
+          "tr": "bir dakika, lütfen",
+          "fr": "one minute, please",
+          "ex": "Bir dakika, lütfen. Hemen geliyorum.",
+          "exFr": "One minute, please. I'm coming right away."
+        },
+        {
+          "tr": "tekrar eder misiniz?",
+          "fr": "could you repeat that?",
+          "ex": "Affedersiniz, tekrar eder misiniz?",
+          "exFr": "Excuse me, could you repeat that?"
+        },
+        {
+          "tr": "anlamadım",
+          "fr": "I didn't understand",
+          "ex": "Anlamadım, daha yavaş konuşur musunuz?",
+          "exFr": "I didn't understand, could you speak more slowly?"
+        },
+        {
+          "tr": "daha yavaş konuşur musunuz?",
+          "fr": "could you speak more slowly?",
+          "ex": "Lütfen daha yavaş konuşur musunuz?",
+          "exFr": "Could you speak more slowly, please?"
+        },
+        {
+          "tr": "türkçe öğreniyorum",
+          "fr": "I'm learning Turkish",
+          "ex": "Türkçe öğreniyorum, biraz sabırlı olun.",
+          "exFr": "I'm learning Turkish, please be a little patient."
+        },
+        {
+          "tr": "biraz türkçe konuşuyorum",
+          "fr": "I speak a little Turkish",
+          "ex": "Biraz Türkçe konuşuyorum ama hâlâ öğreniyorum.",
+          "exFr": "I speak a little Turkish, but I'm still learning."
+        },
+        {
+          "tr": "yardımınıza ihtiyacım var",
+          "fr": "I need your help",
+          "ex": "Affedersiniz, yardımınıza ihtiyacım var.",
+          "exFr": "Excuse me, I need your help."
+        },
+        {
+          "tr": "buraya nasıl gidebilirim?",
+          "fr": "how can I get there?",
+          "ex": "Buraya nasıl gidebilirim, biliyor musunuz?",
+          "exFr": "Do you know how I can get there?"
+        },
+        {
+          "tr": "kartla ödeyebilir miyim?",
+          "fr": "can I pay by card?",
+          "ex": "Kartla ödeyebilir miyim, yoksa nakit mi lazım?",
+          "exFr": "Can I pay by card, or do I need cash?"
+        },
+        {
+          "tr": "hesabı alabilir miyim?",
+          "fr": "could I have the bill?",
+          "ex": "Hesabı alabilir miyim, lütfen?",
+          "exFr": "Could I have the bill, please?"
+        },
+        {
+          "tr": "rezervasyonum var",
+          "fr": "I have a reservation",
+          "ex": "Saat yedi için rezervasyonum var.",
+          "exFr": "I have a reservation for seven o'clock."
+        },
+        {
+          "tr": "boş yer var mı?",
+          "fr": "is there a free seat?",
+          "ex": "İki kişi için boş yer var mı?",
+          "exFr": "Is there a free seat for two people?"
+        },
+        {
+          "tr": "afedersiniz, geçebilir miyim?",
+          "fr": "excuse me, may I get past?",
+          "ex": "Afedersiniz, geçebilir miyim? Otobüse yetişmem gerekiyor.",
+          "exFr": "Excuse me, may I get past? I need to catch the bus."
+        },
+        {
+          "tr": "ben de öyle düşünüyorum",
+          "fr": "I think so too",
+          "ex": "Ben de öyle düşünüyorum, çok güzel bir fikir.",
+          "exFr": "I think so too, it's a very good idea."
+        },
+        {
+          "tr": "fark etmez",
+          "fr": "it doesn't matter, I don't mind",
+          "ex": "Çay mı kahve mi? Fark etmez.",
+          "exFr": "Tea or coffee? It doesn't matter."
+        },
+        {
+          "tr": "henüz bilmiyorum",
+          "fr": "I don't know yet",
+          "ex": "Yarın gelip gelmeyeceğimi henüz bilmiyorum.",
+          "exFr": "I don't know yet whether I'll come tomorrow."
+        },
+        {
+          "tr": "tekrar görüşmek üzere",
+          "fr": "until next time",
+          "ex": "Şimdilik hoşça kal, tekrar görüşmek üzere.",
+          "exFr": "Goodbye for now, until next time."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Useful questions",
+      "words": [
+        {
+          "tr": "kaç tane?",
+          "fr": "how many?",
+          "ex": "Kaç tane elma aldın?",
+          "exFr": "How many apples did you buy?"
+        },
+        {
+          "tr": "saat kaçta?",
+          "fr": "at what time?",
+          "ex": "Ders saat kaçta başlıyor?",
+          "exFr": "What time does the lesson start?"
+        },
+        {
+          "tr": "bu ne?",
+          "fr": "what is this?",
+          "ex": "Bu ne, çok ilginç!",
+          "exFr": "What is this, it's very interesting!"
+        },
+        {
+          "tr": "bu ne kadar?",
+          "fr": "how much does it cost?",
+          "ex": "Bu çanta ne kadar?",
+          "exFr": "How much does this bag cost?"
+        },
+        {
+          "tr": "nerelisin?",
+          "fr": "where are you from?",
+          "ex": "Nerelisin, Türk müsün?",
+          "exFr": "Where are you from, are you Turkish?"
+        },
+        {
+          "tr": "nereden geliyorsun?",
+          "fr": "where are you coming from?",
+          "ex": "Nereden geliyorsun, okuldan mı?",
+          "exFr": "Where are you coming from, from school?"
+        },
+        {
+          "tr": "nereye gidiyorsun?",
+          "fr": "where are you going?",
+          "ex": "Nereye gidiyorsun, bu kadar erken?",
+          "exFr": "Where are you going so early?"
+        },
+        {
+          "tr": "kaç yaşındasın?",
+          "fr": "how old are you?",
+          "ex": "Kaç yaşındasın, on sekiz mi?",
+          "exFr": "How old are you, eighteen?"
+        },
+        {
+          "tr": "ne yapıyorsun?",
+          "fr": "what are you doing?",
+          "ex": "Ne yapıyorsun, çalışıyor musun?",
+          "exFr": "What are you doing, are you working?"
+        },
+        {
+          "tr": "nasıl gidiyor?",
+          "fr": "how's it going? (life)",
+          "ex": "Okul nasıl gidiyor?",
+          "exFr": "How's school going?"
+        },
+        {
+          "tr": "neden?",
+          "fr": "why?",
+          "ex": "Neden geldin, neden gittin?",
+          "exFr": "Why did you come, why did you leave?"
+        },
+        {
+          "tr": "nasıl?",
+          "fr": "how?",
+          "ex": "Bu kelime nasıl okunuyor?",
+          "exFr": "How is this word pronounced?"
+        },
+        {
+          "tr": "niye?",
+          "fr": "why? (informal)",
+          "ex": "Niye gelmedin?",
+          "exFr": "Why didn't you come?"
+        },
+        {
+          "tr": "hangisi?",
+          "fr": "which one?",
+          "ex": "Hangisi daha güzel?",
+          "exFr": "Which one is nicer?"
+        },
+        {
+          "tr": "kim?",
+          "fr": "who?",
+          "ex": "Kim arıyor?",
+          "exFr": "Who's calling?"
+        },
+        {
+          "tr": "yardım eder misin?",
+          "fr": "can you help me?",
+          "ex": "Bir dakika, yardım eder misin?",
+          "exFr": "One minute, can you help me?"
+        },
+        {
+          "tr": "anladın mı?",
+          "fr": "did you understand?",
+          "ex": "Soru net mi, anladın mı?",
+          "exFr": "Is the question clear, did you understand?"
+        },
+        {
+          "tr": "tekrar eder misin?",
+          "fr": "can you repeat that?",
+          "ex": "Daha yavaş, tekrar eder misin?",
+          "exFr": "More slowly, can you repeat that?"
+        },
+        {
+          "tr": "tuvalet nerede?",
+          "fr": "where are the toilets?",
+          "ex": "Afedersiniz, tuvalet nerede?",
+          "exFr": "Excuse me, where are the toilets?"
+        },
+        {
+          "tr": "ne yapalım?",
+          "fr": "what shall we do?",
+          "ex": "Bugün ne yapalım?",
+          "exFr": "What shall we do today?"
+        },
+        {
+          "tr": "hazır mısın?",
+          "fr": "are you ready?",
+          "ex": "Hazır mısın, başlıyoruz!",
+          "exFr": "Are you ready, we're starting!"
+        }
+      ]
+    }
+  ]
+}

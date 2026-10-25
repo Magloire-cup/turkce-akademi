@@ -1,6 +1,6 @@
 /* Türkçe Akademi : page exercices / quiz */
 
-const QUIZ_TYPES = [
+const QUIZ_TYPES_BASE = [
   {
     id: "tr-fr", name: "Turc → Français", desc: "On te montre un mot turc, tu choisis sa traduction.",
     icon: '<path d="M5 8l6 6M11 8l-6 6M15 4h5v5M15 20h5v-5M3 17h9"/>'
@@ -22,6 +22,11 @@ const QUIZ_TYPES = [
     icon: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/>'
   }
 ];
+
+const QUIZ_TYPES = QUIZ_TYPES_BASE.map(qt => {
+  const tr = window.TA_LOCALE && window.TA_LOCALE.quizTypes && window.TA_LOCALE.quizTypes[qt.id];
+  return tr ? Object.assign({}, qt, { name: tr.name || qt.name, desc: tr.desc || qt.desc }) : qt;
+});
 const N_QUESTIONS = 10;
 
 let run = null;

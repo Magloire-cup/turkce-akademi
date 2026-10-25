@@ -1,0 +1,560 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 26,
+  "end": 29,
+  "items": [
+    {
+      "id": "verbes4",
+      "name": "أفعال شائعة (4)",
+      "words": [
+        {
+          "tr": "korumak",
+          "fr": "يحمي، يحافظ على",
+          "ex": "Doğayı korumalıyız.",
+          "exFr": "علينا أن نحمي الطبيعة."
+        },
+        {
+          "tr": "düşmek",
+          "fr": "يسقط، يقع",
+          "ex": "Dün merdivenden düştüm.",
+          "exFr": "سقطت على السلالم أمس."
+        },
+        {
+          "tr": "artmak",
+          "fr": "يزيد، يرتفع",
+          "ex": "Son günlerde fiyatlar arttı.",
+          "exFr": "ارتفعت الأسعار في الأيام الأخيرة."
+        },
+        {
+          "tr": "azalmak",
+          "fr": "ينقص، يقل",
+          "ex": "Yağmur akşama doğru azalacak.",
+          "exFr": "سيقل المطر نحو المساء."
+        },
+        {
+          "tr": "karşılaşmak",
+          "fr": "يلتقي، يصادف",
+          "ex": "Yolda eski bir arkadaşımla karşılaştım.",
+          "exFr": "صادفت صديقا قديما في الطريق."
+        },
+        {
+          "tr": "vazgeçmek",
+          "fr": "يتخلى عن، يعدل عن",
+          "ex": "Hayalimden vazgeçmedim.",
+          "exFr": "لم أتخل عن حلمي."
+        },
+        {
+          "tr": "saklamak",
+          "fr": "يخفي، يحفظ",
+          "ex": "Bu mektubu saklamak istiyorum.",
+          "exFr": "أريد أن أحفظ هذه الرسالة."
+        },
+        {
+          "tr": "silmek",
+          "fr": "يمسح، يمحو",
+          "ex": "Tahtadaki yazıyı sildi.",
+          "exFr": "مسح ما كان مكتوبا على السبورة."
+        },
+        {
+          "tr": "kırmak",
+          "fr": "يكسر، يحطم",
+          "ex": "Bardağı yanlışlıkla kırdım.",
+          "exFr": "كسرت الكأس عن غير قصد."
+        },
+        {
+          "tr": "başvurmak",
+          "fr": "يتقدم بطلب، يقدم طلبا",
+          "ex": "Bu işe başvurmak istiyorum.",
+          "exFr": "أريد التقدم بطلب لهذه الوظيفة."
+        },
+        {
+          "tr": "düzenlemek",
+          "fr": "ينظم، يرتب",
+          "ex": "Yarın küçük bir gezi düzenliyoruz.",
+          "exFr": "ننظم غدا رحلة قصيرة."
+        },
+        {
+          "tr": "araştırmak",
+          "fr": "يبحث، يحقق",
+          "ex": "Bu konuyu dikkatlice araştırdım.",
+          "exFr": "بحثت في هذا الموضوع بعناية."
+        },
+        {
+          "tr": "gelişmek",
+          "fr": "يتطور، يتقدم",
+          "ex": "Türkçem her gün gelişiyor.",
+          "exFr": "تتطور تركيتي كل يوم."
+        },
+        {
+          "tr": "fark etmek",
+          "fr": "يلاحظ، يدرك",
+          "ex": "Hatasını hemen fark etti.",
+          "exFr": "لاحظ خطأه فورا."
+        },
+        {
+          "tr": "kaçırmak",
+          "fr": "يفوت، يضيع",
+          "ex": "Sabah otobüsünü kaçırdım.",
+          "exFr": "فاتتني حافلة الصباح."
+        },
+        {
+          "tr": "toplamak",
+          "fr": "يجمع، يلتقط",
+          "ex": "Bahçedeki yaprakları topladık.",
+          "exFr": "جمعنا أوراق الحديقة."
+        },
+        {
+          "tr": "yakalamak",
+          "fr": "يمسك، يقبض على",
+          "ex": "Treni yakalamak için koştum.",
+          "exFr": "ركضت لألحق بالقطار."
+        },
+        {
+          "tr": "kaydetmek",
+          "fr": "يسجل، يحفظ",
+          "ex": "Yeni numarayı telefonuma kaydettim.",
+          "exFr": "سجلت الرقم الجديد في هاتفي."
+        }
+      ]
+    },
+    {
+      "id": "expressions",
+      "name": "تعبيرات يومية",
+      "words": [
+        {
+          "tr": "tünaydın",
+          "fr": "طاب يومك",
+          "ex": "Tünaydın, nasıl geçti günün?",
+          "exFr": "طاب يومك، كيف كان يومك؟"
+        },
+        {
+          "tr": "teşekkürler",
+          "fr": "شكرا (استخدام شائع)",
+          "ex": "Teşekkürler, çok naziksin!",
+          "exFr": "شكرا، هذا لطف كبير!"
+        },
+        {
+          "tr": "sağ olun",
+          "fr": "شكرا لكم (صيغة رسمية)",
+          "ex": "İlginiz için sağ olun.",
+          "exFr": "شكرا لكم على اهتمامكم."
+        },
+        {
+          "tr": "ne haber?",
+          "fr": "ما الجديد؟ (غير رسمي)",
+          "ex": "Ne haber, uzun zamandır görüşmedik!",
+          "exFr": "ما الجديد؟ لم نتقابل منذ وقت طويل!"
+        },
+        {
+          "tr": "iyilik",
+          "fr": "لا شيء خاص (رد)",
+          "ex": "— Ne haber? — İyilik, senden?",
+          "exFr": "— ما الجديد؟ — لا شيء يذكر، وأنت؟"
+        },
+        {
+          "tr": "fena değil",
+          "fr": "ليس سيئا",
+          "ex": "— Nasılsın? — Fena değil.",
+          "exFr": "— كيف حالك؟ — ليس سيئا."
+        },
+        {
+          "tr": "şimdilik hoşça kal",
+          "fr": "إلى وقت لاحق",
+          "ex": "Şimdilik hoşça kal, sonra konuşuruz.",
+          "exFr": "إلى وقت لاحق، سنتحدث بعد ذلك."
+        },
+        {
+          "tr": "kendine iyi bak",
+          "fr": "اعتن بنفسك",
+          "ex": "Görüşürüz, kendine iyi bak!",
+          "exFr": "إلى اللقاء، اعتن بنفسك!"
+        },
+        {
+          "tr": "iyi şanslar",
+          "fr": "حظا موفقا",
+          "ex": "Sınava gireceksin, iyi şanslar!",
+          "exFr": "ستدخل الامتحان، حظا موفقا!"
+        },
+        {
+          "tr": "başarılar",
+          "fr": "بالنجاح (في الدراسة والامتحانات)",
+          "ex": "Başarılar dilerim!",
+          "exFr": "أتمنى لك نجاحا كبيرا!"
+        },
+        {
+          "tr": "eline sağlık",
+          "fr": "أحسنت (للطبخ والعمل اليدوي)",
+          "ex": "Bu yemek harika, eline sağlık!",
+          "exFr": "هذا الطعام رائع، أحسنت!"
+        },
+        {
+          "tr": "çok yaşa",
+          "fr": "يرحمك الله (عند العطاس)",
+          "ex": "— Hapşu! — Çok yaşa!",
+          "exFr": "— أتشو! — يرحمك الله!"
+        },
+        {
+          "tr": "sen de gör",
+          "fr": "وإياك (رد على الدعاء)",
+          "ex": "— Çok yaşa! — Sen de gör!",
+          "exFr": "— يرحمك الله! — وإياك!"
+        },
+        {
+          "tr": "haydi bakalım",
+          "fr": "هيا، لنبدأ",
+          "ex": "Haydi bakalım, başlayalım!",
+          "exFr": "هيا، لنبدأ!"
+        },
+        {
+          "tr": "hadi",
+          "fr": "هيا! تعال!",
+          "ex": "Hadi, geç kalıyoruz!",
+          "exFr": "هيا، سوف نتأخر!"
+        },
+        {
+          "tr": "peki",
+          "fr": "حسنا، موافق",
+          "ex": "Peki, nasıl istersen.",
+          "exFr": "حسنا، كما تريد."
+        },
+        {
+          "tr": "kesinlikle",
+          "fr": "بالتأكيد، تماما",
+          "ex": "Kesinlikle katılıyorum.",
+          "exFr": "أوافق تماما."
+        },
+        {
+          "tr": "ne yazık ki",
+          "fr": "للأسف",
+          "ex": "Ne yazık ki gelemem.",
+          "exFr": "للأسف، لا أستطيع المجيء."
+        },
+        {
+          "tr": "boşver",
+          "fr": "لا تهتم، اترك الأمر",
+          "ex": "Boşver, önemli değil.",
+          "exFr": "لا تهتم، الأمر ليس مهما."
+        },
+        {
+          "tr": "vay be",
+          "fr": "يا للروعة! عجبا!",
+          "ex": "Vay be, ne kadar büyük!",
+          "exFr": "يا للروعة، كم هو كبير!"
+        },
+        {
+          "tr": "kıyamam",
+          "fr": "لطيف جدا، لا أتحمل",
+          "ex": "Kıyamam, çok tatlısın!",
+          "exFr": "لطيف جدا، لقد أسر قلبي!"
+        },
+        {
+          "tr": "maşallah",
+          "fr": "أحسنت، ما شاء الله (إعجاب)",
+          "ex": "Maşallah, ne kadar hızlı öğrenmişsin!",
+          "exFr": "ما شاء الله، كم تعلمت بسرعة!"
+        },
+        {
+          "tr": "inşallah",
+          "fr": "إن شاء الله، نأمل ذلك",
+          "ex": "İnşallah sınavı geçerim.",
+          "exFr": "إن شاء الله أنجح في الامتحان."
+        },
+        {
+          "tr": "yolun açık olsun",
+          "fr": "رحلة سعيدة",
+          "ex": "Yolun açık olsun, kendine iyi bak!",
+          "exFr": "رحلة سعيدة، اعتن بنفسك!"
+        },
+        {
+          "tr": "hoş geldin",
+          "fr": "أهلا وسهلا (لصديق)",
+          "ex": "Hoş geldin! Sana çay koydum.",
+          "exFr": "أهلا وسهلا! أعددت لك الشاي."
+        },
+        {
+          "tr": "afedersin",
+          "fr": "عذرا (غير رسمي)",
+          "ex": "Afedersin, geçiyorum.",
+          "exFr": "عذرا، سأمر."
+        },
+        {
+          "tr": "canım",
+          "fr": "عزيزي، يا صاحبي",
+          "ex": "Canım, bugün çok yoruldum.",
+          "exFr": "يا صاحبي، تعبت كثيرا اليوم."
+        },
+        {
+          "tr": "yok canım",
+          "fr": "أبدا! على الإطلاق",
+          "ex": "— Pahalı mı? — Yok canım!",
+          "exFr": "— هل هو غال؟ — أبدا!"
+        },
+        {
+          "tr": "aynen",
+          "fr": "بالضبط، تماما",
+          "ex": "— Ben de öyle düşünüyorum. — Aynen!",
+          "exFr": "— أظن ذلك أيضا. — بالضبط!"
+        },
+        {
+          "tr": "bir şey değil",
+          "fr": "لا شكر على واجب",
+          "ex": "— Teşekkürler! — Bir şey değil.",
+          "exFr": "— شكرا! — لا شكر على واجب."
+        },
+        {
+          "tr": "güle güle kullan",
+          "fr": "استمتع به (لشيء جديد)",
+          "ex": "Yeni telefonunu güle güle kullan!",
+          "exFr": "استمتع بهاتفك الجديد!"
+        },
+        {
+          "tr": "bakalım",
+          "fr": "سنرى",
+          "ex": "— Sınav zor mu olacak? — Bakalım!",
+          "exFr": "— هل سيكون الامتحان صعبا؟ — سنرى!"
+        },
+        {
+          "tr": "her şey yolunda mı?",
+          "fr": "هل كل شيء على ما يرام؟",
+          "ex": "Her şey yolunda mı, iyi misin?",
+          "exFr": "هل كل شيء على ما يرام، هل أنت بخير؟"
+        },
+        {
+          "tr": "bir dakika, lütfen",
+          "fr": "دقيقة واحدة، من فضلك",
+          "ex": "Bir dakika, lütfen. Hemen geliyorum.",
+          "exFr": "دقيقة واحدة، من فضلك. سآتي فورا."
+        },
+        {
+          "tr": "tekrar eder misiniz?",
+          "fr": "هل يمكنكم التكرار؟",
+          "ex": "Affedersiniz, tekrar eder misiniz?",
+          "exFr": "عذرا، هل يمكنكم التكرار؟"
+        },
+        {
+          "tr": "anlamadım",
+          "fr": "لم أفهم",
+          "ex": "Anlamadım, daha yavaş konuşur musunuz?",
+          "exFr": "لم أفهم، هل يمكنكم التحدث ببطء أكثر؟"
+        },
+        {
+          "tr": "daha yavaş konuşur musunuz?",
+          "fr": "هل يمكنكم التحدث ببطء أكثر؟",
+          "ex": "Lütfen daha yavaş konuşur musunuz?",
+          "exFr": "من فضلكم، هل يمكنكم التحدث ببطء أكثر؟"
+        },
+        {
+          "tr": "türkçe öğreniyorum",
+          "fr": "أتعلم التركية",
+          "ex": "Türkçe öğreniyorum, biraz sabırlı olun.",
+          "exFr": "أتعلم التركية، تحلوا بقليل من الصبر."
+        },
+        {
+          "tr": "biraz türkçe konuşuyorum",
+          "fr": "أتحدث التركية قليلا",
+          "ex": "Biraz Türkçe konuşuyorum ama hâlâ öğreniyorum.",
+          "exFr": "أتحدث التركية قليلا، لكنني ما زلت أتعلم."
+        },
+        {
+          "tr": "yardımınıza ihtiyacım var",
+          "fr": "أحتاج إلى مساعدتكم",
+          "ex": "Affedersiniz, yardımınıza ihtiyacım var.",
+          "exFr": "عذرا، أحتاج إلى مساعدتكم."
+        },
+        {
+          "tr": "buraya nasıl gidebilirim?",
+          "fr": "كيف يمكنني الذهاب إلى هناك؟",
+          "ex": "Buraya nasıl gidebilirim, biliyor musunuz?",
+          "exFr": "هل تعرفون كيف يمكنني الذهاب إلى هناك؟"
+        },
+        {
+          "tr": "kartla ödeyebilir miyim?",
+          "fr": "هل يمكنني الدفع بالبطاقة؟",
+          "ex": "Kartla ödeyebilir miyim, yoksa nakit mi lazım?",
+          "exFr": "هل يمكنني الدفع بالبطاقة أم أحتاج إلى نقود؟"
+        },
+        {
+          "tr": "hesabı alabilir miyim?",
+          "fr": "هل يمكنني الحصول على الفاتورة؟",
+          "ex": "Hesabı alabilir miyim, lütfen?",
+          "exFr": "هل يمكنني الحصول على الفاتورة، من فضلكم؟"
+        },
+        {
+          "tr": "rezervasyonum var",
+          "fr": "لدي حجز",
+          "ex": "Saat yedi için rezervasyonum var.",
+          "exFr": "لدي حجز للساعة السابعة."
+        },
+        {
+          "tr": "boş yer var mı?",
+          "fr": "هل هناك مكان فارغ؟",
+          "ex": "İki kişi için boş yer var mı?",
+          "exFr": "هل هناك مكان فارغ لشخصين؟"
+        },
+        {
+          "tr": "afedersiniz, geçebilir miyim?",
+          "fr": "عذرا، هل يمكنني المرور؟",
+          "ex": "Afedersiniz, geçebilir miyim? Otobüse yetişmem gerekiyor.",
+          "exFr": "عذرا، هل يمكنني المرور؟ يجب أن ألحق بالحافلة."
+        },
+        {
+          "tr": "ben de öyle düşünüyorum",
+          "fr": "أظن ذلك أيضا",
+          "ex": "Ben de öyle düşünüyorum, çok güzel bir fikir.",
+          "exFr": "أظن ذلك أيضا، إنها فكرة جيدة جدا."
+        },
+        {
+          "tr": "fark etmez",
+          "fr": "لا يهم، الأمر سيان",
+          "ex": "Çay mı kahve mi? Fark etmez.",
+          "exFr": "شاي أم قهوة؟ لا يهم."
+        },
+        {
+          "tr": "henüz bilmiyorum",
+          "fr": "لا أعرف بعد",
+          "ex": "Yarın gelip gelmeyeceğimi henüz bilmiyorum.",
+          "exFr": "لا أعرف بعد إن كنت سآتي غدا."
+        },
+        {
+          "tr": "tekrar görüşmek üzere",
+          "fr": "إلى لقاء آخر",
+          "ex": "Şimdilik hoşça kal, tekrar görüşmek üzere.",
+          "exFr": "وداعا الآن، إلى لقاء آخر."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "أسئلة مفيدة",
+      "words": [
+        {
+          "tr": "kaç tane?",
+          "fr": "كم عددها؟",
+          "ex": "Kaç tane elma aldın?",
+          "exFr": "كم تفاحة اشتريت؟"
+        },
+        {
+          "tr": "saat kaçta?",
+          "fr": "في أي ساعة؟",
+          "ex": "Ders saat kaçta başlıyor?",
+          "exFr": "في أي ساعة يبدأ الدرس؟"
+        },
+        {
+          "tr": "bu ne?",
+          "fr": "ما هذا؟",
+          "ex": "Bu ne, çok ilginç!",
+          "exFr": "ما هذا؟ إنه مثير للاهتمام جدا!"
+        },
+        {
+          "tr": "bu ne kadar?",
+          "fr": "كم سعر هذا؟",
+          "ex": "Bu çanta ne kadar?",
+          "exFr": "كم سعر هذه الحقيبة؟"
+        },
+        {
+          "tr": "nerelisin?",
+          "fr": "من أين أنت؟",
+          "ex": "Nerelisin, Türk müsün?",
+          "exFr": "من أين أنت؟ هل أنت تركي؟"
+        },
+        {
+          "tr": "nereden geliyorsun?",
+          "fr": "من أين أتيت؟",
+          "ex": "Nereden geliyorsun, okuldan mı?",
+          "exFr": "من أين أتيت؟ من المدرسة؟"
+        },
+        {
+          "tr": "nereye gidiyorsun?",
+          "fr": "إلى أين أنت ذاهب؟",
+          "ex": "Nereye gidiyorsun, bu kadar erken?",
+          "exFr": "إلى أين أنت ذاهب في هذا الوقت المبكر؟"
+        },
+        {
+          "tr": "kaç yaşındasın?",
+          "fr": "كم عمرك؟",
+          "ex": "Kaç yaşındasın, on sekiz mi?",
+          "exFr": "كم عمرك؟ ثمانية عشر عاما؟"
+        },
+        {
+          "tr": "ne yapıyorsun?",
+          "fr": "ماذا تفعل؟",
+          "ex": "Ne yapıyorsun, çalışıyor musun?",
+          "exFr": "ماذا تفعل؟ هل تعمل؟"
+        },
+        {
+          "tr": "nasıl gidiyor?",
+          "fr": "كيف تسير الأمور؟",
+          "ex": "Okul nasıl gidiyor?",
+          "exFr": "كيف تسير الدراسة؟"
+        },
+        {
+          "tr": "neden?",
+          "fr": "لماذا؟",
+          "ex": "Neden geldin, neden gittin?",
+          "exFr": "لماذا جئت، لماذا ذهبت؟"
+        },
+        {
+          "tr": "nasıl?",
+          "fr": "كيف؟",
+          "ex": "Bu kelime nasıl okunuyor?",
+          "exFr": "كيف تقرأ هذه الكلمة؟"
+        },
+        {
+          "tr": "niye?",
+          "fr": "لماذا؟ (غير رسمي)",
+          "ex": "Niye gelmedin?",
+          "exFr": "لماذا لم تأت؟"
+        },
+        {
+          "tr": "hangisi?",
+          "fr": "أيهما؟",
+          "ex": "Hangisi daha güzel?",
+          "exFr": "أيهما أجمل؟"
+        },
+        {
+          "tr": "kim?",
+          "fr": "من؟",
+          "ex": "Kim arıyor?",
+          "exFr": "من يتصل؟"
+        },
+        {
+          "tr": "yardım eder misin?",
+          "fr": "هل يمكنك مساعدتي؟",
+          "ex": "Bir dakika, yardım eder misin?",
+          "exFr": "دقيقة واحدة، هل يمكنك مساعدتي؟"
+        },
+        {
+          "tr": "anladın mı?",
+          "fr": "هل فهمت؟",
+          "ex": "Soru net mi, anladın mı?",
+          "exFr": "هل السؤال واضح؟ هل فهمت؟"
+        },
+        {
+          "tr": "tekrar eder misin?",
+          "fr": "هل يمكنك التكرار؟",
+          "ex": "Daha yavaş, tekrar eder misin?",
+          "exFr": "ببطء أكثر، هل يمكنك التكرار؟"
+        },
+        {
+          "tr": "tuvalet nerede?",
+          "fr": "أين المرحاض؟",
+          "ex": "Afedersiniz, tuvalet nerede?",
+          "exFr": "عذرا، أين المرحاض؟"
+        },
+        {
+          "tr": "ne yapalım?",
+          "fr": "ماذا نفعل؟",
+          "ex": "Bugün ne yapalım?",
+          "exFr": "ماذا نفعل اليوم؟"
+        },
+        {
+          "tr": "hazır mısın?",
+          "fr": "هل أنت مستعد؟",
+          "ex": "Hazır mısın, başlıyoruz!",
+          "exFr": "هل أنت مستعد؟ سنبدأ!"
+        }
+      ]
+    }
+  ]
+}

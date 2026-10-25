@@ -1,0 +1,1076 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 10,
+  "end": 18,
+  "items": [
+    {
+      "id": "nourriture",
+      "name": "Тағам және сусындар",
+      "words": [
+        {
+          "tr": "su",
+          "fr": "су",
+          "ex": "Bir bardak su, lütfen.",
+          "exFr": "Бір стақан су, өтінемін."
+        },
+        {
+          "tr": "ekmek",
+          "fr": "нан",
+          "ex": "Fırından ekmek aldım.",
+          "exFr": "Нанханадан нан сатып алдым."
+        },
+        {
+          "tr": "süt",
+          "fr": "сүт",
+          "ex": "Sabahları süt içerim.",
+          "exFr": "Таңертең сүт ішемін."
+        },
+        {
+          "tr": "kahve",
+          "fr": "кофе",
+          "ex": "Türk kahvesi içer misin?",
+          "exFr": "Түрік кофесін ішесің бе?"
+        },
+        {
+          "tr": "çay",
+          "fr": "шай",
+          "ex": "İki çay, lütfen.",
+          "exFr": "Екі шай, өтінемін."
+        },
+        {
+          "tr": "peynir",
+          "fr": "ірімшік",
+          "ex": "Kahvaltıda peynir yedim.",
+          "exFr": "Таңғы аста ірімшік жедім."
+        },
+        {
+          "tr": "zeytin",
+          "fr": "зәйтүн",
+          "ex": "Zeytin yağı sağlıklıdır.",
+          "exFr": "Зәйтүн майы денсаулыққа пайдалы."
+        },
+        {
+          "tr": "yumurta",
+          "fr": "жұмыртқа",
+          "ex": "İki yumurta haşladım.",
+          "exFr": "Екі жұмыртқа пісірдім."
+        },
+        {
+          "tr": "et",
+          "fr": "ет",
+          "ex": "Et almak için kasaba gittim.",
+          "exFr": "Ет сатып алу үшін қасапханаға бардым."
+        },
+        {
+          "tr": "tavuk",
+          "fr": "тауық еті",
+          "ex": "Akşam tavuk yiyeceğiz.",
+          "exFr": "Бүгін кешке тауық еті жейміз."
+        },
+        {
+          "tr": "balık",
+          "fr": "балық",
+          "ex": "Balık çok taze görünüyor.",
+          "exFr": "Балық өте жаңа болып көрінеді."
+        },
+        {
+          "tr": "pilav",
+          "fr": "күріш",
+          "ex": "Pilavı kendim yaptım.",
+          "exFr": "Күрішті өзім пісірдім."
+        },
+        {
+          "tr": "sebze",
+          "fr": "көкөніс",
+          "ex": "Sebze yemeyi sevmiyorum.",
+          "exFr": "Көкөніс жегенді ұнатпаймын."
+        },
+        {
+          "tr": "meyve",
+          "fr": "жеміс",
+          "ex": "Meyve sağlıklı bir atıştırmalıktır.",
+          "exFr": "Жеміс — пайдалы жеңіл тағам."
+        },
+        {
+          "tr": "elma",
+          "fr": "алма",
+          "ex": "Her gün bir elma yerim.",
+          "exFr": "Күн сайын бір алма жеймін."
+        },
+        {
+          "tr": "portakal",
+          "fr": "апельсин (жеміс)",
+          "ex": "Portakal suyu içtim.",
+          "exFr": "Апельсин шырынын іштім."
+        },
+        {
+          "tr": "muz",
+          "fr": "банан",
+          "ex": "Muz çok olmuş.",
+          "exFr": "Банан өте піскен."
+        },
+        {
+          "tr": "domates",
+          "fr": "қызанақ",
+          "ex": "Salataya domates doğradım.",
+          "exFr": "Салатқа қызанақ турадым."
+        },
+        {
+          "tr": "soğan",
+          "fr": "пияз",
+          "ex": "Soğan ağlatıyor.",
+          "exFr": "Пияз көзден жас шығарады."
+        },
+        {
+          "tr": "şeker",
+          "fr": "қант",
+          "ex": "Şekersiz içiyorum.",
+          "exFr": "Қантсыз ішемін."
+        },
+        {
+          "tr": "tuz",
+          "fr": "тұз",
+          "ex": "Çorba tuzlu değil.",
+          "exFr": "Сорпа тұзды емес."
+        },
+        {
+          "tr": "kahvaltı",
+          "fr": "таңғы ас",
+          "ex": "Kahvaltı hazır!",
+          "exFr": "Таңғы ас дайын!"
+        },
+        {
+          "tr": "yemek",
+          "fr": "тамақ",
+          "ex": "Yemek çok lezzetliydi.",
+          "exFr": "Тамақ өте дәмді болды."
+        },
+        {
+          "tr": "aç",
+          "fr": "аш",
+          "ex": "Karnım çok aç.",
+          "exFr": "Қарным қатты аш."
+        },
+        {
+          "tr": "tok",
+          "fr": "тойған",
+          "ex": "Karnım tok, teşekkürler.",
+          "exFr": "Тойдым, рақмет."
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "Мейрамханада",
+      "words": [
+        {
+          "tr": "restoran",
+          "fr": "мейрамхана",
+          "ex": "Bu restoran çok ünlü.",
+          "exFr": "Бұл мейрамхана өте танымал."
+        },
+        {
+          "tr": "garson",
+          "fr": "даяшы",
+          "ex": "Garson, hesap lütfen!",
+          "exFr": "Даяшы, есепшотты әкеліңізші!"
+        },
+        {
+          "tr": "menü",
+          "fr": "мәзір",
+          "ex": "Menüyü getirebilir misiniz?",
+          "exFr": "Мәзірді әкеле аласыз ба?"
+        },
+        {
+          "tr": "hesap",
+          "fr": "есепшот",
+          "ex": "Hesabı ödedim.",
+          "exFr": "Есепшотты төледім."
+        },
+        {
+          "tr": "sipariş",
+          "fr": "тапсырыс",
+          "ex": "Sipariş vermek istiyorum.",
+          "exFr": "Тапсырыс бергім келеді."
+        },
+        {
+          "tr": "masa",
+          "fr": "үстел",
+          "ex": "Boş bir masa var mı?",
+          "exFr": "Бос үстел бар ма?"
+        },
+        {
+          "tr": "kafe",
+          "fr": "кофехана",
+          "ex": "Bu kafede çalışıyorum.",
+          "exFr": "Осы кофеханада жұмыс істеймін."
+        },
+        {
+          "tr": "lezzetli",
+          "fr": "дәмді",
+          "ex": "Çorba çok lezzetliydi.",
+          "exFr": "Сорпа өте дәмді болды."
+        },
+        {
+          "tr": "bahşiş",
+          "fr": "шайпұл",
+          "ex": "Bahşiş bıraktım.",
+          "exFr": "Шайпұл қалдырдым."
+        },
+        {
+          "tr": "içecek",
+          "fr": "сусын",
+          "ex": "Ne içersiniz, içecek ne alırsınız?",
+          "exFr": "Ішуге не аласыз?"
+        },
+        {
+          "tr": "porsiyon",
+          "fr": "порция",
+          "ex": "Porsiyonlar çok büyük.",
+          "exFr": "Порциялар өте үлкен."
+        },
+        {
+          "tr": "rezervasyon",
+          "fr": "брондау",
+          "ex": "Rezervasyonum var.",
+          "exFr": "Орнымды брондап қойғанмын."
+        },
+        {
+          "tr": "dolu",
+          "fr": "толы, бос емес",
+          "ex": "Restoran şu an dolu.",
+          "exFr": "Мейрамхана қазір толы."
+        },
+        {
+          "tr": "boş",
+          "fr": "бос",
+          "ex": "Şu masa boş görünüyor.",
+          "exFr": "Бұл үстел бос сияқты."
+        },
+        {
+          "tr": "hesabı bölüşmek",
+          "fr": "есепшотты бөлісу",
+          "ex": "Hesabı bölüşelim mi?",
+          "exFr": "Есепшотты бөлісейік пе?"
+        },
+        {
+          "tr": "ikram",
+          "fr": "сый (мекемеден)",
+          "ex": "Bunlar bizden ikram.",
+          "exFr": "Бұл мекемеден сый."
+        }
+      ]
+    },
+    {
+      "id": "famille",
+      "name": "Отбасы және адамдар",
+      "words": [
+        {
+          "tr": "aile",
+          "fr": "отбасы",
+          "ex": "Ailem çok büyük.",
+          "exFr": "Менің отбасым өте үлкен."
+        },
+        {
+          "tr": "anne",
+          "fr": "ана",
+          "ex": "Annem öğretmen.",
+          "exFr": "Анам мұғалім."
+        },
+        {
+          "tr": "baba",
+          "fr": "әке",
+          "ex": "Babam doktor.",
+          "exFr": "Әкем дәрігер."
+        },
+        {
+          "tr": "kardeş",
+          "fr": "бауыр",
+          "ex": "İki kardeşim var.",
+          "exFr": "Менің екі бауырым бар."
+        },
+        {
+          "tr": "abla",
+          "fr": "әпке",
+          "ex": "Ablam İzmir'de yaşıyor.",
+          "exFr": "Әпкем Измирде тұрады."
+        },
+        {
+          "tr": "abi",
+          "fr": "аға",
+          "ex": "Abim beni aradı.",
+          "exFr": "Ағам маған қоңырау шалды."
+        },
+        {
+          "tr": "kız kardeş",
+          "fr": "сіңлі",
+          "ex": "Kız kardeşim âşık oldu.",
+          "exFr": "Сіңлім ғашық болды."
+        },
+        {
+          "tr": "erkek kardeş",
+          "fr": "іні",
+          "ex": "Erkek kardeşim askerde.",
+          "exFr": "Інім әскерде."
+        },
+        {
+          "tr": "dede",
+          "fr": "ата",
+          "ex": "Dedem hâlâ bahçede çalışıyor.",
+          "exFr": "Атам әлі бақшада жұмыс істейді."
+        },
+        {
+          "tr": "nine",
+          "fr": "әже",
+          "ex": "Ninem börek yapıyor.",
+          "exFr": "Әжем бөрек пісіреді."
+        },
+        {
+          "tr": "çocuk",
+          "fr": "бала",
+          "ex": "Çocuklar parkta oynuyor.",
+          "exFr": "Балалар саябақта ойнайды."
+        },
+        {
+          "tr": "kız",
+          "fr": "қыз",
+          "ex": "Kızım yeni yürümeye başladı.",
+          "exFr": "Қызым енді жүре бастады."
+        },
+        {
+          "tr": "oğlan",
+          "fr": "ұл бала",
+          "ex": "Oğlan çok yaramaz.",
+          "exFr": "Ұл бала өте тентек."
+        },
+        {
+          "tr": "bebek",
+          "fr": "нәресте",
+          "ex": "Bebek uyuyor, sessiz olun.",
+          "exFr": "Нәресте ұйықтап жатыр, шуламаңыздар."
+        },
+        {
+          "tr": "arkadaş",
+          "fr": "дос",
+          "ex": "Arkadaşımla sinemaya gittim.",
+          "exFr": "Досыммен киноға бардым."
+        },
+        {
+          "tr": "komşu",
+          "fr": "көрші",
+          "ex": "Komşumuz çok kibar.",
+          "exFr": "Көршіміз өте сыпайы."
+        },
+        {
+          "tr": "erkek",
+          "fr": "еркек",
+          "ex": "O erkek çok uzun.",
+          "exFr": "Бұл ер адам өте ұзын."
+        },
+        {
+          "tr": "kadın",
+          "fr": "әйел",
+          "ex": "Kadın gazete okuyor.",
+          "exFr": "Әйел газет оқып отыр."
+        },
+        {
+          "tr": "insan",
+          "fr": "адам, адам баласы",
+          "ex": "İnsanlar sokakta toplanmış.",
+          "exFr": "Адамдар көшеде жиналды."
+        },
+        {
+          "tr": "isim",
+          "fr": "есім",
+          "ex": "İsminizi tekrarlar mısınız?",
+          "exFr": "Есіміңізді қайталай аласыз ба?"
+        },
+        {
+          "tr": "evli",
+          "fr": "үйленген",
+          "ex": "Evli misin, bekar mı?",
+          "exFr": "Үйленгенсің бе, әлде бойдақсың ба?"
+        },
+        {
+          "tr": "bekar",
+          "fr": "бойдақ",
+          "ex": "Henüz bekârım.",
+          "exFr": "Мен әлі бойдақпын."
+        }
+      ]
+    },
+    {
+      "id": "corps",
+      "name": "Дене және денсаулық",
+      "words": [
+        {
+          "tr": "baş",
+          "fr": "бас",
+          "ex": "Başım ağrıyor.",
+          "exFr": "Басым ауырып тұр."
+        },
+        {
+          "tr": "saç",
+          "fr": "шаш",
+          "ex": "Saçlarını kestirdi.",
+          "exFr": "Ол шашын қидырып алды."
+        },
+        {
+          "tr": "göz",
+          "fr": "көз",
+          "ex": "Gözlerin çok güzel.",
+          "exFr": "Көздерің өте әдемі."
+        },
+        {
+          "tr": "kulak",
+          "fr": "құлақ",
+          "ex": "Kulağım çınlıyor.",
+          "exFr": "Құлағым шыңылдайды."
+        },
+        {
+          "tr": "burun",
+          "fr": "мұрын",
+          "ex": "Burunu kızardı.",
+          "exFr": "Мұрны қызарып кетті."
+        },
+        {
+          "tr": "ağız",
+          "fr": "ауыз",
+          "ex": "Ağzını aç ve göster.",
+          "exFr": "Аузыңды ашып, көрсет."
+        },
+        {
+          "tr": "diş",
+          "fr": "тіс",
+          "ex": "Dişim çok ağrıyor.",
+          "exFr": "Тісім қатты ауырып тұр."
+        },
+        {
+          "tr": "kol",
+          "fr": "қол",
+          "ex": "Kolunu kırdı.",
+          "exFr": "Ол қолын сындырып алды."
+        },
+        {
+          "tr": "el",
+          "fr": "қол",
+          "ex": "Ellerini yıka!",
+          "exFr": "Қолыңды жу!"
+        },
+        {
+          "tr": "parmak",
+          "fr": "саусақ",
+          "ex": "Parmağımı kestim.",
+          "exFr": "Саусағымды кесіп алдым."
+        },
+        {
+          "tr": "bacak",
+          "fr": "аяқ",
+          "ex": "Bacaklarım ağrıyor.",
+          "exFr": "Аяқтарым ауырып тұр."
+        },
+        {
+          "tr": "ayak",
+          "fr": "аяқ",
+          "ex": "Ayağım üşüdü.",
+          "exFr": "Аяғым тоңып тұр."
+        },
+        {
+          "tr": "kalp",
+          "fr": "жүрек",
+          "ex": "Kalbim hızlı çarpıyor.",
+          "exFr": "Жүрегім тез соғып тұр."
+        },
+        {
+          "tr": "mide",
+          "fr": "асқазан",
+          "ex": "Midem bulanıyor.",
+          "exFr": "Жүрегім айнып тұр."
+        },
+        {
+          "tr": "doktor",
+          "fr": "дәрігер",
+          "ex": "Doktora görünmelisin.",
+          "exFr": "Дәрігерге қаралуың керек."
+        },
+        {
+          "tr": "hastane",
+          "fr": "аурухана",
+          "ex": "Hastaneye gittim.",
+          "exFr": "Ауруханаға бардым."
+        },
+        {
+          "tr": "ilaç",
+          "fr": "дәрі",
+          "ex": "İlaçlarını düzenli iç.",
+          "exFr": "Дәрілеріңді уақытылы іш."
+        },
+        {
+          "tr": "hasta",
+          "fr": "науқас",
+          "ex": "Hasta oldum, eve gidiyorum.",
+          "exFr": "Ауырып қалдым, үйге қайтамын."
+        },
+        {
+          "tr": "yorgun",
+          "fr": "шаршаған",
+          "ex": "Bugün çok yorgunum.",
+          "exFr": "Бүгін қатты шаршадым."
+        },
+        {
+          "tr": "ağrı",
+          "fr": "ауырсыну",
+          "ex": "Boynumda bir ağrı var.",
+          "exFr": "Мойнымда ауырсыну бар."
+        },
+        {
+          "tr": "iyileşmek",
+          "fr": "жазылу",
+          "ex": "Çabuk iyileş, geçmiş olsun.",
+          "exFr": "Тез жазыл, аман бол."
+        }
+      ]
+    },
+    {
+      "id": "maison",
+      "name": "Үй және заттар",
+      "words": [
+        {
+          "tr": "ev",
+          "fr": "үй",
+          "ex": "Şu an evdeyim.",
+          "exFr": "Қазір үйде отырмын."
+        },
+        {
+          "tr": "oda",
+          "fr": "бөлме",
+          "ex": "Odan çok dağınık.",
+          "exFr": "Бөлмең өте ретсіз."
+        },
+        {
+          "tr": "mutfak",
+          "fr": "ас үй",
+          "ex": "Mutfakta yemek pişiriyorum.",
+          "exFr": "Ас үйде тамақ дайындап жатырмын."
+        },
+        {
+          "tr": "banyo",
+          "fr": "ванна бөлмесі",
+          "ex": "Banyoya gidiyorum.",
+          "exFr": "Ванна бөлмесіне барамын."
+        },
+        {
+          "tr": "yatak",
+          "fr": "төсек",
+          "ex": "Yatak çok rahat.",
+          "exFr": "Төсек өте жайлы."
+        },
+        {
+          "tr": "yastık",
+          "fr": "жастық",
+          "ex": "Yastığım kirlendi.",
+          "exFr": "Жастығым кірлеп қалды."
+        },
+        {
+          "tr": "battaniye",
+          "fr": "көрпе",
+          "ex": "Üşüdüm, battaniye alayım.",
+          "exFr": "Тоңып тұрмын, көрпе алайын."
+        },
+        {
+          "tr": "dolap",
+          "fr": "шкаф",
+          "ex": "Dolabın içi boş.",
+          "exFr": "Шкафтың іші бос."
+        },
+        {
+          "tr": "masa",
+          "fr": "үстел",
+          "ex": "Masayı ben hazırladım.",
+          "exFr": "Үстелді мен дайындадым."
+        },
+        {
+          "tr": "sandalye",
+          "fr": "орындық",
+          "ex": "Bir sandalye alır mısın?",
+          "exFr": "Бір орындық ала аласың ба?"
+        },
+        {
+          "tr": "kapı",
+          "fr": "есік",
+          "ex": "Kapıyı kapat, lütfen.",
+          "exFr": "Есікті жап, өтінемін."
+        },
+        {
+          "tr": "pencere",
+          "fr": "терезе",
+          "ex": "Pencereyi açabilir misin?",
+          "exFr": "Терезені аша аласың ба?"
+        },
+        {
+          "tr": "duvar",
+          "fr": "қабырға",
+          "ex": "Duvarda bir resim asılı.",
+          "exFr": "Қабырғада сурет ілулі тұр."
+        },
+        {
+          "tr": "bahçe",
+          "fr": "бақша",
+          "ex": "Bahçede çay içtik.",
+          "exFr": "Бақшада шай іштік."
+        },
+        {
+          "tr": "merdiven",
+          "fr": "баспалдақ",
+          "ex": "Merdivenlerden çıktım.",
+          "exFr": "Баспалдақпен жоғары көтерілдім."
+        },
+        {
+          "tr": "ayna",
+          "fr": "айна",
+          "ex": "Aynaya baktım.",
+          "exFr": "Айнаға қарадым."
+        },
+        {
+          "tr": "anahtar",
+          "fr": "кілт",
+          "ex": "Anahtarlarımı kaybettim.",
+          "exFr": "Кілттерімді жоғалтып алдым."
+        },
+        {
+          "tr": "lamba",
+          "fr": "шам",
+          "ex": "Lambayı kapattım.",
+          "exFr": "Шамды өшірдім."
+        },
+        {
+          "tr": "kitap",
+          "fr": "кітап",
+          "ex": "Bu kitabı okudun mu?",
+          "exFr": "Бұл кітапты оқыдың ба?"
+        },
+        {
+          "tr": "kalem",
+          "fr": "қалам",
+          "ex": "Kalemim yok, ödünç alabilir miyim?",
+          "exFr": "Қаламым жоқ, біреуін қарызға алсам бола ма?"
+        },
+        {
+          "tr": "çanta",
+          "fr": "сөмке",
+          "ex": "Çantamı unuttum.",
+          "exFr": "Сөмкемді ұмытып кетіппін."
+        },
+        {
+          "tr": "giysi",
+          "fr": "киім",
+          "ex": "Giysilerimi astım.",
+          "exFr": "Киімдерімді іліп қойдым."
+        }
+      ]
+    },
+    {
+      "id": "vetements",
+      "name": "Киім және сауда",
+      "words": [
+        {
+          "tr": "gömlek",
+          "fr": "жейде",
+          "ex": "Beyaz bir gömlek giydim.",
+          "exFr": "Ақ жейде кидім."
+        },
+        {
+          "tr": "pantolon",
+          "fr": "шалбар",
+          "ex": "Pantolonum yırtıldı.",
+          "exFr": "Шалбарым жыртылып қалды."
+        },
+        {
+          "tr": "ceket",
+          "fr": "пиджак",
+          "ex": "Ceketini çıkardı.",
+          "exFr": "Ол пиджагін шешіп алды."
+        },
+        {
+          "tr": "kazak",
+          "fr": "жемпір",
+          "ex": "Bu kazak çok sıcak tutuyor.",
+          "exFr": "Бұл жемпір өте жылы."
+        },
+        {
+          "tr": "tişört",
+          "fr": "футболка",
+          "ex": "Tişörtümün rengi solmuş.",
+          "exFr": "Футболкамның түсі оңып кетті."
+        },
+        {
+          "tr": "ayakkabı",
+          "fr": "аяқ киім",
+          "ex": "Yeni ayakkabılarım geldi.",
+          "exFr": "Жаңа аяқ киімдерім келіп түсті."
+        },
+        {
+          "tr": "çorap",
+          "fr": "шұлық",
+          "ex": "Çoraplarım eşleşmiyor.",
+          "exFr": "Шұлықтарымның жұбы жоқ."
+        },
+        {
+          "tr": "şapka",
+          "fr": "қалпақ",
+          "ex": "Güneşten korunmak için şapka taktım.",
+          "exFr": "Күннен қорғану үшін қалпақ кидім."
+        },
+        {
+          "tr": "elbise",
+          "fr": "көйлек",
+          "ex": "Şık bir elbise aldı.",
+          "exFr": "Ол сәнді көйлек сатып алды."
+        },
+        {
+          "tr": "etek",
+          "fr": "белдемше",
+          "ex": "Eteği uzun.",
+          "exFr": "Белдемше ұзын."
+        },
+        {
+          "tr": "mont",
+          "fr": "пальто",
+          "ex": "Kışın mont şart.",
+          "exFr": "Қыста пальтосыз болмайды."
+        },
+        {
+          "tr": "atkı",
+          "fr": "шарф",
+          "ex": "Atkını takmayı unutma.",
+          "exFr": "Шарфыңды киюді ұмытпа."
+        },
+        {
+          "tr": "mağaza",
+          "fr": "дүкен",
+          "ex": "Mağaza saat kaçta açılıyor?",
+          "exFr": "Дүкен сағат нешеде ашылады?"
+        },
+        {
+          "tr": "alışveriş",
+          "fr": "сатып алу",
+          "ex": "Alışverişe çıktım.",
+          "exFr": "Сатып алуға шықтым."
+        },
+        {
+          "tr": "fiyat",
+          "fr": "баға",
+          "ex": "Fiyatı ne kadar?",
+          "exFr": "Ол қанша тұрады?"
+        },
+        {
+          "tr": "pahalı",
+          "fr": "қымбат",
+          "ex": "Bu çok pahalı, daha ucuzu var mı?",
+          "exFr": "Бұл тым қымбат, арзанырақ бар ма?"
+        },
+        {
+          "tr": "ucuz",
+          "fr": "арзан",
+          "ex": "Burada sebze ucuz.",
+          "exFr": "Мұнда көкөніс арзан."
+        },
+        {
+          "tr": "indirim",
+          "fr": "жеңілдік",
+          "ex": "Her şeyde indirim var.",
+          "exFr": "Барлығына жеңілдік бар."
+        },
+        {
+          "tr": "kasa",
+          "fr": "касса",
+          "ex": "Kasada sıra uzun.",
+          "exFr": "Кассадағы кезек ұзын."
+        },
+        {
+          "tr": "denemek",
+          "fr": "киіп көру",
+          "ex": "Bunu denemek istiyorum.",
+          "exFr": "Оны киіп көргім келеді."
+        }
+      ]
+    },
+    {
+      "id": "ville",
+      "name": "Қала және орындар",
+      "words": [
+        {
+          "tr": "şehir",
+          "fr": "қала",
+          "ex": "İstanbul çok kalabalık bir şehir.",
+          "exFr": "Стамбул — халқы өте көп қала."
+        },
+        {
+          "tr": "sokak",
+          "fr": "көше",
+          "ex": "Sokakta çocuklar oynuyor.",
+          "exFr": "Көшеде балалар ойнап жүр."
+        },
+        {
+          "tr": "cadde",
+          "fr": "даңғыл",
+          "ex": "Cadde boyunca yürüdüm.",
+          "exFr": "Даңғыл бойымен жаяу жүрдім."
+        },
+        {
+          "tr": "meydan",
+          "fr": "алаң",
+          "ex": "Taksim Meydanı'nda buluşalım.",
+          "exFr": "Таксим алаңында кездесейік."
+        },
+        {
+          "tr": "park",
+          "fr": "саябақ",
+          "ex": "Parkta koşu yapıyorum.",
+          "exFr": "Саябақта жүгіремін."
+        },
+        {
+          "tr": "okul",
+          "fr": "мектеп",
+          "ex": "Okul evime yakın.",
+          "exFr": "Мектеп үйіме жақын."
+        },
+        {
+          "tr": "üniversite",
+          "fr": "университет",
+          "ex": "Üniversitede mühendislik okuyorum.",
+          "exFr": "Университетте инженерия оқимын."
+        },
+        {
+          "tr": "kütüphane",
+          "fr": "кітапхана",
+          "ex": "Kütüphanede sessizlik var.",
+          "exFr": "Кітапханада тыныш."
+        },
+        {
+          "tr": "eczane",
+          "fr": "дәріхана",
+          "ex": "Gece nöbetçi eczane buldum.",
+          "exFr": "Кезекші дәріхананы таптым."
+        },
+        {
+          "tr": "banka",
+          "fr": "банк",
+          "ex": "Bankadan para çektim.",
+          "exFr": "Банктен ақша шешіп алдым."
+        },
+        {
+          "tr": "postane",
+          "fr": "пошта",
+          "ex": "Postaneden paket aldım.",
+          "exFr": "Поштадан сәлемдеме алдым."
+        },
+        {
+          "tr": "müze",
+          "fr": "мұражай",
+          "ex": "Müzede sergi var.",
+          "exFr": "Мұражайда көрме бар."
+        },
+        {
+          "tr": "cami",
+          "fr": "мешіт",
+          "ex": "Cami çok eski ve güzel.",
+          "exFr": "Мешіт өте ежелгі әрі әдемі."
+        },
+        {
+          "tr": "sinema",
+          "fr": "кинотеатр",
+          "ex": "Sinemaya film seyretmeye gittim.",
+          "exFr": "Кинотеатрға фильм көруге бардым."
+        },
+        {
+          "tr": "tiyatro",
+          "fr": "театр",
+          "ex": "Tiyatro bileti aldım.",
+          "exFr": "Театрға билет алдым."
+        },
+        {
+          "tr": "otel",
+          "fr": "қонақүй",
+          "ex": "Otel deniz manzaralı.",
+          "exFr": "Қонақүйден теңіз көрінеді."
+        },
+        {
+          "tr": "plaj",
+          "fr": "жағажай",
+          "ex": "Plajda güneşlendim.",
+          "exFr": "Жағажайда күнге қыздым."
+        },
+        {
+          "tr": "köprü",
+          "fr": "көпір",
+          "ex": "Köprüden karşıya geçtik.",
+          "exFr": "Көпірмен арғы бетке өттік."
+        },
+        {
+          "tr": "adres",
+          "fr": "мекенжай",
+          "ex": "Adresi yazar mısınız?",
+          "exFr": "Мекенжайды жаза аласыз ба?"
+        },
+        {
+          "tr": "turistik",
+          "fr": "туристік",
+          "ex": "Burası çok turistik bir yer.",
+          "exFr": "Бұл өте туристік жер."
+        }
+      ]
+    },
+    {
+      "id": "transports",
+      "name": "Көлік және саяхат",
+      "words": [
+        {
+          "tr": "otobüs",
+          "fr": "автобус",
+          "ex": "Otobüsle eve döndüm.",
+          "exFr": "Автобуспен үйге қайттым."
+        },
+        {
+          "tr": "tren",
+          "fr": "пойыз",
+          "ex": "Tren istasyonu nerede?",
+          "exFr": "Вокзал қайда?"
+        },
+        {
+          "tr": "uçak",
+          "fr": "ұшақ",
+          "ex": "Uçakla iki saatte vardık.",
+          "exFr": "Ұшақпен екі сағатта жеттік."
+        },
+        {
+          "tr": "gemi",
+          "fr": "кеме",
+          "ex": "Gemi limana yanaştı.",
+          "exFr": "Кеме айлаққа тоқтады."
+        },
+        {
+          "tr": "vapur",
+          "fr": "паром",
+          "ex": "Vapurla karşıya geçtim.",
+          "exFr": "Пароммен арғы бетке өттім."
+        },
+        {
+          "tr": "araba",
+          "fr": "автомобиль",
+          "ex": "Arabam bozuldu.",
+          "exFr": "Автомобилім бұзылып қалды."
+        },
+        {
+          "tr": "bisiklet",
+          "fr": "велосипед",
+          "ex": "Bisikletle işe gidiyorum.",
+          "exFr": "Жұмысқа велосипедпен барамын."
+        },
+        {
+          "tr": "taksi",
+          "fr": "такси",
+          "ex": "Taksi çağırdım.",
+          "exFr": "Такси шақырдым."
+        },
+        {
+          "tr": "metro",
+          "fr": "метро",
+          "ex": "Metro çok hızlı ve ucuz.",
+          "exFr": "Метро өте жылдам әрі арзан."
+        },
+        {
+          "tr": "dolmuş",
+          "fr": "маршруттық такси",
+          "ex": "Dolmuşla gidebilirsin.",
+          "exFr": "Ол жаққа маршруттық таксимен бара аласың."
+        },
+        {
+          "tr": "istasyon",
+          "fr": "вокзал, станция",
+          "ex": "İstasyonda seni bekleyeceğim.",
+          "exFr": "Сені станцияда күтемін."
+        },
+        {
+          "tr": "havalimanı",
+          "fr": "әуежай",
+          "ex": "Havalimanına erken git.",
+          "exFr": "Әуежайға ерте бар."
+        },
+        {
+          "tr": "bilet",
+          "fr": "билет",
+          "ex": "İki bilet almak istiyorum.",
+          "exFr": "Екі билет алғым келеді."
+        },
+        {
+          "tr": "valiz",
+          "fr": "чемодан",
+          "ex": "Valizimi hazırladım.",
+          "exFr": "Чемоданымды дайындадым."
+        },
+        {
+          "tr": "pasaport",
+          "fr": "паспорт",
+          "ex": "Pasaportunuz hazır mı?",
+          "exFr": "Паспортыңыз дайын ба?"
+        },
+        {
+          "tr": "seyahat",
+          "fr": "саяхат",
+          "ex": "Seyahat etmeyi seviyorum.",
+          "exFr": "Саяхаттауды ұнатамын."
+        },
+        {
+          "tr": "gitmek",
+          "fr": "бару, кету",
+          "ex": "Nereye gidiyorsun?",
+          "exFr": "Қайда бара жатырсың?"
+        },
+        {
+          "tr": "gelmek",
+          "fr": "келу",
+          "ex": "Yarın geliyorum.",
+          "exFr": "Ертең келемін."
+        },
+        {
+          "tr": "dönmek",
+          "fr": "қайту, оралу",
+          "ex": "Eve döndüm.",
+          "exFr": "Үйге қайттым."
+        },
+        {
+          "tr": "binmek",
+          "fr": "міну",
+          "ex": "Otobüse bindim.",
+          "exFr": "Автобусқа міндім."
+        },
+        {
+          "tr": "inmek",
+          "fr": "түсу",
+          "ex": "Bir sonraki durakta ineceğim.",
+          "exFr": "Келесі аялдамада түсемін."
+        },
+        {
+          "tr": "durak",
+          "fr": "аялдама",
+          "ex": "Durakta bekliyorum.",
+          "exFr": "Аялдамада күтіп тұрмын."
+        },
+        {
+          "tr": "yol",
+          "fr": "жол",
+          "ex": "Yolu kaybettim.",
+          "exFr": "Жолымнан адасып кеттім."
+        },
+        {
+          "tr": "trafik",
+          "fr": "көлік қозғалысы",
+          "ex": "Trafik çok yoğun.",
+          "exFr": "Көлік қозғалысы өте қарқынды."
+        }
+      ]
+    }
+  ]
+}

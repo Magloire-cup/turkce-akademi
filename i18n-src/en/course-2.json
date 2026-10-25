@@ -1,0 +1,1017 @@
+{
+  "domain": "course",
+  "fields": "title, subtitle, objectifs, blocks, dialogue.title, dialogue.lines[].fr, vocab[].fr, quiz.q/opts/exp",
+  "start": 4,
+  "end": 8,
+  "items": [
+    {
+      "id": "m5",
+      "num": 5,
+      "level": "A2",
+      "title": "Agglutination & the plural",
+      "subtitle": "Building words like Lego bricks",
+      "objectifs": [
+        "Understand the logic of chained suffixes",
+        "Form the plural",
+        "Know the order of suffixes"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Turkish is an <b>agglutinative</b> language: instead of separate words (of, to, my, your…), you <b>glue</b> bricks of meaning onto the end of a word. A single Turkish word can be a whole sentence. The classic example:"
+        },
+        {
+          "t": "table",
+          "caption": "Anatomy of a word",
+          "head": [
+            "Brick",
+            "Meaning",
+            "Running total"
+          ],
+          "rows": [
+            [
+              "<tur>ev</tur>",
+              "house",
+              "the house"
+            ],
+            [
+              "<tur>ev-ler</tur>",
+              "+ plural",
+              "the houses"
+            ],
+            [
+              "<tur>ev-ler-im</tur>",
+              "+ my",
+              "my houses"
+            ],
+            [
+              "<tur>ev-ler-im-de</tur>",
+              "+ in",
+              "in my houses"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Four bricks, zero function words. It is exactly the same principle as French « ardoise-s »… but generalised to everything: possession, case, tense, person."
+        },
+        {
+          "t": "h",
+          "text": "The plural: -ler / -lar"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "kitap → kitaplar",
+              "fr": "book → books"
+            },
+            {
+              "tr": "şehir → şehirler",
+              "fr": "city → cities"
+            },
+            {
+              "tr": "çocuk → çocuklar",
+              "fr": "child → children"
+            },
+            {
+              "tr": "kadın → kadınlar",
+              "fr": "woman → women"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "warn",
+          "tag": "Trap",
+          "text": "After a number, the noun stays <b>singular</b>: <tur>üç elma</tur> (three apples), never « üç elmalar ». You can make the quantity explicit with <tur>tane</tur>: <tur>üç tane elma</tur> (three apples, literally « three pieces of apple »)."
+        },
+        {
+          "t": "h",
+          "text": "The order of the bricks"
+        },
+        {
+          "t": "p",
+          "text": "Suffixes always arrive in the same order, like a recipe: <b>1.</b> plural → <b>2.</b> possessive → <b>3.</b> case. So <tur>evlerimde</tur> = ev-ler-im-de. Reversing the order is impossible."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "evlerde",
+              "fr": "in the houses (plural + locative)"
+            },
+            {
+              "tr": "evimde",
+              "fr": "in my house (possessive + locative)"
+            },
+            {
+              "tr": "evlerimde",
+              "fr": "in my houses (plural + possessive + locative)"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "This mechanism moves from the <b>most general to the most specific</b>: the basic object, then quantity, then the possessor, then the role in the sentence."
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Two linked nouns",
+          "text": "The <b>genitive</b> (<tur>-in</tur>) links two nouns: it goes on the <b>possessor</b>, and the <b>possessive</b> goes on the thing possessed. <tur>evin kapısı</tur> = the door of the house (<tur>ev-in</tur> + <tur>kapı-sı</tur>). The genitive closes the first word; it does not slot into the internal order of the second."
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Marker",
+          "text": "When you see a long Turkish word, don't panic: peel it from the right. Look for -ler/-lar (plural), then a suffix you know. The « onion-peeling » reading makes 90% of long words transparent."
+        }
+      ],
+      "dialogue": {
+        "title": "At the market",
+        "lines": [
+          {
+            "name": "Magloire",
+            "tr": "Merhaba! Üç tane elma ve iki ekmek, lütfen.",
+            "fr": "Hello! Three apples and two loaves of bread, please."
+          },
+          {
+            "name": "Esnaf",
+            "tr": "Buyurun. Başka bir şey ister misiniz?",
+            "fr": "Here you go. Would you like anything else?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Domatesler güzel mi?",
+            "fr": "Are the tomatoes good?"
+          },
+          {
+            "name": "Esnaf",
+            "tr": "Çok taze! Sabah geldiler.",
+            "fr": "Very fresh! They arrived this morning."
+          },
+          {
+            "name": "Magloire",
+            "tr": "O zaman beş tane domates de alın.",
+            "fr": "Then I'll take five tomatoes as well."
+          },
+          {
+            "name": "Esnaf",
+            "tr": "Hepsi yirmi lira. Afiyet olsun!",
+            "fr": "That comes to twenty lira in total. Enjoy your meal!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "tane",
+          "fr": "piece (counter)"
+        },
+        {
+          "tr": "başka",
+          "fr": "other"
+        },
+        {
+          "tr": "taze",
+          "fr": "fresh"
+        },
+        {
+          "tr": "sabah",
+          "fr": "morning"
+        },
+        {
+          "tr": "hepsi",
+          "fr": "all, the whole lot"
+        },
+        {
+          "tr": "market / pazar",
+          "fr": "supermarket / market"
+        },
+        {
+          "tr": "almak",
+          "fr": "to take, to buy"
+        },
+        {
+          "tr": "istemek",
+          "fr": "to want"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "What does « evlerimde » mean?",
+          "opts": [
+            "my houses",
+            "in my houses",
+            "your house",
+            "the distant houses"
+          ],
+          "a": 1,
+          "exp": "ev-ler-im-de: house + plural + my + in = in my houses."
+        },
+        {
+          "q": "« in my house » is…",
+          "opts": [
+            "evlerde",
+            "evimde",
+            "evlerimde",
+            "evim"
+          ],
+          "a": 1,
+          "exp": "ev-im-de: house + my + in. Without the plural, evlerimde would mean « in my houses »."
+        },
+        {
+          "q": "« şehir » (city) in the plural?",
+          "opts": [
+            "şehirler",
+            "şıhırlar",
+            "şehirlar",
+            "şehirlor"
+          ],
+          "a": 0,
+          "exp": "i (front vowel) → -ler: şehirler."
+        },
+        {
+          "q": "After a number (e.g. üç elma), the noun is…",
+          "opts": [
+            "always plural",
+            "singular",
+            "in the dual",
+            "in the locative case"
+          ],
+          "a": 1,
+          "exp": "üç elma, beş kitap: the number is enough, no plural after a numeral."
+        },
+        {
+          "q": "The correct order of suffixes is…",
+          "opts": [
+            "case → plural → possessive",
+            "possessive → case → plural",
+            "plural → possessive → case",
+            "it doesn't matter"
+          ],
+          "a": 2,
+          "exp": "Always: plural → possessive → case (ev-ler-im-de)."
+        },
+        {
+          "q": "« çocuk » (child) in the plural?",
+          "opts": [
+            "çocukler",
+            "çocuklar",
+            "çocuklir",
+            "çocuklor"
+          ],
+          "a": 1,
+          "exp": "u/o = back vowels → -lar: çocuklar."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "num": 6,
+      "level": "A2",
+      "title": "Family & possession",
+      "subtitle": "My, your, his/her: suffixes again",
+      "objectifs": [
+        "Introduce the members of your family",
+        "Express possession with suffixes",
+        "Ask « whose? » and « what is it? »"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In French, possession uses separate words (mon, ta, ses…). In Turkish, it uses <b>suffixes</b> attached to the possessed noun, harmonised of course."
+        },
+        {
+          "t": "table",
+          "caption": "Possessive suffixes",
+          "head": [
+            "Person",
+            "Suffix",
+            "Example with « anne » (mother)",
+            "Translation"
+          ],
+          "rows": [
+            [
+              "1st sg (my)",
+              "-im",
+              "<tur>annem</tur>",
+              "my mother"
+            ],
+            [
+              "2nd sg (your)",
+              "-in",
+              "<tur>annen</tur>",
+              "your mother"
+            ],
+            [
+              "3rd sg (his/her)",
+              "-i",
+              "<tur>annesi</tur>",
+              "his/her mother"
+            ],
+            [
+              "1st pl (our)",
+              "-imiz",
+              "<tur>annemiz</tur>",
+              "our mother"
+            ],
+            [
+              "2nd pl (your)",
+              "-iniz",
+              "<tur>anneniz</tur>",
+              "your mother"
+            ],
+            [
+              "3rd pl (their)",
+              "-leri",
+              "<tur>anneleri</tur>",
+              "their mother"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "warn",
+          "tag": "Buffer n",
+          "text": "If the word ends in a vowel, a buffer <b>n</b> comes in between for the third person: <tur>araba</tur> (car) → araba<b>sı</b> (his/her car), <tur>oda</b> → oda<b>sı</b> (his/her room). For the other persons we use y: araba<b>m</b>… no: araba + -m → araba<b>m</b> (my car, directly), oda<b>m</b>. Above all, remember the third-person <b>-sı/-si</b>, which is very frequent."
+        },
+        {
+          "t": "h",
+          "text": "Introducing your family"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ailem büyük.",
+              "fr": "My family is large."
+            },
+            {
+              "tr": "İki kardeşim var.",
+              "fr": "I have two siblings."
+            },
+            {
+              "tr": "Annem öğretmen, babam mühendis.",
+              "fr": "My mother is a teacher, my father an engineer."
+            },
+            {
+              "tr": "Ablam İzmir'de yaşıyor.",
+              "fr": "My older sister lives in Izmir."
+            },
+            {
+              "tr": "Bu kim? : Bu ablam.",
+              "fr": "Who is that? : That's my older sister."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Turkish distinguishes family members precisely: <tur>abla</tur> = older sister, <tur>abi</tur> = older brother, <tur>kız kardeş</tur> = younger sister, <tur>erkek kardeş</tur> = younger brother. And « abla/abi » are also used politely for older strangers!"
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Note",
+          "text": "To say « my mother's first name », you use the genitive: <tur>annemin adı</tur> (annem-in ad-ı) = literally « my-mother's her-name ». Two suffixes in a row: Turkish possession is <b>reflexive</b>: the possessed noun also carries the mark of its possessor."
+        }
+      ],
+      "dialogue": {
+        "title": "Family photos",
+        "lines": [
+          {
+            "name": "Elif",
+            "tr": "Bu fotoğrafa bak! Ailem bu.",
+            "fr": "Look at this photo! That's my family."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Çok güzel! Bu kim?",
+            "fr": "Very nice! Who is that?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Bu ablam. Adı Zeynep.",
+            "fr": "That's my older sister. Her name is Zeynep."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Peki bu? Çocuk çok tatlı.",
+            "fr": "And this one? The child is very cute."
+          },
+          {
+            "name": "Elif",
+            "tr": "Yeğenim! Ablamın oğlu.",
+            "fr": "My nephew! My older sister's son."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Kaç yaşında?",
+            "fr": "How old is he?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Beş yaşında. Çok yaramaz!",
+            "fr": "Five. Very naughty!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "aile",
+          "fr": "family"
+        },
+        {
+          "tr": "anne / baba",
+          "fr": "mother / father"
+        },
+        {
+          "tr": "abla / abi",
+          "fr": "older sister / older brother"
+        },
+        {
+          "tr": "kardeş",
+          "fr": "brother or sister"
+        },
+        {
+          "tr": "dede / nine",
+          "fr": "grandfather / grandmother"
+        },
+        {
+          "tr": "yeğen",
+          "fr": "nephew or niece"
+        },
+        {
+          "tr": "oğul / kız",
+          "fr": "son / daughter"
+        },
+        {
+          "tr": "fotoğraf",
+          "fr": "photo"
+        },
+        {
+          "tr": "tatlı",
+          "fr": "cute, sweet"
+        },
+        {
+          "tr": "yaramaz",
+          "fr": "naughty, boisterous"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« annem » means…",
+          "opts": [
+            "his/her mother",
+            "my mother",
+            "your mother",
+            "their mothers"
+          ],
+          "a": 1,
+          "exp": "anne + -m (1st person) = my mother."
+        },
+        {
+          "q": "« babası » = ?",
+          "opts": [
+            "my father",
+            "your father",
+            "his/her father",
+            "our fathers"
+          ],
+          "a": 2,
+          "exp": "baba + -sı (3rd person) = his/her/their father."
+        },
+        {
+          "q": "« araba » (car) → « his/her car »?",
+          "opts": [
+            "arabai",
+            "arabaı",
+            "arabası",
+            "arabasıı"
+          ],
+          "a": 2,
+          "exp": "After a vowel, buffer n + -ı/-i: araba-sı."
+        },
+        {
+          "q": "« ablamın oğlu » means…",
+          "opts": [
+            "my older sister's son",
+            "my older brother",
+            "my son's brother",
+            "my nephew on my brother's side"
+          ],
+          "a": 0,
+          "exp": "abla-m-ın (of my older sister) + oğul→oğlu (her son). The possessed noun carries both marks."
+        },
+        {
+          "q": "Who is « yeğenim »?",
+          "opts": [
+            "my uncle",
+            "my cousin",
+            "my nephew/niece",
+            "my father-in-law"
+          ],
+          "a": 2,
+          "exp": "yeğen = nephew/niece (the son or daughter of a brother or sister)."
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "num": 7,
+      "level": "A2",
+      "title": "Var / yok: « to have » the Turkish way",
+      "subtitle": "« There is » and « I don't have » without a verb",
+      "objectifs": [
+        "Express possession (I have / I don't have)",
+        "Say what there is (or isn't) somewhere",
+        "Ask the question « is there…? »"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Second big surprise: Turkish has no verb <b>« to have »</b>. You say literally « to me, it exists » or « to me, it does not exist », using two invariable words: <tur>var</tur> (there is / existing) and <tur>yok</tur> (there isn't / non-existent)."
+        },
+        {
+          "t": "table",
+          "caption": "Possession with var / yok",
+          "head": [
+            "Turkish",
+            "Literally",
+            "English"
+          ],
+          "rows": [
+            [
+              "<tur>Param var.</tur>",
+              "my money exists",
+              "I have money."
+            ],
+            [
+              "<tur>Param yok.</tur>",
+              "my money does not exist",
+              "I don't have any money."
+            ],
+            [
+              "<tur>İki kardeşim var.</tur>",
+              "my two siblings exist",
+              "I have two siblings."
+            ],
+            [
+              "<tur>Zamanımız yok.</tur>",
+              "our time does not exist",
+              "We don't have time."
+            ],
+            [
+              "<tur>Bir sorunumuz var.</tur>",
+              "one problem of ours exists",
+              "We have a problem."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The structure: <b>possessor (with possessive suffix) + var/yok</b>. The « to me » complement can also appear at the start with the genitive: <tur>Benim bir arabam var</tur> (as for me, I have a car): the full form, but not obligatory."
+        },
+        {
+          "t": "h",
+          "text": "« There is » in a place"
+        },
+        {
+          "t": "p",
+          "text": "Same pair, different use: <b>place + var/yok</b> = there is / there isn't. The place goes in the <b>locative</b> (-de/-da), which you will study in depth in module 10."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Odada bir yatak var.",
+              "fr": "There is a bed in the room."
+            },
+            {
+              "tr": "Mutfakta ekmek yok.",
+              "fr": "There is no bread in the kitchen."
+            },
+            {
+              "tr": "Cüzdanımda para yok.",
+              "fr": "I don't have any money in my wallet."
+            },
+            {
+              "tr": "Buzdolabında iki bira var.",
+              "fr": "There are two beers in the fridge."
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "The question: var mı? yok mu?"
+        },
+        {
+          "t": "p",
+          "text": "You add the particle <tur>mi</tur>: <tur>Kahve var mı?</tur> (is there coffee?), <tur>Para yok mu?</tur> (isn't there any money?). The short answer is very simple: <tur>Var.</tur> / <tur>Yok.</tur>"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Culture",
+          "text": "<tur>Yok</tur> is a deeply Turkish word: you hear it all day long. A shopkeeper: « Coca-Cola var mı? » : « Yok, maalesef. » It also expresses total absence and serves as a familiar negative answer (« no, nothing »)."
+        }
+      ],
+      "dialogue": {
+        "title": "Arriving at the hotel",
+        "lines": [
+          {
+            "name": "Magloire",
+            "tr": "Merhaba, bir rezervasyonum var.",
+            "fr": "Hello, I have a reservation."
+          },
+          {
+            "name": "Resepsiyon",
+            "tr": "Hoş geldiniz. Odanız 305. Buyurun.",
+            "fr": "Welcome. Your room is 305. Here is the key."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Odada klima var mı?",
+            "fr": "Is there air conditioning in the room?"
+          },
+          {
+            "name": "Resepsiyon",
+            "tr": "Evet, var. Wi-Fi de var.",
+            "fr": "Yes, there is. There's Wi-Fi too."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Peki balkon var mı?",
+            "fr": "And is there a balcony?"
+          },
+          {
+            "name": "Resepsiyon",
+            "tr": "Maalesef balkon yok, ama deniz manzarası var.",
+            "fr": "Unfortunately no balcony, but there is a sea view."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Çok iyi, teşekkür ederim!",
+            "fr": "Very good, thank you!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "var",
+          "fr": "there is, I have"
+        },
+        {
+          "tr": "yok",
+          "fr": "there isn't, I don't have"
+        },
+        {
+          "tr": "oda",
+          "fr": "room"
+        },
+        {
+          "tr": "otel",
+          "fr": "hotel"
+        },
+        {
+          "tr": "kat",
+          "fr": "floor"
+        },
+        {
+          "tr": "manzara",
+          "fr": "view, scenery"
+        },
+        {
+          "tr": "buzdolabı",
+          "fr": "fridge"
+        },
+        {
+          "tr": "para",
+          "fr": "money"
+        },
+        {
+          "tr": "zaman",
+          "fr": "time"
+        },
+        {
+          "tr": "sorun",
+          "fr": "problem"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« Param yok » means…",
+          "opts": [
+            "I have money",
+            "I don't have any money",
+            "It's expensive",
+            "There is money here"
+          ],
+          "a": 1,
+          "exp": "param (my money) + yok (doesn't exist) = I don't have any money."
+        },
+        {
+          "q": "How do you ask « is there tea? »",
+          "opts": [
+            "Çay var mı?",
+            "Çay mı var?",
+            "Çay yok mu?",
+            "Var çay?"
+          ],
+          "a": 0,
+          "exp": "Çay var mı?: the question particle mi comes directly after var."
+        },
+        {
+          "q": "« Odada bir yatak var »: where is the bed?",
+          "opts": [
+            "under the room",
+            "in the room",
+            "next to the room",
+            "outside the room"
+          ],
+          "a": 1,
+          "exp": "oda-da = in the room (locative suffix -da)."
+        },
+        {
+          "q": "To say « we have a problem »…",
+          "opts": [
+            "Biz problem var",
+            "Bir sorunumuz var",
+            "Sorun biz var",
+            "Var sorunumuz biz"
+          ],
+          "a": 1,
+          "exp": "sorun-umuz (our problem) + var: bir sorunumuz var."
+        },
+        {
+          "q": "« Buzdolabında bira yok » means…",
+          "opts": [
+            "There is beer in the fridge",
+            "The fridge is empty of beer",
+            "The beer is cold",
+            "There is no fridge"
+          ],
+          "a": 1,
+          "exp": "In the fridge (buzdolabı-nda), beer does not exist: there is no beer in the fridge."
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "num": 8,
+      "level": "A2",
+      "title": "The present continuous: -iyor",
+      "subtitle": "What you are doing right now",
+      "objectifs": [
+        "Conjugate verbs in the present",
+        "Form the negative",
+        "Ask « what are you doing? »"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The present tense is called <b>şimdiki zaman</b> (the tense of now). Its central brick: <b>-iyor</b>, inserted between the verb root and the personal ending. Pattern: <b>root + -iyor + person</b>."
+        },
+        {
+          "t": "table",
+          "caption": "Conjugation of « yapmak » (to do)",
+          "head": [
+            "Person",
+            "Turkish",
+            "Translation"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>yapıyorum</tur>",
+              "I am doing"
+            ],
+            [
+              "sen",
+              "<tur>yapıyorsun</tur>",
+              "you are doing"
+            ],
+            [
+              "o",
+              "<tur>yapıyor</tur>",
+              "he/she is doing"
+            ],
+            [
+              "biz",
+              "<tur>yapıyoruz</tur>",
+              "we are doing"
+            ],
+            [
+              "siz",
+              "<tur>yapıyorsunuz</tur>",
+              "you are doing"
+            ],
+            [
+              "onlar",
+              "<tur>yapıyorlar</tur>",
+              "they are doing"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the mechanism: yap- (root) + -ıyor (present) + -um (I). The vowel of <b>-iyor</b> harmonises with the root: <tur>geliyorum</tur> (I am coming), <tur>bakıyorum</tur> (I am looking), <tur>sürüyor</tur>… but the endings (-um, -sun, Ø, -uz, -sunuz, -lar) stay stable."
+        },
+        {
+          "t": "h",
+          "text": "The negative: -miyor"
+        },
+        {
+          "t": "p",
+          "text": "You slip <b>-me/-ma</b> in just before -iyor: <tur>yapmıyorum</tur> (I am not doing), <tur>gelmiyor</tur> (he/she is not coming), <tur>sevmiyorum</tur> (I don't like it). Easy to spot: the little <b>m</b> that crosses out the verb."
+        },
+        {
+          "t": "h",
+          "text": "Uses"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Action in progress: <tur>Şimdi ders çalışıyorum.</tur> (I'm studying right now)",
+            "Habit: <tur>Her sabah kahve içerim</tur>… in the simple present: but in speech, <tur>Her sabah kahve içiyorum</tur> (I drink coffee every morning) is very common.",
+            "Long-lasting states: <tur>İstanbul'da yaşıyorum.</tur> (I live in Istanbul)"
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ne yapıyorsun?",
+              "fr": "What are you doing?"
+            },
+            {
+              "tr": "Kitap okuyorum.",
+              "fr": "I am reading a book."
+            },
+            {
+              "tr": "Nereye gidiyorsun?",
+              "fr": "Where are you going?"
+            },
+            {
+              "tr": "Eve gidiyorum.",
+              "fr": "I am going home."
+            },
+            {
+              "tr": "Türkçe öğreniyorum.",
+              "fr": "I am learning Turkish."
+            },
+            {
+              "tr": "Seni seviyorum.",
+              "fr": "I love you."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Pronunciation",
+          "text": "Watch the <b>y</b> in -iyor after a vowel: oku<b>y</b>orum (I am reading), bekle<b>y</b>or (he/she is waiting). This y is a real sound, not an ornament."
+        }
+      ],
+      "dialogue": {
+        "title": "Phone call",
+        "lines": [
+          {
+            "name": "Elif",
+            "tr": "Alo, Magloire? Ne yapıyorsun?",
+            "fr": "Hello, Magloire? What are you doing?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Şimdi yemek yapıyorum. Sen?",
+            "fr": "I'm cooking. And you?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Ben müzik dinliyorum. Yarın sinemaya gidiyoruz, geliyor musun?",
+            "fr": "I'm listening to music. Tomorrow we're going to the cinema, are you coming?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Ne seyrediyorsunuz?",
+            "fr": "What are you watching (as a film)?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Yeni Türk filmini. Çok komikmiş!",
+            "fr": "The new Turkish film. It's supposed to be very funny!"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Olur, geliyorum! Saat kaçta buluşuyorsunuz?",
+            "fr": "That works, I'm coming! What time are you meeting?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Yedide, sinema önünde.",
+            "fr": "At seven, in front of the cinema."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "yapmak",
+          "fr": "to do, to make"
+        },
+        {
+          "tr": "okumak",
+          "fr": "to read, to study"
+        },
+        {
+          "tr": "beklemek",
+          "fr": "to wait"
+        },
+        {
+          "tr": "seyretmek",
+          "fr": "to watch (a film, TV)"
+        },
+        {
+          "tr": "dinlemek",
+          "fr": "to listen"
+        },
+        {
+          "tr": "gelmek / gitmek",
+          "fr": "to come / to go"
+        },
+        {
+          "tr": "buluşmak",
+          "fr": "to meet up"
+        },
+        {
+          "tr": "şimdi",
+          "fr": "now"
+        },
+        {
+          "tr": "seyir",
+          "fr": "watching, viewing"
+        },
+        {
+          "tr": "alo",
+          "fr": "hello (on the phone)"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« geliyorum » means…",
+          "opts": [
+            "I am leaving",
+            "I am coming",
+            "he is coming",
+            "I will come"
+          ],
+          "a": 1,
+          "exp": "gel (root of to come) + -iyor + -um: I am coming."
+        },
+        {
+          "q": "Complete: « Ben bak… » (I am looking)",
+          "opts": [
+            "-ıyorum",
+            "-iyorum",
+            "-uyorum",
+            "-üyorum"
+          ],
+          "a": 0,
+          "exp": "bak- contains a (back vowel) → bakıyorum."
+        },
+        {
+          "q": "« yapmıyorum » means…",
+          "opts": [
+            "I am doing",
+            "I am not doing",
+            "you are not doing",
+            "I am mis-doing"
+          ],
+          "a": 1,
+          "exp": "The negative -me/-ma slips in between: yap-mı-yorum."
+        },
+        {
+          "q": "« Ne yapıyorsun? »: what do you answer if you are reading?",
+          "opts": [
+            "Kitap okuyorum",
+            "Kitap okumuyorum",
+            "Kitap yapıyorum",
+            "Kitabım var"
+          ],
+          "a": 0,
+          "exp": "oku (to read) + -yorum: kitap okuyorum = I am reading a book."
+        },
+        {
+          "q": "How do you say « I live in Istanbul »?",
+          "opts": [
+            "İstanbul'da oturuyorum",
+            "İstanbul yaşıyorum var",
+            "İstanbul'da varım",
+            "İstanbul yaşamak"
+          ],
+          "a": 0,
+          "exp": "Two possible verbs: yaşamak or oturmak, with -da (locative): İstanbul'da yaşıyorum / oturuyorum."
+        }
+      ]
+    }
+  ]
+}

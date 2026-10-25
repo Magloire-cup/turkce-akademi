@@ -1,0 +1,474 @@
+{
+  "domain": "grammar",
+  "fields": "title, blocks",
+  "start": 8,
+  "end": 16,
+  "items": [
+    {
+      "id": "varyok",
+      "title": "Var / yok: possession & existence",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "There is no verb to have: <tur>var</tur> (there is) and <tur>yok</tur> (there is not), invariable, go at the end of the sentence."
+        },
+        {
+          "t": "table",
+          "caption": "Structures",
+          "head": [
+            "Structure",
+            "Example",
+            "English"
+          ],
+          "rows": [
+            [
+              "possessed noun + possessive + var",
+              "<tur>Arabam var.</tur>",
+              "I have a car."
+            ],
+            [
+              "possessed noun + possessive + yok",
+              "<tur>Zamanım yok.</tur>",
+              "I don't have time."
+            ],
+            [
+              "place + locative + var/yok",
+              "<tur>Buzdolabında süt yok.</tur>",
+              "There is no milk in the fridge."
+            ],
+            [
+              "question",
+              "<tur>Sigara var mı?</tur>",
+              "Are there any cigarettes?"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bir sorunum var.",
+              "fr": "I have a problem."
+            },
+            {
+              "tr": "Param yok, ama hayalim var.",
+              "fr": "I have no money, but I have a dream."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "title": "The present continuous: -iyor",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Root + <b>-iyor</b> + person. The vowel of -iyor follows vowel harmony (i/ı/ü/u); the personal endings do not."
+        },
+        {
+          "t": "table",
+          "caption": "Full conjugation (gelmek, to come)",
+          "head": [
+            "Person",
+            "Turkish",
+            "English"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geliyorum</tur>",
+              "I come"
+            ],
+            [
+              "sen",
+              "<tur>geliyorsun</tur>",
+              "you come"
+            ],
+            [
+              "o",
+              "<tur>geliyor</tur>",
+              "he/she comes"
+            ],
+            [
+              "biz",
+              "<tur>geliyoruz</tur>",
+              "we come"
+            ],
+            [
+              "siz",
+              "<tur>geliyorsunuz</tur>",
+              "you come (polite/plural)"
+            ],
+            [
+              "onlar",
+              "<tur>geliyorlar</tur>",
+              "they come"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Negative: -me/-ma slots in (gel<b>mi</b>yorum). After a vowel, a y appears: oku<b>y</b>orum (I read), bekle<b>y</b>or (he waits)."
+        },
+        {
+          "t": "p",
+          "text": "This tense covers the action in progress <b>and</b> the lasting state: <tur>İstanbul'da yaşıyorum</tur> (I live in Istanbul), <tur>Türkçe öğreniyorum</tur> (I am learning Turkish)."
+        }
+      ]
+    },
+    {
+      "id": "negation",
+      "title": "Negation",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Three tools of negation",
+          "head": [
+            "Context",
+            "Tool",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Noun / adjective",
+              "<tur>değil</tur>",
+              "<tur>Hasta değilim.</tur> (I am not ill)"
+            ],
+            [
+              "Verb",
+              "<b>-me/-ma</b> before the tense",
+              "<tur>gelmedim</tur> (I did not come)"
+            ],
+            [
+              "Existence / possession",
+              "<tur>yok</tur>",
+              "<tur>Param yok.</tur> (I have no money)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The word <tur>hayır</tur> (no) answers a question; <tur>değil</tur>, -me and yok negate <b>inside</b> the sentence. For « not either »: <tur>ben de değilim</tur> / <tur>ben de gelmedim</tur>."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Kahve istemiyorum.",
+              "fr": "I don't want any coffee."
+            },
+            {
+              "tr": "Bu kitap benim değil.",
+              "fr": "This book isn't mine."
+            },
+            {
+              "tr": "Hiç sevmiyorum.",
+              "fr": "I don't like it at all."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question: mi / mı / mu / mü",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "A <b>separate</b> question particle, placed right after the word in question and harmonised with the preceding vowel. After verb forms ending in a vowel, it takes the personal endings: <tur>geldin mi?</tur>, <tur>geliyor musun?</tur>, <tur>gelecek misin?</tur>"
+        },
+        {
+          "t": "table",
+          "caption": "Choosing the variant",
+          "head": [
+            "Last vowel before mi",
+            "Particle",
+            "Example"
+          ],
+          "rows": [
+            [
+              "e, i",
+              "mi",
+              "<tur>güzel mi?</tur>"
+            ],
+            [
+              "a, ı",
+              "mı",
+              "<tur>var mı?</tur>"
+            ],
+            [
+              "ö, ü",
+              "mü",
+              "<tur>Türk müsün?</tur>"
+            ],
+            [
+              "o, u",
+              "mu",
+              "<tur>yoruldu mu?</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Question words (ne, kim, nerede, nasıl, kaç, hangi…) do NOT take mi: <tur>Adın ne?</tur>, never « Adın ne mi? »."
+        }
+      ]
+    },
+    {
+      "id": "alternances",
+      "title": "Consonant alternations",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Final consonants « breathe »: they harden or soften depending on what follows. Three phenomena to know."
+        },
+        {
+          "t": "table",
+          "caption": "The three alternations",
+          "head": [
+            "Phenomenon",
+            "Rule",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Hardening (voiceless)",
+              "d → t after p ç t k s ş f h",
+              "<tur>sokakta</tur>, <tur>işte</tur>"
+            ],
+            [
+              "Softening",
+              "final k → ğ before a vowel",
+              "<tur>yapacak → yapacağım</tur>, <tur>ayak → ayağı</tur>"
+            ],
+            [
+              "Voicing",
+              "p → b, ç → c, t → d before a vowel",
+              "<tur>kitap → kitabı</tur>, <tur>ağaç → ağacı</tur>, <tur>kanat → kanadı</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Read what you see",
+          "text": "The good news: these alternations are <b>written</b>, not hidden. By reading a lot, you memorise them like pictures of words."
+        }
+      ]
+    },
+    {
+      "id": "passe",
+      "title": "The past tenses: -di and -miş",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Witnessed past (-di): conjugation of gelmek",
+          "head": [
+            "Person",
+            "Turkish",
+            "English"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geldim</tur>",
+              "I came"
+            ],
+            [
+              "sen",
+              "<tur>geldin</tur>",
+              "you came"
+            ],
+            [
+              "o",
+              "<tur>geldi</tur>",
+              "he/she came"
+            ],
+            [
+              "biz",
+              "<tur>geldik</tur>",
+              "we came"
+            ],
+            [
+              "siz",
+              "<tur>geldiniz</tur>",
+              "you came (polite/plural)"
+            ],
+            [
+              "onlar",
+              "<tur>geldiler</tur>",
+              "they came"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The evidential/reported past <b>-miş</b> follows the same pattern (gelmişim, gelmişsin…) and encodes the <b>source of the information</b>: you did not witness it, someone told you; or you are discovering it with surprise."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Dün Ankara'ya gittim.",
+              "fr": "Yesterday I went to Ankara. (I know it, I was there)"
+            },
+            {
+              "tr": "Dün Ankara'ya gitmiş.",
+              "fr": "He supposedly went to Ankara yesterday. (I was told)"
+            },
+            {
+              "tr": "Ayşe evlenmiş!",
+              "fr": "Ayşe got married: who would have thought!"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Pluperfect",
+          "text": "By combining the two: <tur>gelmışti</tur> = he had come (miş + di). Turkish stacks tenses like bricks."
+        }
+      ]
+    },
+    {
+      "id": "futur",
+      "title": "The future: -ecek / -acak",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "Conjugation of gelmek in the future",
+          "head": [
+            "Person",
+            "Turkish",
+            "English"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleceğim</tur>",
+              "I will come"
+            ],
+            [
+              "sen",
+              "<tur>geleceksin</tur>",
+              "you will come"
+            ],
+            [
+              "o",
+              "<tur>gelecek</tur>",
+              "he/she will come"
+            ],
+            [
+              "biz",
+              "<tur>geleceğiz</tur>",
+              "we will come"
+            ],
+            [
+              "siz",
+              "<tur>geleceksiniz</tur>",
+              "you will come (polite/plural)"
+            ],
+            [
+              "onlar",
+              "<tur>gelecekler</tur>",
+              "they will come"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The k of -cek/-cak becomes ğ before the vowel of the personal endings: gelecek + im → gelece<b>ğ</b>im. Negative: gel<b>me</b>yeceğim. Question: gelecek misin?"
+        },
+        {
+          "t": "p",
+          "text": "To express an immediate intention, Turkish speakers often use the present: <tur>Şimdi gidiyorum</tur> (I am going now / right away)."
+        }
+      ]
+    },
+    {
+      "id": "postpositions",
+      "title": "Postpositions & connectors",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Turkish places its « prepositions » <b>after</b> the noun (hence their name: postpositions). Some attach to the word (-le/-la), others remain separate words."
+        },
+        {
+          "t": "table",
+          "caption": "The essentials",
+          "head": [
+            "Turkish",
+            "Meaning",
+            "Example",
+            "English"
+          ],
+          "rows": [
+            [
+              "<tur>-le / -la</tur> (= ile)",
+              "with, by means of",
+              "<tur>otobüsle</tur>",
+              "by bus"
+            ],
+            [
+              "<tur>için</tur>",
+              "for, in order to",
+              "<tur>senin için</tur>",
+              "for you"
+            ],
+            [
+              "<tur>gibi</tur>",
+              "like, as",
+              "<tur>kuş gibi</tur>",
+              "like a bird"
+            ],
+            [
+              "<tur>ile</tur>",
+              "with (noun)",
+              "<tur>arkadaşım ile</tur>",
+              "with my friend"
+            ],
+            [
+              "<tur>kadar</tur>",
+              "until, as much as",
+              "<tur>saat beşe kadar</tur>",
+              "until five o'clock"
+            ],
+            [
+              "<tur>önce / sonra</tur>",
+              "before / after",
+              "<tur>yemekten sonra</tur>",
+              "after the meal"
+            ],
+            [
+              "<tur>çünkü</tur>",
+              "because",
+              "<tur>yorgunum, çünkü…</tur>",
+              "I am tired because…"
+            ],
+            [
+              "<tur>ama / fakat</tur>",
+              "but",
+              "<tur>ama</tur>",
+              "but"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Word order",
+          "text": "Typical sentence: Subject-Object-Verb; the verb almost always closes the sentence: <tur>Ben yarın okula gideceğim.</tur> But the order remains flexible: it is the suffixes that carry the grammar, not the position."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,917 @@
+{
+  "domain": "parcours",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 14,
+  "end": 19,
+  "items": [
+    {
+      "id": "u15",
+      "num": 15,
+      "level": "B1",
+      "title": "Comparer et conseiller",
+      "goal": "Comparer avec daha, en et kadar, et utiliser les pronoms indéfinis.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le <b>comparatif</b> se forme avec <tur>daha</tur> (plus) devant l'adjectif : <tur>daha büyük</tur> (plus grand). Le complément de comparaison prend l'ablatif : <tur>Ali'den daha uzun</tur> (plus grand qu'Ali)."
+        },
+        {
+          "t": "table",
+          "caption": "Comparer",
+          "head": [
+            "Structure",
+            "Exemple",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "daha + adjectif",
+              "<tur>daha güzel</tur>",
+              "plus beau"
+            ],
+            [
+              "en + adjectif",
+              "<tur>en güzel</tur>",
+              "le plus beau"
+            ],
+            [
+              "kadar",
+              "<tur>senin kadar hızlı</tur>",
+              "aussi rapide que toi"
+            ],
+            [
+              "ablatif + daha",
+              "<tur>Ali'den daha uzun</tur>",
+              "plus grand qu'Ali"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Pour conseiller, on peut utiliser <tur>bence</tur> (à mon avis), <tur>-meli</tur> (tu devrais) ou <tur>istersen</tur> (si tu veux) : <tur>Bence dinlenmelisin.</tur> (À mon avis, tu devrais te reposer.), <tur>İstersen yardım edebilirim.</tur> (Si tu veux, je peux aider.)."
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Pronoms indéfinis",
+          "text": "<tur>herkes</tur> (tout le monde), <tur>kimse</tur> (personne), <tur>hiç kimse</tur> (absolument personne), <tur>bir şey</tur> (quelque chose), <tur>hiçbir şey</tur> (rien), <tur>her şey</tur> (tout), <tur>bazıları</tur> (certains)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bugün daha iyiyim.",
+              "fr": "Je vais mieux aujourd'hui."
+            },
+            {
+              "tr": "Bu, dünyanın en güzel şehri.",
+              "fr": "C'est la plus belle ville du monde."
+            },
+            {
+              "tr": "Benim kadar hızlı koşabilir misin?",
+              "fr": "Peux-tu courir aussi vite que moi ?"
+            },
+            {
+              "tr": "Herkes Türkçe öğrenebilir.",
+              "fr": "Tout le monde peut apprendre le turc."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Attention",
+          "text": "Après un adjectif comparatif, le complément se met à l'ablatif : <tur>benden daha genç</tur> (plus jeune que moi). Ne traduis pas « que » par un mot séparé."
+        }
+      ],
+      "vocab": [
+        [
+          "daha",
+          "plus"
+        ],
+        [
+          "en",
+          "le plus"
+        ],
+        [
+          "kadar",
+          "autant que"
+        ],
+        [
+          "herkes",
+          "tout le monde"
+        ],
+        [
+          "kimse",
+          "personne"
+        ],
+        [
+          "hiçbir",
+          "aucun"
+        ],
+        [
+          "bazı",
+          "certains"
+        ],
+        [
+          "bence",
+          "à mon avis"
+        ],
+        [
+          "hızlı",
+          "rapide"
+        ],
+        [
+          "genç",
+          "jeune"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « plus grand » ?",
+          "options": [
+            "daha büyük",
+            "en büyük",
+            "büyük kadar"
+          ],
+          "a": 0,
+          "why": "Le comparatif se forme avec daha : daha büyük."
+        },
+        {
+          "q": "Quel mot signifie « personne » ?",
+          "options": [
+            "kimse",
+            "herkes",
+            "bazıları"
+          ],
+          "a": 0,
+          "why": "Kimse signifie « personne » ; herkes signifie « tout le monde »."
+        }
+      ]
+    },
+    {
+      "id": "u16",
+      "num": 16,
+      "level": "B1",
+      "title": "Pouvoir, passif, causatif",
+      "goal": "Exprimer la capacité, former le passif et faire faire une action.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "La <b>capacité</b> se forme avec <b>-ebil / -abil</b> entre la racine et la terminaison : <tur>konuşabilirim</tur> (je peux parler). La forme négative est irrégulière : <tur>konuşamam</tur> (je ne peux pas parler)."
+        },
+        {
+          "t": "table",
+          "caption": "konuşmak (parler) : capacité",
+          "head": [
+            "Personne",
+            "Affirmatif",
+            "Négatif"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>konuşabilirim</tur>",
+              "<tur>konuşamam</tur>"
+            ],
+            [
+              "sen",
+              "<tur>konuşabilirsin</tur>",
+              "<tur>konuşamazsın</tur>"
+            ],
+            [
+              "o",
+              "<tur>konuşabilir</tur>",
+              "<tur>konuşamaz</tur>"
+            ],
+            [
+              "biz",
+              "<tur>konuşabiliriz</tur>",
+              "<tur>konuşamayız</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Le <b>passif</b> se marque avec <b>-il / -in / -n</b> : <tur>yazılmak</tur> (être écrit), <tur>açılmak</tur> (être ouvert), <tur>soyulmak</tur> (être cambriolé). Le <b>causatif</b> ajoute <b>-dir / -t / -ir</b> : <tur>yaptırmak</tur> (faire faire), <tur>kestirmek</tur> (faire couper)."
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Futur dans le passé",
+          "text": "<b>-ecekti / -acaktı</b> exprime une action qui était prévue dans le passé : <tur>Dün gelecektim ama işim çıktı.</tur> (Je devais venir hier, mais j'ai eu un imprévu.)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe konuşabiliyor musun? — Biraz konuşabiliyorum.",
+              "fr": "Sais-tu parler turc ? — Je sais un peu parler."
+            },
+            {
+              "tr": "Araba tamir edildi.",
+              "fr": "La voiture a été réparée."
+            },
+            {
+              "tr": "Saçımı kestirdim.",
+              "fr": "Je me suis fait couper les cheveux."
+            },
+            {
+              "tr": "Dün gelecektim ama işim çıktı.",
+              "fr": "Je devais venir hier, mais j'ai eu un imprévu."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Reconnaître",
+          "text": "Devant un verbe long, cherche les blocs : <tur>yap-tır-ıl-dı</tur> = faire faire + passif + passé : « cela a été fait faire ». Décompose de droite à gauche."
+        }
+      ],
+      "vocab": [
+        [
+          "konuşmak",
+          "parler"
+        ],
+        [
+          "tamir etmek",
+          "réparer"
+        ],
+        [
+          "kesmek",
+          "couper"
+        ],
+        [
+          "açmak",
+          "ouvrir"
+        ],
+        [
+          "yazmak",
+          "écrire"
+        ],
+        [
+          "soymak",
+          "cambrioler"
+        ],
+        [
+          "yaptırmak",
+          "faire faire"
+        ],
+        [
+          "kestirmek",
+          "faire couper"
+        ],
+        [
+          "tamir edilmek",
+          "être réparé"
+        ],
+        [
+          "çıkmak",
+          "sortir, survenir"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « Je peux parler » ?",
+          "options": [
+            "konuşabilirim",
+            "konuşamam",
+            "konuşuyorum"
+          ],
+          "a": 0,
+          "why": "La capacité affirmative se forme avec -abil : konuş- + -abil + -irim."
+        },
+        {
+          "q": "Que signifie « Kapı açıldı » ?",
+          "options": [
+            "La porte a été ouverte",
+            "J'ai ouvert la porte",
+            "La porte s'ouvrira"
+          ],
+          "a": 0,
+          "why": "Le passif -il transforme « ouvrir » en « être ouvert » : açıldı."
+        }
+      ]
+    },
+    {
+      "id": "u17",
+      "num": 17,
+      "level": "B1",
+      "title": "Passé continu et culture",
+      "goal": "Combiner les temps du passé, comprendre les proverbes et découvrir Atatürk.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Le <b>passé continu</b> (<tur>-yordu</tur>) décrit une action en cours dans le passé : <tur>geliyordum</tur> (j'étais en train de venir). Le <b>plus-que-parfait</b> (<tur>-mişti</tur>) marque une action antérieure à un autre moment passé : <tur>gelmiştim</tur> (j'étais déjà venu)."
+        },
+        {
+          "t": "table",
+          "caption": "Trois temps du passé avec gelmek",
+          "head": [
+            "Temps",
+            "Forme (ben)",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "Passé continu",
+              "<tur>geliyordum</tur>",
+              "j'étais en train de venir"
+            ],
+            [
+              "Plus-que-parfait",
+              "<tur>gelmiştim</tur>",
+              "j'étais déjà venu"
+            ],
+            [
+              "Habitude passée",
+              "<tur>gelirdim</tur>",
+              "je venais (souvent)"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Tam çıkıyorduk, yağmur yağmaya başladı.",
+              "fr": "Nous étions sur le point de sortir quand il a commencé à pleuvoir."
+            },
+            {
+              "tr": "O geldiğinde ben uyumuştum.",
+              "fr": "Quand il est arrivé, je m'étais déjà endormi."
+            },
+            {
+              "tr": "Küçükken her yaz denize giderdik.",
+              "fr": "Petits, nous allions à la mer chaque été."
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Proverbes et expressions"
+        },
+        {
+          "t": "table",
+          "caption": "Trois proverbes à connaître",
+          "head": [
+            "Proverbe",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "<tur>Damlaya damlaya göl olur.</tur>",
+              "Petit à petit, l'oiseau fait son nid."
+            ],
+            [
+              "<tur>Bir elin nesi var, iki elin sesi var.</tur>",
+              "L'union fait la force."
+            ],
+            [
+              "<tur>Acele işe şeytan karışır.</tur>",
+              "La précipitation nuit au travail."
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "caption": "Trois expressions imagées",
+          "head": [
+            "Expression",
+            "Mot à mot",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "<tur>Göz atmak</tur>",
+              "jeter un œil",
+              "jeter un coup d'œil"
+            ],
+            [
+              "<tur>Ağzı kulaklarında</tur>",
+              "sa bouche est à ses oreilles",
+              "être tout sourire"
+            ],
+            [
+              "<tur>Can kulağıyla dinlemek</tur>",
+              "écouter avec l'oreille de l'âme",
+              "écouter très attentivement"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<b>Mustafa Kemal Atatürk</b> (1881–1938) est le fondateur de la République de Turquie, proclamée en 1923. Il a engagé de grandes réformes : adoption de l'alphabet latin en 1928, développement de l'enseignement, droits politiques des femmes (éligibilité en 1934) et modernisation du pays. Son nom reste associé à la laïcité et à la souveraineté nationale."
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Presque au bout",
+          "text": "Tu viens de boucler les temps du passé. Deux unités concrètes t'attendent encore : chez le médecin et au téléphone."
+        }
+      ],
+      "vocab": [
+        [
+          "yağmur",
+          "pluie"
+        ],
+        [
+          "başlamak",
+          "commencer"
+        ],
+        [
+          "uyumak",
+          "dormir"
+        ],
+        [
+          "cumhuriyet",
+          "république"
+        ],
+        [
+          "kurmak",
+          "fonder"
+        ],
+        [
+          "reform",
+          "réforme"
+        ],
+        [
+          "harf",
+          "lettre"
+        ],
+        [
+          "acele",
+          "précipitation"
+        ],
+        [
+          "göl",
+          "lac"
+        ],
+        [
+          "el",
+          "main"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Quelle phrase signifie « nous étions en train de sortir » ?",
+          "options": [
+            "Çıkıyorduk",
+            "Çıktık",
+            "Çıkacağız"
+          ],
+          "a": 0,
+          "why": "Le passé continu -yordu exprime une action en cours : çıkıyorduk."
+        },
+        {
+          "q": "Que signifie « uyumuştum » ?",
+          "options": [
+            "Je m'étais endormi",
+            "Je dors",
+            "Je vais dormir"
+          ],
+          "a": 0,
+          "why": "-mişti est le plus-que-parfait : une action accomplie avant un autre moment passé."
+        }
+      ]
+    },
+    {
+      "id": "u18",
+      "num": 18,
+      "level": "B1",
+      "title": "Chez le médecin",
+      "goal": "Décrire ses symptômes, comprendre les questions du médecin et suivre une ordonnance.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Pour dire où l'on a mal, la partie du corps se met au <b>possessif</b> et le verbe <b>ağrımak</b> reste à la 3e personne : <tur>başım ağrıyor</tur> (mot à mot : ma tête fait mal). Pour la fièvre, on utilise <tur>var</tur> : <tur>ateşim var</tur> (j'ai de la fièvre)."
+        },
+        {
+          "t": "table",
+          "caption": "Décrire ses symptômes",
+          "head": [
+            "Français",
+            "Turc",
+            "Mot à mot"
+          ],
+          "rows": [
+            [
+              "J'ai mal à la tête",
+              "<tur>Başım ağrıyor.</tur>",
+              "ma tête fait mal"
+            ],
+            [
+              "J'ai mal au ventre",
+              "<tur>Karnım ağrıyor.</tur>",
+              "mon ventre fait mal"
+            ],
+            [
+              "J'ai mal à la gorge",
+              "<tur>Boğazım ağrıyor.</tur>",
+              "ma gorge fait mal"
+            ],
+            [
+              "J'ai de la fièvre",
+              "<tur>Ateşim var.</tur>",
+              "j'ai de la fièvre"
+            ],
+            [
+              "Je tousse",
+              "<tur>Öksürüyorum.</tur>",
+              "je tousse"
+            ],
+            [
+              "J'ai la nausée",
+              "<tur>Midem bulanıyor.</tur>",
+              "mon estomac se trouble"
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Les questions du médecin"
+        },
+        {
+          "t": "table",
+          "caption": "Ce que le médecin demande",
+          "head": [
+            "Question",
+            "Traduction"
+          ],
+          "rows": [
+            [
+              "<tur>Neyiniz var?</tur>",
+              "Qu'avez-vous ?"
+            ],
+            [
+              "<tur>Nerede ağrıyor?</tur>",
+              "Où avez-vous mal ?"
+            ],
+            [
+              "<tur>Ne zamandan beri?</tur>",
+              "Depuis quand ?"
+            ],
+            [
+              "<tur>Ateşiniz var mı?</tur>",
+              "Avez-vous de la fièvre ?"
+            ],
+            [
+              "<tur>İlaçlara alerjiniz var mı?</tur>",
+              "Êtes-vous allergique aux médicaments ?"
+            ],
+            [
+              "<tur>Daha önce ameliyat oldunuz mu?</tur>",
+              "Avez-vous déjà été opéré ?"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Kendimi iyi hissetmiyorum, başım ağrıyor ve ateşim var.",
+              "fr": "Je ne me sens pas bien, j'ai mal à la tête et de la fièvre."
+            },
+            {
+              "tr": "Ne zamandan beri böyle? — Dünden beri.",
+              "fr": "Depuis quand êtes-vous comme ça ? — Depuis hier."
+            },
+            {
+              "tr": "İlaçlara alerjiniz var mı? — Hayır, yok.",
+              "fr": "Êtes-vous allergique aux médicaments ? — Non."
+            },
+            {
+              "tr": "Çok geçmiş olsun, umarım yakında iyileşirsiniz.",
+              "fr": "Bon rétablissement, j'espère que vous irez mieux bientôt."
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "Comprendre l'ordonnance"
+        },
+        {
+          "t": "table",
+          "caption": "Les consignes du médecin",
+          "head": [
+            "Turc",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "<tur>Günde iki kez, tok karnına</tur>",
+              "Deux fois par jour, après le repas"
+            ],
+            [
+              "<tur>Yemekten yarım saat önce</tur>",
+              "Une demi-heure avant le repas"
+            ],
+            [
+              "<tur>Bol su için</tur>",
+              "Buvez beaucoup d'eau"
+            ],
+            [
+              "<tur>Dinlenin, işe gitmeyin</tur>",
+              "Reposez-vous, n'allez pas travailler"
+            ],
+            [
+              "<tur>Eğer geçmezse, tekrar gelin</tur>",
+              "Si cela ne passe pas, revenez"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "La consigne conditionnelle combine <b>-mezse</b> (si cela n'arrive pas) et l'impératif poli : <tur>Eğer ateşiniz geçmezse, yarın tekrar gelin.</tur> (Si votre fièvre ne passe pas, revenez demain.)."
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Le réflexe possessif",
+          "text": "La partie du corps se met au possessif : <tur>baş-ım</tur>, <tur>karın-ım</tur>, <tur>boğaz-ım</tur>, <tur>diş-im</tur>. Le verbe <tur>ağrımak</tur> ne se conjugue pas avec « je » : on dit <tur>dişim ağrıyor</tur>, jamais <tur>ben ağrıyorum</tur>."
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Au cabinet",
+          "text": "<tur>Geçmiş olsun</tur> se dit à une personne malade ou après un accident. Réponse habituelle : <tur>Teşekkür ederim</tur> ou <tur>Sağ olun</tur>. Le vouvoiement est de rigueur avec le médecin : <tur>Neyiniz var?</tur>, pas <tur>Neyin var?</tur>."
+        }
+      ],
+      "vocab": [
+        [
+          "ağrımak",
+          "avoir mal"
+        ],
+        [
+          "baş",
+          "tête"
+        ],
+        [
+          "boğaz",
+          "gorge"
+        ],
+        [
+          "ateş",
+          "fièvre"
+        ],
+        [
+          "öksürmek",
+          "tousser"
+        ],
+        [
+          "hissetmek",
+          "se sentir"
+        ],
+        [
+          "ilaç",
+          "médicament"
+        ],
+        [
+          "reçete",
+          "ordonnance"
+        ],
+        [
+          "dinlenmek",
+          "se reposer"
+        ],
+        [
+          "geçmek",
+          "passer (douleur)"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Comment dire « J'ai mal à la tête » ?",
+          "options": [
+            "Başım ağrıyor",
+            "Başım var",
+            "Baş ağrıyorum"
+          ],
+          "a": 0,
+          "why": "La partie du corps prend le possessif et ağrımak reste à la 3e personne : başım ağrıyor."
+        },
+        {
+          "q": "Que signifie « Günde iki kez, yemekten sonra » ?",
+          "options": [
+            "Deux fois par jour, après le repas",
+            "Deux fois par semaine, avant le repas",
+            "Une fois par jour, à jeun"
+          ],
+          "a": 0,
+          "why": "günde iki kez = deux fois par jour ; yemekten sonra = après le repas."
+        }
+      ]
+    },
+    {
+      "id": "u19",
+      "num": 19,
+      "level": "B1",
+      "title": "Au téléphone et à l'administration",
+      "goal": "Téléphoner, laisser un message et comprendre le registre formel des démarches.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Au téléphone, on décroche avec <tur>Alo</tur> ou <tur>Buyurun</tur> (je vous écoute). Pour demander quelqu'un : <tur>Kimi arıyorsunuz?</tur> (Qui appelez-vous ?). Si la personne est indisponible : <tur>Şu anda müsait değil.</tur> (Elle n'est pas disponible pour le moment.)."
+        },
+        {
+          "t": "table",
+          "caption": "Les phrases du téléphone",
+          "head": [
+            "Turc",
+            "Sens"
+          ],
+          "rows": [
+            [
+              "<tur>Alo, buyurun.</tur>",
+              "Allô, je vous écoute."
+            ],
+            [
+              "<tur>Kimi arıyorsunuz?</tur>",
+              "Qui appelez-vous ?"
+            ],
+            [
+              "<tur>Ali Bey'le görüşebilir miyim?</tur>",
+              "Puis-je parler à M. Ali ?"
+            ],
+            [
+              "<tur>Bir dakika, lütfen.</tur>",
+              "Un instant, s'il vous plaît."
+            ],
+            [
+              "<tur>Şu anda meşgul.</tur>",
+              "Il est occupé pour le moment."
+            ],
+            [
+              "<tur>Mesaj bırakmak ister misiniz?</tur>",
+              "Voulez-vous laisser un message ?"
+            ],
+            [
+              "<tur>Sizi tekrar arayabilir miyim?</tur>",
+              "Puis-je vous rappeler ?"
+            ],
+            [
+              "<tur>Yanlış numara.</tur>",
+              "Mauvais numéro."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "À l'administration, le registre est plus soutenu. On ajoute souvent <b>-dır / -dir</b> pour énoncer un fait de façon neutre : <tur>Aradığınız numara yanlıştır.</tur> (Le numéro que vous avez appelé est erroné.), <tur>Randevunuz onaylanmıştır.</tur> (Votre rendez-vous est confirmé.)."
+        },
+        {
+          "t": "table",
+          "caption": "Le registre formel",
+          "head": [
+            "Situation",
+            "Formule polie"
+          ],
+          "rows": [
+            [
+              "Accueillir au téléphone",
+              "<tur>Buyurun, nasıl yardımcı olabilirim?</tur>"
+            ],
+            [
+              "Annoncer une erreur de numéro",
+              "<tur>Aradığınız numara yanlıştır.</tur>"
+            ],
+            [
+              "Demander de patienter",
+              "<tur>Kısa bir süre bekler misiniz?</tur>"
+            ],
+            [
+              "Demander un document",
+              "<tur>Kimlik belgenizi gösterebilir misiniz?</tur>"
+            ],
+            [
+              "Confirmer un rendez-vous",
+              "<tur>Randevunuz onaylanmıştır.</tur>"
+            ],
+            [
+              "Prendre congé",
+              "<tur>İyi günler dilerim.</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "La demande polie se forme avec <b>-abilir misiniz?</b> : <tur>Mesajımı iletir misiniz?</tur> (Pourriez-vous transmettre mon message ?), <tur>Beni bağlayabilir misiniz?</tur> (Pourriez-vous me passer la personne ?), <tur>Biraz daha yavaş konuşabilir misiniz?</tur> (Pourriez-vous parler un peu plus lentement ?)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Alo, buyurun. — Merhaba, Ayşe Hanım'la görüşebilir miyim?",
+              "fr": "Allô, je vous écoute. — Bonjour, puis-je parler à Mme Ayşe ?"
+            },
+            {
+              "tr": "Şu anda toplantıda, mesaj bırakmak ister misiniz?",
+              "fr": "Elle est en réunion pour le moment, voulez-vous laisser un message ?"
+            },
+            {
+              "tr": "Aradığınız numara yanlıştır, lütfen kontrol ediniz.",
+              "fr": "Le numéro que vous avez appelé est erroné, veuillez vérifier."
+            },
+            {
+              "tr": "Kayıt için kimlik belgenizi gösterebilir misiniz?",
+              "fr": "Pour l'inscription, pourriez-vous montrer votre pièce d'identité ?"
+            },
+            {
+              "tr": "Biraz daha yavaş konuşabilir misiniz?",
+              "fr": "Pourriez-vous parler un peu plus lentement ?"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Bon réflexe",
+          "text": "Au téléphone, le turc préfère les formules courtes : <tur>Buyurun</tur> remplace « allô », et <tur>Bir dakika</tur> suffit pour demander d'attendre. Ne traduis pas mot à mot le français."
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Un suffixe, deux usages",
+          "text": "<b>-dır</b> sert au registre administratif, mais il peut aussi exprimer une déduction : <tur>Şu anda evdedir.</tur> (Il est sûrement à la maison.). C'est le contexte qui décide."
+        },
+        {
+          "t": "note",
+          "kind": "warn",
+          "tag": "Rester poli",
+          "text": "<tur>Yanlış numara</tur> est correct mais sec. La formule complète <tur>Aradığınız numara yanlıştır, özür dilerim.</tur> est plus polie."
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Fin du parcours",
+          "text": "Tu as parcouru les 19 étapes ! Pour consolider, refais les mini-quiz, puis choisis un module de cours et une série de flashcards. La régularité vaut mieux que les sessions marathon."
+        }
+      ],
+      "vocab": [
+        [
+          "aramak",
+          "appeler"
+        ],
+        [
+          "görüşmek",
+          "parler (à quelqu'un)"
+        ],
+        [
+          "meşgul",
+          "occupé"
+        ],
+        [
+          "mesaj",
+          "message"
+        ],
+        [
+          "bırakmak",
+          "laisser"
+        ],
+        [
+          "numara",
+          "numéro"
+        ],
+        [
+          "yanlış",
+          "faux, erroné"
+        ],
+        [
+          "belge",
+          "document"
+        ],
+        [
+          "randevu",
+          "rendez-vous"
+        ],
+        [
+          "onaylamak",
+          "confirmer, approuver"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Que répond-on en décrochant le téléphone ?",
+          "options": [
+            "Buyurun",
+            "Güle güle",
+            "Geçmiş olsun"
+          ],
+          "a": 0,
+          "why": "Buyurun invite poliment l'interlocuteur à parler au téléphone ; güle güle sert à dire au revoir."
+        },
+        {
+          "q": "Que signifie « Aradığınız numara yanlıştır » ?",
+          "options": [
+            "Le numéro que vous avez appelé est erroné",
+            "Votre appel est en attente",
+            "Le numéro est occupé"
+          ],
+          "a": 0,
+          "why": "yanlış = faux, erroné ; le suffixe -dır donne ici un ton administratif."
+        }
+      ]
+    }
+  ]
+}

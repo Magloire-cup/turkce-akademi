@@ -1,0 +1,560 @@
+{
+  "domain": "vocab",
+  "fields": "name, words[].fr, words[].exFr",
+  "start": 26,
+  "end": 29,
+  "items": [
+    {
+      "id": "verbes4",
+      "name": "Verbes courants (4)",
+      "words": [
+        {
+          "tr": "korumak",
+          "fr": "protéger, garder",
+          "ex": "Doğayı korumalıyız.",
+          "exFr": "Nous devons protéger la nature."
+        },
+        {
+          "tr": "düşmek",
+          "fr": "tomber",
+          "ex": "Dün merdivenden düştüm.",
+          "exFr": "Je suis tombé dans l'escalier hier."
+        },
+        {
+          "tr": "artmak",
+          "fr": "augmenter",
+          "ex": "Son günlerde fiyatlar arttı.",
+          "exFr": "Les prix ont augmenté ces derniers jours."
+        },
+        {
+          "tr": "azalmak",
+          "fr": "diminuer",
+          "ex": "Yağmur akşama doğru azalacak.",
+          "exFr": "La pluie diminuera vers le soir."
+        },
+        {
+          "tr": "karşılaşmak",
+          "fr": "rencontrer, tomber sur",
+          "ex": "Yolda eski bir arkadaşımla karşılaştım.",
+          "exFr": "J'ai croisé un vieil ami en chemin."
+        },
+        {
+          "tr": "vazgeçmek",
+          "fr": "renoncer, abandonner",
+          "ex": "Hayalimden vazgeçmedim.",
+          "exFr": "Je n'ai pas renoncé à mon rêve."
+        },
+        {
+          "tr": "saklamak",
+          "fr": "cacher, conserver",
+          "ex": "Bu mektubu saklamak istiyorum.",
+          "exFr": "Je veux garder cette lettre."
+        },
+        {
+          "tr": "silmek",
+          "fr": "effacer, essuyer",
+          "ex": "Tahtadaki yazıyı sildi.",
+          "exFr": "Il a effacé ce qui était écrit au tableau."
+        },
+        {
+          "tr": "kırmak",
+          "fr": "casser, briser",
+          "ex": "Bardağı yanlışlıkla kırdım.",
+          "exFr": "J'ai cassé le verre par accident."
+        },
+        {
+          "tr": "başvurmak",
+          "fr": "postuler, faire une demande",
+          "ex": "Bu işe başvurmak istiyorum.",
+          "exFr": "Je veux postuler à cet emploi."
+        },
+        {
+          "tr": "düzenlemek",
+          "fr": "organiser, arranger",
+          "ex": "Yarın küçük bir gezi düzenliyoruz.",
+          "exFr": "Nous organisons une petite excursion demain."
+        },
+        {
+          "tr": "araştırmak",
+          "fr": "faire des recherches, enquêter",
+          "ex": "Bu konuyu dikkatlice araştırdım.",
+          "exFr": "J'ai étudié ce sujet attentivement."
+        },
+        {
+          "tr": "gelişmek",
+          "fr": "se développer, progresser",
+          "ex": "Türkçem her gün gelişiyor.",
+          "exFr": "Mon turc progresse chaque jour."
+        },
+        {
+          "tr": "fark etmek",
+          "fr": "remarquer, se rendre compte",
+          "ex": "Hatasını hemen fark etti.",
+          "exFr": "Il a tout de suite remarqué son erreur."
+        },
+        {
+          "tr": "kaçırmak",
+          "fr": "manquer, rater",
+          "ex": "Sabah otobüsünü kaçırdım.",
+          "exFr": "J'ai raté le bus du matin."
+        },
+        {
+          "tr": "toplamak",
+          "fr": "ramasser, rassembler",
+          "ex": "Bahçedeki yaprakları topladık.",
+          "exFr": "Nous avons ramassé les feuilles du jardin."
+        },
+        {
+          "tr": "yakalamak",
+          "fr": "attraper",
+          "ex": "Treni yakalamak için koştum.",
+          "exFr": "J'ai couru pour attraper le train."
+        },
+        {
+          "tr": "kaydetmek",
+          "fr": "enregistrer, sauvegarder",
+          "ex": "Yeni numarayı telefonuma kaydettim.",
+          "exFr": "J'ai enregistré le nouveau numéro dans mon téléphone."
+        }
+      ]
+    },
+    {
+      "id": "expressions",
+      "name": "Expressions du quotidien",
+      "words": [
+        {
+          "tr": "tünaydın",
+          "fr": "bon après-midi",
+          "ex": "Tünaydın, nasıl geçti günün?",
+          "exFr": "Bon après-midi, comment s'est passée ta journée ?"
+        },
+        {
+          "tr": "teşekkürler",
+          "fr": "merci (courant)",
+          "ex": "Teşekkürler, çok naziksin!",
+          "exFr": "Merci, c'est très aimable !"
+        },
+        {
+          "tr": "sağ olun",
+          "fr": "merci (vouvoiement)",
+          "ex": "İlginiz için sağ olun.",
+          "exFr": "Merci pour votre attention."
+        },
+        {
+          "tr": "ne haber?",
+          "fr": "quoi de neuf ? (familier)",
+          "ex": "Ne haber, uzun zamandır görüşmedik!",
+          "exFr": "Quoi de neuf, ça fait longtemps !"
+        },
+        {
+          "tr": "iyilik",
+          "fr": "rien de spécial (réponse)",
+          "ex": "— Ne haber? — İyilik, senden?",
+          "exFr": "— Quoi de neuf ? — Pas grand-chose, et toi ?"
+        },
+        {
+          "tr": "fena değil",
+          "fr": "pas mal",
+          "ex": "— Nasılsın? — Fena değil.",
+          "exFr": "— Comment vas-tu ? — Pas mal."
+        },
+        {
+          "tr": "şimdilik hoşça kal",
+          "fr": "à plus tard",
+          "ex": "Şimdilik hoşça kal, sonra konuşuruz.",
+          "exFr": "À plus tard, on se reparle après."
+        },
+        {
+          "tr": "kendine iyi bak",
+          "fr": "prends soin de toi",
+          "ex": "Görüşürüz, kendine iyi bak!",
+          "exFr": "À bientôt, prends soin de toi !"
+        },
+        {
+          "tr": "iyi şanslar",
+          "fr": "bonne chance",
+          "ex": "Sınava gireceksin, iyi şanslar!",
+          "exFr": "Tu passes un examen, bonne chance !"
+        },
+        {
+          "tr": "başarılar",
+          "fr": "bonne chance (études, examens)",
+          "ex": "Başarılar dilerim!",
+          "exFr": "Je te souhaite plein succès !"
+        },
+        {
+          "tr": "eline sağlık",
+          "fr": "bravo (cuisine, travail manuel)",
+          "ex": "Bu yemek harika, eline sağlık!",
+          "exFr": "Ce plat est superbe, bravo !"
+        },
+        {
+          "tr": "çok yaşa",
+          "fr": "à tes souhaits (éternuement)",
+          "ex": "— Hapşu! — Çok yaşa!",
+          "exFr": "— Atchoum ! — À tes souhaits !"
+        },
+        {
+          "tr": "sen de gör",
+          "fr": "à tes souhaits (réponse)",
+          "ex": "— Çok yaşa! — Sen de gör!",
+          "exFr": "— À tes souhaits ! — Que tu en voies aussi !"
+        },
+        {
+          "tr": "haydi bakalım",
+          "fr": "allez, c'est parti",
+          "ex": "Haydi bakalım, başlayalım!",
+          "exFr": "Allez, on commence !"
+        },
+        {
+          "tr": "hadi",
+          "fr": "allez ! viens !",
+          "ex": "Hadi, geç kalıyoruz!",
+          "exFr": "Allez, on va être en retard !"
+        },
+        {
+          "tr": "peki",
+          "fr": "d'accord, bon, soit",
+          "ex": "Peki, nasıl istersen.",
+          "exFr": "D'accord, comme tu veux."
+        },
+        {
+          "tr": "kesinlikle",
+          "fr": "absolument, tout à fait",
+          "ex": "Kesinlikle katılıyorum.",
+          "exFr": "Je suis tout à fait d'accord."
+        },
+        {
+          "tr": "ne yazık ki",
+          "fr": "hélas, malheureusement",
+          "ex": "Ne yazık ki gelemem.",
+          "exFr": "Hélas, je ne peux pas venir."
+        },
+        {
+          "tr": "boşver",
+          "fr": "laisse tomber",
+          "ex": "Boşver, önemli değil.",
+          "exFr": "Laisse tomber, ce n'est pas grave."
+        },
+        {
+          "tr": "vay be",
+          "fr": "wahou ! la vache !",
+          "ex": "Vay be, ne kadar büyük!",
+          "exFr": "La vache, comme c'est grand !"
+        },
+        {
+          "tr": "kıyamam",
+          "fr": "trop mignon, j'en peux plus",
+          "ex": "Kıyamam, çok tatlısın!",
+          "exFr": "Trop mignon, je craque !"
+        },
+        {
+          "tr": "maşallah",
+          "fr": "bravo, chapeau (admiration)",
+          "ex": "Maşallah, ne kadar hızlı öğrenmişsin!",
+          "exFr": "Chapeau, comme tu as appris vite !"
+        },
+        {
+          "tr": "inşallah",
+          "fr": "espérons, si Dieu le veut",
+          "ex": "İnşallah sınavı geçerim.",
+          "exFr": "Avec un peu de chance je réussirai l'examen."
+        },
+        {
+          "tr": "yolun açık olsun",
+          "fr": "bon voyage",
+          "ex": "Yolun açık olsun, kendine iyi bak!",
+          "exFr": "Bon voyage, prends soin de toi !"
+        },
+        {
+          "tr": "hoş geldin",
+          "fr": "bienvenue (à un ami)",
+          "ex": "Hoş geldin! Sana çay koydum.",
+          "exFr": "Bienvenue ! Je t'ai préparé du thé."
+        },
+        {
+          "tr": "afedersin",
+          "fr": "pardon (familier)",
+          "ex": "Afedersin, geçiyorum.",
+          "exFr": "Pardon, je passe."
+        },
+        {
+          "tr": "canım",
+          "fr": "mon chéri, mon pote",
+          "ex": "Canım, bugün çok yoruldum.",
+          "exFr": "Mon pote, je suis crevé aujourd'hui."
+        },
+        {
+          "tr": "yok canım",
+          "fr": "mais non ! pas du tout",
+          "ex": "— Pahalı mı? — Yok canım!",
+          "exFr": "— C'est cher ? — Mais non !"
+        },
+        {
+          "tr": "aynen",
+          "fr": "pareil, tout à fait",
+          "ex": "— Ben de öyle düşünüyorum. — Aynen!",
+          "exFr": "— Je pense pareil. — Tout à fait !"
+        },
+        {
+          "tr": "bir şey değil",
+          "fr": "de rien",
+          "ex": "— Teşekkürler! — Bir şey değil.",
+          "exFr": "— Merci ! — De rien."
+        },
+        {
+          "tr": "güle güle kullan",
+          "fr": "bon usage (pour un objet neuf)",
+          "ex": "Yeni telefonunu güle güle kullan!",
+          "exFr": "Profite bien de ton nouveau téléphone !"
+        },
+        {
+          "tr": "bakalım",
+          "fr": "on verra, allez",
+          "ex": "— Sınav zor mu olacak? — Bakalım!",
+          "exFr": "— L'examen sera difficile ? — On verra !"
+        },
+        {
+          "tr": "her şey yolunda mı?",
+          "fr": "tout va bien ?",
+          "ex": "Her şey yolunda mı, iyi misin?",
+          "exFr": "Tout va bien, tu vas bien ?"
+        },
+        {
+          "tr": "bir dakika, lütfen",
+          "fr": "une minute, s'il vous plaît",
+          "ex": "Bir dakika, lütfen. Hemen geliyorum.",
+          "exFr": "Une minute, s'il vous plaît. J'arrive tout de suite."
+        },
+        {
+          "tr": "tekrar eder misiniz?",
+          "fr": "pouvez-vous répéter ?",
+          "ex": "Affedersiniz, tekrar eder misiniz?",
+          "exFr": "Excusez-moi, pouvez-vous répéter ?"
+        },
+        {
+          "tr": "anlamadım",
+          "fr": "je n'ai pas compris",
+          "ex": "Anlamadım, daha yavaş konuşur musunuz?",
+          "exFr": "Je n'ai pas compris, pouvez-vous parler plus lentement ?"
+        },
+        {
+          "tr": "daha yavaş konuşur musunuz?",
+          "fr": "pouvez-vous parler plus lentement ?",
+          "ex": "Lütfen daha yavaş konuşur musunuz?",
+          "exFr": "Pouvez-vous parler plus lentement, s'il vous plaît ?"
+        },
+        {
+          "tr": "türkçe öğreniyorum",
+          "fr": "j'apprends le turc",
+          "ex": "Türkçe öğreniyorum, biraz sabırlı olun.",
+          "exFr": "J'apprends le turc, soyez un peu patient."
+        },
+        {
+          "tr": "biraz türkçe konuşuyorum",
+          "fr": "je parle un peu turc",
+          "ex": "Biraz Türkçe konuşuyorum ama hâlâ öğreniyorum.",
+          "exFr": "Je parle un peu turc, mais j'apprends encore."
+        },
+        {
+          "tr": "yardımınıza ihtiyacım var",
+          "fr": "j'ai besoin de votre aide",
+          "ex": "Affedersiniz, yardımınıza ihtiyacım var.",
+          "exFr": "Excusez-moi, j'ai besoin de votre aide."
+        },
+        {
+          "tr": "buraya nasıl gidebilirim?",
+          "fr": "comment puis-je aller là-bas ?",
+          "ex": "Buraya nasıl gidebilirim, biliyor musunuz?",
+          "exFr": "Savez-vous comment je peux aller là-bas ?"
+        },
+        {
+          "tr": "kartla ödeyebilir miyim?",
+          "fr": "puis-je payer par carte ?",
+          "ex": "Kartla ödeyebilir miyim, yoksa nakit mi lazım?",
+          "exFr": "Puis-je payer par carte ou faut-il de l'argent liquide ?"
+        },
+        {
+          "tr": "hesabı alabilir miyim?",
+          "fr": "puis-je avoir l'addition ?",
+          "ex": "Hesabı alabilir miyim, lütfen?",
+          "exFr": "Puis-je avoir l'addition, s'il vous plaît ?"
+        },
+        {
+          "tr": "rezervasyonum var",
+          "fr": "j'ai une réservation",
+          "ex": "Saat yedi için rezervasyonum var.",
+          "exFr": "J'ai une réservation pour sept heures."
+        },
+        {
+          "tr": "boş yer var mı?",
+          "fr": "y a-t-il une place libre ?",
+          "ex": "İki kişi için boş yer var mı?",
+          "exFr": "Y a-t-il une place libre pour deux personnes ?"
+        },
+        {
+          "tr": "afedersiniz, geçebilir miyim?",
+          "fr": "excusez-moi, puis-je passer ?",
+          "ex": "Afedersiniz, geçebilir miyim? Otobüse yetişmem gerekiyor.",
+          "exFr": "Excusez-moi, puis-je passer ? Je dois attraper le bus."
+        },
+        {
+          "tr": "ben de öyle düşünüyorum",
+          "fr": "je le pense aussi",
+          "ex": "Ben de öyle düşünüyorum, çok güzel bir fikir.",
+          "exFr": "Je le pense aussi, c'est une très bonne idée."
+        },
+        {
+          "tr": "fark etmez",
+          "fr": "peu importe, ça m'est égal",
+          "ex": "Çay mı kahve mi? Fark etmez.",
+          "exFr": "Thé ou café ? Peu importe."
+        },
+        {
+          "tr": "henüz bilmiyorum",
+          "fr": "je ne sais pas encore",
+          "ex": "Yarın gelip gelmeyeceğimi henüz bilmiyorum.",
+          "exFr": "Je ne sais pas encore si je viendrai demain."
+        },
+        {
+          "tr": "tekrar görüşmek üzere",
+          "fr": "à une prochaine fois",
+          "ex": "Şimdilik hoşça kal, tekrar görüşmek üzere.",
+          "exFr": "Au revoir pour l'instant, à une prochaine fois."
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "name": "Questions utiles",
+      "words": [
+        {
+          "tr": "kaç tane?",
+          "fr": "combien (de choses) ?",
+          "ex": "Kaç tane elma aldın?",
+          "exFr": "Tu as acheté combien de pommes ?"
+        },
+        {
+          "tr": "saat kaçta?",
+          "fr": "à quelle heure ?",
+          "ex": "Ders saat kaçta başlıyor?",
+          "exFr": "À quelle heure commence le cours ?"
+        },
+        {
+          "tr": "bu ne?",
+          "fr": "qu'est-ce que c'est ?",
+          "ex": "Bu ne, çok ilginç!",
+          "exFr": "C'est quoi, c'est très intéressant !"
+        },
+        {
+          "tr": "bu ne kadar?",
+          "fr": "combien ça coûte ?",
+          "ex": "Bu çanta ne kadar?",
+          "exFr": "Combien coûte ce sac ?"
+        },
+        {
+          "tr": "nerelisin?",
+          "fr": "tu es d'où ?",
+          "ex": "Nerelisin, Türk müsün?",
+          "exFr": "Tu es d'où, tu es turc ?"
+        },
+        {
+          "tr": "nereden geliyorsun?",
+          "fr": "tu viens d'où ?",
+          "ex": "Nereden geliyorsun, okuldan mı?",
+          "exFr": "Tu viens d'où, de l'école ?"
+        },
+        {
+          "tr": "nereye gidiyorsun?",
+          "fr": "tu vas où ?",
+          "ex": "Nereye gidiyorsun, bu kadar erken?",
+          "exFr": "Tu vas où, si tôt ?"
+        },
+        {
+          "tr": "kaç yaşındasın?",
+          "fr": "tu as quel âge ?",
+          "ex": "Kaç yaşındasın, on sekiz mi?",
+          "exFr": "Tu as quel âge, dix-huit ans ?"
+        },
+        {
+          "tr": "ne yapıyorsun?",
+          "fr": "qu'est-ce que tu fais ?",
+          "ex": "Ne yapıyorsun, çalışıyor musun?",
+          "exFr": "Tu fais quoi, tu travailles ?"
+        },
+        {
+          "tr": "nasıl gidiyor?",
+          "fr": "comment ça va ? (la vie)",
+          "ex": "Okul nasıl gidiyor?",
+          "exFr": "Comment va l'école ?"
+        },
+        {
+          "tr": "neden?",
+          "fr": "pourquoi ?",
+          "ex": "Neden geldin, neden gittin?",
+          "exFr": "Pourquoi tu es venu, pourquoi tu es parti ?"
+        },
+        {
+          "tr": "nasıl?",
+          "fr": "comment ?",
+          "ex": "Bu kelime nasıl okunuyor?",
+          "exFr": "Comment se lit ce mot ?"
+        },
+        {
+          "tr": "niye?",
+          "fr": "pourquoi ? (familier)",
+          "ex": "Niye gelmedin?",
+          "exFr": "Pourquoi tu n'es pas venu ?"
+        },
+        {
+          "tr": "hangisi?",
+          "fr": "lequel ? laquelle ?",
+          "ex": "Hangisi daha güzel?",
+          "exFr": "Lequel est le plus beau ?"
+        },
+        {
+          "tr": "kim?",
+          "fr": "qui ?",
+          "ex": "Kim arıyor?",
+          "exFr": "Qui appelle ?"
+        },
+        {
+          "tr": "yardım eder misin?",
+          "fr": "tu peux m'aider ?",
+          "ex": "Bir dakika, yardım eder misin?",
+          "exFr": "Une minute, tu peux m'aider ?"
+        },
+        {
+          "tr": "anladın mı?",
+          "fr": "tu as compris ?",
+          "ex": "Soru net mi, anladın mı?",
+          "exFr": "La question est claire, tu as compris ?"
+        },
+        {
+          "tr": "tekrar eder misin?",
+          "fr": "tu peux répéter ?",
+          "ex": "Daha yavaş, tekrar eder misin?",
+          "exFr": "Plus lentement, tu peux répéter ?"
+        },
+        {
+          "tr": "tuvalet nerede?",
+          "fr": "où sont les toilettes ?",
+          "ex": "Afedersiniz, tuvalet nerede?",
+          "exFr": "Excusez-moi, où sont les toilettes ?"
+        },
+        {
+          "tr": "ne yapalım?",
+          "fr": "on fait quoi ?",
+          "ex": "Bugün ne yapalım?",
+          "exFr": "On fait quoi aujourd'hui ?"
+        },
+        {
+          "tr": "hazır mısın?",
+          "fr": "tu es prêt(e) ?",
+          "ex": "Hazır mısın, başlıyoruz!",
+          "exFr": "Tu es prêt ? On commence !"
+        }
+      ]
+    }
+  ]
+}

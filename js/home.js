@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const wod = WORD_OF_DAY[Math.floor(Date.now() / 86400000) % WORD_OF_DAY.length];
   el("#wod-tr").textContent = wod.tr;
   el("#wod-fr").textContent = wod.fr;
-  el("#wod-ex").innerHTML = `<b>${wod.ex}</b> : ${wod.exFr}`;
+  el("#wod-ex").innerHTML = `<b>${wod.ex}</b> — ${wod.exFr}`;
 
   // Tableau de bord
   const d = Progress.data;

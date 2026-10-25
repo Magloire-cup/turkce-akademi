@@ -1,0 +1,474 @@
+{
+  "domain": "grammar",
+  "fields": "title, blocks",
+  "start": 8,
+  "end": 16,
+  "items": [
+    {
+      "id": "varyok",
+      "title": "Var / yok: التملّك والوجود",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "لا يوجد في التركية فعل بمعنى «أملك»: <tur>var</tur> (يوجد) و<tur>yok</tur> (لا يوجد)، وهما لا يتغيّران، ويقعان في آخر الجملة."
+        },
+        {
+          "t": "table",
+          "caption": "التراكيب",
+          "head": [
+            "التركيب",
+            "مثال",
+            "العربية"
+          ],
+          "rows": [
+            [
+              "اسم مملوك + لاحقة الملكية + var",
+              "<tur>Arabam var.</tur>",
+              "لديّ سيارة."
+            ],
+            [
+              "اسم مملوك + لاحقة الملكية + yok",
+              "<tur>Zamanım yok.</tur>",
+              "ليس لديّ وقت."
+            ],
+            [
+              "مكان + حالة المكان + var/yok",
+              "<tur>Buzdolabında süt yok.</tur>",
+              "لا يوجد حليب في الثلاجة."
+            ],
+            [
+              "السؤال",
+              "<tur>Sigara var mı?</tur>",
+              "هل توجد سجائر؟"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bir sorunum var.",
+              "fr": "لديّ مشكلة."
+            },
+            {
+              "tr": "Param yok, ama hayalim var.",
+              "fr": "ليس لديّ مال، لكن لديّ حلم."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "title": "المضارع المستمر: -iyor",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "الجذر + <b>-iyor</b> + لاحقة الشخص. يتناغم صائت -iyor مع الصائت السابق (i/ı/ü/u)، أما لواحق الشخص فلا تتناغم."
+        },
+        {
+          "t": "table",
+          "caption": "التصريف الكامل (gelmek، بمعنى «يأتي»)",
+          "head": [
+            "الشخص",
+            "التركية",
+            "العربية"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geliyorum</tur>",
+              "أنا آتي"
+            ],
+            [
+              "sen",
+              "<tur>geliyorsun</tur>",
+              "أنت تأتي"
+            ],
+            [
+              "o",
+              "<tur>geliyor</tur>",
+              "هو/هي يأتي/تأتي"
+            ],
+            [
+              "biz",
+              "<tur>geliyoruz</tur>",
+              "نحن نأتي"
+            ],
+            [
+              "siz",
+              "<tur>geliyorsunuz</tur>",
+              "أنتم تأتون"
+            ],
+            [
+              "onlar",
+              "<tur>geliyorlar</tur>",
+              "هم/هنّ يأتون"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "النفي: تدخل -me/-ma داخل الفعل (gel<b>mi</b>yorum). وبعد الصائت يظهر حرف y: oku<b>y</b>orum (أنا أقرأ)، bekle<b>y</b>or (هو ينتظر)."
+        },
+        {
+          "t": "p",
+          "text": "يشمل هذا الزمن الحدث الجاري <b>وكذلك</b> الحال المستمرة: <tur>İstanbul'da yaşıyorum</tur> (أسكن في إسطنبول)، <tur>Türkçe öğreniyorum</tur> (أتعلّم التركية)."
+        }
+      ]
+    },
+    {
+      "id": "negation",
+      "title": "النفي",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "ثلاث أدوات للنفي",
+          "head": [
+            "السياق",
+            "الأداة",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "اسم / صفة",
+              "<tur>değil</tur>",
+              "<tur>Hasta değilim.</tur> (لست مريضاً)"
+            ],
+            [
+              "فعل",
+              "<b>-me/-ma</b> قبل الزمن",
+              "<tur>gelmedim</tur> (لم آت)"
+            ],
+            [
+              "الوجود / الملكية",
+              "<tur>yok</tur>",
+              "<tur>Param yok.</tur> (ليس لديّ مال)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "كلمة <tur>hayır</tur> (لا) تجيب عن سؤال؛ أما <tur>değil</tur> و-me وyok فتنفي <b>داخل</b> الجملة. وللتعبير عن «أنا أيضاً لا»: <tur>ben de değilim</tur> / <tur>ben de gelmedim</tur>."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Kahve istemiyorum.",
+              "fr": "لا أريد قهوة."
+            },
+            {
+              "tr": "Bu kitap benim değil.",
+              "fr": "هذا الكتاب ليس لي."
+            },
+            {
+              "tr": "Hiç sevmiyorum.",
+              "fr": "لا أحبّه إطلاقاً."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "title": "السؤال: mi / mı / mu / mü",
+      "level": "A2",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "أداة استفهام <b>منفصلة</b>، توضع مباشرة بعد الكلمة موضع السؤال، وتتناغم مع الصائت السابق. ومع الصيغ الفعلية المنتهية بحرف علة تأخذ لواحق الشخص: <tur>geldin mi?</tur>، <tur>geliyor musun?</tur>، <tur>gelecek misin?</tur>"
+        },
+        {
+          "t": "table",
+          "caption": "اختيار الصيغة",
+          "head": [
+            "الصائت الأخير قبل mi",
+            "الأداة",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "e, i",
+              "mi",
+              "<tur>güzel mi?</tur>"
+            ],
+            [
+              "a, ı",
+              "mı",
+              "<tur>var mı?</tur>"
+            ],
+            [
+              "ö, ü",
+              "mü",
+              "<tur>Türk müsün?</tur>"
+            ],
+            [
+              "o, u",
+              "mu",
+              "<tur>yoruldu mu?</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "أدوات الاستفهام (ne، kim، nerede، nasıl، kaç، hangi…) لا تأخذ mi إطلاقاً: <tur>Adın ne?</tur>، ولا يقال أبداً «Adın ne mi?»."
+        }
+      ]
+    },
+    {
+      "id": "alternances",
+      "title": "تبادلات الحروف الساكنة",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تتنفّس الحروف الساكنة في آخر الكلمة: فهي تتصلّب أو تلين بحسب ما يليها. وثمّة ثلاث ظواهر ينبغي معرفتها."
+        },
+        {
+          "t": "table",
+          "caption": "التبادلات الثلاث",
+          "head": [
+            "الظاهرة",
+            "القاعدة",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "التصلّب (حرف مهموس)",
+              "d → t بعد p ç t k s ş f h",
+              "<tur>sokakta</tur>, <tur>işte</tur>"
+            ],
+            [
+              "اللين",
+              "k في آخر الكلمة → ğ قبل صائت",
+              "<tur>yapacak → yapacağım</tur>, <tur>ayak → ayağı</tur>"
+            ],
+            [
+              "الجهر",
+              "p → b، ç → c، t → d قبل صائت",
+              "<tur>kitap → kitabı</tur>, <tur>ağaç → ağacı</tur>, <tur>kanat → kanadı</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "اقرأ ما ترى",
+          "text": "الخبر السار: هذه التبادلات <b>مكتوبة</b>، لا مخفية. وبكثرة القراءة تحفظها كصور للكلمات."
+        }
+      ]
+    },
+    {
+      "id": "passe",
+      "title": "صيغ الماضي: -di و-miş",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "الماضي المعروف (-di): تصريف gelmek",
+          "head": [
+            "الشخص",
+            "التركية",
+            "العربية"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geldim</tur>",
+              "أنا جئت"
+            ],
+            [
+              "sen",
+              "<tur>geldin</tur>",
+              "أنت جئت"
+            ],
+            [
+              "o",
+              "<tur>geldi</tur>",
+              "هو/هي جاء/جاءت"
+            ],
+            [
+              "biz",
+              "<tur>geldik</tur>",
+              "نحن جئنا"
+            ],
+            [
+              "siz",
+              "<tur>geldiniz</tur>",
+              "أنتم جئتم"
+            ],
+            [
+              "onlar",
+              "<tur>geldiler</tur>",
+              "هم/هنّ جاؤوا"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "يتبع الماضي المنقول <b>-miş</b> النمط نفسه (gelmişim، gelmişsin…) ويحدّد <b>مصدر المعلومات</b>: فأنت لم تشهد الحدث، بل جاءك خبره، أو أنك تكتشفه بدهشة."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Dün Ankara'ya gittim.",
+              "fr": "ذهبت إلى أنقرة أمس. (أعرف ذلك، فقد كنت هناك)"
+            },
+            {
+              "tr": "Dün Ankara'ya gitmiş.",
+              "fr": "يقال إنه ذهب إلى أنقرة أمس. (قيل لي ذلك)"
+            },
+            {
+              "tr": "Ayşe evlenmiş!",
+              "fr": "لقد تزوّجت Ayşe: من كان يصدّق!"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "الماضي التام",
+          "text": "بدمج الصيغتين: <tur>gelmışti</tur> = كان قد جاء (miş + di). فالتركية تراكم الأزمنة كما تراكم الطوب."
+        }
+      ]
+    },
+    {
+      "id": "futur",
+      "title": "المستقبل: -ecek / -acak",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "تصريف gelmek في المستقبل",
+          "head": [
+            "الشخص",
+            "التركية",
+            "العربية"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleceğim</tur>",
+              "أنا سآتي"
+            ],
+            [
+              "sen",
+              "<tur>geleceksin</tur>",
+              "أنت ستأتي"
+            ],
+            [
+              "o",
+              "<tur>gelecek</tur>",
+              "هو/هي سيأتي/ستأتي"
+            ],
+            [
+              "biz",
+              "<tur>geleceğiz</tur>",
+              "نحن سنأتي"
+            ],
+            [
+              "siz",
+              "<tur>geleceksiniz</tur>",
+              "أنتم ستأتون"
+            ],
+            [
+              "onlar",
+              "<tur>gelecekler</tur>",
+              "هم/هنّ سيأتون"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "يتحوّل الحرف k في -cek/-cak إلى ğ قبل صائت لاحقة الشخص: gelecek + im → gelece<b>ğ</b>im. النفي: gel<b>me</b>yeceğim. السؤال: gelecek misin?"
+        },
+        {
+          "t": "p",
+          "text": "للتعبير عن نية فورية، يستخدم الأتراك كثيراً صيغة المضارع: <tur>Şimdi gidiyorum</tur> (سأذهب الآن / فوراً)."
+        }
+      ]
+    },
+    {
+      "id": "postpositions",
+      "title": "أدوات الربط بعد الاسم والروابط",
+      "level": "B1",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تضع التركية «حروف الجر» <b>بعد</b> الاسم، ومن هنا جاءت تسميتها: أدوات ربط بعد الاسم. بعضها يتصل بالكلمة (-le/-la)، وبعضها يبقى كلمة مستقلة."
+        },
+        {
+          "t": "table",
+          "caption": "الأدوات الأساسية",
+          "head": [
+            "التركية",
+            "المعنى",
+            "مثال",
+            "العربية"
+          ],
+          "rows": [
+            [
+              "<tur>-le / -la</tur> (= ile)",
+              "مع، بواسطة",
+              "<tur>otobüsle</tur>",
+              "بالحافلة"
+            ],
+            [
+              "<tur>için</tur>",
+              "من أجل، لأجل",
+              "<tur>senin için</tur>",
+              "من أجلك"
+            ],
+            [
+              "<tur>gibi</tur>",
+              "مثل",
+              "<tur>kuş gibi</tur>",
+              "مثل طائر"
+            ],
+            [
+              "<tur>ile</tur>",
+              "مع (اسم)",
+              "<tur>arkadaşım ile</tur>",
+              "مع صديقي"
+            ],
+            [
+              "<tur>kadar</tur>",
+              "حتى، بقدر",
+              "<tur>saat beşe kadar</tur>",
+              "حتى الساعة الخامسة"
+            ],
+            [
+              "<tur>önce / sonra</tur>",
+              "قبل / بعد",
+              "<tur>yemekten sonra</tur>",
+              "بعد الطعام"
+            ],
+            [
+              "<tur>çünkü</tur>",
+              "لأن",
+              "<tur>yorgunum, çünkü…</tur>",
+              "أنا متعب لأن…"
+            ],
+            [
+              "<tur>ama / fakat</tur>",
+              "لكن",
+              "<tur>ama</tur>",
+              "لكن"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "ترتيب الكلمات",
+          "text": "الجملة النموذجية: فاعل - مفعول - فعل، فالفعل يختم الجملة دائماً تقريباً: <tur>Ben yarın okula gideceğim.</tur> لكن الترتيب يبقى مرناً: فاللواحق هي التي تحمل القواعد، لا الموضع."
+        }
+      ]
+    }
+  ]
+}

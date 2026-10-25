@@ -1,0 +1,876 @@
+{
+  "domain": "ui-data",
+  "fields": "alphabet[].sound, alphabet[].words[].fr, minimalPairs[].aFr, minimalPairs[].bFr, conjTenses[].label, conjTenses[].usage, quizTypes[].name, quizTypes[].desc, planTypes.*.label, plan*.label/warn/note",
+  "alphabet": [
+    {
+      "l": "A",
+      "type": "vowel",
+      "vowel": true,
+      "sound": "like the French « a »",
+      "words": [
+        {
+          "tr": "anne",
+          "fr": "mother"
+        },
+        {
+          "tr": "araba",
+          "fr": "car"
+        }
+      ]
+    },
+    {
+      "l": "B",
+      "type": "normal",
+      "sound": "like « b »",
+      "words": [
+        {
+          "tr": "bahçe",
+          "fr": "garden"
+        },
+        {
+          "tr": "balık",
+          "fr": "fish"
+        }
+      ]
+    },
+    {
+      "l": "C",
+      "type": "special",
+      "sound": "« j » as in « jam »",
+      "words": [
+        {
+          "tr": "cam",
+          "fr": "glass"
+        },
+        {
+          "tr": "cumartesi",
+          "fr": "Saturday"
+        }
+      ]
+    },
+    {
+      "l": "Ç",
+      "type": "special",
+      "sound": "« ch » as in « church »",
+      "words": [
+        {
+          "tr": "çay",
+          "fr": "tea"
+        },
+        {
+          "tr": "çiçek",
+          "fr": "flower"
+        }
+      ]
+    },
+    {
+      "l": "D",
+      "type": "normal",
+      "sound": "like « d »",
+      "words": [
+        {
+          "tr": "deniz",
+          "fr": "sea"
+        },
+        {
+          "tr": "dağ",
+          "fr": "mountain"
+        }
+      ]
+    },
+    {
+      "l": "E",
+      "type": "vowel",
+      "vowel": true,
+      "sound": "« e » as in « bed »",
+      "words": [
+        {
+          "tr": "ev",
+          "fr": "house"
+        },
+        {
+          "tr": "elma",
+          "fr": "apple"
+        }
+      ]
+    },
+    {
+      "l": "F",
+      "type": "normal",
+      "sound": "like « f »",
+      "words": [
+        {
+          "tr": "fırın",
+          "fr": "bakery"
+        },
+        {
+          "tr": "fikir",
+          "fr": "idea"
+        }
+      ]
+    },
+    {
+      "l": "G",
+      "type": "normal",
+      "sound": "« g » as in « gate », never « j »",
+      "words": [
+        {
+          "tr": "güzel",
+          "fr": "beautiful"
+        },
+        {
+          "tr": "gel",
+          "fr": "come"
+        }
+      ]
+    },
+    {
+      "l": "Ğ",
+      "type": "special",
+      "sound": "not pronounced: it lengthens the preceding vowel",
+      "words": [
+        {
+          "tr": "dağ",
+          "fr": "mountain → « daa »"
+        },
+        {
+          "tr": "yağmur",
+          "fr": "rain → « yaa-mour »"
+        }
+      ]
+    },
+    {
+      "l": "H",
+      "type": "normal",
+      "sound": "always aspirated, as in English « h »",
+      "words": [
+        {
+          "tr": "hava",
+          "fr": "air, weather"
+        },
+        {
+          "tr": "hayır",
+          "fr": "no"
+        }
+      ]
+    },
+    {
+      "l": "I",
+      "type": "special",
+      "vowel": true,
+      "sound": "short, unrounded « uh » (like the « e » in « the »)",
+      "words": [
+        {
+          "tr": "ışık",
+          "fr": "light"
+        },
+        {
+          "tr": "kırmızı",
+          "fr": "red"
+        }
+      ]
+    },
+    {
+      "l": "İ",
+      "type": "vowel",
+      "vowel": true,
+      "sound": "« i » as in « machine »",
+      "words": [
+        {
+          "tr": "kedi",
+          "fr": "cat"
+        },
+        {
+          "tr": "iş",
+          "fr": "work"
+        }
+      ]
+    },
+    {
+      "l": "J",
+      "type": "special",
+      "sound": "« zh » as in « measure » (rare)",
+      "words": [
+        {
+          "tr": "jilet",
+          "fr": "razor"
+        },
+        {
+          "tr": "jandarma",
+          "fr": "gendarmerie"
+        }
+      ]
+    },
+    {
+      "l": "K",
+      "type": "normal",
+      "sound": "like « k » (sometimes softened between vowels)",
+      "words": [
+        {
+          "tr": "kitap",
+          "fr": "book"
+        },
+        {
+          "tr": "kadın",
+          "fr": "woman"
+        }
+      ]
+    },
+    {
+      "l": "L",
+      "type": "normal",
+      "sound": "like « l »",
+      "words": [
+        {
+          "tr": "limon",
+          "fr": "lemon"
+        },
+        {
+          "tr": "lira",
+          "fr": "Turkish lira"
+        }
+      ]
+    },
+    {
+      "l": "M",
+      "type": "normal",
+      "sound": "like « m »",
+      "words": [
+        {
+          "tr": "merhaba",
+          "fr": "hello"
+        },
+        {
+          "tr": "meydan",
+          "fr": "square"
+        }
+      ]
+    },
+    {
+      "l": "N",
+      "type": "normal",
+      "sound": "like « n »",
+      "words": [
+        {
+          "tr": "nerede",
+          "fr": "where"
+        },
+        {
+          "tr": "nasıl",
+          "fr": "how"
+        }
+      ]
+    },
+    {
+      "l": "O",
+      "type": "vowel",
+      "vowel": true,
+      "sound": "like the « o » in « moto »",
+      "words": [
+        {
+          "tr": "okul",
+          "fr": "school"
+        },
+        {
+          "tr": "otel",
+          "fr": "hotel"
+        }
+      ]
+    },
+    {
+      "l": "Ö",
+      "type": "special",
+      "vowel": true,
+      "sound": "French « eu » as in « peu »",
+      "words": [
+        {
+          "tr": "göz",
+          "fr": "eye"
+        },
+        {
+          "tr": "öküz",
+          "fr": "ox"
+        }
+      ]
+    },
+    {
+      "l": "P",
+      "type": "normal",
+      "sound": "like « p »",
+      "words": [
+        {
+          "tr": "para",
+          "fr": "money"
+        },
+        {
+          "tr": "pencere",
+          "fr": "window"
+        }
+      ]
+    },
+    {
+      "l": "R",
+      "type": "normal",
+      "sound": "lightly rolled",
+      "words": [
+        {
+          "tr": "renk",
+          "fr": "colour"
+        },
+        {
+          "tr": "rüzgar",
+          "fr": "wind"
+        }
+      ]
+    },
+    {
+      "l": "S",
+      "type": "normal",
+      "sound": "like « ss » (never « z »)",
+      "words": [
+        {
+          "tr": "su",
+          "fr": "water"
+        },
+        {
+          "tr": "sokak",
+          "fr": "street"
+        }
+      ]
+    },
+    {
+      "l": "Ş",
+      "type": "special",
+      "sound": "« sh » as in « shop »",
+      "words": [
+        {
+          "tr": "şehir",
+          "fr": "city"
+        },
+        {
+          "tr": "şeker",
+          "fr": "sugar"
+        }
+      ]
+    },
+    {
+      "l": "T",
+      "type": "normal",
+      "sound": "like « t »",
+      "words": [
+        {
+          "tr": "türk",
+          "fr": "Turkish"
+        },
+        {
+          "tr": "tren",
+          "fr": "train"
+        }
+      ]
+    },
+    {
+      "l": "U",
+      "type": "vowel",
+      "vowel": true,
+      "sound": "« oo » as in « food »",
+      "words": [
+        {
+          "tr": "uyumak",
+          "fr": "to sleep"
+        },
+        {
+          "tr": "mutlu",
+          "fr": "happy"
+        }
+      ]
+    },
+    {
+      "l": "Ü",
+      "type": "special",
+      "vowel": true,
+      "sound": "French « u » as in « rue »",
+      "words": [
+        {
+          "tr": "gül",
+          "fr": "rose"
+        },
+        {
+          "tr": "üzgün",
+          "fr": "sad"
+        }
+      ]
+    },
+    {
+      "l": "V",
+      "type": "normal",
+      "sound": "between « v » and « w »",
+      "words": [
+        {
+          "tr": "vermek",
+          "fr": "to give"
+        },
+        {
+          "tr": "vapur",
+          "fr": "ferry"
+        }
+      ]
+    },
+    {
+      "l": "Y",
+      "type": "normal",
+      "sound": "like the « y » in « yogurt »",
+      "words": [
+        {
+          "tr": "yol",
+          "fr": "road"
+        },
+        {
+          "tr": "yeni",
+          "fr": "new"
+        }
+      ]
+    },
+    {
+      "l": "Z",
+      "type": "normal",
+      "sound": "like « z »",
+      "words": [
+        {
+          "tr": "zeytin",
+          "fr": "olive"
+        },
+        {
+          "tr": "zaman",
+          "fr": "time"
+        }
+      ]
+    }
+  ],
+  "minimalPairs": [
+    {
+      "a": "kır",
+      "aFr": "countryside (ı = « e » in « the »)",
+      "b": "kir",
+      "bFr": "dirt (i = « i » in « machine »)"
+    },
+    {
+      "a": "gül",
+      "aFr": "rose (ü = French « u » in « rue »)",
+      "b": "göl",
+      "bFr": "lake (ö = French « eu » in « peu »)"
+    },
+    {
+      "a": "çam",
+      "aFr": "pine (ç = « ch »)",
+      "b": "cam",
+      "bFr": "glass (c = « j »)"
+    },
+    {
+      "a": "hal",
+      "aFr": "state, hall (h aspirated)",
+      "b": "al",
+      "bFr": "take (no h)"
+    },
+    {
+      "a": "bel",
+      "aFr": "waist (short e)",
+      "b": "bal",
+      "bFr": "honey (open a)"
+    }
+  ],
+  "conjTenses": [
+    {
+      "id": "pres",
+      "label": "Present continuous",
+      "short": "-yor",
+      "usage": "An action in progress at the moment of speaking: « I am …ing »."
+    },
+    {
+      "id": "aor",
+      "label": "Present simple",
+      "short": "-ir / -er",
+      "usage": "A habit, a general truth or a polite offer: « I come (often) »."
+    },
+    {
+      "id": "past",
+      "label": "Witnessed past (-di)",
+      "short": "-dı / -di",
+      "usage": "A completed past action, a fact you have observed: « I came »."
+    },
+    {
+      "id": "evid",
+      "label": "Evidential past (-miş)",
+      "short": "-mış / -miş",
+      "usage": "A past you discovered, heard about or were told: « apparently… », « I saw for myself that… »."
+    },
+    {
+      "id": "fut",
+      "label": "Future (-ecek)",
+      "short": "-ecek / -acak",
+      "usage": "An action to come, an intention or a promise: « I will come »."
+    },
+    {
+      "id": "cond",
+      "label": "Conditional (-se)",
+      "short": "-se / -sa",
+      "usage": "A condition: « if I came… ». The main verb often carries -erdi / -ecekti."
+    },
+    {
+      "id": "imp",
+      "label": "Imperative",
+      "short": "—",
+      "usage": "An order, a piece of advice or an invitation. The imperative has no first person."
+    }
+  ],
+  "quizTypes": [
+    {
+      "id": "tr-fr",
+      "name": "Turkish → English",
+      "desc": "You see a Turkish word and choose its translation."
+    },
+    {
+      "id": "fr-tr",
+      "name": "English → Turkish",
+      "desc": "You are given the English word: find the Turkish one."
+    },
+    {
+      "id": "listen",
+      "name": "Listening",
+      "desc": "Listen to the Turkish word and choose what it means."
+    },
+    {
+      "id": "grammar",
+      "name": "Grammar",
+      "desc": "Harmony, cases, conjugation: the rules from the 16 lessons."
+    },
+    {
+      "id": "mix",
+      "name": "Big mix",
+      "desc": "Vocabulary, listening and grammar all mixed together. The real test."
+    }
+  ],
+  "planTypes": {
+    "sleep": {
+      "label": "Sleep",
+      "cls": "pb-sleep"
+    },
+    "school": {
+      "label": "School",
+      "cls": "pb-school"
+    },
+    "study": {
+      "label": "Study",
+      "cls": "pb-study"
+    },
+    "meal": {
+      "label": "Meals",
+      "cls": "pb-meal"
+    },
+    "break": {
+      "label": "Break",
+      "cls": "pb-break"
+    },
+    "rest": {
+      "label": "Rest / nap",
+      "cls": "pb-rest"
+    },
+    "free": {
+      "label": "Free time",
+      "cls": "pb-free"
+    },
+    "prep": {
+      "label": "Getting ready",
+      "cls": "pb-prep"
+    },
+    "transit": {
+      "label": "Commute",
+      "cls": "pb-transit"
+    }
+  },
+  "planCurrent": [
+    {
+      "s": "21:00",
+      "e": "03:00",
+      "label": "Sleep",
+      "type": "sleep",
+      "warn": "≈ 6 h only: the brain has no time to consolidate what you learned the day before."
+    },
+    {
+      "s": "03:00",
+      "e": "04:00",
+      "label": "Learn the new lesson",
+      "type": "study",
+      "warn": "Waking up at 3 a.m.: concentration and memory are at their lowest, exactly when you want to learn something new."
+    },
+    {
+      "s": "04:00",
+      "e": "06:30",
+      "label": "Review",
+      "type": "study",
+      "warn": "2 h 30 of work on an unrested brain: a lot of effort, little return."
+    },
+    {
+      "s": "06:30",
+      "e": "07:00",
+      "label": "Breakfast",
+      "type": "meal"
+    },
+    {
+      "s": "07:00",
+      "e": "09:00",
+      "label": "Getting ready + commute",
+      "type": "prep"
+    },
+    {
+      "s": "09:00",
+      "e": "15:45",
+      "label": "Classes at school",
+      "type": "school"
+    },
+    {
+      "s": "15:45",
+      "e": "19:00",
+      "label": "Home, then free time (screens)",
+      "type": "free",
+      "warn": "≈ 3 hours in a row left unused, when you still have the energy to work."
+    },
+    {
+      "s": "19:00",
+      "e": "20:00",
+      "label": "Nap",
+      "type": "rest",
+      "warn": "A one-hour nap at 19:00 pushes bedtime back and cuts the night short."
+    },
+    {
+      "s": "20:00",
+      "e": "20:45",
+      "label": "Dinner",
+      "type": "meal"
+    },
+    {
+      "s": "20:45",
+      "e": "21:00",
+      "label": "Getting ready for bed",
+      "type": "prep"
+    }
+  ],
+  "planWeekday": [
+    {
+      "s": "06:30",
+      "e": "06:40",
+      "label": "Wake up + a big glass of water",
+      "type": "prep",
+      "note": "Daylight straight away: it sets the biological clock."
+    },
+    {
+      "s": "06:40",
+      "e": "07:10",
+      "label": "Morning review: flashcards + word of the day",
+      "type": "study",
+      "note": "The brain is fresh: the best time for spaced repetition."
+    },
+    {
+      "s": "07:10",
+      "e": "07:50",
+      "label": "Breakfast + getting dressed",
+      "type": "meal"
+    },
+    {
+      "s": "07:50",
+      "e": "09:00",
+      "label": "Commute: podcast or replaying the dialogues",
+      "type": "transit",
+      "note": "Effortless passive immersion: it counts."
+    },
+    {
+      "s": "09:00",
+      "e": "15:45",
+      "label": "Classes at school",
+      "type": "school"
+    },
+    {
+      "s": "15:45",
+      "e": "16:15",
+      "label": "Home + afternoon snack",
+      "type": "transit"
+    },
+    {
+      "s": "16:15",
+      "e": "16:45",
+      "label": "Screen-free rest (walk, shower)",
+      "type": "rest",
+      "note": "30 min to wind down from the day, without your phone."
+    },
+    {
+      "s": "16:45",
+      "e": "17:35",
+      "label": "Session 1 · New lesson (2 × Pomodoro)",
+      "type": "study",
+      "note": "This is where you learn something new — in the afternoon, while you still have energy."
+    },
+    {
+      "s": "17:35",
+      "e": "17:45",
+      "label": "Break",
+      "type": "break"
+    },
+    {
+      "s": "17:45",
+      "e": "18:35",
+      "label": "Session 2 · Exercises & grammar",
+      "type": "study"
+    },
+    {
+      "s": "18:35",
+      "e": "18:50",
+      "label": "Break",
+      "type": "break"
+    },
+    {
+      "s": "18:50",
+      "e": "19:30",
+      "label": "Session 3 · Vocabulary & quiz",
+      "type": "study"
+    },
+    {
+      "s": "19:30",
+      "e": "19:50",
+      "label": "Short nap (20 min)",
+      "type": "rest",
+      "note": "Your nap is kept! 20 minutes max, you must get up, before 20:00."
+    },
+    {
+      "s": "19:50",
+      "e": "20:30",
+      "label": "Dinner",
+      "type": "meal"
+    },
+    {
+      "s": "20:30",
+      "e": "21:00",
+      "label": "Light review: the day's expressions",
+      "type": "study",
+      "note": "One last light pass: falling asleep locks in what you have seen."
+    },
+    {
+      "s": "21:00",
+      "e": "21:30",
+      "label": "Free time + pack tomorrow's bag",
+      "type": "free"
+    },
+    {
+      "s": "21:30",
+      "e": "06:30",
+      "label": "Sleep (9 h)",
+      "type": "sleep",
+      "note": "Full recovery: it is during the night that memory sorts and keeps."
+    }
+  ],
+  "planWeekend": [
+    {
+      "s": "08:00",
+      "e": "08:10",
+      "label": "Wake up (no alarm if possible)",
+      "type": "prep"
+    },
+    {
+      "s": "08:10",
+      "e": "08:40",
+      "label": "Review: flashcards to go over",
+      "type": "study"
+    },
+    {
+      "s": "08:40",
+      "e": "09:20",
+      "label": "Breakfast",
+      "type": "meal"
+    },
+    {
+      "s": "09:20",
+      "e": "09:30",
+      "label": "Break",
+      "type": "break"
+    },
+    {
+      "s": "09:30",
+      "e": "10:20",
+      "label": "Session 1 · New module",
+      "type": "study",
+      "note": "The morning is reserved for new material, when concentration is at its peak."
+    },
+    {
+      "s": "10:20",
+      "e": "10:35",
+      "label": "Break",
+      "type": "break"
+    },
+    {
+      "s": "10:35",
+      "e": "11:25",
+      "label": "Session 2 · Exercises",
+      "type": "study"
+    },
+    {
+      "s": "11:25",
+      "e": "11:40",
+      "label": "Break",
+      "type": "break"
+    },
+    {
+      "s": "11:40",
+      "e": "12:30",
+      "label": "Session 3 · Grammar & dialogues",
+      "type": "study"
+    },
+    {
+      "s": "12:30",
+      "e": "14:00",
+      "label": "Lunch + nap + free time",
+      "type": "free"
+    },
+    {
+      "s": "14:00",
+      "e": "14:50",
+      "label": "Session 4 · Vocabulary",
+      "type": "study"
+    },
+    {
+      "s": "14:50",
+      "e": "15:05",
+      "label": "Break",
+      "type": "break"
+    },
+    {
+      "s": "15:05",
+      "e": "15:55",
+      "label": "Session 5 · Quiz & review of the week",
+      "type": "study",
+      "note": "Mixed quiz + rereading the grammar lessons that are still fuzzy."
+    },
+    {
+      "s": "15:55",
+      "e": "20:30",
+      "label": "Free time: sport, friends, going out",
+      "type": "free",
+      "note": "Weekend afternoons stay free: consistency, not excess."
+    },
+    {
+      "s": "20:30",
+      "e": "21:00",
+      "label": "Light evening review",
+      "type": "study"
+    },
+    {
+      "s": "21:00",
+      "e": "22:30",
+      "label": "Plan the week, free time",
+      "type": "free"
+    },
+    {
+      "s": "22:30",
+      "e": "08:00",
+      "label": "Sleep (9 h 30)",
+      "type": "sleep"
+    }
+  ]
+}

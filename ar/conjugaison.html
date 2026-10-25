@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conjugaison turque | Türkçe Akademi</title>
+  <meta name="description" content="Conjugueur turc interactif : 36 verbes courants, 7 temps, formes affirmatives et négatives, prononciation audio et mode test.">
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-page="conjugaison">
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Türkçe Akademi, accueil">
+        <svg class="star-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="11" fill="var(--red)"/>
+          <circle cx="16.5" cy="20" r="11" fill="#fff"/>
+          <circle cx="20.5" cy="20" r="9" fill="var(--red)"/>
+          <polygon points="27,15.6 28.1,18.5 31.2,18.6 28.7,20.6 29.6,23.6 27,21.8 24.4,23.6 25.3,20.6 22.8,18.6 25.9,18.5" fill="#fff"/>
+        </svg>
+        <div>Türkçe Akademi<small>Apprendre le turc</small></div>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html" data-nav="home">Accueil</a>
+        <a href="cours.html" data-nav="cours">Cours</a>
+        <a href="parcours.html" data-nav="parcours">Parcours</a>
+        <a href="vocabulaire.html" data-nav="vocab">Vocabulaire</a>
+        <a href="grammaire.html" data-nav="grammar">Grammaire</a>
+        <a href="conjugaison.html" data-nav="conjugaison">Conjugaison</a>
+        <a href="videos.html" data-nav="videos">Vidéos</a>
+        <a href="essentiel.html" data-nav="essential">Essentiel</a>
+        <a href="exercices.html" data-nav="quiz">Exercices</a>
+        <a href="prononciation.html" data-nav="alpha">Prononciation</a>
+        <a href="emploi-du-temps.html" data-nav="planning">Planning</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" title="Basculer clair / sombre" aria-label="Changer le thème"></button>
+        <button class="icon-btn burger" id="burger" title="Menu" aria-label="Ouvrir le menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="section">
+    <div class="container">
+      <div class="section-head" style="margin-bottom:30px">
+        <span class="overline">Outil de conjugaison</span>
+        <h2>Un verbe, un temps, toutes les formes</h2>
+        <p>Choisis un verbe et un temps : le tableau se met à jour avec les six personnes, l'audio et un mode test pour t'entraîner à retrouver les formes de mémoire.</p>
+      </div>
+      <div class="flex wrap gap-2 items-center" style="margin-bottom:26px">
+        <span class="chip red">36 verbes</span>
+        <span class="chip gold">7 temps</span>
+        <span class="chip green">Affirmatif / négatif</span>
+        <span class="chip blue">Audio + mode test</span>
+      </div>
+      <div class="conj-toolbar card">
+        <div class="conj-field">
+          <label for="conj-verb">Verbe</label>
+          <select id="conj-verb" aria-label="Choisir un verbe"></select>
+        </div>
+        <div class="conj-field">
+          <label for="conj-tense">Temps</label>
+          <select id="conj-tense" aria-label="Choisir un temps"></select>
+        </div>
+        <div class="conj-field">
+          <label>Forme</label>
+          <div class="conj-polarity" role="group" aria-label="Forme affirmative ou négative">
+            <button class="tab active" data-polarity="pos" aria-pressed="true">Affirmatif</button>
+            <button class="tab" data-polarity="neg" aria-pressed="false">Négatif</button>
+          </div>
+        </div>
+      </div>
+      <div class="conj-layout">
+        <aside class="card conj-info">
+          <span class="chip gold">Verbe</span>
+          <h3 id="conj-infinitive">gelmek</h3>
+          <p id="conj-translation">venir</p>
+          <div class="conj-meta" id="conj-meta"></div>
+          <div class="note info" id="conj-tip"></div>
+        </aside>
+        <div class="card conj-main">
+          <div class="conj-head">
+            <div>
+              <span class="overline" id="conj-tense-label">Présent continu</span>
+              <h3 id="conj-title">geliyorum</h3>
+            </div>
+            <div class="flex wrap gap-2 items-center">
+              <span class="chip green" id="conj-badge">Affirmatif</span>
+              <span class="chip" id="conj-ending">-yor</span>
+            </div>
+          </div>
+          <p class="muted" id="conj-usage"></p>
+          <div class="tbl-wrap">
+            <table class="tbl conj-table" id="conj-table">
+              <thead><tr><th>Personne</th><th>Forme</th></tr></thead>
+              <tbody id="conj-body"></tbody>
+            </table>
+          </div>
+          <div class="conj-actions">
+            <button class="btn btn-ghost btn-sm" id="conj-hide" aria-pressed="false">Mode test</button>
+            <span class="muted" id="conj-hint">Clique sur le haut-parleur pour écouter la forme.</span>
+          </div>
+        </div>
+      </div>
+      <h4 class="blk-h">Trois réflexes qui débloquent la conjugaison</h4>
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h7"/></svg></div>
+          <h3>Radical + terminaison</h3>
+          <p>Retire <tur>-mek</tur> ou <tur>-mak</tur> de l'infinitif : <tur>gelmek</tur> donne le radical <tur>gel-</tur>. Le suffixe de temps, puis celui de personne, viennent s'y coller dans cet ordre.</p>
+        </div>
+        <div class="card">
+          <div class="feat-icon gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>L'harmonie vocalique</h3>
+          <p>La dernière voyelle du radical choisit la voyelle du suffixe : <tur>gel-</tur> (e) → <tur>geliyorum</tur>, <tur>yap-</tur> (a) → <tur>yapıyorum</tur>, <tur>gör-</tur> (ö) → <tur>görüyorum</tur>.</p>
+        </div>
+        <div class="card">
+          <div class="feat-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          <h3>Un temps, un usage</h3>
+          <p>Le passé <tur>-di</tur> raconte un fait constaté ; <tur>-miş</tur> rapporte ce qu'on n'a pas vu soi-même. Le futur <tur>-ecek</tur> annonce, le conditionnel <tur>-se</tur> pose une hypothèse.</p>
+        </div>
+      </div>
+      <div class="note tip">
+        <b class="tag">Astuce d'entraînement</b>
+        <div>Active le <b>mode test</b>, essaie de dire la forme à voix haute, puis clique sur la ligne pour vérifier. Refais le même verbe à un autre temps : tu verras que seul le suffixe change.</div>
+      </div>
+      <div class="flex wrap gap-2 items-center" style="justify-content:center;margin-top:24px">
+        <a class="btn btn-ghost" href="grammaire.html">Revoir les 16 fiches de grammaire</a>
+        <a class="btn btn-primary" href="exercices.html">S'entraîner avec les quiz →</a>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none;padding-top:0">
+        <span>© <span id="year">2026</span> Türkçe Akademi, by TAM, pour les francophones</span>
+        <span><a href="parcours.html">Le parcours</a> · <a href="vocabulaire.html">Les flashcards</a></span>
+      </div>
+    </div>
+  </footer>
+  <div id="toast-root"></div>
+  <script src="../js/app.js"></script>
+  <script src="../js/i18n/ar/ui-data.js"></script>
+  <script src="../js/i18n/ar/ui.js"></script>
+  <script src="../js/i18n.js"></script>
+  <script src="../js/lang.js"></script>
+  <script src="../js/i18n/ar/data-verbs.js"></script>
+  <script src="../js/conjugator.js"></script>
+</body>
+</html>

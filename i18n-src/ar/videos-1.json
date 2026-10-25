@@ -1,0 +1,1508 @@
+{
+  "domain": "videos",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 0,
+  "end": 9,
+  "items": [
+    {
+      "id": "va1-1",
+      "level": "A1",
+      "num": 1,
+      "title": "قراءة التركية: الأبجدية والأصوات",
+      "tr": "Türk alfabesi ve sesler",
+      "goal": "التعرف على الحروف التسعة والعشرين، ونطق أحرف العلة والحروف الساكنة التي لا وجود لها في الفرنسية.",
+      "watch": "Türk alfabesi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تكتب التركية بأبجدية لاتينية من <b>29 حرفا</b>. وهي لا تستخدم <b>q, w, x</b>، لكنها تضيف <b>ç, ğ, ı, ö, ş, ü</b>. وكل حرف ينطق دائما بالطريقة نفسها: بمجرد تعلم الصوت، تستطيع قراءة أي كلمة."
+        },
+        {
+          "t": "table",
+          "caption": "الأصوات التي ينبغي معرفتها أولا",
+          "head": [
+            "الحرف",
+            "الصوت القريب",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "<b>a</b>",
+              "[a]",
+              "<tur>araba</tur> (سيارة)"
+            ],
+            [
+              "<b>e</b>",
+              "[ɛ] مفتوح",
+              "<tur>ev</tur> (منزل)"
+            ],
+            [
+              "<b>ı</b>",
+              "بين [e] و[ɨ]",
+              "<tur>kır</tur> (ريف)"
+            ],
+            [
+              "<b>i</b>",
+              "[i]",
+              "<tur>iki</tur> (اثنان)"
+            ],
+            [
+              "<b>o</b>",
+              "[o]",
+              "<tur>okul</tur> (مدرسة)"
+            ],
+            [
+              "<b>ö</b>",
+              "[œ] بين الفتحة والضمة مع تدوير الشفتين",
+              "<tur>göz</tur> (عين)"
+            ],
+            [
+              "<b>u</b>",
+              "[u]",
+              "<tur>su</tur> (ماء)"
+            ],
+            [
+              "<b>ü</b>",
+              "[y] بين الضمة والكسرة مع تدوير الشفتين",
+              "<tur>gül</tur> (وردة)"
+            ],
+            [
+              "<b>c</b>",
+              "[dʒ] مثل الجيم في «جميل»",
+              "<tur>cam</tur> (زجاج)"
+            ],
+            [
+              "<b>ç</b>",
+              "[tʃ] صوت «تش»",
+              "<tur>çay</tur> (شاي)"
+            ],
+            [
+              "<b>ş</b>",
+              "[ʃ] صوت «ش»",
+              "<tur>şehir</tur> (مدينة)"
+            ],
+            [
+              "<b>ğ</b>",
+              "يمد حرف العلة قبله",
+              "<tur>dağ</tur> (جبل)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "حرف ğ",
+          "text": "<b>ğ</b> لا يبدأ كلمة أبدا ولا ينطق مثل g. إنه يمد حرف العلة الذي قبله: <tur>dağ</tur> تنطق [daː]، و<tur>öğretmen</tur> [øːretmen]. وبين حرفي علة، يكاد لا يسمع."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Merhaba, Türkçe öğreniyorum.",
+              "fr": "مرحبا، أنا أتعلم التركية."
+            },
+            {
+              "tr": "Şimdi çay içiyorum.",
+              "fr": "أنا أشرب الشاي الآن."
+            },
+            {
+              "tr": "Bu şehir çok güzel.",
+              "fr": "هذه المدينة جميلة جدا."
+            },
+            {
+              "tr": "Güle güle, yarın görüşürüz.",
+              "fr": "إلى اللقاء، نلتقي غدا."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "ı أم i؟",
+          "text": "حرف <b>ı</b> صوت خلفي، دون تدوير الشفتين، قريب من فتحة قصيرة خفيفة. قارن <tur>kır</tur> (ريف) و<tur>kir</tur> (وسخ): الفرق يغير معنى الكلمة."
+        }
+      ],
+      "vocab": [
+        [
+          "merhaba",
+          "مرحبا"
+        ],
+        [
+          "günaydın",
+          "صباح الخير"
+        ],
+        [
+          "hoşça kal",
+          "إلى اللقاء (يقولها من يرحل)"
+        ],
+        [
+          "güle güle",
+          "إلى اللقاء (تقال لمن يرحل)"
+        ],
+        [
+          "evet",
+          "نعم"
+        ],
+        [
+          "hayır",
+          "لا"
+        ],
+        [
+          "lütfen",
+          "من فضلك"
+        ],
+        [
+          "teşekkürler",
+          "شكرا"
+        ],
+        [
+          "Türkçe",
+          "اللغة التركية"
+        ],
+        [
+          "öğrenmek",
+          "يتعلم"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "أي حرف ينطق مثل «تش»؟",
+          "options": [
+            "ç",
+            "ş",
+            "c"
+          ],
+          "a": 0,
+          "why": "ç = [tʃ]. أما الحرف ş فينطق [ʃ]، أي صوت «ش»."
+        },
+        {
+          "q": "ماذا يفعل الحرف ğ؟",
+          "options": [
+            "ينطق كحرف g",
+            "يمد حرف العلة السابق",
+            "ينطق كحرف y"
+          ],
+          "a": 1,
+          "why": "لا صوت خاصا بـğ: تنطق dağ [daː]، بألف ممتدة."
+        }
+      ]
+    },
+    {
+      "id": "va1-2",
+      "level": "A1",
+      "num": 2,
+      "title": "التحية والتعريف بالنفس",
+      "tr": "Selamlaşma ve kendini tanıtma",
+      "goal": "قول التحية، وإعطاء الاسم والجنسية والمهنة، ثم الانتقال إلى صيغة المخاطبة الرسمية.",
+      "watch": "selamlaşma kendini tanıtma",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "تحيات الحياة اليومية",
+          "head": [
+            "التركية",
+            "العربية",
+            "متى تستخدمها"
+          ],
+          "rows": [
+            [
+              "<tur>Merhaba</tur>",
+              "مرحبا",
+              "طوال اليوم، بين الأصدقاء أو في المدرسة"
+            ],
+            [
+              "<tur>Günaydın</tur>",
+              "صباح الخير",
+              "في الصباح، حتى منتصف النهار تقريبا"
+            ],
+            [
+              "<tur>İyi günler</tur>",
+              "نهارا سعيدا",
+              "عند المغادرة أو للتحية بعد الظهر"
+            ],
+            [
+              "<tur>İyi akşamlar</tur>",
+              "مساء الخير",
+              "في نهاية اليوم"
+            ],
+            [
+              "<tur>İyi geceler</tur>",
+              "ليلة سعيدة",
+              "قبل النوم"
+            ],
+            [
+              "<tur>Hoş geldin / Hoş geldiniz</tur>",
+              "أهلا وسهلا",
+              "لمن يصل"
+            ],
+            [
+              "<tur>Hoş bulduk</tur>",
+              "شكرا، لقد وصلت بخير",
+              "ردا على «hoş geldin»"
+            ],
+            [
+              "<tur>Görüşürüz</tur>",
+              "إلى اللقاء، نلتقي قريبا",
+              "بين الأصدقاء، عند المغادرة"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "للتعريف بالنفس نستخدم <tur>Benim adım …</tur> («اسمي هو…») أو ببساطة <tur>Ben …</tur>. والسؤال هو <tur>Adın ne?</tur> في المخاطبة غير الرسمية و<tur>Adınız ne?</tur> في المخاطبة الرسمية."
+        },
+        {
+          "t": "table",
+          "caption": "لاحقة الكينونة مع öğrenci (طالب)",
+          "head": [
+            "الشخص",
+            "الصيغة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>öğrenciyim</tur>",
+              "أنا طالب أو طالبة"
+            ],
+            [
+              "sen",
+              "<tur>öğrencisin</tur>",
+              "أنت طالب أو طالبة"
+            ],
+            [
+              "o",
+              "<tur>öğrenci</tur>",
+              "هو أو هي طالب أو طالبة"
+            ],
+            [
+              "biz",
+              "<tur>öğrenciyiz</tur>",
+              "نحن طلاب أو طالبات"
+            ],
+            [
+              "siz",
+              "<tur>öğrencisiniz</tur>",
+              "أنتم طلاب أو طالبات"
+            ],
+            [
+              "onlar",
+              "<tur>öğrenciler</tur>",
+              "هم أو هن طلاب أو طالبات"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Merhaba, benim adım Ayşe. Memnun oldum.",
+              "fr": "مرحبا، اسمي عائشة. تشرفت بمعرفتك."
+            },
+            {
+              "tr": "Nerelisiniz? — Ben Fransızım.",
+              "fr": "من أين أنتم؟ — أنا فرنسي أو فرنسية."
+            },
+            {
+              "tr": "Ne iş yapıyorsunuz? — Öğrenciyim.",
+              "fr": "ماذا تعملون؟ — أنا طالب."
+            },
+            {
+              "tr": "Ben de memnun oldum. Görüşürüz!",
+              "fr": "تشرفت بكم أيضا. إلى اللقاء!"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "sen أم siz؟",
+          "text": "استخدم <b>sen</b> مع الأصدقاء والعائلة والأطفال. واستخدم <b>siz</b> مع شخص لا تعرفه، أو أكبر سنا، أو أستاذ، أو في إطار مهني. والمخاطبة الرسمية تتفق مع لواحق الجمع: <tur>Nasılsınız?</tur> (كيف حالكم؟)."
+        }
+      ],
+      "vocab": [
+        [
+          "ad",
+          "اسم"
+        ],
+        [
+          "soyad",
+          "اسم العائلة"
+        ],
+        [
+          "memnun olmak",
+          "يتشرف، يسر"
+        ],
+        [
+          "tanışmak",
+          "يتعرف على أحد"
+        ],
+        [
+          "nereli",
+          "من أي بلد"
+        ],
+        [
+          "ülke",
+          "بلد"
+        ],
+        [
+          "şehir",
+          "مدينة"
+        ],
+        [
+          "yaşamak",
+          "يعيش، يسكن"
+        ],
+        [
+          "öğrenci",
+          "طالب أو طالبة"
+        ],
+        [
+          "öğretmen",
+          "معلم"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "كيف نقول «أنا طالب»؟",
+          "options": [
+            "Öğrenciyim",
+            "Öğrencisin",
+            "Öğrenciyiz"
+          ],
+          "a": 0,
+          "why": "مع ben نضيف -yim: öğrenci + yim = öğrenciyim."
+        },
+        {
+          "q": "أي سؤال يقابل «كيف حالكم؟» في المخاطبة الرسمية؟",
+          "options": [
+            "Nasılsın?",
+            "Nasılsınız?",
+            "Nerelisiniz?"
+          ],
+          "a": 1,
+          "why": "المخاطبة الرسمية تضيف -ınız: nasıl + sınız = nasılsınız."
+        }
+      ]
+    },
+    {
+      "id": "va1-3",
+      "level": "A1",
+      "num": 3,
+      "title": "الجمع والضمائر وأسماء الإشارة",
+      "tr": "Çoğul, zamirler ve işaret sıfatları",
+      "goal": "التعبير عن الجمع، والإشارة إلى شيء قريب أو بعيد، واستبدال الاسم بضمير.",
+      "watch": "çoğul zamirler işaret",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تتكون صيغة الجمع بـ<b>-ler</b> أو <b>-lar</b>، حسب حرف العلة الأخير في الكلمة: <tur>kitap → kitaplar</tur>، <tur>ev → evler</tur>، <tur>öğrenci → öğrenciler</tur>. وبعد العدد يبقى الاسم مفردا: <tur>üç kitap</tur> (ثلاثة كتب)."
+        },
+        {
+          "t": "table",
+          "caption": "الضمائر الشخصية",
+          "head": [
+            "الشخص",
+            "الضمير",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "المفرد المتكلم",
+              "<tur>ben</tur>",
+              "أنا"
+            ],
+            [
+              "المفرد المخاطب",
+              "<tur>sen</tur>",
+              "أنت"
+            ],
+            [
+              "المفرد الغائب",
+              "<tur>o</tur>",
+              "هو، هي"
+            ],
+            [
+              "جمع المتكلم",
+              "<tur>biz</tur>",
+              "نحن"
+            ],
+            [
+              "جمع المخاطب",
+              "<tur>siz</tur>",
+              "أنتم"
+            ],
+            [
+              "جمع الغائب",
+              "<tur>onlar</tur>",
+              "هم، هن"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "caption": "أسماء الإشارة",
+          "head": [
+            "المفرد",
+            "الجمع",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "<tur>bu</tur>",
+              "<tur>bunlar</tur>",
+              "هذا، هؤلاء (قريب)"
+            ],
+            [
+              "<tur>şu</tur>",
+              "<tur>şunlar</tur>",
+              "ذاك، أولئك (أبعد قليلا)"
+            ],
+            [
+              "<tur>o</tur>",
+              "<tur>onlar</tur>",
+              "ذلك، أولئك (بعيد)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "يوضع اسم الإشارة قبل الاسم: <tur>bu kitap</tur> (هذا الكتاب)، <tur>şu çanta</tur> (هذه الحقيبة)، <tur>o araba</tur> (تلك السيارة هناك). وفي الجمع: <tur>bu kitaplar</tur>، <tur>şu çantalar</tur>، <tur>o arabalar</tur>."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bu kitaplar yeni.",
+              "fr": "هذه الكتب جديدة."
+            },
+            {
+              "tr": "Şu çanta benim.",
+              "fr": "تلك الحقيبة لي."
+            },
+            {
+              "tr": "O öğrenciler nereden geliyor?",
+              "fr": "من أين يأتي هؤلاء الطلاب؟"
+            },
+            {
+              "tr": "Her gün Türkçe çalışıyorum.",
+              "fr": "أدرس التركية كل يوم."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "الدور المزدوج لحرف o",
+          "text": "<tur>O</tur> يعمل ضميرا («هو أو هي») واسم إشارة للبعيد («ذاك أو تلك») في الوقت نفسه. والسياق هو الذي يحدد: <tur>O öğretmen</tur> = «ذاك المعلم هناك»؛ <tur>O öğretmen.</tur> = «هو معلم.»"
+        }
+      ],
+      "vocab": [
+        [
+          "kitap",
+          "كتاب"
+        ],
+        [
+          "çanta",
+          "حقيبة"
+        ],
+        [
+          "araba",
+          "سيارة"
+        ],
+        [
+          "ev",
+          "منزل"
+        ],
+        [
+          "masa",
+          "طاولة"
+        ],
+        [
+          "sandalye",
+          "كرسي"
+        ],
+        [
+          "yeni",
+          "جديد"
+        ],
+        [
+          "eski",
+          "قديم"
+        ],
+        [
+          "her",
+          "كل"
+        ],
+        [
+          "bazı",
+          "بعض"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما جمع «kitap»؟",
+          "options": [
+            "kitapler",
+            "kitaplar",
+            "kitap"
+          ],
+          "a": 1,
+          "why": "حرف العلة الأخير في kitap هو a: الجمع -lar، إذن kitaplar."
+        },
+        {
+          "q": "ما معنى «şu çanta»؟",
+          "options": [
+            "هذه الحقيبة (قريبة)",
+            "تلك الحقيبة (أبعد قليلا)",
+            "هذه الحقائب"
+          ],
+          "a": 1,
+          "why": "şu تشير إلى شيء بعيد قليلا؛ أما bu فللشيء القريب."
+        }
+      ]
+    },
+    {
+      "id": "va1-4",
+      "level": "A1",
+      "num": 4,
+      "title": "طرح الأسئلة الأساسية",
+      "tr": "Temel sorular",
+      "goal": "السؤال عن من وماذا وأين ومتى ولماذا وكيف وكم، ثم الإجابة بنعم أو لا.",
+      "watch": "soru kelimeleri",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "أدوات الاستفهام",
+          "head": [
+            "التركية",
+            "العربية",
+            "مثال"
+          ],
+          "rows": [
+            [
+              "<tur>kim</tur>",
+              "من",
+              "<tur>Bu kim?</tur> (من هذا؟)"
+            ],
+            [
+              "<tur>ne</tur>",
+              "ماذا",
+              "<tur>Ne yapıyorsun?</tur> (ماذا تفعل؟)"
+            ],
+            [
+              "<tur>nerede</tur>",
+              "أين (مكان)",
+              "<tur>Nerede oturuyorsun?</tur>"
+            ],
+            [
+              "<tur>nereye</tur>",
+              "إلى أين",
+              "<tur>Nereye gidiyorsun?</tur>"
+            ],
+            [
+              "<tur>nereden</tur>",
+              "من أين",
+              "<tur>Nereden geliyorsun?</tur>"
+            ],
+            [
+              "<tur>ne zaman</tur>",
+              "متى",
+              "<tur>Ne zaman geliyorsun?</tur>"
+            ],
+            [
+              "<tur>neden / niçin</tur>",
+              "لماذا",
+              "<tur>Neden gelmiyorsun?</tur>"
+            ],
+            [
+              "<tur>nasıl</tur>",
+              "كيف",
+              "<tur>Nasılsın?</tur>"
+            ],
+            [
+              "<tur>kaç</tur>",
+              "كم",
+              "<tur>Kaç kardeşin var?</tur>"
+            ],
+            [
+              "<tur>hangi</tur>",
+              "أي",
+              "<tur>Hangi kitap?</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "في السؤال المغلق (نعم أو لا) نضيف الأداة <b>mi</b> بعد الكلمة التي يقع عليها السؤال. وهي تكتب منفصلة وتتبع التناغم الصوتي: <tur>mi, mı, mu, mü</tur>. <tur>Öğrenci misin?</tur> (هل أنت طالب؟)، <tur>Bu kitap mı?</tur> (هل هذا هو الكتاب؟)."
+        },
+        {
+          "t": "p",
+          "text": "الترتيب المعتاد هو: الفاعل، ثم المتممات، ثم الفعل. وتوضع أداة الاستفهام غالبا قبل الفعل مباشرة: <tur>Ne yapıyorsun?</tur>، <tur>Nereye gidiyorsun?</tur>، <tur>Neden gelmiyorsun?</tur>."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Adın ne?",
+              "fr": "ما اسمك؟"
+            },
+            {
+              "tr": "Nerede oturuyorsun?",
+              "fr": "أين تسكن؟"
+            },
+            {
+              "tr": "Ne zaman geliyorsun?",
+              "fr": "متى تأتي؟"
+            },
+            {
+              "tr": "Nasılsın? — İyiyim, teşekkürler.",
+              "fr": "كيف حالك؟ — بخير، شكرا."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "mi بعد اسم علم",
+          "text": "تتفق الأداة مع حرف العلة الأخير في الكلمة السابقة: <tur>Ali mi?</tur>، <tur>Ayşe mi?</tur>، <tur>öğrenci mi?</tur>. وهي لا تلتصق بالكلمة أبدا."
+        }
+      ],
+      "vocab": [
+        [
+          "kim",
+          "من"
+        ],
+        [
+          "ne",
+          "ماذا"
+        ],
+        [
+          "nerede",
+          "أين"
+        ],
+        [
+          "nereye",
+          "إلى أين"
+        ],
+        [
+          "ne zaman",
+          "متى"
+        ],
+        [
+          "neden",
+          "لماذا"
+        ],
+        [
+          "nasıl",
+          "كيف"
+        ],
+        [
+          "kaç",
+          "كم"
+        ],
+        [
+          "hangi",
+          "أي"
+        ],
+        [
+          "çünkü",
+          "لأن"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "أي سؤال يعني «أين تسكن؟»؟",
+          "options": [
+            "Nereye gidiyorsun?",
+            "Nerede oturuyorsun?",
+            "Nereden geliyorsun?"
+          ],
+          "a": 1,
+          "why": "nerede تدل على المكان الذي تكون فيه؛ وoturuyorsun من oturmak (يسكن، يجلس)."
+        },
+        {
+          "q": "كيف تسأل «هل أنت طالب؟»؟",
+          "options": [
+            "Öğrenci mi?",
+            "Öğrenci misin?",
+            "Öğrenci ne?"
+          ],
+          "a": 1,
+          "why": "مع sen نضيف -sin ثم الأداة mi: öğrenci misin?"
+        }
+      ]
+    },
+    {
+      "id": "va1-5",
+      "level": "A1",
+      "num": 5,
+      "title": "تحديد المكان: حالات المكان",
+      "tr": "Bulunma, yönelme ve ayrılma",
+      "goal": "قول أين تكون، وإلى أين تذهب، ومن أين تأتي باستخدام -de و-e و-den.",
+      "watch": "bulunma yönelme ayrılma hali",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "ثلاث لواحق تكفي لتحديد مكان الحدث. <b>حالة المكان</b> <tur>-da / -de</tur> تدل على المكان الذي تكون فيه. و<b>حالة التوجيه</b> <tur>-a / -e</tur> تدل على الوجهة. و<b>حالة الابتداء</b> <tur>-dan / -den</tur> تدل على المصدر."
+        },
+        {
+          "t": "table",
+          "caption": "حالات المكان الثلاث",
+          "head": [
+            "الحالة",
+            "اللاحقة",
+            "ev (منزل)",
+            "okul (مدرسة)",
+            "sokak (شارع)"
+          ],
+          "rows": [
+            [
+              "حالة المكان",
+              "<tur>-da / -de</tur>",
+              "<tur>evde</tur>",
+              "<tur>okulda</tur>",
+              "<tur>sokakta</tur>"
+            ],
+            [
+              "حالة التوجيه",
+              "<tur>-a / -e</tur>",
+              "<tur>eve</tur>",
+              "<tur>okula</tur>",
+              "<tur>sokağa</tur>"
+            ],
+            [
+              "حالة الابتداء",
+              "<tur>-dan / -den</tur>",
+              "<tur>evden</tur>",
+              "<tur>okuldan</tur>",
+              "<tur>sokaktan</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "الحروف الساكنة المهموسة",
+          "text": "بعد <b>p, ç, t, k, s, ş, f, h</b> يصبح d حرف t: <tur>kitapta</tur>، <tur>sokakta</tur>، <tur>açtan</tur>. وبعد حرف علة، تضيف حالة التوجيه حرف وصل y: <tur>masa → masaya</tur>، <tur>araba → arabaya</tur>."
+        },
+        {
+          "t": "p",
+          "text": "مع حالة المكان، تعني <tur>var</tur> «يوجد» و<tur>yok</tur> «لا يوجد»: <tur>Evde su var.</tur> (يوجد ماء في المنزل.) <tur>Okulda kimse yok.</tur> (لا يوجد أحد في المدرسة.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Paris'te yaşıyorum.",
+              "fr": "أسكن في باريس."
+            },
+            {
+              "tr": "Okula gidiyorum.",
+              "fr": "أذهب إلى المدرسة."
+            },
+            {
+              "tr": "Marketten geliyorum.",
+              "fr": "أعود من السوق."
+            },
+            {
+              "tr": "Kitap masada.",
+              "fr": "الكتاب على الطاولة."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        [
+          "ev",
+          "منزل"
+        ],
+        [
+          "okul",
+          "مدرسة"
+        ],
+        [
+          "iş",
+          "عمل"
+        ],
+        [
+          "market",
+          "متجر كبير"
+        ],
+        [
+          "şehir",
+          "مدينة"
+        ],
+        [
+          "sokak",
+          "شارع"
+        ],
+        [
+          "masa",
+          "طاولة"
+        ],
+        [
+          "üstünde",
+          "فوق"
+        ],
+        [
+          "altında",
+          "تحت"
+        ],
+        [
+          "yanında",
+          "بجانب"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "أي صيغة تعني «إلى المدرسة» (وجهة)؟",
+          "options": [
+            "okulda",
+            "okula",
+            "okuldan"
+          ],
+          "a": 1,
+          "why": "الوجهة تستخدم حالة التوجيه -a: okul + a = okula."
+        },
+        {
+          "q": "كيف نقول «من المنزل»؟",
+          "options": [
+            "evde",
+            "eve",
+            "evden"
+          ],
+          "a": 2,
+          "why": "حالة الابتداء -den تدل على المصدر: ev + den = evden."
+        }
+      ]
+    },
+    {
+      "id": "va1-6",
+      "level": "A1",
+      "num": 6,
+      "title": "الأعداد الترتيبية والتواريخ",
+      "tr": "Sıra sayıları ve tarihler",
+      "goal": "قول الأول والثاني والثالث…، والسؤال عن التاريخ والحديث عن عيد الميلاد.",
+      "watch": "sıra sayıları",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "لتكوين عدد ترتيبي نضيف <b>-inci / -ıncı / -üncü / -uncu</b> حسب حرف العلة الأخير. واللاحقة تتفق مع العدد: <tur>bir → birinci</tur>، <tur>iki → ikinci</tur>، <tur>üç → üçüncü</tur>، <tur>beş → beşinci</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "الأعداد الترتيبية العشرة الأولى",
+          "head": [
+            "العدد",
+            "الترتيبي",
+            "العربية"
+          ],
+          "rows": [
+            [
+              "<tur>bir</tur>",
+              "<tur>birinci</tur>",
+              "الأول"
+            ],
+            [
+              "<tur>iki</tur>",
+              "<tur>ikinci</tur>",
+              "الثاني"
+            ],
+            [
+              "<tur>üç</tur>",
+              "<tur>üçüncü</tur>",
+              "الثالث"
+            ],
+            [
+              "<tur>dört</tur>",
+              "<tur>dördüncü</tur>",
+              "الرابع"
+            ],
+            [
+              "<tur>beş</tur>",
+              "<tur>beşinci</tur>",
+              "الخامس"
+            ],
+            [
+              "<tur>altı</tur>",
+              "<tur>altıncı</tur>",
+              "السادس"
+            ],
+            [
+              "<tur>yedi</tur>",
+              "<tur>yedinci</tur>",
+              "السابع"
+            ],
+            [
+              "<tur>sekiz</tur>",
+              "<tur>sekizinci</tur>",
+              "الثامن"
+            ],
+            [
+              "<tur>dokuz</tur>",
+              "<tur>dokuzuncu</tur>",
+              "التاسع"
+            ],
+            [
+              "<tur>on</tur>",
+              "<tur>onuncu</tur>",
+              "العاشر"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "انتبه إلى dört",
+          "text": "الحرف t الأخير في <tur>dört</tur> يصبح <b>d</b> قبل حرف علة: <tur>dördüncü</tur>. ونلاحظ التبادل نفسه في <tur>gitmek → gidiyorum</tur>."
+        },
+        {
+          "t": "p",
+          "text": "في التاريخ نقول الشهر بعد العدد: <tur>5 Mayıs</tur> (الخامس من مايو). و«كم تاريخ اليوم من الشهر؟» تقال <tur>Ayın kaçında?</tur> والجواب <tur>Ayın beşinde.</tur> (في الخامس). ولعيد الميلاد: <tur>Doğum günün ne zaman?</tur> — <tur>12 Mart'ta.</tur>"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "İlk ders bugün.",
+              "fr": "الدرس الأول اليوم."
+            },
+            {
+              "tr": "İkinci katta oturuyorum.",
+              "fr": "أسكن في الطابق الثاني."
+            },
+            {
+              "tr": "Doğum günün ne zaman? — 12 Mart'ta.",
+              "fr": "متى عيد ميلادك؟ — في الثاني عشر من مارس."
+            },
+            {
+              "tr": "Sınav ayın kaçında?",
+              "fr": "الاختبار في أي يوم من الشهر؟"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "مفردات مفيدة",
+          "text": "<tur>ilk</tur> = الأول (في سلسلة)، <tur>son</tur> = الأخير، <tur>sonuncu</tur> = الأخير (ترتيبيا)، <tur>kaçıncı</tur> = أي رتبة. و<tur>İlk kez</tur> تعني «للمرة الأولى»."
+        }
+      ],
+      "vocab": [
+        [
+          "birinci",
+          "الأول"
+        ],
+        [
+          "ikinci",
+          "الثاني"
+        ],
+        [
+          "üçüncü",
+          "الثالث"
+        ],
+        [
+          "dördüncü",
+          "الرابع"
+        ],
+        [
+          "beşinci",
+          "الخامس"
+        ],
+        [
+          "son",
+          "الأخير"
+        ],
+        [
+          "ilk",
+          "الأول"
+        ],
+        [
+          "doğum günü",
+          "عيد الميلاد"
+        ],
+        [
+          "tarih",
+          "تاريخ"
+        ],
+        [
+          "ay",
+          "شهر"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما العدد الترتيبي لـ«dört»؟",
+          "options": [
+            "dörtüncü",
+            "dördüncü",
+            "dörtünci"
+          ],
+          "a": 1,
+          "why": "dört تفقد t الأخيرة قبل حرف العلة وتأخذ ü: dördüncü."
+        },
+        {
+          "q": "ما معنى «Ayın kaçında»؟",
+          "options": [
+            "أي يوم نحن فيه؟",
+            "كم تاريخ اليوم من الشهر؟",
+            "أي شهر؟"
+          ],
+          "a": 1,
+          "why": "Ayın kaçında تسأل عن التاريخ الدقيق: كم تاريخ اليوم من الشهر."
+        }
+      ]
+    },
+    {
+      "id": "va1-7",
+      "level": "A1",
+      "num": 7,
+      "title": "المضارع المستمر: -yor",
+      "tr": "Şimdiki zaman",
+      "goal": "وصف ما يحدث الآن، وطرح السؤال، وتكوين النفي.",
+      "watch": "şimdiki zaman",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "نحذف <b>-mek / -mak</b> من المصدر، ونضيف <b>-yor</b>، ثم علامة الشخص. <tur>gelmek → geliyor</tur>. وحرف العلة الذي يسبق -yor يتبع التناغم الصوتي: <tur>yap-ı-yor</tur>، <tur>gel-i-yor</tur>، <tur>oku-yor</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "gelmek (يأتي) في المضارع المستمر",
+          "head": [
+            "الشخص",
+            "الصيغة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geliyorum</tur>",
+              "أنا آتي"
+            ],
+            [
+              "sen",
+              "<tur>geliyorsun</tur>",
+              "أنت تأتي"
+            ],
+            [
+              "o",
+              "<tur>geliyor</tur>",
+              "هو أو هي تأتي"
+            ],
+            [
+              "biz",
+              "<tur>geliyoruz</tur>",
+              "نحن نأتي"
+            ],
+            [
+              "siz",
+              "<tur>geliyorsunuz</tur>",
+              "أنتم تأتون"
+            ],
+            [
+              "onlar",
+              "<tur>geliyorlar</tur>",
+              "هم أو هن يأتون"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "جذور غير منتظمة",
+          "text": "بعض الأفعال تغير جذرها: <tur>gitmek → gidiyorum</tur>، <tur>etmek → ediyorum</tur>، <tur>yemek → yiyorum</tur>. فالحرف t الأخير يصبح d قبل حرف علة، وe في yemek يصبح i."
+        },
+        {
+          "t": "p",
+          "text": "يوضع النفي قبل -yor: <tur>gelmiyorum</tur> (لا آتي)، <tur>çalışmıyorum</tur> (لا أعمل). وللسؤال نضيف <tur>mu / mü</tur>: <tur>Geliyor musun?</tur> (هل تأتي؟)، <tur>Çalışıyor musunuz?</tur>."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Şimdi ne yapıyorsun?",
+              "fr": "ماذا تفعل الآن؟"
+            },
+            {
+              "tr": "Ders çalışıyorum.",
+              "fr": "أدرس."
+            },
+            {
+              "tr": "Annem çay içiyor.",
+              "fr": "أمي تشرب الشاي."
+            },
+            {
+              "tr": "Bugün çalışmıyorum.",
+              "fr": "اليوم لا أعمل."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        [
+          "şimdi",
+          "الآن"
+        ],
+        [
+          "bugün",
+          "اليوم"
+        ],
+        [
+          "çalışmak",
+          "يعمل، يدرس"
+        ],
+        [
+          "okumak",
+          "يقرأ"
+        ],
+        [
+          "yazmak",
+          "يكتب"
+        ],
+        [
+          "içmek",
+          "يشرب"
+        ],
+        [
+          "yemek",
+          "يأكل"
+        ],
+        [
+          "gitmek",
+          "يذهب"
+        ],
+        [
+          "gelmek",
+          "يأتي"
+        ],
+        [
+          "yapmak",
+          "يفعل"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "ما الصيغة الصحيحة لـ«أنا أقرأ»؟",
+          "options": [
+            "okuyorum",
+            "okuyorsun",
+            "okuyoruz"
+          ],
+          "a": 0,
+          "why": "الشخص الأول في المضارع المستمر هو -yorum: oku + yorum."
+        },
+        {
+          "q": "كيف نقول «أنا لا أفعل»؟",
+          "options": [
+            "yapmıyorum",
+            "yapıyorum",
+            "yapmıyor"
+          ],
+          "a": 0,
+          "why": "النفي -mı/-mi/-mu/-mü يتوسط قبل -yor: yap-mı-yor-um."
+        }
+      ]
+    },
+    {
+      "id": "va1-8",
+      "level": "A1",
+      "num": 8,
+      "title": "من… إلى…: -dan -e kadar",
+      "tr": "-dan -e kadar",
+      "goal": "التعبير عن مسار أو مدة أو حد باستخدام «من… إلى… / حتى».",
+      "watch": "-dan -e kadar",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "البنية <b>-dan / -den … -a / -e kadar</b> تعني «من… إلى…» أو «حتى…». يأخذ الاسم الأول حالة الابتداء، ويأخذ الثاني حالة التوجيه، ويغلق <tur>kadar</tur> المجموعة: <tur>evden okula kadar</tur> (من المنزل إلى المدرسة)."
+        },
+        {
+          "t": "table",
+          "caption": "ثلاثة استخدامات لكلمة kadar",
+          "head": [
+            "البنية",
+            "مثال",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "المكان",
+              "<tur>Karaköyden Taksime kadar yürüdüm.</tur>",
+              "مشيت من كاراكوي إلى تقسيم."
+            ],
+            [
+              "الزمان",
+              "<tur>Dokuzdan beşe kadar çalışıyorum.</tur>",
+              "أعمل من التاسعة إلى الخامسة."
+            ],
+            [
+              "الحد",
+              "<tur>Akşama kadar bekledim.</tur>",
+              "انتظرت حتى المساء."
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "التناغم والحروف الساكنة",
+          "text": "تتبع اللواحق حرف العلة الأخير: <tur>evden eve kadar</tur>، <tur>okuldan okula kadar</tur>. وبعد حرف ساكن مهموس يصبح <b>d</b> حرف <b>t</b>: <tur>sabahtan akşama kadar</tur>."
+        },
+        {
+          "t": "p",
+          "text": "يمكن أيضا التعبير عن المسافة: <tur>Evden okula kadar kaç kilometre?</tur> (كم كيلومترا من المنزل إلى المدرسة؟). وعن الحد الزمني: <tur>Yarına kadar vaktim var.</tur> (لدي وقت حتى الغد.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Evden okula kadar yürüyorum.",
+              "fr": "أمشي من المنزل إلى المدرسة."
+            },
+            {
+              "tr": "Sabah dokuzdan akşam beşe kadar çalışıyorum.",
+              "fr": "أعمل من التاسعة صباحا إلى الخامسة مساء."
+            },
+            {
+              "tr": "Taksime kadar metroyla gidiyorum.",
+              "fr": "أذهب إلى تقسيم بالمترو."
+            },
+            {
+              "tr": "Yarına kadar bekleyelim.",
+              "fr": "لننتظر حتى الغد."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "تعني أيضا «بقدر»",
+          "text": "<tur>Kadar</tur> قد تعني «بقدر»: <tur>Senin kadar çalışıyorum.</tur> (أعمل بقدر ما تعمل.) والسياق يبين إن كان الأمر حدا أم مقارنة."
+        }
+      ],
+      "vocab": [
+        [
+          "kadar",
+          "حتى، بقدر"
+        ],
+        [
+          "sabah",
+          "صباح"
+        ],
+        [
+          "akşam",
+          "مساء"
+        ],
+        [
+          "saat",
+          "ساعة"
+        ],
+        [
+          "dakika",
+          "دقيقة"
+        ],
+        [
+          "yol",
+          "طريق، درب"
+        ],
+        [
+          "yürümek",
+          "يمشي"
+        ],
+        [
+          "gitmek",
+          "يذهب"
+        ],
+        [
+          "gelmek",
+          "يأتي"
+        ],
+        [
+          "uzak",
+          "بعيد"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "كيف نقول «من المدرسة إلى المنزل»؟",
+          "options": [
+            "okulda eve kadar",
+            "okuldan eve kadar",
+            "okula evden kadar"
+          ],
+          "a": 1,
+          "why": "نقطة الانطلاق تأخذ حالة الابتداء -dan: okuldan؛ والوصول يأخذ حالة التوجيه: eve."
+        },
+        {
+          "q": "ما معنى «sabah dokuzdan akşam beşe kadar»؟",
+          "options": [
+            "من التاسعة صباحا إلى الخامسة مساء",
+            "في التاسعة وفي الخامسة",
+            "ابتداء من التاسعة فقط"
+          ],
+          "a": 0,
+          "why": "البنية -dan … -e kadar تعبر عن الفترة كاملة، من الساعة التاسعة إلى السابعة عشرة."
+        }
+      ]
+    },
+    {
+      "id": "va1-9",
+      "level": "A1",
+      "num": 9,
+      "title": "الملكية مع var / yok",
+      "tr": "İyelik ve var / yok",
+      "goal": "قول ما هو لي ولك وله، والتعبير عن «يوجد» أو «ليس لدي».",
+      "watch": "iyelik var yok",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "تتميز الملكية بلاحقة تلتصق بالاسم: <tur>evim</tur> (بيتي)، <tur>evin</tur> (بيتك)، <tur>evi</tur> (بيته). ويمكن تقويتها بضمير في حالة الإضافة: <tur>benim evim</tur>، <tur>senin evin</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "لواحق الملكية مع ev (منزل)",
+          "head": [
+            "الشخص",
+            "الصيغة",
+            "المعنى"
+          ],
+          "rows": [
+            [
+              "benim",
+              "<tur>evim</tur>",
+              "بيتي"
+            ],
+            [
+              "senin",
+              "<tur>evin</tur>",
+              "بيتك"
+            ],
+            [
+              "onun",
+              "<tur>evi</tur>",
+              "بيته"
+            ],
+            [
+              "bizim",
+              "<tur>evimiz</tur>",
+              "بيتنا"
+            ],
+            [
+              "sizin",
+              "<tur>eviniz</tur>",
+              "بيتكم"
+            ],
+            [
+              "onların",
+              "<tur>evleri</tur>",
+              "بيتهم"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "حرف الوصل s",
+          "text": "بعد حرف علة تضيف صيغة الشخص الثالث <b>s</b>: <tur>araba → arabası</tur> (سيارته)، <tur>çanta → çantası</tur>. وبعد حرف ساكن تكون اللاحقة ببساطة <tur>-i / -ı / -u / -ü</tur>: <tur>kitap → kitabı</tur>."
+        },
+        {
+          "t": "p",
+          "text": "<tur>Var</tur> تعني «يوجد أو لدي»، و<tur>yok</tur> «لا يوجد أو ليس لدي». ومع ضمير الملكية تصبح بمعنى «يملك»: <tur>Bir kardeşim var.</tur> (لدي أخ.) <tur>Param yok.</tur> (ليس لدي مال.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Benim adım Ali.",
+              "fr": "اسمي علي."
+            },
+            {
+              "tr": "Onun iki kardeşi var.",
+              "fr": "لديه شقيقان."
+            },
+            {
+              "tr": "Bizim evimiz küçük.",
+              "fr": "بيتنا صغير."
+            },
+            {
+              "tr": "Sizin arabanız var mı?",
+              "fr": "هل لديكم سيارة؟"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "الأسماء المركبة",
+          "text": "في الاسم المركب يبقى الاسم الأول مجردا ويأخذ الثاني لاحقة ملكية الشخص الثالث: <tur>okul çantası</tur> (حقيبة مدرسية، حرفيا «حقيبة المدرسة»)، <tur>Türkçe kitabı</tur> (كتاب التركية)، <tur>mutfak masası</tur> (طاولة المطبخ)."
+        }
+      ],
+      "vocab": [
+        [
+          "ev",
+          "منزل"
+        ],
+        [
+          "araba",
+          "سيارة"
+        ],
+        [
+          "kardeş",
+          "أخ أو أخت"
+        ],
+        [
+          "anne",
+          "أم"
+        ],
+        [
+          "baba",
+          "أب"
+        ],
+        [
+          "çanta",
+          "حقيبة"
+        ],
+        [
+          "para",
+          "مال"
+        ],
+        [
+          "var",
+          "يوجد، لدي"
+        ],
+        [
+          "yok",
+          "لا يوجد"
+        ],
+        [
+          "aile",
+          "عائلة"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "كيف نقول «بيتي»؟",
+          "options": [
+            "evim",
+            "evin",
+            "evi"
+          ],
+          "a": 0,
+          "why": "الشخص الأول المفرد يضيف -im: ev + im = evim."
+        },
+        {
+          "q": "ما معنى «Param yok»؟",
+          "options": [
+            "لدي مال",
+            "ليس لدي مال",
+            "يوجد مال"
+          ],
+          "a": 1,
+          "why": "yok تعبر عن الغياب؛ para (مال) + m (ملكية) + yok = ليس لدي مال."
+        }
+      ]
+    }
+  ]
+}

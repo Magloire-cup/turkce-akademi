@@ -111,7 +111,7 @@ const Progress = {
     const byTr = new Map();
     const valid = new Set();
     themes.forEach(t => t.words.forEach(w => {
-      const key = this.wordKey(w.tr, w.fr);
+      const key = this.wordKey(w.tr, w.frSrc || w.fr);
       valid.add(key);
       if (!byTr.has(w.tr)) byTr.set(w.tr, []);
       if (!byTr.get(w.tr).includes(key)) byTr.get(w.tr).push(key);

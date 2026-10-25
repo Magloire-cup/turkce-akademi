@@ -1,6 +1,6 @@
 /* Türkçe Akademi : page prononciation / alphabet interactif */
 
-const ALPHABET = [
+const ALPHABET_BASE = [
   { l: "A", type: "vowel", vowel: true, sound: "comme « a » français", words: [{ tr: "anne", fr: "mère" }, { tr: "araba", fr: "voiture" }] },
   { l: "B", type: "normal", sound: "comme « b »", words: [{ tr: "bahçe", fr: "jardin" }, { tr: "balık", fr: "poisson" }] },
   { l: "C", type: "special", sound: "« dj » comme dans « djinn »", words: [{ tr: "cam", fr: "verre" }, { tr: "cumartesi", fr: "samedi" }] },
@@ -32,13 +32,29 @@ const ALPHABET = [
   { l: "Z", type: "normal", sound: "comme « z »", words: [{ tr: "zeytin", fr: "olive" }, { tr: "zaman", fr: "temps" }] }
 ];
 
-const MINIMAL_PAIRS = [
+const MINIMAL_PAIRS_BASE = [
   { a: "kır", aFr: "campagne (ı = « e » de « le »)", b: "kir", bFr: "saleté (i = « i » de « si »)" },
   { a: "gül", aFr: "rose (ü = « u » de « rue »)", b: "göl", bFr: "lac (ö = « eu » de « peu »)" },
   { a: "çam", aFr: "pin (ç = « tch »)", b: "cam", bFr: "verre (c = « dj »)" },
   { a: "hal", aFr: "état, halle (h soufflé)", b: "al", bFr: "prends (sans h)" },
   { a: "bel", aFr: "taille (e bref)", b: "bal", bFr: "miel (a ouvert)" }
 ];
+
+const TA_LOC = window.TA_LOCALE || {};
+const ALPHABET = ALPHABET_BASE.map((a, i) => {
+  const tr = TA_LOC.alphabet && TA_LOC.alphabet[i];
+  if (!tr) return a;
+  return Object.assign({}, a, {
+    sound: tr.sound || a.sound,
+    words: a.words.map((w, j) => Object.assign({}, w, {
+      fr: (tr.words && tr.words[j] && tr.words[j].fr) || w.fr
+    }))
+  });
+});
+const MINIMAL_PAIRS = MINIMAL_PAIRS_BASE.map((p, i) => {
+  const tr = TA_LOC.minimalPairs && TA_LOC.minimalPairs[i];
+  return tr ? Object.assign({}, p, { aFr: tr.aFr || p.aFr, bFr: tr.bFr || p.bFr }) : p;
+});
 
 function trLower(s) {
   return s === "I" ? "ı" : s === "İ" ? "i" : s.toLowerCase();

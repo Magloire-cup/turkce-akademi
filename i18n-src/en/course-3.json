@@ -1,0 +1,1098 @@
+{
+  "domain": "course",
+  "fields": "title, subtitle, objectifs, blocks, dialogue.title, dialogue.lines[].fr, vocab[].fr, quiz.q/opts/exp",
+  "start": 8,
+  "end": 12,
+  "items": [
+    {
+      "id": "m9",
+      "num": 9,
+      "level": "A2",
+      "title": "Negation & questions",
+      "subtitle": "Saying no and asking questions with elegance",
+      "objectifs": [
+        "Negate a noun (değil) and a verb (-me)",
+        "Ask questions with mi/mı/mu/mü",
+        "Place the question particle correctly"
+      ],
+      "blocks": [
+        {
+          "t": "h",
+          "text": "Negating « to be »: değil"
+        },
+        {
+          "t": "p",
+          "text": "To negate « I am… », Turkish uses the word <tur>değil</tur> (not to be), placed <b>after</b> the noun, and it takes the personal endings itself: <tur>Öğretmen değilim</tur> (I am not a teacher), <tur>Hasta değilsin</tur> (you are not ill), <tur>Türk değil</tur> (he is not Turkish)."
+        },
+        {
+          "t": "h",
+          "text": "Negating a verb: -me/-ma"
+        },
+        {
+          "t": "p",
+          "text": "For verbs, negation is a <b>-me/-ma</b> block glued to the root, before the tense: <tur>gelmiyorum</tur> (I am not coming), <tur>yapmadım</tur> (I did not do it), <tur>gitmeyeceğim</tur> (I will not go). One -me is enough to negate the whole verb."
+        },
+        {
+          "t": "table",
+          "caption": "Summary of negations",
+          "head": [
+            "Type",
+            "Positive",
+            "Negative"
+          ],
+          "rows": [
+            [
+              "Being (noun)",
+              "<tur>öğrenciyim</tur>",
+              "<tur>öğrenci değilim</tur>"
+            ],
+            [
+              "Present",
+              "<tur>geliyorum</tur>",
+              "<tur>gelmiyorum</tur>"
+            ],
+            [
+              "Past",
+              "<tur>geldim</tur>",
+              "<tur>gelmedim</tur>"
+            ],
+            [
+              "Future",
+              "<tur>geleceğim</tur>",
+              "<tur>gelmeyeceğim</tur>"
+            ],
+            [
+              "Having",
+              "<tur>param var</tur>",
+              "<tur>param yok</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "h",
+          "text": "The question: mi, mı, mu, mü"
+        },
+        {
+          "t": "p",
+          "text": "The question particle goes <b>after the word being asked about</b> and is written <b>separately</b> (with a hyphen in textbooks: mı-). It harmonises with the last vowel of the preceding word, like a detached suffix."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Öğrenci misin?",
+              "fr": "Are you a student?"
+            },
+            {
+              "tr": "Geliyor musun?",
+              "fr": "Are you coming?"
+            },
+            {
+              "tr": "Bu kalem mi?",
+              "fr": "Is this (really) a pencil?"
+            },
+            {
+              "tr": "Anladın mı?",
+              "fr": "Did you understand?"
+            },
+            {
+              "tr": "Türk müsünüz?",
+              "fr": "Are you Turkish?"
+            },
+            {
+              "tr": "Kahve var mı?",
+              "fr": "Is there any coffee?"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "warn",
+          "tag": "Placement",
+          "text": "mi questions <b>the word immediately before it</b>: <tur>Yarın mı geliyorsun?</tur> (= is it tomorrow that you are coming?) ≠ <tur>Yarın geliyor musun?</tur> (= are you coming tomorrow?). Turkish does not need inversion: you simply « mark » what you are in doubt about."
+        },
+        {
+          "t": "p",
+          "text": "In casual speech, a simple rising intonation is enough too: <tur>Geliyorsun?</tur> (you are coming?). But the form with mi remains the reference in writing."
+        }
+      ],
+      "dialogue": {
+        "title": "So, are you coming or not?",
+        "lines": [
+          {
+            "name": "Elif",
+            "tr": "Yarın partiye geliyor musun?",
+            "fr": "Are you coming to the party tomorrow?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Gelmiyorum, maalesef. Çok yorgunum.",
+            "fr": "I am not coming, unfortunately. I am very tired."
+          },
+          {
+            "name": "Elif",
+            "tr": "Neden gelmiyorsun? Partiyi sevmiyor musun?",
+            "fr": "Why aren't you coming? Don't you like parties?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Hayır, partileri seviyorum. Ama sınavım var.",
+            "fr": "No, I do like parties. But I have an exam."
+          },
+          {
+            "name": "Elif",
+            "tr": "Ha, anladım! Sınav mı? Ne zaman?",
+            "fr": "Ah, I see! An exam? When?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Cumartesi günü. Hafta sonu çalışacağım.",
+            "fr": "On Saturday. I'll be studying at the weekend."
+          },
+          {
+            "name": "Elif",
+            "tr": "Tamam, geçmiş olsun şimdiden!",
+            "fr": "All right, good luck in advance!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "değil",
+          "fr": "not to be"
+        },
+        {
+          "tr": "parti",
+          "fr": "party"
+        },
+        {
+          "tr": "neden",
+          "fr": "why"
+        },
+        {
+          "tr": "anladım",
+          "fr": "I understood"
+        },
+        {
+          "tr": "hafta sonu",
+          "fr": "weekend"
+        },
+        {
+          "tr": "maalesef",
+          "fr": "unfortunately"
+        },
+        {
+          "tr": "şimdiden",
+          "fr": "in advance, as of now"
+        },
+        {
+          "tr": "sınav",
+          "fr": "exam"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« Öğretmen değilim » means…",
+          "opts": [
+            "I am a teacher",
+            "I am not a teacher",
+            "you are not a teacher",
+            "he is not a teacher"
+          ],
+          "a": 1,
+          "exp": "değil + -im = I am not."
+        },
+        {
+          "q": "Complete: « Geliyor… ? » (are you coming?)",
+          "opts": [
+            "mi",
+            "mı",
+            "mu",
+            "mü"
+          ],
+          "a": 1,
+          "exp": "The preceding word (geliyor) ends in o/u (back, rounded) → mı. Geliyor musun?"
+        },
+        {
+          "q": "« Türk…sünüz? » (are you Turkish?)",
+          "opts": [
+            "mi",
+            "mı",
+            "mu",
+            "mü"
+          ],
+          "a": 3,
+          "exp": "Türk ends in ü → mü: Türk müsünüz?"
+        },
+        {
+          "q": "Where does the question particle go?",
+          "opts": [
+            "always at the start of the sentence",
+            "after the word being asked about",
+            "after the verb only",
+            "at the end of the sentence only"
+          ],
+          "a": 1,
+          "exp": "It follows the word in doubt: its position defines what you are asking about."
+        },
+        {
+          "q": "« Partiyi sevmiyor musun? » means…",
+          "opts": [
+            "do you like parties?",
+            "don't you like parties?",
+            "will you go to the party?",
+            "is the party cancelled?"
+          ],
+          "a": 1,
+          "exp": "sev-mi-yor (does not like) + musun: a negative question, « don't you like…? »."
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "num": 10,
+      "level": "B1",
+      "title": "At the restaurant: the first cases",
+      "subtitle": "Locative, accusative, dative: ordering like a local",
+      "objectifs": [
+        "Use the locative -de/-da",
+        "Understand the accusative of a definite object",
+        "Order food and ask for the bill"
+      ],
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Turkish replaces French prepositions (to, in, on, towards…) with <b>case suffixes</b> glued to the end of the noun. There are six; this module teaches you the three most useful ones at the restaurant."
+        },
+        {
+          "t": "h",
+          "text": "The locative: -de / -da (in, at, on)"
+        },
+        {
+          "t": "table",
+          "caption": "The locative",
+          "head": [
+            "Word",
+            "Locative",
+            "Translation"
+          ],
+          "rows": [
+            [
+              "<tur>ev</tur>",
+              "<tur>evde</tur>",
+              "at home"
+            ],
+            [
+              "<tur>masa</tur>",
+              "<tur>masada</tur>",
+              "on the table"
+            ],
+            [
+              "<tur>okul</tur>",
+              "<tur>okulda</tur>",
+              "at school"
+            ],
+            [
+              "<tur>iş</tur>",
+              "<tur>işte</tur>",
+              "at work"
+            ],
+            [
+              "<tur>sokak</tur>",
+              "<tur>sokakta</tur>",
+              "in the street"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Voiceless consonants",
+          "text": "If the word ends in a voiceless consonant (p, ç, t, k, s, ş, f, h), the <b>d</b> of the suffix becomes <b>t</b>: sokak → soka<b>kta</b>, et → e<b>tte</b>, iş → i<b>şte</b>. A handy mnemonic for the voiceless ones: « <b>p ç t k s ş f h</b> »: fresh Turkish fish cooks quickly."
+        },
+        {
+          "t": "h",
+          "text": "The accusative: the definite object (-i, -ı, -u, -ü)"
+        },
+        {
+          "t": "p",
+          "text": "A key subtlety: the accusative does not mark just any object, but the <b>definite</b> object — the one already known. Compare:"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ekmek aldım.",
+              "fr": "I bought bread. (indefinite: bread in general)"
+            },
+            {
+              "tr": "Ekmeği aldım.",
+              "fr": "I took the bread. (definite: the one we were expecting)"
+            },
+            {
+              "tr": "Kitap okuyorum.",
+              "fr": "I am reading (books). (general activity)"
+            },
+            {
+              "tr": "Kitabı okuyorum.",
+              "fr": "I am reading the book. (that particular book)"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "After a final vowel, a buffer <b>y</b> slips in: <tur>masa-y-ı</tur> (the table), <tur>kapı-y-ı</tur> (the door), <tur>çay-ı</tur> (the tea)."
+        },
+        {
+          "t": "h",
+          "text": "The dative: -e / -a (to, towards)"
+        },
+        {
+          "t": "p",
+          "text": "It marks the destination: <tur>Eve gidiyorum</tur> (I am going home), <tur>Okula gittik</tur> (we went to school), <tur>Masaya koydum</tur> (I put it on the table). After a vowel, add buffer y: <tur>araba-y-a</tur>."
+        },
+        {
+          "t": "h",
+          "text": "Restaurant survival kit"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bir menü alabilir miyim?",
+              "fr": "Could I have a menu?"
+            },
+            {
+              "tr": "İki kebap ve bir ayran, lütfen.",
+              "fr": "Two kebabs and one ayran, please."
+            },
+            {
+              "tr": "Hesabı alabilir miyiz?",
+              "fr": "Could we have the bill?"
+            },
+            {
+              "tr": "Çok lezzetliydi!",
+              "fr": "It was delicious!"
+            },
+            {
+              "tr": "Bahşiş bırakalım mı?",
+              "fr": "Shall we leave a tip?"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Magic formula",
+          "text": "<b>alabilir miyim?</b> (may I…) turns any request into a polite formula: <tur>Su alabilir miyim?</tur>, <tur>Oturabilir miyim?</tur>. Add <b>efendim</b> for a very courteous tone."
+        }
+      ],
+      "dialogue": {
+        "title": "Dinner at the restaurant",
+        "lines": [
+          {
+            "name": "Garson",
+            "tr": "Hoş geldiniz! Buyurun.",
+            "fr": "Welcome! Please, come in."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Teşekkürler. Bir menü alabilir miyim?",
+            "fr": "Thank you. Could I have the menu?"
+          },
+          {
+            "name": "Garson",
+            "tr": "Tabii, buyurun. Ne içersiniz?",
+            "fr": "Of course, here you go. What would you like to drink?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Ben bir ayran, Elif bir şalgam istiyor.",
+            "fr": "I'll have an ayran, and Elif wants a şalgam."
+          },
+          {
+            "name": "Elif",
+            "tr": "Yok yok, ben de ayran içiyorum!",
+            "fr": "No, no, I'm having an ayran too!"
+          },
+          {
+            "name": "Garson",
+            "tr": "Ne yersiniz?",
+            "fr": "What would you like to eat?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "İki Adana kebabı, lütfen. Acısız olsun.",
+            "fr": "Two Adana kebabs, please. Not spicy."
+          },
+          {
+            "name": "Garson",
+            "tr": "Buyurun, afiyet olsun!",
+            "fr": "Here you are, enjoy your meal!"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Çok lezzetliydi! Hesabı alabilir miyiz?",
+            "fr": "It was delicious! Could we have the bill?"
+          },
+          {
+            "name": "Garson",
+            "tr": "Tabii. Yüz seksen lira.",
+            "fr": "Of course. One hundred and eighty lira."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "garson",
+          "fr": "waiter"
+        },
+        {
+          "tr": "menü",
+          "fr": "menu"
+        },
+        {
+          "tr": "hesap",
+          "fr": "bill, check"
+        },
+        {
+          "tr": "lezzetli",
+          "fr": "delicious"
+        },
+        {
+          "tr": "acılı / acısız",
+          "fr": "spicy / not spicy"
+        },
+        {
+          "tr": "içmek / yemek",
+          "fr": "to drink / to eat"
+        },
+        {
+          "tr": "ayran",
+          "fr": "yoghurt drink"
+        },
+        {
+          "tr": "kebap",
+          "fr": "kebab"
+        },
+        {
+          "tr": "afiyet olsun",
+          "fr": "enjoy your meal"
+        },
+        {
+          "tr": "servis",
+          "fr": "service"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« evde » means…",
+          "opts": [
+            "towards the house",
+            "at home",
+            "from the house",
+            "the house (object)"
+          ],
+          "a": 1,
+          "exp": "-de = locative: in/at home."
+        },
+        {
+          "q": "Why « sokakta » and not « sokakda »?",
+          "opts": [
+            "vowel harmony",
+            "final k is voiceless → t",
+            "a common learner error",
+            "the k disappears"
+          ],
+          "a": 1,
+          "exp": "After a voiceless consonant (k), d → t: sokaKTA. Likewise: işte, otobüste."
+        },
+        {
+          "q": "« Ekmeği aldım » means…",
+          "opts": [
+            "I bought some bread",
+            "I took THE bread",
+            "I am going to the bread",
+            "the bread belongs to me"
+          ],
+          "a": 1,
+          "exp": "The accusative -i marks the definite object: the bread in question."
+        },
+        {
+          "q": "Complete: « Okul… gidiyorum » (I am going to school)",
+          "opts": [
+            "-da",
+            "-a",
+            "-ı",
+            "-dan"
+          ],
+          "a": 1,
+          "exp": "Destination → dative -a: okula gidiyorum."
+        },
+        {
+          "q": "The politest way to order?",
+          "opts": [
+            "Ekmek ver!",
+            "Ekmek!",
+            "Ekmek alabilir miyim?",
+            "Ekmek var, ekmek yok"
+          ],
+          "a": 2,
+          "exp": "alabilir miyim = « may I have… », the all-purpose polite formula."
+        }
+      ]
+    },
+    {
+      "id": "m11",
+      "num": 11,
+      "level": "B1",
+      "title": "The past: -di and -miş",
+      "subtitle": "Telling what you saw… and what you heard",
+      "objectifs": [
+        "Conjugate in the witnessed past (-di)",
+        "Discover the reported past (-miş)",
+        "Talk about your day"
+      ],
+      "blocks": [
+        {
+          "t": "h",
+          "text": "The witnessed past: -di"
+        },
+        {
+          "t": "p",
+          "text": "Called <b>görülen geçmiş</b> (seen past), -di tells what you <b>witnessed directly</b>. Pattern: root + <b>-di</b> + person. Everything is glued on and harmonised."
+        },
+        {
+          "t": "table",
+          "caption": "« gelmek » (to come) in the past",
+          "head": [
+            "Person",
+            "Turkish",
+            "Translation"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geldim</tur>",
+              "I came"
+            ],
+            [
+              "sen",
+              "<tur>geldin</tur>",
+              "you came"
+            ],
+            [
+              "o",
+              "<tur>geldi</tur>",
+              "he/she came"
+            ],
+            [
+              "biz",
+              "<tur>geldik</tur>",
+              "we came"
+            ],
+            [
+              "siz",
+              "<tur>geldiniz</tur>",
+              "you came"
+            ],
+            [
+              "onlar",
+              "<tur>geldiler</tur>",
+              "they came"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Negation: <tur>gelmedim</tur> (I did not come), with the familiar -me. Watch the vowel harmonies: <tur>baktım</tur> (I looked), <tur>koştum</tur> (I ran), <tur>içtim</tur> (I drank), <tur>öptüm</tur>… (I kissed: the famous song)."
+        },
+        {
+          "t": "h",
+          "text": "The reported past: -miş"
+        },
+        {
+          "t": "p",
+          "text": "Here is a gem of Turkish: the <b>duyulan geçmiş</b> (heard past). It is used when you <b>report</b> an event you did not see yourself, or to express surprise."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Yağmur yağmış.",
+              "fr": "It rained, apparently. (I did not see it)"
+            },
+            {
+              "tr": "Ali evlenmiş!",
+              "fr": "Ali is said to have got married! (I have just heard)"
+            },
+            {
+              "tr": "Çok yorgunmuş.",
+              "fr": "Apparently he was very tired."
+            },
+            {
+              "tr": "Bir varmış, bir yokmuş.",
+              "fr": "Once upon a time… (the opening of folk tales)"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Nuance",
+          "text": "French « paraît-il / aurait / se serait » ≈ -miş. In Turkish, saying « Ali geldi » (I saw him arrive) versus « Ali gelmiş » (I was told he had arrived) distinguishes <b>the source of the information</b>: a nuance French lacks, and one Turks consider essential!"
+        },
+        {
+          "t": "h",
+          "text": "Talking about your day"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Sabah erken kalktım.",
+              "fr": "I got up early in the morning."
+            },
+            {
+              "tr": "Kahvaltı yaptım, sonra ders çalıştım.",
+              "fr": "I had breakfast, then I studied."
+            },
+            {
+              "tr": "Akşam arkadaşlarla buluştum.",
+              "fr": "In the evening I met up with friends."
+            },
+            {
+              "tr": "Çok eğlendik!",
+              "fr": "We had a lot of fun!"
+            }
+          ]
+        }
+      ],
+      "dialogue": {
+        "title": "Monday morning",
+        "lines": [
+          {
+            "name": "Elif",
+            "tr": "Hafta sonu ne yaptın?",
+            "fr": "What did you do at the weekend?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Cumartesi sinemaya gittim. Film çok güzeldi.",
+            "fr": "On Saturday I went to the cinema. The film was really good."
+          },
+          {
+            "name": "Elif",
+            "tr": "Hangi filmi seyrettin?",
+            "fr": "Which film did you see?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Yeni Türk komedisini. Çok güldüm!",
+            "fr": "The new Turkish comedy. I laughed a lot!"
+          },
+          {
+            "name": "Elif",
+            "tr": "Ben de duydum, çok komikmiş.",
+            "fr": "I heard about it too, apparently it's very funny."
+          },
+          {
+            "name": "Magloire",
+            "tr": "Evet! Pazar günü ise evde kaldım ve dinlendim.",
+            "fr": "Yes! On Sunday, though, I stayed at home and rested."
+          },
+          {
+            "name": "Elif",
+            "tr": "Bence en doğru karar. Ben de yorgundum, hiçbir şey yapmadım.",
+            "fr": "In my opinion that was the best decision. I was tired too, I did nothing."
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "kalkmak",
+          "fr": "to get up"
+        },
+        {
+          "tr": "dinlenmek",
+          "fr": "to rest"
+        },
+        {
+          "tr": "eğlenmek",
+          "fr": "to have fun"
+        },
+        {
+          "tr": "gülmek",
+          "fr": "to laugh"
+        },
+        {
+          "tr": "seyretmek",
+          "fr": "to watch (a film)"
+        },
+        {
+          "tr": "duymak",
+          "fr": "to hear"
+        },
+        {
+          "tr": "hiçbir şey",
+          "fr": "nothing"
+        },
+        {
+          "tr": "karar",
+          "fr": "decision"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« gittim » means…",
+          "opts": [
+            "I come",
+            "I went",
+            "I will go",
+            "he went"
+          ],
+          "a": 1,
+          "exp": "git + -ti + -m: I went. (the root git- keeps its t → gitti, not « gitedi »)"
+        },
+        {
+          "q": "« Ali evlenmiş » expresses…",
+          "opts": [
+            "that I saw Ali get married",
+            "that I was told Ali got married",
+            "that Ali is going to get married",
+            "that Ali is not married"
+          ],
+          "a": 1,
+          "exp": "-miş = reported past: I know it from an indirect source."
+        },
+        {
+          "q": "Negative of « geldik » (we came)?",
+          "opts": [
+            "gelmedik",
+            "gelmediler",
+            "gelmeyiz",
+            "gelmiyoruz"
+          ],
+          "a": 0,
+          "exp": "-me slips in before the ending: gel-me-dik."
+        },
+        {
+          "q": "« Bir varmış, bir yokmuş » opens…",
+          "opts": [
+            "a television news bulletin",
+            "a folk tale",
+            "a political speech",
+            "a recipe"
+          ],
+          "a": 1,
+          "exp": "It is the Turkish « once upon a time », in the reported past, as it should be for stories."
+        },
+        {
+          "q": "« Çok güldüm » means…",
+          "opts": [
+            "I laughed a lot",
+            "I was funny",
+            "he laughed",
+            "I am going to laugh"
+          ],
+          "a": 0,
+          "exp": "gül (to laugh) + -d + -üm: güldüm."
+        }
+      ]
+    },
+    {
+      "id": "m12",
+      "num": 12,
+      "level": "B1",
+      "title": "The future & projects",
+      "subtitle": "-ecek, essential little words, and on towards B1",
+      "objectifs": [
+        "Conjugate in the future (-ecek)",
+        "Talk about your plans",
+        "Use ile, için, gibi, çünkü"
+      ],
+      "blocks": [
+        {
+          "t": "h",
+          "text": "The future: -ecek / -acak"
+        },
+        {
+          "t": "table",
+          "caption": "« gelmek » (to come) in the future",
+          "head": [
+            "Person",
+            "Turkish",
+            "Translation"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleceğim</tur>",
+              "I will come"
+            ],
+            [
+              "sen",
+              "<tur>geleceksin</tur>",
+              "you will come"
+            ],
+            [
+              "o",
+              "<tur>gelecek</tur>",
+              "he/she will come"
+            ],
+            [
+              "biz",
+              "<tur>geleceğiz</tur>",
+              "we will come"
+            ],
+            [
+              "siz",
+              "<tur>geleceksiniz</tur>",
+              "you will come"
+            ],
+            [
+              "onlar",
+              "<tur>gelecekler</tur>",
+              "they will come"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "warn",
+          "tag": "The famous k → ğ",
+          "text": "Look at <tur>geleceğim</tur>: the <b>k</b> of « gelecek » becomes <b>ğ</b> when a vowel follows. General rule: a final k softens to ğ before a vowel (yapacak → yapacağım). This is consonant alternation: Turkish loves to soften its final consonants."
+        },
+        {
+          "t": "p",
+          "text": "Negation: <tur>gelmeyeceğim</tur> (I will not come): -me slips in, and the k turns back into… k! (gel-me-y-ecek-im). Question: <tur>Gelecek misin?</tur> (will you come?)."
+        },
+        {
+          "t": "h",
+          "text": "Talking about plans"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Yarın spor yapacağım.",
+              "fr": "Tomorrow I will do some sport."
+            },
+            {
+              "tr": "Önümüzdeki hafta sınavım var.",
+              "fr": "Next week I have an exam."
+            },
+            {
+              "tr": "Gelecek ay Türkiye'ye gideceğim.",
+              "fr": "Next month I will go to Turkey."
+            },
+            {
+              "tr": "Bu akşam evde kalacağım.",
+              "fr": "Tonight I will stay at home."
+            }
+          ]
+        },
+        {
+          "t": "h",
+          "text": "The little words that change everything"
+        },
+        {
+          "t": "table",
+          "caption": "Essential postpositions & connectors",
+          "head": [
+            "Word",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "<tur>ile</tur> (or -le/-la)",
+              "with",
+              "<tur>arkadaşımla</tur> = with my friend"
+            ],
+            [
+              "<tur>için</tur>",
+              "for, in order to",
+              "<tur>senin için</tur> = for you"
+            ],
+            [
+              "<tur>gibi</tur>",
+              "like",
+              "<tur>kedi gibi</tur> = like a cat"
+            ],
+            [
+              "<tur>çünkü</tur>",
+              "because",
+              "<tur>Yorgunum, çünkü az uyudum.</tur>"
+            ],
+            [
+              "<tur>ama / fakat</tur>",
+              "but",
+              "<tur>İstedim ama yapamadım.</tur>"
+            ],
+            [
+              "<tur>ve</tur>",
+              "and",
+              "<tur>çay ve kahve</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Congratulations",
+          "text": "You have finished the A1→B1 path! You can now introduce yourself, count, conjugate in the three main tenses, negate, ask questions, order at a restaurant and talk about your day. The logical next step: build your vocabulary with the flashcards, review the reference grammar, and above all: <b>speak</b>. Türkçe konuşmak istiyorsan, konuş! One Turk who corrects you is worth a thousand exercises. Bol şans! (Good luck!)"
+        }
+      ],
+      "dialogue": {
+        "title": "Weekend plans",
+        "lines": [
+          {
+            "name": "Elif",
+            "tr": "Yarın ne yapacaksın?",
+            "fr": "What are you going to do tomorrow?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Sabah spor yapacağım, sonra kütüphanede ders çalışacağım.",
+            "fr": "In the morning I will do some sport, then I will study at the library."
+          },
+          {
+            "name": "Elif",
+            "tr": "Akşam sinemaya gidecek misin?",
+            "fr": "Will you go to the cinema in the evening?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Bilmiyorum. Yorgun olursa evde kalacağım.",
+            "fr": "I don't know. If I am tired, I will stay at home."
+          },
+          {
+            "name": "Elif",
+            "tr": "Biz Deniz'le dışarı yiyeceğiz. Katılmak ister misin?",
+            "fr": "Deniz and I are eating out. Do you want to join us?"
+          },
+          {
+            "name": "Magloire",
+            "tr": "Ne için? Kutlama mı var?",
+            "fr": "What's the occasion? Is there a celebration?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Evet! Deniz işe girdi, kutlayacağız.",
+            "fr": "Yes! Deniz has started a new job, we are going to celebrate."
+          },
+          {
+            "name": "Magloire",
+            "tr": "O zaman ben de geleceğim. Nerede buluşacaksınız?",
+            "fr": "Then I will come too. Where will you meet?"
+          },
+          {
+            "name": "Elif",
+            "tr": "Saat sekizde, Kadıköy'de. Görüşürüz!",
+            "fr": "At eight o'clock, in Kadıköy. See you!"
+          }
+        ]
+      },
+      "vocab": [
+        {
+          "tr": "katılmak",
+          "fr": "to join, to take part"
+        },
+        {
+          "tr": "kutlamak",
+          "fr": "to celebrate, to congratulate"
+        },
+        {
+          "tr": "dışarı",
+          "fr": "outside"
+        },
+        {
+          "tr": "önümüzdeki hafta",
+          "fr": "next week"
+        },
+        {
+          "tr": "gelecek ay",
+          "fr": "next month"
+        },
+        {
+          "tr": "ile / -la",
+          "fr": "with"
+        },
+        {
+          "tr": "için",
+          "fr": "for"
+        },
+        {
+          "tr": "gibi",
+          "fr": "like"
+        },
+        {
+          "tr": "çünkü",
+          "fr": "because"
+        },
+        {
+          "tr": "bol şans",
+          "fr": "good luck"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "« geleceğim » means…",
+          "opts": [
+            "I come",
+            "I will come",
+            "he will come",
+            "I came"
+          ],
+          "a": 1,
+          "exp": "gel + -ecek + -im → geleceğim (k becomes ğ before the suffix vowel)."
+        },
+        {
+          "q": "Why « yapacağım » and not « yapacakım »?",
+          "opts": [
+            "vowel harmony",
+            "the final k softens to ğ before a vowel",
+            "the a disappears",
+            "school error"
+          ],
+          "a": 1,
+          "exp": "Consonant alternation k→ğ: yap-acak-ım → yapacağım."
+        },
+        {
+          "q": "« Gelecek ay Türkiye'ye gideceğim » means…",
+          "opts": [
+            "This month I am going to Turkey",
+            "Next month I will go to Turkey",
+            "Last year I went to Turkey",
+            "I would like to go to Turkey"
+          ],
+          "a": 1,
+          "exp": "gelecek ay = the coming month; gideceğim = future of gitmek."
+        },
+        {
+          "q": "« senin için » means…",
+          "opts": [
+            "with you",
+            "like you",
+            "for you",
+            "without you"
+          ],
+          "a": 2,
+          "exp": "için = for. senin için = for you."
+        },
+        {
+          "q": "« Yorgunum, çünkü az uyudum » means…",
+          "opts": [
+            "I am tired but I slept well",
+            "I am tired because I slept little",
+            "I will be tired if I sleep little",
+            "Although tired, I slept"
+          ],
+          "a": 1,
+          "exp": "çünkü = because; az = little; uyudum = I slept."
+        }
+      ]
+    }
+  ]
+}

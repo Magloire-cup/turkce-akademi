@@ -1,0 +1,1128 @@
+{
+  "domain": "parcours",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 0,
+  "end": 7,
+  "items": [
+    {
+      "id": "u1",
+      "num": 1,
+      "level": "A1",
+      "title": "First contacts",
+      "goal": "Greet people, introduce yourself and say your nationality, city and profession.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "In Turkish, the verb «to be» is not conjugated in the present: suffixes attach directly to the noun or adjective. <tur>Öğretmenim</tur> therefore means «I am a teacher» (or «my teacher», depending on the context)."
+        },
+        {
+          "t": "table",
+          "caption": "The present of «to be» with öğretmen (teacher)",
+          "head": [
+            "Person",
+            "Form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>öğretmenim</tur>",
+              "I am a teacher"
+            ],
+            [
+              "sen",
+              "<tur>öğretmensin</tur>",
+              "you are a teacher"
+            ],
+            [
+              "o",
+              "<tur>öğretmen</tur>",
+              "he / she is a teacher"
+            ],
+            [
+              "biz",
+              "<tur>öğretmeniz</tur>",
+              "we are teachers"
+            ],
+            [
+              "siz",
+              "<tur>öğretmensiniz</tur>",
+              "you are a teacher (polite or plural)"
+            ],
+            [
+              "onlar",
+              "<tur>öğretmenler</tur>",
+              "they are teachers"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The plural of nouns is formed with <b>-ler</b> or <b>-lar</b>, depending on the last vowel: <tur>öğrenci → öğrenciler</tur>, <tur>kitap → kitaplar</tur>. The indefinite article «a / an» is <tur>bir</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "Introduction questions",
+          "head": [
+            "Question",
+            "Model answer"
+          ],
+          "rows": [
+            [
+              "<tur>Adınız ne?</tur>",
+              "<tur>Benim adım Ali.</tur>"
+            ],
+            [
+              "<tur>Nerelisiniz?</tur>",
+              "<tur>Ben Fransızım.</tur>"
+            ],
+            [
+              "<tur>Nerede oturuyorsunuz?</tur>",
+              "<tur>Paris'te oturuyorum.</tur>"
+            ],
+            [
+              "<tur>Ne iş yapıyorsunuz?</tur>",
+              "<tur>Ben öğrenciyim.</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Merhaba, benim adım Ayşe.",
+              "fr": "Hello, my name is Ayşe."
+            },
+            {
+              "tr": "Ben Türküm, ama Fransa'da yaşıyorum.",
+              "fr": "I am Turkish, but I live in France."
+            },
+            {
+              "tr": "Siz nerelisiniz?",
+              "fr": "Where are you from?"
+            },
+            {
+              "tr": "Ben öğrenciyim, o öğretmen.",
+              "fr": "I am a student, he is a teacher."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Politeness",
+          "text": "Use <b>sen</b> with friends, family and children; <b>siz</b> with strangers, older people and in professional settings. The polite plural takes the same endings as the plural «you»."
+        }
+      ],
+      "vocab": [
+        [
+          "merhaba",
+          "hello"
+        ],
+        [
+          "günaydın",
+          "good morning"
+        ],
+        [
+          "ad",
+          "name"
+        ],
+        [
+          "soyad",
+          "surname"
+        ],
+        [
+          "ülke",
+          "country"
+        ],
+        [
+          "şehir",
+          "city"
+        ],
+        [
+          "oturmak",
+          "to live, to reside"
+        ],
+        [
+          "iş",
+          "work, job"
+        ],
+        [
+          "öğrenci",
+          "student"
+        ],
+        [
+          "öğretmen",
+          "teacher"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "How do you say «I am a student»?",
+          "options": [
+            "Öğrenciyim",
+            "Öğrencisin",
+            "Öğrenciyiz"
+          ],
+          "a": 0,
+          "why": "With ben, you add -yim: öğrenci + yim = öğrenciyim."
+        },
+        {
+          "q": "Which form means «you are» (polite)?",
+          "options": [
+            "öğretmensin",
+            "öğretmensiniz",
+            "öğretmenler"
+          ],
+          "a": 1,
+          "why": "The polite second person plural takes -siniz."
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "num": 2,
+      "level": "A1",
+      "title": "The present moment",
+      "goal": "Describe what is happening now and use the present continuous.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The infinitive ends in <b>-mek</b> or <b>-mak</b>: <tur>gelmek</tur> (to come), <tur>yapmak</tur> (to do). For the present continuous, you drop this ending, add <b>-yor</b>, then the person marker."
+        },
+        {
+          "t": "table",
+          "caption": "yapmak (to do) in the present continuous",
+          "head": [
+            "Person",
+            "Form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>yapıyorum</tur>",
+              "I am doing"
+            ],
+            [
+              "sen",
+              "<tur>yapıyorsun</tur>",
+              "you are doing"
+            ],
+            [
+              "o",
+              "<tur>yapıyor</tur>",
+              "he / she is doing"
+            ],
+            [
+              "biz",
+              "<tur>yapıyoruz</tur>",
+              "we are doing"
+            ],
+            [
+              "siz",
+              "<tur>yapıyorsunuz</tur>",
+              "you are doing"
+            ],
+            [
+              "onlar",
+              "<tur>yapıyorlar</tur>",
+              "they are doing"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Negation and questions",
+          "text": "The negative goes before -yor: <tur>yapmıyorum</tur> (I am not doing). To ask a question, add <tur>mu / mü</tur> after the verb: <tur>Yapıyor musun?</tur> (Are you doing it?)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Şimdi ne yapıyorsun?",
+              "fr": "What are you doing now?"
+            },
+            {
+              "tr": "Şu anda kitap okuyorum.",
+              "fr": "Right now, I am reading a book."
+            },
+            {
+              "tr": "Ali çay içiyor, biz ders çalışıyoruz.",
+              "fr": "Ali is drinking tea, we are studying."
+            },
+            {
+              "tr": "Annem telefonda konuşuyor.",
+              "fr": "My mother is talking on the phone."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Watch out",
+          "text": "Some verbs change their root: <tur>gitmek → gidiyorum</tur>, <tur>yemek → yiyorum</tur>, <tur>içmek → içiyorum</tur>. Learn these forms in use rather than in isolation."
+        }
+      ],
+      "vocab": [
+        [
+          "şimdi",
+          "now"
+        ],
+        [
+          "şu anda",
+          "right now"
+        ],
+        [
+          "okumak",
+          "to read"
+        ],
+        [
+          "yazmak",
+          "to write"
+        ],
+        [
+          "çalışmak",
+          "to work, to study"
+        ],
+        [
+          "izlemek",
+          "to watch"
+        ],
+        [
+          "dinlemek",
+          "to listen"
+        ],
+        [
+          "konuşmak",
+          "to speak"
+        ],
+        [
+          "içmek",
+          "to drink"
+        ],
+        [
+          "uyumak",
+          "to sleep"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Which is the correct form of «I am reading»?",
+          "options": [
+            "okuyorum",
+            "okuyorsun",
+            "okuyoruz"
+          ],
+          "a": 0,
+          "why": "The first person of the present continuous is -yorum: oku + yorum."
+        },
+        {
+          "q": "How do you say «I am not doing»?",
+          "options": [
+            "yapmıyorum",
+            "yapıyorum",
+            "yapmıyor"
+          ],
+          "a": 0,
+          "why": "The negative suffix -mı/-mi/-mu/-mü goes before -yor: yap-mı-yor-um."
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "num": 3,
+      "level": "A1",
+      "title": "Doing the shopping",
+      "goal": "Use the cases of place, ask for a price and tell the time.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Three suffixes are enough to locate an action: the <b>dative</b> marks the destination («to, towards»), the <b>locative</b> the place where you are, and the <b>ablative</b> the origin («from»). They follow vowel harmony."
+        },
+        {
+          "t": "table",
+          "caption": "The three cases of place",
+          "head": [
+            "Case",
+            "Suffix",
+            "okul (school)",
+            "ev (house)",
+            "sokak (street)"
+          ],
+          "rows": [
+            [
+              "Dative",
+              "-(y)a / -(y)e",
+              "<tur>okula</tur>",
+              "<tur>eve</tur>",
+              "<tur>sokağa</tur>"
+            ],
+            [
+              "Locative",
+              "-da / -de (-ta / -te)",
+              "<tur>okulda</tur>",
+              "<tur>evde</tur>",
+              "<tur>sokakta</tur>"
+            ],
+            [
+              "Ablative",
+              "-dan / -den (-tan / -ten)",
+              "<tur>okuldan</tur>",
+              "<tur>evden</tur>",
+              "<tur>sokaktan</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Voiceless consonants",
+          "text": "After <b>p, ç, t, k, s, ş, f, h</b>, d becomes t: <tur>sokakta</tur>, <tur>kitapta</tur>. And after a vowel, the dative takes a buffer y: <tur>masa → masaya</tur>."
+        },
+        {
+          "t": "p",
+          "text": "To ask the time: <tur>Saat kaç?</tur> (What time is it?). Useful answers: <tur>Saat üç.</tur> (3 o'clock), <tur>Üç buçuk.</tur> (half past three), <tur>Üçü çeyrek geçiyor.</tur> (quarter past three), <tur>Üçe çeyrek var.</tur> (quarter to three)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Okula gidiyorum.",
+              "fr": "I am going to school."
+            },
+            {
+              "tr": "Marketten ekmek alıyorum.",
+              "fr": "I am buying bread at the market."
+            },
+            {
+              "tr": "Kütüphanede çalışıyorum.",
+              "fr": "I am working at the library."
+            },
+            {
+              "tr": "Saat kaç? — Saat beş.",
+              "fr": "What time is it? — Five o'clock."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Calendar",
+          "text": "The days and months are collected on the <a href=\"essentiel.html\">Essentials</a> page so you can review them all at once."
+        }
+      ],
+      "vocab": [
+        [
+          "alışveriş",
+          "shopping"
+        ],
+        [
+          "market",
+          "supermarket"
+        ],
+        [
+          "ekmek",
+          "bread"
+        ],
+        [
+          "süt",
+          "milk"
+        ],
+        [
+          "para",
+          "money"
+        ],
+        [
+          "pazar",
+          "market; Sunday"
+        ],
+        [
+          "saat",
+          "hour, watch"
+        ],
+        [
+          "bugün",
+          "today"
+        ],
+        [
+          "yarın",
+          "tomorrow"
+        ],
+        [
+          "dün",
+          "yesterday"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Which form means «to school» (destination)?",
+          "options": [
+            "okulda",
+            "okula",
+            "okuldan"
+          ],
+          "a": 1,
+          "why": "The destination uses the dative -a: okul + a = okula."
+        },
+        {
+          "q": "How do you say «from the house»?",
+          "options": [
+            "evde",
+            "eve",
+            "evden"
+          ],
+          "a": 2,
+          "why": "The ablative -den indicates origin: ev + den = evden."
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "num": 4,
+      "level": "A1",
+      "title": "Describing and finding your way",
+      "goal": "Use adjectives, colours, the imperative and directions.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Titles come after the first name: <tur>Ali Bey</tur> (Mr Ali), <tur>Ayşe Hanım</tur> (Mrs Ayşe). Adverbs of frequency generally come before the verb: <tur>her zaman</tur> (always), <tur>genellikle</tur> (generally), <tur>sık sık</tur> (often), <tur>bazen</tur> (sometimes), <tur>hiç</tur> (never)."
+        },
+        {
+          "t": "table",
+          "caption": "The imperative",
+          "head": [
+            "Infinitive",
+            "Informal (sen)",
+            "Polite (siz)",
+            "Polite negative"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gel</tur>",
+              "<tur>gelin</tur>",
+              "<tur>gelmeyin</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>git</tur>",
+              "<tur>gidin</tur>",
+              "<tur>gitmeyin</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>oku</tur>",
+              "<tur>okuyun</tur>",
+              "<tur>okumayın</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "caption": "Useful adjectives and colours",
+          "head": [
+            "Turkish",
+            "English",
+            "Opposite"
+          ],
+          "rows": [
+            [
+              "<tur>büyük</tur>",
+              "big",
+              "<tur>küçük</tur>"
+            ],
+            [
+              "<tur>yeni</tur>",
+              "new",
+              "<tur>eski</tur>"
+            ],
+            [
+              "<tur>pahalı</tur>",
+              "expensive",
+              "<tur>ucuz</tur>"
+            ],
+            [
+              "<tur>kırmızı</tur>",
+              "red",
+              "<tur>mavi</tur> (blue)"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Kırmızı arabayı görüyor musun?",
+              "fr": "Do you see the red car?"
+            },
+            {
+              "tr": "Sağa dönün ve düz gidin.",
+              "fr": "Turn right and go straight ahead."
+            },
+            {
+              "tr": "Her gün yürüyorum.",
+              "fr": "I walk every day."
+            },
+            {
+              "tr": "Bu çanta çok pahalı.",
+              "fr": "This bag is very expensive."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Forming an adjective",
+          "text": "The suffix <b>-lı/-li</b> means «with»: <tur>tuz → tuzlu</tur> (salty). The suffix <b>-sız/-siz</b> means «without»: <tur>tuzsuz</tur> (without salt), <tur>renksiz</tur> (colourless)."
+        }
+      ],
+      "vocab": [
+        [
+          "renk",
+          "colour"
+        ],
+        [
+          "kırmızı",
+          "red"
+        ],
+        [
+          "mavi",
+          "blue"
+        ],
+        [
+          "yeşil",
+          "green"
+        ],
+        [
+          "büyük",
+          "big"
+        ],
+        [
+          "küçük",
+          "small"
+        ],
+        [
+          "pahalı",
+          "expensive"
+        ],
+        [
+          "ucuz",
+          "cheap"
+        ],
+        [
+          "sağ",
+          "right"
+        ],
+        [
+          "sol",
+          "left"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What is the polite imperative of «to go»?",
+          "options": [
+            "git",
+            "gidin",
+            "gitmeyin"
+          ],
+          "a": 1,
+          "why": "The polite form of the imperative adds -in: git + in = gidin."
+        },
+        {
+          "q": "What does «tuzsuz» mean?",
+          "options": [
+            "salty",
+            "without salt",
+            "very salty"
+          ],
+          "a": 1,
+          "why": "The suffix -sız/-siz expresses absence: tuz (salt) + suz = without salt."
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "num": 5,
+      "level": "A2",
+      "title": "Talking about the past",
+      "goal": "Use the witnessed past (-di), talk about memories and place events in time.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The witnessed past is formed with <b>-di / -dı / -du / -dü</b>, chosen according to the last vowel. After a voiceless consonant, d becomes t: <tur>git-ti-m</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "The past of gelmek and gitmek",
+          "head": [
+            "Person",
+            "gelmek (to come)",
+            "gitmek (to go)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geldim</tur>",
+              "<tur>gittim</tur>"
+            ],
+            [
+              "sen",
+              "<tur>geldin</tur>",
+              "<tur>gittin</tur>"
+            ],
+            [
+              "o",
+              "<tur>geldi</tur>",
+              "<tur>gitti</tur>"
+            ],
+            [
+              "biz",
+              "<tur>geldik</tur>",
+              "<tur>gittik</tur>"
+            ],
+            [
+              "siz",
+              "<tur>geldiniz</tur>",
+              "<tur>gittiniz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>geldiler</tur>",
+              "<tur>gittiler</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Negation and questions",
+          "text": "Negative: <tur>gelmedim</tur> (I did not come). Question: <tur>geldin mi?</tur> (Did you come?). The word <tur>mi</tur> stays separate and harmonises: <tur>gitti mi?</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "The past of «to be»: -ydi",
+          "head": [
+            "Person",
+            "hasta (ill)",
+            "evde (at home)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>hastaydım</tur>",
+              "<tur>evdeydim</tur>"
+            ],
+            [
+              "sen",
+              "<tur>hastaydın</tur>",
+              "<tur>evdeydin</tur>"
+            ],
+            [
+              "o",
+              "<tur>hastaydı</tur>",
+              "<tur>evdeydi</tur>"
+            ],
+            [
+              "biz",
+              "<tur>hastaydık</tur>",
+              "<tur>evdeydik</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Dün sinemaya gittim.",
+              "fr": "Yesterday I went to the cinema."
+            },
+            {
+              "tr": "Geçen yaz Türkiye'ye gittik.",
+              "fr": "Last summer we went to Turkey."
+            },
+            {
+              "tr": "Hava çok güzeldi.",
+              "fr": "The weather was beautiful."
+            },
+            {
+              "tr": "Hiç Türkçe konuştun mu?",
+              "fr": "Have you ever spoken Turkish?"
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Time markers",
+          "text": "<tur>dün</tur> (yesterday), <tur>geçen hafta</tur> (last week), <tur>geçen yaz</tur> (last summer), <tur>iki gün önce</tur> (two days ago), <tur>2019'da</tur> (in 2019)."
+        }
+      ],
+      "vocab": [
+        [
+          "dün",
+          "yesterday"
+        ],
+        [
+          "geçen",
+          "last, past"
+        ],
+        [
+          "önce",
+          "before, ago"
+        ],
+        [
+          "sonra",
+          "after"
+        ],
+        [
+          "sinema",
+          "cinema"
+        ],
+        [
+          "tatil",
+          "holiday"
+        ],
+        [
+          "gezmek",
+          "to walk around, to visit"
+        ],
+        [
+          "kalmak",
+          "to stay"
+        ],
+        [
+          "dönmek",
+          "to return, to come back"
+        ],
+        [
+          "görmek",
+          "to see"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "How do you say «I went»?",
+          "options": [
+            "gittim",
+            "geldim",
+            "gidiyorum"
+          ],
+          "a": 0,
+          "why": "«To go» in the past: git- + -ti- + -m = gittim (d assimilates to t)."
+        },
+        {
+          "q": "What is the past form of «güzel» with «he»?",
+          "options": [
+            "güzeldi",
+            "güzelmiş",
+            "güzel"
+          ],
+          "a": 0,
+          "why": "The past of «to be» adds -ydi: güzel + di = güzeldi."
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "num": 6,
+      "level": "A2",
+      "title": "Suggesting and ordering",
+      "goal": "Make suggestions, offer help and order in a restaurant.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The <b>voluntative</b> (optative) is used to make suggestions: <b>-eyim / -ayım</b> for «I», <b>-elim / -alım</b> for «we». It is also used to offer help: <tur>Yardım edeyim mi?</tur> (May I help?)."
+        },
+        {
+          "t": "table",
+          "caption": "Suggesting and offering",
+          "head": [
+            "Form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "<tur>Geleyim.</tur>",
+              "I will come (gladly)."
+            ],
+            [
+              "<tur>Gelelim.</tur>",
+              "Let's come."
+            ],
+            [
+              "<tur>Bir çay içelim.</tur>",
+              "Let's have some tea."
+            ],
+            [
+              "<tur>Yardım edeyim mi?</tur>",
+              "May I help?"
+            ],
+            [
+              "<tur>Ne yapayım?</tur>",
+              "What should I do?"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "In a restaurant, a few phrases are enough: <tur>Bir çorba lütfen.</tur> (A soup, please.), <tur>Ne tavsiye edersiniz?</tur> (What do you recommend?), <tur>Hesap lütfen.</tur> (The bill, please.)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Akşam yemeğe gidelim.",
+              "fr": "Let's go out for dinner tonight."
+            },
+            {
+              "tr": "Bir kahve istiyorum.",
+              "fr": "I would like a coffee."
+            },
+            {
+              "tr": "Bu yemek çok lezzetli.",
+              "fr": "This dish is really delicious."
+            },
+            {
+              "tr": "Hesap lütfen.",
+              "fr": "The bill, please."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Quantities",
+          "text": "<tur>biraz</tur> (a little), <tur>çok</tur> (a lot), <tur>az</tur> (little), <tur>birkaç</tur> (a few), <tur>her</tur> (every), <tur>bütün</tur> (all). Example: <tur>Biraz su lütfen.</tur>"
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Demonstratives",
+          "text": "<tur>bu</tur> (this), <tur>şu</tur> (that, a little further away), <tur>o</tur> (that, over there). Plural: <tur>bunlar, şunlar, onlar</tur>."
+        }
+      ],
+      "vocab": [
+        [
+          "lokanta",
+          "restaurant"
+        ],
+        [
+          "garson",
+          "waiter"
+        ],
+        [
+          "menü",
+          "menu"
+        ],
+        [
+          "hesap",
+          "bill"
+        ],
+        [
+          "çorba",
+          "soup"
+        ],
+        [
+          "pilav",
+          "rice"
+        ],
+        [
+          "tavuk",
+          "chicken"
+        ],
+        [
+          "balık",
+          "fish"
+        ],
+        [
+          "lezzetli",
+          "delicious"
+        ],
+        [
+          "aç",
+          "hungry"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "How do you suggest «let's eat together»?",
+          "options": [
+            "Birlikte yemek yiyelim.",
+            "Birlikte yemek yiyorum.",
+            "Birlikte yemek yedin."
+          ],
+          "a": 0,
+          "why": "The first person plural of the voluntative is -elim: yiyelim."
+        },
+        {
+          "q": "What does «Yardım edeyim mi?» mean?",
+          "options": [
+            "May I help?",
+            "Are you helping me?",
+            "I am not helping."
+          ],
+          "a": 0,
+          "why": "The voluntative -eyim plus the question particle mi expresses an offer: «May I help?»"
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "num": 7,
+      "level": "A2",
+      "title": "Possession and belonging",
+      "goal": "Say what belongs to whom, form noun compounds and use var / yok.",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Possession is marked by a suffix added to the possessed noun: <b>-(i)m, -(i)n, -(s)i, -(i)miz, -(i)niz, -leri</b>. The possessor can be expressed before it, but the suffix remains obligatory."
+        },
+        {
+          "t": "table",
+          "caption": "ev (house) with possessive suffixes",
+          "head": [
+            "Person",
+            "Form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "benim",
+              "<tur>evim</tur>",
+              "my house"
+            ],
+            [
+              "senin",
+              "<tur>evin</tur>",
+              "your house"
+            ],
+            [
+              "onun",
+              "<tur>evi</tur>",
+              "his / her house"
+            ],
+            [
+              "bizim",
+              "<tur>evimiz</tur>",
+              "our house"
+            ],
+            [
+              "sizin",
+              "<tur>eviniz</tur>",
+              "your house"
+            ],
+            [
+              "onların",
+              "<tur>evleri</tur>",
+              "their house"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Consonants that change",
+          "text": "When a suffix beginning with a vowel is added, <b>p → b</b>, <b>ç → c</b>, <b>t → d</b>, <b>k → ğ</b>: <tur>kitap → kitabım</tur>, <tur>ağaç → ağacım</tur>, <tur>sokak → sokağım</tur>."
+        },
+        {
+          "t": "p",
+          "text": "A noun compound links two nouns: the first takes the genitive <b>-(n)ın / -in / -un / -ün</b>, the second the possessive. <tur>Türkiye'nin başkenti</tur> (the capital of Turkey), <tur>kapı kolu</tur> (the door handle)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Bu benim evim.",
+              "fr": "This is my house."
+            },
+            {
+              "tr": "Kitabım masada.",
+              "fr": "My book is on the table."
+            },
+            {
+              "tr": "Ankara, Türkiye'nin başkentidir.",
+              "fr": "Ankara is the capital of Turkey."
+            },
+            {
+              "tr": "Bugün vaktim yok.",
+              "fr": "I don't have time today."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "var / yok",
+          "text": "<tur>var</tur> means «there is / has», <tur>yok</tur> «there is not». Examples: <tur>Bir arabam var.</tur> (I have a car.), <tur>Zamanım yok.</tur> (I don't have time.)."
+        }
+      ],
+      "vocab": [
+        [
+          "ev",
+          "house"
+        ],
+        [
+          "araba",
+          "car"
+        ],
+        [
+          "kitap",
+          "book"
+        ],
+        [
+          "masa",
+          "table"
+        ],
+        [
+          "anahtar",
+          "key"
+        ],
+        [
+          "başkent",
+          "capital"
+        ],
+        [
+          "aile",
+          "family"
+        ],
+        [
+          "kendi",
+          "oneself"
+        ],
+        [
+          "vakit",
+          "time"
+        ],
+        [
+          "sahip",
+          "owner"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "How do you say «my book»?",
+          "options": [
+            "kitapım",
+            "kitabım",
+            "kitabın"
+          ],
+          "a": 1,
+          "why": "The p of kitap becomes b before the vowel suffix -ım: kitabım."
+        },
+        {
+          "q": "How do you say «I have a car»?",
+          "options": [
+            "Bir arabam var.",
+            "Bir arabam yok.",
+            "Bir araba istiyorum."
+          ],
+          "a": 0,
+          "why": "Possession with «to have» is formed with var: bir araba + m + var."
+        }
+      ]
+    }
+  ]
+}

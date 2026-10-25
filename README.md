@@ -26,6 +26,30 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
 
 > Pour la prononciation, le site utilise l'API Web Speech. Si ta voix turque n'est pas installée, le navigateur utilisera une voix de secours ; installe un pack de voix `tr-TR` pour un rendu optimal.
 
+## Langues
+
+Le français reste la version de référence à la racine du site. Trois versions complètes sont disponibles :
+
+| Langue | Dossier | Direction |
+| --- | --- | --- |
+| Français | `/` | LTR |
+| English | `/en/` | LTR |
+| العربية | `/ar/` | RTL |
+| Қазақша | `/kk/` | LTR |
+
+Les 11 pages, les données pédagogiques, les quiz, les fiches vidéo et les libellés dynamiques sont traduits. Le turc reste la langue étudiée : les mots, dialogues et exemples demeurent en turc, avec la traduction dans la langue choisie. Un sélecteur de langue est présent dans l'en-tête de chaque page, et une section dédiée figure sur l'accueil.
+
+Maintenance des traductions :
+
+```
+node tools/make-shells.js       # régénère en/ ar/ kk/ depuis les pages françaises
+node tools/merge-ui.js ar       # fusionne i18n-src/ar/ui-*.json → ui.json
+node tools/locales.js build ar  # génère js/i18n/ar/
+node tools/verify-i18n.js ar    # vérifie la couverture des traductions
+```
+
+Remplacer `ar` par `en` ou `kk` pour les autres langues. Les sources de traduction sont dans `i18n-src/<langue>/`.
+
 ## Structure
 
 ```
@@ -57,7 +81,14 @@ Aucune installation : ouvre simplement `index.html` dans un navigateur, ou hébe
     ├── videos.js         Moteur du compagnon vidéo (onglets, quiz, progression)
     ├── data-quiz.js      Banque de quiz + mot du jour
     ├── schedule.js       Planning + minuteur Pomodoro
+    ├── lang.js           Sélecteur de langue et section d'accueil
+    ├── i18n.js           Traduction de l'interface au chargement
+    ├── i18n/             Données traduites (en/, ar/, kk/)
     └── … un script par page
+
+├── en/ ar/ kk/           Versions anglaise, arabe et kazakhe (11 pages)
+├── i18n-src/             Sources de traduction et pages HTML traduites
+└── tools/                Génération des coquilles, fusion et vérification
 ```
 
 ## Auteur

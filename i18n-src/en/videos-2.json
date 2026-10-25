@@ -1,0 +1,1434 @@
+{
+  "domain": "videos",
+  "fields": "title, goal, blocks, vocab[].fr, quiz.q/options/why",
+  "start": 9,
+  "end": 18,
+  "items": [
+    {
+      "id": "va2-1",
+      "level": "A2",
+      "num": 1,
+      "title": "The imperative and politeness",
+      "tr": "Emir kipi ve nezaket",
+      "goal": "Give an order, some advice or an instruction, with the informal as well as the formal you.",
+      "watch": "emir kipi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The imperative is built on the verb stem. With the informal you there is often no ending at all: <tur>gel</tur> (come), <tur>git</tur> (go), <tur>oku</tur> (read). With the formal you, add <b>-in / -ın / -un / -ün</b>: <tur>gelin</tur>, <tur>gidin</tur>, <tur>okuyun</tur>."
+        },
+        {
+          "t": "table",
+          "caption": "The imperative of three common verbs",
+          "head": [
+            "Infinitive",
+            "sen",
+            "siz",
+            "Negative siz"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gel</tur>",
+              "<tur>gelin</tur>",
+              "<tur>gelmeyin</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>git</tur>",
+              "<tur>gidin</tur>",
+              "<tur>gitmeyin</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>oku</tur>",
+              "<tur>okuyun</tur>",
+              "<tur>okumayın</tur>"
+            ],
+            [
+              "<tur>yemek</tur>",
+              "<tur>ye</tur>",
+              "<tur>yiyin</tur>",
+              "<tur>yemeyin</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Negation",
+          "text": "The negative imperative is formed with <b>-ma / -me</b>: <tur>gelme</tur> (don't come, informal), <tur>gelmeyin</tur> (don't come, formal), <tur>okuma</tur> (don't read), <tur>okumayın</tur>. For the third person: <tur>gelsin</tur> (let him come), <tur>gelmesin</tur> (let him not come)."
+        },
+        {
+          "t": "p",
+          "text": "To soften it, add <tur>lütfen</tur> (please) or use the formal you. In speech, <tur>-sana / -sene</tur> makes the request more familiar: <tur>Biraz beklesene.</tur> (Wait a little, would you?)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Lütfen kapıyı aç.",
+              "fr": "Please open the door."
+            },
+            {
+              "tr": "Biraz bekleyin.",
+              "fr": "Wait a little."
+            },
+            {
+              "tr": "Bana yardım edin.",
+              "fr": "Help me."
+            },
+            {
+              "tr": "Burada sigara içmeyin.",
+              "fr": "Don't smoke here."
+            }
+          ]
+        }
+      ],
+      "vocab": [
+        [
+          "açmak",
+          "to open"
+        ],
+        [
+          "kapatmak",
+          "to close"
+        ],
+        [
+          "beklemek",
+          "to wait"
+        ],
+        [
+          "yardım etmek",
+          "to help"
+        ],
+        [
+          "sigara içmek",
+          "to smoke"
+        ],
+        [
+          "girmek",
+          "to enter"
+        ],
+        [
+          "çıkmak",
+          "to go out"
+        ],
+        [
+          "oturmak",
+          "to sit down"
+        ],
+        [
+          "kalkmak",
+          "to get up"
+        ],
+        [
+          "lütfen",
+          "please"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What is the polite imperative of « go »?",
+          "options": [
+            "git",
+            "gidin",
+            "gitmeyin"
+          ],
+          "a": 1,
+          "why": "The formal imperative adds -in: git + in = gidin."
+        },
+        {
+          "q": "How do you say « Don't smoke »?",
+          "options": [
+            "Sigara içmeyin",
+            "Sigara içmiyorsun",
+            "Sigara içme"
+          ],
+          "a": 0,
+          "why": "In the second person plural, the negative imperative is -meyin: içmeyin."
+        }
+      ]
+    },
+    {
+      "id": "va2-2",
+      "level": "A2",
+      "num": 2,
+      "title": "The optative: « may I… », « let's… »",
+      "tr": "İstek kipi",
+      "goal": "Suggest an action, express a wish, or say « let me… / let's go ».",
+      "watch": "istek kipi",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The optative expresses a wish or a suggestion. Add <b>-a / -e</b> to the stem, then the person markers: <tur>gel-e-yim</tur> (may I come), <tur>gel-e-lim</tur> (let's come), <tur>gel-e-sin</tur> (may you come)."
+        },
+        {
+          "t": "table",
+          "caption": "The optative of gelmek (to come)",
+          "head": [
+            "Person",
+            "Form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>geleyim</tur>",
+              "may I come / let me come"
+            ],
+            [
+              "sen",
+              "<tur>gelesin</tur>",
+              "may you come"
+            ],
+            [
+              "o",
+              "<tur>gele</tur>",
+              "may he / she come"
+            ],
+            [
+              "biz",
+              "<tur>gelelim</tur>",
+              "let's come / let's go"
+            ],
+            [
+              "siz",
+              "<tur>gelesiniz</tur>",
+              "may you come (plural / formal)"
+            ],
+            [
+              "onlar",
+              "<tur>geleler</tur>",
+              "may they come (rare)"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "The plural in -alım / -elim",
+          "text": "The first person plural is the most frequent form: <tur>Gidelim!</tur> (Let's go!), <tur>Başlayalım!</tur> (Let's start!), <tur>Bir çay içelim.</tur> (Let's have a tea.) For the third person plural, <tur>gelsinler</tur> is often preferred."
+        },
+        {
+          "t": "p",
+          "text": "To ask a question that makes a suggestion, add <tur>mi</tur>: <tur>Gidelim mi?</tur> (Shall we go?), <tur>Başlayalım mı?</tur> (Shall we start?). The negative is formed with <b>-ma / -me</b>: <tur>gelmeyeyim</tur> (may I not come), <tur>gitmeyelim</tur> (let's not go)."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Geleyim.",
+              "fr": "Let me come."
+            },
+            {
+              "tr": "Gidelim mi?",
+              "fr": "Shall we go?"
+            },
+            {
+              "tr": "Bir kahve içelim.",
+              "fr": "Let's have a coffee."
+            },
+            {
+              "tr": "İyi olsun.",
+              "fr": "May everything go well."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Don't confuse them",
+          "text": "<tur>Gidelim</tur> = « let's go » (optative). <tur>Gitmeliyim</tur> = « I have to go » (necessity). The suffix <b>-malı</b> adds an obligation that the optative does not have."
+        }
+      ],
+      "vocab": [
+        [
+          "gelmek",
+          "to come"
+        ],
+        [
+          "gitmek",
+          "to go"
+        ],
+        [
+          "başlamak",
+          "to start"
+        ],
+        [
+          "içmek",
+          "to drink"
+        ],
+        [
+          "yapmak",
+          "to do"
+        ],
+        [
+          "olmak",
+          "to be, to become"
+        ],
+        [
+          "birlikte",
+          "together"
+        ],
+        [
+          "hadi",
+          "come on"
+        ],
+        [
+          "belki",
+          "maybe"
+        ],
+        [
+          "dilemek",
+          "to wish"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does « Gidelim » mean?",
+          "options": [
+            "I have to go",
+            "Let's go",
+            "He went"
+          ],
+          "a": 1,
+          "why": "The first person plural of the optative expresses a suggestion: let's go."
+        },
+        {
+          "q": "How do you say « Shall we start? »?",
+          "options": [
+            "Başlayalım mı?",
+            "Başlamalıyım?",
+            "Başladık mı?"
+          ],
+          "a": 0,
+          "why": "Başlayalım is the optative « let's start »; with mi, you suggest starting."
+        }
+      ]
+    },
+    {
+      "id": "va2-3",
+      "level": "A2",
+      "num": 3,
+      "title": "Ability: -abil / -ebil",
+      "tr": "-abilmek / -ebilmek",
+      "goal": "Say what you can do, ask for permission and express possibility.",
+      "watch": "-abilmek -ebilmek",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "To express ability or possibility, insert <b>-abil / -ebil</b> between the stem and the ending: <tur>oku-yabil-ir-im</tur> (I can read), <tur>gel-ebil-ir-sin</tur> (you can come). The choice of vowel follows vowel harmony."
+        },
+        {
+          "t": "table",
+          "caption": "Ability in the present",
+          "head": [
+            "Person",
+            "okumak (to read)",
+            "gelmek (to come)"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>okuyabilirim</tur>",
+              "<tur>gelebilirim</tur>"
+            ],
+            [
+              "sen",
+              "<tur>okuyabilirsin</tur>",
+              "<tur>gelebilirsin</tur>"
+            ],
+            [
+              "o",
+              "<tur>okuyabilir</tur>",
+              "<tur>gelebilir</tur>"
+            ],
+            [
+              "biz",
+              "<tur>okuyabiliriz</tur>",
+              "<tur>gelebiliriz</tur>"
+            ],
+            [
+              "siz",
+              "<tur>okuyabilirsiniz</tur>",
+              "<tur>gelebilirsiniz</tur>"
+            ],
+            [
+              "onlar",
+              "<tur>okuyabilirler</tur>",
+              "<tur>gelebilirler</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "The negative is irregular",
+          "text": "Be careful: <tur>okumayabilirim</tur> exists, but it means « it is possible that I don't read ». For « I cannot read », use <tur>okuyamam</tur>, then <tur>okuyamazsın</tur>, <tur>okuyamaz</tur>, <tur>okuyamayız</tur>, <tur>okuyamazsınız</tur>, <tur>okuyamazlar</tur>. The same logic applies to <tur>gelemem</tur> (I cannot come)."
+        },
+        {
+          "t": "p",
+          "text": "<b>-abilir</b> can also express permission or probability: <tur>Burada oturabilir miyim?</tur> (May I sit here?), <tur>Yarın yağmur yağabilir.</tur> (It might rain tomorrow.) Context decides between ability, permission and possibility."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe okuyabiliyorum.",
+              "fr": "I can read Turkish."
+            },
+            {
+              "tr": "Yarın gelebilir miyim?",
+              "fr": "May I come tomorrow?"
+            },
+            {
+              "tr": "Burada sigara içemezsiniz.",
+              "fr": "You cannot smoke here."
+            },
+            {
+              "tr": "Onu anlayabiliyorum.",
+              "fr": "I can understand it."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "bilmek",
+          "text": "<tur>Bilmek</tur> on its own means « to know »: <tur>Türkçe biliyorum.</tur> (I know Turkish.) With <b>-abil</b>, it becomes a suffix of ability: <tur>Türkçe konuşabiliyorum.</tur> (I can speak Turkish.)"
+        }
+      ],
+      "vocab": [
+        [
+          "okumak",
+          "to read"
+        ],
+        [
+          "yazmak",
+          "to write"
+        ],
+        [
+          "konuşmak",
+          "to speak"
+        ],
+        [
+          "anlamak",
+          "to understand"
+        ],
+        [
+          "gelmek",
+          "to come"
+        ],
+        [
+          "gitmek",
+          "to go"
+        ],
+        [
+          "oturmak",
+          "to sit down"
+        ],
+        [
+          "izin",
+          "permission"
+        ],
+        [
+          "belki",
+          "maybe"
+        ],
+        [
+          "bilmek",
+          "to know"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "How do you say « I cannot come »?",
+          "options": [
+            "Gelemiyorum",
+            "Gelemem",
+            "Gelmiyorum"
+          ],
+          "a": 1,
+          "why": "The negative ability form of gelmek is gelemem (I cannot come); gelmiyorum simply means « I am not coming »."
+        },
+        {
+          "q": "What does « Burada oturabilir miyim? » mean?",
+          "options": [
+            "Should I sit here?",
+            "May I sit here?",
+            "Am I sitting here?"
+          ],
+          "a": 1,
+          "why": "-abilir + miyim expresses permission: may I sit here?"
+        }
+      ]
+    },
+    {
+      "id": "va2-4",
+      "level": "A2",
+      "num": 4,
+      "title": "Gerunds: -arak and -ıp",
+      "tr": "-arak / -erek ve -ıp / -ip",
+      "goal": "Link two actions: say « by doing » and « do, then… ».",
+      "watch": "-arak -erek -ıp -ip",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "The suffix <b>-arak / -erek</b> means « by doing »: it describes how the main action is carried out. <tur>Koşarak geldi.</tur> (He came running.) <tur>Gülerek cevap verdi.</tur> (She answered with a smile.)"
+        },
+        {
+          "t": "p",
+          "text": "The suffix <b>-ıp / -ip / -up / -üp</b> links two successive actions of the same subject: <tur>Kitabı okuyup özetledi.</tur> (He read the book and then summarised it.) <tur>Otobüse binip eve gitti.</tur> (He took the bus and then went home.)"
+        },
+        {
+          "t": "table",
+          "caption": "Forming the two gerunds",
+          "head": [
+            "Verb",
+            "-arak / -erek",
+            "-ıp / -ip"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gelerek</tur>",
+              "<tur>gelip</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>giderek</tur>",
+              "<tur>gidip</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>okuyarak</tur>",
+              "<tur>okuyup</tur>"
+            ],
+            [
+              "<tur>yapmak</tur>",
+              "<tur>yaparak</tur>",
+              "<tur>yapıp</tur>"
+            ],
+            [
+              "<tur>görmek</tur>",
+              "<tur>görerek</tur>",
+              "<tur>görüp</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Same subject",
+          "text": "Both actions must have the same subject. <tur>Ali gelip masayı temizledi.</tur> = Ali came and cleaned the table. If the subjects differ, use a full clause with <tur>ve</tur> or another connector."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Koşarak geldi.",
+              "fr": "He came running."
+            },
+            {
+              "tr": "Gülerek cevap verdi.",
+              "fr": "She answered with a smile."
+            },
+            {
+              "tr": "Kitabı okuyup özetledi.",
+              "fr": "He read the book and then summarised it."
+            },
+            {
+              "tr": "Otobüse binip eve gitti.",
+              "fr": "He took the bus and then went home."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "A spelling detail",
+          "text": "When the stem ends in a vowel, <tur>okumak</tur> takes a linking <b>y</b> before -arak: <tur>okuyarak</tur>. Before -ıp, the final vowel of the stem stays: <tur>oku-y-up</tur>."
+        }
+      ],
+      "vocab": [
+        [
+          "koşmak",
+          "to run"
+        ],
+        [
+          "yürümek",
+          "to walk"
+        ],
+        [
+          "gülmek",
+          "to laugh"
+        ],
+        [
+          "bakmak",
+          "to look"
+        ],
+        [
+          "binmek",
+          "to get on"
+        ],
+        [
+          "inmek",
+          "to get off"
+        ],
+        [
+          "özetlemek",
+          "to summarise"
+        ],
+        [
+          "cevap vermek",
+          "to answer"
+        ],
+        [
+          "temizlemek",
+          "to clean"
+        ],
+        [
+          "hazırlamak",
+          "to prepare"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does « Koşarak geldi » mean?",
+          "options": [
+            "He came running",
+            "He ran and then came",
+            "He often runs"
+          ],
+          "a": 0,
+          "why": "-arak describes the manner: he came running."
+        },
+        {
+          "q": "Which form links « read » and then « summarise »?",
+          "options": [
+            "okuyarak",
+            "okuyup",
+            "okumak"
+          ],
+          "a": 1,
+          "why": "-ıp / -ip marks succession: okuyup = having read, then."
+        }
+      ]
+    },
+    {
+      "id": "va2-5",
+      "level": "A2",
+      "num": 5,
+      "title": "Verbal nouns: -mak, -ma, -ış",
+      "tr": "İsim-fiiller",
+      "goal": "Turn a verb into a noun to talk about an activity, a preference or a manner.",
+      "watch": "isim fiil -mak -ma -ış",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Turkish can turn a verb into a noun in several ways. <b>-mak / -mek</b> gives the infinitive-noun: <tur>yüzmek</tur> (to swim / swimming). <b>-ma / -me</b> gives the action noun: <tur>yüzme</tur> (swimming, the act of swimming). <b>-ış / -iş</b> often gives the manner: <tur>yürüyüş</tur> (walking, the way of walking)."
+        },
+        {
+          "t": "table",
+          "caption": "Three nominalisations of common verbs",
+          "head": [
+            "Verb",
+            "-mak / -mek",
+            "-ma / -me",
+            "-ış / -iş"
+          ],
+          "rows": [
+            [
+              "<tur>okumak</tur>",
+              "<tur>okumak</tur>",
+              "<tur>okuma</tur>",
+              "<tur>okuyuş</tur>"
+            ],
+            [
+              "<tur>yüzmek</tur>",
+              "<tur>yüzmek</tur>",
+              "<tur>yüzme</tur>",
+              "<tur>yüzüş</tur>"
+            ],
+            [
+              "<tur>gelmek</tur>",
+              "<tur>gelmek</tur>",
+              "<tur>gelme</tur>",
+              "<tur>geliş</tur>"
+            ],
+            [
+              "<tur>gülmek</tur>",
+              "<tur>gülmek</tur>",
+              "<tur>gülme</tur>",
+              "<tur>gülüş</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<b>-mak</b> is used in particular with <tur>istemek</tur> (to want) and <tur>için</tur> (for): <tur>Türkçe öğrenmek istiyorum.</tur> (I want to learn Turkish.) <tur>Kitap okumak için zamanım yok.</tur> (I don't have time to read.)"
+        },
+        {
+          "t": "p",
+          "text": "<b>-ma</b> takes case suffixes: <tur>Okumayı seviyorum.</tur> (I like reading.) <tur>Yüzmeyi öğreniyorum.</tur> (I am learning to swim.) <tur>Gelmeyi unuttum.</tur> (I forgot to come.) The suffix -ma becomes -ma-yı in the accusative."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe öğrenmek istiyorum.",
+              "fr": "I want to learn Turkish."
+            },
+            {
+              "tr": "Yüzmeyi seviyorum.",
+              "fr": "I like swimming."
+            },
+            {
+              "tr": "Konuşması çok güzel.",
+              "fr": "Her way of speaking is very nice."
+            },
+            {
+              "tr": "Kitap okumak için zamanım yok.",
+              "fr": "I don't have time to read."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "-ış is not always regular",
+          "text": "Some nouns in <b>-ış</b> have become words in their own right: <tur>yürüyüş</tur> (walk, stroll), <tur>bakış</tur> (look, gaze), <tur>gülüş</tur> (laugh), <tur>anlatış</tur> (way of telling). Learn them as vocabulary."
+        }
+      ],
+      "vocab": [
+        [
+          "yüzmek",
+          "to swim"
+        ],
+        [
+          "okumak",
+          "to read"
+        ],
+        [
+          "öğrenmek",
+          "to learn"
+        ],
+        [
+          "sevmek",
+          "to like"
+        ],
+        [
+          "istemek",
+          "to want"
+        ],
+        [
+          "unutmak",
+          "to forget"
+        ],
+        [
+          "konuşmak",
+          "to speak"
+        ],
+        [
+          "yürüyüş",
+          "walk, stroll"
+        ],
+        [
+          "bakış",
+          "look, gaze"
+        ],
+        [
+          "zaman",
+          "time"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Which form means « I like swimming »?",
+          "options": [
+            "Yüzmek seviyorum",
+            "Yüzmeyi seviyorum",
+            "Yüzme seviyorum"
+          ],
+          "a": 1,
+          "why": "With sevmek, the action noun -ma takes the accusative: yüzme + yi = yüzmeyi."
+        },
+        {
+          "q": "Which suffix gives « the way of walking »?",
+          "options": [
+            "-mak",
+            "-ma",
+            "-ış"
+          ],
+          "a": 2,
+          "why": "-ış / -iş forms nouns of manner: yürüyüş, bakış, gülüş."
+        }
+      ]
+    },
+    {
+      "id": "va2-6",
+      "level": "A2",
+      "num": 6,
+      "title": "Relative clauses: -an / -en and -dik",
+      "tr": "Sıfat-fiiller",
+      "goal": "Say « the student who works » or « the book I read » without a heavy relative clause.",
+      "watch": "sıfat fiil -an -dik",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "Turkish places the relative clause before the noun, like an adjective. <b>-an / -en</b> means « who does »: <tur>çalışan öğrenci</tur> (the student who works), <tur>gelen otobüs</tur> (the bus that is coming)."
+        },
+        {
+          "t": "table",
+          "caption": "Two families of relative clauses",
+          "head": [
+            "Suffix",
+            "Meaning",
+            "Example"
+          ],
+          "rows": [
+            [
+              "<tur>-an / -en</tur>",
+              "who does the action",
+              "<tur>Türkçe konuşan arkadaş</tur> (the friend who speaks Turkish)"
+            ],
+            [
+              "<tur>-dik / -dık</tur>",
+              "that one does, that is done",
+              "<tur>okuduğum kitap</tur> (the book I read)"
+            ],
+            [
+              "<tur>-acak / -ecek</tur>",
+              "that will do / that will be done",
+              "<tur>gideceğim yer</tur> (the place I will go)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "With <b>-dik</b>, you always need a possessive suffix showing who does the action: <tur>okuduğum kitap</tur> (the book I read), <tur>okuduğun kitap</tur> (the book you read), <tur>okuduğu kitap</tur> (the book he read), <tur>okuduğumuz kitap</tur> (the book we read)."
+        },
+        {
+          "t": "table",
+          "caption": "okumak: « the book that… »",
+          "head": [
+            "Subject",
+            "Form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ben",
+              "<tur>okuduğum kitap</tur>",
+              "the book I read"
+            ],
+            [
+              "sen",
+              "<tur>okuduğun kitap</tur>",
+              "the book you read"
+            ],
+            [
+              "o",
+              "<tur>okuduğu kitap</tur>",
+              "the book he / she read"
+            ],
+            [
+              "biz",
+              "<tur>okuduğumuz kitap</tur>",
+              "the book we read"
+            ],
+            [
+              "siz",
+              "<tur>okuduğunuz kitap</tur>",
+              "the book you read (plural / formal)"
+            ],
+            [
+              "onlar",
+              "<tur>okudukları kitap</tur>",
+              "the book they read"
+            ]
+          ]
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe konuşan bir arkadaş arıyorum.",
+              "fr": "I am looking for a friend who speaks Turkish."
+            },
+            {
+              "tr": "Okuduğum kitap çok güzel.",
+              "fr": "The book I read is very good."
+            },
+            {
+              "tr": "Gelecek hafta gideceğim şehir İzmir.",
+              "fr": "The city I will go to next week is Izmir."
+            },
+            {
+              "tr": "Burada çalışan insanlar çok nazik.",
+              "fr": "The people who work here are very kind."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Relative clause or adjective?",
+          "text": "<tur>Gelecek hafta</tur> means « next week » (a future adjective), while <tur>gelecek otobüs</tur> can mean « the bus that will come ». The following noun and the context decide."
+        }
+      ],
+      "vocab": [
+        [
+          "çalışan",
+          "who works"
+        ],
+        [
+          "gelen",
+          "who comes"
+        ],
+        [
+          "okuduğum",
+          "that I read"
+        ],
+        [
+          "gideceğim",
+          "where I will go"
+        ],
+        [
+          "arkadaş",
+          "friend"
+        ],
+        [
+          "insan",
+          "person, human being"
+        ],
+        [
+          "nazik",
+          "kind, polite"
+        ],
+        [
+          "aramak",
+          "to look for"
+        ],
+        [
+          "yer",
+          "place"
+        ],
+        [
+          "şirket",
+          "company"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does « okuduğum kitap » mean?",
+          "options": [
+            "the book that reads",
+            "the book I read",
+            "the book to read"
+          ],
+          "a": 1,
+          "why": "-dik + the possessive suffix -um indicates « that I read »: okuduğum kitap."
+        },
+        {
+          "q": "Which form means « the student who works »?",
+          "options": [
+            "çalışan öğrenci",
+            "çalıştığım öğrenci",
+            "çalışacak öğrenci"
+          ],
+          "a": 0,
+          "why": "-an / -en marks the agent: çalışan öğrenci = the student who works."
+        }
+      ]
+    },
+    {
+      "id": "va2-7",
+      "level": "A2",
+      "num": 7,
+      "title": "Intensified adjectives",
+      "tr": "Pekiştirilmiş sıfatlar",
+      "goal": "Say « very blue », « pure white », « completely black » with intensified adjectives.",
+      "watch": "pekiştirilmiş sıfatlar",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "To intensify an adjective, Turkish often adds a syllable at the beginning, made of the first syllable + <b>m, p, r or s</b>: <tur>mavi → masmavi</tur> (pure blue), <tur>beyaz → bembeyaz</tur> (pure white), <tur>siyah → simsiyah</tur> (completely black)."
+        },
+        {
+          "t": "table",
+          "caption": "The most common intensifications",
+          "head": [
+            "Adjective",
+            "Intensified form",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "<tur>mavi</tur>",
+              "<tur>masmavi</tur>",
+              "pure blue"
+            ],
+            [
+              "<tur>beyaz</tur>",
+              "<tur>bembeyaz</tur>",
+              "pure white"
+            ],
+            [
+              "<tur>siyah</tur>",
+              "<tur>simsiyah</tur>",
+              "completely black"
+            ],
+            [
+              "<tur>yeşil</tur>",
+              "<tur>yemyeşil</tur>",
+              "pure green"
+            ],
+            [
+              "<tur>kırmızı</tur>",
+              "<tur>kıpkırmızı</tur>",
+              "bright red"
+            ],
+            [
+              "<tur>sarı</tur>",
+              "<tur>sapsarı</tur>",
+              "bright yellow"
+            ],
+            [
+              "<tur>temiz</tur>",
+              "<tur>tertemiz</tur>",
+              "spotless"
+            ],
+            [
+              "<tur>pembe</tur>",
+              "<tur>pespembe</tur>",
+              "pure pink"
+            ]
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "A flexible rule",
+          "text": "Not every adjective can be intensified this way. When no set form comes to mind, <tur>çok</tur> + adjective is always correct: <tur>çok güzel</tur>, <tur>çok yeni</tur>. Learn the most frequent intensified forms as expressions."
+        },
+        {
+          "t": "p",
+          "text": "You can also intensify with <tur>çok</tur> (very), <tur>pek</tur> (quite, very), <tur>son derece</tur> (extremely) or <tur>fevkalade</tur> (remarkably). <tur>Çok</tur> is the universal solution when the prefixed form does not exist."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Deniz bugün masmavi.",
+              "fr": "The sea is deep blue today."
+            },
+            {
+              "tr": "Bembeyaz bir gömlek giydi.",
+              "fr": "He put on a snow-white shirt."
+            },
+            {
+              "tr": "Simsiyah bir kedi gördüm.",
+              "fr": "I saw a pitch-black cat."
+            },
+            {
+              "tr": "Oda tertemiz.",
+              "fr": "The room is spotless."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "Colours and emotions",
+          "text": "These forms are also used figuratively: <tur>kıpkırmızı</tur> can describe a face that has gone red, <tur>yemyeşil</tur> a lush landscape. The intensification adds an image, not just intensity."
+        }
+      ],
+      "vocab": [
+        [
+          "mavi",
+          "blue"
+        ],
+        [
+          "beyaz",
+          "white"
+        ],
+        [
+          "siyah",
+          "black"
+        ],
+        [
+          "yeşil",
+          "green"
+        ],
+        [
+          "kırmızı",
+          "red"
+        ],
+        [
+          "sarı",
+          "yellow"
+        ],
+        [
+          "temiz",
+          "clean"
+        ],
+        [
+          "pembe",
+          "pink"
+        ],
+        [
+          "çok",
+          "very"
+        ],
+        [
+          "renk",
+          "colour"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "How do you intensify « mavi »?",
+          "options": [
+            "mavimavi",
+            "masmavi",
+            "mavimsi"
+          ],
+          "a": 1,
+          "why": "The first syllable ma + m gives masmavi: pure blue."
+        },
+        {
+          "q": "What does « tertemiz » mean?",
+          "options": [
+            "very dirty",
+            "spotless",
+            "a little clean"
+          ],
+          "a": 1,
+          "why": "tertemiz is the intensified form of temiz (clean)."
+        }
+      ]
+    },
+    {
+      "id": "va2-8",
+      "level": "A2",
+      "num": 8,
+      "title": "Reporting speech",
+      "tr": "Dolaylı anlatım",
+      "goal": "Say « he said that… », « I think that… », « I heard that… ».",
+      "watch": "dolaylı anlatım -dığını",
+      "blocks": [
+        {
+          "t": "p",
+          "text": "To report information, use <b>-dığını / -diğini / -duğunu / -düğünü</b>: <tur>Onun geldiğini biliyorum.</tur> (I know that he came.) <tur>Bana evde olduğunu söyledi.</tur> (He told me that he was at home.)"
+        },
+        {
+          "t": "table",
+          "caption": "Reporting in the past and in the future",
+          "head": [
+            "Verb",
+            "Present / past",
+            "Future"
+          ],
+          "rows": [
+            [
+              "<tur>gelmek</tur>",
+              "<tur>geldiğini</tur>",
+              "<tur>geleceğini</tur>"
+            ],
+            [
+              "<tur>gitmek</tur>",
+              "<tur>gittiğini</tur>",
+              "<tur>gideceğini</tur>"
+            ],
+            [
+              "<tur>okumak</tur>",
+              "<tur>okuduğunu</tur>",
+              "<tur>okuyacağını</tur>"
+            ],
+            [
+              "<tur>görmek</tur>",
+              "<tur>gördüğünü</tur>",
+              "<tur>göreceğini</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The most useful reporting verbs are <tur>söylemek</tur> (to say), <tur>demek</tur> (to say), <tur>düşünmek</tur> (to think), <tur>sanmak</tur> (to believe), <tur>bilmek</tur> (to know) and <tur>duymak</tur> (to hear). The subject of the clause often goes in the genitive: <tur>Ali'nin geleceğini duydum.</tur>"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "Direct or indirect speech?",
+          "text": "Direct: <tur>« Yarın geleceğim » dedi.</tur> (He said: « I will come tomorrow. ») Indirect: <tur>Yarın geleceğini söyledi.</tur> (He said that he would come tomorrow.) Turkish has no tense agreement as strict as in French: it is the suffix that carries the future."
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Ali'nin yarın geleceğini duydum.",
+              "fr": "I heard that Ali would come tomorrow."
+            },
+            {
+              "tr": "Öğretmen sınavın kolay olduğunu söyledi.",
+              "fr": "The teacher said that the exam was easy."
+            },
+            {
+              "tr": "Onun haklı olduğunu düşünüyorum.",
+              "fr": "I think that he is right."
+            },
+            {
+              "tr": "Bana evde olduğunu söyledi.",
+              "fr": "He told me that he was at home."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "The subject in the genitive",
+          "text": "When the subject of the clause is a proper name or a pronoun, you can put it in the genitive: <tur>Ali'nin geldiğini</tur>, <tur>onun geldiğini</tur>. Without the genitive the sentence is still understandable, but the genitive removes ambiguity."
+        }
+      ],
+      "vocab": [
+        [
+          "söylemek",
+          "to say"
+        ],
+        [
+          "demek",
+          "to say"
+        ],
+        [
+          "düşünmek",
+          "to think"
+        ],
+        [
+          "sanmak",
+          "to believe"
+        ],
+        [
+          "bilmek",
+          "to know"
+        ],
+        [
+          "duymak",
+          "to hear"
+        ],
+        [
+          "haklı",
+          "right (who is right)"
+        ],
+        [
+          "kolay",
+          "easy"
+        ],
+        [
+          "haber",
+          "piece of news"
+        ],
+        [
+          "doğru",
+          "true, correct"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does « Geldiğini biliyorum » mean?",
+          "options": [
+            "I know that he came",
+            "I know that he will come",
+            "I think that he is coming"
+          ],
+          "a": 0,
+          "why": "-dığını reports a past or completed fact: I know that he came."
+        },
+        {
+          "q": "How do you report « He said that he would come tomorrow »?",
+          "options": [
+            "Yarın geleceğini söyledi",
+            "Yarın geldiğini söyledi",
+            "Yarın geliyor söyledi"
+          ],
+          "a": 0,
+          "why": "The reported future uses -eceğini: geleceğini söyledi."
+        }
+      ]
+    },
+    {
+      "id": "va2-9",
+      "level": "A2",
+      "num": 9,
+      "title": "Linking ideas",
+      "tr": "Bağlaçlar",
+      "goal": "Link sentences with but, because, so, also, neither… nor…",
+      "watch": "bağlaçlar",
+      "blocks": [
+        {
+          "t": "table",
+          "caption": "The essential connectors",
+          "head": [
+            "Turkish",
+            "English",
+            "Example"
+          ],
+          "rows": [
+            [
+              "<tur>ama</tur>",
+              "but",
+              "<tur>Zor ama güzel.</tur>"
+            ],
+            [
+              "<tur>ancak / fakat</tur>",
+              "but, however",
+              "<tur>Ancak bugün gelemem.</tur>"
+            ],
+            [
+              "<tur>çünkü</tur>",
+              "because",
+              "<tur>Çalışıyorum çünkü sınav var.</tur>"
+            ],
+            [
+              "<tur>bu yüzden</tur>",
+              "that is why",
+              "<tur>Yağmur var, bu yüzden gelmiyorum.</tur>"
+            ],
+            [
+              "<tur>ayrıca</tur>",
+              "moreover",
+              "<tur>Ayrıca Türkçe öğreniyorum.</tur>"
+            ],
+            [
+              "<tur>hem … hem …</tur>",
+              "both … and …",
+              "<tur>Hem çay hem kahve içti.</tur>"
+            ],
+            [
+              "<tur>ya … ya …</tur>",
+              "either … or …",
+              "<tur>Ya bugün ya yarın gel.</tur>"
+            ],
+            [
+              "<tur>ne … ne …</tur>",
+              "neither … nor …",
+              "<tur>Ne çay ne kahve istiyorum.</tur>"
+            ],
+            [
+              "<tur>oysa</tur>",
+              "whereas",
+              "<tur>Oysa ben onu tanıyordum.</tur>"
+            ],
+            [
+              "<tur>yani</tur>",
+              "that is to say",
+              "<tur>Yani gelmiyorsun?</tur>"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "<tur>Ama</tur> links two opposing ideas and goes between the two clauses. <tur>Çünkü</tur> introduces the cause and comes before the explanation. <tur>Bu yüzden</tur> introduces the consequence: <tur>Yorgunum, bu yüzden erken yatıyorum.</tur> (I am tired, so I go to bed early.)"
+        },
+        {
+          "t": "note",
+          "kind": "tip",
+          "tag": "hem … hem …",
+          "text": "The two items linked by <tur>hem … hem …</tur> have the same function: <tur>Hem Türkçe hem Fransızca konuşuyor.</tur> (He speaks Turkish and French.) For the negative, use <tur>ne … ne …</tur>: <tur>Ne parası ne zamanı var.</tur> (He has neither money nor time.)"
+        },
+        {
+          "t": "ex",
+          "items": [
+            {
+              "tr": "Türkçe zor ama güzel.",
+              "fr": "Turkish is hard but beautiful."
+            },
+            {
+              "tr": "Bugün gelemiyorum çünkü çalışıyorum.",
+              "fr": "I cannot come today because I am working."
+            },
+            {
+              "tr": "Hem çay hem kahve içti.",
+              "fr": "He drank both tea and coffee."
+            },
+            {
+              "tr": "Ya bugün ya yarın gel.",
+              "fr": "Come either today or tomorrow."
+            }
+          ]
+        },
+        {
+          "t": "note",
+          "kind": "info",
+          "tag": "de / da",
+          "text": "<tur>de / da</tur> means « too, also » and is written separately: <tur>Ben de geliyorum.</tur> (I am coming too.) Do not confuse it with the locative <tur>-de / -da</tur> attached to the noun: <tur>evde</tur> (at home)."
+        }
+      ],
+      "vocab": [
+        [
+          "ama",
+          "but"
+        ],
+        [
+          "çünkü",
+          "because"
+        ],
+        [
+          "bu yüzden",
+          "that is why"
+        ],
+        [
+          "ayrıca",
+          "moreover"
+        ],
+        [
+          "hem",
+          "and, both"
+        ],
+        [
+          "ya",
+          "either"
+        ],
+        [
+          "ne",
+          "neither"
+        ],
+        [
+          "oysa",
+          "whereas"
+        ],
+        [
+          "yani",
+          "that is to say"
+        ],
+        [
+          "ancak",
+          "however"
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "Which word means « because »?",
+          "options": [
+            "ama",
+            "çünkü",
+            "bu yüzden"
+          ],
+          "a": 1,
+          "why": "çünkü introduces the cause; bu yüzden introduces the consequence."
+        },
+        {
+          "q": "How do you say « neither tea nor coffee »?",
+          "options": [
+            "Hem çay hem kahve",
+            "Ya çay ya kahve",
+            "Ne çay ne kahve"
+          ],
+          "a": 2,
+          "why": "ne … ne … expresses the double negative: neither … nor …"
+        }
+      ]
+    }
+  ]
+}
