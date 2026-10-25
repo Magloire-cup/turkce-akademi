@@ -206,7 +206,7 @@ const VOCAB = [
       {
         "tr": "maalesef",
         "fr": "өкінішке орай",
-        "ex": "Maalesef bugün gelamam.",
+        "ex": "Maalesef bugün gelemem.",
         "exFr": "Өкінішке орай, бүгін келе алмаймын.",
         "frSrc": "malheureusement"
       },

@@ -74,6 +74,21 @@
       </details>
       <div class="theme-chips" id="theme-chips"></div>
 
+      <section class="dictionary-box" aria-labelledby="dictionary-title">
+        <div class="dictionary-head">
+          <div>
+            <span class="overline">Dictionnaire rapide</span>
+            <h3 id="dictionary-title">Cherche un mot, une traduction ou un exemple</h3>
+            <p class="muted">Les résultats indiquent le thème et une phrase d'exemple. Enregistre tes mots favoris sur cet appareil.</p>
+          </div>
+          <button class="btn btn-ghost btn-sm" id="dictionary-favorites" type="button" aria-pressed="false">☆ Mes favoris</button>
+        </div>
+        <label class="sr-only" for="dictionary-search">Rechercher en turc, en français ou dans les exemples</label>
+        <input type="search" id="dictionary-search" class="dictionary-search" placeholder="Ex. okul, école, université…" autocomplete="off">
+        <p class="dictionary-count muted" id="dictionary-count" aria-live="polite"></p>
+        <div class="dictionary-results" id="dictionary-results"></div>
+      </section>
+
       <div class="flex wrap gap-2 items-center mb-3" style="justify-content:space-between">
         <div class="flex gap-2 items-center wrap">
           <label class="vocab-filter-label" for="vocab-level-filter">Afficher</label>

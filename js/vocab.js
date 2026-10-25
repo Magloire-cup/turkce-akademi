@@ -7,6 +7,55 @@ let flipped = false;
 let listMode = false;
 let levelFilter = "all";
 let frenchFirst = false;
+let favoritesOnly = false;
+
+const DICTIONARY_COPY = {
+  fr: {
+    overline: "Dictionnaire rapide", title: "Cherche un mot, une traduction ou un exemple",
+    description: "Retrouve le thème et, quand elle est certaine, la catégorie grammaticale. Les exemples sont traduits.",
+    favorites: "Mes favoris", searchLabel: "Rechercher en turc, en français ou dans les exemples",
+    placeholder: "Ex. okul, école, université…", start: "Saisis un mot ou une traduction, ou affiche tes favoris.",
+    one: "résultat", many: "résultats", shown: "affichés",
+    noFavorites: "Aucun favori pour le moment. Lance une recherche puis enregistre les mots utiles.",
+    noResults: "Aucun mot ne correspond. Essaie le turc, la traduction ou le nom d’un thème.",
+    add: "Ajouter aux favoris", remove: "Retirer des favoris",
+    parts: { verb: "Verbe à l’infinitif", adjective: "Adjectif", pronoun: "Pronom / interrogatif", numeral: "Numéral", expression: "Expression" }
+  },
+  en: {
+    overline: "Quick dictionary", title: "Search for a word, translation, or example",
+    description: "See the topic and, when certain, the grammatical category. Examples include translations.",
+    favorites: "My favorites", searchLabel: "Search in Turkish, English, French, or examples",
+    placeholder: "e.g. okul, school, university…", start: "Type a word or translation, or show your favorites.",
+    one: "result", many: "results", shown: "shown",
+    noFavorites: "No favorites yet. Search for a word and save useful entries.",
+    noResults: "No matching words. Try Turkish, a translation, or a topic name.",
+    add: "Add to favorites", remove: "Remove from favorites",
+    parts: { verb: "Infinitive verb", adjective: "Adjective", pronoun: "Pronoun / question word", numeral: "Numeral", expression: "Expression" }
+  },
+  ar: {
+    overline: "قاموس سريع", title: "ابحث عن كلمة أو ترجمة أو مثال",
+    description: "اعرض الموضوع والفئة النحوية عند التأكد منها. الأمثلة مرفقة بترجمتها.",
+    favorites: "مفضلاتي", searchLabel: "ابحث بالتركية أو الفرنسية أو الإنجليزية أو في الأمثلة",
+    placeholder: "مثال: okul أو مدرسة…", start: "اكتب كلمة أو ترجمة، أو اعرض مفضلاتك.",
+    one: "نتيجة", many: "نتائج", shown: "معروضة",
+    noFavorites: "لا توجد مفضلات بعد. ابحث عن كلمة واحفظ الكلمات المفيدة.",
+    noResults: "لا توجد كلمات مطابقة. جرّب التركية أو الترجمة أو اسم الموضوع.",
+    add: "أضف إلى المفضلات", remove: "أزل من المفضلات",
+    parts: { verb: "فعل في المصدر", adjective: "صفة", pronoun: "ضمير / أداة استفهام", numeral: "عدد", expression: "تعبير" }
+  },
+  kk: {
+    overline: "Жылдам сөздік", title: "Сөзді, аударманы немесе мысалды ізде",
+    description: "Тақырып пен нақты белгілі болған жағдайда грамматикалық санатты көрсетеді. Мысалдар аудармасымен беріледі.",
+    favorites: "Таңдаулыларым", searchLabel: "Түрікше, қазақша, французша немесе мысалдардан іздеу",
+    placeholder: "Мысалы: okul, мектеп, университет…", start: "Сөз не аударма енгіз немесе таңдаулыларыңды көрсет.",
+    one: "нәтиже", many: "нәтиже", shown: "көрсетілді",
+    noFavorites: "Әзірге таңдаулы сөз жоқ. Іздеп, пайдалы сөздерді сақта.",
+    noResults: "Сәйкес сөз табылмады. Түрікше сөзді, аударманы немесе тақырыпты ізде.",
+    add: "Таңдаулыларға қосу", remove: "Таңдаулылардан өшіру",
+    parts: { verb: "Тұйық етістік", adjective: "Сын есім", pronoun: "Есімдік / сұрау сөзі", numeral: "Сан есім", expression: "Тіркес" }
+  }
+};
+const DICTIONARY_TEXT = DICTIONARY_COPY[(document.documentElement.lang || "fr").split("-")[0]] || DICTIONARY_COPY.fr;
 
 function wordKey(w) { return Progress.wordKey(w.tr, w.frSrc || w.fr); }
 function wordLevel(w) { return Progress.getWordLevel(wordKey(w)); }
@@ -17,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
   el("#total-themes") && (el("#total-themes").textContent = VOCAB.length);
   renderChips();
   selectTheme(VOCAB[0].id);
+  setupDictionary();
 
   el("#vocab-level-filter").addEventListener("change", e => {
     levelFilter = e.target.value;
@@ -48,6 +98,17 @@ document.addEventListener("DOMContentLoaded", () => {
     if (listMode) renderList();
   });
   el("#vocab-search").addEventListener("input", renderList);
+  const dictionarySearch = el("#dictionary-search");
+  if (dictionarySearch) {
+    dictionarySearch.addEventListener("input", renderDictionary);
+    el("#dictionary-favorites").addEventListener("click", event => {
+      favoritesOnly = !favoritesOnly;
+      event.currentTarget.setAttribute("aria-pressed", String(favoritesOnly));
+      event.currentTarget.textContent = `${favoritesOnly ? "★" : "☆"} ${DICTIONARY_TEXT.favorites}`;
+      renderDictionary();
+    });
+    renderDictionary();
+  }
 
   document.addEventListener("keydown", e => {
     if (listMode || !deck.length) return;
@@ -210,4 +271,142 @@ function renderList() {
       <svg class="badge-known" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
     </div>`).join("")
     : '<div class="empty" style="grid-column:1/-1">Aucun mot ne correspond à ces filtres. Essaie un autre filtre ou un autre thème.</div>';
+}
+
+function setupDictionary() {
+  let box = el(".dictionary-box");
+  if (!box) {
+    box = document.createElement("section");
+    box.className = "dictionary-box";
+    box.setAttribute("aria-labelledby", "dictionary-title");
+    box.innerHTML = `
+      <div class="dictionary-head">
+        <div>
+          <span class="overline"></span>
+          <h3 id="dictionary-title"></h3>
+          <p class="muted"></p>
+        </div>
+        <button class="btn btn-ghost btn-sm" id="dictionary-favorites" type="button" aria-pressed="false"></button>
+      </div>
+      <label class="sr-only" for="dictionary-search"></label>
+      <input type="search" id="dictionary-search" class="dictionary-search" autocomplete="off">
+      <p class="dictionary-count muted" id="dictionary-count" aria-live="polite"></p>
+      <div class="dictionary-results" id="dictionary-results"></div>`;
+    el("#theme-chips").insertAdjacentElement("afterend", box);
+  }
+
+  box.querySelector(".overline").textContent = DICTIONARY_TEXT.overline;
+  box.querySelector("#dictionary-title").textContent = DICTIONARY_TEXT.title;
+  box.querySelector(".dictionary-head p").textContent = DICTIONARY_TEXT.description;
+  box.querySelector("#dictionary-favorites").textContent = `☆ ${DICTIONARY_TEXT.favorites}`;
+  box.querySelector('label[for="dictionary-search"]').textContent = DICTIONARY_TEXT.searchLabel;
+  box.querySelector("#dictionary-search").placeholder = DICTIONARY_TEXT.placeholder;
+  box.querySelector("#dictionary-search").setAttribute("aria-label", DICTIONARY_TEXT.searchLabel);
+}
+
+function partOfSpeech(theme) {
+  if (/^verbes\d+$/.test(theme.id)) return DICTIONARY_TEXT.parts.verb;
+  if (theme.id === "adjectifs") return DICTIONARY_TEXT.parts.adjective;
+  if (theme.id === "pronom") return DICTIONARY_TEXT.parts.pronoun;
+  if (theme.id === "nombres") return DICTIONARY_TEXT.parts.numeral;
+  if (theme.id === "expressions") return DICTIONARY_TEXT.parts.expression;
+  return "";
+}
+
+function renderDictionary() {
+  const search = el("#dictionary-search");
+  const results = el("#dictionary-results");
+  const count = el("#dictionary-count");
+  const query = normalizeSearch(search.value.trim());
+  const words = [];
+  const seen = new Set();
+
+  VOCAB.forEach(theme => theme.words.forEach(word => {
+    const key = wordKey(word);
+    if (seen.has(key)) return;
+    seen.add(key);
+    if (favoritesOnly && !Progress.isFavoriteWord(key)) return;
+    const searchable = normalizeSearch([word.tr, word.fr, word.ex, word.exFr, theme.name].join(" "));
+    if (query && !searchable.includes(query)) return;
+    words.push({ word, theme, key });
+  }));
+
+  if (!query && !favoritesOnly) {
+    count.textContent = DICTIONARY_TEXT.start;
+    results.replaceChildren();
+    return;
+  }
+
+  const shown = words.slice(0, 30);
+  const resultLabel = words.length === 1 ? DICTIONARY_TEXT.one : DICTIONARY_TEXT.many;
+  count.textContent = `${words.length} ${resultLabel}${words.length > shown.length ? ` · ${shown.length} ${DICTIONARY_TEXT.shown}` : ""}`;
+  results.replaceChildren();
+  if (!shown.length) {
+    const empty = document.createElement("p");
+    empty.className = "empty";
+    empty.textContent = favoritesOnly && !query ? DICTIONARY_TEXT.noFavorites : DICTIONARY_TEXT.noResults;
+    results.appendChild(empty);
+    return;
+  }
+
+  shown.forEach(({ word, theme, key }) => {
+    const card = document.createElement("article");
+    card.className = "dictionary-result";
+    const content = document.createElement("div");
+    content.className = "dictionary-result-content";
+    const head = document.createElement("div");
+    head.className = "dictionary-word";
+    const turkish = document.createElement("span");
+    turkish.className = "tr";
+    turkish.lang = "tr";
+    turkish.textContent = word.tr;
+    const french = document.createElement("span");
+    french.className = "fr";
+    french.textContent = word.fr;
+    head.append(turkish, french);
+    const category = document.createElement("span");
+    category.className = "chip";
+    category.textContent = theme.name;
+    const categories = document.createElement("div");
+    categories.className = "dictionary-tags";
+    categories.appendChild(category);
+    const pos = partOfSpeech(theme);
+    if (pos) {
+      const grammaticalCategory = document.createElement("span");
+      grammaticalCategory.className = "chip blue";
+      grammaticalCategory.textContent = pos;
+      categories.appendChild(grammaticalCategory);
+    }
+    content.append(head, categories);
+    if (word.ex) {
+      const example = document.createElement("p");
+      example.className = "dictionary-example";
+      const trExample = document.createElement("span");
+      trExample.lang = "tr";
+      trExample.textContent = word.ex;
+      const frExample = document.createElement("span");
+      frExample.textContent = word.exFr || "";
+      example.append(trExample, frExample);
+      content.appendChild(example);
+    }
+
+    const favorite = document.createElement("button");
+    const isFavorite = Progress.isFavoriteWord(key);
+    favorite.className = `icon-btn dictionary-favorite${isFavorite ? " is-favorite" : ""}`;
+    favorite.type = "button";
+    favorite.textContent = isFavorite ? "★" : "☆";
+    favorite.setAttribute("aria-pressed", String(isFavorite));
+    favorite.setAttribute("aria-label", `${isFavorite ? DICTIONARY_TEXT.remove : DICTIONARY_TEXT.add} : ${word.tr}`);
+    favorite.addEventListener("click", () => {
+      const saved = Progress.toggleFavoriteWord(key);
+      renderDictionary();
+      if (!saved) count.textContent = "Impossible d’enregistrer ce favori dans le navigateur.";
+    });
+    card.append(content, favorite);
+    results.appendChild(card);
+  });
+}
+
+function normalizeSearch(value) {
+  return value.toLocaleLowerCase("tr").replace(/ı/g, "i").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }

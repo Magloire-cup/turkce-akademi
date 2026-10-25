@@ -187,5 +187,5 @@ function finishQuiz() {
       </div>
     </div>`;
   el("#q-retry").addEventListener("click", () => startQuiz(run.type));
-  el("#q-home").addEventListener("click", renderQuizHome());
+  el("#q-home").addEventListener("click", () => renderQuizHome());
 }

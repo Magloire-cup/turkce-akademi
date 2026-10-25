@@ -61,10 +61,18 @@ const Progress = {
     try { this.data = JSON.parse(localStorage.getItem(this.KEY)) || {}; } catch (e) { this.data = {}; }
     if (!Array.isArray(this.data.doneModules)) this.data.doneModules = [];
     if (!this.data.knownWords) this.data.knownWords = {};
+    if (!this.data.favoriteWords) this.data.favoriteWords = {};
     if (!this.data.quizBest) this.data.quizBest = {};
     return this.data;
   },
-  save() { try { localStorage.setItem(this.KEY, JSON.stringify(this.data)); } catch (e) {} },
+  save() {
+    try {
+      localStorage.setItem(this.KEY, JSON.stringify(this.data));
+      return true;
+    } catch (e) {
+      return false;
+    }
+  },
   isModuleDone(id) { return this.data.doneModules.includes(id); },
   toggleModuleDone(id) {
     this.load();
@@ -104,6 +112,14 @@ const Progress = {
     this.data.knownWords[key] = lvl;
     this.save();
   },
+  toggleFavoriteWord(key) {
+    this.load();
+    const isFavorite = !this.data.favoriteWords[key];
+    if (isFavorite) this.data.favoriteWords[key] = true;
+    else delete this.data.favoriteWords[key];
+    return this.save();
+  },
+  isFavoriteWord(key) { this.load(); return Boolean(this.data.favoriteWords[key]); },
   getWordLevel(key) { this.load(); return this.data.knownWords[key] || 0; },
   knownCount() { this.load(); return Object.values(this.data.knownWords).filter(l => l > 0).length; },
   setQuizBest(key, score) {

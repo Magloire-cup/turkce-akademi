@@ -41,7 +41,7 @@ const VOCAB = [
       { tr: "sorun değil", fr: "ce n'est pas grave", ex: "Sorun değil, merak etme.", exFr: "Ce n'est pas grave, ne t'inquiète pas." },
       { tr: "tamam", fr: "d'accord, OK", ex: "Tamam, anladım.", exFr: "D'accord, j'ai compris." },
       { tr: "olur", fr: "ça marche, volontiers", ex: "Olur, yarın gelirim.", exFr: "Ça marche, je viendrai demain." },
-      { tr: "maalesef", fr: "malheureusement", ex: "Maalesef bugün gelamam.", exFr: "Malheureusement je ne peux pas venir aujourd'hui." },
+      { tr: "maalesef", fr: "malheureusement", ex: "Maalesef bugün gelemem.", exFr: "Malheureusement je ne peux pas venir aujourd'hui." },
       { tr: "belki", fr: "peut-être", ex: "Belki yarın gelir.", exFr: "Peut-être qu'il viendra demain." },
       { tr: "tabii", fr: "bien sûr", ex: "Tabii ki yardım ederim.", exFr: "Bien sûr que je t'aide." },
       { tr: "tebrikler", fr: "félicitations", ex: "Tebrikler, başardın!", exFr: "Félicitations, tu as réussi !" },

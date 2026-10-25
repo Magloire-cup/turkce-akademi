@@ -20,7 +20,8 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 - **Alphabet expliqué** : 29 lettres avec repères de prononciation écrite, paires minimales et accent tonique.
 - **Aucun audio généré par le site** : les prononciations sont données sous forme de transcriptions et de repères écrits.
 - **Progression locale** : modules terminés, mots mémorisés, réponses justes et records de quiz, stockés dans `localStorage`.
-- **Devoirs de maison** : section volontairement vide pour le moment.
+- **Devoirs de maison** : cinq exercices de révision concrets reliés aux unités du parcours, avec consignes, durée indicative et résultat attendu. Ce sont des suggestions pédagogiques, pas des devoirs attribués par l'enseignant. Le suivi personnel des tâches et échéances est enregistré uniquement dans le navigateur ; le site statique ne partage pas les tâches entre élèves.
+- **Dictionnaire rapide** : recherche dans les mots, traductions et exemples, avec thèmes et favoris enregistrés localement.
 
 ## Utiliser
 
@@ -67,7 +68,7 @@ Remplacer `ar` par `en` ou `kk` pour les autres langues. Les sources de traducti
 ├── essentiel.html        Mémento : cas, SOV, phrases, pièges, faux amis, culture, ressources, FAQ
 ├── exercices.html        Quiz
 ├── prononciation.html    Alphabet interactif
-├── devoirs.html          Devoirs de maison (section vide)
+├── devoirs.html          Ressources de classe et suivi personnel des tâches
 ├── css/style.css         Design system (clair / sombre)
 └── js/
     ├── app.js            Commun : nav, thème, progression
