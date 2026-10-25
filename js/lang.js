@@ -207,7 +207,7 @@
             <div class="partner-university">${p.university}</div>
             <p>${p.lead}</p>
           </div>
-          <a class="btn btn-ghost btn-sm partner-link" href="https://www.baibu.edu.tr/" target="_blank" rel="noopener">${p.link} ↗</a>
+          <a class="btn btn-ghost btn-sm partner-link" href="https://www.ibu.edu.tr/" target="_blank" rel="noopener">${p.link} ↗</a>
         </div>
       </div>`;
     const hero = main.querySelector(".hero");
@@ -224,7 +224,7 @@
     line.dataset.noI18n = "";
     line.innerHTML = `
       <img src="${assetUrl("assets/baibu-logo.png")}" alt="Bolu Abant İzzet Baysal Üniversitesi" width="34" height="34" loading="lazy">
-      <span><b lang="tr" dir="ltr">BAIBU YTB TÖMER Sınıfı</b> · <a href="https://www.baibu.edu.tr/" target="_blank" rel="noopener">${p.university} ↗</a></span>`;
+      <span><b lang="tr" dir="ltr">BAIBU YTB TÖMER Sınıfı</b> · <a href="https://www.ibu.edu.tr/" target="_blank" rel="noopener">${p.university} ↗</a></span>`;
     const bottom = container.querySelector(".footer-bottom");
     if (bottom) container.insertBefore(line, bottom);
     else container.appendChild(line);

@@ -909,7 +909,7 @@ kbd {
 .pq-why.show { display: block; }
 
 /* Onze liens : le menu passe en burger avant que la barre ne déborde. */
-@media (max-width: 1440px) {
+@media (max-width: 1560px) {
   .nav-links {
     display: none; position: absolute; top: 68px; left: 0; right: 0;
     background: var(--surface); border-bottom: 1px solid var(--border);

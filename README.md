@@ -2,7 +2,7 @@
 
 **Apprendre le turc en français : un cours complet et gratuit.**
 
-Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) conçu pour les francophones qui veulent apprendre le turc sérieusement, en trois grandes étapes.
+Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) conçu pour apprendre le turc sérieusement, en trois grandes étapes.
 
 **Classe partenaire : BAIBU YTB TÖMER Sınıfı** — Bolu Abant İzzet Baysal Üniversitesi.
 
@@ -20,7 +20,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 - **Alphabet expliqué** : 29 lettres avec repères de prononciation écrite, paires minimales et accent tonique.
 - **Aucun audio généré par le site** : les prononciations sont données sous forme de transcriptions et de repères écrits.
 - **Progression locale** : modules terminés, mots mémorisés, réponses justes et records de quiz, stockés dans `localStorage`.
-- **Planning d'études** : routine adaptée aux cours de 9 h à 15 h 45, comparaison avec ton rythme actuel, révisions espacées, pomodoro 25/5 automatique, pauses et sommeil protégé.
+- **Devoirs de maison** : section volontairement vide pour le moment.
 
 ## Utiliser
 
@@ -67,7 +67,7 @@ Remplacer `ar` par `en` ou `kk` pour les autres langues. Les sources de traducti
 ├── essentiel.html        Mémento : cas, SOV, phrases, pièges, faux amis, culture, ressources, FAQ
 ├── exercices.html        Quiz
 ├── prononciation.html    Alphabet interactif
-├── emploi-du-temps.html  Planning d'études + minuteur Pomodoro
+├── devoirs.html          Devoirs de maison (section vide)
 ├── css/style.css         Design system (clair / sombre)
 └── js/
     ├── app.js            Commun : nav, thème, progression
@@ -84,7 +84,7 @@ Remplacer `ar` par `en` ou `kk` pour les autres langues. Les sources de traducti
     ├── data-videos-b1.js   Compagnon vidéo, fiches B1
     ├── videos.js         Moteur du compagnon vidéo (onglets, quiz, progression)
     ├── data-quiz.js      Banque de quiz + mot du jour
-    ├── schedule.js       Planning + minuteur Pomodoro
+    ├── schedule.js       Données de planning (non affichées)
     ├── lang.js           Sélecteur de langue et section d'accueil
     ├── i18n.js           Traduction de l'interface au chargement
     ├── i18n/             Données traduites (en/, ar/, kk/)
@@ -103,7 +103,7 @@ Profil : [github.com/Magloire-cup](https://github.com/Magloire-cup)
 
 ## Partenariat
 
-**BAIBU YTB TÖMER Sınıfı** — Bolu Abant İzzet Baysal Üniversitesi, [baibu.edu.tr](https://www.baibu.edu.tr/).
+**BAIBU YTB TÖMER Sınıfı** — Bolu Abant İzzet Baysal Üniversitesi, [ibu.edu.tr](https://www.ibu.edu.tr/).
 
 Le logo de l'université (`assets/baibu-logo.png`) provient de Wikimedia Commons (« BAİBÜ logo.png »), où il est publié dans le domaine public. Il est affiché uniquement pour identifier la classe partenaire, sans suggérer une affiliation officielle au-delà de ce co-branding.
 

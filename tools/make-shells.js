@@ -34,7 +34,7 @@ const PAGES = [
   "essentiel.html",
   "exercices.html",
   "prononciation.html",
-  "emploi-du-temps.html"
+  "devoirs.html"
 ];
 
 const DATA_MAP = {

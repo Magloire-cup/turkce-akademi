@@ -23,7 +23,7 @@ const PAGES = [
   "videos.html",
   "exercices.html",
   "prononciation.html",
-  "emploi-du-temps.html"
+  "devoirs.html"
 ];
 
 const VOID = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"]);

@@ -10,7 +10,6 @@ const VIDEO_PLAYLISTS = {
   B1: "https://www.youtube.com/@yeeorgtr/playlists"
 };
 
-const VIDEO_PARTS = { A1: "Partie 1", A2: "Partie 2", B1: "Partie 3" };
 const VIDEO_LEVELS = { A1: "Les bases", A2: "L'autonomie", B1: "L'approfondissement" };
 const VIDEO_QUIZ_KEY = "ta_videos_quiz";
 const VIDEO_DONE_KEY = "ta_videos_done";
@@ -73,7 +72,7 @@ function renderVideoTabs() {
     const list = videoList(lvl);
     const done = list.filter(v => videoDone.includes(v.id)).length;
     return `<button class="tab${lvl === currentLevel ? " active" : ""}" data-level="${lvl}">
-      ${VIDEO_PARTS[lvl]} · ${done}/${list.length}
+      ${lvl} · ${done}/${list.length}
     </button>`;
   }).join("");
   els("#video-tabs .tab").forEach(btn => {
@@ -98,7 +97,7 @@ function renderVideoToc() {
   toc.innerHTML = `
     <div class="lvl" id="video-progress">${videoDone.length}/${VIDEOS.length} fiches révisées</div>
     <div class="lvl" id="video-quiz-progress">${quizDone}/${VIDEO_QUIZ_TOTAL} réponses justes</div>
-    <div class="lvl">${VIDEO_LEVELS[currentLevel]}</div>
+    <div class="lvl">${currentLevel} · ${VIDEO_LEVELS[currentLevel]}</div>
     ${list.map((u, i) => `
       <button data-idx="${i}" class="${i === currentIndex ? "active" : ""}${videoDone.includes(u.id) ? " done" : ""}">
         <span class="tk" style="min-width:18px">${String(u.num).padStart(2, "0")}</span>${u.title}
