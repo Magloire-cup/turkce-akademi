@@ -493,7 +493,7 @@ window.TA_LOCALE = {
       "note": ""
     },
     {
-      "label": "Commute: podcast or replaying the dialogues",
+      "label": "Commute: Turkish podcast or dialogue review",
       "warn": "",
       "note": "Effortless passive immersion: it counts."
     },

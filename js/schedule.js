@@ -33,7 +33,7 @@ const PLAN_WEEKDAY_BASE = [
   { s: "06:30", e: "06:40", label: "Réveil + grand verre d'eau", type: "prep", note: "Lumière du jour tout de suite : elle calibre l'horloge biologique." },
   { s: "06:40", e: "07:10", label: "Révision du matin : flashcards + mot du jour", type: "study", note: "Le cerveau est frais : le meilleur moment pour la révision espacée." },
   { s: "07:10", e: "07:50", label: "Petit-déjeuner + habillage", type: "meal" },
-  { s: "07:50", e: "09:00", label: "Trajet : podcast ou réécoute des dialogues", type: "transit", note: "De l'immersion passive sans effort : ça compte." },
+  { s: "07:50", e: "09:00", label: "Trajet : podcast en turc ou révision des dialogues", type: "transit", note: "De l'immersion passive sans effort : ça compte." },
   { s: "09:00", e: "15:45", label: "Cours à l'école", type: "school" },
   { s: "15:45", e: "16:15", label: "Retour + goûter", type: "transit" },
   { s: "16:15", e: "16:45", label: "Repos sans écran (promenade, douche)", type: "rest", note: "30 min pour « descendre » de la journée, sans téléphone." },
