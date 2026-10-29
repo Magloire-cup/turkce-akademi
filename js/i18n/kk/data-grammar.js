@@ -650,7 +650,7 @@ const GRAMMAR = [
   },
   {
     "id": "present",
-    "title": "Осы шақ: -iyor",
+    "title": "Осы шақ: -yor",
     "level": "A2",
     "blocks": [
       {

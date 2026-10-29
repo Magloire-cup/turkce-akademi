@@ -516,7 +516,7 @@ const COURSE = [
   /* ============ MODULE 8 ============ */
   {
     id: "m8", num: 8, level: "A2",
-    title: "Le présent continu : -iyor",
+    title: "Le présent continu : -yor",
     subtitle: "Ce que tu es en train de faire, maintenant",
     objectifs: [
       "Conjuguer les verbes au présent",
@@ -524,7 +524,7 @@ const COURSE = [
       "Poser « qu'est-ce que tu fais ? »"
     ],
     blocks: [
-      { t: "p", text: "Le temps du présent s'appelle <b>şimdiki zaman</b> (temps de maintenant). Sa brique centrale : <b>-iyor</b>, qui s'insère entre la racine du verbe et la terminaison personnelle. Schéma : <b>racine + -iyor + personne</b>." },
+      { t: "p", text: "Le temps du présent s'appelle <b>şimdiki zaman</b> (temps de maintenant). Sa brique centrale est le suffixe <b>-yor</b>, dont la voyelle s'harmonise : <b>-ıyor, -iyor, -uyor ou -üyor</b>. Schéma : <b>racine + -yor + personne</b>." },
       { t: "table", caption: "Conjugaison de « yapmak » (faire)", head: ["Personne", "Turc", "Traduction"],
         rows: [
           ["ben", "<tur>yapıyorum</tur>", "je fais"],
@@ -534,9 +534,9 @@ const COURSE = [
           ["siz", "<tur>yapıyorsunuz</tur>", "vous faites"],
           ["onlar", "<tur>yapıyorlar</tur>", "ils/elles font"]
         ] },
-      { t: "p", text: "Repère la mécanique : yap- (racine) + -ıyor (présent) + -um (je). La voyelle du <b>-iyor</b> s'harmonise avec la racine : <tur>geliyorum</tur> (je viens), <tur>bakıyorum</tur> (je regarde), <tur>sürüyor</tur>… mais les terminaisons (-um, -sun, Ø, -uz, -sunuz, -lar) restent stables." },
+      { t: "p", text: "Repère la mécanique : yap- (racine) + -ıyor (variante de -yor) + -um (je). La voyelle de <b>-yor</b> s'harmonise avec la racine : <tur>geliyorum</tur> (je viens), <tur>bakıyorum</tur> (je regarde), <tur>sürüyor</tur>… mais les terminaisons (-um, -sun, Ø, -uz, -sunuz, -lar) restent stables." },
       { t: "h", text: "La négation : -miyor" },
-      { t: "p", text: "On intercale <b>-me/-ma</b> juste avant -iyor : <tur>yapmıyorum</tur> (je ne fais pas), <tur>gelmiyor</tur> (il ne vient pas), <tur>sevmiyorum</tur> (je n'aime pas). Facile à repérer : le petit <b>m</b> qui barre le verbe." },
+      { t: "p", text: "On intercale <b>-me/-ma</b> juste avant -yor : <tur>yapmıyorum</tur> (je ne fais pas), <tur>gelmiyor</tur> (il ne vient pas), <tur>sevmiyorum</tur> (je n'aime pas). Facile à repérer : le petit <b>m</b> qui barre le verbe." },
       { t: "h", text: "Emplois" },
       { t: "ul", items: [
         "Action en cours : <tur>Şimdi ders çalışıyorum.</tur> (je révise maintenant)",

@@ -6,6 +6,27 @@
 /* ---------- Navigation ---------- */
 document.addEventListener("DOMContentLoaded", () => {
   const page = document.body.dataset.page || "";
+  const main = document.querySelector("main");
+  if (main) {
+    main.id = main.id || "main-content";
+    if (!document.querySelector(".skip-link")) {
+      const skip = document.createElement("a");
+      skip.className = "skip-link";
+      skip.href = "#main-content";
+      skip.textContent = document.documentElement.lang === "en" ? "Skip to content" : document.documentElement.lang === "ar" ? "انتقل إلى المحتوى" : document.documentElement.lang === "kk" ? "Мазмұнға өту" : "Aller au contenu";
+      document.body.prepend(skip);
+    }
+  }
+  const nav = document.getElementById("nav-links");
+  if (nav && !nav.querySelector('[data-nav="colors"]')) {
+    const lang = (document.documentElement.lang || "fr").split("-")[0];
+    const label = { fr: "Couleurs", en: "Colours", ar: "الألوان", kk: "Түстер" }[lang] || "Couleurs";
+    const link = document.createElement("a");
+    link.href = "couleurs.html";
+    link.dataset.nav = "colors";
+    link.textContent = label;
+    nav.appendChild(link);
+  }
   document.querySelectorAll(".nav-links a").forEach(a => {
     if (a.dataset.nav === page) a.classList.add("active");
   });
@@ -13,8 +34,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const burger = document.getElementById("burger");
   const links = document.getElementById("nav-links");
   if (burger && links) {
-    burger.addEventListener("click", () => links.classList.toggle("open"));
-    links.querySelectorAll("a").forEach(a => a.addEventListener("click", () => links.classList.remove("open")));
+    burger.setAttribute("aria-expanded", "false");
+    burger.addEventListener("click", () => {
+      const open = links.classList.toggle("open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+    links.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+      links.classList.remove("open");
+      burger.setAttribute("aria-expanded", "false");
+    }));
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        links.classList.remove("open");
+        burger.setAttribute("aria-expanded", "false");
+        burger.focus();
+      }
+    });
   }
 
   const themeBtn = document.getElementById("theme-toggle");

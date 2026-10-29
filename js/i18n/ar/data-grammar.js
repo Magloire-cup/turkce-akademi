@@ -650,7 +650,7 @@ const GRAMMAR = [
   },
   {
     "id": "present",
-    "title": "المضارع المستمر: -iyor",
+    "title": "المضارع المستمر: -yor",
     "level": "A2",
     "blocks": [
       {

@@ -650,7 +650,7 @@ const GRAMMAR = [
   },
   {
     "id": "present",
-    "title": "The present continuous: -iyor",
+    "title": "The present continuous: -yor",
     "level": "A2",
     "blocks": [
       {

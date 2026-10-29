@@ -188,9 +188,9 @@ const GRAMMAR = [
     ]
   },
   {
-    id: "present", title: "Le présent continu : -iyor", level: "A2",
+    id: "present", title: "Le présent continu : -yor", level: "A2",
     blocks: [
-      { t: "p", text: "Racine + <b>-iyor</b> + personne. La voyelle de -iyor s'harmonise (i/ı/ü/u), les terminaisons personnelles non." },
+      { t: "p", text: "Racine + <b>-yor</b> + personne. La voyelle qui précède -yor s'harmonise : -ıyor, -iyor, -uyor ou -üyor selon le mot." },
       { t: "table", caption: "Conjugaison complète (gelmek, venir)", head: ["Personne", "Turc", "Français"],
         rows: [
           ["ben", "<tur>geliyorum</tur>", "je viens"],
@@ -200,7 +200,7 @@ const GRAMMAR = [
           ["siz", "<tur>geliyorsunuz</tur>", "vous venez"],
           ["onlar", "<tur>geliyorlar</tur>", "ils/elles viennent"]
         ] },
-      { t: "p", text: "Négation : -me/-ma s'intercale (gel<b>mi</b>yorum). Après voyelle, un y apparaît : oku<b>y</b>orum (je lis), bekle<b>y</b>or (il attend)." },
+      { t: "p", text: "Négation : -me/-ma s'intercale (gel<b>miyorum</b>). Après voyelle, le y de -yor reste visible : oku<b>yorum</b> (je lis), bekle<b>yor</b> (il attend)." },
       { t: "p", text: "Ce temps couvre l'action en cours <b>et</b> l'état durable : <tur>İstanbul'da yaşıyorum</tur> (j'habite à Istanbul), <tur>Türkçe öğreniyorum</tur> (j'apprends le turc)." }
     ]
   },

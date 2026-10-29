@@ -22,6 +22,7 @@ Site statique (HTML / CSS / JavaScript, aucune dépendance, aucun framework) con
 - **Progression locale** : modules terminés, mots mémorisés, réponses justes et records de quiz, stockés dans `localStorage`.
 - **Devoirs de maison** : cinq exercices de révision concrets reliés aux unités du parcours, avec consignes, durée indicative et résultat attendu. Ce sont des suggestions pédagogiques, pas des devoirs attribués par l'enseignant. Le suivi personnel des tâches et échéances est enregistré uniquement dans le navigateur ; le site statique ne partage pas les tâches entre élèves.
 - **Dictionnaire rapide** : recherche dans les mots, traductions et exemples, avec thèmes et favoris enregistrés localement.
+- **Cours thématique des couleurs** : dix couleurs, adjectifs, nuances, suffixe `-rengi` et mini-quiz dans les quatre langues.
 
 ## Utiliser
 
@@ -69,6 +70,7 @@ Remplacer `ar` par `en` ou `kk` pour les autres langues. Les sources de traducti
 ├── exercices.html        Quiz
 ├── prononciation.html    Alphabet interactif
 ├── devoirs.html          Ressources de classe et suivi personnel des tâches
+├── couleurs.html         Cours thématique sur les couleurs + mini-quiz
 ├── css/style.css         Design system (clair / sombre)
 └── js/
     ├── app.js            Commun : nav, thème, progression
@@ -85,6 +87,7 @@ Remplacer `ar` par `en` ou `kk` pour les autres langues. Les sources de traducti
     ├── data-videos-b1.js   Compagnon vidéo, fiches B1
     ├── videos.js         Moteur du compagnon vidéo (onglets, quiz, progression)
     ├── data-quiz.js      Banque de quiz + mot du jour
+    ├── couleurs.js       Cours et mini-quiz des couleurs
     ├── schedule.js       Données de planning (non affichées)
     ├── lang.js           Sélecteur de langue et section d'accueil
     ├── i18n.js           Traduction de l'interface au chargement

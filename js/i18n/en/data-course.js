@@ -1905,7 +1905,7 @@ const COURSE = [
     "id": "m8",
     "num": 8,
     "level": "A2",
-    "title": "The present continuous: -iyor",
+    "title": "The present continuous: -yor",
     "subtitle": "What you are doing right now",
     "objectifs": [
       "Conjugate verbs in the present",

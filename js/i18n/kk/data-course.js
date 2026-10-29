@@ -1905,7 +1905,7 @@ const COURSE = [
     "id": "m8",
     "num": 8,
     "level": "A2",
-    "title": "Осы шақ: -iyor",
+    "title": "Осы шақ: -yor",
     "subtitle": "Дәл қазір не істеп жатқаның",
     "objectifs": [
       "Етістіктерді осы шақта жіктеу",

@@ -3,6 +3,7 @@
 let currentArticle = 0;
 
 document.addEventListener("DOMContentLoaded", () => {
+  setupCourseToggle();
   const hash = location.hash.replace("#", "");
   const idx = GRAMMAR.findIndex(g => g.id === hash);
   currentArticle = idx >= 0 ? idx : 0;
@@ -13,6 +14,36 @@ document.addEventListener("DOMContentLoaded", () => {
     if (i >= 0 && i !== currentArticle) { currentArticle = i; renderToc(); renderArticle(); }
   });
 });
+
+function setupCourseToggle() {
+  const toggle = el("#gram-toggle");
+  const content = el("#gram-toc");
+  const layout = content?.closest(".gram-layout");
+  if (!toggle || !content) return;
+
+  const copy = {
+    fr: ["Masquer la liste des cours", "Afficher la liste des cours"],
+    en: ["Hide course list", "Show course list"],
+    ar: ["إخفاء قائمة الدروس", "إظهار قائمة الدروس"],
+    kk: ["Курс тізімін жасыру", "Курс тізімін көрсету"]
+  }[document.documentElement.lang] || ["Masquer la liste des cours", "Afficher la liste des cours"];
+  const key = "turkce-grammar-list-hidden";
+  const update = hidden => {
+    content.hidden = hidden;
+    layout?.classList.toggle("list-hidden", hidden);
+    toggle.setAttribute("aria-expanded", String(!hidden));
+    toggle.textContent = hidden ? copy[1] : copy[0];
+  };
+
+  let hidden = false;
+  try { hidden = localStorage.getItem(key) === "true"; } catch (error) { console.warn("Impossible de lire l'état des fiches de cours.", error); }
+  update(hidden);
+  toggle.addEventListener("click", () => {
+    hidden = !hidden;
+    update(hidden);
+    try { localStorage.setItem(key, String(hidden)); } catch (error) { console.warn("Impossible d'enregistrer l'état des fiches de cours.", error); }
+  });
+}
 
 function renderToc() {
   const parts = { A1: "Les fondations", A2: "La construction", B1: "L'expression" };
