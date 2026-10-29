@@ -393,6 +393,15 @@ const COURSE = [
     ],
     blocks: [
       { t: "p", text: "En français, la possession utilise des mots séparés (mon, ta, ses…). En turc, le nom possédé porte directement un suffixe : <tur>oda</tur> (chambre) devient <tur>odam</tur> (ma chambre). Le possesseur peut être ajouté au génitif : <tur>benim odam</tur> (ma chambre)." },
+      { t: "h", text: "La formule générale des suffixes" },
+      { t: "p", text: "Pour lire les formules turques, retiens deux symboles : <b>I</b> représente <b>ı, i, u ou ü</b> (harmonie à 4 voyelles) et <b>A</b> représente <b>a ou e</b> (harmonie à 2 voyelles). La voyelle choisie dépend toujours de la <b>dernière voyelle</b> du mot, pas de sa dernière lettre. Dans la possession, les formules sont : <b>-(I)m</b> (ma), <b>-(I)n</b> (ta), <b>-(s)I</b> (sa), <b>-(I)mız</b> (notre), <b>-(I)nız</b> (votre) et <b>-(l)ArI</b> (leur). Les parenthèses indiquent une lettre qui apparaît seulement lorsque le mot en a besoin." },
+      { t: "table", caption: "Détailler l'harmonie de I et de A", head: ["Dernière voyelle", "Famille", "I dans un possessif", "A dans un suffixe"],
+        rows: [
+          ["a, ı", "arrière, non arrondie", "ı : <tur>kapım</tur>", "a : <tur>kapılar</tur>"],
+          ["e, i", "avant, non arrondie", "i : <tur>evim</tur>", "e : <tur>evler</tur>"],
+          ["o, u", "arrière, arrondie", "u : <tur>okulum</tur>", "a : <tur>okullar</tur>"],
+          ["ö, ü", "avant, arrondie", "ü : <tur>gözüm</tur>", "e : <tur>gözler</tur>"]
+        ] },
       { t: "table", caption: "Les terminaisons de possession avec « oda »", head: ["Personne", "Terminaison", "Turc", "Français"],
         rows: [
           ["ben (je)", "-(ı/i/u/ü)m", "<tur>odam</tur>", "ma chambre"],
@@ -402,7 +411,7 @@ const COURSE = [
           ["siz (vous)", "-(ı/i/u/ü)nız", "<tur>odanız</tur>", "votre chambre"],
           ["onlar (ils/elles)", "-(ı/i/u/ü)ları", "<tur>odaları</tur>", "leur chambre / leurs chambres"]
         ] },
-      { t: "p", text: "La voyelle suit la dernière voyelle du mot : <b>a/ı → ı</b>, <b>e/i → i</b>, <b>o/u → u</b>, <b>ö/ü → ü</b>. Compare : <tur>kapım</tur> (ma porte), <tur>evim</tur> (ma maison), <tur>okulum</tur> (mon école), <tur>gözüm</tur> (mon œil)." },
+      { t: "p", text: "Dans les formules possessives, <b>I</b> suit l'harmonie à 4 voyelles : <b>a/ı → ı</b>, <b>e/i → i</b>, <b>o/u → u</b>, <b>ö/ü → ü</b>. Ainsi, <tur>kapı + (I)m → kapım</tur>, <tur>ev + (I)m → evim</tur>, <tur>okul + (I)m → okulum</tur> et <tur>göz + (I)m → gözüm</tur>. Pour un suffixe à 2 variantes, <b>A</b> suit uniquement la famille : arrière → <b>a</b> et avant → <b>e</b>, comme dans <tur>okullar</tur> et <tur>evler</tur>." },
       { t: "table", caption: "Deux mots à comparer : oda et zaman", head: ["Mot", "Ma...", "Ta...", "Sa...", "Notre..."],
         rows: [
           ["<tur>oda</tur> (chambre)", "<tur>odam</tur>", "<tur>odan</tur>", "<tur>odası</tur>", "<tur>odamız</tur>"],

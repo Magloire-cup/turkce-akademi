@@ -153,6 +153,15 @@ const GRAMMAR = [
     id: "possessif", title: "La possession", level: "A2",
     blocks: [
       { t: "p", text: "En turc, le nom possédé porte une terminaison de possession. Le possesseur peut rester sous-entendu : <tur>odam</tur> signifie « ma chambre ». Quand on précise le possesseur, il prend le génitif et le nom possédé garde sa terminaison : <tur>benim odam</tur> (ma chambre)." },
+      { t: "h", text: "La formule générale : I et A" },
+      { t: "p", text: "Dans les formules de grammaire, <b>I</b> est une voyelle variable qui devient <b>ı, i, u ou ü</b> selon la dernière voyelle du mot. Pour choisir <b>I</b>, regarde deux critères : sa famille (arrière ou avant) et son arrondissement. <b>A</b> est une autre voyelle variable qui devient <b>a</b> ou <b>e</b> : elle suit seulement la famille de la dernière voyelle. Dans les suffixes possessifs, on utilise surtout la formule <b>-(I)m</b>, <b>-(I)n</b>, <b>-(s)I</b>, <b>-(I)mız</b>, <b>-(I)nız</b> et <b>-(l)ArI</b>." },
+      { t: "table", caption: "Comment appliquer l'harmonie vocalique", head: ["Dernière voyelle", "Famille", "Arrondie ?", "I devient", "A devient"],
+        rows: [
+          ["a, ı", "arrière", "non", "ı", "a"],
+          ["e, i", "avant", "non", "i", "e"],
+          ["o, u", "arrière", "oui", "u", "a"],
+          ["ö, ü", "avant", "oui", "ü", "e"]
+        ] },
       { t: "table", caption: "Les six terminaisons avec « oda » (chambre)", head: ["Personne", "Terminaison", "Exemple", "Français"],
         rows: [
           ["ben (je)", "-(ı/i/u/ü)m", "<tur>odam</tur>", "ma chambre"],
@@ -162,7 +171,7 @@ const GRAMMAR = [
           ["siz (vous)", "-(ı/i/u/ü)nız", "<tur>odanız</tur>", "votre chambre"],
           ["onlar (ils/elles)", "-(ı/i/u/ü)ları", "<tur>odaları</tur>", "leur chambre / leurs chambres"]
         ] },
-      { t: "p", text: "La voyelle du suffixe suit la dernière voyelle du mot : <b>a/ı → ı</b>, <b>e/i → i</b>, <b>o/u → u</b>, <b>ö/ü → ü</b>. Avec <tur>oda</tur>, la voyelle finale est <b>a</b> : on obtient donc <tur>odam</tur>, <tur>odan</tur>, <tur>odası</tur>, <tur>odamız</tur> et <tur>odanız</tur>." },
+      { t: "p", text: "Pour les possessifs, c'est donc l'harmonie à <b>4 voyelles</b> qui s'applique à <b>I</b> : <b>a/ı → ı</b>, <b>e/i → i</b>, <b>o/u → u</b>, <b>ö/ü → ü</b>. Avec <tur>oda</tur>, la dernière voyelle est <b>a</b>, donc <b>I = ı</b> : <tur>oda + (I)m → odam</tur>, <tur>oda + (I)n → odan</tur>, <tur>oda + (s)I → odası</tur>, <tur>oda + (I)mız → odamız</tur> et <tur>oda + (I)nız → odanız</tur>. La formule <b>A</b> concerne les suffixes à 2 variantes, comme <tur>-lar/-ler</tur> : arrière → <b>a</b>, avant → <b>e</b>." },
       { t: "table", caption: "Choisir la voyelle de la terminaison", head: ["Dernière voyelle", "Voyelle", "Exemple"],
         rows: [
           ["a, ı", "ı", "<tur>kapı → kapım</tur> (ma porte)"],
