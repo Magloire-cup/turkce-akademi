@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
   const nav = document.getElementById("nav-links");
-  if (nav && !nav.querySelector('[data-nav="colors"]')) {
+  if (nav && page !== "devoirs" && !nav.querySelector('[data-nav="colors"]')) {
     const lang = (document.documentElement.lang || "fr").split("-")[0];
     const label = { fr: "Couleurs", en: "Colours", ar: "الألوان", kk: "Түстер" }[lang] || "Couleurs";
     const link = document.createElement("a");
