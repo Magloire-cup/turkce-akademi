@@ -152,22 +152,36 @@ const GRAMMAR = [
   {
     id: "possessif", title: "La possession", level: "A2",
     blocks: [
-      { t: "p", text: "Le possédé porte un suffixe possessif ; le possesseur (s'il est exprimé) porte le génitif. Structure : possesseur-génitif + possédé-possessif." },
-      { t: "table", caption: "Suffixes possessifs (avec « anne », mère)", head: ["Personne", "Suffixe", "Exemple", "Sens"],
+      { t: "p", text: "En turc, le nom possédé porte une terminaison de possession. Le possesseur peut rester sous-entendu : <tur>odam</tur> signifie « ma chambre ». Quand on précise le possesseur, il prend le génitif et le nom possédé garde sa terminaison : <tur>benim odam</tur> (ma chambre)." },
+      { t: "table", caption: "Les six terminaisons avec « oda » (chambre)", head: ["Personne", "Terminaison", "Exemple", "Français"],
         rows: [
-          ["mon", "-im", "<tur>annem</tur>", "ma mère"],
-          ["ton", "-in", "<tur>annen</tur>", "ta mère"],
-          ["son", "-i", "<tur>annesi</tur>", "sa mère"],
-          ["notre", "-imiz", "<tur>annemiz</tur>", "notre mère"],
-          ["votre", "-iniz", "<tur>anneniz</tur>", "votre mère"],
-          ["leur", "-leri", "<tur>anneleri</tur>", "leur mère"]
+          ["ben (je)", "-(ı/i/u/ü)m", "<tur>odam</tur>", "ma chambre"],
+          ["sen (tu)", "-(ı/i/u/ü)n", "<tur>odan</tur>", "ta chambre"],
+          ["o (il/elle)", "-(ı/i/u/ü)", "<tur>odası</tur>", "sa chambre"],
+          ["biz (nous)", "-(ı/i/u/ü)mız", "<tur>odamız</tur>", "notre chambre"],
+          ["siz (vous)", "-(ı/i/u/ü)nız", "<tur>odanız</tur>", "votre chambre"],
+          ["onlar (ils/elles)", "-(ı/i/u/ü)ları", "<tur>odaları</tur>", "leur chambre / leurs chambres"]
         ] },
+      { t: "p", text: "La voyelle du suffixe suit la dernière voyelle du mot : <b>a/ı → ı</b>, <b>e/i → i</b>, <b>o/u → u</b>, <b>ö/ü → ü</b>. Avec <tur>oda</tur>, la voyelle finale est <b>a</b> : on obtient donc <tur>odam</tur>, <tur>odan</tur>, <tur>odası</tur>, <tur>odamız</tur> et <tur>odanız</tur>." },
+      { t: "table", caption: "Choisir la voyelle de la terminaison", head: ["Dernière voyelle", "Voyelle", "Exemple"],
+        rows: [
+          ["a, ı", "ı", "<tur>kapı → kapım</tur> (ma porte)"],
+          ["e, i", "i", "<tur>ev → evim</tur> (ma maison)"],
+          ["o, u", "u", "<tur>okul → okulum</tur> (mon école)"],
+          ["ö, ü", "ü", "<tur>göz → gözüm</tur> (mon œil)"]
+        ] },
+      { t: "h", text: "Avec une voyelle finale : oda et araba" },
+      { t: "p", text: "Quand le mot se termine par une voyelle, les terminaisons des personnes 1, 2 et 3 se fixent ainsi : <tur>oda + m = odam</tur> (ma chambre), <tur>oda + n = odan</tur> (ta chambre), mais la 3e personne prend <b>-sı/-si/-su/-sü</b> : <tur>odası</tur> (sa chambre). Le <b>s</b> protège la rencontre entre deux voyelles." },
+      { t: "h", text: "Avec une consonne finale : zaman et kitap" },
+      { t: "p", text: "<tur>zaman</tur> (temps) se termine par une consonne : <tur>zamanım</tur> (mon temps), <tur>zamanın</tur> (ton temps), <tur>zamanı</tur> (son temps), <tur>zamanımız</tur> (notre temps), <tur>zamanınız</tur> (votre temps), <tur>zamanları</tur> (leur temps / leurs temps). Avec <tur>kitap</tur>, le <b>p</b> devient <b>b</b> devant une terminaison vocalique : <tur>kitabım</tur> (mon livre)." },
       { t: "ex", items: [
-        { tr: "Ali'nin arabası", fr: "la voiture d'Ali" },
-        { tr: "benim evim", fr: "ma maison" },
-        { tr: "öğretmenin kitapları", fr: "les livres de l'enseignant" }
+        { tr: "Odam çok küçük.", fr: "Ma chambre est très petite." },
+        { tr: "Zamanım yok.", fr: "Je n'ai pas le temps." },
+        { tr: "Ali'nin odası mavi.", fr: "La chambre d'Ali est bleue." },
+        { tr: "Ders çalışma zamanımız var.", fr: "Nous avons du temps pour étudier." },
+        { tr: "Benim kitabım nerede?", fr: "Où est mon livre ?" }
       ] },
-      { t: "note", kind: "warn", tag: "Tampons", text: "Après voyelle finale : la 3e personne prend le tampon <b>n</b> (<tur>araba<b>sı</b></tur> = sa voiture, <tur>oda<b>sı</b></tur> = sa chambre) ; les autres personnes se collent directement (<tur>araba<b>m</b></tur> = ma voiture, <tur>oda<b>n</b></tur> = ta chambre). Le tampon <b>y</b>, lui, sert à l'être et aux cas : <tur>odayım</tur> (je suis dans la chambre), <tur>odaya</tur> (vers la chambre)." }
+      { t: "note", kind: "warn", tag: "À retenir", text: "<tur>odam</tur> = ma chambre, <tur>odan</tur> = ta chambre, <tur>odası</tur> = sa chambre, <tur>odamız</tur> = notre chambre, <tur>odanız</tur> = votre chambre. Ne confonds pas <tur>odam</tur> (ma chambre) avec <tur>odayım</tur> (je suis dans la chambre)." }
     ]
   },
   {

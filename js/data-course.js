@@ -392,24 +392,31 @@ const COURSE = [
       "Demander « de qui ? c'est quoi ? »"
     ],
     blocks: [
-      { t: "p", text: "En français, la possession utilise des mots séparés (mon, ta, ses…). En turc, elle utilise des <b>suffixes</b> collés au nom possédé : et harmonisés bien sûr." },
-      { t: "table", caption: "Les suffixes possessifs", head: ["Personne", "Suffixe", "Exemple avec « anne » (mère)", "Traduction"],
+      { t: "p", text: "En français, la possession utilise des mots séparés (mon, ta, ses…). En turc, le nom possédé porte directement un suffixe : <tur>oda</tur> (chambre) devient <tur>odam</tur> (ma chambre). Le possesseur peut être ajouté au génitif : <tur>benim odam</tur> (ma chambre)." },
+      { t: "table", caption: "Les terminaisons de possession avec « oda »", head: ["Personne", "Terminaison", "Turc", "Français"],
         rows: [
-          ["1re sg (mon)", "-im", "<tur>annem</tur>", "ma mère"],
-          ["2e sg (ton)", "-in", "<tur>annen</tur>", "ta mère"],
-          ["3e sg (son)", "-i", "<tur>annesi</tur>", "sa mère"],
-          ["1re pl (notre)", "-imiz", "<tur>annemiz</tur>", "notre mère"],
-          ["2e pl (votre)", "-iniz", "<tur>anneniz</tur>", "votre mère"],
-          ["3e pl (leur)", "-leri", "<tur>anneleri</tur>", "leur mère"]
+          ["ben (je)", "-(ı/i/u/ü)m", "<tur>odam</tur>", "ma chambre"],
+          ["sen (tu)", "-(ı/i/u/ü)n", "<tur>odan</tur>", "ta chambre"],
+          ["o (il/elle)", "-(ı/i/u/ü)", "<tur>odası</tur>", "sa chambre"],
+          ["biz (nous)", "-(ı/i/u/ü)mız", "<tur>odamız</tur>", "notre chambre"],
+          ["siz (vous)", "-(ı/i/u/ü)nız", "<tur>odanız</tur>", "votre chambre"],
+          ["onlar (ils/elles)", "-(ı/i/u/ü)ları", "<tur>odaları</tur>", "leur chambre / leurs chambres"]
         ] },
-      { t: "note", kind: "warn", tag: "Tampon n", text: "Si le mot finit par une voyelle, un <b>n</b> tampon s'intercale pour la 3e personne : <tur>araba</tur> (voiture) → araba<b>sı</b> (sa voiture), <tur>oda</b> → oda<b>sı</b> (sa chambre). Pour les autres personnes on utilise y : araba<b>m</b>… non : araba + -m → araba<b>m</b> (ma voiture, direct), oda<b>m</b>. Retiens surtout le <b>-sı/-si</b> de la 3e personne, très fréquent." },
+      { t: "p", text: "La voyelle suit la dernière voyelle du mot : <b>a/ı → ı</b>, <b>e/i → i</b>, <b>o/u → u</b>, <b>ö/ü → ü</b>. Compare : <tur>kapım</tur> (ma porte), <tur>evim</tur> (ma maison), <tur>okulum</tur> (mon école), <tur>gözüm</tur> (mon œil)." },
+      { t: "table", caption: "Deux mots à comparer : oda et zaman", head: ["Mot", "Ma...", "Ta...", "Sa...", "Notre..."],
+        rows: [
+          ["<tur>oda</tur> (chambre)", "<tur>odam</tur>", "<tur>odan</tur>", "<tur>odası</tur>", "<tur>odamız</tur>"],
+          ["<tur>zaman</tur> (temps)", "<tur>zamanım</tur>", "<tur>zamanın</tur>", "<tur>zamanı</tur>", "<tur>zamanımız</tur>"]
+        ] },
+      { t: "h", text: "Le cas particulier de la 3e personne" },
+      { t: "p", text: "Après une voyelle finale, la 3e personne ajoute <b>s</b> : <tur>oda-sı</tur> (sa chambre), <tur>araba-sı</tur> (sa voiture). Après une consonne, il n'y a pas de s : <tur>zaman-ı</tur> (son temps), <tur>kitab-ı</tur> (son livre). Le <b>p</b> de <tur>kitap</tur> devient <b>b</b> devant cette terminaison vocalique." },
       { t: "h", text: "Présenter sa famille" },
       { t: "ex", items: [
-        { tr: "Ailem büyük.", fr: "Ma famille est grande." },
-        { tr: "İki kardeşim var.", fr: "J'ai deux frères et sœurs." },
+        { tr: "Odam çok küçük.", fr: "Ma chambre est très petite." },
+        { tr: "Zamanım yok.", fr: "Je n'ai pas le temps." },
         { tr: "Annem öğretmen, babam mühendis.", fr: "Ma mère est enseignante, mon père ingénieur." },
-        { tr: "Ablam İzmir'de yaşıyor.", fr: "Ma grande sœur habite à Izmir." },
-        { tr: "Bu kim? : Bu ablam.", fr: "C'est qui ? : C'est ma grande sœur." }
+        { tr: "Ali'nin odası mavi.", fr: "La chambre d'Ali est bleue." },
+        { tr: "Bu kim? Bu ablam.", fr: "C'est qui ? C'est ma grande sœur." }
       ] },
       { t: "p", text: "La Turquie distingue finement la famille : <tur>abla</tur> = grande sœur, <tur>abi</tur> = grand frère, <tur>kız kardeş</tur> = petite sœur, <tur>erkek kardeş</tur> = petit frère. Et « abla/abi » s'emploient aussi poliment pour des inconnus plus âgés !" },
       { t: "note", kind: "info", tag: "À noter", text: "Pour dire « le prénom DE ma mère », on utilise le génitif : <tur>annemin adı</tur> (annem-in ad-ı) = littéralement « de-ma-mère son-nom ». Deux suffixes qui s'enchaînent : la possession à la turque est <b>réfléchie</b> : le possédé porte aussi la marque de son possesseur." }
