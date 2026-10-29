@@ -320,6 +320,15 @@ html[data-theme="dark"] .nav-links a.active { background: var(--red); color: #ff
   transition: background .15s;
 }
 .side-item:hover { background: var(--bg-soft); }
+.side-link { text-decoration: none; }
+.side-colors { border: 1px solid var(--border); }
+.side-colors strong, .side-colors small { display: block; }
+.side-colors small { margin-top: 2px; color: var(--muted); font-size: .72rem; }
+.color-dots { display: inline-flex; gap: 3px; flex: 0 0 auto; }
+.color-dots i { width: 9px; height: 9px; border-radius: 50%; display: block; }
+.color-dots i:nth-child(1) { background: #d94b55; }
+.color-dots i:nth-child(2) { background: #e6b84a; }
+.color-dots i:nth-child(3) { background: #3c78c8; }
 .side-item.active { background: var(--ink); color: var(--bg); }
 html[data-theme="dark"] .side-item.active { background: var(--red); color: #fff; }
 .side-item .n {

@@ -19,6 +19,13 @@ document.addEventListener("DOMContentLoaded", () => {
 function renderSidebar() {
   const groups = { A1: [], A2: [], B1: [] };
   COURSE.forEach((m, i) => groups[m.level].push({ m, i }));
+  const lang = (document.documentElement.lang || "fr").split("-")[0];
+  const colorsCopy = {
+    fr: { group: "Cours thématiques", title: "Les couleurs en turc", meta: "Vocabulaire et mini-quiz" },
+    en: { group: "Thematic courses", title: "Colours in Turkish", meta: "Vocabulary and mini-quiz" },
+    ar: { group: "دروس موضوعية", title: "الألوان بالتركية", meta: "مفردات واختبار قصير" },
+    kk: { group: "Тақырыптық курстар", title: "Түрік тіліндегі түстер", meta: "Сөздік және шағын тест" }
+  }[lang] || { group: "Cours thématiques", title: "Les couleurs en turc", meta: "Vocabulaire et mini-quiz" };
   el("#course-side").innerHTML = ["A1", "A2", "B1"].map((lvl, part) => `
     <div class="side-group">${["Découverte", "Construction", "Expression"][part]}</div>
     ${groups[lvl].map(({ m, i }) => `
@@ -27,9 +34,14 @@ function renderSidebar() {
         <span>${m.title}</span>
         <svg class="ck" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
       </button>`).join("")}
-  `).join("");
+  `).join("") + `
+    <div class="side-group">${colorsCopy.group}</div>
+    <a class="side-item side-link side-colors" href="couleurs.html">
+      <span class="color-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><strong>${colorsCopy.title}</strong><small>${colorsCopy.meta}</small></span>
+    </a>`;
 
-  els("#course-side .side-item").forEach(btn => {
+  els("#course-side button.side-item").forEach(btn => {
     btn.addEventListener("click", () => {
       currentModule = +btn.dataset.idx;
       currentTab = "lecon";
